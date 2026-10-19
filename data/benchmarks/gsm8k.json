@@ -1,0 +1,17 @@
+{
+	"name": "GSM8K",
+	"config": {
+		"type": "ACCURACY",
+		"min_score": 0.0,
+		"max_score": 100.0
+	},
+	"results": {
+		"gpt-3": 9.0,
+		"gpt-3.5": 41.5,
+		"gpt-3.5-turbo": 57.8,
+		"gpt-4": 92.0,
+		"claude-3-opus": 95.0,
+		"claude-3.5-sonnet": 96.4,
+		"o1": 97.1
+	}
+}

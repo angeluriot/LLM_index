@@ -1,0 +1,26 @@
+{
+	"name": "MATH",
+	"config": {
+		"type": "ACCURACY",
+		"min_score": 0.0,
+		"max_score": 100.0
+	},
+	"results": {
+		"gpt-3.5-turbo": 44.1,
+		"gpt-4": 42.0,
+		"claude-3-opus": 64.1,
+		"gpt-4-turbo": 73.7,
+		"gpt-4o": 75.9,
+		"claude-3.5-sonnet": 77.1,
+		"o1-preview": 92.4,
+		"o1-mini": 94.4,
+		"o1": 97.0,
+		"deepseek-r1": 96.6,
+		"o3-mini": 98.5,
+		"claude-3.7-sonnet": 94.7,
+		"o3": 99.2,
+		"o4-mini": 98.9,
+		"claude-opus-4": 98.2,
+		"gpt-5": 99.4
+	}
+}

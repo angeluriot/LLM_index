@@ -1,0 +1,41 @@
+{
+	"name": "AIME",
+	"config": {
+		"type": "ACCURACY",
+		"min_score": 0.0,
+		"max_score": 100.0
+	},
+	"results": {
+		"gpt-4": 1.1,
+		"claude-3-opus": 4.7,
+		"gpt-4-turbo": 6.7,
+		"gpt-4o": 6.3,
+		"claude-3.5-sonnet": 6.5,
+		"o1-preview": 31.1,
+		"o1-mini": 46.9,
+		"o1": 73.3,
+		"deepseek-r1": 53.3,
+		"o3-mini": 76.9,
+		"claude-3.7-sonnet": 57.8,
+		"o3": 83.9,
+		"o4-mini": 81.7,
+		"claude-opus-4": 64.4,
+		"gpt-5": 91.4,
+		"gpt-5.1": 88.6,
+		"gemini-3-pro": 91.4,
+		"claude-opus-4.5": 86.1,
+		"gpt-5.2": 96.1,
+		"claude-sonnet-4.6": 85.8,
+		"gpt-5.4": 97.8,
+		"claude-opus-4.7": 97.8,
+		"gpt-5.5": 100.0,
+		"claude-opus-4.8": 98.3,
+		"claude-fable-5": 99.7,
+		"gpt-5.6-sol": 100.0,
+		"claude-opus-5": 98.9,
+		"claude-fable-5.1": 100.0,
+		"gpt-6-astra": 100.0,
+		"claude-opus-5.5": 100.0,
+		"gpt-6.1-sol": 100.0
+	}
+}

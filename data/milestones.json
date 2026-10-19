@@ -1,0 +1,70 @@
+{
+	"imo-gold": {
+		"name": "IMO gold",
+		"date_first": "2025-07-19",
+		"achievers": [
+			"gpt-5",
+			"claude-fable-5",
+			"gpt-5.6-sol",
+			"claude-opus-5"
+		],
+		"only_every_year": true
+	},
+	"solve-an-open-problem": {
+		"name": "Solve an open problem",
+		"date_first": "2025-12-25",
+		"achievers": [
+			"gpt-5.2",
+			"claude-sonnet-4.6",
+			"gpt-5.4",
+			"gpt-5.5",
+			"claude-opus-4.8",
+			"claude-fable-5",
+			"gpt-5.6-sol",
+			"claude-opus-5",
+			"claude-fable-5.1",
+			"gpt-6-astra",
+			"gpt-6.1-sol"
+		],
+		"only_every_year": false
+	},
+	"solve-dozens-of-open-problems": {
+		"date_first": "2026-04-09",
+		"name": "Solve dozens of open problems",
+		"achievers": [
+			"gpt-5.4",
+			"gpt-5.5",
+			"gpt-5.6-sol",
+			"gpt-6-astra"
+		],
+		"only_every_year": false
+	},
+	"solve-a-major-open-problem": {
+		"name": "Solve a major open problem",
+		"date_first": "2026-05-20",
+		"achievers": [
+			"claude-fable-5",
+			"gpt-5.6-sol",
+			"gpt-6-astra"
+		],
+		"only_every_year": false
+	},
+	"imo-perfect-score": {
+		"name": "IMO perfect score",
+		"date_first": "2026-07-16",
+		"achievers": [
+			"claude-fable-5",
+			"gpt-5.6-sol",
+			"claude-opus-5"
+		],
+		"only_every_year": true
+	},
+	"solve-dozens-of-major-open-problems": {
+		"name": "Solve dozens of major open problems",
+		"date_first": "2026-08-01",
+		"achievers": [
+			"gpt-6-astra"
+		],
+		"only_every_year": false
+	}
+}

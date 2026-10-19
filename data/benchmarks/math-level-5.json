@@ -1,0 +1,26 @@
+{
+	"name": "MATH Level 5",
+	"config": {
+		"type": "ACCURACY",
+		"min_score": 0.0,
+		"max_score": 100.0
+	},
+	"results": {
+		"gpt-3.5-turbo": 11.6,
+		"gpt-4": 23.0,
+		"claude-3-opus": 37.5,
+		"gpt-4-turbo": 46.7,
+		"gpt-4o": 51.0,
+		"claude-3.5-sonnet": 51.7,
+		"o1-preview": 81.6,
+		"o1-mini": 89.2,
+		"o1": 94.7,
+		"deepseek-r1": 93.1,
+		"o3-mini": 96.5,
+		"claude-3.7-sonnet": 91.2,
+		"o3": 97.8,
+		"o4-mini": 97.8,
+		"claude-opus-4": 85.0,
+		"gpt-5": 98.1
+	}
+}
