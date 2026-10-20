@@ -66,5 +66,21 @@
 			"gpt-6-astra"
 		],
 		"only_every_year": false
+	},
+	"solve-a-millennium-prize-problem": {
+		"name": "Solve a Millennium Prize Problem",
+		"date_first": "2026-09-08",
+		"achievers": [
+			"openai-internal-model"
+		],
+		"only_every_year": false
+	},
+	"solve-hundreds-of-major-open-problems": {
+		"name": "Solve hundreds of major open problems",
+		"date_first": "2026-10-06",
+		"achievers": [
+			"openai-internal-model"
+		],
+		"only_every_year": false
 	}
 }

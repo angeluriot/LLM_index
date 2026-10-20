@@ -243,5 +243,12 @@
 		"country": "United States",
 		"open_weights": false,
 		"release_date": "2026-09-29"
+	},
+	"openai-internal-model": {
+		"name": "OpenAI Internal Model",
+		"company": "OpenAI",
+		"country": "United States",
+		"open_weights": false,
+		"release_date": "2026-11-01"
 	}
 }
