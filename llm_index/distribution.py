@@ -3,6 +3,14 @@ from __future__ import annotations
 import torch
 
 
+def cumulative_normal(x: torch.Tensor, mean: torch.Tensor, std: torch.Tensor) -> torch.Tensor:
+	return torch.special.ndtr((x - mean) / std)
+
+
+def inverse_cumulative_normal(p: torch.Tensor, mean: torch.Tensor, std: torch.Tensor) -> torch.Tensor:
+	return mean + std * torch.special.ndtri(p)
+
+
 def split_normal(x: torch.Tensor, mode: torch.Tensor, std_low: torch.Tensor, std_high: torch.Tensor) -> torch.Tensor:
 	std = torch.where(x < mode, std_low, std_high)
 	return 2 / (std_low + std_high) * torch.exp(-0.5 * ((x - mode) / std) ** 2) / (2 * torch.pi) ** 0.5

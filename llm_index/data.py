@@ -8,7 +8,7 @@ from typing import Literal
 
 
 from llm_index.constants import DATA_DIR, ONLY_EVERY_YEAR_DELAY_DAYS
-from llm_index.utils import normalize, add_prefix
+from llm_index.utils import normalize
 
 
 @dataclass
@@ -59,7 +59,7 @@ class Benchmark:
 			else:
 				normalized_score = score
 
-			results.append((add_prefix('benchmark-', self.id), model_id, normalized_score))
+			results.append((self.id, model_id, normalized_score))
 
 		return results
 
@@ -85,7 +85,7 @@ class Milestone:
 			else:
 				continue
 
-			results.append((add_prefix('milestone-', self.id), model_id, normalized_score))
+			results.append((self.id, model_id, normalized_score))
 
 		return results
 
@@ -96,22 +96,21 @@ class Data:
 	benchmarks: dict[str, Benchmark] = field(default_factory=dict)
 	milestones: dict[str, Milestone] = field(default_factory=dict)
 
-	def get_normalized_results(self) -> list[tuple[str, str, float]]:
+	def get_benchmark_results(self) -> list[tuple[str, str, float]]:
 		results: list[tuple[str, str, float]] = []
 
 		for benchmark in self.benchmarks.values():
 			results.extend(benchmark.get_normalized_results())
 
+		return results
+
+	def get_milestone_results(self) -> list[tuple[str, str, float]]:
+		results: list[tuple[str, str, float]] = []
+
 		for milestone in self.milestones.values():
 			results.extend(milestone.get_normalized_results(self.models))
 
 		return results
-
-	def get_results_ids(self) -> tuple[list[str], list[str]]:
-		return (
-			[add_prefix('benchmark-', id) for id in self.benchmarks] + [add_prefix('milestone-', id) for id in self.milestones],
-			list(self.models.keys()),
-		)
 
 
 def load_config(raw: dict) -> BenchmarkAccuracyConfig | BenchmarkScoreConfig | BenchmarkEloConfig:
