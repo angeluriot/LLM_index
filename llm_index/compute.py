@@ -7,7 +7,7 @@ import torch
 from llm_index.data import Data
 from llm_index.distribution import inverse_cumulative_split_normal
 from llm_index.loss import apply_constraints, apply_exact_bottom_anchor, compute_loss
-from llm_index.constants import TOP_ANCHOR_MODEL, EPOCHS, LEARNING_RATE, DEVICE
+from llm_index.constants import TOP_ANCHOR_MODEL, EPOCHS, LEARNING_RATE, ADAM_BETA_1, ADAM_BETA_2, DEVICE
 
 
 @dataclass
@@ -159,12 +159,11 @@ def fit(data: Data, verbose: bool = True) -> Output:
 		benchmark_difficulty_high_stds_param,
 		milestone_difficulty_means_param,
 		milestone_difficulty_stds_param,
-	], lr=LEARNING_RATE)
+	], lr=LEARNING_RATE, betas=(ADAM_BETA_1, ADAM_BETA_2))
 
 	scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=EPOCHS, eta_min=0.0)
-	best_loss = float('inf')
 
-	for epoch in range(EPOCHS):
+	for epoch in range(1, EPOCHS + 1):
 		optimizer.zero_grad()
 
 		model_intelligences, \
@@ -203,31 +202,27 @@ def fit(data: Data, verbose: bool = True) -> Output:
 		optimizer.step()
 		scheduler.step()
 
-		if verbose and (epoch % 5_000 == 0 or epoch == EPOCHS - 1):
+		if verbose and (epoch == 1 or epoch % 500 == 0 or epoch == EPOCHS):
 			print(f'epoch {epoch:,} | loss = {loss.item():.7f}')
 
-		if loss.item() < best_loss:
-			best_loss = loss.item()
-			output = create_output(
-				anchor_model_index,
-				model_intelligences_param,
-				benchmark_difficulty_modes_param,
-				benchmark_difficulty_low_stds_param,
-				benchmark_difficulty_high_stds_param,
-				benchmark_has_score_below_half,
-				benchmark_has_score_above_half,
-				milestone_difficulty_means_param,
-				milestone_difficulty_stds_param,
-				benchmark_results_model_indices,
-				benchmark_results_benchmark_indices,
-				benchmark_results_scores,
-				milestone_results_model_indices,
-				milestone_results_milestone_indices,
-				milestone_results_scores,
-				model_id_to_index,
-				benchmark_id_to_index,
-				milestone_id_to_index,
-				data,
-			)
-
-	return output
+	return create_output(
+		anchor_model_index,
+		model_intelligences_param,
+		benchmark_difficulty_modes_param,
+		benchmark_difficulty_low_stds_param,
+		benchmark_difficulty_high_stds_param,
+		benchmark_has_score_below_half,
+		benchmark_has_score_above_half,
+		milestone_difficulty_means_param,
+		milestone_difficulty_stds_param,
+		benchmark_results_model_indices,
+		benchmark_results_benchmark_indices,
+		benchmark_results_scores,
+		milestone_results_model_indices,
+		milestone_results_milestone_indices,
+		milestone_results_scores,
+		model_id_to_index,
+		benchmark_id_to_index,
+		milestone_id_to_index,
+		data,
+	)
