@@ -6,6 +6,7 @@
 		"max_score": 100.0
 	},
 	"results": {
+		"gpt-2": 0.98,
 		"gpt-3.5-turbo": 11.6,
 		"gpt-4": 23.0,
 		"claude-3-opus": 37.5,

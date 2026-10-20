@@ -6,6 +6,7 @@
 		"max_score": 100.0
 	},
 	"results": {
+		"gpt-2": 0.68,
 		"gpt-3": 9.0,
 		"gpt-3.5": 41.5,
 		"gpt-3.5-turbo": 57.8,

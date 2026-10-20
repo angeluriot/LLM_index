@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import torch
 
-from llm_index.constants import BOTTOM_ANCHOR_BENCHMARK_SCORE, BOTTOM_ANCHOR_VALUE, MIN_STD, TOP_ANCHOR_VALUE
+from llm_index.constants import BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE, BOTTOM_ANCHOR_VALUE, MIN_STD, TOP_ANCHOR_VALUE
 from llm_index.distribution import cumulative_split_normal, inverse_cumulative_split_normal
 
 
@@ -16,7 +16,7 @@ def apply_constraints(
 	positive_low_stds_param = torch.nn.functional.softplus(benchmark_difficulty_low_stds_param)
 	positive_high_stds_param = torch.nn.functional.softplus(benchmark_difficulty_high_stds_param)
 
-	bottom_score = torch.tensor(BOTTOM_ANCHOR_BENCHMARK_SCORE)
+	bottom_score = torch.tensor(BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE)
 	bottom_std = torch.special.ndtri(bottom_score)
 	bottom_anchor = inverse_cumulative_split_normal(bottom_score, benchmark_difficulty_modes_param, positive_low_stds_param, positive_high_stds_param).min()
 	top_anchor = model_intelligences_param[anchor_model_index]
@@ -43,7 +43,7 @@ def apply_exact_bottom_anchor(
 	benchmark_difficulty_high_stds: torch.Tensor,
 ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
 	bottom_anchor = inverse_cumulative_split_normal(
-		torch.tensor(BOTTOM_ANCHOR_BENCHMARK_SCORE),
+		torch.tensor(BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE),
 		benchmark_difficulty_modes,
 		benchmark_difficulty_low_stds,
 		benchmark_difficulty_high_stds,

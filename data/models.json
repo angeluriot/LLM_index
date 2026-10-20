@@ -1,4 +1,11 @@
 {
+	"gpt-2": {
+		"name": "GPT-2",
+		"company": "OpenAI",
+		"country": "United States",
+		"open_weights": true,
+		"release_date": "2019-02-14"
+	},
 	"gpt-3": {
 		"name": "GPT-3",
 		"company": "OpenAI",
