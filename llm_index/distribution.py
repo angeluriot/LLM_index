@@ -39,7 +39,6 @@ def log_cumulative_split_normal(x: torch.Tensor, mode: torch.Tensor, std_low: to
 	total = std_low + std_high
 	is_low = x < mode
 
-	# Each branch is evaluated on its own side of the mode only, so the unused branch stays finite and has no gradient
 	log_p_low = torch.log(2 * std_low / total) + torch.special.log_ndtr((torch.minimum(x, mode) - mode) / std_low)
 	log_q_high = torch.log(2 * std_high / total) + torch.special.log_ndtr((mode - torch.maximum(x, mode)) / std_high)
 

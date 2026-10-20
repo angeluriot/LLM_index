@@ -12,7 +12,7 @@ def get_bottom_anchor(
 	benchmark_difficulty_high_stds: torch.Tensor,
 ) -> torch.Tensor:
 	return inverse_cumulative_split_normal(
-		torch.tensor(BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE),
+		torch.tensor(BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE, device=benchmark_difficulty_modes.device),
 		benchmark_difficulty_modes,
 		benchmark_difficulty_low_stds,
 		benchmark_difficulty_high_stds,
@@ -37,7 +37,7 @@ def apply_constraints(
 	positive_high_stds_param = torch.where(benchmark_has_score_above_half, positive_high_stds_param, positive_low_stds_param)
 	positive_low_stds_param = torch.where(benchmark_has_score_below_half, positive_low_stds_param, positive_high_stds_param)
 
-	bottom_std = torch.special.ndtri(torch.tensor(BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE))
+	bottom_std = torch.special.ndtri(torch.tensor(BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE, device=model_intelligences_param.device))
 	bottom_anchor = get_bottom_anchor(benchmark_difficulty_modes_param, positive_low_stds_param, positive_high_stds_param)
 	top_anchor = model_intelligences_param[anchor_model_index]
 

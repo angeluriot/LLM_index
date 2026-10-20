@@ -19,3 +19,6 @@ EXTREME_SCORE_THRESHOLD = 0.01
 # Optimization
 EPOCHS = 30_000
 LEARNING_RATE = 0.1
+
+# Device
+DEVICE = torch.device('cpu')

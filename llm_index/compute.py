@@ -7,7 +7,7 @@ import torch
 from llm_index.data import Data
 from llm_index.distribution import inverse_cumulative_split_normal
 from llm_index.loss import apply_constraints, apply_exact_bottom_anchor, compute_loss
-from llm_index.constants import TOP_ANCHOR_MODEL, EPOCHS, LEARNING_RATE
+from llm_index.constants import TOP_ANCHOR_MODEL, EPOCHS, LEARNING_RATE, DEVICE
 
 
 @dataclass
@@ -95,7 +95,7 @@ def create_output(
 	}
 
 	benchmark_difficulty_medians = inverse_cumulative_split_normal(
-		torch.tensor(0.5),
+		torch.tensor(0.5, device=benchmark_difficulty_modes.device),
 		benchmark_difficulty_modes,
 		benchmark_difficulty_low_stds,
 		benchmark_difficulty_high_stds,
@@ -132,25 +132,25 @@ def fit(data: Data, verbose: bool = True) -> Output:
 	milestone_id_to_index = {id: index for index, id in enumerate(data.milestones)}
 	anchor_model_index = model_id_to_index[TOP_ANCHOR_MODEL]
 
-	benchmark_results_benchmark_indices = torch.tensor([benchmark_id_to_index[benchmark] for benchmark, _, _ in benchmark_results], dtype=torch.long)
-	benchmark_results_model_indices = torch.tensor([model_id_to_index[model] for _, model, _ in benchmark_results], dtype=torch.long)
-	benchmark_results_scores = torch.tensor([score for _, _, score in benchmark_results], dtype=torch.float32)
+	benchmark_results_benchmark_indices = torch.tensor([benchmark_id_to_index[benchmark] for benchmark, _, _ in benchmark_results], dtype=torch.long, device=DEVICE)
+	benchmark_results_model_indices = torch.tensor([model_id_to_index[model] for _, model, _ in benchmark_results], dtype=torch.long, device=DEVICE)
+	benchmark_results_scores = torch.tensor([score for _, _, score in benchmark_results], dtype=torch.float32, device=DEVICE)
 
-	milestone_results_milestone_indices = torch.tensor([milestone_id_to_index[milestone] for milestone, _, _ in milestone_results], dtype=torch.long)
-	milestone_results_model_indices = torch.tensor([model_id_to_index[model] for _, model, _ in milestone_results], dtype=torch.long)
-	milestone_results_scores = torch.tensor([score for _, _, score in milestone_results], dtype=torch.float32)
+	milestone_results_milestone_indices = torch.tensor([milestone_id_to_index[milestone] for milestone, _, _ in milestone_results], dtype=torch.long, device=DEVICE)
+	milestone_results_model_indices = torch.tensor([model_id_to_index[model] for _, model, _ in milestone_results], dtype=torch.long, device=DEVICE)
+	milestone_results_scores = torch.tensor([score for _, _, score in milestone_results], dtype=torch.float32, device=DEVICE)
 
-	benchmark_has_score_below_half = torch.zeros(len(data.benchmarks), dtype=torch.bool)
+	benchmark_has_score_below_half = torch.zeros(len(data.benchmarks), dtype=torch.bool, device=DEVICE)
 	benchmark_has_score_below_half[benchmark_results_benchmark_indices[benchmark_results_scores < 0.5]] = True
-	benchmark_has_score_above_half = torch.zeros(len(data.benchmarks), dtype=torch.bool)
+	benchmark_has_score_above_half = torch.zeros(len(data.benchmarks), dtype=torch.bool, device=DEVICE)
 	benchmark_has_score_above_half[benchmark_results_benchmark_indices[benchmark_results_scores > 0.5]] = True
 
-	model_intelligences_param = torch.rand(len(data.models), requires_grad=True)
-	benchmark_difficulty_modes_param = torch.rand(len(data.benchmarks), requires_grad=True)
-	benchmark_difficulty_low_stds_param = torch.rand(len(data.benchmarks), requires_grad=True)
-	benchmark_difficulty_high_stds_param = torch.rand(len(data.benchmarks), requires_grad=True)
-	milestone_difficulty_means_param = torch.rand(len(data.milestones), requires_grad=True)
-	milestone_difficulty_stds_param = torch.rand(len(data.milestones), requires_grad=True)
+	model_intelligences_param = torch.rand(len(data.models), device=DEVICE, requires_grad=True)
+	benchmark_difficulty_modes_param = torch.rand(len(data.benchmarks), device=DEVICE, requires_grad=True)
+	benchmark_difficulty_low_stds_param = torch.rand(len(data.benchmarks), device=DEVICE, requires_grad=True)
+	benchmark_difficulty_high_stds_param = torch.rand(len(data.benchmarks), device=DEVICE, requires_grad=True)
+	milestone_difficulty_means_param = torch.rand(len(data.milestones), device=DEVICE, requires_grad=True)
+	milestone_difficulty_stds_param = torch.rand(len(data.milestones), device=DEVICE, requires_grad=True)
 
 	optimizer = torch.optim.Adam([
 		model_intelligences_param,
