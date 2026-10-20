@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import torch
 
-from llm_index.constants import BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE, BOTTOM_ANCHOR_VALUE, MIN_STD, TOP_ANCHOR_VALUE
+from llm_index.constants import BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE, BOTTOM_ANCHOR_VALUE, EXTREME_SCORE_THRESHOLD, MIN_STD, TOP_ANCHOR_VALUE
 from llm_index.distribution import cumulative_split_normal, inverse_cumulative_split_normal
 
 
@@ -81,4 +81,7 @@ def compute_loss(
 
 	predictions = cumulative_split_normal(r_model_intelligences, r_difficulty_modes, r_difficulty_low_stds, r_difficulty_high_stds)
 
-	return torch.mean((predictions - results_scores) ** 2)
+	lower_bounds = torch.where(results_scores <= EXTREME_SCORE_THRESHOLD, 0.0, results_scores.clamp(max=1 - EXTREME_SCORE_THRESHOLD))
+	upper_bounds = torch.where(results_scores >= 1 - EXTREME_SCORE_THRESHOLD, 1.0, results_scores.clamp(min=EXTREME_SCORE_THRESHOLD))
+
+	return torch.mean((predictions - predictions.clamp(lower_bounds, upper_bounds)) ** 2)
