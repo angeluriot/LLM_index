@@ -9,7 +9,6 @@ DATA_DIR = Path(__file__).resolve().parent.parent / 'data'
 ONLY_EVERY_YEAR_DELAY_DAYS = 30 * 6
 
 # Constraints
-BOTTOM_ANCHOR_BENCHMARK_RATIO = 0.2
 BOTTOM_ANCHOR_BENCHMARK_SCORE = 0.05
 BOTTOM_ANCHOR_VALUE = 0.0
 TOP_ANCHOR_MODEL = 'gpt-5'

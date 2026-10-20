@@ -6,7 +6,8 @@ from datetime import date
 import torch
 
 from llm_index.data import Data
-from llm_index.loss import apply_constraints, compute_loss
+from llm_index.distribution import inverse_cumulative_split_normal
+from llm_index.loss import apply_constraints, apply_exact_bottom_anchor, compute_loss
 from llm_index.constants import TOP_ANCHOR_MODEL, EPOCHS, LEARNING_RATE
 from llm_index.utils import has_prefix, remove_prefix
 
@@ -14,8 +15,9 @@ from llm_index.utils import has_prefix, remove_prefix
 @dataclass
 class Output:
 	model_intelligences: dict[str, float] = field(default_factory=dict)
-	benchmark_difficulty_means: dict[str, float] = field(default_factory=dict)
-	benchmark_difficulty_stds: dict[str, float] = field(default_factory=dict)
+	benchmark_difficulty_modes: dict[str, float] = field(default_factory=dict)
+	benchmark_difficulty_low_stds: dict[str, float] = field(default_factory=dict)
+	benchmark_difficulty_high_stds: dict[str, float] = field(default_factory=dict)
 	milestone_difficulties: dict[str, float] = field(default_factory=dict)
 	loss: float = 0.0
 
@@ -23,8 +25,9 @@ class Output:
 def create_output(
 	anchor_model_index: int,
 	model_intelligences_param: torch.Tensor,
-	benchmark_difficulty_means_param: torch.Tensor,
-	benchmark_difficulty_stds_param: torch.Tensor,
+	benchmark_difficulty_modes_param: torch.Tensor,
+	benchmark_difficulty_low_stds_param: torch.Tensor,
+	benchmark_difficulty_high_stds_param: torch.Tensor,
 	results_model_indices: torch.Tensor,
 	results_benchmark_indices: torch.Tensor,
 	results_scores: torch.Tensor,
@@ -34,18 +37,31 @@ def create_output(
 ) -> Output:
 	with torch.no_grad():
 		model_intelligences, \
-		benchmark_difficulty_means, \
-		benchmark_difficulty_stds = apply_constraints(
+		benchmark_difficulty_modes, \
+		benchmark_difficulty_low_stds, \
+		benchmark_difficulty_high_stds = apply_constraints(
 			anchor_model_index,
 			model_intelligences_param,
-			benchmark_difficulty_means_param,
-			benchmark_difficulty_stds_param,
+			benchmark_difficulty_modes_param,
+			benchmark_difficulty_low_stds_param,
+			benchmark_difficulty_high_stds_param,
+		)
+
+		model_intelligences, \
+		benchmark_difficulty_modes, \
+		benchmark_difficulty_low_stds, \
+		benchmark_difficulty_high_stds = apply_exact_bottom_anchor(
+			model_intelligences,
+			benchmark_difficulty_modes,
+			benchmark_difficulty_low_stds,
+			benchmark_difficulty_high_stds,
 		)
 
 		loss = compute_loss(
 			model_intelligences,
-			benchmark_difficulty_means,
-			benchmark_difficulty_stds,
+			benchmark_difficulty_modes,
+			benchmark_difficulty_low_stds,
+			benchmark_difficulty_high_stds,
 			results_model_indices,
 			results_benchmark_indices,
 			results_scores,
@@ -56,20 +72,25 @@ def create_output(
 		for id, index in sorted(model_id_to_index.items(), key=lambda item: data.models[item[0]].release_date)
 	}
 
-	output_benchmark_difficulty_means = {
-		remove_prefix('benchmark-', id): benchmark_difficulty_means[index].item()
-		for id, index in sorted(benchmark_id_to_index.items(), key=lambda item: benchmark_difficulty_means[item[1]].item())
-		if has_prefix('benchmark-', id)
-	}
+	benchmark_difficulty_medians = inverse_cumulative_split_normal(
+		torch.tensor(0.5),
+		benchmark_difficulty_modes,
+		benchmark_difficulty_low_stds,
+		benchmark_difficulty_high_stds,
+	)
 
-	output_benchmark_difficulty_stds = {
-		remove_prefix('benchmark-', id): benchmark_difficulty_stds[index].item()
-		for id, index in sorted(benchmark_id_to_index.items(), key=lambda item: benchmark_difficulty_means[item[1]].item())
+	sorted_benchmark_ids = [
+		(id, index)
+		for id, index in sorted(benchmark_id_to_index.items(), key=lambda item: benchmark_difficulty_medians[item[1]].item())
 		if has_prefix('benchmark-', id)
-	}
+	]
+
+	output_benchmark_difficulty_modes = {remove_prefix('benchmark-', id): benchmark_difficulty_modes[index].item() for id, index in sorted_benchmark_ids}
+	output_benchmark_difficulty_low_stds = {remove_prefix('benchmark-', id): benchmark_difficulty_low_stds[index].item() for id, index in sorted_benchmark_ids}
+	output_benchmark_difficulty_high_stds = {remove_prefix('benchmark-', id): benchmark_difficulty_high_stds[index].item() for id, index in sorted_benchmark_ids}
 
 	output_milestone_difficulties = {
-		remove_prefix('milestone-', id): benchmark_difficulty_means[index].item()
+		remove_prefix('milestone-', id): benchmark_difficulty_medians[index].item()
 		for id, index in sorted(
 			benchmark_id_to_index.items(),
 			key=lambda item: data.milestones[remove_prefix('milestone-', item[0])].date_first \
@@ -81,8 +102,9 @@ def create_output(
 
 	return Output(
 		model_intelligences=output_model_intelligences,
-		benchmark_difficulty_means=output_benchmark_difficulty_means,
-		benchmark_difficulty_stds=output_benchmark_difficulty_stds,
+		benchmark_difficulty_modes=output_benchmark_difficulty_modes,
+		benchmark_difficulty_low_stds=output_benchmark_difficulty_low_stds,
+		benchmark_difficulty_high_stds=output_benchmark_difficulty_high_stds,
 		milestone_difficulties=output_milestone_difficulties,
 		loss=loss.item(),
 	)
@@ -101,13 +123,15 @@ def fit(data: Data, verbose: bool = True) -> Output:
 	results_scores = torch.tensor([score for _, _, score in results], dtype=torch.float32)
 
 	model_intelligences_param = torch.rand(len(model_ids), requires_grad=True)
-	benchmark_difficulty_means_param = torch.rand(len(benchmark_ids), requires_grad=True)
-	benchmark_difficulty_stds_param = torch.rand(len(benchmark_ids), requires_grad=True)
+	benchmark_difficulty_modes_param = torch.rand(len(benchmark_ids), requires_grad=True)
+	benchmark_difficulty_low_stds_param = torch.rand(len(benchmark_ids), requires_grad=True)
+	benchmark_difficulty_high_stds_param = torch.rand(len(benchmark_ids), requires_grad=True)
 
 	optimizer = torch.optim.Adam([
 		model_intelligences_param,
-		benchmark_difficulty_means_param,
-		benchmark_difficulty_stds_param,
+		benchmark_difficulty_modes_param,
+		benchmark_difficulty_low_stds_param,
+		benchmark_difficulty_high_stds_param,
 	], lr=LEARNING_RATE)
 
 	scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=EPOCHS, eta_min=0.0)
@@ -117,18 +141,21 @@ def fit(data: Data, verbose: bool = True) -> Output:
 		optimizer.zero_grad()
 
 		model_intelligences, \
-		benchmark_difficulty_means, \
-		benchmark_difficulty_stds = apply_constraints(
+		benchmark_difficulty_modes, \
+		benchmark_difficulty_low_stds, \
+		benchmark_difficulty_high_stds = apply_constraints(
 			anchor_model_index,
 			model_intelligences_param,
-			benchmark_difficulty_means_param,
-			benchmark_difficulty_stds_param,
+			benchmark_difficulty_modes_param,
+			benchmark_difficulty_low_stds_param,
+			benchmark_difficulty_high_stds_param,
 		)
 
 		loss = compute_loss(
 			model_intelligences,
-			benchmark_difficulty_means,
-			benchmark_difficulty_stds,
+			benchmark_difficulty_modes,
+			benchmark_difficulty_low_stds,
+			benchmark_difficulty_high_stds,
 			results_model_indices,
 			results_benchmark_indices,
 			results_scores,
@@ -146,8 +173,9 @@ def fit(data: Data, verbose: bool = True) -> Output:
 			output = create_output(
 				anchor_model_index,
 				model_intelligences_param,
-				benchmark_difficulty_means_param,
-				benchmark_difficulty_stds_param,
+				benchmark_difficulty_modes_param,
+				benchmark_difficulty_low_stds_param,
+				benchmark_difficulty_high_stds_param,
 				results_model_indices,
 				results_benchmark_indices,
 				results_scores,
