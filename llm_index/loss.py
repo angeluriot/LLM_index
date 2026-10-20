@@ -3,7 +3,7 @@ from __future__ import annotations
 import torch
 
 from llm_index.constants import BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE, BOTTOM_ANCHOR_VALUE, EXTREME_SCORE_THRESHOLD, MIN_STD, TOP_ANCHOR_VALUE
-from llm_index.distribution import cumulative_normal, cumulative_split_normal, inverse_cumulative_split_normal
+from llm_index.distribution import inverse_cumulative_split_normal, log_cumulative_normal, log_cumulative_split_normal
 
 
 def get_bottom_anchor(
@@ -103,23 +103,34 @@ def compute_loss(
 	milestone_results_milestone_indices: torch.Tensor,
 	milestone_results_scores: torch.Tensor,
 ) -> torch.Tensor:
-	benchmark_predictions = cumulative_split_normal(
+	benchmark_log_predictions, benchmark_log_complements = log_cumulative_split_normal(
 		model_intelligences[benchmark_results_model_indices],
 		benchmark_difficulty_modes[benchmark_results_benchmark_indices],
 		benchmark_difficulty_low_stds[benchmark_results_benchmark_indices],
 		benchmark_difficulty_high_stds[benchmark_results_benchmark_indices],
 	)
 
-	milestone_predictions = cumulative_normal(
+	milestone_log_predictions, milestone_log_complements = log_cumulative_normal(
 		model_intelligences[milestone_results_model_indices],
 		milestone_difficulty_means[milestone_results_milestone_indices],
 		milestone_difficulty_stds[milestone_results_milestone_indices],
 	)
 
-	predictions = torch.cat([benchmark_predictions, milestone_predictions])
+	log_predictions = torch.cat([benchmark_log_predictions, milestone_log_predictions])
+	log_complements = torch.cat([benchmark_log_complements, milestone_log_complements])
 	scores = torch.cat([benchmark_results_scores, milestone_results_scores])
 
 	lower_bounds = torch.where(scores <= EXTREME_SCORE_THRESHOLD, 0.0, scores.clamp(max=1 - EXTREME_SCORE_THRESHOLD))
 	upper_bounds = torch.where(scores >= 1 - EXTREME_SCORE_THRESHOLD, 1.0, scores.clamp(min=EXTREME_SCORE_THRESHOLD))
 
-	return torch.mean((predictions - predictions.clamp(lower_bounds, upper_bounds)) ** 2)
+	# Bernoulli KL divergence from the closest admissible score to the prediction, computed in log space so that
+	# the gradient stays proportional to the distance (in stds) instead of vanishing in the tails of the CDF
+	predictions = torch.exp(log_predictions).detach()
+	targets = predictions.clamp(lower_bounds, upper_bounds)
+	divergences = (
+		torch.special.xlogy(targets, targets) - targets * log_predictions
+		+ torch.special.xlogy(1 - targets, 1 - targets) - (1 - targets) * log_complements
+	)
+	is_admissible = (predictions >= lower_bounds) & (predictions <= upper_bounds)
+
+	return torch.mean(torch.where(is_admissible, 0.0, divergences))
