@@ -28,6 +28,8 @@ def create_output(
 	benchmark_difficulty_modes_param: torch.Tensor,
 	benchmark_difficulty_low_stds_param: torch.Tensor,
 	benchmark_difficulty_high_stds_param: torch.Tensor,
+	benchmark_has_score_below_half: torch.Tensor,
+	benchmark_has_score_above_half: torch.Tensor,
 	results_model_indices: torch.Tensor,
 	results_benchmark_indices: torch.Tensor,
 	results_scores: torch.Tensor,
@@ -45,6 +47,8 @@ def create_output(
 			benchmark_difficulty_modes_param,
 			benchmark_difficulty_low_stds_param,
 			benchmark_difficulty_high_stds_param,
+			benchmark_has_score_below_half,
+			benchmark_has_score_above_half,
 		)
 
 		model_intelligences, \
@@ -122,6 +126,11 @@ def fit(data: Data, verbose: bool = True) -> Output:
 	results_model_indices = torch.tensor([model_id_to_index[model] for _, model, _ in results], dtype=torch.long)
 	results_scores = torch.tensor([score for _, _, score in results], dtype=torch.float32)
 
+	benchmark_has_score_below_half = torch.zeros(len(benchmark_ids), dtype=torch.bool)
+	benchmark_has_score_below_half[results_benchmark_indices[results_scores < 0.5]] = True
+	benchmark_has_score_above_half = torch.zeros(len(benchmark_ids), dtype=torch.bool)
+	benchmark_has_score_above_half[results_benchmark_indices[results_scores > 0.5]] = True
+
 	model_intelligences_param = torch.rand(len(model_ids), requires_grad=True)
 	benchmark_difficulty_modes_param = torch.rand(len(benchmark_ids), requires_grad=True)
 	benchmark_difficulty_low_stds_param = torch.rand(len(benchmark_ids), requires_grad=True)
@@ -149,6 +158,8 @@ def fit(data: Data, verbose: bool = True) -> Output:
 			benchmark_difficulty_modes_param,
 			benchmark_difficulty_low_stds_param,
 			benchmark_difficulty_high_stds_param,
+			benchmark_has_score_below_half,
+			benchmark_has_score_above_half,
 		)
 
 		loss = compute_loss(
@@ -176,6 +187,8 @@ def fit(data: Data, verbose: bool = True) -> Output:
 				benchmark_difficulty_modes_param,
 				benchmark_difficulty_low_stds_param,
 				benchmark_difficulty_high_stds_param,
+				benchmark_has_score_below_half,
+				benchmark_has_score_above_half,
 				results_model_indices,
 				results_benchmark_indices,
 				results_scores,

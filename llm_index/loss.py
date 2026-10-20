@@ -12,9 +12,14 @@ def apply_constraints(
 	benchmark_difficulty_modes_param: torch.Tensor,
 	benchmark_difficulty_low_stds_param: torch.Tensor,
 	benchmark_difficulty_high_stds_param: torch.Tensor,
+	benchmark_has_score_below_half: torch.Tensor,
+	benchmark_has_score_above_half: torch.Tensor,
 ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
 	positive_low_stds_param = torch.nn.functional.softplus(benchmark_difficulty_low_stds_param)
 	positive_high_stds_param = torch.nn.functional.softplus(benchmark_difficulty_high_stds_param)
+
+	positive_high_stds_param = torch.where(benchmark_has_score_above_half, positive_high_stds_param, positive_low_stds_param)
+	positive_low_stds_param = torch.where(benchmark_has_score_below_half, positive_low_stds_param, positive_high_stds_param)
 
 	bottom_score = torch.tensor(BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE)
 	bottom_std = torch.special.ndtri(bottom_score)
