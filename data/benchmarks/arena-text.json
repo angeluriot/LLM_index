@@ -1,0 +1,42 @@
+{
+	"name": "Arena Text",
+	"config": {
+		"type": "ELO",
+		"base": 10.0,
+		"scale": 400.0
+	},
+	"results": {
+		"gpt-3.5-turbo": 1204.4,
+		"gpt-4": 1288.0,
+		"claude-3-opus": 1322.3,
+		"gpt-4-turbo": 1324.6,
+		"gpt-4o": 1346.2,
+		"claude-3.5-sonnet": 1343.3,
+		"o1-preview": 1388.6,
+		"o1-mini": 1336.9,
+		"o1": 1402.3,
+		"deepseek-r1": 1398.1,
+		"o3-mini": 1363.6,
+		"claude-3.7-sonnet": 1388.4,
+		"o3": 1431.8,
+		"o4-mini": 1391.1,
+		"claude-opus-4": 1426.3,
+		"gpt-5": 1434.8,
+		"gpt-5.1": 1455.8,
+		"gemini-3-pro": 1485.5,
+		"claude-opus-4.5": 1473.7,
+		"gpt-5.2": 1437.2,
+		"claude-sonnet-4.6": 1472.0,
+		"gpt-5.4": 1475.2,
+		"claude-opus-4.7": 1501.0,
+		"gpt-5.5": 1481.5,
+		"claude-opus-4.8": 1481.3,
+		"claude-fable-5": 1503.7,
+		"gpt-5.6-sol": 1484.5,
+		"claude-opus-5": 1491.1,
+		"claude-fable-5.1": 1502.6,
+		"gpt-6-astra": 1475.5,
+		"claude-opus-5.5": 1508.8,
+		"gpt-6.1-sol": 1479.4
+	}
+}

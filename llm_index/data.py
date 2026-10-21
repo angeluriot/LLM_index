@@ -40,6 +40,8 @@ class BenchmarkScoreConfig:
 
 @dataclass
 class BenchmarkEloConfig:
+	base: float
+	scale: float
 	type: Literal[BenchmarkType.ELO] = BenchmarkType.ELO
 
 
@@ -60,6 +62,20 @@ class Benchmark:
 				normalized_score = score
 
 			results.append((self.id, model_id, normalized_score))
+
+		return results
+
+	def get_normalized_pair_results(self) -> list[tuple[str, str, str, float, float]]:
+		results: list[tuple[str, str, str, float, float]] = []
+		model_ids = list(self.results)
+
+		# The pairs are weighted so that the whole benchmark weighs n - 1 results, its number of degrees of freedom (an Elo is only defined up to a shift)
+		weight = 2 / len(model_ids)
+
+		for index, model_id in enumerate(model_ids):
+			for opponent_id in model_ids[index + 1:]:
+				win_probability = 1 / (1 + self.config.base ** ((self.results[opponent_id] - self.results[model_id]) / self.config.scale))
+				results.append((self.id, model_id, opponent_id, win_probability, weight))
 
 		return results
 
@@ -100,7 +116,17 @@ class Data:
 		results: list[tuple[str, str, float]] = []
 
 		for benchmark in self.benchmarks.values():
-			results.extend(benchmark.get_normalized_results())
+			if benchmark.config.type != BenchmarkType.ELO:
+				results.extend(benchmark.get_normalized_results())
+
+		return results
+
+	def get_elo_results(self) -> list[tuple[str, str, str, float, float]]:
+		results: list[tuple[str, str, str, float, float]] = []
+
+		for benchmark in self.benchmarks.values():
+			if benchmark.config.type == BenchmarkType.ELO:
+				results.extend(benchmark.get_normalized_pair_results())
 
 		return results
 
@@ -122,7 +148,7 @@ def load_config(raw: dict) -> BenchmarkAccuracyConfig | BenchmarkScoreConfig | B
 	if benchmark_type == BenchmarkType.SCORE:
 		return BenchmarkScoreConfig()
 
-	return BenchmarkEloConfig()
+	return BenchmarkEloConfig(base=raw['base'], scale=raw['scale'])
 
 
 def load_data() -> Data:
