@@ -16,8 +16,7 @@ class Output:
 	benchmark_difficulty_modes: dict[str, float] = field(default_factory=dict)
 	benchmark_difficulty_low_stds: dict[str, float] = field(default_factory=dict)
 	benchmark_difficulty_high_stds: dict[str, float] = field(default_factory=dict)
-	milestone_difficulty_means: dict[str, float] = field(default_factory=dict)
-	milestone_difficulty_stds: dict[str, float] = field(default_factory=dict)
+	milestone_difficulties: dict[str, float] = field(default_factory=dict)
 	loss: float = 0.0
 
 
@@ -29,8 +28,7 @@ def create_output(
 	benchmark_difficulty_high_stds_param: torch.Tensor,
 	benchmark_has_score_below_half: torch.Tensor,
 	benchmark_has_score_above_half: torch.Tensor,
-	milestone_difficulty_means_param: torch.Tensor,
-	milestone_difficulty_stds_param: torch.Tensor,
+	milestone_difficulties_param: torch.Tensor,
 	benchmark_results_model_indices: torch.Tensor,
 	benchmark_results_benchmark_indices: torch.Tensor,
 	benchmark_results_scores: torch.Tensor,
@@ -47,8 +45,7 @@ def create_output(
 		benchmark_difficulty_modes, \
 		benchmark_difficulty_low_stds, \
 		benchmark_difficulty_high_stds, \
-		milestone_difficulty_means, \
-		milestone_difficulty_stds = apply_constraints(
+		milestone_difficulties = apply_constraints(
 			anchor_model_index,
 			model_intelligences_param,
 			benchmark_difficulty_modes_param,
@@ -56,22 +53,19 @@ def create_output(
 			benchmark_difficulty_high_stds_param,
 			benchmark_has_score_below_half,
 			benchmark_has_score_above_half,
-			milestone_difficulty_means_param,
-			milestone_difficulty_stds_param,
+			milestone_difficulties_param,
 		)
 
 		model_intelligences, \
 		benchmark_difficulty_modes, \
 		benchmark_difficulty_low_stds, \
 		benchmark_difficulty_high_stds, \
-		milestone_difficulty_means, \
-		milestone_difficulty_stds = apply_exact_bottom_anchor(
+		milestone_difficulties = apply_exact_bottom_anchor(
 			model_intelligences,
 			benchmark_difficulty_modes,
 			benchmark_difficulty_low_stds,
 			benchmark_difficulty_high_stds,
-			milestone_difficulty_means,
-			milestone_difficulty_stds,
+			milestone_difficulties,
 		)
 
 		loss = compute_loss(
@@ -79,8 +73,7 @@ def create_output(
 			benchmark_difficulty_modes,
 			benchmark_difficulty_low_stds,
 			benchmark_difficulty_high_stds,
-			milestone_difficulty_means,
-			milestone_difficulty_stds,
+			milestone_difficulties,
 			benchmark_results_model_indices,
 			benchmark_results_benchmark_indices,
 			benchmark_results_scores,
@@ -109,16 +102,14 @@ def create_output(
 
 	sorted_milestone_ids = sorted(milestone_id_to_index.items(), key=lambda item: data.milestones[item[0]].date_first)
 
-	output_milestone_difficulty_means = {id: milestone_difficulty_means[index].item() for id, index in sorted_milestone_ids}
-	output_milestone_difficulty_stds = {id: milestone_difficulty_stds[index].item() for id, index in sorted_milestone_ids}
+	output_milestone_difficulties = {id: milestone_difficulties[index].item() for id, index in sorted_milestone_ids}
 
 	return Output(
 		model_intelligences=output_model_intelligences,
 		benchmark_difficulty_modes=output_benchmark_difficulty_modes,
 		benchmark_difficulty_low_stds=output_benchmark_difficulty_low_stds,
 		benchmark_difficulty_high_stds=output_benchmark_difficulty_high_stds,
-		milestone_difficulty_means=output_milestone_difficulty_means,
-		milestone_difficulty_stds=output_milestone_difficulty_stds,
+		milestone_difficulties=output_milestone_difficulties,
 		loss=loss.item(),
 	)
 
@@ -149,16 +140,14 @@ def fit(data: Data, verbose: bool = True) -> Output:
 	benchmark_difficulty_modes_param = torch.rand(len(data.benchmarks), device=DEVICE, requires_grad=True)
 	benchmark_difficulty_low_stds_param = torch.rand(len(data.benchmarks), device=DEVICE, requires_grad=True)
 	benchmark_difficulty_high_stds_param = torch.rand(len(data.benchmarks), device=DEVICE, requires_grad=True)
-	milestone_difficulty_means_param = torch.rand(len(data.milestones), device=DEVICE, requires_grad=True)
-	milestone_difficulty_stds_param = torch.rand(len(data.milestones), device=DEVICE, requires_grad=True)
+	milestone_difficulties_param = torch.rand(len(data.milestones), device=DEVICE, requires_grad=True)
 
 	optimizer = torch.optim.Adam([
 		model_intelligences_param,
 		benchmark_difficulty_modes_param,
 		benchmark_difficulty_low_stds_param,
 		benchmark_difficulty_high_stds_param,
-		milestone_difficulty_means_param,
-		milestone_difficulty_stds_param,
+		milestone_difficulties_param,
 	], lr=LEARNING_RATE, betas=(ADAM_BETA_1, ADAM_BETA_2))
 
 	scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=EPOCHS, eta_min=0.0)
@@ -170,8 +159,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 		benchmark_difficulty_modes, \
 		benchmark_difficulty_low_stds, \
 		benchmark_difficulty_high_stds, \
-		milestone_difficulty_means, \
-		milestone_difficulty_stds = apply_constraints(
+		milestone_difficulties = apply_constraints(
 			anchor_model_index,
 			model_intelligences_param,
 			benchmark_difficulty_modes_param,
@@ -179,8 +167,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 			benchmark_difficulty_high_stds_param,
 			benchmark_has_score_below_half,
 			benchmark_has_score_above_half,
-			milestone_difficulty_means_param,
-			milestone_difficulty_stds_param,
+			milestone_difficulties_param,
 		)
 
 		loss = compute_loss(
@@ -188,8 +175,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 			benchmark_difficulty_modes,
 			benchmark_difficulty_low_stds,
 			benchmark_difficulty_high_stds,
-			milestone_difficulty_means,
-			milestone_difficulty_stds,
+			milestone_difficulties,
 			benchmark_results_model_indices,
 			benchmark_results_benchmark_indices,
 			benchmark_results_scores,
@@ -213,8 +199,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 		benchmark_difficulty_high_stds_param,
 		benchmark_has_score_below_half,
 		benchmark_has_score_above_half,
-		milestone_difficulty_means_param,
-		milestone_difficulty_stds_param,
+		milestone_difficulties_param,
 		benchmark_results_model_indices,
 		benchmark_results_benchmark_indices,
 		benchmark_results_scores,
