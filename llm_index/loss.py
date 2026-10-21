@@ -62,7 +62,7 @@ def apply_constraints(
 	milestone_difficulty_means += shift
 
 	return (
-		model_intelligences,
+		torch.nn.functional.softplus(model_intelligences),
 		benchmark_difficulty_modes,
 		benchmark_difficulty_low_stds,
 		benchmark_difficulty_high_stds,
@@ -85,7 +85,7 @@ def apply_exact_bottom_anchor(
 	shift = TOP_ANCHOR_VALUE * (1 - scale)
 
 	return (
-		torch.abs(model_intelligences * scale + shift),
+		torch.nn.functional.softplus(model_intelligences * scale + shift),
 		benchmark_difficulty_modes * scale + shift,
 		benchmark_difficulty_low_stds * scale,
 		benchmark_difficulty_high_stds * scale,
