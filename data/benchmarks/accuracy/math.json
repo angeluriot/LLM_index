@@ -19,6 +19,10 @@
 		"o3": 99.2,
 		"o4-mini": 98.9,
 		"claude-opus-4": 98.2,
-		"gpt-5": 99.4
+		"gpt-5": 99.4,
+
+		"university-students": 72.5,
+		"usamo-participants": 90.0,
+		"imo-gold-medalists": 90.0
 	}
 }

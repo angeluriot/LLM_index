@@ -6,8 +6,12 @@
 			"gpt-5",
 			"claude-fable-5",
 			"gpt-5.6-sol",
-			"claude-opus-5"
+			"claude-opus-5",
+
+			"imo-gold-medalists",
+			"humanity"
 		],
+		"failures": [],
 		"only_every_year": true
 	},
 	"solve-an-open-problem": {
@@ -24,8 +28,12 @@
 			"claude-opus-5",
 			"claude-fable-5.1",
 			"gpt-6-astra",
-			"gpt-6.1-sol"
+			"gpt-6.1-sol",
+
+			"phds",
+			"humanity"
 		],
+		"failures": [],
 		"only_every_year": false
 	},
 	"solve-dozens-of-open-problems": {
@@ -35,8 +43,12 @@
 			"gpt-5.4",
 			"gpt-5.5",
 			"gpt-5.6-sol",
-			"gpt-6-astra"
+			"gpt-6-astra",
+
+			"phds",
+			"humanity"
 		],
+		"failures": [],
 		"only_every_year": false
 	},
 	"solve-a-major-open-problem": {
@@ -45,8 +57,11 @@
 		"achievers": [
 			"claude-fable-5",
 			"gpt-5.6-sol",
-			"gpt-6-astra"
+			"gpt-6-astra",
+
+			"humanity"
 		],
+		"failures": [],
 		"only_every_year": false
 	},
 	"imo-perfect-score": {
@@ -55,32 +70,44 @@
 		"achievers": [
 			"claude-fable-5",
 			"gpt-5.6-sol",
-			"claude-opus-5"
+			"claude-opus-5",
+
+			"humanity"
 		],
+		"failures": [],
 		"only_every_year": true
 	},
 	"solve-dozens-of-major-open-problems": {
 		"name": "Solve dozens of major open problems",
 		"date_first": "2026-08-01",
 		"achievers": [
-			"gpt-6-astra"
+			"gpt-6-astra",
+
+			"humanity"
 		],
+		"failures": [],
 		"only_every_year": false
 	},
 	"solve-a-millennium-prize-problem": {
 		"name": "Solve a Millennium Prize Problem",
 		"date_first": "2026-09-08",
 		"achievers": [
-			"openai-internal-model"
+			"openai-internal-model",
+
+			"humanity"
 		],
+		"failures": [],
 		"only_every_year": false
 	},
 	"solve-hundreds-of-major-open-problems": {
 		"name": "Solve hundreds of major open problems",
 		"date_first": "2026-10-06",
 		"achievers": [
-			"openai-internal-model"
+			"openai-internal-model",
+
+			"humanity"
 		],
+		"failures": [],
 		"only_every_year": false
 	}
 }

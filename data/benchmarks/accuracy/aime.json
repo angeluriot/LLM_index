@@ -34,6 +34,8 @@
 		"claude-fable-5.1": 100.0,
 		"gpt-6-astra": 100.0,
 		"claude-opus-5.5": 100.0,
-		"gpt-6.1-sol": 100.0
+		"gpt-6.1-sol": 100.0,
+
+		"aime-participants": 40.0
 	}
 }

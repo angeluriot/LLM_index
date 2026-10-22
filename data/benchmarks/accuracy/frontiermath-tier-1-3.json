@@ -30,6 +30,8 @@
 		"claude-fable-5.1": 90.2,
 		"gpt-6-astra": 93.7,
 		"claude-opus-5.5": 91.2,
-		"gpt-6.1-sol": 93.7
+		"gpt-6.1-sol": 93.7,
+
+		"phds": 35.0
 	}
 }

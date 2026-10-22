@@ -20,6 +20,16 @@ class Model:
 
 
 @dataclass
+class Person:
+	id: str
+	name: str
+	description: str
+	benchmarks: dict[str, float] = field(default_factory=dict)
+	elos: dict[str, float] = field(default_factory=dict)
+	milestones: list[str] = field(default_factory=list)
+
+
+@dataclass
 class AccuracyBenchmark:
 	id: str
 	name: str
@@ -86,17 +96,21 @@ class Milestone:
 	name: str
 	date_first: date
 	achievers: list[str] = field(default_factory=list)
+	failures: list[str] = field(default_factory=list)
 	only_every_year: bool = False
 
-	def get_normalized_results(self, models: dict[str, Model]) -> list[tuple[str, str, float]]:
+	def get_normalized_results(self, models: dict[str, Model], people: dict[str, Person]) -> list[tuple[str, str, float]]:
 		results: list[tuple[str, str, float]] = []
 		delay = ONLY_EVERY_YEAR_DELAY_DAYS if self.only_every_year else 1
 		last_failure_date = self.date_first - timedelta(days=delay)
 
-		for model_id, model in models.items():
+		for model_id, model in [*models.items(), *people.items()]:
 			if model_id in self.achievers:
 				normalized_score = 1.0
-			elif model.release_date <= last_failure_date:
+			elif model_id in self.failures:
+				normalized_score = 0.0
+			# People have no release date, so they only fail when listed as failures
+			elif isinstance(model, Model) and model.release_date <= last_failure_date:
 				normalized_score = 0.0
 			else:
 				continue
@@ -109,6 +123,7 @@ class Milestone:
 @dataclass
 class Data:
 	models: dict[str, Model] = field(default_factory=dict)
+	people: dict[str, Person] = field(default_factory=dict)
 	accuracy_benchmarks: dict[str, AccuracyBenchmark] = field(default_factory=dict)
 	score_benchmarks: dict[str, ScoreBenchmark] = field(default_factory=dict)
 	elos: dict[str, Elo] = field(default_factory=dict)
@@ -142,7 +157,7 @@ class Data:
 		results: list[tuple[str, str, float]] = []
 
 		for milestone in self.milestones.values():
-			results.extend(milestone.get_normalized_results(self.models))
+			results.extend(milestone.get_normalized_results(self.models, self.people))
 
 		return results
 
@@ -168,6 +183,18 @@ def load_data() -> Data:
 		model_id: Model(id=model_id, name=raw_model['name'], release_date=date.fromisoformat(raw_model['release_date']))
 		for model_id, raw_model in sorted(raw_models.items(), key=lambda item: item[1]['release_date'])
 	}
+
+	with open(DATA_DIR / 'people.json', encoding='utf-8') as file:
+		raw_people = json.load(file)
+
+	people = {
+		person_id: Person(id=person_id, name=raw_person['name'], description=raw_person['description'])
+		for person_id, raw_person in raw_people.items()
+	}
+
+	# People appear in the results like models, so both share the same ids
+	assert models.keys().isdisjoint(people.keys())
+	participants: dict[str, Model | Person] = {**models, **people}
 
 	accuracy_benchmarks: dict[str, AccuracyBenchmark] = {}
 
@@ -198,7 +225,7 @@ def load_data() -> Data:
 
 	for benchmark in [*accuracy_benchmarks.values(), *score_benchmarks.values()]:
 		for model_id, score in benchmark.results.items():
-			models[model_id].benchmarks[benchmark.id] = score
+			participants[model_id].benchmarks[benchmark.id] = score
 
 	elos: dict[str, Elo] = {}
 
@@ -212,7 +239,7 @@ def load_data() -> Data:
 		)
 
 		for model_id, score in raw_elo['results'].items():
-			models[model_id].elos[elo_id] = score
+			participants[model_id].elos[elo_id] = score
 
 	with open(DATA_DIR / 'milestones.json', encoding='utf-8') as file:
 		raw_milestones = json.load(file)
@@ -220,15 +247,19 @@ def load_data() -> Data:
 	milestones: dict[str, Milestone] = {}
 
 	for milestone_id, raw_milestone in sorted(raw_milestones.items(), key=lambda item: item[1]['date_first']):
+		assert set(raw_milestone['achievers']).isdisjoint(raw_milestone['failures'])
+		assert set(raw_milestone['achievers'] + raw_milestone['failures']) <= participants.keys()
+
 		milestones[milestone_id] = Milestone(
 			id=milestone_id,
 			name=raw_milestone['name'],
 			date_first=date.fromisoformat(raw_milestone['date_first']),
 			achievers=list(raw_milestone['achievers']),
+			failures=list(raw_milestone['failures']),
 			only_every_year=raw_milestone['only_every_year'],
 		)
 
 		for model_id in raw_milestone['achievers']:
-			models[model_id].milestones.append(milestone_id)
+			participants[model_id].milestones.append(milestone_id)
 
-	return Data(models=models, accuracy_benchmarks=accuracy_benchmarks, score_benchmarks=score_benchmarks, elos=elos, milestones=milestones)
+	return Data(models=models, people=people, accuracy_benchmarks=accuracy_benchmarks, score_benchmarks=score_benchmarks, elos=elos, milestones=milestones)

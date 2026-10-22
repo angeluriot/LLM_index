@@ -13,6 +13,7 @@ from llm_index.constants import TOP_ANCHOR_MODEL, EPOCHS, LEARNING_RATE, ADAM_BE
 @dataclass
 class Output:
 	model_intelligences: dict[str, float] = field(default_factory=dict)
+	people_intelligences: dict[str, float] = field(default_factory=dict)
 	accuracy_benchmark_difficulty_modes: dict[str, float] = field(default_factory=dict)
 	accuracy_benchmark_difficulty_low_stds: dict[str, float] = field(default_factory=dict)
 	accuracy_benchmark_difficulty_high_stds: dict[str, float] = field(default_factory=dict)
@@ -22,6 +23,9 @@ class Output:
 	score_benchmark_slopes: dict[str, float] = field(default_factory=dict)
 	score_benchmark_std: float = 0.0
 	loss: float = 0.0
+
+	def get_intelligences(self) -> dict[str, float]:
+		return {**self.model_intelligences, **self.people_intelligences}
 
 
 def create_output(
@@ -123,9 +127,11 @@ def create_output(
 		)
 
 	output_model_intelligences = {
-		id: model_intelligences[index].item()
-		for id, index in sorted(model_id_to_index.items(), key=lambda item: data.models[item[0]].release_date)
+		id: model_intelligences[model_id_to_index[id]].item()
+		for id in sorted(data.models, key=lambda id: data.models[id].release_date)
 	}
+
+	output_people_intelligences = {id: model_intelligences[model_id_to_index[id]].item() for id in data.people}
 
 	accuracy_benchmark_difficulty_medians = inverse_cumulative_split_normal(
 		torch.tensor(0.5, device=accuracy_benchmark_difficulty_modes.device),
@@ -152,6 +158,7 @@ def create_output(
 
 	return Output(
 		model_intelligences=output_model_intelligences,
+		people_intelligences=output_people_intelligences,
 		accuracy_benchmark_difficulty_modes=output_accuracy_benchmark_difficulty_modes,
 		accuracy_benchmark_difficulty_low_stds=output_accuracy_benchmark_difficulty_low_stds,
 		accuracy_benchmark_difficulty_high_stds=output_accuracy_benchmark_difficulty_high_stds,
@@ -172,7 +179,8 @@ def fit(data: Data, verbose: bool = True) -> Output:
 	elo_results = data.get_elo_results()
 	score_benchmark_results = data.get_score_benchmark_results()
 
-	model_id_to_index = {id: index for index, id in enumerate(data.models)}
+	# People are fitted like models, after them in the same intelligence vector
+	model_id_to_index = {id: index for index, id in enumerate([*data.models, *data.people])}
 	accuracy_benchmark_id_to_index = {id: index for index, id in enumerate(data.accuracy_benchmarks)}
 	milestone_id_to_index = {id: index for index, id in enumerate(data.milestones)}
 	elo_id_to_index = {id: index for index, id in enumerate(data.elos)}
@@ -202,7 +210,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 	accuracy_benchmark_has_score_above_half = torch.zeros(len(accuracy_benchmark_id_to_index), dtype=torch.bool, device=DEVICE)
 	accuracy_benchmark_has_score_above_half[accuracy_benchmark_results_benchmark_indices[accuracy_benchmark_results_scores > 0.5]] = True
 
-	model_intelligences_param = torch.rand(len(data.models), device=DEVICE, requires_grad=True)
+	model_intelligences_param = torch.rand(len(model_id_to_index), device=DEVICE, requires_grad=True)
 	accuracy_benchmark_difficulty_modes_param = torch.rand(len(accuracy_benchmark_id_to_index), device=DEVICE, requires_grad=True)
 	accuracy_benchmark_difficulty_low_stds_param = torch.rand(len(accuracy_benchmark_id_to_index), device=DEVICE, requires_grad=True)
 	accuracy_benchmark_difficulty_high_stds_param = torch.rand(len(accuracy_benchmark_id_to_index), device=DEVICE, requires_grad=True)
