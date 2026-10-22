@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import json
+import json, math
 from dataclasses import dataclass, field
 from datetime import date, timedelta
 
@@ -20,24 +20,31 @@ class Model:
 
 
 @dataclass
-class Benchmark:
+class AccuracyBenchmark:
 	id: str
 	name: str
-	min_score: float | None
-	max_score: float | None
+	min_score: float
+	max_score: float
 	results: dict[str, float] = field(default_factory=dict)
 
 	def get_normalized_results(self) -> list[tuple[str, str, float]]:
 		results: list[tuple[str, str, float]] = []
 
-		# A missing bound is replaced by the most extreme score on its side
-		min_score = min(self.results.values()) if self.min_score is None else self.min_score
-		max_score = max(self.results.values()) if self.max_score is None else self.max_score
-
 		for model_id, score in self.results.items():
-			results.append((self.id, model_id, normalize(min_score, score, max_score)))
+			results.append((self.id, model_id, normalize(self.min_score, score, self.max_score)))
 
 		return results
+
+
+@dataclass
+class ScoreBenchmark:
+	id: str
+	name: str
+	log: bool
+	results: dict[str, float] = field(default_factory=dict)
+
+	def get_transformed_results(self) -> list[tuple[str, str, float]]:
+		return [(self.id, model_id, math.log2(score) if self.log else score) for model_id, score in self.results.items()]
 
 
 @dataclass
@@ -92,15 +99,24 @@ class Milestone:
 @dataclass
 class Data:
 	models: dict[str, Model] = field(default_factory=dict)
-	benchmarks: dict[str, Benchmark] = field(default_factory=dict)
+	accuracy_benchmarks: dict[str, AccuracyBenchmark] = field(default_factory=dict)
+	score_benchmarks: dict[str, ScoreBenchmark] = field(default_factory=dict)
 	elos: dict[str, Elo] = field(default_factory=dict)
 	milestones: dict[str, Milestone] = field(default_factory=dict)
 
-	def get_benchmark_results(self) -> list[tuple[str, str, float]]:
+	def get_accuracy_benchmark_results(self) -> list[tuple[str, str, float]]:
 		results: list[tuple[str, str, float]] = []
 
-		for benchmark in self.benchmarks.values():
+		for benchmark in self.accuracy_benchmarks.values():
 			results.extend(benchmark.get_normalized_results())
+
+		return results
+
+	def get_score_benchmark_results(self) -> list[tuple[str, str, float]]:
+		results: list[tuple[str, str, float]] = []
+
+		for benchmark in self.score_benchmarks.values():
+			results.extend(benchmark.get_transformed_results())
 
 		return results
 
@@ -143,10 +159,12 @@ def load_data() -> Data:
 		for model_id, raw_model in sorted(raw_models.items(), key=lambda item: item[1]['release_date'])
 	}
 
-	benchmarks: dict[str, Benchmark] = {}
+	accuracy_benchmarks: dict[str, AccuracyBenchmark] = {}
 
-	for benchmark_id, raw_benchmark in load_raw_scores('benchmarks').items():
-		benchmarks[benchmark_id] = Benchmark(
+	for benchmark_id, raw_benchmark in load_raw_scores('benchmarks/accuracy').items():
+		assert raw_benchmark['min_score'] is not None and raw_benchmark['max_score'] is not None
+
+		accuracy_benchmarks[benchmark_id] = AccuracyBenchmark(
 			id=benchmark_id,
 			name=raw_benchmark['name'],
 			min_score=raw_benchmark['min_score'],
@@ -154,8 +172,21 @@ def load_data() -> Data:
 			results=raw_benchmark['results'],
 		)
 
-		for model_id, score in raw_benchmark['results'].items():
-			models[model_id].benchmarks[benchmark_id] = score
+	score_benchmarks: dict[str, ScoreBenchmark] = {}
+
+	for benchmark_id, raw_benchmark in load_raw_scores('benchmarks/score').items():
+		score_benchmarks[benchmark_id] = ScoreBenchmark(
+			id=benchmark_id,
+			name=raw_benchmark['name'],
+			log=raw_benchmark['log'],
+			results=raw_benchmark['results'],
+		)
+
+	assert accuracy_benchmarks.keys().isdisjoint(score_benchmarks.keys())
+
+	for benchmark in [*accuracy_benchmarks.values(), *score_benchmarks.values()]:
+		for model_id, score in benchmark.results.items():
+			models[model_id].benchmarks[benchmark.id] = score
 
 	elos: dict[str, Elo] = {}
 
@@ -188,4 +219,4 @@ def load_data() -> Data:
 		for model_id in raw_milestone['achievers']:
 			models[model_id].milestones.append(milestone_id)
 
-	return Data(models=models, benchmarks=benchmarks, elos=elos, milestones=milestones)
+	return Data(models=models, accuracy_benchmarks=accuracy_benchmarks, score_benchmarks=score_benchmarks, elos=elos, milestones=milestones)

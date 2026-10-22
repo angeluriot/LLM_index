@@ -6,4 +6,3 @@ def normalize(min: float, value: float, max: float) -> float:
 	if min == max:
 		return 0.5
 	return (value - min) / (max - min)
-

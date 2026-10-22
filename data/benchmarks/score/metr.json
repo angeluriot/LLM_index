@@ -1,0 +1,24 @@
+{
+	"name": "METR Time Horizon",
+	"log": true,
+	"results": {
+		"gpt-2": 0.0538,
+		"gpt-3": 0.1441,
+		"gpt-3.5": 0.5992,
+		"gpt-4": 3.9874,
+		"claude-3-opus": 3.9523,
+		"gpt-4-turbo": 3.7328,
+		"gpt-4o": 6.9912,
+		"claude-3.5-sonnet": 11.3954,
+		"o1-preview": 20.3266,
+		"o1": 38.8316,
+		"claude-3.7-sonnet": 60.3889,
+		"o3": 119.7326,
+		"claude-opus-4": 100.3661,
+		"gpt-5": 203.0126,
+		"gemini-3-pro": 224.3259,
+		"claude-opus-4.5": 292.9946,
+		"gpt-5.2": 352.2493,
+		"gpt-5.4": 341.7353
+	}
+}

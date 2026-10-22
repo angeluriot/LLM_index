@@ -8,37 +8,57 @@ from llm_index.distribution import inverse_cumulative_split_normal, log_cumulati
 
 
 def get_bottom_anchor(
-	benchmark_difficulty_modes: torch.Tensor,
-	benchmark_difficulty_low_stds: torch.Tensor,
-	benchmark_difficulty_high_stds: torch.Tensor,
+	accuracy_benchmark_difficulty_modes: torch.Tensor,
+	accuracy_benchmark_difficulty_low_stds: torch.Tensor,
+	accuracy_benchmark_difficulty_high_stds: torch.Tensor,
 ) -> torch.Tensor:
 	return inverse_cumulative_split_normal(
-		torch.tensor(BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE, device=benchmark_difficulty_modes.device),
-		benchmark_difficulty_modes,
-		benchmark_difficulty_low_stds,
-		benchmark_difficulty_high_stds,
+		torch.tensor(BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE, device=accuracy_benchmark_difficulty_modes.device),
+		accuracy_benchmark_difficulty_modes,
+		accuracy_benchmark_difficulty_low_stds,
+		accuracy_benchmark_difficulty_high_stds,
 	).min()
+
+
+def get_score_benchmark_std(
+	accuracy_benchmark_difficulty_low_stds: torch.Tensor,
+	accuracy_benchmark_difficulty_high_stds: torch.Tensor,
+) -> torch.Tensor:
+	# The Fisher information of an accuracy result peaks around the mode of its difficulty curve, where it is 2 / pi / std^2
+	# for a symmetric curve, std being the mean of the two STDs, and a Gaussian of STD sqrt(pi / 2) * std carries the same
+	# information (averaged over the accuracy benchmarks, and detached so that the noise is not a lever for the fit)
+	if accuracy_benchmark_difficulty_low_stds.numel() == 0:
+		return torch.tensor(MIN_STD, device=accuracy_benchmark_difficulty_low_stds.device)
+
+	stds = (accuracy_benchmark_difficulty_low_stds + accuracy_benchmark_difficulty_high_stds).detach() / 2
+
+	return math.sqrt(math.pi / 2) * stds.mean()
 
 
 def apply_constraints(
 	anchor_model_index: int,
 	model_intelligences_param: torch.Tensor,
-	benchmark_difficulty_modes_param: torch.Tensor,
-	benchmark_difficulty_low_stds_param: torch.Tensor,
-	benchmark_difficulty_high_stds_param: torch.Tensor,
-	benchmark_has_score_below_half: torch.Tensor,
-	benchmark_has_score_above_half: torch.Tensor,
+	accuracy_benchmark_difficulty_modes_param: torch.Tensor,
+	accuracy_benchmark_difficulty_low_stds_param: torch.Tensor,
+	accuracy_benchmark_difficulty_high_stds_param: torch.Tensor,
+	accuracy_benchmark_has_score_below_half: torch.Tensor,
+	accuracy_benchmark_has_score_above_half: torch.Tensor,
 	milestone_difficulties_param: torch.Tensor,
 	elo_stds_param: torch.Tensor,
-) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
+	score_benchmark_offsets_param: torch.Tensor,
+	score_benchmark_slopes_param: torch.Tensor,
+) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
 	# STDs must be positive
-	positive_low_stds_param = torch.nn.functional.softplus(benchmark_difficulty_low_stds_param)
-	positive_high_stds_param = torch.nn.functional.softplus(benchmark_difficulty_high_stds_param)
+	positive_low_stds_param = torch.nn.functional.softplus(accuracy_benchmark_difficulty_low_stds_param)
+	positive_high_stds_param = torch.nn.functional.softplus(accuracy_benchmark_difficulty_high_stds_param)
 	positive_elo_stds_param = torch.nn.functional.softplus(elo_stds_param)
 
+	# Slopes of score benchmarks must be positive, otherwise the fit could flip the whole intelligence axis
+	positive_score_benchmark_slopes_param = torch.nn.functional.softplus(score_benchmark_slopes_param)
+
 	# A side of a benchmark difficulty curve without any score should copy the other side
-	positive_high_stds_param = torch.where(benchmark_has_score_above_half, positive_high_stds_param, positive_low_stds_param)
-	positive_low_stds_param = torch.where(benchmark_has_score_below_half, positive_low_stds_param, positive_high_stds_param)
+	positive_high_stds_param = torch.where(accuracy_benchmark_has_score_above_half, positive_high_stds_param, positive_low_stds_param)
+	positive_low_stds_param = torch.where(accuracy_benchmark_has_score_below_half, positive_low_stds_param, positive_high_stds_param)
 
 	# The ratio between the two STDs of a benchmark difficulty curve is smoothly bounded to [1 / MAX_STD_RATIO, MAX_STD_RATIO]
 	# (adding MIN_STD to both sides afterwards can only bring it closer to 1)
@@ -53,9 +73,9 @@ def apply_constraints(
 	# Set anchors for scaling
 	top_anchor = model_intelligences_param[anchor_model_index]
 
-	if benchmark_difficulty_modes_param.numel() > 0:
+	if accuracy_benchmark_difficulty_modes_param.numel() > 0:
 		bottom_std = torch.special.ndtri(torch.tensor(BOTTOM_ANCHOR_EASIEST_BENCHMARK_SCORE, device=model_intelligences_param.device))
-		bottom_anchor = get_bottom_anchor(benchmark_difficulty_modes_param, positive_low_stds_param, positive_high_stds_param)
+		bottom_anchor = get_bottom_anchor(accuracy_benchmark_difficulty_modes_param, positive_low_stds_param, positive_high_stds_param)
 		scale = (TOP_ANCHOR_VALUE - BOTTOM_ANCHOR_VALUE + bottom_std * MIN_STD) / (top_anchor - bottom_anchor)
 	else:
 		# Without any benchmark, the bottom anchor is the least intelligent model, aimed at the inverse softplus of its value
@@ -66,82 +86,93 @@ def apply_constraints(
 	# Apply scaling
 
 	model_intelligences = model_intelligences_param * scale
-	benchmark_difficulty_modes = benchmark_difficulty_modes_param * scale
-	benchmark_difficulty_low_stds = MIN_STD + positive_low_stds_param * scale
-	benchmark_difficulty_high_stds = MIN_STD + positive_high_stds_param * scale
+	accuracy_benchmark_difficulty_modes = accuracy_benchmark_difficulty_modes_param * scale
+	accuracy_benchmark_difficulty_low_stds = MIN_STD + positive_low_stds_param * scale
+	accuracy_benchmark_difficulty_high_stds = MIN_STD + positive_high_stds_param * scale
 	milestone_difficulties = milestone_difficulties_param * scale
 	elo_stds = MIN_STD + positive_elo_stds_param * scale
+	score_benchmark_offsets = score_benchmark_offsets_param * scale
+	score_benchmark_slopes = positive_score_benchmark_slopes_param * scale
 
 	shift = TOP_ANCHOR_VALUE - top_anchor * scale
 
 	model_intelligences += shift
-	benchmark_difficulty_modes += shift
+	accuracy_benchmark_difficulty_modes += shift
 	milestone_difficulties += shift
+	score_benchmark_offsets += shift
 
 	return (
 		torch.nn.functional.softplus(model_intelligences),
-		benchmark_difficulty_modes,
-		benchmark_difficulty_low_stds,
-		benchmark_difficulty_high_stds,
+		accuracy_benchmark_difficulty_modes,
+		accuracy_benchmark_difficulty_low_stds,
+		accuracy_benchmark_difficulty_high_stds,
 		milestone_difficulties,
 		elo_stds,
+		score_benchmark_offsets,
+		score_benchmark_slopes,
 	)
 
 
 def apply_exact_bottom_anchor(
 	model_intelligences: torch.Tensor,
-	benchmark_difficulty_modes: torch.Tensor,
-	benchmark_difficulty_low_stds: torch.Tensor,
-	benchmark_difficulty_high_stds: torch.Tensor,
+	accuracy_benchmark_difficulty_modes: torch.Tensor,
+	accuracy_benchmark_difficulty_low_stds: torch.Tensor,
+	accuracy_benchmark_difficulty_high_stds: torch.Tensor,
 	milestone_difficulties: torch.Tensor,
 	elo_stds: torch.Tensor,
-) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
-	# Without any benchmark, the bottom anchor (the least intelligent model) is already exact
-	if benchmark_difficulty_modes.numel() == 0:
+	score_benchmark_offsets: torch.Tensor,
+	score_benchmark_slopes: torch.Tensor,
+) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
+	# Without any accuracy benchmark, the bottom anchor (the least intelligent model) is already exact
+	if accuracy_benchmark_difficulty_modes.numel() == 0:
 		return (
 			model_intelligences,
-			benchmark_difficulty_modes,
-			benchmark_difficulty_low_stds,
-			benchmark_difficulty_high_stds,
+			accuracy_benchmark_difficulty_modes,
+			accuracy_benchmark_difficulty_low_stds,
+			accuracy_benchmark_difficulty_high_stds,
 			milestone_difficulties,
 			elo_stds,
+			score_benchmark_offsets,
+			score_benchmark_slopes,
 		)
 
-	bottom_anchor = get_bottom_anchor(benchmark_difficulty_modes, benchmark_difficulty_low_stds, benchmark_difficulty_high_stds)
+	bottom_anchor = get_bottom_anchor(accuracy_benchmark_difficulty_modes, accuracy_benchmark_difficulty_low_stds, accuracy_benchmark_difficulty_high_stds)
 
 	scale = (TOP_ANCHOR_VALUE - BOTTOM_ANCHOR_VALUE) / (TOP_ANCHOR_VALUE - bottom_anchor)
 	shift = TOP_ANCHOR_VALUE * (1 - scale)
 
 	return (
 		torch.abs(model_intelligences * scale + shift),
-		benchmark_difficulty_modes * scale + shift,
-		benchmark_difficulty_low_stds * scale,
-		benchmark_difficulty_high_stds * scale,
+		accuracy_benchmark_difficulty_modes * scale + shift,
+		accuracy_benchmark_difficulty_low_stds * scale,
+		accuracy_benchmark_difficulty_high_stds * scale,
 		milestone_difficulties * scale + shift,
 		elo_stds * scale,
+		score_benchmark_offsets * scale + shift,
+		score_benchmark_slopes * scale,
 	)
 
 
 def compute_log_predictions(
 	model_intelligences: torch.Tensor,
-	benchmark_difficulty_modes: torch.Tensor,
-	benchmark_difficulty_low_stds: torch.Tensor,
-	benchmark_difficulty_high_stds: torch.Tensor,
+	accuracy_benchmark_difficulty_modes: torch.Tensor,
+	accuracy_benchmark_difficulty_low_stds: torch.Tensor,
+	accuracy_benchmark_difficulty_high_stds: torch.Tensor,
 	milestone_difficulties: torch.Tensor,
 	elo_stds: torch.Tensor,
-	benchmark_results_model_indices: torch.Tensor,
-	benchmark_results_benchmark_indices: torch.Tensor,
+	accuracy_benchmark_results_model_indices: torch.Tensor,
+	accuracy_benchmark_results_benchmark_indices: torch.Tensor,
 	milestone_results_model_indices: torch.Tensor,
 	milestone_results_milestone_indices: torch.Tensor,
 	elo_results_model_indices: torch.Tensor,
 	elo_results_opponent_indices: torch.Tensor,
 	elo_results_elo_indices: torch.Tensor,
 ) -> tuple[torch.Tensor, torch.Tensor]:
-	benchmark_log_predictions, benchmark_log_complements = log_cumulative_and_complement_split_normal(
-		model_intelligences[benchmark_results_model_indices],
-		benchmark_difficulty_modes[benchmark_results_benchmark_indices],
-		benchmark_difficulty_low_stds[benchmark_results_benchmark_indices],
-		benchmark_difficulty_high_stds[benchmark_results_benchmark_indices],
+	accuracy_benchmark_log_predictions, accuracy_benchmark_log_complements = log_cumulative_and_complement_split_normal(
+		model_intelligences[accuracy_benchmark_results_model_indices],
+		accuracy_benchmark_difficulty_modes[accuracy_benchmark_results_benchmark_indices],
+		accuracy_benchmark_difficulty_low_stds[accuracy_benchmark_results_benchmark_indices],
+		accuracy_benchmark_difficulty_high_stds[accuracy_benchmark_results_benchmark_indices],
 	)
 
 	milestone_log_predictions, milestone_log_complements = log_cumulative_and_complement_normal(
@@ -159,8 +190,8 @@ def compute_log_predictions(
 	)
 
 	return (
-		torch.cat([benchmark_log_predictions, milestone_log_predictions, elo_log_predictions]),
-		torch.cat([benchmark_log_complements, milestone_log_complements, elo_log_complements]),
+		torch.cat([accuracy_benchmark_log_predictions, milestone_log_predictions, elo_log_predictions]),
+		torch.cat([accuracy_benchmark_log_complements, milestone_log_complements, elo_log_complements]),
 	)
 
 
@@ -173,14 +204,14 @@ def bernoulli_divergence(targets: torch.Tensor, log_predictions: torch.Tensor, l
 
 def compute_loss(
 	model_intelligences: torch.Tensor,
-	benchmark_difficulty_modes: torch.Tensor,
-	benchmark_difficulty_low_stds: torch.Tensor,
-	benchmark_difficulty_high_stds: torch.Tensor,
+	accuracy_benchmark_difficulty_modes: torch.Tensor,
+	accuracy_benchmark_difficulty_low_stds: torch.Tensor,
+	accuracy_benchmark_difficulty_high_stds: torch.Tensor,
 	milestone_difficulties: torch.Tensor,
 	elo_stds: torch.Tensor,
-	benchmark_results_model_indices: torch.Tensor,
-	benchmark_results_benchmark_indices: torch.Tensor,
-	benchmark_results_scores: torch.Tensor,
+	accuracy_benchmark_results_model_indices: torch.Tensor,
+	accuracy_benchmark_results_benchmark_indices: torch.Tensor,
+	accuracy_benchmark_results_scores: torch.Tensor,
 	milestone_results_model_indices: torch.Tensor,
 	milestone_results_milestone_indices: torch.Tensor,
 	milestone_results_scores: torch.Tensor,
@@ -189,16 +220,21 @@ def compute_loss(
 	elo_results_elo_indices: torch.Tensor,
 	elo_results_scores: torch.Tensor,
 	elo_results_weights: torch.Tensor,
+	score_benchmark_offsets: torch.Tensor,
+	score_benchmark_slopes: torch.Tensor,
+	score_benchmark_results_model_indices: torch.Tensor,
+	score_benchmark_results_benchmark_indices: torch.Tensor,
+	score_benchmark_results_scores: torch.Tensor,
 ) -> torch.Tensor:
 	log_predictions, log_complements = compute_log_predictions(
 		model_intelligences,
-		benchmark_difficulty_modes,
-		benchmark_difficulty_low_stds,
-		benchmark_difficulty_high_stds,
+		accuracy_benchmark_difficulty_modes,
+		accuracy_benchmark_difficulty_low_stds,
+		accuracy_benchmark_difficulty_high_stds,
 		milestone_difficulties,
 		elo_stds,
-		benchmark_results_model_indices,
-		benchmark_results_benchmark_indices,
+		accuracy_benchmark_results_model_indices,
+		accuracy_benchmark_results_benchmark_indices,
 		milestone_results_model_indices,
 		milestone_results_milestone_indices,
 		elo_results_model_indices,
@@ -208,13 +244,13 @@ def compute_loss(
 
 	frozen_log_predictions, frozen_log_complements = compute_log_predictions(
 		model_intelligences,
-		benchmark_difficulty_modes.detach(),
-		benchmark_difficulty_low_stds.detach(),
-		benchmark_difficulty_high_stds.detach(),
+		accuracy_benchmark_difficulty_modes.detach(),
+		accuracy_benchmark_difficulty_low_stds.detach(),
+		accuracy_benchmark_difficulty_high_stds.detach(),
 		milestone_difficulties.detach(),
 		elo_stds.detach(),
-		benchmark_results_model_indices,
-		benchmark_results_benchmark_indices,
+		accuracy_benchmark_results_model_indices,
+		accuracy_benchmark_results_benchmark_indices,
 		milestone_results_model_indices,
 		milestone_results_milestone_indices,
 		elo_results_model_indices,
@@ -222,8 +258,8 @@ def compute_loss(
 		elo_results_elo_indices,
 	)
 
-	scores = torch.cat([benchmark_results_scores, milestone_results_scores, elo_results_scores])
-	weights = torch.cat([torch.ones_like(benchmark_results_scores), torch.ones_like(milestone_results_scores), elo_results_weights])
+	scores = torch.cat([accuracy_benchmark_results_scores, milestone_results_scores, elo_results_scores])
+	weights = torch.cat([torch.ones_like(accuracy_benchmark_results_scores), torch.ones_like(milestone_results_scores), elo_results_weights])
 
 	# No loss for non-matching extreme scores (<0.01 or >0.99)
 
@@ -241,7 +277,20 @@ def compute_loss(
 	edges = scores.clamp(EXTREME_SCORE_THRESHOLD, 1 - EXTREME_SCORE_THRESHOLD)
 	regularizations = EXTREME_SCORE_REGULARIZATION * bernoulli_divergence(edges, frozen_log_predictions, frozen_log_complements)
 
-	loss = torch.sum(weights * torch.where(is_admissible, regularizations, divergences)) / torch.sum(weights)
+	# A score benchmark gives a noisy measure of intelligence, affine in its (possibly log) score, with a Gaussian noise
+	# whose STD makes a score result as informative as an accuracy result at its most informative point
+
+	score_benchmark_predictions = (
+		score_benchmark_offsets[score_benchmark_results_benchmark_indices]
+		+ score_benchmark_slopes[score_benchmark_results_benchmark_indices] * score_benchmark_results_scores
+	)
+	score_benchmark_std = get_score_benchmark_std(accuracy_benchmark_difficulty_low_stds, accuracy_benchmark_difficulty_high_stds)
+	score_benchmark_residuals = (model_intelligences[score_benchmark_results_model_indices] - score_benchmark_predictions) / score_benchmark_std
+	score_benchmark_losses = 0.5 * score_benchmark_residuals ** 2
+
+	loss = (
+		torch.sum(weights * torch.where(is_admissible, regularizations, divergences)) + torch.sum(score_benchmark_losses)
+	) / (torch.sum(weights) + score_benchmark_losses.numel())
 
 	# Slight regularization of milestone difficulties towards the middle of the gap between the best failing model and the worst succeeding one
 
