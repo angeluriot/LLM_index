@@ -2,6 +2,7 @@
 	"name": "MATH",
 	"min_score": 0.0,
 	"max_score": 100.0,
+	"lower_is_better": false,
 	"results": {
 		"gpt-3.5-turbo": 44.1,
 		"gpt-4": 42.0,

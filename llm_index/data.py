@@ -25,13 +25,15 @@ class AccuracyBenchmark:
 	name: str
 	min_score: float
 	max_score: float
+	lower_is_better: bool
 	results: dict[str, float] = field(default_factory=dict)
 
 	def get_normalized_results(self) -> list[tuple[str, str, float]]:
 		results: list[tuple[str, str, float]] = []
 
 		for model_id, score in self.results.items():
-			results.append((self.id, model_id, normalize(self.min_score, score, self.max_score)))
+			normalized_score = normalize(self.min_score, score, self.max_score)
+			results.append((self.id, model_id, 1.0 - normalized_score if self.lower_is_better else normalized_score))
 
 		return results
 
@@ -41,10 +43,18 @@ class ScoreBenchmark:
 	id: str
 	name: str
 	log: bool
+	lower_is_better: bool
 	results: dict[str, float] = field(default_factory=dict)
 
 	def get_transformed_results(self) -> list[tuple[str, str, float]]:
-		return [(self.id, model_id, math.log2(score) if self.log else score) for model_id, score in self.results.items()]
+		results: list[tuple[str, str, float]] = []
+
+		for model_id, score in self.results.items():
+			transformed_score = math.log2(score) if self.log else score
+			# Negated so that the fitted slope stays positive
+			results.append((self.id, model_id, -transformed_score if self.lower_is_better else transformed_score))
+
+		return results
 
 
 @dataclass
@@ -169,6 +179,7 @@ def load_data() -> Data:
 			name=raw_benchmark['name'],
 			min_score=raw_benchmark['min_score'],
 			max_score=raw_benchmark['max_score'],
+			lower_is_better=raw_benchmark['lower_is_better'],
 			results=raw_benchmark['results'],
 		)
 
@@ -179,6 +190,7 @@ def load_data() -> Data:
 			id=benchmark_id,
 			name=raw_benchmark['name'],
 			log=raw_benchmark['log'],
+			lower_is_better=raw_benchmark['lower_is_better'],
 			results=raw_benchmark['results'],
 		)
 

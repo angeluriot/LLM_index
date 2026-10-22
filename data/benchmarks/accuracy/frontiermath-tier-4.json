@@ -2,6 +2,7 @@
 	"name": "FrontierMath Tier 4",
 	"min_score": 0.0,
 	"max_score": 100.0,
+	"lower_is_better": false,
 	"results": {
 		"claude-3.5-sonnet": 0.0,
 		"o3-mini": 0.0,

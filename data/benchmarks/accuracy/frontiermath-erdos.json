@@ -2,6 +2,7 @@
 	"name": "FrontierMath Erdős",
 	"min_score": 0.0,
 	"max_score": 100.0,
+	"lower_is_better": false,
 	"results": {
 		"gpt-5.5": 0.0,
 		"claude-fable-5": 0.0,

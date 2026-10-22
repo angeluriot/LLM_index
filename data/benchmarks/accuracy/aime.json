@@ -2,6 +2,7 @@
 	"name": "AIME",
 	"min_score": 0.0,
 	"max_score": 100.0,
+	"lower_is_better": false,
 	"results": {
 		"gpt-4": 1.1,
 		"claude-3-opus": 4.7,

@@ -2,6 +2,7 @@
 	"name": "GSM8K",
 	"min_score": 0.0,
 	"max_score": 100.0,
+	"lower_is_better": false,
 	"results": {
 		"gpt-2": 0.68,
 		"gpt-3": 9.0,

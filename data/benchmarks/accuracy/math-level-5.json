@@ -2,6 +2,7 @@
 	"name": "MATH Level 5",
 	"min_score": 0.0,
 	"max_score": 100.0,
+	"lower_is_better": false,
 	"results": {
 		"gpt-2": 0.98,
 		"gpt-3.5-turbo": 11.6,
