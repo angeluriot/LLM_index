@@ -29,12 +29,12 @@ def apply_constraints(
 	benchmark_has_score_below_half: torch.Tensor,
 	benchmark_has_score_above_half: torch.Tensor,
 	milestone_difficulties_param: torch.Tensor,
-	elo_benchmark_stds_param: torch.Tensor,
+	elo_stds_param: torch.Tensor,
 ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
 	# STDs must be positive
 	positive_low_stds_param = torch.nn.functional.softplus(benchmark_difficulty_low_stds_param)
 	positive_high_stds_param = torch.nn.functional.softplus(benchmark_difficulty_high_stds_param)
-	positive_elo_stds_param = torch.nn.functional.softplus(elo_benchmark_stds_param)
+	positive_elo_stds_param = torch.nn.functional.softplus(elo_stds_param)
 
 	# A side of a benchmark difficulty curve without any score should copy the other side
 	positive_high_stds_param = torch.where(benchmark_has_score_above_half, positive_high_stds_param, positive_low_stds_param)
@@ -70,7 +70,7 @@ def apply_constraints(
 	benchmark_difficulty_low_stds = MIN_STD + positive_low_stds_param * scale
 	benchmark_difficulty_high_stds = MIN_STD + positive_high_stds_param * scale
 	milestone_difficulties = milestone_difficulties_param * scale
-	elo_benchmark_stds = MIN_STD + positive_elo_stds_param * scale
+	elo_stds = MIN_STD + positive_elo_stds_param * scale
 
 	shift = TOP_ANCHOR_VALUE - top_anchor * scale
 
@@ -84,7 +84,7 @@ def apply_constraints(
 		benchmark_difficulty_low_stds,
 		benchmark_difficulty_high_stds,
 		milestone_difficulties,
-		elo_benchmark_stds,
+		elo_stds,
 	)
 
 
@@ -94,7 +94,7 @@ def apply_exact_bottom_anchor(
 	benchmark_difficulty_low_stds: torch.Tensor,
 	benchmark_difficulty_high_stds: torch.Tensor,
 	milestone_difficulties: torch.Tensor,
-	elo_benchmark_stds: torch.Tensor,
+	elo_stds: torch.Tensor,
 ) -> tuple[torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor, torch.Tensor]:
 	# Without any benchmark, the bottom anchor (the least intelligent model) is already exact
 	if benchmark_difficulty_modes.numel() == 0:
@@ -104,7 +104,7 @@ def apply_exact_bottom_anchor(
 			benchmark_difficulty_low_stds,
 			benchmark_difficulty_high_stds,
 			milestone_difficulties,
-			elo_benchmark_stds,
+			elo_stds,
 		)
 
 	bottom_anchor = get_bottom_anchor(benchmark_difficulty_modes, benchmark_difficulty_low_stds, benchmark_difficulty_high_stds)
@@ -118,7 +118,7 @@ def apply_exact_bottom_anchor(
 		benchmark_difficulty_low_stds * scale,
 		benchmark_difficulty_high_stds * scale,
 		milestone_difficulties * scale + shift,
-		elo_benchmark_stds * scale,
+		elo_stds * scale,
 	)
 
 
@@ -128,14 +128,14 @@ def compute_log_predictions(
 	benchmark_difficulty_low_stds: torch.Tensor,
 	benchmark_difficulty_high_stds: torch.Tensor,
 	milestone_difficulties: torch.Tensor,
-	elo_benchmark_stds: torch.Tensor,
+	elo_stds: torch.Tensor,
 	benchmark_results_model_indices: torch.Tensor,
 	benchmark_results_benchmark_indices: torch.Tensor,
 	milestone_results_model_indices: torch.Tensor,
 	milestone_results_milestone_indices: torch.Tensor,
 	elo_results_model_indices: torch.Tensor,
 	elo_results_opponent_indices: torch.Tensor,
-	elo_results_benchmark_indices: torch.Tensor,
+	elo_results_elo_indices: torch.Tensor,
 ) -> tuple[torch.Tensor, torch.Tensor]:
 	benchmark_log_predictions, benchmark_log_complements = log_cumulative_and_complement_split_normal(
 		model_intelligences[benchmark_results_model_indices],
@@ -150,12 +150,12 @@ def compute_log_predictions(
 		torch.tensor(MIN_STD, device=milestone_difficulties.device),
 	)
 
-	# Thurstone model: on an Elo benchmark, each model performs around its intelligence with a normal noise of the benchmark STD,
+	# Thurstone model: on an Elo, each model performs around its intelligence with a normal noise of the Elo STD,
 	# so a model beats its opponent when the difference of two such performances is positive
 	elo_log_predictions, elo_log_complements = log_cumulative_and_complement_normal(
 		model_intelligences[elo_results_model_indices],
 		model_intelligences[elo_results_opponent_indices],
-		math.sqrt(2) * elo_benchmark_stds[elo_results_benchmark_indices],
+		math.sqrt(2) * elo_stds[elo_results_elo_indices],
 	)
 
 	return (
@@ -177,7 +177,7 @@ def compute_loss(
 	benchmark_difficulty_low_stds: torch.Tensor,
 	benchmark_difficulty_high_stds: torch.Tensor,
 	milestone_difficulties: torch.Tensor,
-	elo_benchmark_stds: torch.Tensor,
+	elo_stds: torch.Tensor,
 	benchmark_results_model_indices: torch.Tensor,
 	benchmark_results_benchmark_indices: torch.Tensor,
 	benchmark_results_scores: torch.Tensor,
@@ -186,7 +186,7 @@ def compute_loss(
 	milestone_results_scores: torch.Tensor,
 	elo_results_model_indices: torch.Tensor,
 	elo_results_opponent_indices: torch.Tensor,
-	elo_results_benchmark_indices: torch.Tensor,
+	elo_results_elo_indices: torch.Tensor,
 	elo_results_scores: torch.Tensor,
 	elo_results_weights: torch.Tensor,
 ) -> torch.Tensor:
@@ -196,14 +196,14 @@ def compute_loss(
 		benchmark_difficulty_low_stds,
 		benchmark_difficulty_high_stds,
 		milestone_difficulties,
-		elo_benchmark_stds,
+		elo_stds,
 		benchmark_results_model_indices,
 		benchmark_results_benchmark_indices,
 		milestone_results_model_indices,
 		milestone_results_milestone_indices,
 		elo_results_model_indices,
 		elo_results_opponent_indices,
-		elo_results_benchmark_indices,
+		elo_results_elo_indices,
 	)
 
 	frozen_log_predictions, frozen_log_complements = compute_log_predictions(
@@ -212,14 +212,14 @@ def compute_loss(
 		benchmark_difficulty_low_stds.detach(),
 		benchmark_difficulty_high_stds.detach(),
 		milestone_difficulties.detach(),
-		elo_benchmark_stds.detach(),
+		elo_stds.detach(),
 		benchmark_results_model_indices,
 		benchmark_results_benchmark_indices,
 		milestone_results_model_indices,
 		milestone_results_milestone_indices,
 		elo_results_model_indices,
 		elo_results_opponent_indices,
-		elo_results_benchmark_indices,
+		elo_results_elo_indices,
 	)
 
 	scores = torch.cat([benchmark_results_scores, milestone_results_scores, elo_results_scores])

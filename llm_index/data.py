@@ -3,8 +3,6 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass, field
 from datetime import date, timedelta
-from enum import Enum
-from typing import Literal
 
 
 from llm_index.constants import DATA_DIR, ONLY_EVERY_YEAR_DELAY_DAYS
@@ -17,64 +15,49 @@ class Model:
 	name: str
 	release_date: date
 	benchmarks: dict[str, float] = field(default_factory=dict)
+	elos: dict[str, float] = field(default_factory=dict)
 	milestones: list[str] = field(default_factory=list)
-
-
-class BenchmarkType(Enum):
-	ACCURACY = 'ACCURACY'
-	SCORE = 'SCORE'
-	ELO = 'ELO'
-
-
-@dataclass
-class BenchmarkAccuracyConfig:
-	min_score: float
-	max_score: float
-	type: Literal[BenchmarkType.ACCURACY] = BenchmarkType.ACCURACY
-
-
-@dataclass
-class BenchmarkScoreConfig:
-	type: Literal[BenchmarkType.SCORE] = BenchmarkType.SCORE
-
-
-@dataclass
-class BenchmarkEloConfig:
-	base: float
-	scale: float
-	type: Literal[BenchmarkType.ELO] = BenchmarkType.ELO
 
 
 @dataclass
 class Benchmark:
 	id: str
 	name: str
-	config: BenchmarkAccuracyConfig | BenchmarkScoreConfig | BenchmarkEloConfig
+	min_score: float | None
+	max_score: float | None
 	results: dict[str, float] = field(default_factory=dict)
 
 	def get_normalized_results(self) -> list[tuple[str, str, float]]:
 		results: list[tuple[str, str, float]] = []
 
-		for model_id, score in self.results.items():
-			if self.config.type == BenchmarkType.ACCURACY:
-				normalized_score = normalize(self.config.min_score, score, self.config.max_score)
-			else:
-				normalized_score = score
+		# A missing bound is replaced by the most extreme score on its side
+		min_score = min(self.results.values()) if self.min_score is None else self.min_score
+		max_score = max(self.results.values()) if self.max_score is None else self.max_score
 
-			results.append((self.id, model_id, normalized_score))
+		for model_id, score in self.results.items():
+			results.append((self.id, model_id, normalize(min_score, score, max_score)))
 
 		return results
 
-	def get_normalized_pair_results(self) -> list[tuple[str, str, str, float, float]]:
+
+@dataclass
+class Elo:
+	id: str
+	name: str
+	base: float
+	scale: float
+	results: dict[str, float] = field(default_factory=dict)
+
+	def get_normalized_results(self) -> list[tuple[str, str, str, float, float]]:
 		results: list[tuple[str, str, str, float, float]] = []
 		model_ids = list(self.results)
 
-		# The pairs are weighted so that the whole benchmark weighs n - 1 results, its number of degrees of freedom (an Elo is only defined up to a shift)
+		# The pairs are weighted so that the whole Elo weighs n - 1 results, its number of degrees of freedom (an Elo is only defined up to a shift)
 		weight = 2 / len(model_ids)
 
 		for index, model_id in enumerate(model_ids):
 			for opponent_id in model_ids[index + 1:]:
-				win_probability = 1 / (1 + self.config.base ** ((self.results[opponent_id] - self.results[model_id]) / self.config.scale))
+				win_probability = 1 / (1 + self.base ** ((self.results[opponent_id] - self.results[model_id]) / self.scale))
 				results.append((self.id, model_id, opponent_id, win_probability, weight))
 
 		return results
@@ -110,23 +93,22 @@ class Milestone:
 class Data:
 	models: dict[str, Model] = field(default_factory=dict)
 	benchmarks: dict[str, Benchmark] = field(default_factory=dict)
+	elos: dict[str, Elo] = field(default_factory=dict)
 	milestones: dict[str, Milestone] = field(default_factory=dict)
 
 	def get_benchmark_results(self) -> list[tuple[str, str, float]]:
 		results: list[tuple[str, str, float]] = []
 
 		for benchmark in self.benchmarks.values():
-			if benchmark.config.type != BenchmarkType.ELO:
-				results.extend(benchmark.get_normalized_results())
+			results.extend(benchmark.get_normalized_results())
 
 		return results
 
 	def get_elo_results(self) -> list[tuple[str, str, str, float, float]]:
 		results: list[tuple[str, str, str, float, float]] = []
 
-		for benchmark in self.benchmarks.values():
-			if benchmark.config.type == BenchmarkType.ELO:
-				results.extend(benchmark.get_normalized_pair_results())
+		for elo in self.elos.values():
+			results.extend(elo.get_normalized_results())
 
 		return results
 
@@ -139,16 +121,17 @@ class Data:
 		return results
 
 
-def load_config(raw: dict) -> BenchmarkAccuracyConfig | BenchmarkScoreConfig | BenchmarkEloConfig:
-	benchmark_type = BenchmarkType(raw['type'])
+def load_raw_scores(directory: str) -> dict[str, dict]:
+	raws: dict[str, dict] = {}
 
-	if benchmark_type == BenchmarkType.ACCURACY:
-		return BenchmarkAccuracyConfig(min_score=raw['min_score'], max_score=raw['max_score'])
+	for path in sorted((DATA_DIR / directory).glob('*.json')):
+		with open(path, encoding='utf-8') as file:
+			raw = json.load(file)
 
-	if benchmark_type == BenchmarkType.SCORE:
-		return BenchmarkScoreConfig()
+		raw['results'] = {model_id: score for model_id, score in raw['results'].items() if score is not None}
+		raws[path.stem] = raw
 
-	return BenchmarkEloConfig(base=raw['base'], scale=raw['scale'])
+	return raws
 
 
 def load_data() -> Data:
@@ -162,21 +145,31 @@ def load_data() -> Data:
 
 	benchmarks: dict[str, Benchmark] = {}
 
-	for path in sorted((DATA_DIR / 'benchmarks').glob('*.json')):
-		with open(path, encoding='utf-8') as file:
-			raw_benchmark = json.load(file)
-
-		benchmark_id = path.stem
-		results = {model_id: score for model_id, score in raw_benchmark['results'].items() if score is not None}
+	for benchmark_id, raw_benchmark in load_raw_scores('benchmarks').items():
 		benchmarks[benchmark_id] = Benchmark(
 			id=benchmark_id,
 			name=raw_benchmark['name'],
-			config=load_config(raw_benchmark['config']),
-			results=results,
+			min_score=raw_benchmark['min_score'],
+			max_score=raw_benchmark['max_score'],
+			results=raw_benchmark['results'],
 		)
 
-		for model_id, score in results.items():
+		for model_id, score in raw_benchmark['results'].items():
 			models[model_id].benchmarks[benchmark_id] = score
+
+	elos: dict[str, Elo] = {}
+
+	for elo_id, raw_elo in load_raw_scores('elos').items():
+		elos[elo_id] = Elo(
+			id=elo_id,
+			name=raw_elo['name'],
+			base=raw_elo['base'],
+			scale=raw_elo['scale'],
+			results=raw_elo['results'],
+		)
+
+		for model_id, score in raw_elo['results'].items():
+			models[model_id].elos[elo_id] = score
 
 	with open(DATA_DIR / 'milestones.json', encoding='utf-8') as file:
 		raw_milestones = json.load(file)
@@ -195,4 +188,4 @@ def load_data() -> Data:
 		for model_id in raw_milestone['achievers']:
 			models[model_id].milestones.append(milestone_id)
 
-	return Data(models=models, benchmarks=benchmarks, milestones=milestones)
+	return Data(models=models, benchmarks=benchmarks, elos=elos, milestones=milestones)

@@ -1,10 +1,7 @@
 {
 	"name": "Arena Text",
-	"config": {
-		"type": "ELO",
-		"base": 10.0,
-		"scale": 400.0
-	},
+	"base": 10.0,
+	"scale": 400.0,
 	"results": {
 		"gpt-3.5-turbo": 1204.4,
 		"gpt-4": 1288.0,

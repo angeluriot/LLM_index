@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 
 import torch
 
-from llm_index.data import BenchmarkType, Data
+from llm_index.data import Data
 from llm_index.distribution import inverse_cumulative_split_normal
 from llm_index.loss import apply_constraints, apply_exact_bottom_anchor, compute_loss
 from llm_index.constants import TOP_ANCHOR_MODEL, EPOCHS, LEARNING_RATE, ADAM_BETA_1, ADAM_BETA_2, DEVICE
@@ -17,7 +17,7 @@ class Output:
 	benchmark_difficulty_low_stds: dict[str, float] = field(default_factory=dict)
 	benchmark_difficulty_high_stds: dict[str, float] = field(default_factory=dict)
 	milestone_difficulties: dict[str, float] = field(default_factory=dict)
-	elo_benchmark_stds: dict[str, float] = field(default_factory=dict)
+	elo_stds: dict[str, float] = field(default_factory=dict)
 	loss: float = 0.0
 
 
@@ -30,7 +30,7 @@ def create_output(
 	benchmark_has_score_below_half: torch.Tensor,
 	benchmark_has_score_above_half: torch.Tensor,
 	milestone_difficulties_param: torch.Tensor,
-	elo_benchmark_stds_param: torch.Tensor,
+	elo_stds_param: torch.Tensor,
 	benchmark_results_model_indices: torch.Tensor,
 	benchmark_results_benchmark_indices: torch.Tensor,
 	benchmark_results_scores: torch.Tensor,
@@ -39,13 +39,13 @@ def create_output(
 	milestone_results_scores: torch.Tensor,
 	elo_results_model_indices: torch.Tensor,
 	elo_results_opponent_indices: torch.Tensor,
-	elo_results_benchmark_indices: torch.Tensor,
+	elo_results_elo_indices: torch.Tensor,
 	elo_results_scores: torch.Tensor,
 	elo_results_weights: torch.Tensor,
 	model_id_to_index: dict[str, int],
 	benchmark_id_to_index: dict[str, int],
 	milestone_id_to_index: dict[str, int],
-	elo_benchmark_id_to_index: dict[str, int],
+	elo_id_to_index: dict[str, int],
 	data: Data,
 ) -> Output:
 	with torch.no_grad():
@@ -54,7 +54,7 @@ def create_output(
 		benchmark_difficulty_low_stds, \
 		benchmark_difficulty_high_stds, \
 		milestone_difficulties, \
-		elo_benchmark_stds = apply_constraints(
+		elo_stds = apply_constraints(
 			anchor_model_index,
 			model_intelligences_param,
 			benchmark_difficulty_modes_param,
@@ -63,7 +63,7 @@ def create_output(
 			benchmark_has_score_below_half,
 			benchmark_has_score_above_half,
 			milestone_difficulties_param,
-			elo_benchmark_stds_param,
+			elo_stds_param,
 		)
 
 		model_intelligences, \
@@ -71,13 +71,13 @@ def create_output(
 		benchmark_difficulty_low_stds, \
 		benchmark_difficulty_high_stds, \
 		milestone_difficulties, \
-		elo_benchmark_stds = apply_exact_bottom_anchor(
+		elo_stds = apply_exact_bottom_anchor(
 			model_intelligences,
 			benchmark_difficulty_modes,
 			benchmark_difficulty_low_stds,
 			benchmark_difficulty_high_stds,
 			milestone_difficulties,
-			elo_benchmark_stds,
+			elo_stds,
 		)
 
 		loss = compute_loss(
@@ -86,7 +86,7 @@ def create_output(
 			benchmark_difficulty_low_stds,
 			benchmark_difficulty_high_stds,
 			milestone_difficulties,
-			elo_benchmark_stds,
+			elo_stds,
 			benchmark_results_model_indices,
 			benchmark_results_benchmark_indices,
 			benchmark_results_scores,
@@ -95,7 +95,7 @@ def create_output(
 			milestone_results_scores,
 			elo_results_model_indices,
 			elo_results_opponent_indices,
-			elo_results_benchmark_indices,
+			elo_results_elo_indices,
 			elo_results_scores,
 			elo_results_weights,
 		)
@@ -122,7 +122,7 @@ def create_output(
 
 	output_milestone_difficulties = {id: milestone_difficulties[index].item() for id, index in sorted_milestone_ids}
 
-	output_elo_benchmark_stds = {id: elo_benchmark_stds[index].item() for id, index in elo_benchmark_id_to_index.items()}
+	output_elo_stds = {id: elo_stds[index].item() for id, index in elo_id_to_index.items()}
 
 	return Output(
 		model_intelligences=output_model_intelligences,
@@ -130,7 +130,7 @@ def create_output(
 		benchmark_difficulty_low_stds=output_benchmark_difficulty_low_stds,
 		benchmark_difficulty_high_stds=output_benchmark_difficulty_high_stds,
 		milestone_difficulties=output_milestone_difficulties,
-		elo_benchmark_stds=output_elo_benchmark_stds,
+		elo_stds=output_elo_stds,
 		loss=loss.item(),
 	)
 
@@ -143,9 +143,9 @@ def fit(data: Data, verbose: bool = True) -> Output:
 	elo_results = data.get_elo_results()
 
 	model_id_to_index = {id: index for index, id in enumerate(data.models)}
-	benchmark_id_to_index = {id: index for index, id in enumerate(id for id, benchmark in data.benchmarks.items() if benchmark.config.type != BenchmarkType.ELO)}
+	benchmark_id_to_index = {id: index for index, id in enumerate(data.benchmarks)}
 	milestone_id_to_index = {id: index for index, id in enumerate(data.milestones)}
-	elo_benchmark_id_to_index = {id: index for index, id in enumerate(id for id, benchmark in data.benchmarks.items() if benchmark.config.type == BenchmarkType.ELO)}
+	elo_id_to_index = {id: index for index, id in enumerate(data.elos)}
 	anchor_model_index = model_id_to_index[TOP_ANCHOR_MODEL]
 
 	benchmark_results_benchmark_indices = torch.tensor([benchmark_id_to_index[benchmark] for benchmark, _, _ in benchmark_results], dtype=torch.long, device=DEVICE)
@@ -156,7 +156,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 	milestone_results_model_indices = torch.tensor([model_id_to_index[model] for _, model, _ in milestone_results], dtype=torch.long, device=DEVICE)
 	milestone_results_scores = torch.tensor([score for _, _, score in milestone_results], dtype=torch.float32, device=DEVICE)
 
-	elo_results_benchmark_indices = torch.tensor([elo_benchmark_id_to_index[benchmark] for benchmark, _, _, _, _ in elo_results], dtype=torch.long, device=DEVICE)
+	elo_results_elo_indices = torch.tensor([elo_id_to_index[elo] for elo, _, _, _, _ in elo_results], dtype=torch.long, device=DEVICE)
 	elo_results_model_indices = torch.tensor([model_id_to_index[model] for _, model, _, _, _ in elo_results], dtype=torch.long, device=DEVICE)
 	elo_results_opponent_indices = torch.tensor([model_id_to_index[opponent] for _, _, opponent, _, _ in elo_results], dtype=torch.long, device=DEVICE)
 	elo_results_scores = torch.tensor([score for _, _, _, score, _ in elo_results], dtype=torch.float32, device=DEVICE)
@@ -172,7 +172,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 	benchmark_difficulty_low_stds_param = torch.rand(len(benchmark_id_to_index), device=DEVICE, requires_grad=True)
 	benchmark_difficulty_high_stds_param = torch.rand(len(benchmark_id_to_index), device=DEVICE, requires_grad=True)
 	milestone_difficulties_param = torch.rand(len(data.milestones), device=DEVICE, requires_grad=True)
-	elo_benchmark_stds_param = torch.rand(len(elo_benchmark_id_to_index), device=DEVICE, requires_grad=True)
+	elo_stds_param = torch.rand(len(elo_id_to_index), device=DEVICE, requires_grad=True)
 
 	optimizer = torch.optim.Adam([
 		model_intelligences_param,
@@ -180,7 +180,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 		benchmark_difficulty_low_stds_param,
 		benchmark_difficulty_high_stds_param,
 		milestone_difficulties_param,
-		elo_benchmark_stds_param,
+		elo_stds_param,
 	], lr=LEARNING_RATE, betas=(ADAM_BETA_1, ADAM_BETA_2))
 
 	scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=EPOCHS, eta_min=0.0)
@@ -193,7 +193,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 		benchmark_difficulty_low_stds, \
 		benchmark_difficulty_high_stds, \
 		milestone_difficulties, \
-		elo_benchmark_stds = apply_constraints(
+		elo_stds = apply_constraints(
 			anchor_model_index,
 			model_intelligences_param,
 			benchmark_difficulty_modes_param,
@@ -202,7 +202,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 			benchmark_has_score_below_half,
 			benchmark_has_score_above_half,
 			milestone_difficulties_param,
-			elo_benchmark_stds_param,
+			elo_stds_param,
 		)
 
 		loss = compute_loss(
@@ -211,7 +211,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 			benchmark_difficulty_low_stds,
 			benchmark_difficulty_high_stds,
 			milestone_difficulties,
-			elo_benchmark_stds,
+			elo_stds,
 			benchmark_results_model_indices,
 			benchmark_results_benchmark_indices,
 			benchmark_results_scores,
@@ -220,7 +220,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 			milestone_results_scores,
 			elo_results_model_indices,
 			elo_results_opponent_indices,
-			elo_results_benchmark_indices,
+			elo_results_elo_indices,
 			elo_results_scores,
 			elo_results_weights,
 		)
@@ -241,7 +241,7 @@ def fit(data: Data, verbose: bool = True) -> Output:
 		benchmark_has_score_below_half,
 		benchmark_has_score_above_half,
 		milestone_difficulties_param,
-		elo_benchmark_stds_param,
+		elo_stds_param,
 		benchmark_results_model_indices,
 		benchmark_results_benchmark_indices,
 		benchmark_results_scores,
@@ -250,12 +250,12 @@ def fit(data: Data, verbose: bool = True) -> Output:
 		milestone_results_scores,
 		elo_results_model_indices,
 		elo_results_opponent_indices,
-		elo_results_benchmark_indices,
+		elo_results_elo_indices,
 		elo_results_scores,
 		elo_results_weights,
 		model_id_to_index,
 		benchmark_id_to_index,
 		milestone_id_to_index,
-		elo_benchmark_id_to_index,
+		elo_id_to_index,
 		data,
 	)
