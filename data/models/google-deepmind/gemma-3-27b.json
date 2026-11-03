@@ -1,0 +1,109 @@
+{
+	"display_name": "Gemma 3 27B",
+	"versions": {
+		"gemma-3-27b": {
+			"display_name": "Gemma 3 27B",
+			"names": [
+				"Gemma 3 27B",
+				"Gemma 3 27B Instruct",
+				"gemma-3-27b-it",
+				"gemma-3-27b-pt",
+				"google/gemma-3-27b-it",
+				"google/gemma-3-27b-pt"
+			],
+			"link": "https://blog.google/technology/developers/gemma-3/",
+			"history": {
+				"first_mention": "2025-03-12",
+				"access": "2025-03-12",
+				"weights": "2025-03-12"
+			},
+			"parameters": {
+				"all": 27400000000,
+				"active": 27400000000
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.3
+			},
+			"efforts": [
+				""
+			]
+		},
+		"medgemma-27b-text": {
+			"display_name": "MedGemma 27B Text",
+			"names": [
+				"MedGemma 27B Text",
+				"MedGemma 27B",
+				"medgemma-27b-text-it",
+				"google/medgemma-27b-text-it"
+			],
+			"link": "https://arxiv.org/abs/2507.05201",
+			"history": {
+				"first_mention": "2025-05-20",
+				"access": "2025-05-20",
+				"weights": "2025-05-20"
+			},
+			"parameters": {
+				"all": 27400000000,
+				"active": 27400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"medgemma-27b-multimodal": {
+			"display_name": "MedGemma 27B Multimodal",
+			"names": [
+				"MedGemma 27B Multimodal",
+				"medgemma-27b-it",
+				"google/medgemma-27b-it"
+			],
+			"link": "https://arxiv.org/abs/2507.05201",
+			"history": {
+				"first_mention": "2025-07-09",
+				"access": "2025-07-09",
+				"weights": "2025-07-09"
+			},
+			"parameters": {
+				"all": 27400000000,
+				"active": 27400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"translategemma-27b": {
+			"display_name": "TranslateGemma 27B",
+			"names": [
+				"TranslateGemma 27B",
+				"translategemma-27b-it",
+				"google/translategemma-27b-it"
+			],
+			"link": "https://huggingface.co/google/translategemma-27b-it",
+			"history": {
+				"first_mention": "2026-01-15",
+				"access": "2026-01-15",
+				"weights": "2026-01-15"
+			},
+			"parameters": {
+				"all": 27400000000,
+				"active": 27400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

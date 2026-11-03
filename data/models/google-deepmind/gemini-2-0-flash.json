@@ -1,0 +1,112 @@
+{
+	"display_name": "Gemini 2.0 Flash",
+	"versions": {
+		"gemini-2-0-flash-experimental": {
+			"display_name": "Gemini 2.0 Flash Experimental",
+			"names": [
+				"Gemini 2.0 Flash Experimental",
+				"Gemini 2.0 Flash (experimental)",
+				"Gemini 2.0 Flash Exp",
+				"gemini-2.0-flash-exp"
+			],
+			"link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/",
+			"history": {
+				"first_mention": "2024-12-11",
+				"access": "2024-12-11",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-2-0-flash-thinking-dec-2024": {
+			"display_name": "Gemini 2.0 Flash Thinking Experimental (Dec 2024)",
+			"names": [
+				"Gemini 2.0 Flash Thinking Experimental (Dec 2024)",
+				"Gemini 2.0 Flash Thinking Experimental (Dec '24)",
+				"Gemini 2.0 Flash Thinking (Dec 2024)",
+				"gemini-2.0-flash-thinking-exp-1219"
+			],
+			"link": "https://deepmind.google/technologies/gemini/flash-thinking/",
+			"history": {
+				"first_mention": "2024-12-19",
+				"access": "2024-12-19",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-2-0-flash-thinking-jan-2025": {
+			"display_name": "Gemini 2.0 Flash Thinking Experimental (Jan 2025)",
+			"names": [
+				"Gemini 2.0 Flash Thinking Experimental (Jan 2025)",
+				"Gemini 2.0 Flash Thinking Experimental (Jan '25)",
+				"Gemini 2.0 Flash Thinking (Jan 2025)",
+				"gemini-2.0-flash-thinking-exp-01-21",
+				"gemini-2.0-flash-thinking-exp"
+			],
+			"link": "https://ai.google.dev/gemini-api/docs/changelog",
+			"history": {
+				"first_mention": "2025-01-21",
+				"access": "2025-01-21",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-2-0-flash": {
+			"display_name": "Gemini 2.0 Flash",
+			"names": [
+				"Gemini 2.0 Flash",
+				"Gemini 2.0 Flash (Feb '25)",
+				"Gemini 2.0 Flash (Feb 2025)",
+				"gemini-2.0-flash",
+				"gemini-2.0-flash-001",
+				"gemini-2.0-flash-02-05"
+			],
+			"link": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/",
+			"history": {
+				"first_mention": "2025-02-05",
+				"access": "2025-02-05",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.4
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"display_name": "ByT5-XXL",
+	"versions": {
+		"byt5-xxl": {
+			"display_name": "ByT5-XXL",
+			"names": [
+				"ByT5-XXL",
+				"ByT5 XXL",
+				"byt5-xxl",
+				"google/byt5-xxl"
+			],
+			"link": "https://arxiv.org/abs/2105.13626",
+			"history": {
+				"first_mention": "2021-05-28",
+				"access": "2021-05-28",
+				"weights": "2021-05-28"
+			},
+			"parameters": {
+				"all": 12900000000,
+				"active": 12900000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

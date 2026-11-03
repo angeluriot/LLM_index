@@ -1,0 +1,35 @@
+{
+	"display_name": "Gemma 4 26B A4B",
+	"versions": {
+		"gemma-4-26b-a4b": {
+			"display_name": "Gemma 4 26B A4B",
+			"names": [
+				"Gemma 4 26B A4B",
+				"Gemma 4 26B",
+				"gemma-4-26b-a4b",
+				"gemma-4-26b-a4b-it",
+				"gemma-4-26B-A4B-it",
+				"google/gemma-4-26B-A4B",
+				"google/gemma-4-26B-A4B-it"
+			],
+			"link": "https://ai.google.dev/gemma/docs/core/model_card_4",
+			"history": {
+				"first_mention": "2026-04-02",
+				"access": "2026-04-02",
+				"weights": "2026-04-02"
+			},
+			"parameters": {
+				"all": 25200000000,
+				"active": 3800000000
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.34
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

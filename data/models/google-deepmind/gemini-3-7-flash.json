@@ -1,0 +1,31 @@
+{
+	"display_name": "Gemini 3.7 Flash",
+	"versions": {
+		"gemini-3-7-flash": {
+			"display_name": "Gemini 3.7 Flash",
+			"names": [
+				"Gemini 3.7 Flash",
+				"gemini-3.7-flash"
+			],
+			"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+			"history": {
+				"first_mention": "2026-08-13",
+				"access": "2026-08-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.5,
+				"output": 7.5
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

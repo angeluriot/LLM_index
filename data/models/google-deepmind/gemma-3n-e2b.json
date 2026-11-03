@@ -1,0 +1,33 @@
+{
+	"display_name": "Gemma 3n E2B",
+	"versions": {
+		"gemma-3n-e2b": {
+			"display_name": "Gemma 3n E2B",
+			"names": [
+				"Gemma 3n E2B",
+				"Gemma 3n E2B Instruct",
+				"gemma-3n-e2b-it",
+				"gemma-3n-E2B-it",
+				"google/gemma-3n-E2B-it",
+				"google/gemma-3n-E2B"
+			],
+			"link": "https://developers.googleblog.com/en/introducing-gemma-3n/",
+			"history": {
+				"first_mention": "2025-06-26",
+				"access": "2025-06-26",
+				"weights": "2025-06-26"
+			},
+			"parameters": {
+				"all": 5440000000,
+				"active": 2000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

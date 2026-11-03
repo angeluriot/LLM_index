@@ -1,0 +1,112 @@
+{
+	"display_name": "Gemma 7B",
+	"versions": {
+		"gemma-7b": {
+			"display_name": "Gemma 7B",
+			"names": [
+				"Gemma 7B",
+				"Gemma 1 7B",
+				"Gemma 1.0 7B",
+				"gemma-7b",
+				"gemma-7b-it",
+				"google/gemma-7b",
+				"google/gemma-7b-it"
+			],
+			"link": "https://blog.google/technology/developers/gemma-open-models/",
+			"history": {
+				"first_mention": "2024-02-21",
+				"access": "2024-02-21",
+				"weights": "2024-02-21"
+			},
+			"parameters": {
+				"all": 8540000000,
+				"active": 8540000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemma-1-1-7b": {
+			"display_name": "Gemma 1.1 7B",
+			"names": [
+				"Gemma 1.1 7B",
+				"Gemma 1.1 7B Instruct",
+				"gemma-1.1-7b-it",
+				"google/gemma-1.1-7b-it"
+			],
+			"link": "https://huggingface.co/google/gemma-1.1-7b-it",
+			"history": {
+				"first_mention": "2024-04-05",
+				"access": "2024-04-05",
+				"weights": "2024-04-05"
+			},
+			"parameters": {
+				"all": 8540000000,
+				"active": 8540000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"codegemma-7b": {
+			"display_name": "CodeGemma 7B",
+			"names": [
+				"CodeGemma 7B",
+				"codegemma-7b",
+				"codegemma-7b-it",
+				"google/codegemma-7b",
+				"google/codegemma-7b-it"
+			],
+			"link": "https://ai.google.dev/gemma/docs/codegemma",
+			"history": {
+				"first_mention": "2024-04-09",
+				"access": "2024-04-09",
+				"weights": "2024-04-09"
+			},
+			"parameters": {
+				"all": 8540000000,
+				"active": 8540000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"codegemma-1-1-7b": {
+			"display_name": "CodeGemma 1.1 7B",
+			"names": [
+				"CodeGemma 1.1 7B",
+				"codegemma-1.1-7b-it",
+				"google/codegemma-1.1-7b-it"
+			],
+			"link": "https://ai.google.dev/gemma/docs/codegemma",
+			"history": {
+				"first_mention": "2024-05-03",
+				"access": "2024-05-03",
+				"weights": "2024-05-03"
+			},
+			"parameters": {
+				"all": 8540000000,
+				"active": 8540000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

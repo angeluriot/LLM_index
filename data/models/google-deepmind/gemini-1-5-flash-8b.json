@@ -1,0 +1,79 @@
+{
+	"display_name": "Gemini 1.5 Flash-8B",
+	"versions": {
+		"gemini-1-5-flash-8b-aug-2024": {
+			"display_name": "Gemini 1.5 Flash-8B (Aug 2024)",
+			"names": [
+				"Gemini 1.5 Flash-8B (Aug 2024)",
+				"gemini-1.5-flash-8b-exp-0827"
+			],
+			"link": "https://ai.google.dev/gemini-api/docs/changelog",
+			"history": {
+				"first_mention": "2024-08-27",
+				"access": "2024-08-27",
+				"weights": null
+			},
+			"parameters": {
+				"all": 8000000000,
+				"active": 8000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-1-5-flash-8b-sep-2024": {
+			"display_name": "Gemini 1.5 Flash-8B (Sep 2024)",
+			"names": [
+				"Gemini 1.5 Flash-8B (Sep 2024)",
+				"gemini-1.5-flash-8b-exp-0924"
+			],
+			"link": "https://ai.google.dev/gemini-api/docs/changelog",
+			"history": {
+				"first_mention": "2024-09-24",
+				"access": "2024-09-24",
+				"weights": null
+			},
+			"parameters": {
+				"all": 8000000000,
+				"active": 8000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-1-5-flash-8b": {
+			"display_name": "Gemini 1.5 Flash-8B",
+			"names": [
+				"Gemini 1.5 Flash-8B",
+				"Gemini 1.5 Flash 8B",
+				"gemini-1.5-flash-8b",
+				"gemini-1.5-flash-8b-001"
+			],
+			"link": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/",
+			"history": {
+				"first_mention": "2024-10-03",
+				"access": "2024-10-03",
+				"weights": null
+			},
+			"parameters": {
+				"all": 8000000000,
+				"active": 8000000000
+			},
+			"price": {
+				"input": 0.0375,
+				"output": 0.15
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"display_name": "Gemma 3 270M",
+	"versions": {
+		"gemma-3-270m": {
+			"display_name": "Gemma 3 270M",
+			"names": [
+				"Gemma 3 270M",
+				"gemma-3-270m",
+				"gemma-3-270m-it",
+				"google/gemma-3-270m",
+				"google/gemma-3-270m-it"
+			],
+			"link": "https://developers.googleblog.com/en/introducing-gemma-3-270m/",
+			"history": {
+				"first_mention": "2025-08-14",
+				"access": "2025-08-14",
+				"weights": "2025-08-14"
+			},
+			"parameters": {
+				"all": 268000000,
+				"active": 268000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"functiongemma": {
+			"display_name": "FunctionGemma",
+			"names": [
+				"FunctionGemma",
+				"FunctionGemma 270M",
+				"functiongemma-270m-it",
+				"google/functiongemma-270m-it"
+			],
+			"link": "https://ai.google.dev/gemma/docs/functiongemma",
+			"history": {
+				"first_mention": "2025-12-18",
+				"access": "2025-12-18",
+				"weights": "2025-12-18"
+			},
+			"parameters": {
+				"all": 268000000,
+				"active": 268000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

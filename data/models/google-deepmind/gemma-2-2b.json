@@ -1,0 +1,83 @@
+{
+	"display_name": "Gemma 2 2B",
+	"versions": {
+		"gemma-2-2b": {
+			"display_name": "Gemma 2 2B",
+			"names": [
+				"Gemma 2 2B",
+				"gemma-2-2b",
+				"gemma-2-2b-it",
+				"google/gemma-2-2b",
+				"google/gemma-2-2b-it"
+			],
+			"link": "https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/",
+			"history": {
+				"first_mention": "2024-07-31",
+				"access": "2024-07-31",
+				"weights": "2024-07-31"
+			},
+			"parameters": {
+				"all": 2610000000,
+				"active": 2610000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemma-2-jpn": {
+			"display_name": "Gemma 2 JPN",
+			"names": [
+				"Gemma 2 JPN",
+				"Gemma 2 2B JPN",
+				"gemma-2-2b-jpn-it",
+				"google/gemma-2-2b-jpn-it"
+			],
+			"link": "https://huggingface.co/google/gemma-2-2b-jpn-it",
+			"history": {
+				"first_mention": "2024-10-03",
+				"access": "2024-10-03",
+				"weights": "2024-10-03"
+			},
+			"parameters": {
+				"all": 2610000000,
+				"active": 2610000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"txgemma-2b": {
+			"display_name": "TxGemma 2B",
+			"names": [
+				"TxGemma 2B",
+				"txgemma-2b-predict",
+				"google/txgemma-2b-predict"
+			],
+			"link": "https://arxiv.org/abs/2504.06196",
+			"history": {
+				"first_mention": "2025-03-25",
+				"access": "2025-03-25",
+				"weights": "2025-03-25"
+			},
+			"parameters": {
+				"all": 2610000000,
+				"active": 2610000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

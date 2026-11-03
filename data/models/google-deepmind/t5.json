@@ -1,0 +1,273 @@
+{
+	"display_name": "T5",
+	"versions": {
+		"t5-small": {
+			"display_name": "T5-Small",
+			"names": [
+				"T5-Small",
+				"T5 Small",
+				"t5-small",
+				"google-t5/t5-small"
+			],
+			"link": "https://research.google/blog/exploring-transfer-learning-with-t5-the-text-to-text-transfer-transformer/",
+			"history": {
+				"first_mention": "2019-10-23",
+				"access": "2019-10-23",
+				"weights": "2019-10-23"
+			},
+			"parameters": {
+				"all": 60000000,
+				"active": 60000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"t5-base": {
+			"display_name": "T5-Base",
+			"names": [
+				"T5-Base",
+				"T5 Base",
+				"t5-base",
+				"google-t5/t5-base"
+			],
+			"link": "https://research.google/blog/exploring-transfer-learning-with-t5-the-text-to-text-transfer-transformer/",
+			"history": {
+				"first_mention": "2019-10-23",
+				"access": "2019-10-23",
+				"weights": "2019-10-23"
+			},
+			"parameters": {
+				"all": 220000000,
+				"active": 220000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"t5-large": {
+			"display_name": "T5-Large",
+			"names": [
+				"T5-Large",
+				"T5 Large",
+				"t5-large",
+				"google-t5/t5-large"
+			],
+			"link": "https://research.google/blog/exploring-transfer-learning-with-t5-the-text-to-text-transfer-transformer/",
+			"history": {
+				"first_mention": "2019-10-23",
+				"access": "2019-10-23",
+				"weights": "2019-10-23"
+			},
+			"parameters": {
+				"all": 770000000,
+				"active": 770000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"t5-3b": {
+			"display_name": "T5-3B",
+			"names": [
+				"T5-3B",
+				"T5 3B",
+				"t5-3b",
+				"google-t5/t5-3b"
+			],
+			"link": "https://research.google/blog/exploring-transfer-learning-with-t5-the-text-to-text-transfer-transformer/",
+			"history": {
+				"first_mention": "2019-10-23",
+				"access": "2019-10-23",
+				"weights": "2019-10-23"
+			},
+			"parameters": {
+				"all": 2800000000,
+				"active": 2800000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"t5-11b": {
+			"display_name": "T5-11B",
+			"names": [
+				"T5-11B",
+				"T5 11B",
+				"t5-11b",
+				"google-t5/t5-11b",
+				"T5"
+			],
+			"link": "https://research.google/blog/exploring-transfer-learning-with-t5-the-text-to-text-transfer-transformer/",
+			"history": {
+				"first_mention": "2019-10-23",
+				"access": "2019-10-23",
+				"weights": "2019-10-23"
+			},
+			"parameters": {
+				"all": 11000000000,
+				"active": 11000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"flan-t5-small": {
+			"display_name": "Flan-T5-Small",
+			"names": [
+				"Flan-T5-Small",
+				"Flan-T5 Small",
+				"FLAN-T5 Small",
+				"flan-t5-small",
+				"google/flan-t5-small"
+			],
+			"link": "https://arxiv.org/abs/2210.11416",
+			"history": {
+				"first_mention": "2022-10-20",
+				"access": "2022-10-20",
+				"weights": "2022-10-20"
+			},
+			"parameters": {
+				"all": 77000000,
+				"active": 77000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"flan-t5-base": {
+			"display_name": "Flan-T5-Base",
+			"names": [
+				"Flan-T5-Base",
+				"Flan-T5 Base",
+				"FLAN-T5 Base",
+				"flan-t5-base",
+				"google/flan-t5-base"
+			],
+			"link": "https://arxiv.org/abs/2210.11416",
+			"history": {
+				"first_mention": "2022-10-20",
+				"access": "2022-10-20",
+				"weights": "2022-10-20"
+			},
+			"parameters": {
+				"all": 248000000,
+				"active": 248000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"flan-t5-large": {
+			"display_name": "Flan-T5-Large",
+			"names": [
+				"Flan-T5-Large",
+				"Flan-T5 Large",
+				"FLAN-T5 Large",
+				"flan-t5-large",
+				"google/flan-t5-large"
+			],
+			"link": "https://arxiv.org/abs/2210.11416",
+			"history": {
+				"first_mention": "2022-10-20",
+				"access": "2022-10-20",
+				"weights": "2022-10-20"
+			},
+			"parameters": {
+				"all": 783000000,
+				"active": 783000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"flan-t5-xl": {
+			"display_name": "Flan-T5-XL",
+			"names": [
+				"Flan-T5-XL",
+				"Flan-T5 XL",
+				"FLAN-T5 XL",
+				"flan-t5-xl",
+				"google/flan-t5-xl"
+			],
+			"link": "https://arxiv.org/abs/2210.11416",
+			"history": {
+				"first_mention": "2022-10-20",
+				"access": "2022-10-20",
+				"weights": "2022-10-20"
+			},
+			"parameters": {
+				"all": 2850000000,
+				"active": 2850000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"flan-t5-xxl": {
+			"display_name": "Flan-T5-XXL",
+			"names": [
+				"Flan-T5-XXL",
+				"Flan-T5 XXL",
+				"FLAN-T5 XXL",
+				"flan-t5-xxl",
+				"google/flan-t5-xxl",
+				"Flan-T5 11B",
+				"Flan-T5"
+			],
+			"link": "https://arxiv.org/abs/2210.11416",
+			"history": {
+				"first_mention": "2022-10-20",
+				"access": "2022-10-20",
+				"weights": "2022-10-20"
+			},
+			"parameters": {
+				"all": 11300000000,
+				"active": 11300000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

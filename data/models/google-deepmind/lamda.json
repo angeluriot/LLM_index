@@ -1,0 +1,79 @@
+{
+	"display_name": "LaMDA",
+	"versions": {
+		"lamda": {
+			"display_name": "LaMDA",
+			"names": [
+				"LaMDA",
+				"LaMDA 137B",
+				"LaMDA-PT"
+			],
+			"link": "https://blog.google/technology/ai/lamda/",
+			"history": {
+				"first_mention": "2021-05-18",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 137000000000,
+				"active": 137000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"flan-137b": {
+			"display_name": "FLAN 137B",
+			"names": [
+				"FLAN 137B",
+				"FLAN",
+				"FLAN (LaMDA-PT)"
+			],
+			"link": "https://arxiv.org/abs/2109.01652",
+			"history": {
+				"first_mention": "2021-09-03",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 137000000000,
+				"active": 137000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"bard-lamda": {
+			"display_name": "Bard (LaMDA)",
+			"names": [
+				"Bard (LaMDA)",
+				"Bard (Mar 2023)"
+			],
+			"link": "https://blog.google/technology/ai/bard-google-ai-search-updates/",
+			"history": {
+				"first_mention": "2023-02-06",
+				"access": "2023-03-21",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,420 @@
+{
+	"display_name": "PaLM 2",
+	"versions": {
+		"med-palm-2": {
+			"display_name": "Med-PaLM 2",
+			"names": [
+				"Med-PaLM 2",
+				"Med-PaLM-2"
+			],
+			"link": "https://arxiv.org/abs/2305.09617",
+			"history": {
+				"first_mention": "2023-03-14",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"palm-2-s": {
+			"display_name": "PaLM 2-S",
+			"names": [
+				"PaLM 2-S",
+				"PaLM 2 S",
+				"PaLM-2-S",
+				"PaLM 2 Small"
+			],
+			"link": "https://arxiv.org/abs/2305.10403",
+			"history": {
+				"first_mention": "2023-05-10",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"palm-2-m": {
+			"display_name": "PaLM 2-M",
+			"names": [
+				"PaLM 2-M",
+				"PaLM 2 M",
+				"PaLM-2-M",
+				"PaLM 2 Medium"
+			],
+			"link": "https://arxiv.org/abs/2305.10403",
+			"history": {
+				"first_mention": "2023-05-10",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"palm-2-l": {
+			"display_name": "PaLM 2-L",
+			"names": [
+				"PaLM 2-L",
+				"PaLM 2",
+				"PaLM 2 L",
+				"PaLM-2-L",
+				"PaLM 2 Large"
+			],
+			"link": "https://arxiv.org/abs/2305.10403",
+			"history": {
+				"first_mention": "2023-05-10",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"bard-palm-2": {
+			"display_name": "Bard (PaLM 2)",
+			"names": [
+				"Bard (PaLM 2)",
+				"Bard (May 2023)"
+			],
+			"link": "https://blog.google/technology/ai/google-bard-updates-io-2023/",
+			"history": {
+				"first_mention": "2023-05-10",
+				"access": "2023-05-10",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"palm-2-gecko": {
+			"display_name": "PaLM 2 Gecko",
+			"names": [
+				"PaLM 2 Gecko",
+				"PaLM-2 Gecko"
+			],
+			"link": "https://ai.google.dev/palm_docs/palm#model-sizes",
+			"history": {
+				"first_mention": "2023-05-10",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"palm-2-otter": {
+			"display_name": "PaLM 2 Otter",
+			"names": [
+				"PaLM 2 Otter",
+				"PaLM-2 Otter"
+			],
+			"link": "https://ai.google.dev/palm_docs/palm#model-sizes",
+			"history": {
+				"first_mention": "2023-05-10",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"text-bison-001": {
+			"display_name": "PaLM 2 Bison (text-bison@001)",
+			"names": [
+				"PaLM 2 Bison (text-bison@001)",
+				"PaLM 2 for Text",
+				"PaLM-2 Bison",
+				"PaLM 2 Bison",
+				"text-bison",
+				"text-bison@001",
+				"text-bison-001"
+			],
+			"link": "https://ai.google.dev/palm_docs/palm#model-sizes",
+			"history": {
+				"first_mention": "2023-05-10",
+				"access": "2023-05-10",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"chat-bison-001": {
+			"display_name": "PaLM 2 Bison Chat (chat-bison@001)",
+			"names": [
+				"PaLM 2 Bison Chat (chat-bison@001)",
+				"PaLM 2 for Chat",
+				"PaLM 2 Chat",
+				"PALM-2",
+				"chat-bison",
+				"chat-bison@001",
+				"chat-bison-001"
+			],
+			"link": "https://ai.google.dev/palm_docs/palm#model-sizes",
+			"history": {
+				"first_mention": "2023-05-10",
+				"access": "2023-05-10",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"code-bison-001": {
+			"display_name": "Codey (code-bison@001)",
+			"names": [
+				"Codey (code-bison@001)",
+				"Codey",
+				"Codey for Code Generation",
+				"code-bison",
+				"code-bison@001",
+				"codechat-bison",
+				"codechat-bison@001"
+			],
+			"link": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/",
+			"history": {
+				"first_mention": "2023-05-10",
+				"access": "2023-05-10",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"code-gecko-001": {
+			"display_name": "Codey (code-gecko@001)",
+			"names": [
+				"Codey (code-gecko@001)",
+				"Codey for Code Completion",
+				"code-gecko",
+				"code-gecko@001"
+			],
+			"link": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/",
+			"history": {
+				"first_mention": "2023-05-10",
+				"access": "2023-06-07",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"palm-2-unicorn": {
+			"display_name": "PaLM 2 Unicorn",
+			"names": [
+				"PaLM 2 Unicorn",
+				"PaLM 2 for Text Unicorn",
+				"PaLM-2 Unicorn",
+				"text-unicorn",
+				"text-unicorn@001"
+			],
+			"link": "https://cloud.google.com/blog/products/ai-machine-learning/palm-2-unicorn-and-more-generally-available",
+			"history": {
+				"first_mention": "2023-05-10",
+				"access": "2023-11-30",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"text-bison-002": {
+			"display_name": "PaLM 2 Bison (text-bison@002)",
+			"names": [
+				"PaLM 2 Bison (text-bison@002)",
+				"text-bison@002",
+				"text-bison-32k"
+			],
+			"link": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+			"history": {
+				"first_mention": "2023-12-06",
+				"access": "2023-12-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"chat-bison-002": {
+			"display_name": "PaLM 2 Bison Chat (chat-bison@002)",
+			"names": [
+				"PaLM 2 Bison Chat (chat-bison@002)",
+				"chat-bison@002",
+				"chat-bison-32k"
+			],
+			"link": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+			"history": {
+				"first_mention": "2023-12-06",
+				"access": "2023-12-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"medlm": {
+			"display_name": "MedLM",
+			"names": [
+				"MedLM",
+				"MedLM Large",
+				"medlm-large"
+			],
+			"link": "https://cloud.google.com/blog/topics/healthcare-life-sciences/introducing-medlm-for-the-healthcare-industry",
+			"history": {
+				"first_mention": "2023-12-13",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"amie": {
+			"display_name": "AMIE",
+			"names": [
+				"AMIE",
+				"Articulate Medical Intelligence Explorer",
+				"AMIE (PaLM 2)"
+			],
+			"link": "https://arxiv.org/abs/2401.05654",
+			"history": {
+				"first_mention": "2024-01-11",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

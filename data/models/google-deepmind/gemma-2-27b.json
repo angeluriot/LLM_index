@@ -1,0 +1,115 @@
+{
+	"display_name": "Gemma 2 27B",
+	"versions": {
+		"gemma-2-27b": {
+			"display_name": "Gemma 2 27B",
+			"names": [
+				"Gemma 2 27B",
+				"gemma-2-27b",
+				"gemma-2-27b-it",
+				"google/gemma-2-27b",
+				"google/gemma-2-27b-it"
+			],
+			"link": "https://blog.google/technology/developers/google-gemma-2/",
+			"history": {
+				"first_mention": "2024-05-14",
+				"access": "2024-06-27",
+				"weights": "2024-06-27"
+			},
+			"parameters": {
+				"all": 27230000000,
+				"active": 27230000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"datagemma": {
+			"display_name": "DataGemma",
+			"names": [
+				"DataGemma",
+				"DataGemma 27B",
+				"DataGemma RIG",
+				"DataGemma RAG",
+				"datagemma-rig-27b-it",
+				"datagemma-rag-27b-it",
+				"google/datagemma-rig-27b-it",
+				"google/datagemma-rag-27b-it"
+			],
+			"link": "https://arxiv.org/abs/2409.13741",
+			"history": {
+				"first_mention": "2024-09-12",
+				"access": "2024-09-12",
+				"weights": "2024-09-12"
+			},
+			"parameters": {
+				"all": 27230000000,
+				"active": 27230000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"txgemma-27b": {
+			"display_name": "TxGemma 27B",
+			"names": [
+				"TxGemma 27B",
+				"txgemma-27b-chat",
+				"txgemma-27b-predict",
+				"google/txgemma-27b-chat",
+				"google/txgemma-27b-predict"
+			],
+			"link": "https://arxiv.org/abs/2504.06196",
+			"history": {
+				"first_mention": "2025-03-25",
+				"access": "2025-03-25",
+				"weights": "2025-03-25"
+			},
+			"parameters": {
+				"all": 27230000000,
+				"active": 27230000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"c2s-scale-27b": {
+			"display_name": "C2S-Scale 27B",
+			"names": [
+				"C2S-Scale 27B",
+				"C2S-Scale",
+				"C2S-Scale-Gemma-2-27B",
+				"vandijklab/C2S-Scale-Gemma-2-27B"
+			],
+			"link": "https://huggingface.co/vandijklab/C2S-Scale-Gemma-2-27B",
+			"history": {
+				"first_mention": "2025-10-15",
+				"access": "2025-10-15",
+				"weights": "2025-10-15"
+			},
+			"parameters": {
+				"all": 27230000000,
+				"active": 27230000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -19,7 +19,7 @@ NOTES = 'https://help.openai.com/en/articles/9624314-model-release-notes'
 CHATGPT_NOTES = 'https://help.openai.com/en/articles/6825453-chatgpt-release-notes'
 DOCS = 'https://developers.openai.com/api/docs/models/'
 
-# GPT-2 (all sizes are versions: deliberate exception for GPT-2 and GPT-3 only, other sizes are separate models)
+# GPT-2 (all sizes are versions: deliberate exception for GPT-2, GPT-3, T5, PaLM and PaLM 2 only, other sizes are separate models)
 GPT2 = 'https://openai.com/index/better-language-models/'
 M('GPT-2',
 	V('GPT-2 (124M)', ['GPT-2 124M', 'GPT-2 117M', 'GPT-2 Small', 'gpt2'], GPT2, '2019-02-14', '2019-02-14', id='gpt-2-124m', weights='2019-02-14', params=(124_000_000, 124_000_000)),
@@ -77,8 +77,8 @@ GPT4 = 'https://openai.com/index/gpt-4-research/'
 P4 = (1_800 * B, None)
 M('GPT-4',
 	V('GPT-4 (Mar 2023)', ['GPT-4 (0314)', 'gpt-4-0314', 'gpt-4-32k-0314'], GPT4, '2023-03-14', '2023-03-14', params=P4, price=(30, 60)),
-	V('GPT-4 (Jun 2023)', ['GPT-4 (June 2023)', 'GPT-4 (0613)', 'gpt-4-0613', 'gpt-4-32k-0613'], FUNC, '2023-06-13', '2023-06-13', params=P4, price=(30, 60)),
 	V('GPT-4V', ['GPT-4 Vision', 'GPT-4V(ision)'], 'https://openai.com/index/gpt-4v-system-card/', '2023-03-14', '2023-09-25', params=P4),
+	V('GPT-4 (Jun 2023)', ['GPT-4 (June 2023)', 'GPT-4 (0613)', 'gpt-4-0613', 'gpt-4-32k-0613'], FUNC, '2023-06-13', '2023-06-13', params=P4, price=(30, 60)),
 )
 M('GPT-4 Turbo',
 	V('GPT-4 Turbo (Nov 2023)', ['GPT-4 Turbo Preview (Nov 2023)', 'gpt-4-1106-preview'], DEVDAY, '2023-11-06', '2023-11-06', price=(10, 30)),
@@ -112,8 +112,8 @@ O3 = 'https://openai.com/index/introducing-o3-and-o4-mini/'
 CODEX = 'https://openai.com/index/introducing-codex/'
 M('o3',
 	V('o3-preview', ['o3 Preview', 'o3 (Preview)'], 'https://arcprize.org/blog/oai-o3-pub-breakthrough', '2024-12-20', None, efforts=['Low', 'High']),
-	V('o3-deep-research', ['o3 Deep Research', 'Deep Research', 'OpenAI Deep Research', 'o3-deep-research-2025-06-26'], 'https://openai.com/index/introducing-deep-research/', '2025-02-02', '2025-02-02', price=(10, 40)),
 	V('o3', ['o3-2025-04-16'], O3, '2024-12-20', '2025-04-16', price=(2, 8), efforts=LMH),
+	V('o3-deep-research', ['o3 Deep Research', 'Deep Research', 'OpenAI Deep Research', 'o3-deep-research-2025-06-26'], 'https://openai.com/index/introducing-deep-research/', '2025-02-02', '2025-02-02', price=(10, 40)),
 	V('codex-1', [], CODEX, '2025-05-16', '2025-05-16'),
 	V('o3-pro', ['o3 Pro', 'o3-pro-2025-06-10'], NOTES, '2025-06-10', '2025-06-10', price=(20, 80), efforts=LMH),
 )

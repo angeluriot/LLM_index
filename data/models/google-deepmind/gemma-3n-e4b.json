@@ -1,0 +1,59 @@
+{
+	"display_name": "Gemma 3n E4B",
+	"versions": {
+		"gemma-3n-e4b-preview": {
+			"display_name": "Gemma 3n E4B Preview",
+			"names": [
+				"Gemma 3n E4B Preview",
+				"Gemma 3n E4B Instruct Preview (May '25)",
+				"Gemma 3n Preview",
+				"gemma-3n-e4b-it-preview"
+			],
+			"link": "https://developers.googleblog.com/en/introducing-gemma-3n/",
+			"history": {
+				"first_mention": "2025-05-20",
+				"access": "2025-05-20",
+				"weights": null
+			},
+			"parameters": {
+				"all": 7850000000,
+				"active": 4000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemma-3n-e4b": {
+			"display_name": "Gemma 3n E4B",
+			"names": [
+				"Gemma 3n E4B",
+				"Gemma 3n E4B Instruct",
+				"gemma-3n-e4b-it",
+				"gemma-3n-E4B-it",
+				"google/gemma-3n-E4B-it",
+				"google/gemma-3n-E4B"
+			],
+			"link": "https://developers.googleblog.com/en/introducing-gemma-3n/",
+			"history": {
+				"first_mention": "2025-05-20",
+				"access": "2025-06-26",
+				"weights": "2025-06-26"
+			},
+			"parameters": {
+				"all": 7850000000,
+				"active": 4000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

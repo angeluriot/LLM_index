@@ -1,0 +1,30 @@
+{
+	"display_name": "Gopher 280B",
+	"versions": {
+		"gopher-280b": {
+			"display_name": "Gopher 280B",
+			"names": [
+				"Gopher 280B",
+				"Gopher",
+				"Gopher (280B)"
+			],
+			"link": "https://arxiv.org/abs/2112.11446",
+			"history": {
+				"first_mention": "2021-12-08",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 280000000000,
+				"active": 280000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

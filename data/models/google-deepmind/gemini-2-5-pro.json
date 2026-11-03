@@ -1,0 +1,137 @@
+{
+	"display_name": "Gemini 2.5 Pro",
+	"versions": {
+		"gemini-2-5-pro-mar-2025": {
+			"display_name": "Gemini 2.5 Pro (Mar 2025)",
+			"names": [
+				"Gemini 2.5 Pro (Mar 2025)",
+				"Gemini 2.5 Pro Preview (Mar' 25)",
+				"Gemini 2.5 Pro Preview (Mar '25)",
+				"Gemini 2.5 Pro Experimental",
+				"gemini-2.5-pro-exp-03-25",
+				"gemini-2.5-pro-preview-03-25"
+			],
+			"link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
+			"history": {
+				"first_mention": "2025-03-25",
+				"access": "2025-03-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.25,
+				"output": 10.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-2-5-pro-may-2025": {
+			"display_name": "Gemini 2.5 Pro (May 2025)",
+			"names": [
+				"Gemini 2.5 Pro (May 2025)",
+				"Gemini 2.5 Pro Preview (May' 25)",
+				"Gemini 2.5 Pro Preview (May '25)",
+				"Gemini 2.5 Pro I/O Edition",
+				"gemini-2.5-pro-preview-05-06"
+			],
+			"link": "https://ai.google.dev/gemini-api/docs/changelog",
+			"history": {
+				"first_mention": "2025-05-06",
+				"access": "2025-05-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.25,
+				"output": 10.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-2-5-deep-think": {
+			"display_name": "Gemini 2.5 Deep Think",
+			"names": [
+				"Gemini 2.5 Deep Think",
+				"gemini-2.5-deep-think",
+				"gemini-2.5-deep-think-2025-08-01-webapp"
+			],
+			"link": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Deep-Think-Model-Card.pdf",
+			"history": {
+				"first_mention": "2025-05-20",
+				"access": "2025-08-01",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-2-5-pro": {
+			"display_name": "Gemini 2.5 Pro",
+			"names": [
+				"Gemini 2.5 Pro",
+				"Gemini 2.5 Pro (Jun 2025)",
+				"Gemini 2.5 Pro (Jun '25)",
+				"gemini-2.5-pro",
+				"gemini-2.5-pro-preview-06-05"
+			],
+			"link": "https://blog.google/products/gemini/gemini-2-5-model-family-expands/",
+			"history": {
+				"first_mention": "2025-06-05",
+				"access": "2025-06-05",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.25,
+				"output": 10.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-2-5-deep-think-imo-2025": {
+			"display_name": "Gemini 2.5 Deep Think (IMO 2025)",
+			"names": [
+				"Gemini 2.5 Deep Think (IMO 2025)",
+				"Gemini Deep Think (IMO)",
+				"Gemini Deep Think IMO"
+			],
+			"link": "https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+			"history": {
+				"first_mention": "2025-07-21",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

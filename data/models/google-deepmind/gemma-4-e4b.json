@@ -1,0 +1,33 @@
+{
+	"display_name": "Gemma 4 E4B",
+	"versions": {
+		"gemma-4-e4b": {
+			"display_name": "Gemma 4 E4B",
+			"names": [
+				"Gemma 4 E4B",
+				"gemma-4-e4b",
+				"gemma-4-E4B-it",
+				"google/gemma-4-E4B",
+				"google/gemma-4-E4B-it"
+			],
+			"link": "https://ai.google.dev/gemma/docs/core/model_card_4",
+			"history": {
+				"first_mention": "2026-04-02",
+				"access": "2026-04-02",
+				"weights": "2026-04-02"
+			},
+			"parameters": {
+				"all": 8000000000,
+				"active": 4500000000
+			},
+			"price": {
+				"input": 0.02,
+				"output": 0.1
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

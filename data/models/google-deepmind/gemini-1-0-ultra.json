@@ -1,0 +1,58 @@
+{
+	"display_name": "Gemini 1.0 Ultra",
+	"versions": {
+		"gemini-1-0-ultra": {
+			"display_name": "Gemini 1.0 Ultra",
+			"names": [
+				"Gemini 1.0 Ultra",
+				"Gemini Ultra",
+				"Gemini Ultra 1.0",
+				"gemini-ultra",
+				"gemini-1.0-ultra",
+				"Gemini Advanced (Ultra 1.0)"
+			],
+			"link": "https://blog.google/technology/ai/google-gemini-ai/",
+			"history": {
+				"first_mention": "2023-05-10",
+				"access": "2024-02-08",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"med-gemini-l-1-0": {
+			"display_name": "Med-Gemini-L 1.0",
+			"names": [
+				"Med-Gemini-L 1.0",
+				"Med-Gemini",
+				"Med-Gemini-L"
+			],
+			"link": "https://arxiv.org/abs/2404.18416",
+			"history": {
+				"first_mention": "2024-04-29",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

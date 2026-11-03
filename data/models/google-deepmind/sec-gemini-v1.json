@@ -1,0 +1,30 @@
+{
+	"display_name": "Sec-Gemini v1",
+	"versions": {
+		"sec-gemini-v1": {
+			"display_name": "Sec-Gemini v1",
+			"names": [
+				"Sec-Gemini v1",
+				"Sec-Gemini",
+				"Sec-Gemini 1"
+			],
+			"link": "https://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html",
+			"history": {
+				"first_mention": "2025-04-04",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

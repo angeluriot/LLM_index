@@ -1,0 +1,54 @@
+{
+	"display_name": "Chinchilla",
+	"versions": {
+		"chinchilla": {
+			"display_name": "Chinchilla",
+			"names": [
+				"Chinchilla",
+				"Chinchilla (70B)",
+				"Chinchilla 70B"
+			],
+			"link": "https://arxiv.org/abs/2203.15556",
+			"history": {
+				"first_mention": "2022-03-29",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 70000000000,
+				"active": 70000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"sparrow": {
+			"display_name": "Sparrow",
+			"names": [
+				"Sparrow",
+				"Sparrow 70B"
+			],
+			"link": "https://arxiv.org/abs/2209.14375",
+			"history": {
+				"first_mention": "2022-09-22",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 70000000000,
+				"active": 70000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

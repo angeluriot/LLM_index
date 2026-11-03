@@ -1,0 +1,29 @@
+{
+	"display_name": "Gemini Diffusion",
+	"versions": {
+		"gemini-diffusion": {
+			"display_name": "Gemini Diffusion",
+			"names": [
+				"Gemini Diffusion",
+				"Gemini Diffusion (Experimental)"
+			],
+			"link": "https://deepmind.google/models/gemini-diffusion/",
+			"history": {
+				"first_mention": "2025-05-20",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

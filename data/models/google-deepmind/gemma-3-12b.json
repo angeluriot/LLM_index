@@ -1,0 +1,58 @@
+{
+	"display_name": "Gemma 3 12B",
+	"versions": {
+		"gemma-3-12b": {
+			"display_name": "Gemma 3 12B",
+			"names": [
+				"Gemma 3 12B",
+				"Gemma 3 12B Instruct",
+				"gemma-3-12b-it",
+				"gemma-3-12b-pt",
+				"google/gemma-3-12b-it",
+				"google/gemma-3-12b-pt"
+			],
+			"link": "https://blog.google/technology/developers/gemma-3/",
+			"history": {
+				"first_mention": "2025-03-12",
+				"access": "2025-03-12",
+				"weights": "2025-03-12"
+			},
+			"parameters": {
+				"all": 12200000000,
+				"active": 12200000000
+			},
+			"price": {
+				"input": 0.07,
+				"output": 0.22
+			},
+			"efforts": [
+				""
+			]
+		},
+		"translategemma-12b": {
+			"display_name": "TranslateGemma 12B",
+			"names": [
+				"TranslateGemma 12B",
+				"translategemma-12b-it",
+				"google/translategemma-12b-it"
+			],
+			"link": "https://huggingface.co/google/translategemma-27b-it",
+			"history": {
+				"first_mention": "2026-01-15",
+				"access": "2026-01-15",
+				"weights": "2026-01-15"
+			},
+			"parameters": {
+				"all": 12200000000,
+				"active": 12200000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

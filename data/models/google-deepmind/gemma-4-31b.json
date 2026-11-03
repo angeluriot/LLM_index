@@ -1,0 +1,35 @@
+{
+	"display_name": "Gemma 4 31B",
+	"versions": {
+		"gemma-4-31b": {
+			"display_name": "Gemma 4 31B",
+			"names": [
+				"Gemma 4 31B",
+				"Gemma 4 31B IT",
+				"gemma-4-31b",
+				"gemma-4-31b-it",
+				"gemma-4-31B-it",
+				"google/gemma-4-31B",
+				"google/gemma-4-31B-it"
+			],
+			"link": "https://ai.google.dev/gemma/docs/core/model_card_4",
+			"history": {
+				"first_mention": "2026-04-02",
+				"access": "2026-04-02",
+				"weights": "2026-04-02"
+			},
+			"parameters": {
+				"all": 30700000000,
+				"active": 30700000000
+			},
+			"price": {
+				"input": 0.19,
+				"output": 0.45
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

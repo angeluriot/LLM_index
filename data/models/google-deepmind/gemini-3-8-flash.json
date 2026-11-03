@@ -1,0 +1,57 @@
+{
+	"display_name": "Gemini 3.8 Flash",
+	"versions": {
+		"gemini-3-8-flash": {
+			"display_name": "Gemini 3.8 Flash",
+			"names": [
+				"Gemini 3.8 Flash",
+				"gemini-3.8-flash"
+			],
+			"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+			"history": {
+				"first_mention": "2026-09-02",
+				"access": "2026-09-02",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.5,
+				"output": 7.5
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		},
+		"gemini-3-8-flash-cyber": {
+			"display_name": "Gemini 3.8 Flash Cyber",
+			"names": [
+				"Gemini 3.8 Flash Cyber",
+				"Gemini 3.8 Flash-Cyber"
+			],
+			"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+			"history": {
+				"first_mention": "2026-09-02",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

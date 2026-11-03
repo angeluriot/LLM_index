@@ -27,6 +27,31 @@
 				""
 			]
 		},
+		"gpt-4v": {
+			"display_name": "GPT-4V",
+			"names": [
+				"GPT-4V",
+				"GPT-4 Vision",
+				"GPT-4V(ision)"
+			],
+			"link": "https://openai.com/index/gpt-4v-system-card/",
+			"history": {
+				"first_mention": "2023-03-14",
+				"access": "2023-09-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": 1800000000000,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
 		"gpt-4-jun-2023": {
 			"display_name": "GPT-4 (Jun 2023)",
 			"names": [
@@ -49,31 +74,6 @@
 			"price": {
 				"input": 30.0,
 				"output": 60.0
-			},
-			"efforts": [
-				""
-			]
-		},
-		"gpt-4v": {
-			"display_name": "GPT-4V",
-			"names": [
-				"GPT-4V",
-				"GPT-4 Vision",
-				"GPT-4V(ision)"
-			],
-			"link": "https://openai.com/index/gpt-4v-system-card/",
-			"history": {
-				"first_mention": "2023-03-14",
-				"access": "2023-09-25",
-				"weights": null
-			},
-			"parameters": {
-				"all": 1800000000000,
-				"active": null
-			},
-			"price": {
-				"input": null,
-				"output": null
 			},
 			"efforts": [
 				""

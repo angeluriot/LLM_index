@@ -39,6 +39,8 @@ def M(display, *versions, id=None):
 	assert id not in MODELS, f'duplicate model id {id}'
 	ids = [v[0] for v in versions]
 	assert len(set(ids)) == len(ids), f'duplicate version ids in {id}: {ids}'
+	# Versions sorted by ascending first mention (stable: ties keep the declaration order)
+	versions = sorted(versions, key=lambda v: v[1]['history']['first_mention'])
 	MODELS[id] = {'display_name': display, 'versions': dict(versions)}
 
 

@@ -1,0 +1,32 @@
+{
+	"display_name": "Gemini 4 Argon",
+	"versions": {
+		"gemini-4-argon": {
+			"display_name": "Gemini 4 Argon",
+			"names": [
+				"Gemini 4 Argon",
+				"Gemini 4",
+				"gemini-4-argon"
+			],
+			"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+			"history": {
+				"first_mention": "2026-07-21",
+				"access": "2026-10-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 4.0,
+				"output": 20.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

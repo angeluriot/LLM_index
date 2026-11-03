@@ -1,0 +1,59 @@
+{
+	"display_name": "Gemma 2 9B",
+	"versions": {
+		"gemma-2-9b": {
+			"display_name": "Gemma 2 9B",
+			"names": [
+				"Gemma 2 9B",
+				"gemma-2-9b",
+				"gemma-2-9b-it",
+				"google/gemma-2-9b",
+				"google/gemma-2-9b-it"
+			],
+			"link": "https://blog.google/technology/developers/google-gemma-2/",
+			"history": {
+				"first_mention": "2024-06-27",
+				"access": "2024-06-27",
+				"weights": "2024-06-27"
+			},
+			"parameters": {
+				"all": 9240000000,
+				"active": 9240000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"txgemma-9b": {
+			"display_name": "TxGemma 9B",
+			"names": [
+				"TxGemma 9B",
+				"txgemma-9b-chat",
+				"txgemma-9b-predict",
+				"google/txgemma-9b-chat",
+				"google/txgemma-9b-predict"
+			],
+			"link": "https://arxiv.org/abs/2504.06196",
+			"history": {
+				"first_mention": "2025-03-25",
+				"access": "2025-03-25",
+				"weights": "2025-03-25"
+			},
+			"parameters": {
+				"all": 9240000000,
+				"active": 9240000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

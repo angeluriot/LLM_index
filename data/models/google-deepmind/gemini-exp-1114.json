@@ -1,0 +1,31 @@
+{
+	"display_name": "Gemini-Exp-1114",
+	"versions": {
+		"gemini-exp-1114": {
+			"display_name": "Gemini-Exp-1114",
+			"names": [
+				"Gemini-Exp-1114",
+				"Gemini Exp 1114",
+				"Gemini (Exp 1114)",
+				"gemini-exp-1114"
+			],
+			"link": "https://ai.google.dev/gemini-api/docs/changelog",
+			"history": {
+				"first_mention": "2024-11-14",
+				"access": "2024-11-14",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

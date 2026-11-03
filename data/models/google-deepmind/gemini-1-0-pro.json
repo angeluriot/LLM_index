@@ -1,0 +1,133 @@
+{
+	"display_name": "Gemini 1.0 Pro",
+	"versions": {
+		"bard-gemini-pro": {
+			"display_name": "Bard (Gemini Pro)",
+			"names": [
+				"Bard (Gemini Pro)",
+				"Bard (Jan 2024, Gemini Pro)",
+				"Bard (Gemini Pro, Jan 2024)",
+				"bard-jan-24-gemini-pro"
+			],
+			"link": "https://blog.google/products/bard/google-bard-try-gemini-ai/",
+			"history": {
+				"first_mention": "2023-12-06",
+				"access": "2023-12-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"alphacode-2": {
+			"display_name": "AlphaCode 2",
+			"names": [
+				"AlphaCode 2"
+			],
+			"link": "https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf",
+			"history": {
+				"first_mention": "2023-12-06",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-1-0-pro": {
+			"display_name": "Gemini 1.0 Pro",
+			"names": [
+				"Gemini 1.0 Pro",
+				"Gemini Pro",
+				"Gemini Pro 1.0",
+				"gemini-pro",
+				"gemini-1.0-pro",
+				"gemini-1.0-pro-001"
+			],
+			"link": "https://blog.google/technology/ai/google-gemini-ai/",
+			"history": {
+				"first_mention": "2023-12-06",
+				"access": "2023-12-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.5,
+				"output": 1.5
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-1-0-pro-vision": {
+			"display_name": "Gemini 1.0 Pro Vision",
+			"names": [
+				"Gemini 1.0 Pro Vision",
+				"Gemini Pro Vision",
+				"gemini-pro-vision",
+				"gemini-1.0-pro-vision",
+				"gemini-1.0-pro-vision-001"
+			],
+			"link": "https://blog.google/technology/ai/google-gemini-ai/",
+			"history": {
+				"first_mention": "2023-12-06",
+				"access": "2023-12-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.5,
+				"output": 1.5
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-1-0-pro-apr-2024": {
+			"display_name": "Gemini 1.0 Pro (Apr 2024)",
+			"names": [
+				"Gemini 1.0 Pro (Apr 2024)",
+				"gemini-1.0-pro-002"
+			],
+			"link": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions",
+			"history": {
+				"first_mention": "2024-04-09",
+				"access": "2024-04-09",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.5,
+				"output": 1.5
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

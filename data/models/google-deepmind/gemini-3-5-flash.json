@@ -1,0 +1,59 @@
+{
+	"display_name": "Gemini 3.5 Flash",
+	"versions": {
+		"gemini-3-5-flash": {
+			"display_name": "Gemini 3.5 Flash",
+			"names": [
+				"Gemini 3.5 Flash",
+				"gemini-3.5-flash"
+			],
+			"link": "https://deepmind.google/models/model-cards/gemini-3-5-flash/",
+			"history": {
+				"first_mention": "2026-05-19",
+				"access": "2026-05-19",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.5,
+				"output": 9.0
+			},
+			"efforts": [
+				"Minimal",
+				"Low",
+				"Medium",
+				"High"
+			]
+		},
+		"gemini-3-5-flash-cyber": {
+			"display_name": "Gemini 3.5 Flash Cyber",
+			"names": [
+				"Gemini 3.5 Flash Cyber",
+				"Gemini 3.5 Flash-Cyber"
+			],
+			"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+			"history": {
+				"first_mention": "2026-07-21",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"Minimal",
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

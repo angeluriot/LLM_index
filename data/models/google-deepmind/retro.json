@@ -1,0 +1,31 @@
+{
+	"display_name": "RETRO",
+	"versions": {
+		"retro": {
+			"display_name": "RETRO",
+			"names": [
+				"RETRO",
+				"RETRO 7.5B",
+				"RETRO-7B",
+				"Retro"
+			],
+			"link": "https://arxiv.org/abs/2112.04426",
+			"history": {
+				"first_mention": "2021-12-08",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 7500000000,
+				"active": 7500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

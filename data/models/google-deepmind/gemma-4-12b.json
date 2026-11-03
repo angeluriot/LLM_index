@@ -1,0 +1,34 @@
+{
+	"display_name": "Gemma 4 12B",
+	"versions": {
+		"gemma-4-12b": {
+			"display_name": "Gemma 4 12B",
+			"names": [
+				"Gemma 4 12B",
+				"Gemma 4 12B Unified",
+				"gemma-4-12b",
+				"gemma-4-12B-it",
+				"google/gemma-4-12B",
+				"google/gemma-4-12B-it"
+			],
+			"link": "https://ai.google.dev/gemma/docs/core/model_card_4",
+			"history": {
+				"first_mention": "2026-06-03",
+				"access": "2026-06-03",
+				"weights": "2026-06-03"
+			},
+			"parameters": {
+				"all": 11950000000,
+				"active": 11950000000
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.3
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

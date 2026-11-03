@@ -1,0 +1,29 @@
+{
+	"display_name": "Gopher 7.1B",
+	"versions": {
+		"gopher-7-1b": {
+			"display_name": "Gopher 7.1B",
+			"names": [
+				"Gopher 7.1B",
+				"Gopher (7.1B)"
+			],
+			"link": "https://arxiv.org/abs/2112.11446",
+			"history": {
+				"first_mention": "2021-12-08",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 7100000000,
+				"active": 7100000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

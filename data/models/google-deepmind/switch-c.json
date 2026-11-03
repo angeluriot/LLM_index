@@ -1,0 +1,32 @@
+{
+	"display_name": "Switch-C",
+	"versions": {
+		"switch-c": {
+			"display_name": "Switch-C",
+			"names": [
+				"Switch-C",
+				"Switch Transformer",
+				"Switch-C 2048",
+				"switch-c-2048",
+				"google/switch-c-2048"
+			],
+			"link": "https://arxiv.org/abs/2101.03961",
+			"history": {
+				"first_mention": "2021-01-11",
+				"access": "2022-11-04",
+				"weights": "2022-11-04"
+			},
+			"parameters": {
+				"all": 1571000000000,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

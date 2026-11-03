@@ -1,0 +1,300 @@
+{
+	"display_name": "PaLM",
+	"versions": {
+		"palm-8b": {
+			"display_name": "PaLM 8B",
+			"names": [
+				"PaLM 8B",
+				"PaLM (8B)",
+				"PaLM-8B"
+			],
+			"link": "https://arxiv.org/abs/2204.02311",
+			"history": {
+				"first_mention": "2022-04-04",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 8600000000,
+				"active": 8600000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"palm-62b": {
+			"display_name": "PaLM 62B",
+			"names": [
+				"PaLM 62B",
+				"PaLM (62B)",
+				"PaLM-62B"
+			],
+			"link": "https://arxiv.org/abs/2204.02311",
+			"history": {
+				"first_mention": "2022-04-04",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 62500000000,
+				"active": 62500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"palm-540b": {
+			"display_name": "PaLM 540B",
+			"names": [
+				"PaLM 540B",
+				"PaLM",
+				"PaLM (540B)",
+				"PaLM-540B"
+			],
+			"link": "https://arxiv.org/abs/2204.02311",
+			"history": {
+				"first_mention": "2022-04-04",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 540350000000,
+				"active": 540350000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"minerva-8b": {
+			"display_name": "Minerva 8B",
+			"names": [
+				"Minerva 8B",
+				"Minerva (8B)"
+			],
+			"link": "https://arxiv.org/abs/2206.14858",
+			"history": {
+				"first_mention": "2022-06-29",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 8600000000,
+				"active": 8600000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"minerva-62b": {
+			"display_name": "Minerva 62B",
+			"names": [
+				"Minerva 62B",
+				"Minerva (62B)"
+			],
+			"link": "https://arxiv.org/abs/2206.14858",
+			"history": {
+				"first_mention": "2022-06-29",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 62500000000,
+				"active": 62500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"minerva-540b": {
+			"display_name": "Minerva 540B",
+			"names": [
+				"Minerva 540B",
+				"Minerva",
+				"Minerva (540B)"
+			],
+			"link": "https://arxiv.org/abs/2206.14858",
+			"history": {
+				"first_mention": "2022-06-29",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 540350000000,
+				"active": 540350000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"flan-palm-8b": {
+			"display_name": "Flan-PaLM 8B",
+			"names": [
+				"Flan-PaLM 8B",
+				"Flan-PaLM (8B)"
+			],
+			"link": "https://arxiv.org/abs/2210.11416",
+			"history": {
+				"first_mention": "2022-10-20",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 8600000000,
+				"active": 8600000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"flan-palm-62b": {
+			"display_name": "Flan-PaLM 62B",
+			"names": [
+				"Flan-PaLM 62B",
+				"Flan-PaLM (62B)"
+			],
+			"link": "https://arxiv.org/abs/2210.11416",
+			"history": {
+				"first_mention": "2022-10-20",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 62500000000,
+				"active": 62500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"flan-palm-540b": {
+			"display_name": "Flan-PaLM 540B",
+			"names": [
+				"Flan-PaLM 540B",
+				"Flan-PaLM",
+				"Flan-PaLM (540B)"
+			],
+			"link": "https://arxiv.org/abs/2210.11416",
+			"history": {
+				"first_mention": "2022-10-20",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 540350000000,
+				"active": 540350000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"u-palm-540b": {
+			"display_name": "U-PaLM 540B",
+			"names": [
+				"U-PaLM 540B",
+				"U-PaLM",
+				"U-PaLM (540B)"
+			],
+			"link": "https://arxiv.org/abs/2210.11399",
+			"history": {
+				"first_mention": "2022-10-20",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 540350000000,
+				"active": 540350000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"flan-u-palm-540b": {
+			"display_name": "Flan-U-PaLM 540B",
+			"names": [
+				"Flan-U-PaLM 540B",
+				"Flan-U-PaLM"
+			],
+			"link": "https://arxiv.org/abs/2210.11416",
+			"history": {
+				"first_mention": "2022-10-20",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 540350000000,
+				"active": 540350000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"med-palm": {
+			"display_name": "Med-PaLM",
+			"names": [
+				"Med-PaLM",
+				"Med-PaLM 540B"
+			],
+			"link": "https://arxiv.org/abs/2212.13138",
+			"history": {
+				"first_mention": "2022-12-26",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 540350000000,
+				"active": 540350000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

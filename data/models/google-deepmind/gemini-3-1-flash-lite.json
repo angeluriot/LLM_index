@@ -1,0 +1,59 @@
+{
+	"display_name": "Gemini 3.1 Flash-Lite",
+	"versions": {
+		"gemini-3-1-flash-lite-preview": {
+			"display_name": "Gemini 3.1 Flash-Lite Preview",
+			"names": [
+				"Gemini 3.1 Flash-Lite Preview",
+				"gemini-3.1-flash-lite-preview"
+			],
+			"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+			"history": {
+				"first_mention": "2026-03-03",
+				"access": "2026-03-03",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.25,
+				"output": 1.5
+			},
+			"efforts": [
+				"Minimal",
+				"Low",
+				"Medium",
+				"High"
+			]
+		},
+		"gemini-3-1-flash-lite": {
+			"display_name": "Gemini 3.1 Flash-Lite",
+			"names": [
+				"Gemini 3.1 Flash-Lite",
+				"gemini-3.1-flash-lite"
+			],
+			"link": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
+			"history": {
+				"first_mention": "2026-03-03",
+				"access": "2026-05-07",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.25,
+				"output": 1.5
+			},
+			"efforts": [
+				"Minimal",
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

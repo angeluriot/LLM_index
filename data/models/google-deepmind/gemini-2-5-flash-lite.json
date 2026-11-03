@@ -1,0 +1,85 @@
+{
+	"display_name": "Gemini 2.5 Flash-Lite",
+	"versions": {
+		"gemini-2-5-flash-lite-preview": {
+			"display_name": "Gemini 2.5 Flash-Lite Preview",
+			"names": [
+				"Gemini 2.5 Flash-Lite Preview",
+				"Gemini 2.5 Flash-Lite (Jun 2025)",
+				"Gemini 2.5 Flash-Lite Preview (Jun 2025)",
+				"gemini-2.5-flash-lite-preview-06-17"
+			],
+			"link": "https://blog.google/products/gemini/gemini-2-5-model-family-expands/",
+			"history": {
+				"first_mention": "2025-06-17",
+				"access": "2025-06-17",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.4
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"gemini-2-5-flash-lite": {
+			"display_name": "Gemini 2.5 Flash-Lite",
+			"names": [
+				"Gemini 2.5 Flash-Lite",
+				"Gemini 2.5 Flash-Lite (Jul 2025)",
+				"gemini-2.5-flash-lite"
+			],
+			"link": "https://ai.google.dev/gemini-api/docs/changelog",
+			"history": {
+				"first_mention": "2025-06-17",
+				"access": "2025-07-22",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.4
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"gemini-2-5-flash-lite-sep-2025": {
+			"display_name": "Gemini 2.5 Flash-Lite (Sep 2025)",
+			"names": [
+				"Gemini 2.5 Flash-Lite (Sep 2025)",
+				"Gemini 2.5 Flash-Lite Preview (Sep '25)",
+				"Gemini 2.5 Flash-Lite Preview (Sep 2025)",
+				"gemini-2.5-flash-lite-preview-09-2025"
+			],
+			"link": "https://ai.google.dev/gemini-api/docs/changelog",
+			"history": {
+				"first_mention": "2025-09-25",
+				"access": "2025-09-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.4
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

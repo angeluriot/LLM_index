@@ -1,0 +1,32 @@
+{
+	"display_name": "RecurrentGemma 9B",
+	"versions": {
+		"recurrentgemma-9b": {
+			"display_name": "RecurrentGemma 9B",
+			"names": [
+				"RecurrentGemma 9B",
+				"recurrentgemma-9b",
+				"recurrentgemma-9b-it",
+				"google/recurrentgemma-9b",
+				"google/recurrentgemma-9b-it"
+			],
+			"link": "https://ai.google.dev/gemma/docs/recurrentgemma",
+			"history": {
+				"first_mention": "2024-06-11",
+				"access": "2024-06-11",
+				"weights": "2024-06-11"
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

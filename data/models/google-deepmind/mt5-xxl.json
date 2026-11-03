@@ -1,0 +1,31 @@
+{
+	"display_name": "mT5-XXL",
+	"versions": {
+		"mt5-xxl": {
+			"display_name": "mT5-XXL",
+			"names": [
+				"mT5-XXL",
+				"mT5 XXL",
+				"mt5-xxl",
+				"google/mt5-xxl"
+			],
+			"link": "https://arxiv.org/abs/2010.11934",
+			"history": {
+				"first_mention": "2020-10-22",
+				"access": "2020-10-22",
+				"weights": "2020-10-22"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"display_name": "Gemma 3 1B",
+	"versions": {
+		"gemma-3-1b": {
+			"display_name": "Gemma 3 1B",
+			"names": [
+				"Gemma 3 1B",
+				"Gemma 3 1B Instruct",
+				"gemma-3-1b-it",
+				"gemma-3-1b-pt",
+				"google/gemma-3-1b-it",
+				"google/gemma-3-1b-pt"
+			],
+			"link": "https://blog.google/technology/developers/gemma-3/",
+			"history": {
+				"first_mention": "2025-03-12",
+				"access": "2025-03-12",
+				"weights": "2025-03-12"
+			},
+			"parameters": {
+				"all": 1000000000,
+				"active": 1000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

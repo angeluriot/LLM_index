@@ -1,0 +1,30 @@
+{
+	"display_name": "Gemini Nano-1",
+	"versions": {
+		"gemini-nano-1": {
+			"display_name": "Gemini Nano-1",
+			"names": [
+				"Gemini Nano-1",
+				"Gemini 1.0 Nano-1",
+				"Nano-1"
+			],
+			"link": "https://arxiv.org/abs/2312.11805",
+			"history": {
+				"first_mention": "2023-12-06",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 1800000000,
+				"active": 1800000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

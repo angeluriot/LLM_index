@@ -1,0 +1,83 @@
+{
+	"display_name": "Gemini 1.5 Flash",
+	"versions": {
+		"gemini-1-5-flash-may-2024": {
+			"display_name": "Gemini 1.5 Flash (May 2024)",
+			"names": [
+				"Gemini 1.5 Flash (May 2024)",
+				"Gemini 1.5 Flash (May '24)",
+				"gemini-1.5-flash-001",
+				"gemini-1.5-flash-preview-0514",
+				"gemini-1.5-flash-0514"
+			],
+			"link": "https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/",
+			"history": {
+				"first_mention": "2024-05-14",
+				"access": "2024-05-14",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.35,
+				"output": 1.05
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-1-5-flash-aug-2024": {
+			"display_name": "Gemini 1.5 Flash (Aug 2024)",
+			"names": [
+				"Gemini 1.5 Flash (Aug 2024)",
+				"Gemini 1.5 Flash (Aug '24)",
+				"gemini-1.5-flash-exp-0827"
+			],
+			"link": "https://ai.google.dev/gemini-api/docs/changelog",
+			"history": {
+				"first_mention": "2024-08-27",
+				"access": "2024-08-27",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-1-5-flash-sep-2024": {
+			"display_name": "Gemini 1.5 Flash (Sep 2024)",
+			"names": [
+				"Gemini 1.5 Flash (Sep 2024)",
+				"Gemini 1.5 Flash (Sep '24)",
+				"gemini-1.5-flash-002",
+				"gemini-1.5-flash"
+			],
+			"link": "https://developers.googleblog.com/en/updated-production-ready-gemini-models-reduced-15-pro-pricing-increased-rate-limits-and-more/",
+			"history": {
+				"first_mention": "2024-09-24",
+				"access": "2024-09-24",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.075,
+				"output": 0.3
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

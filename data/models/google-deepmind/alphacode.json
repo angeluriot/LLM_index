@@ -1,0 +1,29 @@
+{
+	"display_name": "AlphaCode",
+	"versions": {
+		"alphacode": {
+			"display_name": "AlphaCode",
+			"names": [
+				"AlphaCode",
+				"AlphaCode 41B"
+			],
+			"link": "https://arxiv.org/abs/2203.07814",
+			"history": {
+				"first_mention": "2022-02-02",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 41100000000,
+				"active": 41100000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

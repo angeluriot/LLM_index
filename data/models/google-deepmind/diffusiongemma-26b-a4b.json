@@ -1,0 +1,33 @@
+{
+	"display_name": "DiffusionGemma 26B A4B",
+	"versions": {
+		"diffusiongemma-26b-a4b": {
+			"display_name": "DiffusionGemma 26B A4B",
+			"names": [
+				"DiffusionGemma 26B A4B",
+				"DiffusionGemma",
+				"DiffusionGemma 26B-A4B",
+				"diffusiongemma-26b-a4b",
+				"diffusiongemma-26B-A4B-it",
+				"google/diffusiongemma-26B-A4B-it"
+			],
+			"link": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+			"history": {
+				"first_mention": "2026-06-10",
+				"access": "2026-06-10",
+				"weights": "2026-06-10"
+			},
+			"parameters": {
+				"all": 25200000000,
+				"active": 3800000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

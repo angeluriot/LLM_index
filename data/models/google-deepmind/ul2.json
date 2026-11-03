@@ -1,0 +1,56 @@
+{
+	"display_name": "UL2",
+	"versions": {
+		"ul2": {
+			"display_name": "UL2",
+			"names": [
+				"UL2",
+				"UL2 20B",
+				"google/ul2"
+			],
+			"link": "https://arxiv.org/abs/2205.05131",
+			"history": {
+				"first_mention": "2022-05-10",
+				"access": "2022-06-16",
+				"weights": "2022-06-16"
+			},
+			"parameters": {
+				"all": 20000000000,
+				"active": 20000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"flan-ul2": {
+			"display_name": "Flan-UL2",
+			"names": [
+				"Flan-UL2",
+				"Flan-UL2 20B",
+				"FLAN-UL2",
+				"google/flan-ul2"
+			],
+			"link": "https://huggingface.co/google/flan-ul2",
+			"history": {
+				"first_mention": "2023-03-03",
+				"access": "2023-03-03",
+				"weights": "2023-03-03"
+			},
+			"parameters": {
+				"all": 19500000000,
+				"active": 19500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

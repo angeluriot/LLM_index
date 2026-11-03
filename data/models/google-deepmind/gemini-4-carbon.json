@@ -1,0 +1,31 @@
+{
+	"display_name": "Gemini 4 Carbon",
+	"versions": {
+		"gemini-4-carbon": {
+			"display_name": "Gemini 4 Carbon",
+			"names": [
+				"Gemini 4 Carbon",
+				"gemini-4-carbon"
+			],
+			"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+			"history": {
+				"first_mention": "2026-10-28",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 4.0,
+				"output": 20.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"display_name": "Gemini 3 Pro",
+	"versions": {
+		"gemini-3-pro": {
+			"display_name": "Gemini 3 Pro",
+			"names": [
+				"Gemini 3 Pro",
+				"Gemini 3 Pro Preview",
+				"Gemini 3.0 Pro",
+				"gemini-3-pro-preview",
+				"gemini-3-pro"
+			],
+			"link": "https://blog.google/products/gemini/gemini-3/",
+			"history": {
+				"first_mention": "2025-10-15",
+				"access": "2025-11-18",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.0,
+				"output": 12.0
+			},
+			"efforts": [
+				"Low",
+				"High"
+			]
+		},
+		"gemini-3-deep-think-dec-2025": {
+			"display_name": "Gemini 3 Deep Think (Dec 2025)",
+			"names": [
+				"Gemini 3 Deep Think (Dec 2025)",
+				"Gemini 3 Deep Think (Nov 2025)"
+			],
+			"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+			"history": {
+				"first_mention": "2025-11-18",
+				"access": "2025-12-04",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gemini-3-deep-think-feb-2026": {
+			"display_name": "Gemini 3 Deep Think (Feb 2026)",
+			"names": [
+				"Gemini 3 Deep Think (Feb 2026)",
+				"gemini-3-deep-think-preview"
+			],
+			"link": "https://gemini.google/release-notes/",
+			"history": {
+				"first_mention": "2026-02-12",
+				"access": "2026-02-12",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

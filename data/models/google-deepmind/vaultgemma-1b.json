@@ -1,0 +1,31 @@
+{
+	"display_name": "VaultGemma 1B",
+	"versions": {
+		"vaultgemma-1b": {
+			"display_name": "VaultGemma 1B",
+			"names": [
+				"VaultGemma 1B",
+				"VaultGemma",
+				"vaultgemma-1b",
+				"google/vaultgemma-1b"
+			],
+			"link": "https://huggingface.co/google/vaultgemma-1b",
+			"history": {
+				"first_mention": "2025-09-12",
+				"access": "2025-09-12",
+				"weights": "2025-09-12"
+			},
+			"parameters": {
+				"all": 1000000000,
+				"active": 1000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

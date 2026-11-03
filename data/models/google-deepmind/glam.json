@@ -1,0 +1,31 @@
+{
+	"display_name": "GLaM",
+	"versions": {
+		"glam": {
+			"display_name": "GLaM",
+			"names": [
+				"GLaM",
+				"GLaM (MoE)",
+				"GLaM 1.2T",
+				"GLaM 64B/64E"
+			],
+			"link": "https://arxiv.org/abs/2112.06905",
+			"history": {
+				"first_mention": "2021-12-13",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 1200000000000,
+				"active": 96600000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

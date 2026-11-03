@@ -1,0 +1,35 @@
+{
+	"display_name": "Gemini 3 Flash",
+	"versions": {
+		"gemini-3-flash": {
+			"display_name": "Gemini 3 Flash",
+			"names": [
+				"Gemini 3 Flash",
+				"Gemini 3 Flash Preview",
+				"Gemini 3.0 Flash",
+				"gemini-3-flash-preview",
+				"gemini-3-flash"
+			],
+			"link": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
+			"history": {
+				"first_mention": "2025-12-17",
+				"access": "2025-12-17",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.5,
+				"output": 3.0
+			},
+			"efforts": [
+				"Minimal",
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"display_name": "Gemini 3.5 Flash-Lite",
+	"versions": {
+		"gemini-3-5-flash-lite": {
+			"display_name": "Gemini 3.5 Flash-Lite",
+			"names": [
+				"Gemini 3.5 Flash-Lite",
+				"gemini-3.5-flash-lite"
+			],
+			"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+			"history": {
+				"first_mention": "2026-07-21",
+				"access": "2026-07-21",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.3,
+				"output": 2.5
+			},
+			"efforts": [
+				"Minimal",
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}
