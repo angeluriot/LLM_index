@@ -1,0 +1,84 @@
+{
+	"display_name": "Qwen3.7-Max",
+	"versions": {
+		"qwen3-7-max-preview": {
+			"display_name": "Qwen3.7-Max-Preview",
+			"names": [
+				"Qwen3.7-Max-Preview",
+				"Qwen3.7 Max Preview",
+				"qwen3.7-max-preview",
+				"qwen3.7-max-2026-05-17"
+			],
+			"link": "https://docs.qwencloud.com/changelog/models",
+			"history": {
+				"first_mention": "2026-05-19",
+				"access": "2026-05-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.5,
+				"output": 7.5
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-7-max": {
+			"display_name": "Qwen3.7-Max",
+			"names": [
+				"Qwen3.7-Max",
+				"Qwen3.7 Max",
+				"Qwen3.7-Max (May 2026)",
+				"qwen3.7-max-2026-05-20"
+			],
+			"link": "https://qwen.ai/blog?id=qwen3.7",
+			"history": {
+				"first_mention": "2026-05-19",
+				"access": "2026-05-20",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.5,
+				"output": 7.5
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen3-7-max-jun-2026": {
+			"display_name": "Qwen3.7-Max (Jun 2026)",
+			"names": [
+				"Qwen3.7-Max (Jun 2026)",
+				"Qwen3.7-Max (June 2026)",
+				"qwen3.7-max-2026-06-08"
+			],
+			"link": "https://docs.qwencloud.com/changelog/models",
+			"history": {
+				"first_mention": "2026-06-10",
+				"access": "2026-06-10",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.5,
+				"output": 7.5
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

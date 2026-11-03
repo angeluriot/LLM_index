@@ -1,0 +1,33 @@
+{
+	"display_name": "QVQ-Max",
+	"versions": {
+		"qvq-max": {
+			"display_name": "QVQ-Max",
+			"names": [
+				"QVQ-Max",
+				"QVQ Max",
+				"QVQ-Max-Preview",
+				"qvq-max",
+				"qvq-max-2025-03-25",
+				"qvq-max-2025-05-15"
+			],
+			"link": "https://qwenlm.github.io/blog/qvq-max-preview/",
+			"history": {
+				"first_mention": "2025-03-28",
+				"access": "2025-03-28",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.2,
+				"output": 4.8
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

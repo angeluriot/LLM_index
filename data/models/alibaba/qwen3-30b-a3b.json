@@ -1,0 +1,221 @@
+{
+	"display_name": "Qwen3-30B-A3B",
+	"versions": {
+		"qwen3-30b-a3b": {
+			"display_name": "Qwen3-30B-A3B",
+			"names": [
+				"Qwen3-30B-A3B",
+				"Qwen3 30B A3B",
+				"Qwen3 30B A3B (Reasoning)",
+				"Qwen3 30B A3B (Non-reasoning)",
+				"qwen3-30b-a3b",
+				"Qwen3-30B-A3B-Base",
+				"Qwen/Qwen3-30B-A3B",
+				"Qwen/Qwen3-30B-A3B-Base"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen3/",
+			"history": {
+				"first_mention": "2025-04-29",
+				"access": "2025-04-29",
+				"weights": "2025-04-29"
+			},
+			"parameters": {
+				"all": 30532000000,
+				"active": 3300000000
+			},
+			"price": {
+				"input": 0.2,
+				"output": 0.8
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen3-30b-a3b-instruct-2507": {
+			"display_name": "Qwen3-30B-A3B-Instruct-2507",
+			"names": [
+				"Qwen3-30B-A3B-Instruct-2507",
+				"Qwen3-30B-A3B (Jul 2025)",
+				"Qwen3 30B A3B 2507 Instruct",
+				"qwen3-30b-a3b-instruct-2507",
+				"Qwen/Qwen3-30B-A3B-Instruct-2507"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507",
+			"history": {
+				"first_mention": "2025-07-29",
+				"access": "2025-07-29",
+				"weights": "2025-07-29"
+			},
+			"parameters": {
+				"all": 30532000000,
+				"active": 3300000000
+			},
+			"price": {
+				"input": 0.2,
+				"output": 0.8
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-30b-a3b-thinking-2507": {
+			"display_name": "Qwen3-30B-A3B-Thinking-2507",
+			"names": [
+				"Qwen3-30B-A3B-Thinking-2507",
+				"Qwen3 30B A3B 2507 (Reasoning)",
+				"qwen3-30b-a3b-thinking-2507",
+				"Qwen/Qwen3-30B-A3B-Thinking-2507"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Thinking-2507",
+			"history": {
+				"first_mention": "2025-07-30",
+				"access": "2025-07-30",
+				"weights": "2025-07-30"
+			},
+			"parameters": {
+				"all": 30532000000,
+				"active": 3300000000
+			},
+			"price": {
+				"input": 0.2,
+				"output": 2.4
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-coder-30b-a3b": {
+			"display_name": "Qwen3-Coder-30B-A3B",
+			"names": [
+				"Qwen3-Coder-30B-A3B",
+				"Qwen3 Coder 30B A3B Instruct",
+				"Qwen3-Coder-30B-A3B-Instruct",
+				"qwen3-coder-30b-a3b-instruct",
+				"Qwen/Qwen3-Coder-30B-A3B-Instruct"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+			"history": {
+				"first_mention": "2025-07-31",
+				"access": "2025-07-31",
+				"weights": "2025-07-31"
+			},
+			"parameters": {
+				"all": 30532000000,
+				"active": 3300000000
+			},
+			"price": {
+				"input": 0.45,
+				"output": 2.25
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-coder-flash": {
+			"display_name": "Qwen3-Coder-Flash",
+			"names": [
+				"Qwen3-Coder-Flash",
+				"Qwen3 Coder Flash",
+				"qwen3-coder-flash",
+				"qwen3-coder-flash-2025-07-28"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-07-31",
+				"access": "2025-07-31",
+				"weights": null
+			},
+			"parameters": {
+				"all": 30532000000,
+				"active": 3300000000
+			},
+			"price": {
+				"input": 0.3,
+				"output": 1.5
+			},
+			"efforts": [
+				""
+			]
+		},
+		"tongyi-deepresearch": {
+			"display_name": "Tongyi DeepResearch",
+			"names": [
+				"Tongyi DeepResearch",
+				"Tongyi DeepResearch 30B-A3B",
+				"Tongyi-DeepResearch-30B-A3B",
+				"Alibaba-NLP/Tongyi-DeepResearch-30B-A3B"
+			],
+			"link": "https://arxiv.org/abs/2510.24701",
+			"history": {
+				"first_mention": "2025-09-16",
+				"access": "2025-09-16",
+				"weights": "2025-09-16"
+			},
+			"parameters": {
+				"all": 30532000000,
+				"active": 3300000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-vl-30b-a3b-instruct": {
+			"display_name": "Qwen3-VL-30B-A3B-Instruct",
+			"names": [
+				"Qwen3-VL-30B-A3B-Instruct",
+				"Qwen3 VL 30B A3B Instruct",
+				"qwen3-vl-30b-a3b-instruct",
+				"Qwen/Qwen3-VL-30B-A3B-Instruct"
+			],
+			"link": "https://github.com/QwenLM/Qwen3-VL",
+			"history": {
+				"first_mention": "2025-10-03",
+				"access": "2025-10-03",
+				"weights": "2025-10-03"
+			},
+			"parameters": {
+				"all": 31071000000,
+				"active": 3300000000
+			},
+			"price": {
+				"input": 0.108,
+				"output": 0.43
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-vl-30b-a3b-thinking": {
+			"display_name": "Qwen3-VL-30B-A3B-Thinking",
+			"names": [
+				"Qwen3-VL-30B-A3B-Thinking",
+				"Qwen3 VL 30B A3B (Reasoning)",
+				"Qwen3 VL 30B A3B Thinking",
+				"qwen3-vl-30b-a3b-thinking",
+				"Qwen/Qwen3-VL-30B-A3B-Thinking"
+			],
+			"link": "https://github.com/QwenLM/Qwen3-VL",
+			"history": {
+				"first_mention": "2025-10-03",
+				"access": "2025-10-03",
+				"weights": "2025-10-03"
+			},
+			"parameters": {
+				"all": 31071000000,
+				"active": 3300000000
+			},
+			"price": {
+				"input": 0.108,
+				"output": 1.075
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

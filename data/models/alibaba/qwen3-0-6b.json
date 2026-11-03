@@ -1,0 +1,36 @@
+{
+	"display_name": "Qwen3-0.6B",
+	"versions": {
+		"qwen3-0-6b": {
+			"display_name": "Qwen3-0.6B",
+			"names": [
+				"Qwen3-0.6B",
+				"Qwen3 0.6B",
+				"Qwen3 0.6B (Reasoning)",
+				"Qwen3 0.6B (Non-reasoning)",
+				"qwen3-0.6b",
+				"Qwen3-0.6B-Base",
+				"Qwen/Qwen3-0.6B",
+				"Qwen/Qwen3-0.6B-Base"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen3/",
+			"history": {
+				"first_mention": "2025-04-29",
+				"access": "2025-04-29",
+				"weights": "2025-04-29"
+			},
+			"parameters": {
+				"all": 596000000,
+				"active": 596000000
+			},
+			"price": {
+				"input": 0.11,
+				"output": 0.42
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

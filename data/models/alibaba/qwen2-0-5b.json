@@ -1,0 +1,35 @@
+{
+	"display_name": "Qwen2-0.5B",
+	"versions": {
+		"qwen2-0-5b": {
+			"display_name": "Qwen2-0.5B",
+			"names": [
+				"Qwen2-0.5B",
+				"Qwen2 0.5B",
+				"Qwen2 Instruct 0.5B",
+				"Qwen2 0.5B Instruct",
+				"qwen2-0.5b-instruct",
+				"Qwen2-0.5B-Instruct",
+				"Qwen/Qwen2-0.5B",
+				"Qwen/Qwen2-0.5B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2/",
+			"history": {
+				"first_mention": "2024-06-07",
+				"access": "2024-06-07",
+				"weights": "2024-06-07"
+			},
+			"parameters": {
+				"all": 494000000,
+				"active": 494000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

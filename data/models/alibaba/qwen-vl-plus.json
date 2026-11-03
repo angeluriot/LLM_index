@@ -1,0 +1,150 @@
+{
+	"display_name": "Qwen-VL-Plus",
+	"versions": {
+		"qwen-vl-plus-jan-2024": {
+			"display_name": "Qwen-VL-Plus (Jan 2024)",
+			"names": [
+				"Qwen-VL-Plus (Jan 2024)"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen-vl/",
+			"history": {
+				"first_mention": "2024-01-25",
+				"access": "2024-01-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl-plus-aug-2024": {
+			"display_name": "Qwen-VL-Plus (Aug 2024)",
+			"names": [
+				"Qwen-VL-Plus (Aug 2024)",
+				"qwen-vl-plus-0809",
+				"qwen-vl-plus-2024-08-09"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2024-08-09",
+				"access": "2024-08-09",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.216,
+				"output": 0.646
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl-plus-jan-2025": {
+			"display_name": "Qwen-VL-Plus (Jan 2025)",
+			"names": [
+				"Qwen-VL-Plus (Jan 2025)",
+				"qwen-vl-plus-2025-01-02",
+				"qwen-vl-plus-2025-01-25"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-01-02",
+				"access": "2025-01-02",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.21,
+				"output": 0.63
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl-plus-may-2025": {
+			"display_name": "Qwen-VL-Plus (May 2025)",
+			"names": [
+				"Qwen-VL-Plus (May 2025)",
+				"qwen-vl-plus-2025-05-07"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-05-07",
+				"access": "2025-05-07",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.21,
+				"output": 0.63
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl-plus-jul-2025": {
+			"display_name": "Qwen-VL-Plus (Jul 2025)",
+			"names": [
+				"Qwen-VL-Plus (Jul 2025)",
+				"qwen-vl-plus-2025-07-10"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-07-10",
+				"access": "2025-07-10",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.022,
+				"output": 0.216
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl-plus-aug-2025": {
+			"display_name": "Qwen-VL-Plus (Aug 2025)",
+			"names": [
+				"Qwen-VL-Plus (Aug 2025)",
+				"qwen-vl-plus-2025-08-15"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-08-15",
+				"access": "2025-08-15",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.21,
+				"output": 0.63
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

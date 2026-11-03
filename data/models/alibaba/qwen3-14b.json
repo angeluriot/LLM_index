@@ -1,0 +1,36 @@
+{
+	"display_name": "Qwen3-14B",
+	"versions": {
+		"qwen3-14b": {
+			"display_name": "Qwen3-14B",
+			"names": [
+				"Qwen3-14B",
+				"Qwen3 14B",
+				"Qwen3 14B (Reasoning)",
+				"Qwen3 14B (Non-reasoning)",
+				"qwen3-14b",
+				"Qwen3-14B-Base",
+				"Qwen/Qwen3-14B",
+				"Qwen/Qwen3-14B-Base"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen3/",
+			"history": {
+				"first_mention": "2025-04-29",
+				"access": "2025-04-29",
+				"weights": "2025-04-29"
+			},
+			"parameters": {
+				"all": 14768000000,
+				"active": 14768000000
+			},
+			"price": {
+				"input": 0.35,
+				"output": 1.4
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

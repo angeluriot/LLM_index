@@ -1,0 +1,81 @@
+{
+	"display_name": "Qwen-Max",
+	"versions": {
+		"tongyi-qianwen-2-0": {
+			"display_name": "Tongyi Qianwen 2.0",
+			"names": [
+				"Tongyi Qianwen 2.0",
+				"通义千问2.0"
+			],
+			"link": "https://www.alibabacloud.com/blog/alibaba-cloud-launches-tongyi-qianwen-2-0-and-industry-specific-models-to-support-customers-reap-benefits-of-generative-ai_600526",
+			"history": {
+				"first_mention": "2023-10-31",
+				"access": "2023-10-31",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-max-apr-2024": {
+			"display_name": "Qwen-Max (Apr 2024)",
+			"names": [
+				"Qwen-Max (Apr 2024)",
+				"Qwen-Max-0428",
+				"qwen-max-0428",
+				"Tongyi Qianwen 2.5"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2024-04-28",
+				"access": "2024-04-28",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-max-sep-2024": {
+			"display_name": "Qwen-Max (Sep 2024)",
+			"names": [
+				"Qwen-Max (Sep 2024)",
+				"Qwen-Max-0919",
+				"qwen-max-0919",
+				"qwen-max-2024-09-19"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.868,
+				"output": 8.602
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"display_name": "Qwen3.5-0.8B",
+	"versions": {
+		"qwen3-5-0-8b": {
+			"display_name": "Qwen3.5-0.8B",
+			"names": [
+				"Qwen3.5-0.8B",
+				"Qwen3.5 0.8B",
+				"Qwen3.5 0.8B (Reasoning)",
+				"Qwen3.5 0.8B (Non-reasoning)",
+				"qwen3.5-0.8b",
+				"Qwen3.5-0.8B-Base",
+				"Qwen/Qwen3.5-0.8B",
+				"Qwen/Qwen3.5-0.8B-Base"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+			"history": {
+				"first_mention": "2026-03-02",
+				"access": "2026-03-02",
+				"weights": "2026-03-02"
+			},
+			"parameters": {
+				"all": 873000000,
+				"active": 873000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

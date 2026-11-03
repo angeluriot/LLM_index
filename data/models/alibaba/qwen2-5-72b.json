@@ -1,0 +1,95 @@
+{
+	"display_name": "Qwen2.5-72B",
+	"versions": {
+		"qwen2-5-72b": {
+			"display_name": "Qwen2.5-72B",
+			"names": [
+				"Qwen2.5-72B",
+				"Qwen2.5 72B",
+				"Qwen2.5 Instruct (72B)",
+				"Qwen2.5 Instruct 72B",
+				"Qwen2.5 72B Instruct",
+				"qwen2.5-72b-instruct",
+				"qwen-2.5-72b-instruct",
+				"Qwen2.5-72B-Instruct",
+				"Qwen/Qwen2.5-72B",
+				"Qwen/Qwen2.5-72B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": "2024-09-19"
+			},
+			"parameters": {
+				"all": 72706000000,
+				"active": 72706000000
+			},
+			"price": {
+				"input": 1.4,
+				"output": 5.6
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-math-72b": {
+			"display_name": "Qwen2.5-Math-72B",
+			"names": [
+				"Qwen2.5-Math-72B",
+				"Qwen2.5-Math 72B",
+				"Qwen2.5-Math-72B-Base",
+				"qwen2.5-math-72b-instruct",
+				"Qwen2.5-Math-72B-Instruct",
+				"Qwen/Qwen2.5-Math-72B",
+				"Qwen/Qwen2.5-Math-72B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-math/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": "2024-09-19"
+			},
+			"parameters": {
+				"all": 72706000000,
+				"active": 72706000000
+			},
+			"price": {
+				"input": 0.574,
+				"output": 1.721
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-vl-72b": {
+			"display_name": "Qwen2.5-VL-72B",
+			"names": [
+				"Qwen2.5-VL-72B",
+				"Qwen2.5-VL 72B",
+				"Qwen2.5 VL 72B Instruct",
+				"qwen2.5-vl-72b",
+				"qwen2.5-vl-72b-instruct",
+				"Qwen2.5-VL-72B-Instruct",
+				"Qwen/Qwen2.5-VL-72B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-vl/",
+			"history": {
+				"first_mention": "2025-01-26",
+				"access": "2025-01-26",
+				"weights": "2025-01-26"
+			},
+			"parameters": {
+				"all": 73411000000,
+				"active": 73411000000
+			},
+			"price": {
+				"input": 2.8,
+				"output": 8.4
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

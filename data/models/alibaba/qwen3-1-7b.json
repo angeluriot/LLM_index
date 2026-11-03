@@ -1,0 +1,89 @@
+{
+	"display_name": "Qwen3-1.7B",
+	"versions": {
+		"qwen3-1-7b": {
+			"display_name": "Qwen3-1.7B",
+			"names": [
+				"Qwen3-1.7B",
+				"Qwen3 1.7B",
+				"Qwen3 1.7B (Reasoning)",
+				"Qwen3 1.7B (Non-reasoning)",
+				"qwen3-1.7b",
+				"Qwen3-1.7B-Base",
+				"Qwen/Qwen3-1.7B",
+				"Qwen/Qwen3-1.7B-Base"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen3/",
+			"history": {
+				"first_mention": "2025-04-29",
+				"access": "2025-04-29",
+				"weights": "2025-04-29"
+			},
+			"parameters": {
+				"all": 1721000000,
+				"active": 1721000000
+			},
+			"price": {
+				"input": 0.11,
+				"output": 0.42
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen3-vl-2b-instruct": {
+			"display_name": "Qwen3-VL-2B-Instruct",
+			"names": [
+				"Qwen3-VL-2B-Instruct",
+				"Qwen3 VL 2B Instruct",
+				"qwen3-vl-2b-instruct",
+				"Qwen/Qwen3-VL-2B-Instruct"
+			],
+			"link": "https://github.com/QwenLM/Qwen3-VL",
+			"history": {
+				"first_mention": "2025-10-21",
+				"access": "2025-10-21",
+				"weights": "2025-10-21"
+			},
+			"parameters": {
+				"all": 2128000000,
+				"active": 2128000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-vl-2b-thinking": {
+			"display_name": "Qwen3-VL-2B-Thinking",
+			"names": [
+				"Qwen3-VL-2B-Thinking",
+				"Qwen3 VL 2B (Reasoning)",
+				"Qwen3 VL 2B Thinking",
+				"qwen3-vl-2b-thinking",
+				"Qwen/Qwen3-VL-2B-Thinking"
+			],
+			"link": "https://github.com/QwenLM/Qwen3-VL",
+			"history": {
+				"first_mention": "2025-10-21",
+				"access": "2025-10-21",
+				"weights": "2025-10-21"
+			},
+			"parameters": {
+				"all": 2128000000,
+				"active": 2128000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

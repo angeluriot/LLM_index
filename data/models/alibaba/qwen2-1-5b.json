@@ -1,0 +1,90 @@
+{
+	"display_name": "Qwen2-1.5B",
+	"versions": {
+		"qwen2-1-5b": {
+			"display_name": "Qwen2-1.5B",
+			"names": [
+				"Qwen2-1.5B",
+				"Qwen2 1.5B",
+				"Qwen2 Instruct 1.5B",
+				"Qwen2 1.5B Instruct",
+				"qwen2-1.5b-instruct",
+				"Qwen2-1.5B-Instruct",
+				"Qwen/Qwen2-1.5B",
+				"Qwen/Qwen2-1.5B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2/",
+			"history": {
+				"first_mention": "2024-06-07",
+				"access": "2024-06-07",
+				"weights": "2024-06-07"
+			},
+			"parameters": {
+				"all": 1544000000,
+				"active": 1544000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-math-1-5b": {
+			"display_name": "Qwen2-Math-1.5B",
+			"names": [
+				"Qwen2-Math-1.5B",
+				"Qwen2-Math 1.5B",
+				"qwen2-math-1.5b-instruct",
+				"Qwen2-Math-1.5B-Instruct",
+				"Qwen/Qwen2-Math-1.5B",
+				"Qwen/Qwen2-Math-1.5B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2-math/",
+			"history": {
+				"first_mention": "2024-08-08",
+				"access": "2024-08-08",
+				"weights": "2024-08-08"
+			},
+			"parameters": {
+				"all": 1544000000,
+				"active": 1544000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-vl-2b": {
+			"display_name": "Qwen2-VL-2B",
+			"names": [
+				"Qwen2-VL-2B",
+				"Qwen2-VL 2B",
+				"Qwen2-VL-2B-Instruct",
+				"Qwen/Qwen2-VL-2B",
+				"Qwen/Qwen2-VL-2B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2-vl/",
+			"history": {
+				"first_mention": "2024-08-29",
+				"access": "2024-08-29",
+				"weights": "2024-08-29"
+			},
+			"parameters": {
+				"all": 2209000000,
+				"active": 2209000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

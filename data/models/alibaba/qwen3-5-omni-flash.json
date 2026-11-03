@@ -1,0 +1,31 @@
+{
+	"display_name": "Qwen3.5-Omni-Flash",
+	"versions": {
+		"qwen3-5-omni-flash": {
+			"display_name": "Qwen3.5-Omni-Flash",
+			"names": [
+				"Qwen3.5-Omni-Flash",
+				"Qwen3.5 Omni Flash",
+				"qwen3.5-omni-flash",
+				"qwen3.5-omni-flash-2026-03-15"
+			],
+			"link": "https://arxiv.org/abs/2604.15804",
+			"history": {
+				"first_mention": "2026-03-30",
+				"access": "2026-03-30",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.4,
+				"output": 2.2
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,91 @@
+{
+	"display_name": "Qwen3.5-35B-A3B",
+	"versions": {
+		"qwen3-5-35b-a3b": {
+			"display_name": "Qwen3.5-35B-A3B",
+			"names": [
+				"Qwen3.5-35B-A3B",
+				"Qwen3.5 35B A3B",
+				"Qwen3.5 35B A3B (Reasoning)",
+				"Qwen3.5 35B A3B (Non-reasoning)",
+				"Qwen3.5 35B-A3B",
+				"qwen3.5-35b-a3b",
+				"Qwen3.5-35B-A3B-Base",
+				"Qwen/Qwen3.5-35B-A3B",
+				"Qwen/Qwen3.5-35B-A3B-Base"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+			"history": {
+				"first_mention": "2026-02-24",
+				"access": "2026-02-24",
+				"weights": "2026-02-24"
+			},
+			"parameters": {
+				"all": 35952000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": 0.25,
+				"output": 2.0
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen3-5-flash": {
+			"display_name": "Qwen3.5-Flash",
+			"names": [
+				"Qwen3.5-Flash",
+				"Qwen3.5 Flash",
+				"Qwen 3.5 Flash (hosted 35B-A3B)",
+				"qwen3.5-flash",
+				"qwen3.5-flash-2026-02-23"
+			],
+			"link": "https://docs.qwencloud.com/changelog/models",
+			"history": {
+				"first_mention": "2026-02-24",
+				"access": "2026-02-24",
+				"weights": null
+			},
+			"parameters": {
+				"all": 35952000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.4
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen-agentworld-35b-a3b": {
+			"display_name": "Qwen-AgentWorld-35B-A3B",
+			"names": [
+				"Qwen-AgentWorld-35B-A3B",
+				"Qwen-AgentWorld",
+				"Qwen AgentWorld 35B A3B",
+				"Qwen/Qwen-AgentWorld-35B-A3B"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+			"history": {
+				"first_mention": "2026-06-23",
+				"access": "2026-06-23",
+				"weights": "2026-06-23"
+			},
+			"parameters": {
+				"all": 34661000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

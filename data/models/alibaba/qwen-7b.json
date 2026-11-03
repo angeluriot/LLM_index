@@ -1,0 +1,60 @@
+{
+	"display_name": "Qwen-7B",
+	"versions": {
+		"qwen-7b": {
+			"display_name": "Qwen-7B",
+			"names": [
+				"Qwen-7B",
+				"Qwen 7B",
+				"Qwen Chat 7B",
+				"Qwen-7B-Chat",
+				"Qwen/Qwen-7B",
+				"Qwen/Qwen-7B-Chat"
+			],
+			"link": "https://arxiv.org/abs/2309.16609",
+			"history": {
+				"first_mention": "2023-08-03",
+				"access": "2023-08-03",
+				"weights": "2023-08-03"
+			},
+			"parameters": {
+				"all": 7721000000,
+				"active": 7721000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl": {
+			"display_name": "Qwen-VL",
+			"names": [
+				"Qwen-VL",
+				"Qwen-VL 7B",
+				"Qwen-VL-Chat",
+				"Qwen/Qwen-VL",
+				"Qwen/Qwen-VL-Chat"
+			],
+			"link": "https://arxiv.org/abs/2308.12966",
+			"history": {
+				"first_mention": "2023-08-24",
+				"access": "2023-08-24",
+				"weights": "2023-08-24"
+			},
+			"parameters": {
+				"all": 9600000000,
+				"active": 9600000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

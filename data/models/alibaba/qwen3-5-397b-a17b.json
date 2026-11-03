@@ -1,0 +1,88 @@
+{
+	"display_name": "Qwen3.5-397B-A17B",
+	"versions": {
+		"qwen3-5-397b-a17b": {
+			"display_name": "Qwen3.5-397B-A17B",
+			"names": [
+				"Qwen3.5-397B-A17B",
+				"Qwen3.5 397B A17B",
+				"Qwen3.5 397B A17B (Reasoning)",
+				"Qwen3.5 397B A17B (Non-reasoning)",
+				"Qwen3.5 397B-A17B",
+				"qwen3.5-397b-a17b",
+				"Qwen/Qwen3.5-397B-A17B"
+			],
+			"link": "https://qwen.ai/blog?id=qwen3.5",
+			"history": {
+				"first_mention": "2026-02-16",
+				"access": "2026-02-16",
+				"weights": "2026-02-16"
+			},
+			"parameters": {
+				"all": 403398000000,
+				"active": 17000000000
+			},
+			"price": {
+				"input": 0.6,
+				"output": 3.6
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen3-5-plus": {
+			"display_name": "Qwen3.5-Plus",
+			"names": [
+				"Qwen3.5-Plus",
+				"Qwen3.5 Plus",
+				"Qwen 3.5 Plus (hosted 397B-A17B)",
+				"Qwen3.5-Plus (Feb 2026)",
+				"qwen3.5-plus-2026-02-15"
+			],
+			"link": "https://qwen.ai/blog?id=qwen3.5",
+			"history": {
+				"first_mention": "2026-02-16",
+				"access": "2026-02-16",
+				"weights": null
+			},
+			"parameters": {
+				"all": 403398000000,
+				"active": 17000000000
+			},
+			"price": {
+				"input": 0.4,
+				"output": 2.4
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen3-5-plus-apr-2026": {
+			"display_name": "Qwen3.5-Plus (Apr 2026)",
+			"names": [
+				"Qwen3.5-Plus (Apr 2026)",
+				"qwen3.5-plus-2026-04-20"
+			],
+			"link": "https://docs.qwencloud.com/changelog/models",
+			"history": {
+				"first_mention": "2026-04-23",
+				"access": "2026-04-23",
+				"weights": null
+			},
+			"parameters": {
+				"all": 403398000000,
+				"active": 17000000000
+			},
+			"price": {
+				"input": 0.4,
+				"output": 2.4
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

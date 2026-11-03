@@ -1,0 +1,198 @@
+{
+	"display_name": "Qwen-VL-Max",
+	"versions": {
+		"qwen-vl-max-jan-2024": {
+			"display_name": "Qwen-VL-Max (Jan 2024)",
+			"names": [
+				"Qwen-VL-Max (Jan 2024)"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen-vl/",
+			"history": {
+				"first_mention": "2024-01-25",
+				"access": "2024-01-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl-max-aug-2024": {
+			"display_name": "Qwen-VL-Max (Aug 2024)",
+			"names": [
+				"Qwen-VL-Max (Aug 2024)",
+				"qwen-vl-max-0809",
+				"qwen-vl-max-2024-08-09"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2024-08-09",
+				"access": "2024-08-09",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.868,
+				"output": 2.868
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl-max-oct-2024": {
+			"display_name": "Qwen-VL-Max (Oct 2024)",
+			"names": [
+				"Qwen-VL-Max (Oct 2024)",
+				"qwen-vl-max-2024-10-30"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2024-10-30",
+				"access": "2024-10-30",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.868,
+				"output": 2.868
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl-max-nov-2024": {
+			"display_name": "Qwen-VL-Max (Nov 2024)",
+			"names": [
+				"Qwen-VL-Max (Nov 2024)",
+				"qwen-vl-max-2024-11-19"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2024-11-19",
+				"access": "2024-11-19",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.431,
+				"output": 1.291
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl-max-dec-2024": {
+			"display_name": "Qwen-VL-Max (Dec 2024)",
+			"names": [
+				"Qwen-VL-Max (Dec 2024)",
+				"qwen-vl-max-2024-12-30"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2024-12-30",
+				"access": "2024-12-30",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.431,
+				"output": 1.291
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl-max-jan-2025": {
+			"display_name": "Qwen-VL-Max (Jan 2025)",
+			"names": [
+				"Qwen-VL-Max (Jan 2025)",
+				"qwen-vl-max-2025-01-25"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-01-25",
+				"access": "2025-01-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.431,
+				"output": 1.291
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl-max-apr-2025": {
+			"display_name": "Qwen-VL-Max (Apr 2025)",
+			"names": [
+				"Qwen-VL-Max (Apr 2025)",
+				"qwen-vl-max-2025-04-02",
+				"qwen-vl-max-2025-04-08"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-04-02",
+				"access": "2025-04-02",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.8,
+				"output": 3.2
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-vl-max-aug-2025": {
+			"display_name": "Qwen-VL-Max (Aug 2025)",
+			"names": [
+				"Qwen-VL-Max (Aug 2025)",
+				"qwen-vl-max-2025-08-13"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-08-13",
+				"access": "2025-08-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.8,
+				"output": 3.2
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

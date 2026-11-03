@@ -1,0 +1,33 @@
+{
+	"display_name": "Qwen3.8-Omni-Flash",
+	"versions": {
+		"qwen3-8-omni-flash": {
+			"display_name": "Qwen3.8-Omni-Flash",
+			"names": [
+				"Qwen3.8-Omni-Flash",
+				"Qwen3.8 Omni Flash",
+				"qwen3.8-omni-flash"
+			],
+			"link": "https://docs.qwencloud.com/changelog/models",
+			"history": {
+				"first_mention": "2026-09-18",
+				"access": "2026-09-18",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.15,
+				"output": 0.47
+			},
+			"efforts": [
+				"",
+				"Low",
+				"Medium",
+				"Xhigh"
+			]
+		}
+	}
+}

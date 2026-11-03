@@ -1,0 +1,30 @@
+{
+	"display_name": "Tongyi Qianwen",
+	"versions": {
+		"tongyi-qianwen": {
+			"display_name": "Tongyi Qianwen",
+			"names": [
+				"Tongyi Qianwen",
+				"Tongyi Qianwen 1.0",
+				"通义千问"
+			],
+			"link": "https://en.wikipedia.org/wiki/Qwen",
+			"history": {
+				"first_mention": "2023-04-07",
+				"access": "2023-09-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

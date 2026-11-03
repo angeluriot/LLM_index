@@ -1,0 +1,61 @@
+{
+	"display_name": "Qwen3.6-35B-A3B",
+	"versions": {
+		"qwen3-6-35b-a3b": {
+			"display_name": "Qwen3.6-35B-A3B",
+			"names": [
+				"Qwen3.6-35B-A3B",
+				"Qwen3.6 35B A3B",
+				"Qwen3.6 35B A3B (Reasoning)",
+				"Qwen3.6 35B A3B (Non-reasoning)",
+				"qwen3.6-35b-a3b",
+				"Qwen/Qwen3.6-35B-A3B"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+			"history": {
+				"first_mention": "2026-04-16",
+				"access": "2026-04-16",
+				"weights": "2026-04-16"
+			},
+			"parameters": {
+				"all": 35952000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": 0.375,
+				"output": 2.25
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen3-6-flash": {
+			"display_name": "Qwen3.6-Flash",
+			"names": [
+				"Qwen3.6-Flash",
+				"Qwen3.6 Flash",
+				"qwen3.6-flash",
+				"qwen3.6-flash-2026-04-16"
+			],
+			"link": "https://docs.qwencloud.com/changelog/models",
+			"history": {
+				"first_mention": "2026-04-16",
+				"access": "2026-04-16",
+				"weights": null
+			},
+			"parameters": {
+				"all": 35952000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": 0.25,
+				"output": 1.5
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

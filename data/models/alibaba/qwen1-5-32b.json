@@ -1,0 +1,34 @@
+{
+	"display_name": "Qwen1.5-32B",
+	"versions": {
+		"qwen1-5-32b": {
+			"display_name": "Qwen1.5-32B",
+			"names": [
+				"Qwen1.5-32B",
+				"Qwen1.5 32B",
+				"Qwen1.5 Chat 32B",
+				"qwen1.5-32b-chat",
+				"Qwen1.5-32B-Chat",
+				"Qwen/Qwen1.5-32B",
+				"Qwen/Qwen1.5-32B-Chat"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen1.5-32b/",
+			"history": {
+				"first_mention": "2024-04-02",
+				"access": "2024-04-02",
+				"weights": "2024-04-02"
+			},
+			"parameters": {
+				"all": 32512000000,
+				"active": 32512000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

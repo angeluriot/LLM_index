@@ -1,0 +1,103 @@
+{
+	"display_name": "Qwen-Turbo",
+	"versions": {
+		"qwen-turbo-feb-2024": {
+			"display_name": "Qwen-Turbo (Feb 2024)",
+			"names": [
+				"Qwen-Turbo (Feb 2024)"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2024-02-06",
+				"access": "2024-02-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-turbo-sep-2024": {
+			"display_name": "Qwen-Turbo (Sep 2024)",
+			"names": [
+				"Qwen-Turbo (Sep 2024)",
+				"qwen-turbo-0919",
+				"qwen-turbo-2024-09-19"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-turbo-apr-2025": {
+			"display_name": "Qwen-Turbo (Apr 2025)",
+			"names": [
+				"Qwen-Turbo (Apr 2025)",
+				"qwen-turbo-2025-04-28"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen3/",
+			"history": {
+				"first_mention": "2025-04-28",
+				"access": "2025-04-28",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.05,
+				"output": 0.2
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen-turbo-jul-2025": {
+			"display_name": "Qwen-Turbo (Jul 2025)",
+			"names": [
+				"Qwen-Turbo (Jul 2025)",
+				"qwen-turbo-2025-07-15"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-07-15",
+				"access": "2025-07-15",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.044,
+				"output": 0.087
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

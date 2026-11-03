@@ -1,0 +1,32 @@
+{
+	"display_name": "Qwen3-VL-Flash",
+	"versions": {
+		"qwen3-vl-flash": {
+			"display_name": "Qwen3-VL-Flash",
+			"names": [
+				"Qwen3-VL-Flash",
+				"Qwen3 VL Flash",
+				"qwen3-vl-flash",
+				"qwen3-vl-flash-2025-10-15"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-10-15",
+				"access": "2025-10-15",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.05,
+				"output": 0.4
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

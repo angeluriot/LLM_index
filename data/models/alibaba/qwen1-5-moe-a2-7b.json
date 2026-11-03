@@ -1,0 +1,32 @@
+{
+	"display_name": "Qwen1.5-MoE-A2.7B",
+	"versions": {
+		"qwen1-5-moe-a2-7b": {
+			"display_name": "Qwen1.5-MoE-A2.7B",
+			"names": [
+				"Qwen1.5-MoE-A2.7B",
+				"Qwen1.5 MoE A2.7B",
+				"Qwen1.5-MoE-A2.7B-Chat",
+				"Qwen/Qwen1.5-MoE-A2.7B",
+				"Qwen/Qwen1.5-MoE-A2.7B-Chat"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen-moe/",
+			"history": {
+				"first_mention": "2024-03-28",
+				"access": "2024-03-28",
+				"weights": "2024-03-28"
+			},
+			"parameters": {
+				"all": 14316000000,
+				"active": 2700000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

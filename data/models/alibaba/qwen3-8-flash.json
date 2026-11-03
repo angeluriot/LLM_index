@@ -1,0 +1,62 @@
+{
+	"display_name": "Qwen3.8-Flash",
+	"versions": {
+		"qwen3-8-flash-next": {
+			"display_name": "Qwen3.8-Flash-Next",
+			"names": [
+				"Qwen3.8-Flash-Next",
+				"Qwen3.8 Flash Next",
+				"qwen3.8-flash-next",
+				"Qwen/Qwen3.8-Flash-Next"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+			"history": {
+				"first_mention": "2026-08-26",
+				"access": "2026-08-26",
+				"weights": "2026-08-26"
+			},
+			"parameters": {
+				"all": 180000000000,
+				"active": 6000000000
+			},
+			"price": {
+				"input": 0.15,
+				"output": 0.47
+			},
+			"efforts": [
+				"",
+				"Low",
+				"Medium",
+				"Xhigh"
+			]
+		},
+		"qwen3-8-flash": {
+			"display_name": "Qwen3.8-Flash",
+			"names": [
+				"Qwen3.8-Flash",
+				"Qwen3.8 Flash",
+				"qwen3.8-flash"
+			],
+			"link": "https://www.qwencloud.com/models/qwen3.8-flash",
+			"history": {
+				"first_mention": "2026-08-26",
+				"access": "2026-08-26",
+				"weights": null
+			},
+			"parameters": {
+				"all": 180000000000,
+				"active": 6000000000
+			},
+			"price": {
+				"input": 0.15,
+				"output": 0.47
+			},
+			"efforts": [
+				"",
+				"Low",
+				"Medium",
+				"Xhigh"
+			]
+		}
+	}
+}

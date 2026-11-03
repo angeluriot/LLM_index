@@ -1,0 +1,141 @@
+{
+	"display_name": "Qwen3-235B-A22B",
+	"versions": {
+		"qwen3-235b-a22b": {
+			"display_name": "Qwen3-235B-A22B",
+			"names": [
+				"Qwen3-235B-A22B",
+				"Qwen3 235B A22B",
+				"Qwen3 235B A22B (Reasoning)",
+				"Qwen3 235B A22B (Non-reasoning)",
+				"qwen3-235b-a22b",
+				"Qwen/Qwen3-235B-A22B"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen3/",
+			"history": {
+				"first_mention": "2025-04-29",
+				"access": "2025-04-29",
+				"weights": "2025-04-29"
+			},
+			"parameters": {
+				"all": 235094000000,
+				"active": 22000000000
+			},
+			"price": {
+				"input": 0.7,
+				"output": 2.8
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen3-235b-a22b-instruct-2507": {
+			"display_name": "Qwen3-235B-A22B-Instruct-2507",
+			"names": [
+				"Qwen3-235B-A22B-Instruct-2507",
+				"Qwen3-235B-A22B (Jul 2025)",
+				"Qwen3 235B A22B 2507 Instruct",
+				"qwen3-235b-a22b-instruct-2507",
+				"Qwen/Qwen3-235B-A22B-Instruct-2507"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+			"history": {
+				"first_mention": "2025-07-21",
+				"access": "2025-07-21",
+				"weights": "2025-07-21"
+			},
+			"parameters": {
+				"all": 235094000000,
+				"active": 22000000000
+			},
+			"price": {
+				"input": 0.23,
+				"output": 0.92
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-235b-a22b-thinking-2507": {
+			"display_name": "Qwen3-235B-A22B-Thinking-2507",
+			"names": [
+				"Qwen3-235B-A22B-Thinking-2507",
+				"Qwen3-235B-A22B-Thinking (Jul 2025)",
+				"Qwen3 235B A22B 2507 (Reasoning)",
+				"qwen3-235b-a22b-thinking-2507",
+				"Qwen/Qwen3-235B-A22B-Thinking-2507"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507",
+			"history": {
+				"first_mention": "2025-07-25",
+				"access": "2025-07-25",
+				"weights": "2025-07-25"
+			},
+			"parameters": {
+				"all": 235094000000,
+				"active": 22000000000
+			},
+			"price": {
+				"input": 0.23,
+				"output": 2.3
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-vl-235b-a22b-instruct": {
+			"display_name": "Qwen3-VL-235B-A22B-Instruct",
+			"names": [
+				"Qwen3-VL-235B-A22B-Instruct",
+				"Qwen3 VL 235B A22B Instruct",
+				"qwen3-vl-235b-a22b-instruct",
+				"Qwen/Qwen3-VL-235B-A22B-Instruct"
+			],
+			"link": "https://github.com/QwenLM/Qwen3-VL",
+			"history": {
+				"first_mention": "2025-09-23",
+				"access": "2025-09-23",
+				"weights": "2025-09-23"
+			},
+			"parameters": {
+				"all": 235670000000,
+				"active": 22000000000
+			},
+			"price": {
+				"input": 0.287,
+				"output": 1.147
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-vl-235b-a22b-thinking": {
+			"display_name": "Qwen3-VL-235B-A22B-Thinking",
+			"names": [
+				"Qwen3-VL-235B-A22B-Thinking",
+				"Qwen3 VL 235B A22B (Reasoning)",
+				"Qwen3 VL 235B A22B Thinking",
+				"qwen3-vl-235b-a22b-thinking",
+				"Qwen/Qwen3-VL-235B-A22B-Thinking"
+			],
+			"link": "https://github.com/QwenLM/Qwen3-VL",
+			"history": {
+				"first_mention": "2025-09-23",
+				"access": "2025-09-23",
+				"weights": "2025-09-23"
+			},
+			"parameters": {
+				"all": 235670000000,
+				"active": 22000000000
+			},
+			"price": {
+				"input": 0.287,
+				"output": 2.867
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

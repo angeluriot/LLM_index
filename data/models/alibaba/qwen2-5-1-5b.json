@@ -1,0 +1,98 @@
+{
+	"display_name": "Qwen2.5-1.5B",
+	"versions": {
+		"qwen2-5-1-5b": {
+			"display_name": "Qwen2.5-1.5B",
+			"names": [
+				"Qwen2.5-1.5B",
+				"Qwen2.5 1.5B",
+				"Qwen2.5 Instruct (1.5B)",
+				"Qwen2.5 Instruct 1.5B",
+				"Qwen2.5 1.5B Instruct",
+				"qwen2.5-1.5b-instruct",
+				"qwen-2.5-1.5b-instruct",
+				"Qwen2.5-1.5B-Instruct",
+				"Qwen/Qwen2.5-1.5B",
+				"Qwen/Qwen2.5-1.5B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": "2024-09-19"
+			},
+			"parameters": {
+				"all": 1544000000,
+				"active": 1544000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-coder-1-5b": {
+			"display_name": "Qwen2.5-Coder-1.5B",
+			"names": [
+				"Qwen2.5-Coder-1.5B",
+				"Qwen2.5-Coder (1.5B)",
+				"Qwen2.5-Coder 1.5B",
+				"Qwen2.5 Coder Instruct 1.5B",
+				"Qwen2.5-Coder 1.5B Instruct",
+				"qwen2.5-coder-1.5b-instruct",
+				"qwen-2.5-coder-1.5b-instruct",
+				"Qwen2.5-Coder-1.5B-Instruct",
+				"Qwen/Qwen2.5-Coder-1.5B",
+				"Qwen/Qwen2.5-Coder-1.5B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": "2024-09-19"
+			},
+			"parameters": {
+				"all": 1544000000,
+				"active": 1544000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-math-1-5b": {
+			"display_name": "Qwen2.5-Math-1.5B",
+			"names": [
+				"Qwen2.5-Math-1.5B",
+				"Qwen2.5-Math 1.5B",
+				"Qwen2.5-Math-1.5B-Base",
+				"qwen2.5-math-1.5b-instruct",
+				"Qwen2.5-Math-1.5B-Instruct",
+				"Qwen/Qwen2.5-Math-1.5B",
+				"Qwen/Qwen2.5-Math-1.5B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-math/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": "2024-09-19"
+			},
+			"parameters": {
+				"all": 1544000000,
+				"active": 1544000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

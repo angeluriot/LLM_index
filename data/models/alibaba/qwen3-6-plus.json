@@ -1,0 +1,59 @@
+{
+	"display_name": "Qwen3.6-Plus",
+	"versions": {
+		"qwen3-6-plus-preview": {
+			"display_name": "Qwen3.6-Plus-Preview",
+			"names": [
+				"Qwen3.6-Plus-Preview",
+				"Qwen3.6 Plus Preview",
+				"qwen3.6-plus-preview",
+				"qwen/qwen3.6-plus-preview"
+			],
+			"link": "https://openrouter.ai/qwen/qwen3.6-plus-preview:free",
+			"history": {
+				"first_mention": "2026-03-30",
+				"access": "2026-03-30",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-6-plus": {
+			"display_name": "Qwen3.6-Plus",
+			"names": [
+				"Qwen3.6-Plus",
+				"Qwen3.6 Plus",
+				"Qwen 3.6 Plus",
+				"qwen3.6-plus",
+				"qwen3.6-plus-2026-04-02"
+			],
+			"link": "https://qwen.ai/blog?id=qwen3.6",
+			"history": {
+				"first_mention": "2026-03-30",
+				"access": "2026-04-02",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.5,
+				"output": 3.0
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

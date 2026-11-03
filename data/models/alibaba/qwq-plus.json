@@ -1,0 +1,32 @@
+{
+	"display_name": "QwQ-Plus",
+	"versions": {
+		"qwq-plus": {
+			"display_name": "QwQ-Plus",
+			"names": [
+				"QwQ-Plus",
+				"QWQ-Plus",
+				"QwQ Plus",
+				"qwq-plus",
+				"qwq-plus-2025-03-05"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/qwq",
+			"history": {
+				"first_mention": "2025-03-06",
+				"access": "2025-03-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.8,
+				"output": 2.4
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

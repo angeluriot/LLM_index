@@ -1,0 +1,96 @@
+{
+	"display_name": "Qwen2.5-14B",
+	"versions": {
+		"qwen2-5-14b": {
+			"display_name": "Qwen2.5-14B",
+			"names": [
+				"Qwen2.5-14B",
+				"Qwen2.5 14B",
+				"Qwen2.5 Instruct (14B)",
+				"Qwen2.5 Instruct 14B",
+				"Qwen2.5 14B Instruct",
+				"qwen2.5-14b-instruct",
+				"qwen-2.5-14b-instruct",
+				"Qwen2.5-14B-Instruct",
+				"Qwen/Qwen2.5-14B",
+				"Qwen/Qwen2.5-14B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": "2024-09-19"
+			},
+			"parameters": {
+				"all": 14770000000,
+				"active": 14770000000
+			},
+			"price": {
+				"input": 0.35,
+				"output": 1.4
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-coder-14b": {
+			"display_name": "Qwen2.5-Coder-14B",
+			"names": [
+				"Qwen2.5-Coder-14B",
+				"Qwen2.5-Coder (14B)",
+				"Qwen2.5-Coder 14B",
+				"Qwen2.5 Coder Instruct 14B",
+				"Qwen2.5-Coder 14B Instruct",
+				"qwen2.5-coder-14b-instruct",
+				"qwen-2.5-coder-14b-instruct",
+				"Qwen2.5-Coder-14B-Instruct",
+				"Qwen/Qwen2.5-Coder-14B",
+				"Qwen/Qwen2.5-Coder-14B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+			"history": {
+				"first_mention": "2024-11-12",
+				"access": "2024-11-12",
+				"weights": "2024-11-12"
+			},
+			"parameters": {
+				"all": 14770000000,
+				"active": 14770000000
+			},
+			"price": {
+				"input": 0.287,
+				"output": 0.861
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-14b-instruct-1m": {
+			"display_name": "Qwen2.5-14B-Instruct-1M",
+			"names": [
+				"Qwen2.5-14B-Instruct-1M",
+				"Qwen2.5-14B-1M",
+				"Qwen2.5 14B Instruct 1M",
+				"qwen2.5-14b-instruct-1m",
+				"Qwen/Qwen2.5-14B-Instruct-1M"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-1m/",
+			"history": {
+				"first_mention": "2025-01-27",
+				"access": "2025-01-27",
+				"weights": "2025-01-27"
+			},
+			"parameters": {
+				"all": 14770000000,
+				"active": 14770000000
+			},
+			"price": {
+				"input": 0.805,
+				"output": 3.22
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

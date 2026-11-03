@@ -1,0 +1,180 @@
+{
+	"display_name": "Qwen2.5-7B",
+	"versions": {
+		"qwen2-5-7b": {
+			"display_name": "Qwen2.5-7B",
+			"names": [
+				"Qwen2.5-7B",
+				"Qwen2.5 7B",
+				"Qwen2.5 Instruct (7B)",
+				"Qwen2.5 Instruct 7B",
+				"Qwen2.5 7B Instruct",
+				"qwen2.5-7b-instruct",
+				"qwen-2.5-7b-instruct",
+				"Qwen2.5-7B-Instruct",
+				"Qwen/Qwen2.5-7B",
+				"Qwen/Qwen2.5-7B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": "2024-09-19"
+			},
+			"parameters": {
+				"all": 7616000000,
+				"active": 7616000000
+			},
+			"price": {
+				"input": 0.175,
+				"output": 0.7
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-coder-7b": {
+			"display_name": "Qwen2.5-Coder-7B",
+			"names": [
+				"Qwen2.5-Coder-7B",
+				"Qwen2.5-Coder (7B)",
+				"Qwen2.5-Coder 7B",
+				"Qwen2.5 Coder Instruct 7B",
+				"Qwen2.5-Coder 7B Instruct",
+				"qwen2.5-coder-7b-instruct",
+				"qwen-2.5-coder-7b-instruct",
+				"Qwen2.5-Coder-7B-Instruct",
+				"Qwen/Qwen2.5-Coder-7B",
+				"Qwen/Qwen2.5-Coder-7B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": "2024-09-19"
+			},
+			"parameters": {
+				"all": 7616000000,
+				"active": 7616000000
+			},
+			"price": {
+				"input": 0.144,
+				"output": 0.287
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-math-7b": {
+			"display_name": "Qwen2.5-Math-7B",
+			"names": [
+				"Qwen2.5-Math-7B",
+				"Qwen2.5-Math 7B",
+				"Qwen2.5-Math-7B-Base",
+				"qwen2.5-math-7b-instruct",
+				"Qwen2.5-Math-7B-Instruct",
+				"Qwen/Qwen2.5-Math-7B",
+				"Qwen/Qwen2.5-Math-7B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-math/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": "2024-09-19"
+			},
+			"parameters": {
+				"all": 7616000000,
+				"active": 7616000000
+			},
+			"price": {
+				"input": 0.144,
+				"output": 0.287
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-vl-7b": {
+			"display_name": "Qwen2.5-VL-7B",
+			"names": [
+				"Qwen2.5-VL-7B",
+				"Qwen2.5-VL 7B",
+				"Qwen2.5 VL 7B Instruct",
+				"qwen2.5-vl-7b",
+				"qwen2.5-vl-7b-instruct",
+				"Qwen2.5-VL-7B-Instruct",
+				"Qwen/Qwen2.5-VL-7B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-vl/",
+			"history": {
+				"first_mention": "2025-01-26",
+				"access": "2025-01-26",
+				"weights": "2025-01-26"
+			},
+			"parameters": {
+				"all": 8292000000,
+				"active": 8292000000
+			},
+			"price": {
+				"input": 0.35,
+				"output": 1.05
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-7b-instruct-1m": {
+			"display_name": "Qwen2.5-7B-Instruct-1M",
+			"names": [
+				"Qwen2.5-7B-Instruct-1M",
+				"Qwen2.5-7B-1M",
+				"Qwen2.5 7B Instruct 1M",
+				"qwen2.5-7b-instruct-1m",
+				"Qwen/Qwen2.5-7B-Instruct-1M"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-1m/",
+			"history": {
+				"first_mention": "2025-01-27",
+				"access": "2025-01-27",
+				"weights": "2025-01-27"
+			},
+			"parameters": {
+				"all": 7616000000,
+				"active": 7616000000
+			},
+			"price": {
+				"input": 0.368,
+				"output": 1.47
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-omni-7b": {
+			"display_name": "Qwen2.5-Omni-7B",
+			"names": [
+				"Qwen2.5-Omni-7B",
+				"Qwen2.5-Omni 7B",
+				"qwen2.5-omni-7b",
+				"Qwen/Qwen2.5-Omni-7B"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-omni/",
+			"history": {
+				"first_mention": "2025-03-27",
+				"access": "2025-03-27",
+				"weights": "2025-03-27"
+			},
+			"parameters": {
+				"all": 10732000000,
+				"active": 10732000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

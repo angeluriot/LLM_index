@@ -1,0 +1,69 @@
+{
+	"display_name": "Qwen2.5-0.5B",
+	"versions": {
+		"qwen2-5-0-5b": {
+			"display_name": "Qwen2.5-0.5B",
+			"names": [
+				"Qwen2.5-0.5B",
+				"Qwen2.5 0.5B",
+				"Qwen2.5 Instruct (0.5B)",
+				"Qwen2.5 Instruct 0.5B",
+				"Qwen2.5 0.5B Instruct",
+				"qwen2.5-0.5b-instruct",
+				"qwen-2.5-0.5b-instruct",
+				"Qwen2.5-0.5B-Instruct",
+				"Qwen/Qwen2.5-0.5B",
+				"Qwen/Qwen2.5-0.5B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": "2024-09-19"
+			},
+			"parameters": {
+				"all": 494000000,
+				"active": 494000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-coder-0-5b": {
+			"display_name": "Qwen2.5-Coder-0.5B",
+			"names": [
+				"Qwen2.5-Coder-0.5B",
+				"Qwen2.5-Coder (0.5B)",
+				"Qwen2.5-Coder 0.5B",
+				"Qwen2.5 Coder Instruct 0.5B",
+				"Qwen2.5-Coder 0.5B Instruct",
+				"qwen2.5-coder-0.5b-instruct",
+				"qwen-2.5-coder-0.5b-instruct",
+				"Qwen2.5-Coder-0.5B-Instruct",
+				"Qwen/Qwen2.5-Coder-0.5B",
+				"Qwen/Qwen2.5-Coder-0.5B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+			"history": {
+				"first_mention": "2024-11-12",
+				"access": "2024-11-12",
+				"weights": "2024-11-12"
+			},
+			"parameters": {
+				"all": 494000000,
+				"active": 494000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

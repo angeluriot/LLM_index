@@ -1,0 +1,153 @@
+{
+	"display_name": "Qwen2.5-32B",
+	"versions": {
+		"qwen2-5-32b": {
+			"display_name": "Qwen2.5-32B",
+			"names": [
+				"Qwen2.5-32B",
+				"Qwen2.5 32B",
+				"Qwen2.5 Instruct (32B)",
+				"Qwen2.5 Instruct 32B",
+				"Qwen2.5 32B Instruct",
+				"qwen2.5-32b-instruct",
+				"qwen-2.5-32b-instruct",
+				"Qwen2.5-32B-Instruct",
+				"Qwen/Qwen2.5-32B",
+				"Qwen/Qwen2.5-32B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": "2024-09-19"
+			},
+			"parameters": {
+				"all": 32764000000,
+				"active": 32764000000
+			},
+			"price": {
+				"input": 0.7,
+				"output": 2.8
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-coder-32b": {
+			"display_name": "Qwen2.5-Coder-32B",
+			"names": [
+				"Qwen2.5-Coder-32B",
+				"Qwen2.5-Coder (32B)",
+				"Qwen2.5-Coder 32B",
+				"Qwen2.5 Coder Instruct 32B",
+				"Qwen2.5-Coder 32B Instruct",
+				"qwen2.5-coder-32b-instruct",
+				"qwen-2.5-coder-32b-instruct",
+				"Qwen2.5-Coder-32B-Instruct",
+				"Qwen/Qwen2.5-Coder-32B",
+				"Qwen/Qwen2.5-Coder-32B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+			"history": {
+				"first_mention": "2024-11-12",
+				"access": "2024-11-12",
+				"weights": "2024-11-12"
+			},
+			"parameters": {
+				"all": 32764000000,
+				"active": 32764000000
+			},
+			"price": {
+				"input": 0.287,
+				"output": 0.861
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwq-32b-preview": {
+			"display_name": "QwQ-32B-Preview",
+			"names": [
+				"QwQ-32B-Preview",
+				"QwQ 32B-Preview",
+				"QwQ 32B Preview",
+				"QwQ-32B (Preview)",
+				"qwq-32b-preview",
+				"Qwen/QwQ-32B-Preview"
+			],
+			"link": "https://qwenlm.github.io/blog/qwq-32b-preview/",
+			"history": {
+				"first_mention": "2024-11-28",
+				"access": "2024-11-28",
+				"weights": "2024-11-28"
+			},
+			"parameters": {
+				"all": 32764000000,
+				"active": 32764000000
+			},
+			"price": {
+				"input": 0.287,
+				"output": 0.861
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwq-32b": {
+			"display_name": "QwQ-32B",
+			"names": [
+				"QwQ-32B",
+				"QwQ 32B",
+				"QwQ",
+				"qwq-32b",
+				"Qwen/QwQ-32B"
+			],
+			"link": "https://qwenlm.github.io/blog/qwq-32b/",
+			"history": {
+				"first_mention": "2025-03-06",
+				"access": "2025-03-06",
+				"weights": "2025-03-06"
+			},
+			"parameters": {
+				"all": 32764000000,
+				"active": 32764000000
+			},
+			"price": {
+				"input": 0.287,
+				"output": 0.861
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-5-vl-32b": {
+			"display_name": "Qwen2.5-VL-32B",
+			"names": [
+				"Qwen2.5-VL-32B",
+				"Qwen2.5-VL 32B",
+				"Qwen2.5 VL 32B Instruct",
+				"qwen2.5-vl-32b",
+				"qwen2.5-vl-32b-instruct",
+				"Qwen2.5-VL-32B-Instruct",
+				"Qwen/Qwen2.5-VL-32B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-vl-32b/",
+			"history": {
+				"first_mention": "2025-03-24",
+				"access": "2025-03-24",
+				"weights": "2025-03-24"
+			},
+			"parameters": {
+				"all": 33453000000,
+				"active": 33453000000
+			},
+			"price": {
+				"input": 1.4,
+				"output": 4.2
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

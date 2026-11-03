@@ -1,0 +1,30 @@
+{
+	"display_name": "PLUG",
+	"versions": {
+		"plug": {
+			"display_name": "PLUG",
+			"names": [
+				"PLUG",
+				"PLUG 27B",
+				"PLUG-27B"
+			],
+			"link": "https://mp.weixin.qq.com/s/DAQomIkDa52Sef-ruyH5qg",
+			"history": {
+				"first_mention": "2021-04-19",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 27000000000,
+				"active": 27000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

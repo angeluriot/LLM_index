@@ -1,0 +1,109 @@
+{
+	"display_name": "Qwen3-Omni-30B-A3B",
+	"versions": {
+		"qwen3-omni-30b-a3b-instruct": {
+			"display_name": "Qwen3-Omni-30B-A3B-Instruct",
+			"names": [
+				"Qwen3-Omni-30B-A3B-Instruct",
+				"Qwen3-Omni-30B-A3B",
+				"Qwen3 Omni 30B A3B Instruct",
+				"qwen3-omni-30b-a3b-instruct",
+				"Qwen/Qwen3-Omni-30B-A3B-Instruct"
+			],
+			"link": "https://arxiv.org/abs/2509.17765",
+			"history": {
+				"first_mention": "2025-09-22",
+				"access": "2025-09-22",
+				"weights": "2025-09-22"
+			},
+			"parameters": {
+				"all": 35260000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-omni-30b-a3b-thinking": {
+			"display_name": "Qwen3-Omni-30B-A3B-Thinking",
+			"names": [
+				"Qwen3-Omni-30B-A3B-Thinking",
+				"Qwen3 Omni 30B A3B (Reasoning)",
+				"qwen3-omni-30b-a3b-thinking",
+				"Qwen/Qwen3-Omni-30B-A3B-Thinking"
+			],
+			"link": "https://arxiv.org/abs/2509.17765",
+			"history": {
+				"first_mention": "2025-09-22",
+				"access": "2025-09-22",
+				"weights": "2025-09-22"
+			},
+			"parameters": {
+				"all": 31719000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-omni-flash-sep-2025": {
+			"display_name": "Qwen3-Omni-Flash (Sep 2025)",
+			"names": [
+				"Qwen3-Omni-Flash (Sep 2025)",
+				"Qwen3-Omni-Flash",
+				"qwen3-omni-flash-2025-09-15"
+			],
+			"link": "https://arxiv.org/abs/2509.17765",
+			"history": {
+				"first_mention": "2025-09-22",
+				"access": "2025-09-22",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.43,
+				"output": 1.66
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen3-omni-flash-dec-2025": {
+			"display_name": "Qwen3-Omni-Flash (Dec 2025)",
+			"names": [
+				"Qwen3-Omni-Flash (Dec 2025)",
+				"qwen3-omni-flash-2025-12-01"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-12-01",
+				"access": "2025-12-01",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.43,
+				"output": 1.66
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"display_name": "Qwen3.5-9B",
+	"versions": {
+		"qwen3-5-9b": {
+			"display_name": "Qwen3.5-9B",
+			"names": [
+				"Qwen3.5-9B",
+				"Qwen3.5 9B",
+				"Qwen3.5 9B (Reasoning)",
+				"Qwen3.5 9B (Non-reasoning)",
+				"qwen3.5-9b",
+				"Qwen3.5-9B-Base",
+				"Qwen/Qwen3.5-9B",
+				"Qwen/Qwen3.5-9B-Base"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3.5-9B",
+			"history": {
+				"first_mention": "2026-03-02",
+				"access": "2026-03-02",
+				"weights": "2026-03-02"
+			},
+			"parameters": {
+				"all": 9653000000,
+				"active": 9653000000
+			},
+			"price": {
+				"input": 0.135,
+				"output": 0.2
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

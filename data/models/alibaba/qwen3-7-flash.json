@@ -1,0 +1,32 @@
+{
+	"display_name": "Qwen3.7-Flash",
+	"versions": {
+		"qwen3-7-flash": {
+			"display_name": "Qwen3.7-Flash",
+			"names": [
+				"Qwen3.7-Flash",
+				"Qwen3.7 Flash",
+				"qwen3.7-flash",
+				"qwen3.7-flash-2026-07-15"
+			],
+			"link": "https://www.qwencloud.com/models/qwen3.7-flash",
+			"history": {
+				"first_mention": "2026-07-25",
+				"access": "2026-07-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.03,
+				"output": 0.13
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

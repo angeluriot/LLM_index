@@ -1,0 +1,31 @@
+{
+	"display_name": "Qwen-Long",
+	"versions": {
+		"qwen-long": {
+			"display_name": "Qwen-Long",
+			"names": [
+				"Qwen-Long",
+				"qwen-long",
+				"qwen-long-latest",
+				"qwen-long-2025-01-25"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2024-05-21",
+				"access": "2024-05-21",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.072,
+				"output": 0.287
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

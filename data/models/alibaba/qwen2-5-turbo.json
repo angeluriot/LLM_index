@@ -1,0 +1,32 @@
+{
+	"display_name": "Qwen2.5-Turbo",
+	"versions": {
+		"qwen2-5-turbo": {
+			"display_name": "Qwen2.5-Turbo",
+			"names": [
+				"Qwen2.5-Turbo",
+				"Qwen2.5 Turbo",
+				"Qwen2.5-Turbo-1M",
+				"qwen-turbo-1101",
+				"qwen-turbo-2024-11-01"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-turbo/",
+			"history": {
+				"first_mention": "2024-11-15",
+				"access": "2024-11-15",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.05,
+				"output": 0.2
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

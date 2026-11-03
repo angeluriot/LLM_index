@@ -1,0 +1,30 @@
+{
+	"display_name": "SeaLLM-7B-v2.5",
+	"versions": {
+		"seallm-7b-v2-5": {
+			"display_name": "SeaLLM-7B-v2.5",
+			"names": [
+				"SeaLLM-7B-v2.5",
+				"SeaLLM 7B v2.5",
+				"SeaLLMs/SeaLLM-7B-v2.5"
+			],
+			"link": "https://huggingface.co/SeaLLMs/SeaLLM-7B-v2.5",
+			"history": {
+				"first_mention": "2024-04-03",
+				"access": "2024-04-03",
+				"weights": "2024-04-03"
+			},
+			"parameters": {
+				"all": 8538000000,
+				"active": 8538000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

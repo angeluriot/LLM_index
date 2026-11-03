@@ -1,0 +1,256 @@
+{
+	"display_name": "Qwen-Plus",
+	"versions": {
+		"qwen-plus-feb-2024": {
+			"display_name": "Qwen-Plus (Feb 2024)",
+			"names": [
+				"Qwen-Plus (Feb 2024)"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2024-02-06",
+				"access": "2024-02-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-plus-aug-2024": {
+			"display_name": "Qwen-Plus (Aug 2024)",
+			"names": [
+				"Qwen-Plus (Aug 2024)",
+				"qwen-plus-0806",
+				"qwen-plus-2024-08-06"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2024-08-06",
+				"access": "2024-08-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.574,
+				"output": 1.721
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-plus-sep-2024": {
+			"display_name": "Qwen-Plus (Sep 2024)",
+			"names": [
+				"Qwen-Plus (Sep 2024)",
+				"qwen-plus-0919",
+				"qwen-plus-2024-09-19"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5/",
+			"history": {
+				"first_mention": "2024-09-19",
+				"access": "2024-09-19",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.115,
+				"output": 0.287
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-plus-nov-2024": {
+			"display_name": "Qwen-Plus (Nov 2024)",
+			"names": [
+				"Qwen-Plus (Nov 2024)",
+				"Qwen2.5-Plus (Nov 2024)",
+				"qwen2.5-plus-1127",
+				"qwen-plus-2024-11-25",
+				"qwen-plus-2024-11-27"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2024-11-25",
+				"access": "2024-11-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.115,
+				"output": 0.287
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-plus-dec-2024": {
+			"display_name": "Qwen-Plus (Dec 2024)",
+			"names": [
+				"Qwen-Plus (Dec 2024)",
+				"qwen-plus-2024-12-20"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2024-12-20",
+				"access": "2024-12-20",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.115,
+				"output": 0.287
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-plus-jan-2025": {
+			"display_name": "Qwen-Plus (Jan 2025)",
+			"names": [
+				"Qwen-Plus (Jan 2025)",
+				"qwen-plus-0125",
+				"qwen-plus-2025-01-12",
+				"qwen-plus-2025-01-25"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-01-12",
+				"access": "2025-01-12",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.4,
+				"output": 1.2
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen-plus-apr-2025": {
+			"display_name": "Qwen-Plus (Apr 2025)",
+			"names": [
+				"Qwen-Plus (Apr 2025)",
+				"qwen-plus-2025-04-28"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen3/",
+			"history": {
+				"first_mention": "2025-04-28",
+				"access": "2025-04-28",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.4,
+				"output": 1.2
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen-plus-jul-2025": {
+			"display_name": "Qwen-Plus (Jul 2025)",
+			"names": [
+				"Qwen-Plus (Jul 2025)",
+				"qwen-plus-2025-07-14",
+				"qwen-plus-2025-07-28"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-07-14",
+				"access": "2025-07-14",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.4,
+				"output": 1.2
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen-plus-sep-2025": {
+			"display_name": "Qwen-Plus (Sep 2025)",
+			"names": [
+				"Qwen-Plus (Sep 2025)",
+				"qwen-plus-2025-09-11"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-09-11",
+				"access": "2025-09-11",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.4,
+				"output": 1.2
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen-plus-dec-2025": {
+			"display_name": "Qwen-Plus (Dec 2025)",
+			"names": [
+				"Qwen-Plus (Dec 2025)",
+				"qwen-plus-2025-12-01"
+			],
+			"link": "https://www.alibabacloud.com/help/en/model-studio/models",
+			"history": {
+				"first_mention": "2025-12-01",
+				"access": "2025-12-01",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.4,
+				"output": 1.2
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

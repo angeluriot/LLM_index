@@ -1,0 +1,87 @@
+{
+	"display_name": "Qwen3-32B",
+	"versions": {
+		"qwen3-32b": {
+			"display_name": "Qwen3-32B",
+			"names": [
+				"Qwen3-32B",
+				"Qwen3 32B",
+				"Qwen3 32B (Reasoning)",
+				"Qwen3 32B (Non-reasoning)",
+				"qwen3-32b",
+				"Qwen/Qwen3-32B"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen3/",
+			"history": {
+				"first_mention": "2025-04-29",
+				"access": "2025-04-29",
+				"weights": "2025-04-29"
+			},
+			"parameters": {
+				"all": 32762000000,
+				"active": 32762000000
+			},
+			"price": {
+				"input": 0.16,
+				"output": 0.64
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen3-vl-32b-instruct": {
+			"display_name": "Qwen3-VL-32B-Instruct",
+			"names": [
+				"Qwen3-VL-32B-Instruct",
+				"Qwen3 VL 32B Instruct",
+				"qwen3-vl-32b-instruct",
+				"Qwen/Qwen3-VL-32B-Instruct"
+			],
+			"link": "https://github.com/QwenLM/Qwen3-VL",
+			"history": {
+				"first_mention": "2025-10-21",
+				"access": "2025-10-21",
+				"weights": "2025-10-21"
+			},
+			"parameters": {
+				"all": 33357000000,
+				"active": 33357000000
+			},
+			"price": {
+				"input": 0.287,
+				"output": 1.147
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-vl-32b-thinking": {
+			"display_name": "Qwen3-VL-32B-Thinking",
+			"names": [
+				"Qwen3-VL-32B-Thinking",
+				"Qwen3 VL 32B (Reasoning)",
+				"Qwen3 VL 32B Thinking",
+				"qwen3-vl-32b-thinking",
+				"Qwen/Qwen3-VL-32B-Thinking"
+			],
+			"link": "https://github.com/QwenLM/Qwen3-VL",
+			"history": {
+				"first_mention": "2025-10-21",
+				"access": "2025-10-21",
+				"weights": "2025-10-21"
+			},
+			"parameters": {
+				"all": 33357000000,
+				"active": 33357000000
+			},
+			"price": {
+				"input": 0.287,
+				"output": 2.867
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"display_name": "Qwen2.5-Max",
+	"versions": {
+		"qwen2-5-max": {
+			"display_name": "Qwen2.5-Max",
+			"names": [
+				"Qwen2.5-Max",
+				"Qwen2.5 Max",
+				"qwen-max-0125",
+				"qwen-max-2025-01-25"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2.5-max/",
+			"history": {
+				"first_mention": "2025-01-28",
+				"access": "2025-01-28",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.6,
+				"output": 6.4
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwq-max-preview": {
+			"display_name": "QwQ-Max-Preview",
+			"names": [
+				"QwQ-Max-Preview",
+				"QwQ Max Preview",
+				"QwQ-Max (Preview)",
+				"qwq-max-preview"
+			],
+			"link": "https://qwenlm.github.io/blog/qwq-max-preview/",
+			"history": {
+				"first_mention": "2025-02-25",
+				"access": "2025-02-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"display_name": "Qwen-14B",
+	"versions": {
+		"qwen-14b": {
+			"display_name": "Qwen-14B",
+			"names": [
+				"Qwen-14B",
+				"Qwen 14B",
+				"Qwen Chat 14B",
+				"Qwen-14B-Chat",
+				"Qwen/Qwen-14B",
+				"Qwen/Qwen-14B-Chat"
+			],
+			"link": "https://arxiv.org/abs/2309.16609",
+			"history": {
+				"first_mention": "2023-09-25",
+				"access": "2023-09-25",
+				"weights": "2023-09-25"
+			},
+			"parameters": {
+				"all": 14167000000,
+				"active": 14167000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

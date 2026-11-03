@@ -1,0 +1,35 @@
+{
+	"display_name": "Qwen2-57B-A14B",
+	"versions": {
+		"qwen2-57b-a14b": {
+			"display_name": "Qwen2-57B-A14B",
+			"names": [
+				"Qwen2-57B-A14B",
+				"Qwen2 57B-A14B",
+				"Qwen2 Instruct 57B-A14B",
+				"Qwen2 57B-A14B Instruct",
+				"qwen2-57b-a14b-instruct",
+				"Qwen2-57B-A14B-Instruct",
+				"Qwen/Qwen2-57B-A14B",
+				"Qwen/Qwen2-57B-A14B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2/",
+			"history": {
+				"first_mention": "2024-06-07",
+				"access": "2024-06-07",
+				"weights": "2024-06-07"
+			},
+			"parameters": {
+				"all": 57409000000,
+				"active": 14000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,141 @@
+{
+	"display_name": "Qwen3-4B",
+	"versions": {
+		"qwen3-4b": {
+			"display_name": "Qwen3-4B",
+			"names": [
+				"Qwen3-4B",
+				"Qwen3 4B",
+				"Qwen3 4B (Reasoning)",
+				"Qwen3 4B (Non-reasoning)",
+				"qwen3-4b",
+				"Qwen3-4B-Base",
+				"Qwen/Qwen3-4B",
+				"Qwen/Qwen3-4B-Base"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen3/",
+			"history": {
+				"first_mention": "2025-04-29",
+				"access": "2025-04-29",
+				"weights": "2025-04-29"
+			},
+			"parameters": {
+				"all": 4022000000,
+				"active": 4022000000
+			},
+			"price": {
+				"input": 0.11,
+				"output": 0.42
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"qwen3-4b-instruct-2507": {
+			"display_name": "Qwen3-4B-Instruct-2507",
+			"names": [
+				"Qwen3-4B-Instruct-2507",
+				"Qwen3 4B 2507 Instruct",
+				"qwen3-4b-instruct-2507",
+				"Qwen/Qwen3-4B-Instruct-2507"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+			"history": {
+				"first_mention": "2025-08-06",
+				"access": "2025-08-06",
+				"weights": "2025-08-06"
+			},
+			"parameters": {
+				"all": 4022000000,
+				"active": 4022000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-4b-thinking-2507": {
+			"display_name": "Qwen3-4B-Thinking-2507",
+			"names": [
+				"Qwen3-4B-Thinking-2507",
+				"Qwen3 4B 2507 (Reasoning)",
+				"qwen3-4b-thinking-2507",
+				"Qwen/Qwen3-4B-Thinking-2507"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507",
+			"history": {
+				"first_mention": "2025-08-06",
+				"access": "2025-08-06",
+				"weights": "2025-08-06"
+			},
+			"parameters": {
+				"all": 4022000000,
+				"active": 4022000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-vl-4b-instruct": {
+			"display_name": "Qwen3-VL-4B-Instruct",
+			"names": [
+				"Qwen3-VL-4B-Instruct",
+				"Qwen3 VL 4B Instruct",
+				"qwen3-vl-4b-instruct",
+				"Qwen/Qwen3-VL-4B-Instruct"
+			],
+			"link": "https://github.com/QwenLM/Qwen3-VL",
+			"history": {
+				"first_mention": "2025-10-14",
+				"access": "2025-10-14",
+				"weights": "2025-10-14"
+			},
+			"parameters": {
+				"all": 4438000000,
+				"active": 4438000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-vl-4b-thinking": {
+			"display_name": "Qwen3-VL-4B-Thinking",
+			"names": [
+				"Qwen3-VL-4B-Thinking",
+				"Qwen3 VL 4B (Reasoning)",
+				"Qwen3 VL 4B Thinking",
+				"qwen3-vl-4b-thinking",
+				"Qwen/Qwen3-VL-4B-Thinking"
+			],
+			"link": "https://github.com/QwenLM/Qwen3-VL",
+			"history": {
+				"first_mention": "2025-10-14",
+				"access": "2025-10-14",
+				"weights": "2025-10-14"
+			},
+			"parameters": {
+				"all": 4438000000,
+				"active": 4438000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

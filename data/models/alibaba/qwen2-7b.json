@@ -1,0 +1,115 @@
+{
+	"display_name": "Qwen2-7B",
+	"versions": {
+		"qwen2-7b": {
+			"display_name": "Qwen2-7B",
+			"names": [
+				"Qwen2-7B",
+				"Qwen2 7B",
+				"Qwen2 Instruct 7B",
+				"Qwen2 7B Instruct",
+				"qwen2-7b-instruct",
+				"Qwen2-7B-Instruct",
+				"Qwen/Qwen2-7B",
+				"Qwen/Qwen2-7B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2/",
+			"history": {
+				"first_mention": "2024-06-07",
+				"access": "2024-06-07",
+				"weights": "2024-06-07"
+			},
+			"parameters": {
+				"all": 7616000000,
+				"active": 7616000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-math-7b": {
+			"display_name": "Qwen2-Math-7B",
+			"names": [
+				"Qwen2-Math-7B",
+				"Qwen2-Math 7B",
+				"qwen2-math-7b-instruct",
+				"Qwen2-Math-7B-Instruct",
+				"Qwen/Qwen2-Math-7B",
+				"Qwen/Qwen2-Math-7B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2-math/",
+			"history": {
+				"first_mention": "2024-08-08",
+				"access": "2024-08-08",
+				"weights": "2024-08-08"
+			},
+			"parameters": {
+				"all": 7616000000,
+				"active": 7616000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen2-vl-7b": {
+			"display_name": "Qwen2-VL-7B",
+			"names": [
+				"Qwen2-VL-7B",
+				"Qwen2-VL 7B",
+				"Qwen2-VL-7B-Instruct",
+				"Qwen/Qwen2-VL-7B",
+				"Qwen/Qwen2-VL-7B-Instruct"
+			],
+			"link": "https://qwenlm.github.io/blog/qwen2-vl/",
+			"history": {
+				"first_mention": "2024-08-29",
+				"access": "2024-08-29",
+				"weights": "2024-08-29"
+			},
+			"parameters": {
+				"all": 8291000000,
+				"active": 8291000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"marco-o1": {
+			"display_name": "Marco-o1",
+			"names": [
+				"Marco-o1",
+				"Marco o1",
+				"AIDC-AI/Marco-o1"
+			],
+			"link": "https://arxiv.org/abs/2411.14405",
+			"history": {
+				"first_mention": "2024-11-21",
+				"access": "2024-11-21",
+				"weights": "2024-11-21"
+			},
+			"parameters": {
+				"all": 7616000000,
+				"active": 7616000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"display_name": "Qwen3-Next-80B-A3B",
+	"versions": {
+		"qwen3-next-80b-a3b-instruct": {
+			"display_name": "Qwen3-Next-80B-A3B-Instruct",
+			"names": [
+				"Qwen3-Next-80B-A3B-Instruct",
+				"Qwen3 Next 80B A3B Instruct",
+				"qwen3-next-80b-a3b-instruct",
+				"qwen3-next-80b-a3b-base",
+				"Qwen3-Next-80B-A3B-Base",
+				"Qwen/Qwen3-Next-80B-A3B-Instruct",
+				"Qwen/Qwen3-Next-80B-A3B-Base"
+			],
+			"link": "https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&from=research.latest-advancements-list",
+			"history": {
+				"first_mention": "2025-09-11",
+				"access": "2025-09-11",
+				"weights": "2025-09-11"
+			},
+			"parameters": {
+				"all": 81325000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": 0.15,
+				"output": 1.2
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-next-80b-a3b-thinking": {
+			"display_name": "Qwen3-Next-80B-A3B-Thinking",
+			"names": [
+				"Qwen3-Next-80B-A3B-Thinking",
+				"Qwen3 Next 80B A3B (Reasoning)",
+				"qwen3-next-80b-a3b-thinking",
+				"Qwen/Qwen3-Next-80B-A3B-Thinking"
+			],
+			"link": "https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&from=research.latest-advancements-list",
+			"history": {
+				"first_mention": "2025-09-11",
+				"access": "2025-09-11",
+				"weights": "2025-09-11"
+			},
+			"parameters": {
+				"all": 81325000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": 0.15,
+				"output": 1.2
+			},
+			"efforts": [
+				""
+			]
+		},
+		"qwen3-coder-next": {
+			"display_name": "Qwen3-Coder-Next",
+			"names": [
+				"Qwen3-Coder-Next",
+				"Qwen3 Coder Next",
+				"qwen3-coder-next",
+				"Qwen3-Coder-Next-Base",
+				"Qwen/Qwen3-Coder-Next",
+				"Qwen/Qwen3-Coder-Next-Base"
+			],
+			"link": "https://qwen.ai/blog?id=qwen3-coder-next",
+			"history": {
+				"first_mention": "2026-02-03",
+				"access": "2026-02-03",
+				"weights": "2026-02-03"
+			},
+			"parameters": {
+				"all": 79674000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": 0.31,
+				"output": 1.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

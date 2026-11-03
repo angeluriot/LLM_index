@@ -1,0 +1,36 @@
+{
+	"display_name": "Qwen3.5-4B",
+	"versions": {
+		"qwen3-5-4b": {
+			"display_name": "Qwen3.5-4B",
+			"names": [
+				"Qwen3.5-4B",
+				"Qwen3.5 4B",
+				"Qwen3.5 4B (Reasoning)",
+				"Qwen3.5 4B (Non-reasoning)",
+				"qwen3.5-4b",
+				"Qwen3.5-4B-Base",
+				"Qwen/Qwen3.5-4B",
+				"Qwen/Qwen3.5-4B-Base"
+			],
+			"link": "https://huggingface.co/Qwen/Qwen3.5-4B",
+			"history": {
+				"first_mention": "2026-03-02",
+				"access": "2026-03-02",
+				"weights": "2026-03-02"
+			},
+			"parameters": {
+				"all": 4660000000,
+				"active": 4660000000
+			},
+			"price": {
+				"input": 0.03,
+				"output": 0.15
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}
