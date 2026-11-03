@@ -1,0 +1,35 @@
+{
+	"display_name": "Claude Haiku 5.5",
+	"versions": {
+		"claude-haiku-5-5": {
+			"display_name": "Claude Haiku 5.5",
+			"names": [
+				"Claude Haiku 5.5",
+				"Haiku 5.5",
+				"claude-haiku-5-5"
+			],
+			"link": "https://www.anthropic.com/claude-haiku-5-5",
+			"history": {
+				"first_mention": "2026-10-07",
+				"access": "2026-10-07",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.5
+			},
+			"efforts": [
+				"None",
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh",
+				"Max"
+			]
+		}
+	}
+}

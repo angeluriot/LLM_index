@@ -1,0 +1,31 @@
+{
+	"display_name": "Claude 3 Sonnet",
+	"versions": {
+		"claude-3-sonnet": {
+			"display_name": "Claude 3 Sonnet",
+			"names": [
+				"Claude 3 Sonnet",
+				"Claude Sonnet 3",
+				"claude-3-sonnet-20240229",
+				"claude-3-sonnet"
+			],
+			"link": "https://www.anthropic.com/news/claude-3-family",
+			"history": {
+				"first_mention": "2024-03-04",
+				"access": "2024-03-04",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 3.0,
+				"output": 15.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

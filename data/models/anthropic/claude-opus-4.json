@@ -1,0 +1,33 @@
+{
+	"display_name": "Claude Opus 4",
+	"versions": {
+		"claude-opus-4": {
+			"display_name": "Claude Opus 4",
+			"names": [
+				"Claude Opus 4",
+				"Claude 4 Opus",
+				"Opus 4",
+				"claude-opus-4-20250514",
+				"claude-opus-4-0"
+			],
+			"link": "https://www.anthropic.com/news/claude-4",
+			"history": {
+				"first_mention": "2025-05-22",
+				"access": "2025-05-22",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 15.0,
+				"output": 75.0
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"display_name": "Claude 3 Opus",
+	"versions": {
+		"claude-3-opus": {
+			"display_name": "Claude 3 Opus",
+			"names": [
+				"Claude 3 Opus",
+				"Claude Opus 3",
+				"claude-3-opus-20240229",
+				"claude-3-opus",
+				"claude-3-opus-latest"
+			],
+			"link": "https://www.anthropic.com/news/claude-3-family",
+			"history": {
+				"first_mention": "2024-03-04",
+				"access": "2024-03-04",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 15.0,
+				"output": 75.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

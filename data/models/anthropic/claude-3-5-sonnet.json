@@ -1,0 +1,64 @@
+{
+	"display_name": "Claude 3.5 Sonnet",
+	"versions": {
+		"claude-3-5-sonnet-jun-2024": {
+			"display_name": "Claude 3.5 Sonnet (Jun 2024)",
+			"names": [
+				"Claude 3.5 Sonnet (Jun 2024)",
+				"Claude 3.5 Sonnet (June 2024)",
+				"Claude 3.5 Sonnet (June '24)",
+				"Claude 3.5 Sonnet (Jun '24)",
+				"Claude Sonnet 3.5 (Jun 2024)",
+				"claude-3-5-sonnet-20240620"
+			],
+			"link": "https://www.anthropic.com/news/claude-3-5-sonnet",
+			"history": {
+				"first_mention": "2024-06-20",
+				"access": "2024-06-20",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 3.0,
+				"output": 15.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"claude-3-5-sonnet-oct-2024": {
+			"display_name": "Claude 3.5 Sonnet (Oct 2024)",
+			"names": [
+				"Claude 3.5 Sonnet (Oct 2024)",
+				"Claude 3.5 Sonnet (October 2024)",
+				"Claude 3.5 Sonnet (Oct '24)",
+				"Claude 3.5 Sonnet (new)",
+				"Claude 3.5 Sonnet (New)",
+				"Claude 3.6 Sonnet",
+				"Claude Sonnet 3.5 (Oct 2024)",
+				"claude-3-5-sonnet-20241022",
+				"claude-3-5-sonnet-latest"
+			],
+			"link": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+			"history": {
+				"first_mention": "2024-10-22",
+				"access": "2024-10-22",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 3.0,
+				"output": 15.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"display_name": "Claude Opus 5",
+	"versions": {
+		"claude-opus-5": {
+			"display_name": "Claude Opus 5",
+			"names": [
+				"Claude Opus 5",
+				"Opus 5",
+				"claude-opus-5"
+			],
+			"link": "https://www.anthropic.com/news/claude-opus-5",
+			"history": {
+				"first_mention": "2026-07-24",
+				"access": "2026-07-24",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 5.0,
+				"output": 25.0
+			},
+			"efforts": [
+				"None",
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh",
+				"Max"
+			]
+		}
+	}
+}

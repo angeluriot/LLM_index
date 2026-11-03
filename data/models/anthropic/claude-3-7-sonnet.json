@@ -1,0 +1,32 @@
+{
+	"display_name": "Claude 3.7 Sonnet",
+	"versions": {
+		"claude-3-7-sonnet": {
+			"display_name": "Claude 3.7 Sonnet",
+			"names": [
+				"Claude 3.7 Sonnet",
+				"Claude Sonnet 3.7",
+				"claude-3-7-sonnet-20250219",
+				"claude-3-7-sonnet-latest"
+			],
+			"link": "https://www.anthropic.com/news/claude-3-7-sonnet",
+			"history": {
+				"first_mention": "2025-02-24",
+				"access": "2025-02-24",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 3.0,
+				"output": 15.0
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

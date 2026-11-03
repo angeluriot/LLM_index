@@ -1,0 +1,35 @@
+{
+	"display_name": "Claude Opus 4.5",
+	"versions": {
+		"claude-opus-4-5": {
+			"display_name": "Claude Opus 4.5",
+			"names": [
+				"Claude Opus 4.5",
+				"Claude 4.5 Opus",
+				"Opus 4.5",
+				"claude-opus-4-5-20251101",
+				"claude-opus-4-5"
+			],
+			"link": "https://www.anthropic.com/news/claude-opus-4-5",
+			"history": {
+				"first_mention": "2025-11-24",
+				"access": "2025-11-24",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 5.0,
+				"output": 25.0
+			},
+			"efforts": [
+				"None",
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

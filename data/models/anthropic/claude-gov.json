@@ -1,0 +1,29 @@
+{
+	"display_name": "Claude Gov",
+	"versions": {
+		"claude-gov": {
+			"display_name": "Claude Gov",
+			"names": [
+				"Claude Gov",
+				"Claude Gov models"
+			],
+			"link": "https://www.anthropic.com/news/claude-gov-models-for-u-s-national-security-customers",
+			"history": {
+				"first_mention": "2025-06-05",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

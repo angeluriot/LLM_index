@@ -1,0 +1,31 @@
+{
+	"display_name": "Claude 3 Haiku",
+	"versions": {
+		"claude-3-haiku": {
+			"display_name": "Claude 3 Haiku",
+			"names": [
+				"Claude 3 Haiku",
+				"Claude Haiku 3",
+				"claude-3-haiku-20240307",
+				"claude-3-haiku"
+			],
+			"link": "https://www.anthropic.com/news/claude-3-family",
+			"history": {
+				"first_mention": "2024-03-04",
+				"access": "2024-03-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.25,
+				"output": 1.25
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

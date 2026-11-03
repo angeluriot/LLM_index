@@ -207,8 +207,8 @@ S('GPT-5.6 Luna', ['gpt-5.6-luna'], GPT56, '2026-06-26', '2026-07-09', price=(0.
 ASTRA = 'https://openai.com/index/gpt-6-astra/'
 GPT6_SL = 'https://openai.com/index/introducing-gpt-6-sol-and-luna/'
 M('GPT-6 Astra',
-	V('GPT-6 Astra', ['GPT-6', 'gpt-6-astra'], ASTRA, '2026-09-03', '2026-09-04', price=(10, 50), efforts=LMHXM),
-	V('GPT-6 Astra Pro', ['GPT-6 Astra (pro)', 'GPT-6 Pro', 'gpt-6-astra-pro'], ASTRA, '2026-09-03', '2026-09-04', efforts=['Max']),
+	V('GPT-6 Astra', ['GPT-6', 'gpt-6-astra'], ASTRA, '2026-08-01', '2026-09-04', price=(10, 50), efforts=LMHXM),
+	V('GPT-6 Astra Pro', ['GPT-6 Astra (pro)', 'GPT-6 Pro', 'gpt-6-astra-pro'], ASTRA, '2026-08-01', '2026-09-04', efforts=['Max']),
 	V('GPT-6 Astra Law', ['Astra for Law', 'gpt-6-astra-law'], 'https://openai.com/index/astra-for-law/', '2026-09-17', None, price=(10, 50), efforts=LMHXM),
 	V('GPT-6 Rosalind', ['GPT-Rosalind-6', 'GPT-6 Rosalind Research', 'gpt-6-rosalind'], 'https://deploymentsafety.openai.com/gpt-rosalind-6', '2026-10-30', None, price=(15, 75), efforts=LMHXM),
 )

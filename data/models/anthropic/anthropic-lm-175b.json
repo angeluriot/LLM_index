@@ -1,0 +1,29 @@
+{
+	"display_name": "Anthropic-LM 175B",
+	"versions": {
+		"anthropic-lm-175b": {
+			"display_name": "Anthropic-LM 175B",
+			"names": [
+				"Anthropic-LM 175B",
+				"Anthropic LM 175B"
+			],
+			"link": "https://arxiv.org/abs/2302.07459",
+			"history": {
+				"first_mention": "2023-02-15",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 175000000000,
+				"active": 175000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

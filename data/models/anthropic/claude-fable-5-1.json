@@ -1,0 +1,63 @@
+{
+	"display_name": "Claude Fable 5.1",
+	"versions": {
+		"claude-fable-5-1": {
+			"display_name": "Claude Fable 5.1",
+			"names": [
+				"Claude Fable 5.1",
+				"Fable 5.1",
+				"claude-fable-5-1"
+			],
+			"link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+			"history": {
+				"first_mention": "2026-09-01",
+				"access": "2026-09-01",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 10.0,
+				"output": 50.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh",
+				"Max"
+			]
+		},
+		"claude-mythos-5-1": {
+			"display_name": "Claude Mythos 5.1",
+			"names": [
+				"Claude Mythos 5.1",
+				"Mythos 5.1",
+				"claude-mythos-5-1"
+			],
+			"link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+			"history": {
+				"first_mention": "2026-09-01",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 10.0,
+				"output": 50.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh",
+				"Max"
+			]
+		}
+	}
+}

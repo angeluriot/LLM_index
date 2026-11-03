@@ -1,0 +1,31 @@
+{
+	"display_name": "Claude 3.5 Haiku",
+	"versions": {
+		"claude-3-5-haiku": {
+			"display_name": "Claude 3.5 Haiku",
+			"names": [
+				"Claude 3.5 Haiku",
+				"Claude Haiku 3.5",
+				"claude-3-5-haiku-20241022",
+				"claude-3-5-haiku-latest"
+			],
+			"link": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+			"history": {
+				"first_mention": "2024-10-22",
+				"access": "2024-11-04",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.8,
+				"output": 4.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

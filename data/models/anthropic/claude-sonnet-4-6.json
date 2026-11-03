@@ -1,0 +1,35 @@
+{
+	"display_name": "Claude Sonnet 4.6",
+	"versions": {
+		"claude-sonnet-4-6": {
+			"display_name": "Claude Sonnet 4.6",
+			"names": [
+				"Claude Sonnet 4.6",
+				"Claude 4.6 Sonnet",
+				"Sonnet 4.6",
+				"claude-sonnet-4-6"
+			],
+			"link": "https://www.anthropic.com/news/claude-sonnet-4-6",
+			"history": {
+				"first_mention": "2026-02-17",
+				"access": "2026-02-17",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 3.0,
+				"output": 15.0
+			},
+			"efforts": [
+				"None",
+				"Low",
+				"Medium",
+				"High",
+				"Max"
+			]
+		}
+	}
+}
