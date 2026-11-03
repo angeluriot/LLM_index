@@ -1,7 +1,7 @@
 {
 	"display_name": "GPT-4 Turbo",
 	"versions": {
-		"2023-11-06": {
+		"gpt-4-turbo-nov-2023": {
 			"display_name": "GPT-4 Turbo (Nov 2023)",
 			"names": [
 				"GPT-4 Turbo (Nov 2023)",
@@ -26,7 +26,32 @@
 				""
 			]
 		},
-		"2024-01-25": {
+		"gpt-4-turbo-with-vision-nov-2023": {
+			"display_name": "GPT-4 Turbo with Vision (Nov 2023)",
+			"names": [
+				"GPT-4 Turbo with Vision (Nov 2023)",
+				"gpt-4-vision-preview",
+				"gpt-4-1106-vision-preview"
+			],
+			"link": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+			"history": {
+				"first_mention": "2023-11-06",
+				"access": "2023-11-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 10.0,
+				"output": 30.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-4-turbo-jan-2024": {
 			"display_name": "GPT-4 Turbo (Jan 2024)",
 			"names": [
 				"GPT-4 Turbo (Jan 2024)",
@@ -53,7 +78,7 @@
 				""
 			]
 		},
-		"2024-04-09": {
+		"gpt-4-turbo-apr-2024": {
 			"display_name": "GPT-4 Turbo (Apr 2024)",
 			"names": [
 				"GPT-4 Turbo (Apr 2024)",

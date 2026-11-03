@@ -1,7 +1,7 @@
 {
 	"display_name": "gpt-oss-20b",
 	"versions": {
-		"2025-08-05": {
+		"gpt-oss-20b": {
 			"display_name": "gpt-oss-20b",
 			"names": [
 				"gpt-oss-20b",

@@ -1,0 +1,377 @@
+{
+	"display_name": "GPT-3",
+	"versions": {
+		"gpt-3-125m": {
+			"display_name": "GPT-3 125M",
+			"names": [
+				"GPT-3 125M",
+				"GPT-3 Small"
+			],
+			"link": "https://arxiv.org/abs/2005.14165",
+			"history": {
+				"first_mention": "2020-05-28",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 125000000,
+				"active": 125000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-3-350m": {
+			"display_name": "GPT-3 350M (ada)",
+			"names": [
+				"GPT-3 350M (ada)",
+				"GPT-3 350M",
+				"GPT-3 Medium",
+				"GPT-3 ada",
+				"ada"
+			],
+			"link": "https://arxiv.org/abs/2005.14165",
+			"history": {
+				"first_mention": "2020-05-28",
+				"access": "2020-06-11",
+				"weights": null
+			},
+			"parameters": {
+				"all": 356000000,
+				"active": 356000000
+			},
+			"price": {
+				"input": 0.4,
+				"output": 0.4
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-3-760m": {
+			"display_name": "GPT-3 760M",
+			"names": [
+				"GPT-3 760M",
+				"GPT-3 Large"
+			],
+			"link": "https://arxiv.org/abs/2005.14165",
+			"history": {
+				"first_mention": "2020-05-28",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 760000000,
+				"active": 760000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-3-1-3b": {
+			"display_name": "GPT-3 1.3B (babbage)",
+			"names": [
+				"GPT-3 1.3B (babbage)",
+				"GPT-3 1.3B",
+				"GPT-3 XL",
+				"GPT-3 XL (babbage)",
+				"GPT-3 babbage",
+				"babbage"
+			],
+			"link": "https://arxiv.org/abs/2005.14165",
+			"history": {
+				"first_mention": "2020-05-28",
+				"access": "2020-06-11",
+				"weights": null
+			},
+			"parameters": {
+				"all": 1320000000,
+				"active": 1320000000
+			},
+			"price": {
+				"input": 0.5,
+				"output": 0.5
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-3-2-7b": {
+			"display_name": "GPT-3 2.7B",
+			"names": [
+				"GPT-3 2.7B"
+			],
+			"link": "https://arxiv.org/abs/2005.14165",
+			"history": {
+				"first_mention": "2020-05-28",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 2650000000,
+				"active": 2650000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-3-6-7b": {
+			"display_name": "GPT-3 6.7B (curie)",
+			"names": [
+				"GPT-3 6.7B (curie)",
+				"GPT-3 6.7B",
+				"GPT-3 curie",
+				"curie"
+			],
+			"link": "https://arxiv.org/abs/2005.14165",
+			"history": {
+				"first_mention": "2020-05-28",
+				"access": "2020-06-11",
+				"weights": null
+			},
+			"parameters": {
+				"all": 6660000000,
+				"active": 6660000000
+			},
+			"price": {
+				"input": 2.0,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-3-13b": {
+			"display_name": "GPT-3 13B",
+			"names": [
+				"GPT-3 13B"
+			],
+			"link": "https://arxiv.org/abs/2005.14165",
+			"history": {
+				"first_mention": "2020-05-28",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 12850000000,
+				"active": 12850000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-3-175b": {
+			"display_name": "GPT-3 175B (davinci)",
+			"names": [
+				"GPT-3 175B (davinci)",
+				"GPT-3",
+				"GPT-3 175B",
+				"GPT-3 davinci",
+				"davinci"
+			],
+			"link": "https://arxiv.org/abs/2005.14165",
+			"history": {
+				"first_mention": "2020-05-28",
+				"access": "2020-06-11",
+				"weights": null
+			},
+			"parameters": {
+				"all": 174600000000,
+				"active": 174600000000
+			},
+			"price": {
+				"input": 20.0,
+				"output": 20.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"codex-12b": {
+			"display_name": "Codex (12B)",
+			"names": [
+				"Codex (12B)",
+				"Codex",
+				"Codex 12B",
+				"code-cushman-001",
+				"code-cushman-002"
+			],
+			"link": "https://openai.com/index/openai-codex/",
+			"history": {
+				"first_mention": "2021-07-07",
+				"access": "2021-08-10",
+				"weights": null
+			},
+			"parameters": {
+				"all": 12000000000,
+				"active": 12000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"instructgpt-350m": {
+			"display_name": "InstructGPT 350M",
+			"names": [
+				"InstructGPT 350M",
+				"text-ada-001"
+			],
+			"link": "https://openai.com/index/instruction-following/",
+			"history": {
+				"first_mention": "2022-01-27",
+				"access": "2022-01-27",
+				"weights": null
+			},
+			"parameters": {
+				"all": 350000000,
+				"active": 350000000
+			},
+			"price": {
+				"input": 0.4,
+				"output": 0.4
+			},
+			"efforts": [
+				""
+			]
+		},
+		"instructgpt-1-3b": {
+			"display_name": "InstructGPT 1.3B",
+			"names": [
+				"InstructGPT 1.3B",
+				"text-babbage-001"
+			],
+			"link": "https://openai.com/index/instruction-following/",
+			"history": {
+				"first_mention": "2022-01-27",
+				"access": "2022-01-27",
+				"weights": null
+			},
+			"parameters": {
+				"all": 1300000000,
+				"active": 1300000000
+			},
+			"price": {
+				"input": 0.5,
+				"output": 0.5
+			},
+			"efforts": [
+				""
+			]
+		},
+		"instructgpt-6b": {
+			"display_name": "InstructGPT 6B",
+			"names": [
+				"InstructGPT 6B",
+				"text-curie-001"
+			],
+			"link": "https://openai.com/index/instruction-following/",
+			"history": {
+				"first_mention": "2022-01-27",
+				"access": "2022-01-27",
+				"weights": null
+			},
+			"parameters": {
+				"all": 6000000000,
+				"active": 6000000000
+			},
+			"price": {
+				"input": 2.0,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"instructgpt-175b": {
+			"display_name": "InstructGPT 175B",
+			"names": [
+				"InstructGPT 175B",
+				"InstructGPT",
+				"text-davinci-001"
+			],
+			"link": "https://openai.com/index/instruction-following/",
+			"history": {
+				"first_mention": "2022-01-27",
+				"access": "2022-01-27",
+				"weights": null
+			},
+			"parameters": {
+				"all": 175000000000,
+				"active": 175000000000
+			},
+			"price": {
+				"input": 20.0,
+				"output": 20.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"davinci-002": {
+			"display_name": "davinci-002",
+			"names": [
+				"davinci-002"
+			],
+			"link": "https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates/",
+			"history": {
+				"first_mention": "2023-08-22",
+				"access": "2023-08-22",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.0,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"babbage-002": {
+			"display_name": "babbage-002",
+			"names": [
+				"babbage-002"
+			],
+			"link": "https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates/",
+			"history": {
+				"first_mention": "2023-08-22",
+				"access": "2023-08-22",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.4,
+				"output": 0.4
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,7 +1,7 @@
 {
 	"display_name": "GPT-5.2",
 	"versions": {
-		"2025-12-11": {
+		"gpt-5-2": {
 			"display_name": "GPT-5.2",
 			"names": [
 				"GPT-5.2",
@@ -26,6 +26,90 @@
 			},
 			"efforts": [
 				"None",
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		},
+		"gpt-5-2-instant": {
+			"display_name": "GPT-5.2 Instant",
+			"names": [
+				"GPT-5.2 Instant",
+				"GPT-5.2 Chat",
+				"gpt-5.2-chat-latest"
+			],
+			"link": "https://openai.com/index/introducing-gpt-5-2/",
+			"history": {
+				"first_mention": "2025-12-11",
+				"access": "2025-12-11",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.75,
+				"output": 14.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-5-2-pro": {
+			"display_name": "GPT-5.2 Pro",
+			"names": [
+				"GPT-5.2 Pro",
+				"GPT-5.2 Pro (web)",
+				"GPT-5.2 Pro (Web App)",
+				"gpt-5.2-pro",
+				"gpt-5.2-pro-2025-12-11",
+				"gpt-5.2-pro-2025-12-11-webapp",
+				"robin-alpha-pro-2025-11-24"
+			],
+			"link": "https://openai.com/index/introducing-gpt-5-2/",
+			"history": {
+				"first_mention": "2025-12-11",
+				"access": "2025-12-11",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 21.0,
+				"output": 168.0
+			},
+			"efforts": [
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		},
+		"gpt-5-2-codex": {
+			"display_name": "GPT-5.2 Codex",
+			"names": [
+				"GPT-5.2 Codex",
+				"GPT-5.2-Codex",
+				"gpt-5.2-codex"
+			],
+			"link": "https://openai.com/index/introducing-gpt-5-2-codex/",
+			"history": {
+				"first_mention": "2025-12-18",
+				"access": "2025-12-18",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.75,
+				"output": 14.0
+			},
+			"efforts": [
 				"Low",
 				"Medium",
 				"High",

@@ -1,7 +1,7 @@
 {
 	"display_name": "GPT-5.1",
 	"versions": {
-		"2025-11-13": {
+		"gpt-5-1": {
 			"display_name": "GPT-5.1",
 			"names": [
 				"GPT-5.1",
@@ -28,6 +28,86 @@
 				"Low",
 				"Medium",
 				"High"
+			]
+		},
+		"gpt-5-1-instant": {
+			"display_name": "GPT-5.1 Instant",
+			"names": [
+				"GPT-5.1 Instant",
+				"GPT-5.1 Chat",
+				"gpt-5.1-chat-latest"
+			],
+			"link": "https://openai.com/index/gpt-5-1/",
+			"history": {
+				"first_mention": "2025-11-12",
+				"access": "2025-11-12",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.25,
+				"output": 10.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-5-1-codex": {
+			"display_name": "GPT-5.1 Codex",
+			"names": [
+				"GPT-5.1 Codex",
+				"GPT-5.1-Codex",
+				"gpt-5.1-codex"
+			],
+			"link": "https://openai.com/index/gpt-5-1-for-developers/",
+			"history": {
+				"first_mention": "2025-11-13",
+				"access": "2025-11-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.25,
+				"output": 10.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		},
+		"gpt-5-1-codex-max": {
+			"display_name": "GPT-5.1 Codex Max",
+			"names": [
+				"GPT-5.1 Codex Max",
+				"GPT-5.1-Codex-Max",
+				"gpt-5.1-codex-max"
+			],
+			"link": "https://openai.com/index/gpt-5-1-codex-max/",
+			"history": {
+				"first_mention": "2025-11-19",
+				"access": "2025-11-19",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.25,
+				"output": 10.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh"
 			]
 		}
 	}

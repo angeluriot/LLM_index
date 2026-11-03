@@ -1,0 +1,113 @@
+{
+	"display_name": "GPT-2",
+	"versions": {
+		"gpt-2-124m": {
+			"display_name": "GPT-2 (124M)",
+			"names": [
+				"GPT-2 (124M)",
+				"GPT-2 124M",
+				"GPT-2 117M",
+				"GPT-2 Small",
+				"gpt2"
+			],
+			"link": "https://openai.com/index/better-language-models/",
+			"history": {
+				"first_mention": "2019-02-14",
+				"access": "2019-02-14",
+				"weights": "2019-02-14"
+			},
+			"parameters": {
+				"all": 124000000,
+				"active": 124000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-2-355m": {
+			"display_name": "GPT-2 (355M)",
+			"names": [
+				"GPT-2 (355M)",
+				"GPT-2 355M",
+				"GPT-2 345M",
+				"GPT-2 Medium",
+				"gpt2-medium"
+			],
+			"link": "https://openai.com/index/better-language-models/",
+			"history": {
+				"first_mention": "2019-02-14",
+				"access": "2019-05-03",
+				"weights": "2019-05-03"
+			},
+			"parameters": {
+				"all": 355000000,
+				"active": 355000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-2-774m": {
+			"display_name": "GPT-2 (774M)",
+			"names": [
+				"GPT-2 (774M)",
+				"GPT-2 774M",
+				"GPT-2 762M",
+				"GPT-2 Large",
+				"gpt2-large"
+			],
+			"link": "https://openai.com/index/gpt-2-6-month-follow-up/",
+			"history": {
+				"first_mention": "2019-02-14",
+				"access": "2019-08-20",
+				"weights": "2019-08-20"
+			},
+			"parameters": {
+				"all": 774000000,
+				"active": 774000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-2-1-5b": {
+			"display_name": "GPT-2 (1.5B)",
+			"names": [
+				"GPT-2 (1.5B)",
+				"GPT-2",
+				"GPT-2 1.5B",
+				"GPT-2 XL",
+				"gpt2-xl"
+			],
+			"link": "https://openai.com/index/gpt-2-1-5b-release/",
+			"history": {
+				"first_mention": "2019-02-14",
+				"access": "2019-11-05",
+				"weights": "2019-11-05"
+			},
+			"parameters": {
+				"all": 1500000000,
+				"active": 1500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

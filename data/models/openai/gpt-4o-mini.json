@@ -1,7 +1,7 @@
 {
 	"display_name": "GPT-4o mini",
 	"versions": {
-		"2024-07-18": {
+		"gpt-4o-mini": {
 			"display_name": "GPT-4o mini",
 			"names": [
 				"GPT-4o mini",

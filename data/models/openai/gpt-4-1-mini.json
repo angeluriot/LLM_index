@@ -1,7 +1,7 @@
 {
 	"display_name": "GPT-4.1 mini",
 	"versions": {
-		"2025-04-14": {
+		"gpt-4-1-mini": {
 			"display_name": "GPT-4.1 mini",
 			"names": [
 				"GPT-4.1 mini",

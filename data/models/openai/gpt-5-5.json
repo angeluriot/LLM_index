@@ -1,7 +1,7 @@
 {
 	"display_name": "GPT-5.5",
 	"versions": {
-		"2026-04-23": {
+		"gpt-5-5": {
 			"display_name": "GPT-5.5",
 			"names": [
 				"GPT-5.5",
@@ -30,6 +30,142 @@
 				"Medium",
 				"High",
 				"Xhigh"
+			]
+		},
+		"gpt-5-5-pro": {
+			"display_name": "GPT-5.5 Pro",
+			"names": [
+				"GPT-5.5 Pro",
+				"GPT-5.5 Pro pre-release",
+				"gpt-5.5-pro",
+				"gpt-5.5-pro-2026-04-23",
+				"gpt-5.5-pro-pre-release"
+			],
+			"link": "https://openai.com/index/introducing-gpt-5-5/",
+			"history": {
+				"first_mention": "2026-04-23",
+				"access": "2026-04-23",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 30.0,
+				"output": 180.0
+			},
+			"efforts": [
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		},
+		"gpt-5-5-instant-may-2026": {
+			"display_name": "GPT-5.5 Instant (May 2026)",
+			"names": [
+				"GPT-5.5 Instant (May 2026)",
+				"gpt-5-5-instant-05-26"
+			],
+			"link": "https://openai.com/index/gpt-5-5-instant/",
+			"history": {
+				"first_mention": "2026-05-05",
+				"access": "2026-05-05",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 5.0,
+				"output": 30.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-5-5-cyber": {
+			"display_name": "GPT-5.5 Cyber",
+			"names": [
+				"GPT-5.5 Cyber",
+				"GPT-5.5-Cyber",
+				"gpt-5.5-cyber"
+			],
+			"link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+			"history": {
+				"first_mention": "2026-05-07",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 12.5,
+				"output": 75.0
+			},
+			"efforts": [
+				"None",
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		},
+		"gpt-5-5-rosalind": {
+			"display_name": "GPT-5.5 Rosalind",
+			"names": [
+				"GPT-5.5 Rosalind",
+				"GPT-Rosalind-5.5",
+				"GPT-Rosalind 5.5"
+			],
+			"link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind/",
+			"history": {
+				"first_mention": "2026-06-03",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"None",
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		},
+		"gpt-5-5-instant-jun-2026": {
+			"display_name": "GPT-5.5 Instant (Jun 2026)",
+			"names": [
+				"GPT-5.5 Instant (Jun 2026)",
+				"GPT-5.5 Instant (June 2026)",
+				"gpt-5-5-instant-06-26"
+			],
+			"link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+			"history": {
+				"first_mention": "2026-06-25",
+				"access": "2026-06-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 5.0,
+				"output": 30.0
+			},
+			"efforts": [
+				""
 			]
 		}
 	}

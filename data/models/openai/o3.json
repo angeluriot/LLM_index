@@ -1,7 +1,60 @@
 {
 	"display_name": "o3",
 	"versions": {
-		"2025-04-16": {
+		"o3-preview": {
+			"display_name": "o3-preview",
+			"names": [
+				"o3-preview",
+				"o3 Preview",
+				"o3 (Preview)"
+			],
+			"link": "https://arcprize.org/blog/oai-o3-pub-breakthrough",
+			"history": {
+				"first_mention": "2024-12-20",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"Low",
+				"High"
+			]
+		},
+		"o3-deep-research": {
+			"display_name": "o3-deep-research",
+			"names": [
+				"o3-deep-research",
+				"o3 Deep Research",
+				"Deep Research",
+				"OpenAI Deep Research",
+				"o3-deep-research-2025-06-26"
+			],
+			"link": "https://openai.com/index/introducing-deep-research/",
+			"history": {
+				"first_mention": "2025-02-02",
+				"access": "2025-02-02",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 10.0,
+				"output": 40.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"o3": {
 			"display_name": "o3",
 			"names": [
 				"o3",
@@ -20,6 +73,56 @@
 			"price": {
 				"input": 2.0,
 				"output": 8.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		},
+		"codex-1": {
+			"display_name": "codex-1",
+			"names": [
+				"codex-1"
+			],
+			"link": "https://openai.com/index/introducing-codex/",
+			"history": {
+				"first_mention": "2025-05-16",
+				"access": "2025-05-16",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"o3-pro": {
+			"display_name": "o3-pro",
+			"names": [
+				"o3-pro",
+				"o3 Pro",
+				"o3-pro-2025-06-10"
+			],
+			"link": "https://help.openai.com/en/articles/9624314-model-release-notes",
+			"history": {
+				"first_mention": "2025-06-10",
+				"access": "2025-06-10",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 20.0,
+				"output": 80.0
 			},
 			"efforts": [
 				"Low",

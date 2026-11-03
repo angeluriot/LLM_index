@@ -1,7 +1,7 @@
 {
 	"display_name": "GPT-Rosalind",
 	"versions": {
-		"2026-04-16": {
+		"gpt-rosalind": {
 			"display_name": "GPT-Rosalind",
 			"names": [
 				"GPT-Rosalind",

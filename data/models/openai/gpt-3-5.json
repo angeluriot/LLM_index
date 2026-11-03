@@ -1,0 +1,79 @@
+{
+	"display_name": "GPT-3.5",
+	"versions": {
+		"code-davinci-002": {
+			"display_name": "code-davinci-002",
+			"names": [
+				"code-davinci-002",
+				"Codex (code-davinci-002)"
+			],
+			"link": "https://platform.openai.com/docs/models/gpt-3-5",
+			"history": {
+				"first_mention": "2022-03-15",
+				"access": "2022-03-15",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"text-davinci-002": {
+			"display_name": "GPT-3.5 (text-davinci-002)",
+			"names": [
+				"GPT-3.5 (text-davinci-002)",
+				"GPT-3.5 (davinci-002)",
+				"text-davinci-002"
+			],
+			"link": "https://platform.openai.com/docs/models/gpt-3-5",
+			"history": {
+				"first_mention": "2022-03-15",
+				"access": "2022-03-15",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 20.0,
+				"output": 20.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"text-davinci-003": {
+			"display_name": "GPT-3.5 (text-davinci-003)",
+			"names": [
+				"GPT-3.5 (text-davinci-003)",
+				"GPT-3.5 (davinci-003)",
+				"text-davinci-003"
+			],
+			"link": "https://platform.openai.com/docs/models/gpt-3-5",
+			"history": {
+				"first_mention": "2022-11-28",
+				"access": "2022-11-28",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 20.0,
+				"output": 20.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

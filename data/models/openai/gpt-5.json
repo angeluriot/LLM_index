@@ -1,7 +1,7 @@
 {
 	"display_name": "GPT-5",
 	"versions": {
-		"2025-08-07": {
+		"gpt-5": {
 			"display_name": "GPT-5",
 			"names": [
 				"GPT-5",
@@ -25,6 +25,85 @@
 			},
 			"efforts": [
 				"Minimal",
+				"Low",
+				"Medium",
+				"High"
+			]
+		},
+		"gpt-5-instant": {
+			"display_name": "GPT-5 Instant",
+			"names": [
+				"GPT-5 Instant",
+				"GPT-5 Chat",
+				"GPT-5 (ChatGPT)",
+				"gpt-5-chat",
+				"gpt-5-chat-latest"
+			],
+			"link": "https://openai.com/index/introducing-gpt-5/",
+			"history": {
+				"first_mention": "2025-08-07",
+				"access": "2025-08-07",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.25,
+				"output": 10.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-5-pro": {
+			"display_name": "GPT-5 Pro",
+			"names": [
+				"GPT-5 Pro",
+				"gpt-5-pro",
+				"gpt-5-pro-2025-10-06"
+			],
+			"link": "https://openai.com/index/introducing-gpt-5/",
+			"history": {
+				"first_mention": "2025-08-07",
+				"access": "2025-08-07",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 15.0,
+				"output": 120.0
+			},
+			"efforts": [
+				"High"
+			]
+		},
+		"gpt-5-codex": {
+			"display_name": "GPT-5 Codex",
+			"names": [
+				"GPT-5 Codex",
+				"GPT-5-Codex",
+				"gpt-5-codex"
+			],
+			"link": "https://openai.com/index/introducing-upgrades-to-codex/",
+			"history": {
+				"first_mention": "2025-09-15",
+				"access": "2025-09-15",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.25,
+				"output": 10.0
+			},
+			"efforts": [
 				"Low",
 				"Medium",
 				"High"

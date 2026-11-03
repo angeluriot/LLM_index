@@ -1,7 +1,7 @@
 {
 	"display_name": "GPT-3.5 Turbo",
 	"versions": {
-		"2022-11-30": {
+		"chatgpt-nov-2022": {
 			"display_name": "ChatGPT (Nov 2022)",
 			"names": [
 				"ChatGPT (Nov 2022)",
@@ -26,7 +26,7 @@
 				""
 			]
 		},
-		"2023-03-01": {
+		"gpt-3-5-turbo-mar-2023": {
 			"display_name": "GPT-3.5 Turbo (Mar 2023)",
 			"names": [
 				"GPT-3.5 Turbo (Mar 2023)",
@@ -51,7 +51,7 @@
 				""
 			]
 		},
-		"2023-06-13": {
+		"gpt-3-5-turbo-jun-2023": {
 			"display_name": "GPT-3.5 Turbo (Jun 2023)",
 			"names": [
 				"GPT-3.5 Turbo (Jun 2023)",
@@ -79,7 +79,32 @@
 				""
 			]
 		},
-		"2023-11-06": {
+		"gpt-3-5-turbo-instruct": {
+			"display_name": "GPT-3.5 Turbo Instruct",
+			"names": [
+				"GPT-3.5 Turbo Instruct",
+				"gpt-3.5-turbo-instruct",
+				"gpt-3.5-turbo-instruct-0914"
+			],
+			"link": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo",
+			"history": {
+				"first_mention": "2023-09-18",
+				"access": "2023-09-18",
+				"weights": null
+			},
+			"parameters": {
+				"all": 20000000000,
+				"active": null
+			},
+			"price": {
+				"input": 1.5,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"gpt-3-5-turbo-nov-2023": {
 			"display_name": "GPT-3.5 Turbo (Nov 2023)",
 			"names": [
 				"GPT-3.5 Turbo (Nov 2023)",
@@ -104,7 +129,7 @@
 				""
 			]
 		},
-		"2024-01-25": {
+		"gpt-3-5-turbo-jan-2024": {
 			"display_name": "GPT-3.5 Turbo (Jan 2024)",
 			"names": [
 				"GPT-3.5 Turbo (Jan 2024)",

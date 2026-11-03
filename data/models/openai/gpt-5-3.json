@@ -1,0 +1,58 @@
+{
+	"display_name": "GPT-5.3",
+	"versions": {
+		"gpt-5-3-codex": {
+			"display_name": "GPT-5.3 Codex",
+			"names": [
+				"GPT-5.3 Codex",
+				"GPT-5.3-Codex",
+				"gpt-5.3-codex"
+			],
+			"link": "https://openai.com/index/introducing-gpt-5-3-codex/",
+			"history": {
+				"first_mention": "2026-02-05",
+				"access": "2026-02-05",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.75,
+				"output": 14.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		},
+		"gpt-5-3-instant": {
+			"display_name": "GPT-5.3 Instant",
+			"names": [
+				"GPT-5.3 Instant",
+				"GPT-5.3 Chat",
+				"gpt-5.3-chat-latest"
+			],
+			"link": "https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest",
+			"history": {
+				"first_mention": "2026-03-03",
+				"access": "2026-03-03",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.75,
+				"output": 14.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,7 +1,32 @@
 {
 	"display_name": "o1",
 	"versions": {
-		"2024-12-17": {
+		"o1-preview": {
+			"display_name": "o1-preview",
+			"names": [
+				"o1-preview",
+				"o1 Preview",
+				"o1-preview-2024-09-12"
+			],
+			"link": "https://openai.com/index/introducing-openai-o1-preview/",
+			"history": {
+				"first_mention": "2024-09-12",
+				"access": "2024-09-12",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 15.0,
+				"output": 60.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"o1": {
 			"display_name": "o1",
 			"names": [
 				"o1",
@@ -20,6 +45,34 @@
 			"price": {
 				"input": 15.0,
 				"output": 60.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		},
+		"o1-pro": {
+			"display_name": "o1-pro",
+			"names": [
+				"o1-pro",
+				"o1 Pro",
+				"o1 pro mode",
+				"o1-pro-2025-03-19"
+			],
+			"link": "https://openai.com/index/introducing-chatgpt-pro/",
+			"history": {
+				"first_mention": "2024-12-05",
+				"access": "2024-12-05",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 150.0,
+				"output": 600.0
 			},
 			"efforts": [
 				"Low",

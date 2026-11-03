@@ -1,7 +1,7 @@
 {
 	"display_name": "GPT-4.1 nano",
 	"versions": {
-		"2025-04-14": {
+		"gpt-4-1-nano": {
 			"display_name": "GPT-4.1 nano",
 			"names": [
 				"GPT-4.1 nano",
