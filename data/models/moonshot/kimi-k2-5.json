@@ -1,0 +1,40 @@
+{
+	"display_name": "Kimi K2.5",
+	"versions": {
+		"kimi-k2-5": {
+			"display_name": "Kimi K2.5",
+			"names": [
+				"Kimi K2.5",
+				"Kimi K2.5 (Reasoning)",
+				"Kimi K2.5 (Non-reasoning)",
+				"Kimi K2.5 (non-reasoning)",
+				"Kimi-K2.5",
+				"kimi-k2.5",
+				"kimi-k2-5",
+				"moonshotai/kimi-k2.5",
+				"fireworks/kimi-k2p5",
+				"Kimi K2.5 Thinking",
+				"Kimi K2.5 Instant",
+				"moonshotai/Kimi-K2.5"
+			],
+			"link": "https://www.kimi.com/blog/kimi-k2-5.html",
+			"history": {
+				"first_mention": "2026-01-27",
+				"access": "2026-01-27",
+				"weights": "2026-01-27"
+			},
+			"parameters": {
+				"all": 1040000000000,
+				"active": 32600000000
+			},
+			"price": {
+				"input": 0.6,
+				"output": 3.0
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

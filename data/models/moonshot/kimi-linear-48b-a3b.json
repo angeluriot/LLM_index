@@ -1,0 +1,36 @@
+{
+	"display_name": "Kimi Linear 48B A3B",
+	"versions": {
+		"kimi-linear-48b-a3b": {
+			"display_name": "Kimi Linear 48B A3B",
+			"names": [
+				"Kimi Linear 48B A3B",
+				"Kimi Linear",
+				"Kimi-Linear",
+				"Kimi-Linear-48B-A3B",
+				"Kimi Linear 48B A3B Instruct",
+				"Kimi-Linear-48B-A3B-Instruct",
+				"Kimi-Linear-48B-A3B-Base",
+				"moonshotai/Kimi-Linear-48B-A3B-Instruct",
+				"moonshotai/Kimi-Linear-48B-A3B-Base"
+			],
+			"link": "https://arxiv.org/abs/2510.26692",
+			"history": {
+				"first_mention": "2025-10-30",
+				"access": "2025-10-30",
+				"weights": "2025-10-30"
+			},
+			"parameters": {
+				"all": 48000000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

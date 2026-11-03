@@ -1,0 +1,37 @@
+{
+	"display_name": "Kimi K2.8 Preview",
+	"versions": {
+		"kimi-k2-8-preview": {
+			"display_name": "Kimi K2.8 Preview",
+			"names": [
+				"Kimi K2.8 Preview",
+				"Kimi K2.8",
+				"Kimi-K2.8-Preview",
+				"kimi-k2.8",
+				"kimi-k2.8-preview",
+				"kimi-k2-8-preview",
+				"moonshotai/kimi-k2.8-preview"
+			],
+			"link": "https://www.kimi.com/code/docs/en/kimi-code/whats-new.html",
+			"history": {
+				"first_mention": "2026-09-11",
+				"access": "2026-09-11",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Low",
+				"High",
+				"Max"
+			]
+		}
+	}
+}

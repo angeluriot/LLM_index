@@ -1,0 +1,32 @@
+{
+	"display_name": "Kimi-Dev-72B",
+	"versions": {
+		"kimi-dev-72b": {
+			"display_name": "Kimi-Dev-72B",
+			"names": [
+				"Kimi-Dev-72B",
+				"Kimi Dev 72B",
+				"Kimi Dev 72b",
+				"Kimi-Dev",
+				"moonshotai/Kimi-Dev-72B"
+			],
+			"link": "https://moonshotai.github.io/Kimi-Dev/",
+			"history": {
+				"first_mention": "2025-06-16",
+				"access": "2025-06-16",
+				"weights": "2025-06-16"
+			},
+			"parameters": {
+				"all": 72700000000,
+				"active": 72700000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

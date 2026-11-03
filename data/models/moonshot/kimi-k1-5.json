@@ -1,0 +1,61 @@
+{
+	"display_name": "Kimi k1.5",
+	"versions": {
+		"kimi-k1-5": {
+			"display_name": "Kimi k1.5",
+			"names": [
+				"Kimi k1.5",
+				"Kimi-k1.5",
+				"Kimi K1.5",
+				"kimi-k1.5",
+				"k1.5",
+				"Kimi k1.5 (long-CoT)",
+				"Kimi k1.5 long-CoT",
+				"Kimi k1.5 Long-CoT"
+			],
+			"link": "https://arxiv.org/abs/2501.12599",
+			"history": {
+				"first_mention": "2025-01-20",
+				"access": "2025-01-20",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"kimi-k1-5-short-cot": {
+			"display_name": "Kimi k1.5 (short-CoT)",
+			"names": [
+				"Kimi k1.5 (short-CoT)",
+				"Kimi k1.5 short-CoT",
+				"Kimi k1.5 Short-CoT",
+				"Kimi-k1.5-short-CoT"
+			],
+			"link": "https://arxiv.org/abs/2501.12599",
+			"history": {
+				"first_mention": "2025-01-20",
+				"access": "2025-01-20",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

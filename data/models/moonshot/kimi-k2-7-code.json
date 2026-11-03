@@ -1,0 +1,37 @@
+{
+	"display_name": "Kimi K2.7 Code",
+	"versions": {
+		"kimi-k2-7-code": {
+			"display_name": "Kimi K2.7 Code",
+			"names": [
+				"Kimi K2.7 Code",
+				"Kimi K2.7",
+				"Kimi-K2.7-Code",
+				"kimi-k2.7-code",
+				"kimi-k2-7-code",
+				"moonshotai/kimi-k2.7-code",
+				"kimi-k2.7-code-highspeed",
+				"Kimi K2.7 Code HighSpeed",
+				"Kimi K2.7 Code Highspeed",
+				"moonshotai/Kimi-K2.7-Code"
+			],
+			"link": "https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart",
+			"history": {
+				"first_mention": "2026-06-12",
+				"access": "2026-06-12",
+				"weights": "2026-06-12"
+			},
+			"parameters": {
+				"all": 1040000000000,
+				"active": 32600000000
+			},
+			"price": {
+				"input": 0.95,
+				"output": 4.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"display_name": "Kimi k1.6",
+	"versions": {
+		"kimi-k1-6": {
+			"display_name": "Kimi k1.6",
+			"names": [
+				"Kimi k1.6",
+				"Kimi 1.6",
+				"k1.6",
+				"Kimi-k1.6",
+				"Kimi-k1.6-IOI",
+				"Kimi-k1.6-IOI-high",
+				"Kimi k1.6 IOI",
+				"Kimi k1.6 IOI high"
+			],
+			"link": "https://livecodebench.github.io/leaderboard.html",
+			"history": {
+				"first_mention": "2025-02-27",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

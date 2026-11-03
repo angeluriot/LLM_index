@@ -1,0 +1,30 @@
+{
+	"display_name": "kimi-thinking-preview",
+	"versions": {
+		"kimi-thinking-preview": {
+			"display_name": "kimi-thinking-preview",
+			"names": [
+				"kimi-thinking-preview",
+				"Kimi Thinking Preview",
+				"Kimi-Thinking-Preview"
+			],
+			"link": "https://platform.kimi.com/blog/posts/kimi-thinking",
+			"history": {
+				"first_mention": "2025-05-06",
+				"access": "2025-05-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 30.0,
+				"output": 30.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

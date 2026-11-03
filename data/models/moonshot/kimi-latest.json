@@ -1,0 +1,32 @@
+{
+	"display_name": "kimi-latest",
+	"versions": {
+		"kimi-latest": {
+			"display_name": "kimi-latest",
+			"names": [
+				"kimi-latest",
+				"Kimi Latest",
+				"kimi-latest-8k",
+				"kimi-latest-32k",
+				"kimi-latest-128k"
+			],
+			"link": "https://platform.kimi.com/blog/posts/kimi-latest",
+			"history": {
+				"first_mention": "2025-02-17",
+				"access": "2025-02-17",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.2,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

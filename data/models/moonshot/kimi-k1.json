@@ -1,0 +1,32 @@
+{
+	"display_name": "Kimi k1",
+	"versions": {
+		"kimi-k1": {
+			"display_name": "Kimi k1",
+			"names": [
+				"Kimi k1",
+				"k1",
+				"Kimi K1",
+				"Kimi k1 visual thinking",
+				"k1 visual thinking model"
+			],
+			"link": "https://en.tmtpost.com/news/7383172",
+			"history": {
+				"first_mention": "2024-12-16",
+				"access": "2024-12-16",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

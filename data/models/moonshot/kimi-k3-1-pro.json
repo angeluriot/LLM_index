@@ -1,0 +1,42 @@
+{
+	"display_name": "Kimi K3.1 Pro",
+	"versions": {
+		"kimi-k3-1-pro": {
+			"display_name": "Kimi K3.1 Pro",
+			"names": [
+				"Kimi K3.1 Pro",
+				"Kimi K3.1 Pro (Max)",
+				"Kimi K3.1 Pro (max)",
+				"Kimi-K3.1-Pro",
+				"kimi-k3.1-pro",
+				"kimi-k3-1-pro",
+				"kimi-k3.1-pro-max",
+				"moonshotai/kimi-k3.1-pro",
+				"kimi/kimi-k3.1-pro",
+				"kimi-k3.1-pro-highspeed",
+				"Kimi K3.1 Pro Highspeed",
+				"Kimi K3.1 Pro HighSpeed",
+				"moonshotai/Kimi-K3.1-Pro"
+			],
+			"link": "https://www.kimi.com/blog/kimi-k3-1-pro",
+			"history": {
+				"first_mention": "2026-10-23",
+				"access": "2026-10-23",
+				"weights": null
+			},
+			"parameters": {
+				"all": 2800000000000,
+				"active": 104000000000
+			},
+			"price": {
+				"input": 2.0,
+				"output": 10.0
+			},
+			"efforts": [
+				"Low",
+				"High",
+				"Max"
+			]
+		}
+	}
+}

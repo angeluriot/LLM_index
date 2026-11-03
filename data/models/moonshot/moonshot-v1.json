@@ -1,0 +1,63 @@
+{
+	"display_name": "Moonshot-v1",
+	"versions": {
+		"moonshot-v1": {
+			"display_name": "Moonshot-v1",
+			"names": [
+				"Moonshot-v1",
+				"moonshot-v1",
+				"Moonshot v1",
+				"moonshot-v1-8k",
+				"moonshot-v1-32k",
+				"moonshot-v1-128k",
+				"moonshot-v1-auto",
+				"Kimi Chat"
+			],
+			"link": "https://platform.kimi.ai/docs/models",
+			"history": {
+				"first_mention": "2023-10-09",
+				"access": "2023-11-16",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.2,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"moonshot-v1-vision-preview": {
+			"display_name": "Moonshot-v1 Vision Preview",
+			"names": [
+				"Moonshot-v1 Vision Preview",
+				"moonshot-v1-vision-preview",
+				"Moonshot-V1-Vision-Preview",
+				"moonshot-v1-8k-vision-preview",
+				"moonshot-v1-32k-vision-preview",
+				"moonshot-v1-128k-vision-preview"
+			],
+			"link": "https://platform.kimi.ai/docs/models",
+			"history": {
+				"first_mention": "2025-01-15",
+				"access": "2025-01-15",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.2,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

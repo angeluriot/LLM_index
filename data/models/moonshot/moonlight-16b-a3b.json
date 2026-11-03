@@ -1,0 +1,114 @@
+{
+	"display_name": "Moonlight-16B-A3B",
+	"versions": {
+		"moonlight-16b-a3b": {
+			"display_name": "Moonlight-16B-A3B",
+			"names": [
+				"Moonlight-16B-A3B",
+				"Moonlight",
+				"Moonlight 16B A3B",
+				"Moonlight-16B-A3B-Instruct",
+				"Moonlight 16B A3B Instruct",
+				"moonshotai/Moonlight-16B-A3B",
+				"moonshotai/Moonlight-16B-A3B-Instruct"
+			],
+			"link": "https://arxiv.org/abs/2502.16982",
+			"history": {
+				"first_mention": "2025-02-22",
+				"access": "2025-02-22",
+				"weights": "2025-02-22"
+			},
+			"parameters": {
+				"all": 16000000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"kimi-vl-a3b-instruct": {
+			"display_name": "Kimi-VL-A3B-Instruct",
+			"names": [
+				"Kimi-VL-A3B-Instruct",
+				"Kimi-VL",
+				"Kimi-VL-A3B",
+				"Kimi VL A3B",
+				"Kimi VL A3B Instruct",
+				"kimi-vl-a3b",
+				"moonshotai/Kimi-VL-A3B-Instruct"
+			],
+			"link": "https://arxiv.org/abs/2504.07491",
+			"history": {
+				"first_mention": "2025-04-10",
+				"access": "2025-04-10",
+				"weights": "2025-04-10"
+			},
+			"parameters": {
+				"all": 16000000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"kimi-vl-a3b-thinking": {
+			"display_name": "Kimi-VL-A3B-Thinking",
+			"names": [
+				"Kimi-VL-A3B-Thinking",
+				"Kimi VL A3B Thinking",
+				"moonshotai/Kimi-VL-A3B-Thinking"
+			],
+			"link": "https://arxiv.org/abs/2504.07491",
+			"history": {
+				"first_mention": "2025-04-10",
+				"access": "2025-04-10",
+				"weights": "2025-04-10"
+			},
+			"parameters": {
+				"all": 16000000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"kimi-vl-a3b-thinking-2506": {
+			"display_name": "Kimi-VL-A3B-Thinking-2506",
+			"names": [
+				"Kimi-VL-A3B-Thinking-2506",
+				"Kimi VL A3B Thinking 2506",
+				"Kimi-VL-A3B-Thinking (Jun 2025)",
+				"moonshotai/Kimi-VL-A3B-Thinking-2506"
+			],
+			"link": "https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking-2506",
+			"history": {
+				"first_mention": "2025-06-21",
+				"access": "2025-06-21",
+				"weights": "2025-06-21"
+			},
+			"parameters": {
+				"all": 16000000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

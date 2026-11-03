@@ -1,0 +1,31 @@
+{
+	"display_name": "k0-math",
+	"versions": {
+		"k0-math": {
+			"display_name": "k0-math",
+			"names": [
+				"k0-math",
+				"Kimi k0-math",
+				"Kimi k0 math",
+				"k0 math"
+			],
+			"link": "https://www.globaltimes.cn/page/202411/1323248.shtml",
+			"history": {
+				"first_mention": "2024-11-16",
+				"access": "2024-11-16",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

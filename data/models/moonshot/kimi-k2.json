@@ -1,0 +1,107 @@
+{
+	"display_name": "Kimi K2",
+	"versions": {
+		"kimi-k2-jul-2025": {
+			"display_name": "Kimi K2 (Jul 2025)",
+			"names": [
+				"Kimi K2 (Jul 2025)",
+				"Kimi K2",
+				"Kimi-K2",
+				"Kimi K2 Instruct",
+				"Kimi-K2-Instruct",
+				"kimi-k2-instruct",
+				"Kimi K2 0711",
+				"kimi-k2-0711-preview",
+				"moonshotai/kimi-k2",
+				"Kimi K2 Base",
+				"Kimi-K2-Base",
+				"kimi-k2-base",
+				"moonshotai/Kimi-K2-Instruct",
+				"moonshotai/Kimi-K2-Base"
+			],
+			"link": "https://moonshotai.github.io/Kimi-K2/",
+			"history": {
+				"first_mention": "2025-07-11",
+				"access": "2025-07-11",
+				"weights": "2025-07-11"
+			},
+			"parameters": {
+				"all": 1040000000000,
+				"active": 32600000000
+			},
+			"price": {
+				"input": 0.6,
+				"output": 2.5
+			},
+			"efforts": [
+				""
+			]
+		},
+		"kimi-k2-sep-2025": {
+			"display_name": "Kimi K2 (Sep 2025)",
+			"names": [
+				"Kimi K2 (Sep 2025)",
+				"Kimi K2 0905",
+				"Kimi K2-Instruct-0905",
+				"Kimi K2 Instruct 0905",
+				"kimi-k2-instruct-0905",
+				"kimi-k2-0905",
+				"kimi-k2-0905-preview",
+				"moonshotai/kimi-k2-0905",
+				"fireworks/Kimi-K2-Instruct-0905",
+				"kimi-k2-turbo-preview",
+				"Kimi K2 Turbo",
+				"Kimi-K2-Instruct-0905",
+				"moonshotai/Kimi-K2-Instruct-0905"
+			],
+			"link": "https://platform.kimi.com/blog/posts/kimi-k2-0905",
+			"history": {
+				"first_mention": "2025-09-05",
+				"access": "2025-09-05",
+				"weights": "2025-09-05"
+			},
+			"parameters": {
+				"all": 1040000000000,
+				"active": 32600000000
+			},
+			"price": {
+				"input": 0.6,
+				"output": 2.5
+			},
+			"efforts": [
+				""
+			]
+		},
+		"kimi-k2-thinking": {
+			"display_name": "Kimi K2 Thinking",
+			"names": [
+				"Kimi K2 Thinking",
+				"Kimi-K2-Thinking",
+				"kimi-k2-thinking",
+				"moonshotai/kimi-k2-thinking",
+				"Kimi K2-Thinking-0905",
+				"kimi-k2-thinking-0905",
+				"kimi-k2-thinking-turbo",
+				"Kimi K2 Thinking Turbo",
+				"moonshotai/Kimi-K2-Thinking"
+			],
+			"link": "https://moonshotai.github.io/Kimi-K2/thinking.html",
+			"history": {
+				"first_mention": "2025-11-06",
+				"access": "2025-11-06",
+				"weights": "2025-11-06"
+			},
+			"parameters": {
+				"all": 1040000000000,
+				"active": 32600000000
+			},
+			"price": {
+				"input": 0.6,
+				"output": 2.5
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}
