@@ -1,0 +1,89 @@
+{
+	"display_name": "DeepSeek-V3",
+	"versions": {
+		"deepseek-v3-dec-2024": {
+			"display_name": "DeepSeek-V3 (Dec 2024)",
+			"names": [
+				"DeepSeek-V3 (Dec 2024)",
+				"DeepSeek-V3",
+				"DeepSeek V3",
+				"DeepSeek V3 (Dec '24)",
+				"DeepSeek-V3-Base",
+				"deepseek-ai/DeepSeek-V3",
+				"deepseek-ai/DeepSeek-V3-Base"
+			],
+			"link": "https://api-docs.deepseek.com/news/news1226",
+			"history": {
+				"first_mention": "2024-12-26",
+				"access": "2024-12-26",
+				"weights": "2024-12-26"
+			},
+			"parameters": {
+				"all": 671000000000,
+				"active": 37000000000
+			},
+			"price": {
+				"input": 0.27,
+				"output": 1.1
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deepseek-v3-mar-2025": {
+			"display_name": "DeepSeek-V3 (Mar 2025)",
+			"names": [
+				"DeepSeek-V3 (Mar 2025)",
+				"DeepSeek-V3-0324",
+				"DeepSeek V3 0324",
+				"DeepSeek-V3 0324",
+				"DeepSeek V3 0324 (Mar '25)",
+				"chutes/DeepSeek-V3-0324",
+				"deepseek-ai/DeepSeek-V3-0324"
+			],
+			"link": "https://api-docs.deepseek.com/news/news250325",
+			"history": {
+				"first_mention": "2025-03-24",
+				"access": "2025-03-24",
+				"weights": "2025-03-24"
+			},
+			"parameters": {
+				"all": 671000000000,
+				"active": 37000000000
+			},
+			"price": {
+				"input": 0.27,
+				"output": 1.1
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deepseek-prover-v2-671b": {
+			"display_name": "DeepSeek-Prover-V2-671B",
+			"names": [
+				"DeepSeek-Prover-V2-671B",
+				"DeepSeek-Prover-V2",
+				"DeepSeek Prover V2 671B",
+				"deepseek-ai/DeepSeek-Prover-V2-671B"
+			],
+			"link": "https://arxiv.org/abs/2504.21801",
+			"history": {
+				"first_mention": "2025-04-30",
+				"access": "2025-04-30",
+				"weights": "2025-04-30"
+			},
+			"parameters": {
+				"all": 671000000000,
+				"active": 37000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

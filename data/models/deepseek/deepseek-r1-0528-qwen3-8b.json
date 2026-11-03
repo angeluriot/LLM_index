@@ -1,0 +1,31 @@
+{
+	"display_name": "DeepSeek-R1-0528-Qwen3-8B",
+	"versions": {
+		"deepseek-r1-0528-qwen3-8b": {
+			"display_name": "DeepSeek-R1-0528-Qwen3-8B",
+			"names": [
+				"DeepSeek-R1-0528-Qwen3-8B",
+				"DeepSeek R1 0528 Qwen3 8B",
+				"deepseek-r1-0528-qwen3-8b",
+				"deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
+			],
+			"link": "https://api-docs.deepseek.com/news/news250528",
+			"history": {
+				"first_mention": "2025-05-29",
+				"access": "2025-05-29",
+				"weights": "2025-05-29"
+			},
+			"parameters": {
+				"all": 8191000000,
+				"active": 8191000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

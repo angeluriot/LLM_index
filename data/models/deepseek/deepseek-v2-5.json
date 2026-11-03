@@ -1,0 +1,58 @@
+{
+	"display_name": "DeepSeek-V2.5",
+	"versions": {
+		"deepseek-v2-5-sep-2024": {
+			"display_name": "DeepSeek-V2.5 (Sep 2024)",
+			"names": [
+				"DeepSeek-V2.5 (Sep 2024)",
+				"DeepSeek-V2.5",
+				"DeepSeek V2.5",
+				"deepseek-ai/DeepSeek-V2.5"
+			],
+			"link": "https://api-docs.deepseek.com/news/news0905",
+			"history": {
+				"first_mention": "2024-09-05",
+				"access": "2024-09-05",
+				"weights": "2024-09-05"
+			},
+			"parameters": {
+				"all": 236000000000,
+				"active": 21000000000
+			},
+			"price": {
+				"input": 0.14,
+				"output": 0.28
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deepseek-v2-5-dec-2024": {
+			"display_name": "DeepSeek-V2.5 (Dec 2024)",
+			"names": [
+				"DeepSeek-V2.5 (Dec 2024)",
+				"DeepSeek-V2.5 (Dec '24)",
+				"DeepSeek-V2.5-1210",
+				"DeepSeek V2.5 1210",
+				"deepseek-ai/DeepSeek-V2.5-1210"
+			],
+			"link": "https://api-docs.deepseek.com/news/news1210",
+			"history": {
+				"first_mention": "2024-12-10",
+				"access": "2024-12-10",
+				"weights": "2024-12-10"
+			},
+			"parameters": {
+				"all": 236000000000,
+				"active": 21000000000
+			},
+			"price": {
+				"input": 0.14,
+				"output": 0.28
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

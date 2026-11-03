@@ -1,0 +1,31 @@
+{
+	"display_name": "DeepSeek-R1-Distill-Llama-70B",
+	"versions": {
+		"deepseek-r1-distill-llama-70b": {
+			"display_name": "DeepSeek-R1-Distill-Llama-70B",
+			"names": [
+				"DeepSeek-R1-Distill-Llama-70B",
+				"DeepSeek R1 Distill Llama 70B",
+				"deepseek-r1-distill-llama-70b",
+				"deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+			],
+			"link": "https://arxiv.org/abs/2501.12948",
+			"history": {
+				"first_mention": "2025-01-20",
+				"access": "2025-01-20",
+				"weights": "2025-01-20"
+			},
+			"parameters": {
+				"all": 70554000000,
+				"active": 70554000000
+			},
+			"price": {
+				"input": 0.7,
+				"output": 1.1
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

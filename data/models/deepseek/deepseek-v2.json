@@ -1,0 +1,63 @@
+{
+	"display_name": "DeepSeek-V2",
+	"versions": {
+		"deepseek-v2-may-2024": {
+			"display_name": "DeepSeek-V2 (May 2024)",
+			"names": [
+				"DeepSeek-V2 (May 2024)",
+				"DeepSeek-V2",
+				"DeepSeek V2",
+				"DeepSeek-V2-Chat",
+				"DeepSeek-V2 Chat",
+				"DeepSeek-V2-Chat (RL)",
+				"DeepSeek-V2 (MoE-236B, May 2024)",
+				"deepseek-ai/DeepSeek-V2",
+				"deepseek-ai/DeepSeek-V2-Chat"
+			],
+			"link": "https://arxiv.org/abs/2405.04434",
+			"history": {
+				"first_mention": "2024-05-06",
+				"access": "2024-05-06",
+				"weights": "2024-05-06"
+			},
+			"parameters": {
+				"all": 236000000000,
+				"active": 21000000000
+			},
+			"price": {
+				"input": 0.14,
+				"output": 0.28
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deepseek-v2-jun-2024": {
+			"display_name": "DeepSeek-V2 (Jun 2024)",
+			"names": [
+				"DeepSeek-V2 (Jun 2024)",
+				"DeepSeek-V2-0628",
+				"DeepSeek-V2-Chat-0628",
+				"DeepSeek V2 Chat 0628",
+				"deepseek-ai/DeepSeek-V2-Chat-0628"
+			],
+			"link": "https://api-docs.deepseek.com/updates",
+			"history": {
+				"first_mention": "2024-06-28",
+				"access": "2024-06-28",
+				"weights": "2024-07-18"
+			},
+			"parameters": {
+				"all": 236000000000,
+				"active": 21000000000
+			},
+			"price": {
+				"input": 0.14,
+				"output": 0.28
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

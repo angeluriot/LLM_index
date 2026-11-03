@@ -1,0 +1,31 @@
+{
+	"display_name": "DeepSeek-VL2-Tiny",
+	"versions": {
+		"deepseek-vl2-tiny": {
+			"display_name": "DeepSeek-VL2-Tiny",
+			"names": [
+				"DeepSeek-VL2-Tiny",
+				"DeepSeek VL2 Tiny",
+				"deepseek-vl2-tiny",
+				"deepseek-ai/deepseek-vl2-tiny"
+			],
+			"link": "https://arxiv.org/abs/2412.10302",
+			"history": {
+				"first_mention": "2024-12-13",
+				"access": "2024-12-13",
+				"weights": "2024-12-13"
+			},
+			"parameters": {
+				"all": 3370000000,
+				"active": 1000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

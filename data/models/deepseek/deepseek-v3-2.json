@@ -1,0 +1,120 @@
+{
+	"display_name": "DeepSeek-V3.2",
+	"versions": {
+		"deepseek-v3-2-exp": {
+			"display_name": "DeepSeek-V3.2-Exp",
+			"names": [
+				"DeepSeek-V3.2-Exp",
+				"DeepSeek V3.2 Exp",
+				"DeepSeek V3.2 Exp (Reasoning)",
+				"DeepSeek V3.2 Exp (Non-reasoning)",
+				"DeepSeek V3.2 Exp (non-reasoning)",
+				"DeepSeek-V3.2-Exp_thinking",
+				"DeepSeek-V3.2-Exp-Base",
+				"deepseek-ai/DeepSeek-V3.2-Exp",
+				"deepseek-ai/DeepSeek-V3.2-Exp-Base"
+			],
+			"link": "https://api-docs.deepseek.com/news/news250929",
+			"history": {
+				"first_mention": "2025-09-29",
+				"access": "2025-09-29",
+				"weights": "2025-09-29"
+			},
+			"parameters": {
+				"all": 671000000000,
+				"active": 37000000000
+			},
+			"price": {
+				"input": 0.28,
+				"output": 0.42
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"deepseekmath-v2": {
+			"display_name": "DeepSeekMath-V2",
+			"names": [
+				"DeepSeekMath-V2",
+				"DeepSeek-Math-V2",
+				"DeepSeekMath V2",
+				"deepseek-ai/DeepSeek-Math-V2"
+			],
+			"link": "https://arxiv.org/abs/2511.22570",
+			"history": {
+				"first_mention": "2025-11-27",
+				"access": "2025-11-27",
+				"weights": "2025-11-27"
+			},
+			"parameters": {
+				"all": 671000000000,
+				"active": 37000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deepseek-v3-2": {
+			"display_name": "DeepSeek-V3.2",
+			"names": [
+				"DeepSeek-V3.2",
+				"DeepSeek V3.2",
+				"DeepSeek V3.2 (Reasoning)",
+				"DeepSeek V3.2 (Non-reasoning)",
+				"DeepSeek-V3.2 (Thinking)",
+				"DeepSeek-V3.2 (Non-thinking)",
+				"deepseek/deepseek-v3.2",
+				"fireworks/deepseek-v3p2",
+				"deepseek-ai/DeepSeek-V3.2"
+			],
+			"link": "https://api-docs.deepseek.com/news/news251201",
+			"history": {
+				"first_mention": "2025-12-01",
+				"access": "2025-12-01",
+				"weights": "2025-12-01"
+			},
+			"parameters": {
+				"all": 671000000000,
+				"active": 37000000000
+			},
+			"price": {
+				"input": 0.28,
+				"output": 0.42
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"deepseek-v3-2-speciale": {
+			"display_name": "DeepSeek-V3.2-Speciale",
+			"names": [
+				"DeepSeek-V3.2-Speciale",
+				"DeepSeek V3.2 Speciale",
+				"deepseek-ai/DeepSeek-V3.2-Speciale"
+			],
+			"link": "https://api-docs.deepseek.com/news/news251201",
+			"history": {
+				"first_mention": "2025-12-01",
+				"access": "2025-12-01",
+				"weights": "2025-12-01"
+			},
+			"parameters": {
+				"all": 671000000000,
+				"active": 37000000000
+			},
+			"price": {
+				"input": 0.28,
+				"output": 0.42
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

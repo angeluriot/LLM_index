@@ -1,0 +1,29 @@
+{
+	"display_name": "DeepSeek-V4.1-Pro",
+	"versions": {
+		"deepseek-v4-1-pro": {
+			"display_name": "DeepSeek-V4.1-Pro",
+			"names": [
+				"DeepSeek-V4.1-Pro",
+				"DeepSeek V4.1 Pro"
+			],
+			"link": "https://api-docs.deepseek.com/news/news260910",
+			"history": {
+				"first_mention": "2026-09-10",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

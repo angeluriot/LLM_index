@@ -1,0 +1,103 @@
+{
+	"display_name": "DeepSeek-V4-Flash",
+	"versions": {
+		"deepseek-v4-flash-apr-2026": {
+			"display_name": "DeepSeek-V4-Flash (Apr 2026)",
+			"names": [
+				"DeepSeek-V4-Flash (Apr 2026)",
+				"DeepSeek-V4-Flash",
+				"DeepSeek V4 Flash",
+				"DeepSeek-V4-Flash-Preview",
+				"DeepSeek-V4-Flash Preview",
+				"DeepSeek-V4-Flash-Max",
+				"DeepSeek-V4-Flash-0423",
+				"DeepSeek V4 Flash 0420",
+				"DeepSeek V4 Flash 0420 (Max)",
+				"DeepSeek V4 Flash 0420 (High)",
+				"DeepSeek V4 Flash 0420 (Non-reasoning)",
+				"DeepSeek-V4-Flash-Base",
+				"deepseek-ai/DeepSeek-V4-Flash",
+				"deepseek-ai/DeepSeek-V4-Flash-Base"
+			],
+			"link": "https://api-docs.deepseek.com/news/news260424",
+			"history": {
+				"first_mention": "2026-04-24",
+				"access": "2026-04-24",
+				"weights": "2026-04-24"
+			},
+			"parameters": {
+				"all": 284000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": 0.14,
+				"output": 0.28
+			},
+			"efforts": [
+				"None",
+				"High",
+				"Max"
+			]
+		},
+		"deepseek-v4-flash-jul-2026": {
+			"display_name": "DeepSeek-V4-Flash (Jul 2026)",
+			"names": [
+				"DeepSeek-V4-Flash (Jul 2026)",
+				"DeepSeek-V4-Flash-0731",
+				"DeepSeek V4 Flash 0731",
+				"DeepSeek V4 Flash 0731 (Max)",
+				"deepseek-ai/DeepSeek-V4-Flash-0731"
+			],
+			"link": "https://api-docs.deepseek.com/updates",
+			"history": {
+				"first_mention": "2026-07-31",
+				"access": "2026-07-31",
+				"weights": "2026-07-31"
+			},
+			"parameters": {
+				"all": 284000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": 0.14,
+				"output": 0.28
+			},
+			"efforts": [
+				"None",
+				"Low",
+				"High",
+				"Max"
+			]
+		},
+		"deepseek-v4-flash-vision-exp": {
+			"display_name": "DeepSeek-V4-Flash-Vision-Exp",
+			"names": [
+				"DeepSeek-V4-Flash-Vision-Exp",
+				"DeepSeek V4 Flash Vision",
+				"DeepSeek V4 Flash Vision (Max)",
+				"deepseek-v4-flash-vision-exp",
+				"deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
+			],
+			"link": "https://api-docs.deepseek.com/news/news260821",
+			"history": {
+				"first_mention": "2026-08-21",
+				"access": "2026-08-21",
+				"weights": "2026-08-31"
+			},
+			"parameters": {
+				"all": 284000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": 0.44,
+				"output": 1.32
+			},
+			"efforts": [
+				"None",
+				"Low",
+				"High",
+				"Max"
+			]
+		}
+	}
+}

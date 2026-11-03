@@ -1,0 +1,32 @@
+{
+	"display_name": "DeepSeek-V2-Lite",
+	"versions": {
+		"deepseek-v2-lite": {
+			"display_name": "DeepSeek-V2-Lite",
+			"names": [
+				"DeepSeek-V2-Lite",
+				"DeepSeek V2 Lite",
+				"DeepSeek-V2-Lite-Chat",
+				"deepseek-ai/DeepSeek-V2-Lite",
+				"deepseek-ai/DeepSeek-V2-Lite-Chat"
+			],
+			"link": "https://github.com/deepseek-ai/DeepSeek-V2",
+			"history": {
+				"first_mention": "2024-05-16",
+				"access": "2024-05-16",
+				"weights": "2024-05-16"
+			},
+			"parameters": {
+				"all": 15706000000,
+				"active": 2400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

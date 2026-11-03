@@ -1,0 +1,37 @@
+{
+	"display_name": "DeepSeek LLM 67B",
+	"versions": {
+		"deepseek-llm-67b": {
+			"display_name": "DeepSeek LLM 67B",
+			"names": [
+				"DeepSeek LLM 67B",
+				"DeepSeek-LLM-67B",
+				"DeepSeek LLM 67B Chat",
+				"DeepSeek LLM 67B Chat (V1)",
+				"DeepSeek LLM 67B Base",
+				"deepseek-llm-67b",
+				"deepseek-llm-67b-base",
+				"deepseek-llm-67b-chat",
+				"deepseek-ai/deepseek-llm-67b-base",
+				"deepseek-ai/deepseek-llm-67b-chat"
+			],
+			"link": "https://github.com/deepseek-ai/DeepSeek-LLM",
+			"history": {
+				"first_mention": "2023-11-29",
+				"access": "2023-11-29",
+				"weights": "2023-11-29"
+			},
+			"parameters": {
+				"all": 67000000000,
+				"active": 67000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

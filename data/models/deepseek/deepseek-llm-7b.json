@@ -1,0 +1,211 @@
+{
+	"display_name": "DeepSeek LLM 7B",
+	"versions": {
+		"deepseek-llm-7b": {
+			"display_name": "DeepSeek LLM 7B",
+			"names": [
+				"DeepSeek LLM 7B",
+				"DeepSeek-LLM-7B",
+				"DeepSeek LLM 7B Chat",
+				"DeepSeek LLM 7B Base",
+				"deepseek-llm-7b",
+				"deepseek-llm-7b-base",
+				"deepseek-llm-7b-chat",
+				"deepseek-ai/deepseek-llm-7b-base",
+				"deepseek-ai/deepseek-llm-7b-chat"
+			],
+			"link": "https://github.com/deepseek-ai/DeepSeek-LLM",
+			"history": {
+				"first_mention": "2023-11-29",
+				"access": "2023-11-29",
+				"weights": "2023-11-29"
+			},
+			"parameters": {
+				"all": 6910000000,
+				"active": 6910000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deepseek-coder-7b-v1-5": {
+			"display_name": "DeepSeek Coder 7B v1.5",
+			"names": [
+				"DeepSeek Coder 7B v1.5",
+				"DeepSeek-Coder-v1.5 7B",
+				"DeepSeek Coder v1.5",
+				"DeepSeek-Coder-7B-v1.5",
+				"deepseek-coder-7b-v1.5",
+				"deepseek-coder-7b-base-v1.5",
+				"deepseek-coder-7b-instruct-v1.5",
+				"deepseek-ai/deepseek-coder-7b-base-v1.5",
+				"deepseek-ai/deepseek-coder-7b-instruct-v1.5"
+			],
+			"link": "https://github.com/deepseek-ai/DeepSeek-Coder",
+			"history": {
+				"first_mention": "2024-01-25",
+				"access": "2024-01-25",
+				"weights": "2024-01-25"
+			},
+			"parameters": {
+				"all": 6910000000,
+				"active": 6910000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deepseekmath-7b": {
+			"display_name": "DeepSeekMath 7B",
+			"names": [
+				"DeepSeekMath 7B",
+				"DeepSeekMath",
+				"DeepSeek-Math-7B",
+				"DeepSeekMath 7B RL",
+				"DeepSeekMath 7B Instruct",
+				"DeepSeekMath-RL 7B",
+				"deepseek-math-7b-base",
+				"deepseek-math-7b-instruct",
+				"deepseek-math-7b-rl",
+				"deepseek-ai/deepseek-math-7b-base",
+				"deepseek-ai/deepseek-math-7b-instruct",
+				"deepseek-ai/deepseek-math-7b-rl"
+			],
+			"link": "https://arxiv.org/abs/2402.03300",
+			"history": {
+				"first_mention": "2024-02-05",
+				"access": "2024-02-05",
+				"weights": "2024-02-05"
+			},
+			"parameters": {
+				"all": 6910000000,
+				"active": 6910000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deepseek-vl-7b": {
+			"display_name": "DeepSeek-VL 7B",
+			"names": [
+				"DeepSeek-VL 7B",
+				"DeepSeek-VL-7B",
+				"DeepSeek VL 7B",
+				"deepseek-vl-7b-base",
+				"deepseek-vl-7b-chat",
+				"deepseek-ai/deepseek-vl-7b-base",
+				"deepseek-ai/deepseek-vl-7b-chat"
+			],
+			"link": "https://arxiv.org/abs/2403.05525",
+			"history": {
+				"first_mention": "2024-03-08",
+				"access": "2024-03-08",
+				"weights": "2024-03-08"
+			},
+			"parameters": {
+				"all": 7344000000,
+				"active": 7344000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deepseek-prover-v1": {
+			"display_name": "DeepSeek-Prover-V1",
+			"names": [
+				"DeepSeek-Prover-V1",
+				"DeepSeek-Prover",
+				"DeepSeek Prover V1",
+				"deepseek-ai/DeepSeek-Prover-V1"
+			],
+			"link": "https://arxiv.org/abs/2405.14333",
+			"history": {
+				"first_mention": "2024-05-23",
+				"access": "2024-08-16",
+				"weights": "2024-08-16"
+			},
+			"parameters": {
+				"all": 6910000000,
+				"active": 6910000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deepseek-prover-v1-5": {
+			"display_name": "DeepSeek-Prover-V1.5",
+			"names": [
+				"DeepSeek-Prover-V1.5",
+				"DeepSeek Prover V1.5",
+				"DeepSeek-Prover-V1.5-RL",
+				"DeepSeek-Prover-V1.5-SFT",
+				"DeepSeek-Prover-V1.5-Base",
+				"deepseek-ai/DeepSeek-Prover-V1.5-Base",
+				"deepseek-ai/DeepSeek-Prover-V1.5-SFT",
+				"deepseek-ai/DeepSeek-Prover-V1.5-RL"
+			],
+			"link": "https://arxiv.org/abs/2408.08152",
+			"history": {
+				"first_mention": "2024-08-15",
+				"access": "2024-08-15",
+				"weights": "2024-08-15"
+			},
+			"parameters": {
+				"all": 6910000000,
+				"active": 6910000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deepseek-prover-v2-7b": {
+			"display_name": "DeepSeek-Prover-V2-7B",
+			"names": [
+				"DeepSeek-Prover-V2-7B",
+				"DeepSeek Prover V2 7B",
+				"deepseek-ai/DeepSeek-Prover-V2-7B"
+			],
+			"link": "https://arxiv.org/abs/2504.21801",
+			"history": {
+				"first_mention": "2025-04-30",
+				"access": "2025-04-30",
+				"weights": "2025-04-30"
+			},
+			"parameters": {
+				"all": 6910000000,
+				"active": 6910000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

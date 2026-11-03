@@ -1,0 +1,31 @@
+{
+	"display_name": "DeepSeek Coder 5.7B MQA",
+	"versions": {
+		"deepseek-coder-5-7b-mqa": {
+			"display_name": "DeepSeek Coder 5.7B MQA",
+			"names": [
+				"DeepSeek Coder 5.7B MQA",
+				"DeepSeek-Coder-5.7B-MQA",
+				"deepseek-coder-5.7bmqa-base",
+				"deepseek-ai/deepseek-coder-5.7bmqa-base"
+			],
+			"link": "https://github.com/deepseek-ai/DeepSeek-Coder",
+			"history": {
+				"first_mention": "2023-11-02",
+				"access": "2023-11-02",
+				"weights": "2023-11-02"
+			},
+			"parameters": {
+				"all": 5700000000,
+				"active": 5700000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

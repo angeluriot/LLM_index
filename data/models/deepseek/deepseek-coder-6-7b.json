@@ -1,0 +1,35 @@
+{
+	"display_name": "DeepSeek Coder 6.7B",
+	"versions": {
+		"deepseek-coder-6-7b": {
+			"display_name": "DeepSeek Coder 6.7B",
+			"names": [
+				"DeepSeek Coder 6.7B",
+				"DeepSeek-Coder-6.7B",
+				"DeepSeek Coder 6.7B Instruct",
+				"deepseek-coder-6.7b",
+				"deepseek-coder-6.7b-base",
+				"deepseek-coder-6.7b-instruct",
+				"deepseek-ai/deepseek-coder-6.7b-base",
+				"deepseek-ai/deepseek-coder-6.7b-instruct"
+			],
+			"link": "https://github.com/deepseek-ai/DeepSeek-Coder",
+			"history": {
+				"first_mention": "2023-11-02",
+				"access": "2023-11-02",
+				"weights": "2023-11-02"
+			},
+			"parameters": {
+				"all": 6740512768,
+				"active": 6740512768
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

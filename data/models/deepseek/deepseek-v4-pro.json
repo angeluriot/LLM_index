@@ -1,0 +1,76 @@
+{
+	"display_name": "DeepSeek-V4-Pro",
+	"versions": {
+		"deepseek-v4-pro-apr-2026": {
+			"display_name": "DeepSeek-V4-Pro (Apr 2026)",
+			"names": [
+				"DeepSeek-V4-Pro (Apr 2026)",
+				"DeepSeek-V4-Pro",
+				"DeepSeek V4 Pro",
+				"DeepSeek-V4-Pro-Preview",
+				"DeepSeek-V4-Pro Preview",
+				"DeepSeek-V4-Pro-Max",
+				"DeepSeek V4 Pro 0424",
+				"DeepSeek V4 Pro 0424 (Max)",
+				"DeepSeek V4 Pro 0424 (High)",
+				"DeepSeek V4 Pro 0424 (Non-reasoning)",
+				"DeepSeek-V4-Pro-Base",
+				"deepseek-ai/DeepSeek-V4-Pro",
+				"deepseek-ai/DeepSeek-V4-Pro-Base"
+			],
+			"link": "https://api-docs.deepseek.com/news/news260424",
+			"history": {
+				"first_mention": "2026-04-24",
+				"access": "2026-04-24",
+				"weights": "2026-04-24"
+			},
+			"parameters": {
+				"all": 1600000000000,
+				"active": 49000000000
+			},
+			"price": {
+				"input": 1.74,
+				"output": 3.48
+			},
+			"efforts": [
+				"None",
+				"High",
+				"Max"
+			]
+		},
+		"deepseek-v4-pro-aug-2026": {
+			"display_name": "DeepSeek-V4-Pro (Aug 2026)",
+			"names": [
+				"DeepSeek-V4-Pro (Aug 2026)",
+				"DeepSeek-V4-Pro-0813",
+				"DeepSeek V4 Pro 0813",
+				"DeepSeek-V4-Pro GA",
+				"DeepSeek V4 Pro 0813 (Max)",
+				"DeepSeek V4 Pro 0813 (max)",
+				"DeepSeek V4 Pro 0813 (Non-reasoning)",
+				"DeepSeek V4 Pro 0813 (non-reasoning)",
+				"deepseek-ai/DeepSeek-V4-Pro-0813"
+			],
+			"link": "https://api-docs.deepseek.com/news/news260813",
+			"history": {
+				"first_mention": "2026-08-13",
+				"access": "2026-08-13",
+				"weights": "2026-08-13"
+			},
+			"parameters": {
+				"all": 1600000000000,
+				"active": 49000000000
+			},
+			"price": {
+				"input": 1.32,
+				"output": 3.96
+			},
+			"efforts": [
+				"None",
+				"Low",
+				"High",
+				"Max"
+			]
+		}
+	}
+}

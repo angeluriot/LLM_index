@@ -1,0 +1,31 @@
+{
+	"display_name": "DeepSeek-VL2",
+	"versions": {
+		"deepseek-vl2": {
+			"display_name": "DeepSeek-VL2",
+			"names": [
+				"DeepSeek-VL2",
+				"DeepSeek VL2",
+				"deepseek-vl2",
+				"deepseek-ai/deepseek-vl2"
+			],
+			"link": "https://arxiv.org/abs/2412.10302",
+			"history": {
+				"first_mention": "2024-12-13",
+				"access": "2024-12-13",
+				"weights": "2024-12-13"
+			},
+			"parameters": {
+				"all": 27480000000,
+				"active": 4500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

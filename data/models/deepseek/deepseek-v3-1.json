@@ -1,0 +1,65 @@
+{
+	"display_name": "DeepSeek-V3.1",
+	"versions": {
+		"deepseek-v3-1": {
+			"display_name": "DeepSeek-V3.1",
+			"names": [
+				"DeepSeek-V3.1",
+				"DeepSeek V3.1",
+				"DeepSeek V3.1 (Reasoning)",
+				"DeepSeek V3.1 (Non-reasoning)",
+				"DeepSeek-V3.1-Think",
+				"DeepSeek-V3.1_thinking",
+				"DeepSeek-V3.1-Base",
+				"deepseek-ai/DeepSeek-V3.1",
+				"deepseek-ai/DeepSeek-V3.1-Base"
+			],
+			"link": "https://api-docs.deepseek.com/news/news250821",
+			"history": {
+				"first_mention": "2025-08-19",
+				"access": "2025-08-19",
+				"weights": "2025-08-21"
+			},
+			"parameters": {
+				"all": 671000000000,
+				"active": 37000000000
+			},
+			"price": {
+				"input": 0.56,
+				"output": 1.68
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"deepseek-v3-1-terminus": {
+			"display_name": "DeepSeek-V3.1-Terminus",
+			"names": [
+				"DeepSeek-V3.1-Terminus",
+				"DeepSeek V3.1 Terminus",
+				"DeepSeek V3.1 Terminus (Reasoning)",
+				"DeepSeek V3.1 Terminus (Non-reasoning)",
+				"deepseek-ai/DeepSeek-V3.1-Terminus"
+			],
+			"link": "https://api-docs.deepseek.com/news/news250922",
+			"history": {
+				"first_mention": "2025-09-22",
+				"access": "2025-09-22",
+				"weights": "2025-09-22"
+			},
+			"parameters": {
+				"all": 671000000000,
+				"active": 37000000000
+			},
+			"price": {
+				"input": 0.56,
+				"output": 1.68
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"display_name": "DeepSeek-V4.1-Flash",
+	"versions": {
+		"deepseek-v4-1-flash-sep-2026": {
+			"display_name": "DeepSeek-V4.1-Flash (Sep 2026)",
+			"names": [
+				"DeepSeek-V4.1-Flash (Sep 2026)",
+				"DeepSeek-V4.1-Flash",
+				"DeepSeek V4.1 Flash",
+				"DeepSeek V4.1 Flash (Max)",
+				"DeepSeek V4.1 Flash (Non-reasoning)",
+				"deepseek-v4.1-flash-20260910",
+				"deepseek-ai/DeepSeek-V4.1-Flash"
+			],
+			"link": "https://api-docs.deepseek.com/news/news260910",
+			"history": {
+				"first_mention": "2026-09-10",
+				"access": "2026-09-10",
+				"weights": "2026-09-10"
+			},
+			"parameters": {
+				"all": 552000000000,
+				"active": 16000000000
+			},
+			"price": {
+				"input": 0.3,
+				"output": 1.2
+			},
+			"efforts": [
+				"None",
+				"Low",
+				"High",
+				"Max"
+			]
+		},
+		"deepseek-v4-1-flash-oct-2026": {
+			"display_name": "DeepSeek-V4.1-Flash (Oct 2026)",
+			"names": [
+				"DeepSeek-V4.1-Flash (Oct 2026)",
+				"DeepSeek-V4.1-Flash-1017",
+				"DeepSeek V4.1 Flash 1017",
+				"DeepSeek V4.1 Flash 1017 (Max)",
+				"DeepSeek V4.1 Flash 1017 (max)",
+				"DeepSeek V4.1 Flash 1017 (High)",
+				"DeepSeek V4.1 Flash 1017 (high)",
+				"DeepSeek V4.1 Flash 1017 (Non-reasoning)",
+				"DeepSeek V4.1 Flash 1017 (non-reasoning)",
+				"deepseek-ai/DeepSeek-V4.1-Flash-1017"
+			],
+			"link": "https://api-docs.deepseek.com/news/news261017",
+			"history": {
+				"first_mention": "2026-10-17",
+				"access": "2026-10-17",
+				"weights": "2026-10-17"
+			},
+			"parameters": {
+				"all": 552000000000,
+				"active": 16000000000
+			},
+			"price": {
+				"input": 0.3,
+				"output": 1.2
+			},
+			"efforts": [
+				"None",
+				"Low",
+				"High",
+				"Max"
+			]
+		}
+	}
+}

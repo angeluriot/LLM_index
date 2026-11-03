@@ -1,0 +1,35 @@
+{
+	"display_name": "DeepSeek Coder 1.3B",
+	"versions": {
+		"deepseek-coder-1-3b": {
+			"display_name": "DeepSeek Coder 1.3B",
+			"names": [
+				"DeepSeek Coder 1.3B",
+				"DeepSeek-Coder-1.3B",
+				"DeepSeek Coder 1.3B Instruct",
+				"deepseek-coder-1.3b",
+				"deepseek-coder-1.3b-base",
+				"deepseek-coder-1.3b-instruct",
+				"deepseek-ai/deepseek-coder-1.3b-base",
+				"deepseek-ai/deepseek-coder-1.3b-instruct"
+			],
+			"link": "https://github.com/deepseek-ai/DeepSeek-Coder",
+			"history": {
+				"first_mention": "2023-11-02",
+				"access": "2023-11-02",
+				"weights": "2023-11-02"
+			},
+			"parameters": {
+				"all": 1346471936,
+				"active": 1346471936
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

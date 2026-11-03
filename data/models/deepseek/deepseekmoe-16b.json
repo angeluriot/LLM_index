@@ -1,0 +1,35 @@
+{
+	"display_name": "DeepSeekMoE 16B",
+	"versions": {
+		"deepseekmoe-16b": {
+			"display_name": "DeepSeekMoE 16B",
+			"names": [
+				"DeepSeekMoE 16B",
+				"DeepSeek-MoE-16B",
+				"DeepSeekMoE-16B",
+				"DeepSeekMoE 16B Chat",
+				"deepseek-moe-16b-base",
+				"deepseek-moe-16b-chat",
+				"deepseek-ai/deepseek-moe-16b-base",
+				"deepseek-ai/deepseek-moe-16b-chat"
+			],
+			"link": "https://arxiv.org/abs/2401.06066",
+			"history": {
+				"first_mention": "2024-01-11",
+				"access": "2024-01-11",
+				"weights": "2024-01-11"
+			},
+			"parameters": {
+				"all": 16376000000,
+				"active": 2800000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}
