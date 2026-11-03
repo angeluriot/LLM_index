@@ -1,0 +1,114 @@
+[
+	{
+		"name": "Pythia",
+		"other_names": [],
+		"link": "https://github.com/EleutherAI/pythia",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "Pythia 70M",
+				"other_names": [
+					"pythia-70m"
+				],
+				"access": {
+					"announcement": "2023-02-28",
+					"api": "2023-02-28",
+					"weights": "2023-02-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Pythia 160M",
+				"other_names": [
+					"pythia-160m"
+				],
+				"access": {
+					"announcement": "2023-02-28",
+					"api": "2023-02-28",
+					"weights": "2023-02-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Pythia 410M",
+				"other_names": [
+					"pythia-410m"
+				],
+				"access": {
+					"announcement": "2023-02-28",
+					"api": "2023-02-28",
+					"weights": "2023-02-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Pythia 1B",
+				"other_names": [
+					"pythia-1b"
+				],
+				"access": {
+					"announcement": "2023-02-28",
+					"api": "2023-02-28",
+					"weights": "2023-02-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Pythia 1.4B",
+				"other_names": [
+					"pythia-1.4b"
+				],
+				"access": {
+					"announcement": "2023-02-28",
+					"api": "2023-02-28",
+					"weights": "2023-02-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Pythia 2.8B",
+				"other_names": [
+					"pythia-2.8b"
+				],
+				"access": {
+					"announcement": "2023-02-28",
+					"api": "2023-02-28",
+					"weights": "2023-02-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Pythia 6.9B",
+				"other_names": [
+					"pythia-6.9b"
+				],
+				"access": {
+					"announcement": "2023-02-28",
+					"api": "2023-02-28",
+					"weights": "2023-02-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Pythia 12B",
+				"other_names": [
+					"pythia-12b"
+				],
+				"access": {
+					"announcement": "2023-02-28",
+					"api": "2023-02-28",
+					"weights": "2023-02-28",
+					"portable": true
+				},
+				"price": null
+			}
+		]
+	}
+]

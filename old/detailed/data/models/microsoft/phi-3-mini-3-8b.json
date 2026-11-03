@@ -1,0 +1,26 @@
+{
+	"display_name": "phi-3-mini 3.8B",
+	"names": [
+		"phi-3-mini 3.8B",
+		"Phi-3-mini-4k-instruct",
+		"Phi-3-mini-128k-instruct",
+		"Phi-3 Mini Instruct 3.8B"
+	],
+	"link": "https://arxiv.org/abs/2404.14219",
+	"history": {
+		"first_mention": "2024-04-23",
+		"access": "2024-04-23",
+		"weights": "2024-04-23"
+	},
+	"parameters": {
+		"all": 3800000000,
+		"active": 3800000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

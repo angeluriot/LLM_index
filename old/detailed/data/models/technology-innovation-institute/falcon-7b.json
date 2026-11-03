@@ -1,0 +1,24 @@
+{
+	"display_name": "Falcon-7B",
+	"names": [
+		"Falcon-7B",
+		"falcon-7b"
+	],
+	"link": "https://huggingface.co/tiiuae/falcon-7b",
+	"history": {
+		"first_mention": "2023-04-24",
+		"access": "2023-04-24",
+		"weights": "2023-04-24"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

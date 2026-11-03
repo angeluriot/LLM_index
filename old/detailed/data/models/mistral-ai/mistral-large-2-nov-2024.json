@@ -1,0 +1,27 @@
+{
+	"display_name": "Mistral Large 2 (Nov 2024)",
+	"names": [
+		"Mistral Large 2 (Nov 2024)",
+		"Mistral Large 2411",
+		"mistral-large-2411",
+		"Mistral-Large-Instruct-2411",
+		"Mistral Large 2 (Nov '24)"
+	],
+	"link": "https://mistral.ai/news/mistral-large-2407/",
+	"history": {
+		"first_mention": "2024-11-15",
+		"access": "2024-11-15",
+		"weights": "2024-11-15"
+	},
+	"parameters": {
+		"all": 123000000000,
+		"active": 123000000000
+	},
+	"price": {
+		"input": 2.0,
+		"output": 6.0
+	},
+	"efforts": [
+		""
+	]
+}

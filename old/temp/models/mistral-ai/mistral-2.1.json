@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Mistral Large 2.1",
+		"other_names": [
+			"Mistral Large 24.11",
+			"Mistral-Large-Instruct-2411",
+			"mistral-large-2411"
+		],
+		"link": "https://docs.mistral.ai/models/mistral-large-2-1-24-11",
+		"price": {
+			"input": 200,
+			"output": 600
+		},
+		"access": {
+			"announcement": "2024-11-18",
+			"api": "2024-11-18",
+			"weights": "2024-11-18",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

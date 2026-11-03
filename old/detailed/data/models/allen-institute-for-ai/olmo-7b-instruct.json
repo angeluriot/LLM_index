@@ -1,0 +1,24 @@
+{
+	"display_name": "OLMo 7B Instruct",
+	"names": [
+		"OLMo 7B Instruct",
+		"OLMo-7B-Instruct"
+	],
+	"link": "https://arxiv.org/abs/2402.00838",
+	"history": {
+		"first_mention": "2024-02-01",
+		"access": "2024-02-01",
+		"weights": "2024-02-01"
+	},
+	"parameters": {
+		"all": 6900000000,
+		"active": 6900000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

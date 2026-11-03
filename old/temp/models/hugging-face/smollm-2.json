@@ -1,0 +1,47 @@
+[
+	{
+		"name": "SmolLM2-135M",
+		"other_names": [
+			"SmolLM2-135M-Instruct"
+		],
+		"link": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2024-11-01",
+			"api": "2024-11-01",
+			"weights": "2024-11-01",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "SmolLM2-360M",
+		"other_names": [
+			"SmolLM2-360M-Instruct"
+		],
+		"link": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2024-11-01",
+			"api": "2024-11-01",
+			"weights": "2024-11-01",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "SmolLM2-1.7B",
+		"other_names": [
+			"SmolLM2-1.7B-Instruct"
+		],
+		"link": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2024-11-01",
+			"api": "2024-11-01",
+			"weights": "2024-11-01",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

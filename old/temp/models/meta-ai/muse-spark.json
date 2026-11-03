@@ -1,0 +1,15 @@
+[
+	{
+		"name": "Muse Spark",
+		"other_names": [],
+		"link": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+		"price": null,
+		"access": {
+			"announcement": "2026-04-08",
+			"api": "2026-04-08",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

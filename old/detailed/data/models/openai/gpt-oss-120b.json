@@ -1,0 +1,26 @@
+{
+	"display_name": "gpt-oss-120b",
+	"names": [
+		"gpt-oss-120b"
+	],
+	"link": "https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf",
+	"history": {
+		"first_mention": "2025-08-05",
+		"access": "2025-08-05",
+		"weights": "2025-08-05"
+	},
+	"parameters": {
+		"all": 116830000000,
+		"active": 5100000000
+	},
+	"price": {
+		"input": 0.1,
+		"output": 0.55
+	},
+	"efforts": [
+		"",
+		"Low",
+		"Medium",
+		"High"
+	]
+}

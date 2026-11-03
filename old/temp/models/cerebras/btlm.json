@@ -1,0 +1,17 @@
+[
+	{
+		"name": "BTLM-3B-8K",
+		"other_names": [
+			"btlm-3b-8k-base"
+		],
+		"link": "https://www.cerebras.ai/blog/btlm-3b-8k-7b-performance-in-a-3-billion-parameter-model",
+		"price": null,
+		"access": {
+			"announcement": "2023-07-24",
+			"api": "2023-07-24",
+			"weights": "2023-07-24",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

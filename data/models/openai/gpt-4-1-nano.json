@@ -1,0 +1,31 @@
+{
+	"display_name": "GPT-4.1 nano",
+	"versions": {
+		"2025-04-14": {
+			"display_name": "GPT-4.1 nano",
+			"names": [
+				"GPT-4.1 nano",
+				"GPT-4.1 Nano",
+				"gpt-4.1-nano",
+				"gpt-4.1-nano-2025-04-14"
+			],
+			"link": "https://openai.com/index/gpt-4-1/",
+			"history": {
+				"first_mention": "2025-04-14",
+				"access": "2025-04-14",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.4
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

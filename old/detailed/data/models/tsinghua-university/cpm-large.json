@@ -1,0 +1,23 @@
+{
+	"display_name": "CPM-Large",
+	"names": [
+		"CPM-Large"
+	],
+	"link": "https://arxiv.org/abs/2012.00413",
+	"history": {
+		"first_mention": "2020-12-01",
+		"access": "2020-12-01",
+		"weights": "2020-12-01"
+	},
+	"parameters": {
+		"all": 2600000000,
+		"active": 2600000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "Sonar Pro",
+	"names": [
+		"Sonar Pro"
+	],
+	"link": "https://www.perplexity.ai/hub/blog/introducing-the-sonar-pro-api",
+	"history": {
+		"first_mention": "2025-01-21",
+		"access": "2025-01-21",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 3.0,
+		"output": 15.0
+	},
+	"efforts": [
+		""
+	]
+}

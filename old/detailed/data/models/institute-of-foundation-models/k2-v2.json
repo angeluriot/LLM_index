@@ -1,0 +1,26 @@
+{
+	"display_name": "K2-V2",
+	"names": [
+		"K2-V2",
+		"K2-V2-Instruct"
+	],
+	"link": "https://huggingface.co/LLM360/K2-V2-Instruct",
+	"history": {
+		"first_mention": "2025-12-05",
+		"access": "2025-12-05",
+		"weights": "2025-12-05"
+	},
+	"parameters": {
+		"all": 70000000000,
+		"active": 70000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"Low",
+		"Medium",
+		"High"
+	]
+}

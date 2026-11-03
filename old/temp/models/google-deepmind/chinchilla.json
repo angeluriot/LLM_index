@@ -1,0 +1,18 @@
+[
+	{
+		"name": "Chinchilla",
+		"other_names": [
+			"Chinchilla (70B)",
+			"Chinchilla 70B"
+		],
+		"link": "https://arxiv.org/abs/2203.15556",
+		"price": null,
+		"access": {
+			"announcement": "2022-03-29",
+			"api": null,
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

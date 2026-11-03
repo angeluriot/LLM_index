@@ -1,0 +1,24 @@
+{
+	"display_name": "Qwen3.8 Max (0902)",
+	"names": [
+		"Qwen3.8 Max (0902)",
+		"qwen3.8-max-0902"
+	],
+	"link": "https://qwen.ai/blog?id=qwen3.8",
+	"history": {
+		"first_mention": "2026-09-01",
+		"access": "2026-09-01",
+		"weights": null
+	},
+	"parameters": {
+		"all": 2400000000000,
+		"active": 95000000000
+	},
+	"price": {
+		"input": 2.0,
+		"output": 6.0
+	},
+	"efforts": [
+		"Xhigh"
+	]
+}

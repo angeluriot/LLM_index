@@ -1,0 +1,129 @@
+[
+	{
+		"name": "OPT",
+		"other_names": [
+			"Open Pre-trained Transformer"
+		],
+		"link": "https://ai.meta.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "OPT-125M",
+				"other_names": [
+					"opt-125m"
+				],
+				"access": {
+					"announcement": "2022-05-03",
+					"api": "2022-05-03",
+					"weights": "2022-05-03",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "OPT-350M",
+				"other_names": [
+					"opt-350m"
+				],
+				"access": {
+					"announcement": "2022-05-03",
+					"api": "2022-05-03",
+					"weights": "2022-05-03",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "OPT-1.3B",
+				"other_names": [
+					"opt-1.3b"
+				],
+				"access": {
+					"announcement": "2022-05-03",
+					"api": "2022-05-03",
+					"weights": "2022-05-03",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "OPT-2.7B",
+				"other_names": [
+					"opt-2.7b"
+				],
+				"access": {
+					"announcement": "2022-05-03",
+					"api": "2022-05-03",
+					"weights": "2022-05-03",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "OPT-6.7B",
+				"other_names": [
+					"opt-6.7b"
+				],
+				"access": {
+					"announcement": "2022-05-03",
+					"api": "2022-05-03",
+					"weights": "2022-05-03",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "OPT-13B",
+				"other_names": [
+					"opt-13b"
+				],
+				"access": {
+					"announcement": "2022-05-03",
+					"api": "2022-05-03",
+					"weights": "2022-05-03",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "OPT-30B",
+				"other_names": [
+					"opt-30b"
+				],
+				"access": {
+					"announcement": "2022-05-03",
+					"api": "2022-05-03",
+					"weights": "2022-05-03",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "OPT-66B",
+				"other_names": [
+					"opt-66b"
+				],
+				"access": {
+					"announcement": "2022-05-03",
+					"api": "2022-06-23",
+					"weights": "2022-06-23",
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "OPT-175B",
+				"other_names": [
+					"opt-175b"
+				],
+				"access": {
+					"announcement": "2022-05-03",
+					"api": "2022-05-03",
+					"weights": "2022-05-03",
+					"portable": false
+				},
+				"price": null
+			}
+		]
+	}
+]

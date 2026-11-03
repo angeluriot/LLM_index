@@ -1,0 +1,23 @@
+{
+	"display_name": "LaMDA",
+	"names": [
+		"LaMDA"
+	],
+	"link": "https://arxiv.org/abs/2201.08239",
+	"history": {
+		"first_mention": "2022-02-10",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 137000000000,
+		"active": 137000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

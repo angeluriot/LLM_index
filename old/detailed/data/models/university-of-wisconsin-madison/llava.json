@@ -1,0 +1,23 @@
+{
+	"display_name": "LLaVA",
+	"names": [
+		"LLaVA"
+	],
+	"link": "https://arxiv.org/abs/2304.08485",
+	"history": {
+		"first_mention": "2023-04-17",
+		"access": "2023-04-17",
+		"weights": "2023-04-17"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

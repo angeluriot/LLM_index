@@ -1,0 +1,24 @@
+{
+	"display_name": "Command-R+ (Apr '24)",
+	"names": [
+		"Command-R+ (Apr '24)",
+		"c4ai-command-r-plus"
+	],
+	"link": "https://huggingface.co/CohereForAI/c4ai-command-r-plus",
+	"history": {
+		"first_mention": "2024-04-04",
+		"access": "2024-04-04",
+		"weights": "2024-04-04"
+	},
+	"parameters": {
+		"all": 104000000000,
+		"active": 104000000000
+	},
+	"price": {
+		"input": 3.0,
+		"output": 15.0
+	},
+	"efforts": [
+		""
+	]
+}

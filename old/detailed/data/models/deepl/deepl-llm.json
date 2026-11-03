@@ -1,0 +1,23 @@
+{
+	"display_name": "DeepL LLM",
+	"names": [
+		"DeepL LLM"
+	],
+	"link": "https://www.deepl.com/en/blog/next-gen-language-model",
+	"history": {
+		"first_mention": "2024-07-16",
+		"access": "2024-07-16",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

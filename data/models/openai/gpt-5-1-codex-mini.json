@@ -1,0 +1,33 @@
+{
+	"display_name": "GPT-5.1 Codex mini",
+	"versions": {
+		"2025-11-13": {
+			"display_name": "GPT-5.1 Codex mini",
+			"names": [
+				"GPT-5.1 Codex mini",
+				"GPT-5.1 Codex Mini",
+				"GPT-5.1-Codex-Mini",
+				"gpt-5.1-codex-mini"
+			],
+			"link": "https://openai.com/index/gpt-5-1-for-developers/",
+			"history": {
+				"first_mention": "2025-11-13",
+				"access": "2025-11-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.25,
+				"output": 2.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

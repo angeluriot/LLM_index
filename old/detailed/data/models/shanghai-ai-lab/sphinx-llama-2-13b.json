@@ -1,0 +1,23 @@
+{
+	"display_name": "SPHINX (Llama 2 13B)",
+	"names": [
+		"SPHINX (Llama 2 13B)"
+	],
+	"link": "https://arxiv.org/abs/2311.07575",
+	"history": {
+		"first_mention": "2023-11-13",
+		"access": "2023-11-13",
+		"weights": "2023-11-13"
+	},
+	"parameters": {
+		"all": 19900000000,
+		"active": 19900000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

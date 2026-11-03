@@ -1,0 +1,23 @@
+{
+	"display_name": "Nemotron-3-8B",
+	"names": [
+		"Nemotron-3-8B"
+	],
+	"link": "https://developer.nvidia.com/blog/nvidia-ai-foundation-models-build-custom-enterprise-chatbots-and-co-pilots-with-production-ready-llms/",
+	"history": {
+		"first_mention": "2023-11-15",
+		"access": "2023-11-15",
+		"weights": "2023-11-15"
+	},
+	"parameters": {
+		"all": 8000000000,
+		"active": 8000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

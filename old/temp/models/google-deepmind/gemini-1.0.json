@@ -1,0 +1,58 @@
+[
+	{
+		"name": "Gemini 1.0 Nano",
+		"other_names": [
+			"Gemini Nano",
+			"Nano-1",
+			"Nano-2"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/ai/google-gemini-ai/",
+		"price": null,
+		"access": {
+			"announcement": "2023-12-06",
+			"api": "2023-12-06",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemini 1.0 Pro",
+		"other_names": [
+			"Gemini Pro",
+			"gemini-pro",
+			"gemini-1.0-pro",
+			"gemini-1.0-pro-001",
+			"gemini-pro-vision",
+			"Gemini 1.0 Pro Vision"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/ai/google-gemini-ai/",
+		"price": {
+			"input": 50,
+			"output": 150
+		},
+		"access": {
+			"announcement": "2023-12-06",
+			"api": "2023-12-06",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemini 1.0 Ultra",
+		"other_names": [
+			"Gemini Ultra",
+			"Gemini Advanced"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/ai/google-gemini-ai/",
+		"price": null,
+		"access": {
+			"announcement": "2023-12-06",
+			"api": "2024-02-08",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

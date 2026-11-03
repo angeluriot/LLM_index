@@ -1,0 +1,23 @@
+{
+	"display_name": "Kimi Explorer",
+	"names": [
+		"Kimi Explorer"
+	],
+	"link": "https://www.53ai.com/news/LargeLanguageModel/2024101137012.html",
+	"history": {
+		"first_mention": "2024-01-01",
+		"access": "2024-01-01",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

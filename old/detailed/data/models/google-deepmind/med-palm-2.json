@@ -1,0 +1,23 @@
+{
+	"display_name": "Med-PaLM 2",
+	"names": [
+		"Med-PaLM 2"
+	],
+	"link": "https://arxiv.org/abs/2305.09617",
+	"history": {
+		"first_mention": "2023-05-16",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 340000000000,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

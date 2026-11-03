@@ -1,0 +1,24 @@
+{
+	"display_name": "Yi-Large",
+	"names": [
+		"Yi-Large",
+		"Yi-large"
+	],
+	"link": "https://platform.01.ai/",
+	"history": {
+		"first_mention": "2024-05-13",
+		"access": "2024-05-13",
+		"weights": null
+	},
+	"parameters": {
+		"all": 100000000000,
+		"active": null
+	},
+	"price": {
+		"input": 3.0,
+		"output": 3.0
+	},
+	"efforts": [
+		""
+	]
+}

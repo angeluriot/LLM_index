@@ -1,0 +1,17 @@
+[
+	{
+		"name": "StarCoder",
+		"other_names": [
+			"StarCoderBase"
+		],
+		"link": "https://huggingface.co/bigcode/starcoder",
+		"price": null,
+		"access": {
+			"announcement": "2023-05-04",
+			"api": "2023-05-04",
+			"weights": "2023-05-04",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

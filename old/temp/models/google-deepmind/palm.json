@@ -1,0 +1,18 @@
+[
+	{
+		"name": "PaLM",
+		"other_names": [
+			"PaLM 540B",
+			"PaLM (540B)"
+		],
+		"link": "https://research.google/blog/pathways-language-model-palm-scaling-to-540-billion-parameters-for-breakthrough-performance/",
+		"price": null,
+		"access": {
+			"announcement": "2022-04-04",
+			"api": null,
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

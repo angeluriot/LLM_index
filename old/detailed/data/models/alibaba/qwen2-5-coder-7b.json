@@ -1,0 +1,24 @@
+{
+	"display_name": "Qwen2.5-Coder (7B)",
+	"names": [
+		"Qwen2.5-Coder (7B)",
+		"Qwen2.5-Coder-7B"
+	],
+	"link": "https://arxiv.org/abs/2409.12186",
+	"history": {
+		"first_mention": "2024-09-17",
+		"access": "2024-09-17",
+		"weights": "2024-09-17"
+	},
+	"parameters": {
+		"all": 7610000000,
+		"active": 7610000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

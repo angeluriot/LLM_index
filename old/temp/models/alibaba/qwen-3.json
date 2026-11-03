@@ -1,0 +1,269 @@
+[
+	{
+		"name": "Qwen3-0.6B",
+		"other_names": [],
+		"link": "https://qwenlm.github.io/blog/qwen3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-29",
+			"api": "2025-04-29",
+			"weights": "2025-04-29",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3-1.7B",
+		"other_names": [],
+		"link": "https://qwenlm.github.io/blog/qwen3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-29",
+			"api": "2025-04-29",
+			"weights": "2025-04-29",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3-4B",
+		"other_names": [],
+		"link": "https://qwenlm.github.io/blog/qwen3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-29",
+			"api": "2025-04-29",
+			"weights": "2025-04-29",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3-8B",
+		"other_names": [],
+		"link": "https://qwenlm.github.io/blog/qwen3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-29",
+			"api": "2025-04-29",
+			"weights": "2025-04-29",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3-14B",
+		"other_names": [],
+		"link": "https://qwenlm.github.io/blog/qwen3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-29",
+			"api": "2025-04-29",
+			"weights": "2025-04-29",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3-32B",
+		"other_names": [],
+		"link": "https://qwenlm.github.io/blog/qwen3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-29",
+			"api": "2025-04-29",
+			"weights": "2025-04-29",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3-30B-A3B",
+		"other_names": [],
+		"link": "https://qwenlm.github.io/blog/qwen3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-29",
+			"api": "2025-04-29",
+			"weights": "2025-04-29",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3-235B-A22B",
+		"other_names": [],
+		"link": "https://qwenlm.github.io/blog/qwen3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-29",
+			"api": "2025-04-29",
+			"weights": "2025-04-29",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3-235B-A22B-Instruct-2507",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507",
+		"price": null,
+		"access": {
+			"announcement": "2025-07-21",
+			"api": "2025-07-21",
+			"weights": "2025-07-21",
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen3-235B-A22B-Thinking-2507",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507",
+		"price": null,
+		"access": {
+			"announcement": "2025-07-25",
+			"api": "2025-07-25",
+			"weights": "2025-07-25",
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen3-30B-A3B-Instruct-2507",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507",
+		"price": null,
+		"access": {
+			"announcement": "2025-07-29",
+			"api": "2025-07-29",
+			"weights": "2025-07-29",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen3-30B-A3B-Thinking-2507",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3-30B-A3B-Thinking-2507",
+		"price": null,
+		"access": {
+			"announcement": "2025-07-30",
+			"api": "2025-07-30",
+			"weights": "2025-07-30",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen3-4B-Instruct-2507",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+		"price": null,
+		"access": {
+			"announcement": "2025-08-06",
+			"api": "2025-08-06",
+			"weights": "2025-08-06",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen3-4B-Thinking-2507",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507",
+		"price": null,
+		"access": {
+			"announcement": "2025-08-06",
+			"api": "2025-08-06",
+			"weights": "2025-08-06",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen3-Next-80B-A3B-Instruct",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2025-09-11",
+			"api": "2025-09-11",
+			"weights": "2025-09-11",
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen3-Next-80B-A3B-Thinking",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking",
+		"price": null,
+		"access": {
+			"announcement": "2025-09-11",
+			"api": "2025-09-11",
+			"weights": "2025-09-11",
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen3-Max",
+		"other_names": [
+			"qwen3-max"
+		],
+		"link": "https://qwen.ai/blog?id=qwen3-max",
+		"efforts": ["", "Reasoning"],
+		"versions": [
+			{
+				"name": "Qwen3-Max-Preview",
+				"other_names": [
+					"qwen3-max-preview"
+				],
+				"access": {
+					"announcement": "2025-09-05",
+					"api": "2025-09-05",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 120,
+					"output": 600
+				}
+			},
+			{
+				"name": "Qwen3-Max (Sep 2025)",
+				"other_names": [
+					"qwen3-max-2025-09-23"
+				],
+				"access": {
+					"announcement": "2025-09-24",
+					"api": "2025-09-24",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 120,
+					"output": 600
+				}
+			},
+			{
+				"name": "Qwen3-Max (Jan 2026)",
+				"other_names": [
+					"Qwen3-Max-Thinking",
+					"qwen3-max-2026-01-23"
+				],
+				"access": {
+					"announcement": "2026-01-23",
+					"api": "2026-01-23",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 120,
+					"output": 600
+				}
+			}
+		]
+	}
+]

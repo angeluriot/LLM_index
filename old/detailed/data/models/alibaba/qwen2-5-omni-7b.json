@@ -1,0 +1,23 @@
+{
+	"display_name": "Qwen2.5-Omni-7B",
+	"names": [
+		"Qwen2.5-Omni-7B"
+	],
+	"link": "https://github.com/QwenLM/Qwen2.5-Omni",
+	"history": {
+		"first_mention": "2025-03-26",
+		"access": "2025-03-26",
+		"weights": "2025-03-26"
+	},
+	"parameters": {
+		"all": 10700000000,
+		"active": 10700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

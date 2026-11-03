@@ -1,0 +1,64 @@
+[
+	{
+		"name": "Mistral Medium 1",
+		"other_names": [
+			"Mistral Medium",
+			"Mistral Medium 1.0",
+			"mistral-medium-2312"
+		],
+		"link": "https://mistral.ai/news/la-plateforme/",
+		"price": {
+			"input": 270,
+			"output": 810
+		},
+		"access": {
+			"announcement": "2023-12-11",
+			"api": "2023-12-11",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Mistral Large 1",
+		"other_names": [
+			"Mistral Large",
+			"Mistral Large 1.0",
+			"Mistral Large 24.02",
+			"mistral-large-2402"
+		],
+		"link": "https://mistral.ai/news/mistral-large/",
+		"price": {
+			"input": 800,
+			"output": 2400
+		},
+		"access": {
+			"announcement": "2024-02-26",
+			"api": "2024-02-26",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Mistral Small 1",
+		"other_names": [
+			"Mistral Small",
+			"Mistral Small 1.0",
+			"Mistral Small 24.02",
+			"mistral-small-2402"
+		],
+		"link": "https://mistral.ai/news/mistral-large/",
+		"price": {
+			"input": 200,
+			"output": 600
+		},
+		"access": {
+			"announcement": "2024-02-26",
+			"api": "2024-02-26",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

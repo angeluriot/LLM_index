@@ -1,0 +1,56 @@
+[
+	{
+		"name": "Claude Opus 5.5",
+		"other_names": [
+			"claude-opus-5-5"
+		],
+		"link": "https://www.anthropic.com/claude-opus-5-5",
+		"price": {
+			"input": 400,
+			"output": 2000
+		},
+		"access": {
+			"announcement": "2026-09-22",
+			"api": "2026-09-22",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High", "Xhigh", "Max"]
+	},
+	{
+		"name": "Claude Sonnet 5.5",
+		"other_names": [
+			"claude-sonnet-5-5"
+		],
+		"link": "https://www.anthropic.com/claude-sonnet-5-5",
+		"price": {
+			"input": 200,
+			"output": 1000
+		},
+		"access": {
+			"announcement": "2026-09-22",
+			"api": "2026-09-28",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High", "Xhigh", "Max"]
+	},
+	{
+		"name": "Claude Haiku 5.5",
+		"other_names": [
+			"claude-haiku-5-5"
+		],
+		"link": "https://www.anthropic.com/claude-haiku-5-5",
+		"price": {
+			"input": 10,
+			"output": 50
+		},
+		"access": {
+			"announcement": "2026-09-22",
+			"api": "2026-10-07",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh", "Max"]
+	}
+]

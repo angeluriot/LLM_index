@@ -1,0 +1,27 @@
+{
+	"display_name": "Claude Sonnet 4",
+	"names": [
+		"Claude Sonnet 4",
+		"claude-sonnet-4-20250514",
+		"claude-strudel-v8-p",
+		"Claude 4 Sonnet"
+	],
+	"link": "https://www.anthropic.com/claude/sonnet",
+	"history": {
+		"first_mention": "2025-05-22",
+		"access": "2025-05-22",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 3.0,
+		"output": 15.0
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

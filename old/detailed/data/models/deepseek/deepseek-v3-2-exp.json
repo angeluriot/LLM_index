@@ -1,0 +1,24 @@
+{
+	"display_name": "DeepSeek-V3.2-Exp",
+	"names": [
+		"DeepSeek-V3.2-Exp"
+	],
+	"link": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf",
+	"history": {
+		"first_mention": "2025-09-29",
+		"access": "2025-09-29",
+		"weights": "2025-09-29"
+	},
+	"parameters": {
+		"all": 671000000000,
+		"active": 37000000000
+	},
+	"price": {
+		"input": 0.28,
+		"output": 0.42
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

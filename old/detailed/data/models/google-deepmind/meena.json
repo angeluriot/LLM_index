@@ -1,0 +1,23 @@
+{
+	"display_name": "Meena",
+	"names": [
+		"Meena"
+	],
+	"link": "https://arxiv.org/abs/2001.09977",
+	"history": {
+		"first_mention": "2020-01-28",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 2600000000,
+		"active": 2600000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "Qwen-1_8B",
+	"names": [
+		"Qwen-1_8B",
+		"Qwen-1.8B"
+	],
+	"link": "https://huggingface.co/Qwen/Qwen-1_8B",
+	"history": {
+		"first_mention": "2023-11-30",
+		"access": "2023-11-30",
+		"weights": "2023-11-30"
+	},
+	"parameters": {
+		"all": 1836828672,
+		"active": 1836828672
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

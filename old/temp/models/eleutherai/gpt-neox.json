@@ -1,0 +1,17 @@
+[
+	{
+		"name": "GPT-NeoX-20B",
+		"other_names": [
+			"gpt-neox-20b"
+		],
+		"link": "https://huggingface.co/EleutherAI/gpt-neox-20b",
+		"price": null,
+		"access": {
+			"announcement": "2022-02-02",
+			"api": "2022-02-09",
+			"weights": "2022-02-09",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

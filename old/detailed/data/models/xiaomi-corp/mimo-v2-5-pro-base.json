@@ -1,0 +1,23 @@
+{
+	"display_name": "MiMo-V2.5-Pro-Base",
+	"names": [
+		"MiMo-V2.5-Pro-Base"
+	],
+	"link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+	"history": {
+		"first_mention": "2026-04-22",
+		"access": "2026-04-23",
+		"weights": "2026-04-23"
+	},
+	"parameters": {
+		"all": 1020000000000,
+		"active": 42000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

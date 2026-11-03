@@ -1,0 +1,47 @@
+[
+	{
+		"name": "QwQ-32B",
+		"other_names": [
+			"QwQ"
+		],
+		"link": "https://qwenlm.github.io/blog/qwq-32b/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "QwQ-32B-Preview",
+				"other_names": [],
+				"access": {
+					"announcement": "2024-11-28",
+					"api": "2024-11-28",
+					"weights": "2024-11-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "QwQ-32B",
+				"other_names": [],
+				"access": {
+					"announcement": "2025-03-06",
+					"api": "2025-03-06",
+					"weights": "2025-03-06",
+					"portable": true
+				},
+				"price": null
+			}
+		]
+	},
+	{
+		"name": "QwQ-Max-Preview",
+		"other_names": [],
+		"link": "https://qwenlm.github.io/blog/qwq-max-preview/",
+		"price": null,
+		"access": {
+			"announcement": "2025-02-25",
+			"api": "2025-02-25",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

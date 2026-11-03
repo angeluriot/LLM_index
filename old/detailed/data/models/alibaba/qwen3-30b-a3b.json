@@ -1,0 +1,24 @@
+{
+	"display_name": "Qwen3-30B-A3B",
+	"names": [
+		"Qwen3-30B-A3B"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen3/",
+	"history": {
+		"first_mention": "2025-04-28",
+		"access": "2025-04-28",
+		"weights": "2025-04-28"
+	},
+	"parameters": {
+		"all": 30000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": 0.125,
+		"output": 0.51
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

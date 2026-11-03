@@ -1,0 +1,94 @@
+[
+	{
+		"name": "Qwen3-Coder-480B-A35B",
+		"other_names": [
+			"Qwen3-Coder-480B-A35B-Instruct"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2025-07-22",
+			"api": "2025-07-22",
+			"weights": "2025-07-22",
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen3-Coder-Plus",
+		"other_names": [
+			"qwen3-coder-plus"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen3-coder/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "Qwen3-Coder-Plus (Jul 2025)",
+				"other_names": [
+					"qwen3-coder-plus-2025-07-22"
+				],
+				"access": {
+					"announcement": "2025-07-22",
+					"api": "2025-07-22",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 100,
+					"output": 500
+				}
+			},
+			{
+				"name": "Qwen3-Coder-Plus (Sep 2025)",
+				"other_names": [
+					"qwen3-coder-plus-2025-09-23"
+				],
+				"access": {
+					"announcement": "2025-09-23",
+					"api": "2025-09-23",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 100,
+					"output": 500
+				}
+			}
+		]
+	},
+	{
+		"name": "Qwen3-Coder-30B-A3B",
+		"other_names": [
+			"Qwen3-Coder-30B-A3B-Instruct",
+			"Qwen3-Coder-Flash",
+			"qwen3-coder-flash"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+		"price": {
+			"input": 30,
+			"output": 150
+		},
+		"access": {
+			"announcement": "2025-07-31",
+			"api": "2025-07-31",
+			"weights": "2025-07-31",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen3-Coder-Next",
+		"other_names": [
+			"qwen3-coder-next"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen3-Coder-Next",
+		"price": null,
+		"access": {
+			"announcement": "2026-02-03",
+			"api": "2026-02-03",
+			"weights": "2026-02-03",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

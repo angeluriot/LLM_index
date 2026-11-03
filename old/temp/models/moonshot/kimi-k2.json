@@ -1,0 +1,65 @@
+[
+	{
+		"name": "Kimi K2",
+		"other_names": [
+			"kimi-k2"
+		],
+		"link": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "Kimi K2 (0711)",
+				"other_names": [
+					"Kimi-K2-Instruct",
+					"kimi-k2-0711-preview"
+				],
+				"access": {
+					"announcement": "2025-07-11",
+					"api": "2025-07-11",
+					"weights": "2025-07-11",
+					"portable": false
+				},
+				"price": {
+					"input": 60,
+					"output": 250
+				}
+			},
+			{
+				"name": "Kimi K2 (0905)",
+				"other_names": [
+					"Kimi-K2-Instruct-0905",
+					"kimi-k2-0905-preview"
+				],
+				"access": {
+					"announcement": "2025-09-05",
+					"api": "2025-09-05",
+					"weights": "2025-09-05",
+					"portable": false
+				},
+				"price": {
+					"input": 60,
+					"output": 250
+				}
+			}
+		]
+	},
+	{
+		"name": "Kimi K2 Thinking",
+		"other_names": [
+			"Kimi-K2-Thinking",
+			"kimi-k2-thinking"
+		],
+		"link": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+		"price": {
+			"input": 60,
+			"output": 250
+		},
+		"access": {
+			"announcement": "2025-11-06",
+			"api": "2025-11-06",
+			"weights": "2025-11-06",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"display_name": "Mercury",
+	"names": [
+		"Mercury"
+	],
+	"link": "https://machine-learning-made-simple.medium.com/is-the-mercury-llm-the-first-of-a-new-generation-of-llms-b64de1d36029",
+	"history": {
+		"first_mention": "2025-02-27",
+		"access": "2025-02-27",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.25,
+		"output": 1.0
+	},
+	"efforts": [
+		""
+	]
+}

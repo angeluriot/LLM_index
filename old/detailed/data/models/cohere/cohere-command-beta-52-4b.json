@@ -1,0 +1,25 @@
+{
+	"display_name": "Cohere Command beta (52.4B)",
+	"names": [
+		"Cohere Command beta (52.4B)",
+		"command-xlarge-beta",
+		"command-xlarge-20221108"
+	],
+	"link": "https://docs.cohere.com/changelog/improvements-to-current-models-new-beta-model-command",
+	"history": {
+		"first_mention": "2022-11-08",
+		"access": "2022-11-08",
+		"weights": null
+	},
+	"parameters": {
+		"all": 52400000000,
+		"active": 52400000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "Mistral Medium 3.1",
+	"names": [
+		"Mistral Medium 3.1"
+	],
+	"link": "https://docs.mistral.ai/getting-started/changelog",
+	"history": {
+		"first_mention": "2025-08-12",
+		"access": "2025-08-12",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.4,
+		"output": 2.0
+	},
+	"efforts": [
+		""
+	]
+}

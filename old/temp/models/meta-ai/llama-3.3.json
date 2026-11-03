@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Llama 3.3 70B",
+		"other_names": [
+			"Llama-3.3-70B-Instruct"
+		],
+		"link": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md",
+		"price": null,
+		"access": {
+			"announcement": "2024-12-06",
+			"api": "2024-12-06",
+			"weights": "2024-12-06",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

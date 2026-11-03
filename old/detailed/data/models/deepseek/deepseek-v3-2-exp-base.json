@@ -1,0 +1,23 @@
+{
+	"display_name": "DeepSeek-V3.2-Exp-Base",
+	"names": [
+		"DeepSeek-V3.2-Exp-Base"
+	],
+	"link": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp-Base",
+	"history": {
+		"first_mention": "2025-09-29",
+		"access": "2025-09-29",
+		"weights": "2025-09-29"
+	},
+	"parameters": {
+		"all": 671000000000,
+		"active": 37000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

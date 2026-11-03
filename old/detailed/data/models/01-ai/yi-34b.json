@@ -1,0 +1,23 @@
+{
+	"display_name": "Yi-34B",
+	"names": [
+		"Yi-34B"
+	],
+	"link": "https://arxiv.org/abs/2403.04652",
+	"history": {
+		"first_mention": "2023-11-02",
+		"access": "2023-11-02",
+		"weights": "2023-11-02"
+	},
+	"parameters": {
+		"all": 34000000000,
+		"active": 34000000000
+	},
+	"price": {
+		"input": 0.72,
+		"output": 0.72
+	},
+	"efforts": [
+		""
+	]
+}

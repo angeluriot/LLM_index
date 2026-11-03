@@ -1,0 +1,25 @@
+{
+	"display_name": "Codex",
+	"names": [
+		"Codex",
+		"code-cushman-002",
+		"code-cushman-001"
+	],
+	"link": "https://openai.com/blog/openai-codex/",
+	"history": {
+		"first_mention": "2021-07-07",
+		"access": "2021-07-07",
+		"weights": null
+	},
+	"parameters": {
+		"all": 12000000000,
+		"active": 12000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

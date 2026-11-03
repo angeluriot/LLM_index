@@ -1,0 +1,24 @@
+{
+	"display_name": "Jamba 1.7 Large",
+	"names": [
+		"Jamba 1.7 Large",
+		"AI21-Jamba-Large-1.7"
+	],
+	"link": "https://huggingface.co/ai21labs/AI21-Jamba-Large-1.7",
+	"history": {
+		"first_mention": "2025-07-07",
+		"access": "2025-07-07",
+		"weights": "2025-07-07"
+	},
+	"parameters": {
+		"all": 398000000000,
+		"active": 94000000000
+	},
+	"price": {
+		"input": 2.0,
+		"output": 8.0
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "GPT-4 Turbo Preview (January 2024)",
+	"names": [
+		"GPT-4 Turbo Preview (January 2024)",
+		"gpt-4-0125-preview"
+	],
+	"link": "https://openai.com/blog/new-models-and-developer-products-announced-at-devday",
+	"history": {
+		"first_mention": "2024-01-25",
+		"access": "2024-01-25",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 10.0,
+		"output": 30.0
+	},
+	"efforts": [
+		""
+	]
+}

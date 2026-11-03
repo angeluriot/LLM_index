@@ -1,0 +1,23 @@
+{
+	"display_name": "Mistral OCR",
+	"names": [
+		"Mistral OCR"
+	],
+	"link": "https://mistral.ai/news/mistral-ocr",
+	"history": {
+		"first_mention": "2025-03-06",
+		"access": "2025-03-06",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

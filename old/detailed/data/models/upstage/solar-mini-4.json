@@ -1,0 +1,23 @@
+{
+	"display_name": "Solar Mini 4",
+	"names": [
+		"Solar Mini 4"
+	],
+	"link": "https://www.upstage.ai/blog/en/solar-mini-4",
+	"history": {
+		"first_mention": "2026-09-22",
+		"access": "2026-09-22",
+		"weights": null
+	},
+	"parameters": {
+		"all": 35000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": 0.1,
+		"output": 0.4
+	},
+	"efforts": [
+		""
+	]
+}

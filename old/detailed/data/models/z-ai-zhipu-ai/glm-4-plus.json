@@ -1,0 +1,23 @@
+{
+	"display_name": "GLM-4-Plus",
+	"names": [
+		"GLM-4-Plus"
+	],
+	"link": "https://bigmodel.cn/dev/howuse/glm-4",
+	"history": {
+		"first_mention": "2024-08-29",
+		"access": "2024-08-29",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

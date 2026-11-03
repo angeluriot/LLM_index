@@ -1,0 +1,25 @@
+{
+	"display_name": "Qwen3.8-2.4T-A95B",
+	"names": [
+		"Qwen3.8-2.4T-A95B"
+	],
+	"link": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+	"history": {
+		"first_mention": "2026-08-08",
+		"access": "2026-08-08",
+		"weights": "2026-08-08"
+	},
+	"parameters": {
+		"all": 2400000000000,
+		"active": 95000000000
+	},
+	"price": {
+		"input": 2,
+		"output": 6
+	},
+	"efforts": [
+		"Low",
+		"Medium",
+		"Xhigh"
+	]
+}

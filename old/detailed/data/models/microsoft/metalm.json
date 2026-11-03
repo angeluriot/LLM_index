@@ -1,0 +1,23 @@
+{
+	"display_name": "MetaLM",
+	"names": [
+		"MetaLM"
+	],
+	"link": "https://arxiv.org/abs/2206.06336v1",
+	"history": {
+		"first_mention": "2022-06-13",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

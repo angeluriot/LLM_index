@@ -1,0 +1,23 @@
+{
+	"display_name": "ST-MoE",
+	"names": [
+		"ST-MoE"
+	],
+	"link": "https://arxiv.org/abs/2202.08906v2",
+	"history": {
+		"first_mention": "2022-02-17",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 269000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

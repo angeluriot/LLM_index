@@ -1,0 +1,23 @@
+{
+	"display_name": "internlm-chat-20b",
+	"names": [
+		"internlm-chat-20b"
+	],
+	"link": "https://huggingface.co/internlm/internlm-20b",
+	"history": {
+		"first_mention": "2023-09-18",
+		"access": "2023-09-18",
+		"weights": "2023-09-18"
+	},
+	"parameters": {
+		"all": 20000000000,
+		"active": 20000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

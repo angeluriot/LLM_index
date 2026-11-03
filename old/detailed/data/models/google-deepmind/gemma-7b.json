@@ -1,0 +1,24 @@
+{
+	"display_name": "Gemma 7B",
+	"names": [
+		"Gemma 7B",
+		"gemma-7b"
+	],
+	"link": "https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf",
+	"history": {
+		"first_mention": "2024-02-21",
+		"access": "2024-02-21",
+		"weights": "2024-02-21"
+	},
+	"parameters": {
+		"all": 8538074112,
+		"active": 8538074112
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"display_name": "Jurassic-2 Grande",
+	"names": [
+		"Jurassic-2 Grande",
+		"j2-grande",
+		"Jurassic-2 Mid",
+		"j2-mid"
+	],
+	"link": "https://www.ai21.com/blog/introducing-j2",
+	"history": {
+		"first_mention": "2023-03-09",
+		"access": "2023-03-09",
+		"weights": null
+	},
+	"parameters": {
+		"all": 17000000000,
+		"active": 17000000000
+	},
+	"price": {
+		"input": 10.0,
+		"output": 10.0
+	},
+	"efforts": [
+		""
+	]
+}

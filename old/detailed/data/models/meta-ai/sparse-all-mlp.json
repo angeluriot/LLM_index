@@ -1,0 +1,23 @@
+{
+	"display_name": "Sparse all-MLP",
+	"names": [
+		"Sparse all-MLP"
+	],
+	"link": "https://arxiv.org/abs/2203.06850",
+	"history": {
+		"first_mention": "2022-04-14",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 9410000000,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

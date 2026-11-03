@@ -1,0 +1,23 @@
+{
+	"display_name": "StarCoder",
+	"names": [
+		"StarCoder"
+	],
+	"link": "https://arxiv.org/abs/2305.06161",
+	"history": {
+		"first_mention": "2023-05-09",
+		"access": "2023-05-09",
+		"weights": "2023-05-09"
+	},
+	"parameters": {
+		"all": 15500000000,
+		"active": 15500000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

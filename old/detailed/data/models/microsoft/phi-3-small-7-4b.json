@@ -1,0 +1,24 @@
+{
+	"display_name": "phi-3-small 7.4B",
+	"names": [
+		"phi-3-small 7.4B",
+		"Phi-3-small-8k-instruct"
+	],
+	"link": "https://arxiv.org/abs/2404.14219",
+	"history": {
+		"first_mention": "2024-04-23",
+		"access": "2024-04-23",
+		"weights": "2024-04-23"
+	},
+	"parameters": {
+		"all": 7400000000,
+		"active": 7400000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

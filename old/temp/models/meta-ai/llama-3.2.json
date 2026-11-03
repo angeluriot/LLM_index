@@ -1,0 +1,66 @@
+[
+	{
+		"name": "Llama 3.2 1B",
+		"other_names": [
+			"Llama-3.2-1B",
+			"Llama-3.2-1B-Instruct"
+		],
+		"link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-25",
+			"api": "2024-09-25",
+			"weights": "2024-09-25",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Llama 3.2 3B",
+		"other_names": [
+			"Llama-3.2-3B",
+			"Llama-3.2-3B-Instruct"
+		],
+		"link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-25",
+			"api": "2024-09-25",
+			"weights": "2024-09-25",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Llama 3.2 11B Vision",
+		"other_names": [
+			"Llama-3.2-11B-Vision",
+			"Llama-3.2-11B-Vision-Instruct"
+		],
+		"link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-25",
+			"api": "2024-09-25",
+			"weights": "2024-09-25",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Llama 3.2 90B Vision",
+		"other_names": [
+			"Llama-3.2-90B-Vision",
+			"Llama-3.2-90B-Vision-Instruct"
+		],
+		"link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-25",
+			"api": "2024-09-25",
+			"weights": "2024-09-25",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

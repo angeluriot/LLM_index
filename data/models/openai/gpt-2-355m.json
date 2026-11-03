@@ -1,0 +1,32 @@
+{
+	"display_name": "GPT-2 (355M)",
+	"versions": {
+		"2019-05-03": {
+			"display_name": "GPT-2 (355M)",
+			"names": [
+				"GPT-2 (355M)",
+				"GPT-2 355M",
+				"GPT-2 345M",
+				"GPT-2 Medium",
+				"gpt2-medium"
+			],
+			"link": "https://openai.com/index/better-language-models/",
+			"history": {
+				"first_mention": "2019-02-14",
+				"access": "2019-05-03",
+				"weights": "2019-05-03"
+			},
+			"parameters": {
+				"all": 355000000,
+				"active": 355000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

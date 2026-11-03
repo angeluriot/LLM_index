@@ -1,0 +1,24 @@
+{
+	"display_name": "Nemotron 3.5 Bolt E4B 4GB",
+	"names": [
+		"Nemotron 3.5 Bolt E4B 4GB",
+		"NVIDIA-Nemotron-3.5-Bolt-E4B-4GB"
+	],
+	"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB",
+	"history": {
+		"first_mention": "2026-10-23",
+		"access": "2026-10-23",
+		"weights": "2026-10-23"
+	},
+	"parameters": {
+		"all": 8000000000,
+		"active": 4000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

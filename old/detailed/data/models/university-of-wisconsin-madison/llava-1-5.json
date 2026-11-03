@@ -1,0 +1,23 @@
+{
+	"display_name": "LLaVA 1.5",
+	"names": [
+		"LLaVA 1.5"
+	],
+	"link": "https://arxiv.org/abs/2310.03744,",
+	"history": {
+		"first_mention": "2023-11-05",
+		"access": "2023-11-05",
+		"weights": "2023-11-05"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display_name": "OLMo 7B",
+	"names": [
+		"OLMo 7B",
+		"OLMo-7B",
+		"OLMo-7B-hf"
+	],
+	"link": "https://arxiv.org/abs/2402.00838",
+	"history": {
+		"first_mention": "2024-02-01",
+		"access": "2024-02-01",
+		"weights": "2024-02-01"
+	},
+	"parameters": {
+		"all": 6900000000,
+		"active": 6900000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "Pangu Ultra",
+	"names": [
+		"Pangu Ultra"
+	],
+	"link": "https://arxiv.org/abs/2504.07866",
+	"history": {
+		"first_mention": "2025-04-10",
+		"access": "2025-04-10",
+		"weights": null
+	},
+	"parameters": {
+		"all": 135000000000,
+		"active": 135000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

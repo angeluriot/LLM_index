@@ -1,0 +1,26 @@
+{
+	"display_name": "Qwen3.5-9B",
+	"names": [
+		"Qwen3.5-9B",
+		"Qwen3.5 9B",
+		"qwen3.5-9B"
+	],
+	"link": "https://github.com/QwenLM/Qwen3.5?tab=readme-ov-file",
+	"history": {
+		"first_mention": "2026-02-24",
+		"access": "2026-02-24",
+		"weights": "2026-02-24"
+	},
+	"parameters": {
+		"all": 9000000000,
+		"active": 9000000000
+	},
+	"price": {
+		"input": 0.1,
+		"output": 0.15
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

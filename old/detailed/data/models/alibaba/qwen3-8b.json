@@ -1,0 +1,26 @@
+{
+	"display_name": "Qwen3-8B",
+	"names": [
+		"Qwen3-8B",
+		"Qwen3 8B",
+		"qwen3-8b"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen3/",
+	"history": {
+		"first_mention": "2025-04-28",
+		"access": "2025-04-28",
+		"weights": "2025-04-28"
+	},
+	"parameters": {
+		"all": 8200000000,
+		"active": 8200000000
+	},
+	"price": {
+		"input": 0.117,
+		"output": 0.455
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "ERNIE 4.5 300B A47B",
+	"names": [
+		"ERNIE 4.5 300B A47B",
+		"ERNIE-4.5-300B-A47B-Paddle"
+	],
+	"link": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-Paddle",
+	"history": {
+		"first_mention": "2025-06-30",
+		"access": "2025-06-30",
+		"weights": "2025-06-30"
+	},
+	"parameters": {
+		"all": 300000000000,
+		"active": 47000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

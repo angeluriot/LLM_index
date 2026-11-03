@@ -1,0 +1,90 @@
+[
+	{
+		"name": "GPT-5.4",
+		"other_names": [
+			"GPT-5.4 Thinking",
+			"gpt-5.4-2026-03-05"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5-4/",
+		"price": {
+			"input": 250,
+			"output": 1500
+		},
+		"access": {
+			"announcement": "2026-03-05",
+			"api": "2026-03-05",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh"]
+	},
+	{
+		"name": "GPT-5.4 Pro",
+		"other_names": [
+			"gpt-5.4-pro-2026-03-05"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5-4/",
+		"price": {
+			"input": 3000,
+			"output": 18000
+		},
+		"access": {
+			"announcement": "2026-03-05",
+			"api": "2026-03-05",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Medium", "High", "Xhigh"]
+	},
+	{
+		"name": "GPT-5.4 mini",
+		"other_names": [
+			"GPT-5.4 Mini",
+			"gpt-5.4-mini-2026-03-17"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+		"price": {
+			"input": 75,
+			"output": 450
+		},
+		"access": {
+			"announcement": "2026-03-17",
+			"api": "2026-03-17",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh"]
+	},
+	{
+		"name": "GPT-5.4 nano",
+		"other_names": [
+			"GPT-5.4 Nano",
+			"gpt-5.4-nano-2026-03-17"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+		"price": {
+			"input": 20,
+			"output": 125
+		},
+		"access": {
+			"announcement": "2026-03-17",
+			"api": "2026-03-17",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh"]
+	},
+	{
+		"name": "GPT-5.4-Cyber",
+		"other_names": [],
+		"link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+		"price": null,
+		"access": {
+			"announcement": "2026-04-14",
+			"api": null,
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh"]
+	}
+]

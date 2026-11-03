@@ -1,0 +1,24 @@
+{
+	"display_name": "Hunyuan-Large Base",
+	"names": [
+		"Hunyuan-Large Base",
+		"Hunyuan-A52B-Pretrain"
+	],
+	"link": "https://huggingface.co/tencent/Tencent-Hunyuan-Large",
+	"history": {
+		"first_mention": "2024-11-06",
+		"access": "2024-11-06",
+		"weights": "2024-11-06"
+	},
+	"parameters": {
+		"all": 389000000000,
+		"active": 52000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "GPT-6 Astra",
+		"other_names": [],
+		"link": "https://openai.com/index/gpt-6-astra/",
+		"price": {
+			"input": 1000,
+			"output": 5000
+		},
+		"access": {
+			"announcement": "2026-09-03",
+			"api": "2026-09-03",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High", "Xhigh", "Max", "Pro"]
+	},
+	{
+		"name": "GPT-6 Sol",
+		"other_names": [],
+		"link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+		"price": {
+			"input": 200,
+			"output": 1000
+		},
+		"access": {
+			"announcement": "2026-09-22",
+			"api": "2026-09-22",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh", "Max"]
+	},
+	{
+		"name": "GPT-6 Luna",
+		"other_names": [],
+		"link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+		"price": {
+			"input": 10,
+			"output": 50
+		},
+		"access": {
+			"announcement": "2026-09-22",
+			"api": "2026-09-22",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh", "Max"]
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"display_name": "Gemini 2.0 Flash Thinking Experimental (Dec '24)",
+	"names": [
+		"Gemini 2.0 Flash Thinking Experimental (Dec '24)"
+	],
+	"link": "https://ai.google.dev/gemini-api/docs/thinking",
+	"history": {
+		"first_mention": "2024-12-19",
+		"access": "2024-12-19",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

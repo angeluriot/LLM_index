@@ -1,0 +1,24 @@
+{
+	"display_name": "Doubao-pro",
+	"names": [
+		"Doubao-pro",
+		"doubao-pro-32k"
+	],
+	"link": "https://www.volcengine.com/docs/6360/1264663",
+	"history": {
+		"first_mention": "2024-10-28",
+		"access": "2024-10-28",
+		"weights": null
+	},
+	"parameters": {
+		"all": 500000000000,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

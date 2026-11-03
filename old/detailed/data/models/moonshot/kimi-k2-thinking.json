@@ -1,0 +1,27 @@
+{
+	"display_name": "Kimi K2 Thinking",
+	"names": [
+		"Kimi K2 Thinking",
+		"Kimi K2 Thinking Turbo",
+		"Kimi-K2-Thinking",
+		"kimi-k2-thinking-turbo",
+		"kimi-k2-thinking"
+	],
+	"link": "https://moonshotai.github.io/Kimi-K2/thinking",
+	"history": {
+		"first_mention": "2025-11-06",
+		"access": "2025-11-06",
+		"weights": "2025-11-06"
+	},
+	"parameters": {
+		"all": 1000000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": 0.6,
+		"output": 2.5
+	},
+	"efforts": [
+		""
+	]
+}

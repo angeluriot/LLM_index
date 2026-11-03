@@ -1,0 +1,24 @@
+{
+	"display_name": "LFM2 8B A1B",
+	"names": [
+		"LFM2 8B A1B",
+		"LFM2-8B-A1B"
+	],
+	"link": "https://huggingface.co/LiquidAI/LFM2-8B-A1B",
+	"history": {
+		"first_mention": "2025-10-07",
+		"access": "2025-10-07",
+		"weights": "2025-10-07"
+	},
+	"parameters": {
+		"all": 8340000000,
+		"active": 1500000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

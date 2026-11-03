@@ -1,0 +1,30 @@
+{
+	"display_name": "GPT-1",
+	"versions": {
+		"2018-06-11": {
+			"display_name": "GPT-1",
+			"names": [
+				"GPT-1",
+				"GPT",
+				"openai-gpt"
+			],
+			"link": "https://openai.com/index/language-unsupervised/",
+			"history": {
+				"first_mention": "2018-06-11",
+				"access": "2018-06-11",
+				"weights": "2018-06-11"
+			},
+			"parameters": {
+				"all": 117000000,
+				"active": 117000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

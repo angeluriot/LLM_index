@@ -1,0 +1,49 @@
+[
+	{
+		"name": "GPT-5.5",
+		"other_names": [
+			"GPT-5.5 Thinking"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5-5/",
+		"price": {
+			"input": 500,
+			"output": 3000
+		},
+		"access": {
+			"announcement": "2026-04-23",
+			"api": "2026-04-23",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh"]
+	},
+	{
+		"name": "GPT-5.5 Pro",
+		"other_names": [],
+		"link": "https://openai.com/index/introducing-gpt-5-5/",
+		"price": {
+			"input": 3000,
+			"output": 18000
+		},
+		"access": {
+			"announcement": "2026-04-23",
+			"api": "2026-04-23",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["High", "Xhigh"]
+	},
+	{
+		"name": "GPT-5.5 Instant",
+		"other_names": [],
+		"link": "https://openai.com/index/gpt-5-5-instant/",
+		"price": null,
+		"access": {
+			"announcement": "2026-05-05",
+			"api": "2026-05-05",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

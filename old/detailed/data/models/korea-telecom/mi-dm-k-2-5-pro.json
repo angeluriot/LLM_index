@@ -1,0 +1,23 @@
+{
+	"display_name": "Mi:dm K 2.5 Pro",
+	"names": [
+		"Mi:dm K 2.5 Pro"
+	],
+	"link": "https://huggingface.co/K-intelligence",
+	"history": {
+		"first_mention": "2025-12-11",
+		"access": "2025-12-11",
+		"weights": null
+	},
+	"parameters": {
+		"all": 32000000000,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

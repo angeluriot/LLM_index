@@ -1,0 +1,23 @@
+{
+	"display_name": "T5-11B",
+	"names": [
+		"T5-11B"
+	],
+	"link": "https://arxiv.org/abs/1910.10683",
+	"history": {
+		"first_mention": "2019-10-23",
+		"access": "2019-10-23",
+		"weights": "2019-10-23"
+	},
+	"parameters": {
+		"all": 11000000000,
+		"active": 11000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

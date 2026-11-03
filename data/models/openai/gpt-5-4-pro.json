@@ -1,0 +1,35 @@
+{
+	"display_name": "GPT-5.4 Pro",
+	"versions": {
+		"2026-03-05": {
+			"display_name": "GPT-5.4 Pro",
+			"names": [
+				"GPT-5.4 Pro",
+				"GPT-5.4 Pro (web)",
+				"GPT-5.4 Pro (Web App)",
+				"gpt-5.4-pro",
+				"gpt-5.4-pro-2026-03-05",
+				"gpt-5.4-pro-2026-03-05-web-app"
+			],
+			"link": "https://openai.com/index/introducing-gpt-5-4/",
+			"history": {
+				"first_mention": "2026-03-05",
+				"access": "2026-03-05",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 30.0,
+				"output": 180.0
+			},
+			"efforts": [
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		}
+	}
+}

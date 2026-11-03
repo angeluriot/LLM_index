@@ -1,0 +1,24 @@
+{
+	"display_name": "Phi-4 Mini Instruct",
+	"names": [
+		"Phi-4 Mini Instruct",
+		"Phi-4-mini-instruct"
+	],
+	"link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+	"history": {
+		"first_mention": "2025-02-26",
+		"access": "2025-02-26",
+		"weights": "2025-02-26"
+	},
+	"parameters": {
+		"all": 3840000000,
+		"active": 3840000000
+	},
+	"price": {
+		"input": 0.075,
+		"output": 0.3
+	},
+	"efforts": [
+		""
+	]
+}

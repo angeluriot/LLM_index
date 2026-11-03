@@ -1,0 +1,136 @@
+[
+	{
+		"name": "GPT-5",
+		"other_names": [
+			"GPT-5 Thinking",
+			"gpt-5-thinking",
+			"gpt-5-2025-08-07"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5/",
+		"price": {
+			"input": 125,
+			"output": 1000
+		},
+		"access": {
+			"announcement": "2025-08-07",
+			"api": "2025-08-07",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Minimal", "Low", "Medium", "High"]
+	},
+	{
+		"name": "GPT-5 Instant",
+		"other_names": [
+			"GPT-5 Chat",
+			"gpt-5-main",
+			"gpt-5-chat-latest"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5/",
+		"price": {
+			"input": 125,
+			"output": 1000
+		},
+		"access": {
+			"announcement": "2025-08-07",
+			"api": "2025-08-07",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "GPT-5 mini",
+		"other_names": [
+			"GPT-5 Thinking mini",
+			"gpt-5-thinking-mini",
+			"gpt-5-mini-2025-08-07"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5/",
+		"price": {
+			"input": 25,
+			"output": 200
+		},
+		"access": {
+			"announcement": "2025-08-07",
+			"api": "2025-08-07",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Minimal", "Low", "Medium", "High"]
+	},
+	{
+		"name": "GPT-5 nano",
+		"other_names": [
+			"gpt-5-thinking-nano",
+			"gpt-5-nano-2025-08-07"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5/",
+		"price": {
+			"input": 5,
+			"output": 40
+		},
+		"access": {
+			"announcement": "2025-08-07",
+			"api": "2025-08-07",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Minimal", "Low", "Medium", "High"]
+	},
+	{
+		"name": "GPT-5 Pro",
+		"other_names": [
+			"gpt-5-thinking-pro",
+			"gpt-5-pro-2025-10-06"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5/",
+		"price": {
+			"input": 1500,
+			"output": 12000
+		},
+		"access": {
+			"announcement": "2025-08-07",
+			"api": "2025-08-07",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["High"]
+	},
+	{
+		"name": "GPT-5-Codex",
+		"other_names": [
+			"gpt-5-codex"
+		],
+		"link": "https://openai.com/index/introducing-upgrades-to-codex/",
+		"price": {
+			"input": 125,
+			"output": 1000
+		},
+		"access": {
+			"announcement": "2025-09-15",
+			"api": "2025-09-15",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	},
+	{
+		"name": "GPT-5-Codex-Mini",
+		"other_names": [
+			"gpt-5-codex-mini"
+		],
+		"link": "https://developers.openai.com/codex/changelog#codex-2025-11-07",
+		"price": {
+			"input": 25,
+			"output": 200
+		},
+		"access": {
+			"announcement": "2025-11-07",
+			"api": "2025-11-07",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Medium", "High"]
+	}
+]

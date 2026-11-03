@@ -1,0 +1,24 @@
+{
+	"display_name": "Gemini 2.5 Deep Think",
+	"names": [
+		"Gemini 2.5 Deep Think",
+		"gemini-2.5-deep-think-2025-08-01-webapp"
+	],
+	"link": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Deep-Think-Model-Card.pdf",
+	"history": {
+		"first_mention": "2025-08-01",
+		"access": "2025-08-01",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

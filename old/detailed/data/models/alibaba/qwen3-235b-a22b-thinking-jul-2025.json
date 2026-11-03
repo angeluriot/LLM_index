@@ -1,0 +1,27 @@
+{
+	"display_name": "Qwen3-235B-A22B-Thinking (Jul 2025)",
+	"names": [
+		"Qwen3-235B-A22B-Thinking (Jul 2025)",
+		"Qwen3-235B-A22B-Thinking-2507",
+		"Qwen3 (Jul 2025)",
+		"qwen3-235b-a22b-thinking-2507",
+		"Qwen3 235B A22B 2507 (Reasoning)"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen3/",
+	"history": {
+		"first_mention": "2025-07-25",
+		"access": "2025-07-25",
+		"weights": "2025-07-25"
+	},
+	"parameters": {
+		"all": 235000000000,
+		"active": 22000000000
+	},
+	"price": {
+		"input": 0.23,
+		"output": 2.3
+	},
+	"efforts": [
+		""
+	]
+}

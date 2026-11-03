@@ -1,0 +1,24 @@
+{
+	"display_name": "JT-4.1 Flash 236B A21B",
+	"names": [
+		"JT-4.1 Flash 236B A21B"
+	],
+	"link": "https://jiutian.10086.cn/",
+	"history": {
+		"first_mention": "2026-07-09",
+		"access": "2026-07-09",
+		"weights": null
+	},
+	"parameters": {
+		"all": 236000000000,
+		"active": 21000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Reasoning"
+	]
+}

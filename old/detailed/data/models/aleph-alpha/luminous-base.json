@@ -1,0 +1,25 @@
+{
+	"display_name": "Luminous Base",
+	"names": [
+		"Luminous Base",
+		"Luminous Base (13B)",
+		"luminous-base"
+	],
+	"link": "https://aleph-alpha.com/en/news/luminous-series-launched/",
+	"history": {
+		"first_mention": "2022-04-14",
+		"access": "2022-04-14",
+		"weights": null
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

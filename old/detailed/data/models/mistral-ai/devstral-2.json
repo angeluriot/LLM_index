@@ -1,0 +1,24 @@
+{
+	"display_name": "Devstral 2",
+	"names": [
+		"Devstral 2",
+		"Devstral-2-123B-Instruct-2512"
+	],
+	"link": "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512",
+	"history": {
+		"first_mention": "2025-12-09",
+		"access": "2025-12-09",
+		"weights": "2025-12-09"
+	},
+	"parameters": {
+		"all": 125000000000,
+		"active": 125000000000
+	},
+	"price": {
+		"input": 0.4,
+		"output": 2.0
+	},
+	"efforts": [
+		""
+	]
+}

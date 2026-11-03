@@ -1,0 +1,23 @@
+{
+	"display_name": "Sonar Reasoning",
+	"names": [
+		"Sonar Reasoning"
+	],
+	"link": "https://docs.perplexity.ai/changelog",
+	"history": {
+		"first_mention": "2025-01-28",
+		"access": "2025-01-28",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1.0,
+		"output": 5.0
+	},
+	"efforts": [
+		""
+	]
+}

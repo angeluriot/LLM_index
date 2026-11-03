@@ -1,0 +1,24 @@
+{
+	"display_name": "GPT-3.5 Turbo",
+	"names": [
+		"GPT-3.5 Turbo",
+		"gpt-3.5-turbo-0301"
+	],
+	"link": "https://openai.com/index/chatgpt/",
+	"history": {
+		"first_mention": "2022-11-30",
+		"access": "2022-11-30",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 2.0,
+		"output": 2.0
+	},
+	"efforts": [
+		""
+	]
+}

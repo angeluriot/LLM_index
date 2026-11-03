@@ -1,0 +1,29 @@
+{
+	"display_name": "Qwen 3.8 27B",
+	"names": [
+		"Qwen 3.8 27B",
+		"Qwen3.8 27B",
+		"qwen3.8-27b"
+	],
+	"link": "https://x.com/Alibaba_Qwen/status/2088280182356611304",
+	"history": {
+		"first_mention": "2026-08-14",
+		"access": "2026-08-14",
+		"weights": "2026-08-14"
+	},
+	"parameters": {
+		"all": 27000000000,
+		"active": 27000000000
+	},
+	"price": {
+		"input": 0.105,
+		"output": 2.1
+	},
+	"efforts": [
+		"",
+		"None",
+		"Low",
+		"Medium",
+		"Xhigh"
+	]
+}

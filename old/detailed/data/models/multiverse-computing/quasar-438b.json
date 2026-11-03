@@ -1,0 +1,23 @@
+{
+	"display_name": "Quasar 438B",
+	"names": [
+		"Quasar 438B"
+	],
+	"link": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+	"history": {
+		"first_mention": "2026-08-10",
+		"access": "2026-08-10",
+		"weights": null
+	},
+	"parameters": {
+		"all": 438000000000,
+		"active": null
+	},
+	"price": {
+		"input": 0.11,
+		"output": 0.33
+	},
+	"efforts": [
+		""
+	]
+}

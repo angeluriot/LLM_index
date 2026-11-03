@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Muse Spark 1.3",
+		"other_names": [
+			"muse-spark-1.3",
+			"muse-spark-1.3-contributor"
+		],
+		"link": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+		"price": {
+			"input": 125,
+			"output": 425
+		},
+		"access": {
+			"announcement": "2026-09-02",
+			"api": "2026-09-02",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Minimal", "Low", "Medium", "High", "Xhigh", "Max"]
+	}
+]

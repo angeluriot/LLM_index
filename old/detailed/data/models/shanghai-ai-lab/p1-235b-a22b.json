@@ -1,0 +1,23 @@
+{
+	"display_name": "P1-235B-A22B",
+	"names": [
+		"P1-235B-A22B"
+	],
+	"link": "https://arxiv.org/abs/2511.13612,",
+	"history": {
+		"first_mention": "2025-11-17",
+		"access": "2025-11-17",
+		"weights": "2025-11-17"
+	},
+	"parameters": {
+		"all": 235000000000,
+		"active": 22000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

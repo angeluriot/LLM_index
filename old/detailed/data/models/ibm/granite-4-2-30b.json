@@ -1,0 +1,24 @@
+{
+	"display_name": "Granite 4.2 30B",
+	"names": [
+		"Granite 4.2 30B",
+		"granite-4.2-30b"
+	],
+	"link": "https://huggingface.co/ibm-granite/granite-4.2-30b",
+	"history": {
+		"first_mention": "2026-08-25",
+		"access": "2026-08-25",
+		"weights": "2026-08-25"
+	},
+	"parameters": {
+		"all": 30000000000,
+		"active": 30000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

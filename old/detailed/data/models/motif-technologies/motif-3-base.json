@@ -1,0 +1,23 @@
+{
+	"display_name": "Motif-3-Base",
+	"names": [
+		"Motif-3-Base"
+	],
+	"link": "https://huggingface.co/Motif-Technologies/Motif-3-Base",
+	"history": {
+		"first_mention": "2026-08-07",
+		"access": "2026-08-07",
+		"weights": "2026-08-07"
+	},
+	"parameters": {
+		"all": 314000000000,
+		"active": 13200000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

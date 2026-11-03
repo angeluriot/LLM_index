@@ -1,0 +1,23 @@
+{
+	"display_name": "Volcano 13B",
+	"names": [
+		"Volcano 13B"
+	],
+	"link": "https://arxiv.org/abs/2311.07362",
+	"history": {
+		"first_mention": "2023-11-13",
+		"access": "2023-11-13",
+		"weights": "2023-11-13"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

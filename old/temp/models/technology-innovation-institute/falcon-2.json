@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Falcon 2 11B",
+		"other_names": [
+			"falcon-11B"
+		],
+		"link": "https://huggingface.co/tiiuae/falcon-11B",
+		"price": null,
+		"access": {
+			"announcement": "2024-05-13",
+			"api": "2024-05-13",
+			"weights": "2024-05-13",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

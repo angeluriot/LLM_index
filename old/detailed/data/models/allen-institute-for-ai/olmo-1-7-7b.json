@@ -1,0 +1,26 @@
+{
+	"display_name": "OLMo 1.7 7B",
+	"names": [
+		"OLMo 1.7 7B",
+		"OLMo-1.7-7B",
+		"OLMo-1.7-7B-hf",
+		"OLMo-7B-0424"
+	],
+	"link": "https://huggingface.co/allenai/OLMo-1.7-7B",
+	"history": {
+		"first_mention": "2024-04-17",
+		"access": "2024-04-17",
+		"weights": "2024-04-17"
+	},
+	"parameters": {
+		"all": 6900000000,
+		"active": 6900000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

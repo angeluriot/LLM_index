@@ -1,0 +1,25 @@
+{
+	"display_name": "Alpaca (7B)",
+	"names": [
+		"Alpaca (7B)",
+		"Alpaca 7B",
+		"alpaca-7b"
+	],
+	"link": "https://crfm.stanford.edu/2023/03/13/alpaca.html",
+	"history": {
+		"first_mention": "2023-03-13",
+		"access": "2023-03-13",
+		"weights": "2023-04-13"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

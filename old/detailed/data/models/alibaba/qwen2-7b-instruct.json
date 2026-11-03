@@ -1,0 +1,24 @@
+{
+	"display_name": "Qwen2-7B-Instruct",
+	"names": [
+		"Qwen2-7B-Instruct",
+		"qwen2-7b-instruct"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen2/",
+	"history": {
+		"first_mention": "2024-06-07",
+		"access": "2024-06-07",
+		"weights": "2024-06-07"
+	},
+	"parameters": {
+		"all": 7610000000,
+		"active": 7610000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

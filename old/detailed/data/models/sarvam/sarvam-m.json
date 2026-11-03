@@ -1,0 +1,24 @@
+{
+	"display_name": "Sarvam M",
+	"names": [
+		"Sarvam M",
+		"sarvam-m"
+	],
+	"link": "https://huggingface.co/sarvamai/sarvam-m",
+	"history": {
+		"first_mention": "2025-05-23",
+		"access": "2025-05-23",
+		"weights": "2025-05-23"
+	},
+	"parameters": {
+		"all": 23600000000,
+		"active": 23600000000
+	},
+	"price": {
+		"input": 0,
+		"output": 0
+	},
+	"efforts": [
+		""
+	]
+}

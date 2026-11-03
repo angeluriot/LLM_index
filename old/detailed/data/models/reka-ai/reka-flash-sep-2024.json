@@ -1,0 +1,23 @@
+{
+	"display_name": "Reka Flash (Sep '24)",
+	"names": [
+		"Reka Flash (Sep '24)"
+	],
+	"link": "https://www.reka.ai/news/reka-flash-updates",
+	"history": {
+		"first_mention": "2024-10-04",
+		"access": "2024-10-04",
+		"weights": null
+	},
+	"parameters": {
+		"all": 21000000000,
+		"active": 21000000000
+	},
+	"price": {
+		"input": 0.2,
+		"output": 0.8
+	},
+	"efforts": [
+		""
+	]
+}

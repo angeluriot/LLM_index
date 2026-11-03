@@ -1,0 +1,25 @@
+{
+	"display_name": "Qwen3-Coder-480B-A35B",
+	"names": [
+		"Qwen3-Coder-480B-A35B",
+		"Qwen3 Coder",
+		"Qwen3-Coder-480B-A35B-Instruct"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen3-coder/",
+	"history": {
+		"first_mention": "2025-07-22",
+		"access": "2025-07-31",
+		"weights": "2025-07-31"
+	},
+	"parameters": {
+		"all": 480000000000,
+		"active": 35000000000
+	},
+	"price": {
+		"input": 0.39,
+		"output": 1.675
+	},
+	"efforts": [
+		""
+	]
+}

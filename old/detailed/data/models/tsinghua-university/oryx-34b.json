@@ -1,0 +1,23 @@
+{
+	"display_name": "Oryx 34B",
+	"names": [
+		"Oryx 34B"
+	],
+	"link": "https://arxiv.org/abs/2409.12961v1",
+	"history": {
+		"first_mention": "2024-09-19",
+		"access": "2024-09-19",
+		"weights": "2024-09-19"
+	},
+	"parameters": {
+		"all": 34000000000,
+		"active": 34000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

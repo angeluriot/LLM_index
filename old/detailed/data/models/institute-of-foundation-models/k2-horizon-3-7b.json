@@ -1,0 +1,24 @@
+{
+	"display_name": "K2 Horizon 3.7B",
+	"names": [
+		"K2 Horizon 3.7B",
+		"K2-Horizon-3.7B"
+	],
+	"link": "https://huggingface.co/IFM/K2-Horizon-3.7B",
+	"history": {
+		"first_mention": "2026-09-03",
+		"access": "2026-09-03",
+		"weights": "2026-09-03"
+	},
+	"parameters": {
+		"all": 3700000000,
+		"active": 3700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

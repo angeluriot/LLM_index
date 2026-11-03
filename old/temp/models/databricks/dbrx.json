@@ -1,0 +1,18 @@
+[
+	{
+		"name": "DBRX",
+		"other_names": [
+			"dbrx-base",
+			"dbrx-instruct"
+		],
+		"link": "https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm",
+		"price": null,
+		"access": {
+			"announcement": "2024-03-27",
+			"api": "2024-03-27",
+			"weights": "2024-03-27",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

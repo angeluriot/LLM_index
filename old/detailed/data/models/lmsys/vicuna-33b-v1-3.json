@@ -1,0 +1,24 @@
+{
+	"display_name": "vicuna-33b-v1.3",
+	"names": [
+		"vicuna-33b-v1.3",
+		"Vicuna v1.3 (33B)"
+	],
+	"link": "https://huggingface.co/lmsys/vicuna-33b-v1.3",
+	"history": {
+		"first_mention": "2023-06-22",
+		"access": "2023-06-22",
+		"weights": "2023-06-22"
+	},
+	"parameters": {
+		"all": 33000000000,
+		"active": 33000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

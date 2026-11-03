@@ -1,0 +1,25 @@
+{
+	"display_name": "Qwen-14B (chat)",
+	"names": [
+		"Qwen-14B (chat)",
+		"Qwen-14B-Chat",
+		"Qwen Chat 14B"
+	],
+	"link": "https://arxiv.org/abs/2309.16609",
+	"history": {
+		"first_mention": "2023-09-24",
+		"access": "2023-09-24",
+		"weights": "2023-09-24"
+	},
+	"parameters": {
+		"all": 14000000000,
+		"active": 14000000000
+	},
+	"price": {
+		"input": 0.27,
+		"output": 0.27
+	},
+	"efforts": [
+		""
+	]
+}

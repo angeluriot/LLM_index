@@ -1,0 +1,24 @@
+{
+	"display_name": "Ministral 3 8B",
+	"names": [
+		"Ministral 3 8B",
+		"Ministral-3-8B-Instruct-2512"
+	],
+	"link": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512",
+	"history": {
+		"first_mention": "2025-12-02",
+		"access": "2025-12-02",
+		"weights": "2025-12-02"
+	},
+	"parameters": {
+		"all": 8000000000,
+		"active": 8000000000
+	},
+	"price": {
+		"input": 0.15,
+		"output": 0.15
+	},
+	"efforts": [
+		""
+	]
+}

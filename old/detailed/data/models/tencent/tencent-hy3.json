@@ -1,0 +1,26 @@
+{
+	"display_name": "Tencent Hy3",
+	"names": [
+		"Tencent Hy3",
+		"Hy3"
+	],
+	"link": "https://huggingface.co/tencent/Hy3",
+	"history": {
+		"first_mention": "2026-07-06",
+		"access": "2026-07-06",
+		"weights": "2026-07-06"
+	},
+	"parameters": {
+		"all": 295000000000,
+		"active": 21000000000
+	},
+	"price": {
+		"input": 0.136,
+		"output": 0.555
+	},
+	"efforts": [
+		"None",
+		"Low",
+		"High"
+	]
+}

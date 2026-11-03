@@ -1,0 +1,24 @@
+{
+	"display_name": "Muse Spark",
+	"names": [
+		"Muse Spark",
+		"muse-spark"
+	],
+	"link": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+	"history": {
+		"first_mention": "2026-04-08",
+		"access": "2026-04-08",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

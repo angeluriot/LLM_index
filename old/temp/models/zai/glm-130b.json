@@ -1,0 +1,15 @@
+[
+	{
+		"name": "GLM-130B",
+		"other_names": [],
+		"link": "https://github.com/zai-org/GLM-130B",
+		"price": null,
+		"access": {
+			"announcement": "2022-08-04",
+			"api": "2022-08-04",
+			"weights": "2022-08-04",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

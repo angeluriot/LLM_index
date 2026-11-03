@@ -1,0 +1,24 @@
+{
+	"display_name": "Seed1.5-VL",
+	"names": [
+		"Seed1.5-VL"
+	],
+	"link": "https://arxiv.org/abs/2505.07062",
+	"history": {
+		"first_mention": "2025-05-11",
+		"access": "2025-05-11",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": 20000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

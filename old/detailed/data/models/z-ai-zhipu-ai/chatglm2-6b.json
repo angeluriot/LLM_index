@@ -1,0 +1,23 @@
+{
+	"display_name": "chatglm2-6b",
+	"names": [
+		"chatglm2-6b"
+	],
+	"link": "https://huggingface.co/THUDM/chatglm2-6b",
+	"history": {
+		"first_mention": "2023-06-24",
+		"access": "2023-06-24",
+		"weights": "2023-06-24"
+	},
+	"parameters": {
+		"all": 6200000000,
+		"active": 6200000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

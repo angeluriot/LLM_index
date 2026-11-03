@@ -1,0 +1,25 @@
+{
+	"display_name": "Baichuan1-13B",
+	"names": [
+		"Baichuan1-13B",
+		"Baichuan-13B-Base",
+		"Baichuan 1-13B-Base"
+	],
+	"link": "https://huggingface.co/baichuan-inc/Baichuan-13B-Base",
+	"history": {
+		"first_mention": "2023-07-11",
+		"access": "2023-07-11",
+		"weights": "2023-07-11"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

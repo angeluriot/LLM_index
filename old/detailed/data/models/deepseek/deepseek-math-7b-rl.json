@@ -1,0 +1,24 @@
+{
+	"display_name": "DeepSeekMath 7B RL",
+	"names": [
+		"DeepSeekMath 7B RL",
+		"deepseek-math-7b-rl"
+	],
+	"link": "https://arxiv.org/abs/2402.03300",
+	"history": {
+		"first_mention": "2024-02-05",
+		"access": "2024-02-05",
+		"weights": "2024-02-05"
+	},
+	"parameters": {
+		"all": 6900000000,
+		"active": 6900000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

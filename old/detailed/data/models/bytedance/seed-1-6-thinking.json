@@ -1,0 +1,23 @@
+{
+	"display_name": "Seed-1.6-Thinking",
+	"names": [
+		"Seed-1.6-Thinking"
+	],
+	"link": "https://seed.bytedance.com/en/blog/introduction-to-techniques-used-in-seed1-6",
+	"history": {
+		"first_mention": "2025-06-11",
+		"access": "2025-06-11",
+		"weights": null
+	},
+	"parameters": {
+		"all": 230000000000,
+		"active": 23000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

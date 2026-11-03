@@ -1,0 +1,23 @@
+{
+	"display_name": "Galactica",
+	"names": [
+		"Galactica"
+	],
+	"link": "https://arxiv.org/abs/2211.09085",
+	"history": {
+		"first_mention": "2022-11-16",
+		"access": "2022-11-16",
+		"weights": "2022-11-16"
+	},
+	"parameters": {
+		"all": 120000000000,
+		"active": 120000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

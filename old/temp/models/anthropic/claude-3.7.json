@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Claude 3.7 Sonnet",
+		"other_names": [
+			"claude-3-7-sonnet-20250219",
+			"claude-3-7-sonnet-latest"
+		],
+		"link": "https://www.anthropic.com/news/claude-3-7-sonnet",
+		"price": {
+			"input": 300,
+			"output": 1500
+		},
+		"access": {
+			"announcement": "2025-02-24",
+			"api": "2025-02-24",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

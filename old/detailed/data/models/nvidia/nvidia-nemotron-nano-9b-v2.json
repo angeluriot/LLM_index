@@ -1,0 +1,25 @@
+{
+	"display_name": "NVIDIA Nemotron Nano 9B V2",
+	"names": [
+		"NVIDIA Nemotron Nano 9B V2",
+		"NVIDIA-Nemotron-Nano-9B-v2"
+	],
+	"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+	"history": {
+		"first_mention": "2025-08-18",
+		"access": "2025-08-18",
+		"weights": "2025-08-18"
+	},
+	"parameters": {
+		"all": 9000000000,
+		"active": 9000000000
+	},
+	"price": {
+		"input": 0.05,
+		"output": 0.195
+	},
+	"efforts": [
+		"",
+		"Reasoning"
+	]
+}

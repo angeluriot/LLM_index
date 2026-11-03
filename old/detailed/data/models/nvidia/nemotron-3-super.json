@@ -1,0 +1,26 @@
+{
+	"display_name": "Nemotron 3 Super",
+	"names": [
+		"Nemotron 3 Super",
+		"nemotron-3-super",
+		"Nemotron 3 Super 120B A12B",
+		"NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
+	],
+	"link": "https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/",
+	"history": {
+		"first_mention": "2026-03-11",
+		"access": "2026-03-11",
+		"weights": "2026-03-11"
+	},
+	"parameters": {
+		"all": 120000000000,
+		"active": 12000000000
+	},
+	"price": {
+		"input": 0.3,
+		"output": 0.9
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display_name": "Gemini 3 Deep Think",
+	"names": [
+		"Gemini 3 Deep Think",
+		"Gemini 3 Deep Think Preview",
+		"gemini-3-deep-think-preview"
+	],
+	"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+	"history": {
+		"first_mention": "2026-02-05",
+		"access": "2026-02-12",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

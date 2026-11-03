@@ -1,0 +1,38 @@
+[
+	{
+		"name": "DeepSeek-V3.1",
+		"other_names": [],
+		"link": "https://api-docs.deepseek.com/news/news250821",
+		"efforts": ["", "Reasoning"],
+		"versions": [
+			{
+				"name": "DeepSeek-V3.1",
+				"other_names": [],
+				"access": {
+					"announcement": "2025-08-21",
+					"api": "2025-08-21",
+					"weights": "2025-08-21",
+					"portable": false
+				},
+				"price": {
+					"input": 56,
+					"output": 168
+				}
+			},
+			{
+				"name": "DeepSeek-V3.1-Terminus",
+				"other_names": [],
+				"access": {
+					"announcement": "2025-09-22",
+					"api": "2025-09-22",
+					"weights": "2025-09-22",
+					"portable": false
+				},
+				"price": {
+					"input": 56,
+					"output": 168
+				}
+			}
+		]
+	}
+]

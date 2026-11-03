@@ -1,0 +1,24 @@
+{
+	"display_name": "VAETKI",
+	"names": [
+		"VAETKI"
+	],
+	"link": "https://huggingface.co/NC-AI-consortium-VAETKI/VAETKI",
+	"history": {
+		"first_mention": "2025-12-30",
+		"access": "2025-12-30",
+		"weights": "2025-12-30"
+	},
+	"parameters": {
+		"all": 100000000000,
+		"active": 10000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

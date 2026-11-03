@@ -1,0 +1,26 @@
+{
+	"display_name": "Gemini 3.8 Flash",
+	"names": [
+		"Gemini 3.8 Flash",
+		"gemini-3.8-flash"
+	],
+	"link": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+	"history": {
+		"first_mention": "2026-09-02",
+		"access": "2026-09-02",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.75,
+		"output": 3.75
+	},
+	"efforts": [
+		"Low",
+		"Medium",
+		"High"
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "AFM-on-device",
+	"names": [
+		"AFM-on-device"
+	],
+	"link": "https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models",
+	"history": {
+		"first_mention": "2024-07-29",
+		"access": "2024-07-29",
+		"weights": null
+	},
+	"parameters": {
+		"all": 2730000000,
+		"active": 2730000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

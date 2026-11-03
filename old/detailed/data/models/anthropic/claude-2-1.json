@@ -1,0 +1,24 @@
+{
+	"display_name": "Claude 2.1",
+	"names": [
+		"Claude 2.1",
+		"claude-2.1"
+	],
+	"link": "https://www.anthropic.com/index/claude-2-1",
+	"history": {
+		"first_mention": "2023-11-21",
+		"access": "2023-11-21",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 8.0,
+		"output": 24.0
+	},
+	"efforts": [
+		""
+	]
+}

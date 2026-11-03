@@ -1,0 +1,49 @@
+[
+	{
+		"name": "GPT-Neo",
+		"other_names": [],
+		"link": "https://huggingface.co/EleutherAI/gpt-neo-2.7B",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "GPT-Neo 125M",
+				"other_names": [
+					"gpt-neo-125m"
+				],
+				"access": {
+					"announcement": "2021-03-21",
+					"api": "2021-03-21",
+					"weights": "2021-03-21",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "GPT-Neo 1.3B",
+				"other_names": [
+					"gpt-neo-1.3B"
+				],
+				"access": {
+					"announcement": "2021-03-21",
+					"api": "2021-03-21",
+					"weights": "2021-03-21",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "GPT-Neo 2.7B",
+				"other_names": [
+					"gpt-neo-2.7B"
+				],
+				"access": {
+					"announcement": "2021-03-21",
+					"api": "2021-03-21",
+					"weights": "2021-03-21",
+					"portable": true
+				},
+				"price": null
+			}
+		]
+	}
+]

@@ -1,0 +1,24 @@
+{
+	"display_name": "SOLAR-10.7B",
+	"names": [
+		"SOLAR-10.7B",
+		"SOLAR-10.7B-v1.0"
+	],
+	"link": "https://huggingface.co/upstage/SOLAR-10.7B-v1.0",
+	"history": {
+		"first_mention": "2023-12-13",
+		"access": "2023-12-13",
+		"weights": "2023-12-13"
+	},
+	"parameters": {
+		"all": 10700000000,
+		"active": 10700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

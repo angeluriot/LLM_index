@@ -1,0 +1,23 @@
+{
+	"display_name": "Claude",
+	"names": [
+		"Claude"
+	],
+	"link": "https://www.anthropic.com/index/introducing-claude",
+	"history": {
+		"first_mention": "2023-03-14",
+		"access": "2023-03-14",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 11.02,
+		"output": 32.68
+	},
+	"efforts": [
+		""
+	]
+}

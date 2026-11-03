@@ -1,0 +1,24 @@
+{
+	"display_name": "OLMo 2 7B",
+	"names": [
+		"OLMo 2 7B",
+		"OLMo-2-1124-7B-Instruct"
+	],
+	"link": "https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct",
+	"history": {
+		"first_mention": "2024-11-26",
+		"access": "2024-11-26",
+		"weights": "2024-11-26"
+	},
+	"parameters": {
+		"all": 7300000000,
+		"active": 7300000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

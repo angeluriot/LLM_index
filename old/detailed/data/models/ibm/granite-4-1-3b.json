@@ -1,0 +1,24 @@
+{
+	"display_name": "Granite 4.1 3B",
+	"names": [
+		"Granite 4.1 3B",
+		"granite-4.1-3b"
+	],
+	"link": "https://huggingface.co/ibm-granite/granite-4.1-3b",
+	"history": {
+		"first_mention": "2026-04-29",
+		"access": "2026-04-29",
+		"weights": "2026-04-29"
+	},
+	"parameters": {
+		"all": 3000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

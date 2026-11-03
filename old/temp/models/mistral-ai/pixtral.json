@@ -1,0 +1,40 @@
+[
+	{
+		"name": "Pixtral 12B",
+		"other_names": [
+			"Pixtral-12B-2409",
+			"pixtral-12b-2409"
+		],
+		"link": "https://mistral.ai/news/pixtral-12b/",
+		"price": {
+			"input": 15,
+			"output": 15
+		},
+		"access": {
+			"announcement": "2024-09-11",
+			"api": "2024-09-11",
+			"weights": "2024-09-11",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Pixtral Large",
+		"other_names": [
+			"Pixtral-Large-Instruct-2411",
+			"pixtral-large-2411"
+		],
+		"link": "https://mistral.ai/news/pixtral-large/",
+		"price": {
+			"input": 200,
+			"output": 600
+		},
+		"access": {
+			"announcement": "2024-11-18",
+			"api": "2024-11-18",
+			"weights": "2024-11-18",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

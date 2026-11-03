@@ -1,0 +1,23 @@
+{
+	"display_name": "PaLI",
+	"names": [
+		"PaLI"
+	],
+	"link": "https://arxiv.org/abs/2209.06794v4",
+	"history": {
+		"first_mention": "2022-09-14",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 16900000000,
+		"active": 16900000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

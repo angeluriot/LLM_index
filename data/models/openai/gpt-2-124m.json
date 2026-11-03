@@ -1,0 +1,32 @@
+{
+	"display_name": "GPT-2 (124M)",
+	"versions": {
+		"2019-02-14": {
+			"display_name": "GPT-2 (124M)",
+			"names": [
+				"GPT-2 (124M)",
+				"GPT-2 124M",
+				"GPT-2 117M",
+				"GPT-2 Small",
+				"gpt2"
+			],
+			"link": "https://openai.com/index/better-language-models/",
+			"history": {
+				"first_mention": "2019-02-14",
+				"access": "2019-02-14",
+				"weights": "2019-02-14"
+			},
+			"parameters": {
+				"all": 124000000,
+				"active": 124000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

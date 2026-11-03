@@ -1,0 +1,25 @@
+{
+	"display_name": "Qwen3.5 397B-A17B",
+	"names": [
+		"Qwen3.5 397B-A17B",
+		"qwen3.5-397b-a17b"
+	],
+	"link": "https://qwen.ai/blog?id=qwen3.5",
+	"history": {
+		"first_mention": "2026-02-13",
+		"access": "2026-02-13",
+		"weights": "2026-02-13"
+	},
+	"parameters": {
+		"all": 397000000000,
+		"active": 17000000000
+	},
+	"price": {
+		"input": 0.39,
+		"output": 2.34
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

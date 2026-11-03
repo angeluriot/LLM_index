@@ -1,0 +1,23 @@
+{
+	"display_name": "Cambrian-1-34B",
+	"names": [
+		"Cambrian-1-34B"
+	],
+	"link": "https://arxiv.org/abs/2406.16860",
+	"history": {
+		"first_mention": "2024-06-24",
+		"access": "2024-06-24",
+		"weights": "2024-06-24"
+	},
+	"parameters": {
+		"all": 34000000000,
+		"active": 34000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

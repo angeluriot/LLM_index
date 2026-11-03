@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Grok 4.1",
+		"other_names": [],
+		"link": "https://x.ai/news/grok-4-1",
+		"price": null,
+		"access": {
+			"announcement": "2025-11-17",
+			"api": "2025-11-17",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Grok 4.1 Fast",
+		"other_names": [
+			"grok-4-1-fast-reasoning",
+			"grok-4-1-fast-non-reasoning"
+		],
+		"link": "https://x.ai/news/grok-4-1-fast",
+		"price": {
+			"input": 20,
+			"output": 50
+		},
+		"access": {
+			"announcement": "2025-11-19",
+			"api": "2025-11-19",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

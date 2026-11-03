@@ -1,0 +1,24 @@
+{
+	"display_name": "North Mini Code",
+	"names": [
+		"North Mini Code",
+		"North-Mini-Code-1.0"
+	],
+	"link": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
+	"history": {
+		"first_mention": "2026-06-09",
+		"access": "2026-06-09",
+		"weights": "2026-06-09"
+	},
+	"parameters": {
+		"all": 30000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": 0,
+		"output": 0
+	},
+	"efforts": [
+		""
+	]
+}

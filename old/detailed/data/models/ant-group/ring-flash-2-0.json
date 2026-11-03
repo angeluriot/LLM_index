@@ -1,0 +1,23 @@
+{
+	"display_name": "Ring-flash-2.0",
+	"names": [
+		"Ring-flash-2.0"
+	],
+	"link": "https://huggingface.co/inclusionAI/Ring-flash-2.0",
+	"history": {
+		"first_mention": "2025-09-19",
+		"access": "2025-09-19",
+		"weights": "2025-09-19"
+	},
+	"parameters": {
+		"all": 103000000000,
+		"active": 6100000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "Step 3.5 Flash 2603",
+	"names": [
+		"Step 3.5 Flash 2603"
+	],
+	"link": "https://platform.stepfun.com/docs",
+	"history": {
+		"first_mention": "2026-04-02",
+		"access": "2026-04-02",
+		"weights": null
+	},
+	"parameters": {
+		"all": 196000000000,
+		"active": 11000000000
+	},
+	"price": {
+		"input": 0.1,
+		"output": 0.3
+	},
+	"efforts": [
+		""
+	]
+}

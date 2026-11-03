@@ -1,0 +1,55 @@
+[
+	{
+		"name": "GPT-5.3-Codex",
+		"other_names": [
+			"GPT-5.3 Codex",
+			"gpt-5.3-codex"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5-3-codex/",
+		"price": {
+			"input": 175,
+			"output": 1400
+		},
+		"access": {
+			"announcement": "2026-02-05",
+			"api": "2026-02-05",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High", "Xhigh"]
+	},
+	{
+		"name": "GPT-5.3-Codex-Spark",
+		"other_names": [
+			"gpt-5.3-codex-spark"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+		"price": null,
+		"access": {
+			"announcement": "2026-02-12",
+			"api": "2026-02-12",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "GPT-5.3 Instant",
+		"other_names": [
+			"GPT-5.3 Chat",
+			"gpt-5.3-chat-latest"
+		],
+		"link": "https://openai.com/index/gpt-5-3-instant/",
+		"price": {
+			"input": 175,
+			"output": 1400
+		},
+		"access": {
+			"announcement": "2026-03-03",
+			"api": "2026-03-03",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

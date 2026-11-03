@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Falcon-7B",
+		"other_names": [
+			"falcon-7b",
+			"falcon-7b-instruct"
+		],
+		"link": "https://huggingface.co/tiiuae/falcon-7b",
+		"price": null,
+		"access": {
+			"announcement": "2023-05-25",
+			"api": "2023-05-25",
+			"weights": "2023-05-25",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Falcon-40B",
+		"other_names": [
+			"falcon-40b",
+			"falcon-40b-instruct"
+		],
+		"link": "https://huggingface.co/tiiuae/falcon-40b",
+		"price": null,
+		"access": {
+			"announcement": "2023-05-25",
+			"api": "2023-05-25",
+			"weights": "2023-05-25",
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Falcon-180B",
+		"other_names": [
+			"falcon-180B",
+			"falcon-180B-chat"
+		],
+		"link": "https://huggingface.co/blog/falcon-180b",
+		"price": null,
+		"access": {
+			"announcement": "2023-09-06",
+			"api": "2023-09-06",
+			"weights": "2023-09-06",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

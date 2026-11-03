@@ -1,0 +1,33 @@
+[
+	{
+		"name": "CodeGemma 2B",
+		"other_names": [
+			"codegemma-2b"
+		],
+		"link": "https://huggingface.co/google/codegemma-2b",
+		"price": null,
+		"access": {
+			"announcement": "2024-04-09",
+			"api": "2024-04-09",
+			"weights": "2024-04-09",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "CodeGemma 7B",
+		"other_names": [
+			"codegemma-7b",
+			"codegemma-7b-it"
+		],
+		"link": "https://huggingface.co/google/codegemma-7b",
+		"price": null,
+		"access": {
+			"announcement": "2024-04-09",
+			"api": "2024-04-09",
+			"weights": "2024-04-09",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

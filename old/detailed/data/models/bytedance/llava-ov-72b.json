@@ -1,0 +1,23 @@
+{
+	"display_name": "LLaVA-OV-72B",
+	"names": [
+		"LLaVA-OV-72B"
+	],
+	"link": "https://arxiv.org/abs/2408.03326",
+	"history": {
+		"first_mention": "2024-08-06",
+		"access": "2024-08-06",
+		"weights": "2024-08-06"
+	},
+	"parameters": {
+		"all": 72000000000,
+		"active": 72000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

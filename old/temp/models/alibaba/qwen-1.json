@@ -1,0 +1,66 @@
+[
+	{
+		"name": "Qwen1-7B",
+		"other_names": [
+			"Qwen-7B",
+			"Qwen-7B-Chat"
+		],
+		"link": "https://github.com/QwenLM/Qwen",
+		"price": null,
+		"access": {
+			"announcement": "2023-08-03",
+			"api": "2023-08-03",
+			"weights": "2023-08-03",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen1-14B",
+		"other_names": [
+			"Qwen-14B",
+			"Qwen-14B-Chat"
+		],
+		"link": "https://github.com/QwenLM/Qwen",
+		"price": null,
+		"access": {
+			"announcement": "2023-09-25",
+			"api": "2023-09-25",
+			"weights": "2023-09-25",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen1-1.8B",
+		"other_names": [
+			"Qwen-1.8B",
+			"Qwen-1_8B-Chat"
+		],
+		"link": "https://github.com/QwenLM/Qwen",
+		"price": null,
+		"access": {
+			"announcement": "2023-11-30",
+			"api": "2023-11-30",
+			"weights": "2023-11-30",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen1-72B",
+		"other_names": [
+			"Qwen-72B",
+			"Qwen-72B-Chat"
+		],
+		"link": "https://github.com/QwenLM/Qwen",
+		"price": null,
+		"access": {
+			"announcement": "2023-11-30",
+			"api": "2023-11-30",
+			"weights": "2023-11-30",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

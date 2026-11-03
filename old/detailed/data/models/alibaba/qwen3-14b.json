@@ -1,0 +1,26 @@
+{
+	"display_name": "Qwen3-14B",
+	"names": [
+		"Qwen3-14B",
+		"Qwen3 14B",
+		"qwen3-14b"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen3/",
+	"history": {
+		"first_mention": "2025-04-28",
+		"access": "2025-04-28",
+		"weights": "2025-04-28"
+	},
+	"parameters": {
+		"all": 14800000000,
+		"active": 14800000000
+	},
+	"price": {
+		"input": 0.17375,
+		"output": 0.575
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

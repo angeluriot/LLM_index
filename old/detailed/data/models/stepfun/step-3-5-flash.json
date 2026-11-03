@@ -1,0 +1,24 @@
+{
+	"display_name": "Step 3.5 Flash",
+	"names": [
+		"Step 3.5 Flash",
+		"Step-3.5-Flash"
+	],
+	"link": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+	"history": {
+		"first_mention": "2026-02-02",
+		"access": "2026-02-02",
+		"weights": "2026-02-02"
+	},
+	"parameters": {
+		"all": 196000000000,
+		"active": 11000000000
+	},
+	"price": {
+		"input": 0.1,
+		"output": 0.3
+	},
+	"efforts": [
+		""
+	]
+}

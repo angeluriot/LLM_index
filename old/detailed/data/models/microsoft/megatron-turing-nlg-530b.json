@@ -1,0 +1,23 @@
+{
+	"display_name": "Megatron-Turing NLG 530B",
+	"names": [
+		"Megatron-Turing NLG 530B"
+	],
+	"link": "https://arxiv.org/abs/2201.11990",
+	"history": {
+		"first_mention": "2021-10-11",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 530000000000,
+		"active": 530000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

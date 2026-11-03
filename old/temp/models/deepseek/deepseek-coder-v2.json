@@ -1,0 +1,36 @@
+[
+	{
+		"name": "DeepSeek-Coder-V2",
+		"other_names": [
+			"DeepSeek-Coder-V2-Instruct",
+			"deepseek-coder"
+		],
+		"link": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct",
+		"price": {
+			"input": 14,
+			"output": 28
+		},
+		"access": {
+			"announcement": "2024-06-17",
+			"api": "2024-06-17",
+			"weights": "2024-06-17",
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "DeepSeek-Coder-V2-Lite",
+		"other_names": [
+			"DeepSeek-Coder-V2-Lite-Instruct"
+		],
+		"link": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2024-06-17",
+			"api": "2024-06-17",
+			"weights": "2024-06-17",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

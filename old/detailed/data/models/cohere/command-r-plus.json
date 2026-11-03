@@ -1,0 +1,24 @@
+{
+	"display_name": "Command R+",
+	"names": [
+		"Command R+",
+		"c4ai-command-r-plus-08-2024"
+	],
+	"link": "https://txt.cohere.com/command-r-plus-microsoft-azure/",
+	"history": {
+		"first_mention": "2024-08-30",
+		"access": "2024-08-30",
+		"weights": "2024-08-30"
+	},
+	"parameters": {
+		"all": 104000000000,
+		"active": 104000000000
+	},
+	"price": {
+		"input": 2.5,
+		"output": 10.0
+	},
+	"efforts": [
+		""
+	]
+}

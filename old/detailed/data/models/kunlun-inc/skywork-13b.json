@@ -1,0 +1,23 @@
+{
+	"display_name": "Skywork-13B",
+	"names": [
+		"Skywork-13B"
+	],
+	"link": "https://arxiv.org/abs/2310.19341",
+	"history": {
+		"first_mention": "2023-10-30",
+		"access": "2023-10-30",
+		"weights": "2023-10-30"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

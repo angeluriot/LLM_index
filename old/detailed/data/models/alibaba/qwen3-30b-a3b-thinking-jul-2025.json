@@ -1,0 +1,26 @@
+{
+	"display_name": "Qwen3-30B-A3B-Thinking (Jul 2025)",
+	"names": [
+		"Qwen3-30B-A3B-Thinking (Jul 2025)",
+		"qwen3-30b-a3b-thinking-2507",
+		"Qwen3 30B A3B 2507 (Reasoning)",
+		"Qwen3-30B-A3B-Thinking-2507"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen3/",
+	"history": {
+		"first_mention": "2025-07-30",
+		"access": "2025-07-30",
+		"weights": "2025-07-30"
+	},
+	"parameters": {
+		"all": 30000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

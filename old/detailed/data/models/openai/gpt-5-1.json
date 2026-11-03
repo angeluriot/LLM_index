@@ -1,0 +1,27 @@
+{
+	"display_name": "GPT-5.1",
+	"names": [
+		"GPT-5.1",
+		"gpt-5.1-2025-11-13"
+	],
+	"link": "https://openai.com/index/gpt-5-1/",
+	"history": {
+		"first_mention": "2025-11-13",
+		"access": "2025-11-13",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1.25,
+		"output": 10.0
+	},
+	"efforts": [
+		"None",
+		"Low",
+		"Medium",
+		"High"
+	]
+}

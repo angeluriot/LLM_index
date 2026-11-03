@@ -1,0 +1,25 @@
+{
+	"display_name": "Pythia (6.9B)",
+	"names": [
+		"Pythia (6.9B)",
+		"pythia-6.9b",
+		"pythia-6.7b"
+	],
+	"link": "https://arxiv.org/abs/2304.01373",
+	"history": {
+		"first_mention": "2023-02-13",
+		"access": "2023-02-13",
+		"weights": "2023-02-13"
+	},
+	"parameters": {
+		"all": 6900000000,
+		"active": 6900000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

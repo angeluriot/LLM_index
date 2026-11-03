@@ -1,0 +1,32 @@
+{
+	"display_name": "GPT-4V",
+	"versions": {
+		"2023-11-06": {
+			"display_name": "GPT-4V",
+			"names": [
+				"GPT-4V",
+				"GPT-4 Vision",
+				"GPT-4V(ision)",
+				"gpt-4-vision-preview",
+				"gpt-4-1106-vision-preview"
+			],
+			"link": "https://openai.com/index/gpt-4v-system-card/",
+			"history": {
+				"first_mention": "2023-03-14",
+				"access": "2023-09-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 10.0,
+				"output": 30.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

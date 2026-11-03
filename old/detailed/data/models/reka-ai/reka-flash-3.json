@@ -1,0 +1,24 @@
+{
+	"display_name": "Reka Flash 3",
+	"names": [
+		"Reka Flash 3",
+		"reka-flash-3"
+	],
+	"link": "https://huggingface.co/RekaAI/reka-flash-3",
+	"history": {
+		"first_mention": "2025-03-10",
+		"access": "2025-03-10",
+		"weights": "2025-03-10"
+	},
+	"parameters": {
+		"all": 21000000000,
+		"active": 21000000000
+	},
+	"price": {
+		"input": 0.1,
+		"output": 0.2
+	},
+	"efforts": [
+		""
+	]
+}

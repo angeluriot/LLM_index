@@ -1,0 +1,25 @@
+{
+	"display_name": "Kimi K2.6",
+	"names": [
+		"Kimi K2.6",
+		"kimi-k2.6"
+	],
+	"link": "https://www.kimi.com/ai-models/kimi-k2-6",
+	"history": {
+		"first_mention": "2026-04-20",
+		"access": "2026-04-20",
+		"weights": "2026-04-20"
+	},
+	"parameters": {
+		"all": 1040000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": 0.95,
+		"output": 4.0
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display_name": "Muse Spark 1.2",
+	"names": [
+		"Muse Spark 1.2",
+		"muse-spark-1.2"
+	],
+	"link": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+	"history": {
+		"first_mention": "2026-08-05",
+		"access": "2026-08-05",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1.25,
+		"output": 4.25
+	},
+	"efforts": [
+		"",
+		"Xhigh"
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"display_name": "GPT-Rosalind",
+	"versions": {
+		"2026-04-16": {
+			"display_name": "GPT-Rosalind",
+			"names": [
+				"GPT-Rosalind",
+				"GPT Rosalind",
+				"gpt-rosalind-research"
+			],
+			"link": "https://openai.com/index/introducing-gpt-rosalind",
+			"history": {
+				"first_mention": "2026-04-16",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 5.0,
+				"output": 25.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

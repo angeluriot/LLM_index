@@ -1,0 +1,25 @@
+{
+	"display_name": "Llama Nemotron Super 49B v1.5",
+	"names": [
+		"Llama Nemotron Super 49B v1.5",
+		"Llama-3_3-Nemotron-Super-49B-v1_5"
+	],
+	"link": "https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5",
+	"history": {
+		"first_mention": "2025-07-25",
+		"access": "2025-07-25",
+		"weights": "2025-07-25"
+	},
+	"parameters": {
+		"all": 49000000000,
+		"active": 49000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Reasoning"
+	]
+}

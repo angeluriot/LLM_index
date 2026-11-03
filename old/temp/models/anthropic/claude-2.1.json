@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Claude 2.1",
+		"other_names": [
+			"claude-2.1"
+		],
+		"link": "https://www.anthropic.com/news/claude-2-1",
+		"price": {
+			"input": 800,
+			"output": 2400
+		},
+		"access": {
+			"announcement": "2023-11-21",
+			"api": "2023-11-21",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

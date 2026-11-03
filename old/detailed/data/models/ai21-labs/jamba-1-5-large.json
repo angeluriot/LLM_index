@@ -1,0 +1,24 @@
+{
+	"display_name": "Jamba 1.5-Large",
+	"names": [
+		"Jamba 1.5-Large",
+		"AI21-Jamba-1.5-Large"
+	],
+	"link": "https://arxiv.org/abs/2408.12570",
+	"history": {
+		"first_mention": "2024-08-22",
+		"access": "2024-08-22",
+		"weights": "2024-08-22"
+	},
+	"parameters": {
+		"all": 398000000000,
+		"active": 94000000000
+	},
+	"price": {
+		"input": 2,
+		"output": 8
+	},
+	"efforts": [
+		""
+	]
+}

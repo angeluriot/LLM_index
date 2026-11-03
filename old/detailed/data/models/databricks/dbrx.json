@@ -1,0 +1,25 @@
+{
+	"display_name": "DBRX",
+	"names": [
+		"DBRX",
+		"DBRX (instruct)",
+		"dbrx-instruct"
+	],
+	"link": "https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm",
+	"history": {
+		"first_mention": "2024-03-27",
+		"access": "2024-03-27",
+		"weights": "2024-03-27"
+	},
+	"parameters": {
+		"all": 132000000000,
+		"active": 36000000000
+	},
+	"price": {
+		"input": 1.2,
+		"output": 1.2
+	},
+	"efforts": [
+		""
+	]
+}

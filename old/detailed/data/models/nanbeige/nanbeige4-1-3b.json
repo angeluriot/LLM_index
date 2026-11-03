@@ -1,0 +1,23 @@
+{
+	"display_name": "Nanbeige4.1-3B",
+	"names": [
+		"Nanbeige4.1-3B"
+	],
+	"link": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B",
+	"history": {
+		"first_mention": "2026-02-11",
+		"access": "2026-02-11",
+		"weights": "2026-02-11"
+	},
+	"parameters": {
+		"all": 3930000000,
+		"active": 3930000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

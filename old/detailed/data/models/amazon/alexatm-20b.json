@@ -1,0 +1,23 @@
+{
+	"display_name": "AlexaTM 20B",
+	"names": [
+		"AlexaTM 20B"
+	],
+	"link": "https://arxiv.org/abs/2208.01448",
+	"history": {
+		"first_mention": "2022-08-02",
+		"access": "2022-08-02",
+		"weights": null
+	},
+	"parameters": {
+		"all": 19750000000,
+		"active": 19750000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

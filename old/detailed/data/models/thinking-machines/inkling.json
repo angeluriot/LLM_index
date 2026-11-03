@@ -1,0 +1,25 @@
+{
+	"display_name": "Inkling",
+	"names": [
+		"Inkling"
+	],
+	"link": "https://thinkingmachines.ai/news/introducing-inkling/",
+	"history": {
+		"first_mention": "2026-07-15",
+		"access": "2026-07-15",
+		"weights": "2026-07-15"
+	},
+	"parameters": {
+		"all": 975000000000,
+		"active": 41000000000
+	},
+	"price": {
+		"input": 1.0,
+		"output": 4.05
+	},
+	"efforts": [
+		"",
+		"High",
+		"Xhigh"
+	]
+}

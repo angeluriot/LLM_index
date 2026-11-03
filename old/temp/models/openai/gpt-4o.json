@@ -1,0 +1,111 @@
+[
+	{
+		"name": "GPT-4o",
+		"other_names": [
+			"gpt-4o"
+		],
+		"link": "https://openai.com/index/hello-gpt-4o/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "GPT-4o (May 2024)",
+				"other_names": [
+					"gpt-4o-2024-05-13"
+				],
+				"access": {
+					"announcement": "2024-05-13",
+					"api": "2024-05-13",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 500,
+					"output": 1500
+				}
+			},
+			{
+				"name": "GPT-4o (Aug 2024)",
+				"other_names": [
+					"gpt-4o-2024-08-06"
+				],
+				"access": {
+					"announcement": "2024-08-06",
+					"api": "2024-08-06",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 250,
+					"output": 1000
+				}
+			},
+			{
+				"name": "GPT-4o (Nov 2024)",
+				"other_names": [
+					"gpt-4o-2024-11-20"
+				],
+				"access": {
+					"announcement": "2024-11-20",
+					"api": "2024-11-20",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 250,
+					"output": 1000
+				}
+			},
+			{
+				"name": "GPT-4o (Jan 2025)",
+				"other_names": [
+					"chatgpt-4o-latest (Jan 2025)"
+				],
+				"access": {
+					"announcement": "2025-01-29",
+					"api": "2025-01-29",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 500,
+					"output": 1500
+				}
+			},
+			{
+				"name": "GPT-4o (Mar 2025)",
+				"other_names": [
+					"chatgpt-4o-latest (Mar 2025)"
+				],
+				"access": {
+					"announcement": "2025-03-27",
+					"api": "2025-03-27",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 500,
+					"output": 1500
+				}
+			}
+		]
+	},
+	{
+		"name": "GPT-4o mini",
+		"other_names": [
+			"gpt-4o-mini",
+			"gpt-4o-mini-2024-07-18"
+		],
+		"link": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+		"price": {
+			"input": 15,
+			"output": 60
+		},
+		"access": {
+			"announcement": "2024-07-18",
+			"api": "2024-07-18",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

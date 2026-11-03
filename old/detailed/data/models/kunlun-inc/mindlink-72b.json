@@ -1,0 +1,23 @@
+{
+	"display_name": "MindLink-72B",
+	"names": [
+		"MindLink-72B"
+	],
+	"link": "https://github.com/SkyworkAI/MindLink/blob/main/mindlink.pdf",
+	"history": {
+		"first_mention": "2025-08-01",
+		"access": "2025-08-01",
+		"weights": "2025-08-01"
+	},
+	"parameters": {
+		"all": 72000000000,
+		"active": 72000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

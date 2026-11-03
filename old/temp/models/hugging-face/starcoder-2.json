@@ -1,0 +1,47 @@
+[
+	{
+		"name": "StarCoder2-3B",
+		"other_names": [
+			"starcoder2-3b"
+		],
+		"link": "https://huggingface.co/bigcode/starcoder2-3b",
+		"price": null,
+		"access": {
+			"announcement": "2024-02-28",
+			"api": "2024-02-28",
+			"weights": "2024-02-28",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "StarCoder2-7B",
+		"other_names": [
+			"starcoder2-7b"
+		],
+		"link": "https://huggingface.co/bigcode/starcoder2-7b",
+		"price": null,
+		"access": {
+			"announcement": "2024-02-28",
+			"api": "2024-02-28",
+			"weights": "2024-02-28",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "StarCoder2-15B",
+		"other_names": [
+			"starcoder2-15b"
+		],
+		"link": "https://huggingface.co/bigcode/starcoder2-15b",
+		"price": null,
+		"access": {
+			"announcement": "2024-02-28",
+			"api": "2024-02-28",
+			"weights": "2024-02-28",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

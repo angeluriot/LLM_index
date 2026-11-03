@@ -1,0 +1,23 @@
+{
+	"display_name": "SWE 1.6",
+	"names": [
+		"SWE 1.6"
+	],
+	"link": "https://cognition.ai/blog/swe-1-6-preview",
+	"history": {
+		"first_mention": "2026-03-01",
+		"access": "2026-03-01",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

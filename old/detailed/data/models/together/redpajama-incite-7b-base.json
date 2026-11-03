@@ -1,0 +1,23 @@
+{
+	"display_name": "RedPajama-INCITE-7B-Base",
+	"names": [
+		"RedPajama-INCITE-7B-Base"
+	],
+	"link": "https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base",
+	"history": {
+		"first_mention": "2023-05-04",
+		"access": "2023-05-04",
+		"weights": "2023-05-04"
+	},
+	"parameters": {
+		"all": 6900000000,
+		"active": 6900000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

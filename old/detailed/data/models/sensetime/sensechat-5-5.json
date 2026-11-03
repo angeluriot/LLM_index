@@ -1,0 +1,23 @@
+{
+	"display_name": "SenseChat 5.5",
+	"names": [
+		"SenseChat 5.5"
+	],
+	"link": "https://www.sensetime.com/en/news-detail/51168278?categoryId=1072",
+	"history": {
+		"first_mention": "2024-07-06",
+		"access": "2024-07-06",
+		"weights": null
+	},
+	"parameters": {
+		"all": 600000000000,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

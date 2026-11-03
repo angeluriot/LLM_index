@@ -1,0 +1,23 @@
+{
+	"display_name": "nekomata-14b",
+	"names": [
+		"nekomata-14b"
+	],
+	"link": "https://arxiv.org/abs/2404.01657",
+	"history": {
+		"first_mention": "2023-12-21",
+		"access": "2023-12-21",
+		"weights": "2023-12-21"
+	},
+	"parameters": {
+		"all": 14200000000,
+		"active": 14200000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

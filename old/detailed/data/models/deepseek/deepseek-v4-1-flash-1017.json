@@ -1,0 +1,28 @@
+{
+	"display_name": "DeepSeek V4.1 Flash 1017",
+	"names": [
+		"DeepSeek V4.1 Flash 1017",
+		"deepseek-v4.1-flash-1017"
+	],
+	"link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+	"history": {
+		"first_mention": "2026-10-17",
+		"access": "2026-10-17",
+		"weights": "2026-10-17"
+	},
+	"parameters": {
+		"all": 552000000000,
+		"active": 16000000000
+	},
+	"price": {
+		"input": 0.15,
+		"output": 0.6
+	},
+	"efforts": [
+		"None",
+		"Low",
+		"Medium",
+		"High",
+		"Max"
+	]
+}

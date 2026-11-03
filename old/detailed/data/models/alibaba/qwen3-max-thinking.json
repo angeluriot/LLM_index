@@ -1,0 +1,23 @@
+{
+	"display_name": "Qwen3-Max-Thinking",
+	"names": [
+		"Qwen3-Max-Thinking"
+	],
+	"link": "https://qwen.ai/blog?id=qwen3-max-thinking",
+	"history": {
+		"first_mention": "2026-01-25",
+		"access": "2026-01-25",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1.2,
+		"output": 6.0
+	},
+	"efforts": [
+		""
+	]
+}

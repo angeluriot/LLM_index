@@ -1,0 +1,187 @@
+[
+	{
+		"name": "Qwen3.5-397B-A17B",
+		"other_names": [
+			"qwen3.5-397b-a17b"
+		],
+		"link": "https://qwen.ai/blog?id=qwen3.5",
+		"price": {
+			"input": 60,
+			"output": 360
+		},
+		"access": {
+			"announcement": "2026-02-16",
+			"api": "2026-02-16",
+			"weights": "2026-02-16",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.5-Plus",
+		"other_names": [
+			"qwen3.5-plus"
+		],
+		"link": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-plus",
+		"efforts": ["", "Reasoning"],
+		"versions": [
+			{
+				"name": "Qwen3.5-Plus (Feb 2026)",
+				"other_names": [
+					"qwen3.5-plus-2026-02-15"
+				],
+				"access": {
+					"announcement": "2026-02-16",
+					"api": "2026-02-16",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 40,
+					"output": 240
+				}
+			},
+			{
+				"name": "Qwen3.5-Plus (Apr 2026)",
+				"other_names": [
+					"qwen3.5-plus-2026-04-20"
+				],
+				"access": {
+					"announcement": "2026-04-20",
+					"api": "2026-04-20",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 40,
+					"output": 240
+				}
+			}
+		]
+	},
+	{
+		"name": "Qwen3.5-122B-A10B",
+		"other_names": [
+			"qwen3.5-122b-a10b"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen3.5-122B-A10B",
+		"price": {
+			"input": 40,
+			"output": 320
+		},
+		"access": {
+			"announcement": "2026-02-24",
+			"api": "2026-02-24",
+			"weights": "2026-02-24",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.5-35B-A3B",
+		"other_names": [
+			"qwen3.5-35b-a3b"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+		"price": {
+			"input": 25,
+			"output": 200
+		},
+		"access": {
+			"announcement": "2026-02-24",
+			"api": "2026-02-24",
+			"weights": "2026-02-24",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.5-27B",
+		"other_names": [
+			"qwen3.5-27b"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen3.5-27B",
+		"price": {
+			"input": 30,
+			"output": 240
+		},
+		"access": {
+			"announcement": "2026-02-24",
+			"api": "2026-02-24",
+			"weights": "2026-02-24",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.5-Flash",
+		"other_names": [
+			"qwen3.5-flash",
+			"qwen3.5-flash-2026-02-23"
+		],
+		"link": "https://www.alibabacloud.com/help/en/model-studio/qwen3-5-flash",
+		"price": {
+			"input": 10,
+			"output": 40
+		},
+		"access": {
+			"announcement": "2026-02-24",
+			"api": "2026-02-24",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.5-0.8B",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+		"price": null,
+		"access": {
+			"announcement": "2026-03-02",
+			"api": "2026-03-02",
+			"weights": "2026-03-02",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.5-2B",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3.5-2B",
+		"price": null,
+		"access": {
+			"announcement": "2026-03-02",
+			"api": "2026-03-02",
+			"weights": "2026-03-02",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.5-4B",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3.5-4B",
+		"price": null,
+		"access": {
+			"announcement": "2026-03-02",
+			"api": "2026-03-02",
+			"weights": "2026-03-02",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.5-9B",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3.5-9B",
+		"price": null,
+		"access": {
+			"announcement": "2026-03-02",
+			"api": "2026-03-02",
+			"weights": "2026-03-02",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

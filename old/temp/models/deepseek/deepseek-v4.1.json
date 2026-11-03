@@ -1,0 +1,40 @@
+[
+	{
+		"name": "DeepSeek-V4.1-Flash",
+		"other_names": [
+			"deepseek-flash"
+		],
+		"link": "https://api-docs.deepseek.com/news/news260910",
+		"efforts": ["None", "Low", "High", "Max"],
+		"versions": [
+			{
+				"name": "DeepSeek-V4.1-Flash",
+				"other_names": [],
+				"access": {
+					"announcement": "2026-09-10",
+					"api": "2026-09-10",
+					"weights": "2026-09-10",
+					"portable": false
+				},
+				"price": {
+					"input": 30,
+					"output": 120
+				}
+			},
+			{
+				"name": "DeepSeek-V4.1-Flash-1017",
+				"other_names": [],
+				"access": {
+					"announcement": "2026-10-17",
+					"api": "2026-10-17",
+					"weights": "2026-10-17",
+					"portable": false
+				},
+				"price": {
+					"input": 30,
+					"output": 120
+				}
+			}
+		]
+	}
+]

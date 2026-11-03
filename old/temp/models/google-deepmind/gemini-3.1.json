@@ -1,0 +1,40 @@
+[
+	{
+		"name": "Gemini 3.1 Pro",
+		"other_names": [
+			"gemini-3.1-pro-preview"
+		],
+		"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+		"price": {
+			"input": 200,
+			"output": 1200
+		},
+		"access": {
+			"announcement": "2026-02-19",
+			"api": "2026-02-19",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	},
+	{
+		"name": "Gemini 3.1 Flash-Lite",
+		"other_names": [
+			"Gemini 3.1 Flash Lite",
+			"gemini-3.1-flash-lite",
+			"gemini-3.1-flash-lite-preview"
+		],
+		"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+		"price": {
+			"input": 25,
+			"output": 150
+		},
+		"access": {
+			"announcement": "2026-03-03",
+			"api": "2026-03-03",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Minimal", "Low", "Medium", "High"]
+	}
+]

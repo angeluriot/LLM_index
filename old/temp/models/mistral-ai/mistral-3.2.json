@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Mistral Small 3.2",
+		"other_names": [
+			"Mistral-Small-3.2-24B-Instruct-2506",
+			"mistral-small-2506"
+		],
+		"link": "https://docs.mistral.ai/models/mistral-small-3-2-25-06",
+		"price": {
+			"input": 10,
+			"output": 30
+		},
+		"access": {
+			"announcement": "2025-06-20",
+			"api": "2025-06-20",
+			"weights": "2025-06-20",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"display_name": "Gemini 1.0 Ultra",
+	"names": [
+		"Gemini 1.0 Ultra"
+	],
+	"link": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf",
+	"history": {
+		"first_mention": "2023-12-06",
+		"access": "2023-12-06",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

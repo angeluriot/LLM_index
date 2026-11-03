@@ -1,0 +1,98 @@
+[
+	{
+		"name": "Claude Mythos 5",
+		"other_names": [
+			"claude-mythos-5"
+		],
+		"link": "https://www.anthropic.com/glasswing",
+		"efforts": ["Low", "Medium", "High", "Xhigh", "Max"],
+		"versions": [
+			{
+				"name": "Claude Mythos Preview",
+				"other_names": [
+					"claude-mythos-preview"
+				],
+				"price": {
+					"input": 2500,
+					"output": 12500
+				},
+				"access": {
+					"announcement": "2026-04-07",
+					"api": null,
+					"weights": null,
+					"portable": false
+				}
+			},
+			{
+				"name": "Claude Mythos 5",
+				"other_names": [
+					"claude-mythos-5"
+				],
+				"price": {
+					"input": 1000,
+					"output": 5000
+				},
+				"access": {
+					"announcement": "2026-06-09",
+					"api": null,
+					"weights": null,
+					"portable": false
+				}
+			}
+		]
+	},
+	{
+		"name": "Claude Fable 5",
+		"other_names": [
+			"claude-fable-5"
+		],
+		"link": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+		"price": {
+			"input": 1000,
+			"output": 5000
+		},
+		"access": {
+			"announcement": "2026-06-09",
+			"api": "2026-06-09",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High", "Xhigh", "Max"]
+	},
+	{
+		"name": "Claude Sonnet 5",
+		"other_names": [
+			"claude-sonnet-5"
+		],
+		"link": "https://www.anthropic.com/news/claude-sonnet-5",
+		"price": {
+			"input": 200,
+			"output": 1000
+		},
+		"access": {
+			"announcement": "2026-06-30",
+			"api": "2026-06-30",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh", "Max"]
+	},
+	{
+		"name": "Claude Opus 5",
+		"other_names": [
+			"claude-opus-5"
+		],
+		"link": "https://www.anthropic.com/news/claude-opus-5",
+		"price": {
+			"input": 500,
+			"output": 2500
+		},
+		"access": {
+			"announcement": "2026-07-24",
+			"api": "2026-07-24",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh", "Max"]
+	}
+]

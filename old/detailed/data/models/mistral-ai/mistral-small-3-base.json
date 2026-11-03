@@ -1,0 +1,24 @@
+{
+	"display_name": "Mistral Small 3 Base",
+	"names": [
+		"Mistral Small 3 Base",
+		"Mistral-Small-24B-Base-2501"
+	],
+	"link": "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501",
+	"history": {
+		"first_mention": "2025-01-30",
+		"access": "2025-01-30",
+		"weights": "2025-01-30"
+	},
+	"parameters": {
+		"all": 24000000000,
+		"active": 24000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

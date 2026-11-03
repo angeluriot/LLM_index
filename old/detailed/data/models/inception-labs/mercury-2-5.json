@@ -1,0 +1,24 @@
+{
+	"display_name": "Mercury 2.5",
+	"names": [
+		"Mercury 2.5",
+		"mercury-2.5"
+	],
+	"link": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+	"history": {
+		"first_mention": "2026-09-08",
+		"access": "2026-09-08",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.04,
+		"output": 0.15
+	},
+	"efforts": [
+		"High"
+	]
+}

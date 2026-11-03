@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Muse Spark 1.1",
+		"other_names": [
+			"muse-spark-1.1"
+		],
+		"link": "https://research.meta.ai/blog/introducing-muse-spark-meta-model-api",
+		"price": {
+			"input": 125,
+			"output": 425
+		},
+		"access": {
+			"announcement": "2026-07-09",
+			"api": "2026-07-09",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Minimal", "Low", "Medium", "High", "Xhigh"]
+	}
+]

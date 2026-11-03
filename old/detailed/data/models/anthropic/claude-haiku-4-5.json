@@ -1,0 +1,26 @@
+{
+	"display_name": "Claude Haiku 4.5",
+	"names": [
+		"Claude Haiku 4.5",
+		"claude-haiku-4-5-20251001",
+		"Claude 4.5 Haiku"
+	],
+	"link": "https://www.anthropic.com/news/claude-haiku-4-5",
+	"history": {
+		"first_mention": "2025-10-15",
+		"access": "2025-10-15",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1.0,
+		"output": 5.0
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

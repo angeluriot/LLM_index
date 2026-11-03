@@ -1,0 +1,24 @@
+{
+	"display_name": "Jamba 1.6 Mini",
+	"names": [
+		"Jamba 1.6 Mini",
+		"AI21-Jamba-Mini-1.6"
+	],
+	"link": "https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.6",
+	"history": {
+		"first_mention": "2025-03-06",
+		"access": "2025-03-06",
+		"weights": "2025-03-06"
+	},
+	"parameters": {
+		"all": 52000000000,
+		"active": 12000000000
+	},
+	"price": {
+		"input": 0.2,
+		"output": 0.4
+	},
+	"efforts": [
+		""
+	]
+}

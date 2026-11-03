@@ -1,0 +1,27 @@
+{
+	"display_name": "Gemini 2.5 Flash-Lite (Jun 2025)",
+	"names": [
+		"Gemini 2.5 Flash-Lite (Jun 2025)",
+		"gemini-2.5-flash-lite-preview-06-17",
+		"gemini-2.5-flash-lite-preview-06-17-thinking",
+		"Gemini 2.5 Flash-Lite"
+	],
+	"link": "https://deepmind.google/models/gemini/flash-lite/",
+	"history": {
+		"first_mention": "2025-06-17",
+		"access": "2025-06-17",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.1,
+		"output": 0.4
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

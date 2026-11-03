@@ -1,0 +1,25 @@
+{
+	"display_name": "DeepSeek Coder 1.3B",
+	"names": [
+		"DeepSeek Coder 1.3B",
+		"DeepSeek Coder 1.3B (base)",
+		"deepseek-coder-1.3b-base"
+	],
+	"link": "https://arxiv.org/abs/2401.14196",
+	"history": {
+		"first_mention": "2023-11-02",
+		"access": "2023-11-02",
+		"weights": "2023-11-02"
+	},
+	"parameters": {
+		"all": 1300000000,
+		"active": 1300000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

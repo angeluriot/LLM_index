@@ -1,0 +1,24 @@
+{
+	"display_name": "K2 Horizon 375B A23B",
+	"names": [
+		"K2 Horizon 375B A23B",
+		"K2-Horizon-375B-A23B"
+	],
+	"link": "https://huggingface.co/IFM/K2-Horizon-375B-A23B",
+	"history": {
+		"first_mention": "2026-09-03",
+		"access": "2026-09-03",
+		"weights": "2026-09-03"
+	},
+	"parameters": {
+		"all": 375000000000,
+		"active": 23000000000
+	},
+	"price": {
+		"input": 0,
+		"output": 0
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display_name": "Qwen3.5 2B",
+	"names": [
+		"Qwen3.5 2B",
+		"Qwen3.5-2B"
+	],
+	"link": "https://huggingface.co/Qwen/Qwen3.5-2B",
+	"history": {
+		"first_mention": "2026-03-02",
+		"access": "2026-03-02",
+		"weights": "2026-03-02"
+	},
+	"parameters": {
+		"all": 2270000000,
+		"active": 2270000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

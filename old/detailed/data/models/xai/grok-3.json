@@ -1,0 +1,27 @@
+{
+	"display_name": "Grok 3",
+	"names": [
+		"Grok 3",
+		"Grok 3 (beta)",
+		"grok-3-beta",
+		"grok-3",
+		"Grok 3 Reasoning Beta"
+	],
+	"link": "https://x.ai/blog/grok-3",
+	"history": {
+		"first_mention": "2025-02-19",
+		"access": "2025-02-19",
+		"weights": null
+	},
+	"parameters": {
+		"all": 3000000000000,
+		"active": null
+	},
+	"price": {
+		"input": 3.0,
+		"output": 15.0
+	},
+	"efforts": [
+		""
+	]
+}

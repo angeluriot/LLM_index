@@ -1,0 +1,24 @@
+{
+	"display_name": "vicuna-7b-v1.5",
+	"names": [
+		"vicuna-7b-v1.5",
+		"vicuna-7b-v1.5-16k"
+	],
+	"link": "https://huggingface.co/lmsys/vicuna-7b-v1.5",
+	"history": {
+		"first_mention": "2023-07-29",
+		"access": "2023-07-29",
+		"weights": "2023-07-29"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

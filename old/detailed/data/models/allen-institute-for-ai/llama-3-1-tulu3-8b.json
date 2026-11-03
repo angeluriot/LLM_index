@@ -1,0 +1,25 @@
+{
+	"display_name": "Llama 3.1 Tulu3 8B",
+	"names": [
+		"Llama 3.1 Tulu3 8B",
+		"Llama-3.1-Tulu-3-8B",
+		"Tülu 3 8B"
+	],
+	"link": "https://huggingface.co/allenai/Llama-3.1-Tulu-3-8B",
+	"history": {
+		"first_mention": "2024-11-21",
+		"access": "2024-11-21",
+		"weights": "2024-11-21"
+	},
+	"parameters": {
+		"all": 8000000000,
+		"active": 8000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

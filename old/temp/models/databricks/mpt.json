@@ -1,0 +1,36 @@
+[
+	{
+		"name": "MPT-7B",
+		"other_names": [
+			"mpt-7b",
+			"mpt-7b-instruct",
+			"mpt-7b-chat"
+		],
+		"link": "https://www.databricks.com/blog/mpt-7b",
+		"price": null,
+		"access": {
+			"announcement": "2023-05-05",
+			"api": "2023-05-05",
+			"weights": "2023-05-05",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "MPT-30B",
+		"other_names": [
+			"mpt-30b",
+			"mpt-30b-instruct",
+			"mpt-30b-chat"
+		],
+		"link": "https://www.databricks.com/blog/mpt-30b",
+		"price": null,
+		"access": {
+			"announcement": "2023-06-22",
+			"api": "2023-06-22",
+			"weights": "2023-06-22",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

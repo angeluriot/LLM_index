@@ -1,0 +1,24 @@
+{
+	"display_name": "A.X K2",
+	"names": [
+		"A.X K2"
+	],
+	"link": "https://huggingface.co/skt/A.X-K2",
+	"history": {
+		"first_mention": "2026-07-29",
+		"access": "2026-07-29",
+		"weights": "2026-07-29"
+	},
+	"parameters": {
+		"all": 688000000000,
+		"active": 33000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

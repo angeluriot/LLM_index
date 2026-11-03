@@ -1,0 +1,94 @@
+[
+	{
+		"name": "DeepSeek-V4-Pro",
+		"other_names": [
+			"deepseek-v4-pro"
+		],
+		"link": "https://api-docs.deepseek.com/news/news260424",
+		"efforts": ["None", "Low", "High", "Max"],
+		"versions": [
+			{
+				"name": "DeepSeek-V4-Pro-Preview",
+				"other_names": [],
+				"access": {
+					"announcement": "2026-04-24",
+					"api": "2026-04-24",
+					"weights": "2026-04-24",
+					"portable": false
+				},
+				"price": {
+					"input": 174,
+					"output": 348
+				}
+			},
+			{
+				"name": "DeepSeek-V4-Pro-0813",
+				"other_names": [],
+				"access": {
+					"announcement": "2026-08-13",
+					"api": "2026-08-13",
+					"weights": "2026-08-13",
+					"portable": false
+				},
+				"price": {
+					"input": 174,
+					"output": 348
+				}
+			}
+		]
+	},
+	{
+		"name": "DeepSeek-V4-Flash",
+		"other_names": [
+			"deepseek-v4-flash"
+		],
+		"link": "https://api-docs.deepseek.com/news/news260424",
+		"efforts": ["None", "Low", "High", "Max"],
+		"versions": [
+			{
+				"name": "DeepSeek-V4-Flash-Preview",
+				"other_names": [],
+				"access": {
+					"announcement": "2026-04-24",
+					"api": "2026-04-24",
+					"weights": "2026-04-24",
+					"portable": false
+				},
+				"price": {
+					"input": 14,
+					"output": 28
+				}
+			},
+			{
+				"name": "DeepSeek-V4-Flash-0731",
+				"other_names": [],
+				"access": {
+					"announcement": "2026-07-31",
+					"api": "2026-07-31",
+					"weights": "2026-07-31",
+					"portable": false
+				},
+				"price": {
+					"input": 14,
+					"output": 28
+				}
+			},
+			{
+				"name": "DeepSeek-V4-Flash-Vision-Exp",
+				"other_names": [
+					"deepseek-v4-flash-vision-exp"
+				],
+				"access": {
+					"announcement": "2026-08-21",
+					"api": "2026-08-21",
+					"weights": "2026-08-31",
+					"portable": false
+				},
+				"price": {
+					"input": 44,
+					"output": 132
+				}
+			}
+		]
+	}
+]

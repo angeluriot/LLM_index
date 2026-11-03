@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Gemini 3.7 Flash",
+		"other_names": [
+			"gemini-3.7-flash"
+		],
+		"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+		"price": {
+			"input": 75,
+			"output": 375
+		},
+		"access": {
+			"announcement": "2026-08-13",
+			"api": "2026-08-13",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	}
+]

@@ -1,0 +1,26 @@
+{
+	"display_name": "GPT-4o (Jan 2025)",
+	"names": [
+		"GPT-4o (Jan 2025)",
+		"ChatGPT-4o (Jan 2025)",
+		"chatgpt-4o-01-29-2025",
+		"GPT-4o (ChatGPT)"
+	],
+	"link": "https://openai.com/index/hello-gpt-4o/",
+	"history": {
+		"first_mention": "2025-01-29",
+		"access": "2025-01-29",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 5.0,
+		"output": 15.0
+	},
+	"efforts": [
+		""
+	]
+}

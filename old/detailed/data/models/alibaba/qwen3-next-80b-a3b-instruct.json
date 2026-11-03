@@ -1,0 +1,24 @@
+{
+	"display_name": "Qwen3 Next 80B A3B Instruct",
+	"names": [
+		"Qwen3 Next 80B A3B Instruct",
+		"Qwen3-Next-80B-A3B-Instruct"
+	],
+	"link": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct",
+	"history": {
+		"first_mention": "2025-09-11",
+		"access": "2025-09-11",
+		"weights": "2025-09-11"
+	},
+	"parameters": {
+		"all": 80000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": 0.1,
+		"output": 1.1
+	},
+	"efforts": [
+		""
+	]
+}

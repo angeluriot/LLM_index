@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Kimi K2.7 Code",
+		"other_names": [
+			"Kimi-K2.7-Code",
+			"kimi-k2.7-code"
+		],
+		"link": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+		"price": {
+			"input": 95,
+			"output": 400
+		},
+		"access": {
+			"announcement": "2026-06-12",
+			"api": "2026-06-12",
+			"weights": "2026-06-12",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

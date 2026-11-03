@@ -1,0 +1,25 @@
+{
+	"display_name": "GPT-J-6B",
+	"names": [
+		"GPT-J-6B",
+		"GPT-J (6B)",
+		"gpt-j-6b"
+	],
+	"link": "https://github.com/kingoflolz/mesh-transformer-jax",
+	"history": {
+		"first_mention": "2021-06-09",
+		"access": "2021-06-09",
+		"weights": "2021-06-09"
+	},
+	"parameters": {
+		"all": 6050000000,
+		"active": 6050000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

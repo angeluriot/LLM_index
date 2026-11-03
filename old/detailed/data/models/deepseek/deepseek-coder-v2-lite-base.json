@@ -1,0 +1,23 @@
+{
+	"display_name": "DeepSeek-Coder-V2-Lite-Base",
+	"names": [
+		"DeepSeek-Coder-V2-Lite-Base"
+	],
+	"link": "https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Base",
+	"history": {
+		"first_mention": "2024-06-13",
+		"access": "2024-06-13",
+		"weights": "2024-06-13"
+	},
+	"parameters": {
+		"all": 16000000000,
+		"active": 2400000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,58 @@
+{
+	"display_name": "GPT-4",
+	"versions": {
+		"2023-03-14": {
+			"display_name": "GPT-4 (Mar 2023)",
+			"names": [
+				"GPT-4 (Mar 2023)",
+				"GPT-4 (0314)",
+				"gpt-4-0314",
+				"gpt-4-32k-0314"
+			],
+			"link": "https://openai.com/index/gpt-4-research/",
+			"history": {
+				"first_mention": "2023-03-14",
+				"access": "2023-03-14",
+				"weights": null
+			},
+			"parameters": {
+				"all": 1800000000000,
+				"active": null
+			},
+			"price": {
+				"input": 30.0,
+				"output": 60.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"2023-06-13": {
+			"display_name": "GPT-4 (Jun 2023)",
+			"names": [
+				"GPT-4 (Jun 2023)",
+				"GPT-4 (June 2023)",
+				"GPT-4 (0613)",
+				"gpt-4-0613",
+				"gpt-4-32k-0613"
+			],
+			"link": "https://openai.com/index/function-calling-and-other-api-updates/",
+			"history": {
+				"first_mention": "2023-06-13",
+				"access": "2023-06-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": 1800000000000,
+				"active": null
+			},
+			"price": {
+				"input": 30.0,
+				"output": 60.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

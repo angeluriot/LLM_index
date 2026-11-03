@@ -1,0 +1,17 @@
+[
+	{
+		"name": "SmolLM3-3B",
+		"other_names": [
+			"SmolLM3"
+		],
+		"link": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
+		"price": null,
+		"access": {
+			"announcement": "2025-07-08",
+			"api": "2025-07-08",
+			"weights": "2025-07-08",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"display_name": "Celeris-1",
+	"names": [
+		"Celeris-1"
+	],
+	"link": "https://celeris.ai/",
+	"history": {
+		"first_mention": "2026-07-24",
+		"access": "2026-07-24",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.2,
+		"output": 0.7
+	},
+	"efforts": [
+		""
+	]
+}

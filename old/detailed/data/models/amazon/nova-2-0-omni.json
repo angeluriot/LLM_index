@@ -1,0 +1,25 @@
+{
+	"display_name": "Nova 2.0 Omni",
+	"names": [
+		"Nova 2.0 Omni"
+	],
+	"link": "https://aws.amazon.com/nova/",
+	"history": {
+		"first_mention": "2025-11-26",
+		"access": "2025-11-26",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Low",
+		"Medium"
+	]
+}

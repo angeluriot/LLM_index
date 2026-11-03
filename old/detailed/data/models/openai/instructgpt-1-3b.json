@@ -1,0 +1,24 @@
+{
+	"display_name": "InstructGPT 1.3B",
+	"names": [
+		"InstructGPT 1.3B",
+		"text-babbage-001"
+	],
+	"link": "https://arxiv.org/abs/2203.02155",
+	"history": {
+		"first_mention": "2022-01-27",
+		"access": "2022-01-27",
+		"weights": null
+	},
+	"parameters": {
+		"all": 1300000000,
+		"active": 1300000000
+	},
+	"price": {
+		"input": 0.5,
+		"output": 0.5
+	},
+	"efforts": [
+		""
+	]
+}

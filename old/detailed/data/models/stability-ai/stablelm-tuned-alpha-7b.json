@@ -1,0 +1,23 @@
+{
+	"display_name": "stablelm-tuned-alpha-7b",
+	"names": [
+		"stablelm-tuned-alpha-7b"
+	],
+	"link": "https://github.com/Stability-AI/StableLM",
+	"history": {
+		"first_mention": "2023-04-19",
+		"access": "2023-04-19",
+		"weights": "2023-04-19"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "Code Llama 7B Instruct",
+	"names": [
+		"Code Llama 7B Instruct",
+		"CodeLlama-7b-Instruct-hf"
+	],
+	"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+	"history": {
+		"first_mention": "2023-08-24",
+		"access": "2023-08-24",
+		"weights": "2023-08-24"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

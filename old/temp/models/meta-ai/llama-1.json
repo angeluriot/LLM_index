@@ -1,0 +1,71 @@
+[
+	{
+		"name": "Llama 1 7B",
+		"other_names": [
+			"LLaMA 7B",
+			"LLaMA-7B",
+			"llama-7b"
+		],
+		"link": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+		"price": null,
+		"access": {
+			"announcement": "2023-02-24",
+			"api": "2023-02-24",
+			"weights": "2023-02-24",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Llama 1 13B",
+		"other_names": [
+			"LLaMA 13B",
+			"LLaMA-13B",
+			"llama-13b"
+		],
+		"link": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+		"price": null,
+		"access": {
+			"announcement": "2023-02-24",
+			"api": "2023-02-24",
+			"weights": "2023-02-24",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Llama 1 33B",
+		"other_names": [
+			"LLaMA 33B",
+			"LLaMA-33B",
+			"LLaMA 30B",
+			"llama-30b"
+		],
+		"link": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+		"price": null,
+		"access": {
+			"announcement": "2023-02-24",
+			"api": "2023-02-24",
+			"weights": "2023-02-24",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Llama 1 65B",
+		"other_names": [
+			"LLaMA 65B",
+			"LLaMA-65B",
+			"llama-65b"
+		],
+		"link": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+		"price": null,
+		"access": {
+			"announcement": "2023-02-24",
+			"api": "2023-02-24",
+			"weights": "2023-02-24",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

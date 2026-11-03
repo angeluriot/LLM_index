@@ -1,0 +1,28 @@
+[
+	{
+		"name": "MAI-1-preview",
+		"other_names": [],
+		"link": "https://microsoft.ai/news/two-new-in-house-models/",
+		"price": null,
+		"access": {
+			"announcement": "2025-08-28",
+			"api": null,
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "MAI-Thinking-1",
+		"other_names": [],
+		"link": "https://microsoft.ai/news/introducing-mai-thinking-1/",
+		"price": null,
+		"access": {
+			"announcement": "2026-06-02",
+			"api": "2026-08-12",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

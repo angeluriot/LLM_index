@@ -1,0 +1,25 @@
+{
+	"display_name": "Qwen3 0.6B",
+	"names": [
+		"Qwen3 0.6B",
+		"Qwen3-0.6B"
+	],
+	"link": "https://huggingface.co/Qwen/Qwen3-0.6B",
+	"history": {
+		"first_mention": "2025-04-28",
+		"access": "2025-04-28",
+		"weights": "2025-04-28"
+	},
+	"parameters": {
+		"all": 752000000,
+		"active": 752000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

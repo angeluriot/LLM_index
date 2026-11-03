@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Grok Build 0.1",
+		"other_names": [
+			"grok-build-0.1"
+		],
+		"link": "https://docs.x.ai/developers/models/grok-build-0.1",
+		"price": {
+			"input": 100,
+			"output": 200
+		},
+		"access": {
+			"announcement": "2026-05-19",
+			"api": "2026-05-29",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

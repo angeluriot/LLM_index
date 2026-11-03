@@ -1,0 +1,24 @@
+{
+	"display_name": "Apriel-v1.6-15B-Thinker",
+	"names": [
+		"Apriel-v1.6-15B-Thinker",
+		"Apriel-1.6-15b-Thinker"
+	],
+	"link": "https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker",
+	"history": {
+		"first_mention": "2025-11-25",
+		"access": "2025-11-25",
+		"weights": "2025-11-25"
+	},
+	"parameters": {
+		"all": 15000000000,
+		"active": 15000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

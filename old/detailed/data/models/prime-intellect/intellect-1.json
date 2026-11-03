@@ -1,0 +1,24 @@
+{
+	"display_name": "INTELLECT-1",
+	"names": [
+		"INTELLECT-1",
+		"INTELLECT-1-Instruct"
+	],
+	"link": "https://github.com/PrimeIntellect-ai/prime/blob/main/INTELLECT_1_Technical_Report.pdf",
+	"history": {
+		"first_mention": "2024-11-29",
+		"access": "2024-11-29",
+		"weights": "2024-11-29"
+	},
+	"parameters": {
+		"all": 10000000000,
+		"active": 10000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display_name": "Qwen3.6 27B",
+	"names": [
+		"Qwen3.6 27B",
+		"qwen3.6-27b"
+	],
+	"link": "https://qwen.ai/blog?id=qwen3.6-27b",
+	"history": {
+		"first_mention": "2026-04-22",
+		"access": "2026-04-22",
+		"weights": "2026-04-22"
+	},
+	"parameters": {
+		"all": 28000000000,
+		"active": 28000000000
+	},
+	"price": {
+		"input": 0.45,
+		"output": 2.7
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "Tri-21B-think Preview",
+	"names": [
+		"Tri-21B-think Preview",
+		"Tri-21B-Think-Preview"
+	],
+	"link": "https://huggingface.co/trillionlabs/Tri-21B-Think-Preview",
+	"history": {
+		"first_mention": "2026-02-10",
+		"access": "2026-02-10",
+		"weights": "2026-02-10"
+	},
+	"parameters": {
+		"all": 21000000000,
+		"active": 21000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

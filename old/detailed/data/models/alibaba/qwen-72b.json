@@ -1,0 +1,23 @@
+{
+	"display_name": "Qwen-72B",
+	"names": [
+		"Qwen-72B"
+	],
+	"link": "https://huggingface.co/Qwen/Qwen-72B",
+	"history": {
+		"first_mention": "2023-11-30",
+		"access": "2023-11-30",
+		"weights": "2023-11-30"
+	},
+	"parameters": {
+		"all": 72000000000,
+		"active": 72000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

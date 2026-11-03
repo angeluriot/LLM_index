@@ -1,0 +1,23 @@
+{
+	"display_name": "ChatGLM3-6B",
+	"names": [
+		"ChatGLM3-6B"
+	],
+	"link": "https://www.zhipuai.cn/en/news/76",
+	"history": {
+		"first_mention": "2023-10-27",
+		"access": "2023-10-27",
+		"weights": "2023-10-27"
+	},
+	"parameters": {
+		"all": 6000000000,
+		"active": 6000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

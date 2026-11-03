@@ -1,0 +1,23 @@
+{
+	"display_name": "ERNIE 5.0 Thinking Preview",
+	"names": [
+		"ERNIE 5.0 Thinking Preview"
+	],
+	"link": "https://ernie.baidu.com/",
+	"history": {
+		"first_mention": "2025-11-13",
+		"access": "2025-11-13",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "Tencent Hy4 preview",
+	"names": [
+		"Tencent Hy4 preview",
+		"hy4-preview"
+	],
+	"link": "https://hy.tencent.com/hy4-preview",
+	"history": {
+		"first_mention": "2026-08-28",
+		"access": "2026-08-28",
+		"weights": "2026-08-28"
+	},
+	"parameters": {
+		"all": 770000000000,
+		"active": 49000000000
+	},
+	"price": {
+		"input": 0.834,
+		"output": 2.501
+	},
+	"efforts": [
+		""
+	]
+}

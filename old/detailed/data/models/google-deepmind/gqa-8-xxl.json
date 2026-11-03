@@ -1,0 +1,23 @@
+{
+	"display_name": "GQA-8-XXL",
+	"names": [
+		"GQA-8-XXL"
+	],
+	"link": "https://arxiv.org/abs/2305.13245",
+	"history": {
+		"first_mention": "2023-12-23",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 11000000000,
+		"active": 11000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

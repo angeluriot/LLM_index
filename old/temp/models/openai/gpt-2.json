@@ -1,0 +1,62 @@
+[
+	{
+		"name": "GPT-2",
+		"other_names": [],
+		"link": "https://openai.com/index/better-language-models/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "GPT-2 Small",
+				"other_names": [
+					"GPT-2 (124M)"
+				],
+				"access": {
+					"announcement": "2019-02-14",
+					"api": "2019-02-14",
+					"weights": "2019-02-14",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "GPT-2 Medium",
+				"other_names": [
+					"GPT-2 (355M)"
+				],
+				"access": {
+					"announcement": "2019-02-14",
+					"api": "2019-05-03",
+					"weights": "2019-05-03",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "GPT-2 Large",
+				"other_names": [
+					"GPT-2 (774M)"
+				],
+				"access": {
+					"announcement": "2019-02-14",
+					"api": "2019-08-20",
+					"weights": "2019-08-20",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "GPT-2 XL",
+				"other_names": [
+					"GPT-2 (1.5B)"
+				],
+				"access": {
+					"announcement": "2019-02-14",
+					"api": "2019-11-05",
+					"weights": "2019-11-05",
+					"portable": true
+				},
+				"price": null
+			}
+		]
+	}
+]

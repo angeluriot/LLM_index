@@ -1,0 +1,23 @@
+{
+	"display_name": "Mathstral",
+	"names": [
+		"Mathstral"
+	],
+	"link": "https://huggingface.co/mistralai/Mathstral-7B-v0.1",
+	"history": {
+		"first_mention": "2024-07-16",
+		"access": "2024-07-16",
+		"weights": "2024-07-16"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

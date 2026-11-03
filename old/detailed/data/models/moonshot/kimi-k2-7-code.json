@@ -1,0 +1,24 @@
+{
+	"display_name": "Kimi K2.7 Code",
+	"names": [
+		"Kimi K2.7 Code",
+		"kimi-k2.7-code"
+	],
+	"link": "https://platform.kimi.ai/docs/guide/kimi-k2-7-code-quickstart",
+	"history": {
+		"first_mention": "2026-06-12",
+		"access": "2026-06-12",
+		"weights": "2026-06-12"
+	},
+	"parameters": {
+		"all": 1040000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": 0.95,
+		"output": 4.0
+	},
+	"efforts": [
+		""
+	]
+}

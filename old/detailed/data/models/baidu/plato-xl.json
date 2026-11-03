@@ -1,0 +1,23 @@
+{
+	"display_name": "PLATO-XL",
+	"names": [
+		"PLATO-XL"
+	],
+	"link": "https://arxiv.org/abs/2109.09519",
+	"history": {
+		"first_mention": "2021-09-20",
+		"access": "2021-09-20",
+		"weights": "2021-09-20"
+	},
+	"parameters": {
+		"all": 11000000000,
+		"active": 11000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

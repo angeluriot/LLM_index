@@ -1,0 +1,23 @@
+{
+	"display_name": "INTELLECT-3",
+	"names": [
+		"INTELLECT-3"
+	],
+	"link": "https://huggingface.co/PrimeIntellect/INTELLECT-3",
+	"history": {
+		"first_mention": "2025-11-27",
+		"access": "2025-11-27",
+		"weights": "2025-11-27"
+	},
+	"parameters": {
+		"all": 107000000000,
+		"active": 12000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

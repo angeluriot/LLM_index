@@ -1,0 +1,33 @@
+{
+	"display_name": "GPT-3 1.3B (babbage)",
+	"versions": {
+		"2020-05-28": {
+			"display_name": "GPT-3 1.3B (babbage)",
+			"names": [
+				"GPT-3 1.3B (babbage)",
+				"GPT-3 1.3B",
+				"GPT-3 XL",
+				"GPT-3 XL (babbage)",
+				"GPT-3 babbage",
+				"babbage"
+			],
+			"link": "https://arxiv.org/abs/2005.14165",
+			"history": {
+				"first_mention": "2020-05-28",
+				"access": "2020-06-11",
+				"weights": null
+			},
+			"parameters": {
+				"all": 1320000000,
+				"active": 1320000000
+			},
+			"price": {
+				"input": 0.5,
+				"output": 0.5
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,17 @@
+[
+	{
+		"name": "MiMo-7B",
+		"other_names": [
+			"MiMo-7B-RL"
+		],
+		"link": "https://huggingface.co/XiaomiMiMo/MiMo-7B-RL",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-30",
+			"api": "2025-04-30",
+			"weights": "2025-04-30",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"display_name": "Nova Micro",
+	"names": [
+		"Nova Micro"
+	],
+	"link": "https://www.aboutamazon.com/news/aws/amazon-nova-artificial-intelligence-bedrock-aws",
+	"history": {
+		"first_mention": "2024-12-03",
+		"access": "2024-12-03",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.035,
+		"output": 0.14
+	},
+	"efforts": [
+		""
+	]
+}

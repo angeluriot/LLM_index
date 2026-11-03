@@ -1,0 +1,26 @@
+{
+	"display_name": "Claude 3.5 Sonnet",
+	"names": [
+		"Claude 3.5 Sonnet",
+		"Claude 3.5 Sonnet (Jun 2024)",
+		"claude-3-5-sonnet-20240620",
+		"Claude 3.5 Sonnet (June '24)"
+	],
+	"link": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+	"history": {
+		"first_mention": "2024-06-20",
+		"access": "2024-06-20",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 3.0,
+		"output": 15.0
+	},
+	"efforts": [
+		""
+	]
+}

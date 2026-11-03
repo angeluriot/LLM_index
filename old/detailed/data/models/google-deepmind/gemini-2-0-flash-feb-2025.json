@@ -1,0 +1,26 @@
+{
+	"display_name": "Gemini 2.0 Flash (Feb 2025)",
+	"names": [
+		"Gemini 2.0 Flash (Feb 2025)",
+		"gemini-2.0-flash-001",
+		"gemini-2.0-flash-02-05",
+		"Gemini 2.0 Flash (Feb '25)"
+	],
+	"link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#ceo-message",
+	"history": {
+		"first_mention": "2025-02-05",
+		"access": "2025-02-05",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.1,
+		"output": 0.4
+	},
+	"efforts": [
+		""
+	]
+}

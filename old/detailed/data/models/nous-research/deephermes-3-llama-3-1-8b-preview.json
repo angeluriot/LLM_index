@@ -1,0 +1,24 @@
+{
+	"display_name": "DeepHermes 3 - Llama-3.1 8B Preview",
+	"names": [
+		"DeepHermes 3 - Llama-3.1 8B Preview",
+		"DeepHermes-3-Llama-3-8B-Preview"
+	],
+	"link": "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview",
+	"history": {
+		"first_mention": "2025-02-13",
+		"access": "2025-02-13",
+		"weights": "2025-02-13"
+	},
+	"parameters": {
+		"all": 8000000000,
+		"active": 8000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

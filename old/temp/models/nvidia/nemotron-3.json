@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Nemotron 3 Nano",
+		"other_names": [
+			"NVIDIA-Nemotron-3-Nano-30B-A3B"
+		],
+		"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+		"price": null,
+		"access": {
+			"announcement": "2025-12-15",
+			"api": "2025-12-15",
+			"weights": "2025-12-15",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Nemotron 3 Super",
+		"other_names": [
+			"NVIDIA-Nemotron-3-Super-120B-A12B"
+		],
+		"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+		"price": null,
+		"access": {
+			"announcement": "2025-12-15",
+			"api": "2026-03-11",
+			"weights": "2026-03-11",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Nemotron 3 Ultra",
+		"other_names": [
+			"NVIDIA-Nemotron-3-Ultra-550B-A55B"
+		],
+		"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+		"price": null,
+		"access": {
+			"announcement": "2025-12-15",
+			"api": "2026-06-04",
+			"weights": "2026-06-04",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

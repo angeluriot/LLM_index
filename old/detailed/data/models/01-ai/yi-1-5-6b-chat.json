@@ -1,0 +1,23 @@
+{
+	"display_name": "Yi-1.5-6B-Chat",
+	"names": [
+		"Yi-1.5-6B-Chat"
+	],
+	"link": "https://huggingface.co/01-ai/Yi-1.5-6B-Chat",
+	"history": {
+		"first_mention": "2024-05-13",
+		"access": "2024-05-13",
+		"weights": "2024-05-13"
+	},
+	"parameters": {
+		"all": 6000000000,
+		"active": 6000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

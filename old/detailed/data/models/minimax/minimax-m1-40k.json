@@ -1,0 +1,24 @@
+{
+	"display_name": "MiniMax M1 40k",
+	"names": [
+		"MiniMax M1 40k",
+		"MiniMax-M1-40k"
+	],
+	"link": "https://huggingface.co/MiniMaxAI/MiniMax-M1-40k",
+	"history": {
+		"first_mention": "2025-06-17",
+		"access": "2025-06-17",
+		"weights": "2025-06-17"
+	},
+	"parameters": {
+		"all": 456000000000,
+		"active": 45900000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

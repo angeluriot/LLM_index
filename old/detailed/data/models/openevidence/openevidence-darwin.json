@@ -1,0 +1,23 @@
+{
+	"display_name": "OpenEvidence Darwin",
+	"names": [
+		"OpenEvidence Darwin"
+	],
+	"link": "https://www.openevidence.com/blog/model-family",
+	"history": {
+		"first_mention": "2026-09-03",
+		"access": "2026-09-03",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

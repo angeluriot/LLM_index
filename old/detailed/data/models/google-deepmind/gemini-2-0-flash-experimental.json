@@ -1,0 +1,23 @@
+{
+	"display_name": "Gemini 2.0 Flash (experimental)",
+	"names": [
+		"Gemini 2.0 Flash (experimental)"
+	],
+	"link": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/",
+	"history": {
+		"first_mention": "2024-12-11",
+		"access": "2024-12-11",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0,
+		"output": 0
+	},
+	"efforts": [
+		""
+	]
+}

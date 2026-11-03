@@ -1,0 +1,24 @@
+{
+	"display_name": "Command A+",
+	"names": [
+		"Command A+",
+		"command-a-plus-05-2026-bf16"
+	],
+	"link": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16",
+	"history": {
+		"first_mention": "2026-05-20",
+		"access": "2026-05-20",
+		"weights": "2026-05-20"
+	},
+	"parameters": {
+		"all": 218000000000,
+		"active": 25000000000
+	},
+	"price": {
+		"input": 0,
+		"output": 0
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "Megatron-LM (8.3B)",
+	"names": [
+		"Megatron-LM (8.3B)"
+	],
+	"link": "https://arxiv.org/abs/1909.08053",
+	"history": {
+		"first_mention": "2019-09-17",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 8300000000,
+		"active": 8300000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

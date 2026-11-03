@@ -1,0 +1,24 @@
+{
+	"display_name": "Falcon-40B",
+	"names": [
+		"Falcon-40B",
+		"falcon-40b"
+	],
+	"link": "https://arxiv.org/abs/2311.16867;",
+	"history": {
+		"first_mention": "2023-03-15",
+		"access": "2023-03-15",
+		"weights": "2023-03-15"
+	},
+	"parameters": {
+		"all": 40000000000,
+		"active": 40000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

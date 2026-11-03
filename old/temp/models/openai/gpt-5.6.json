@@ -1,0 +1,71 @@
+[
+	{
+		"name": "GPT-5.6 Sol",
+		"other_names": [
+			"gpt-5.6"
+		],
+		"link": "https://help.openai.com/en/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna",
+		"price": {
+			"input": 500,
+			"output": 3000
+		},
+		"access": {
+			"announcement": "2026-06-26",
+			"api": "2026-07-09",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh", "Max", "Pro"]
+	},
+	{
+		"name": "GPT-5.6 Terra",
+		"other_names": [],
+		"link": "https://help.openai.com/en/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna",
+		"price": {
+			"input": 250,
+			"output": 1500
+		},
+		"access": {
+			"announcement": "2026-06-26",
+			"api": "2026-07-09",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh", "Max"]
+	},
+	{
+		"name": "GPT-5.6 Luna",
+		"other_names": [],
+		"link": "https://help.openai.com/en/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna",
+		"price": {
+			"input": 100,
+			"output": 600
+		},
+		"access": {
+			"announcement": "2026-06-26",
+			"api": "2026-07-09",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh", "Max"]
+	},
+	{
+		"name": "GPT-5.6 Cyber",
+		"other_names": [
+			"GPT-5.6-Cyber",
+			"gpt-5.6-cyber"
+		],
+		"link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+		"price": {
+			"input": 1250,
+			"output": 7500
+		},
+		"access": {
+			"announcement": "2026-08-10",
+			"api": null,
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh", "Max"]
+	}
+]

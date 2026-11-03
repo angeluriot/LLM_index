@@ -1,0 +1,23 @@
+{
+	"display_name": "Jais",
+	"names": [
+		"Jais"
+	],
+	"link": "https://arxiv.org/abs/2308.16149",
+	"history": {
+		"first_mention": "2023-08-29",
+		"access": "2023-08-29",
+		"weights": "2023-08-29"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

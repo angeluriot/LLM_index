@@ -1,0 +1,24 @@
+{
+	"display_name": "Cogito v2.1",
+	"names": [
+		"Cogito v2.1",
+		"cogito-671b-v2.1"
+	],
+	"link": "https://huggingface.co/deepcogito/cogito-671b-v2.1",
+	"history": {
+		"first_mention": "2025-11-18",
+		"access": "2025-11-18",
+		"weights": "2025-11-18"
+	},
+	"parameters": {
+		"all": 671000000000,
+		"active": 37000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

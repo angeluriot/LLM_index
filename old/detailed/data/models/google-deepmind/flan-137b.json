@@ -1,0 +1,23 @@
+{
+	"display_name": "FLAN 137B",
+	"names": [
+		"FLAN 137B"
+	],
+	"link": "https://arxiv.org/abs/2109.01652",
+	"history": {
+		"first_mention": "2021-09-03",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 137000000000,
+		"active": 137000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

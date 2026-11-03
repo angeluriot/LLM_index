@@ -1,0 +1,27 @@
+{
+	"display_name": "Llama 4 Maverick",
+	"names": [
+		"Llama 4 Maverick",
+		"Llama 4 Maverick (FP8)",
+		"Llama 4 Maverick (128 experts)",
+		"Llama-4-Maverick-17B-128E-Instruct-FP8",
+		"Llama-4-Maverick-17B-128E-Instruct"
+	],
+	"link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+	"history": {
+		"first_mention": "2025-04-05",
+		"access": "2025-04-05",
+		"weights": "2025-04-05"
+	},
+	"parameters": {
+		"all": 400000000000,
+		"active": 17000000000
+	},
+	"price": {
+		"input": 0.27,
+		"output": 0.85
+	},
+	"efforts": [
+		""
+	]
+}

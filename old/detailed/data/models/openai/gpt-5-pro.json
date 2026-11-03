@@ -1,0 +1,24 @@
+{
+	"display_name": "GPT-5 Pro",
+	"names": [
+		"GPT-5 Pro",
+		"gpt-5-pro-2025-10-06"
+	],
+	"link": "https://cdn.openai.com/gpt-5-system-card.pdf",
+	"history": {
+		"first_mention": "2025-10-07",
+		"access": "2025-10-07",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 15.0,
+		"output": 120.0
+	},
+	"efforts": [
+		"High"
+	]
+}

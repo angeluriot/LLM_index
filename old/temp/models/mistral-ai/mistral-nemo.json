@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Mistral NeMo",
+		"other_names": [
+			"Mistral Nemo 12B",
+			"Mistral-Nemo-Instruct-2407",
+			"open-mistral-nemo"
+		],
+		"link": "https://mistral.ai/news/mistral-nemo/",
+		"price": {
+			"input": 30,
+			"output": 30
+		},
+		"access": {
+			"announcement": "2024-07-18",
+			"api": "2024-07-18",
+			"weights": "2024-07-18",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

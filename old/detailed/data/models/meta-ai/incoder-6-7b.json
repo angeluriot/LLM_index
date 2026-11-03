@@ -1,0 +1,23 @@
+{
+	"display_name": "Incoder-6.7B",
+	"names": [
+		"Incoder-6.7B"
+	],
+	"link": "https://arxiv.org/abs/2204.05999",
+	"history": {
+		"first_mention": "2023-04-09",
+		"access": "2023-04-09",
+		"weights": "2023-04-09"
+	},
+	"parameters": {
+		"all": 6700000000,
+		"active": 6700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

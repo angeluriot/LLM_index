@@ -1,0 +1,23 @@
+{
+	"display_name": "Inflection-2.5",
+	"names": [
+		"Inflection-2.5"
+	],
+	"link": "https://inflection.ai/inflection-2-5",
+	"history": {
+		"first_mention": "2024-03-07",
+		"access": "2024-03-07",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

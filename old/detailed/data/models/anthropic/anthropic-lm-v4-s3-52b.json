@@ -1,0 +1,23 @@
+{
+	"display_name": "Anthropic-LM v4-s3 (52B)",
+	"names": [
+		"Anthropic-LM v4-s3 (52B)"
+	],
+	"link": "https://arxiv.org/abs/2112.00861",
+	"history": {
+		"first_mention": "2021-12-01",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 52000000000,
+		"active": 52000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

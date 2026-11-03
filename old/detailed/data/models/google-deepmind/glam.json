@@ -1,0 +1,24 @@
+{
+	"display_name": "GLaM",
+	"names": [
+		"GLaM",
+		"GLaM (MoE)"
+	],
+	"link": "https://arxiv.org/abs/2112.06905",
+	"history": {
+		"first_mention": "2021-12-13",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 1200000000000,
+		"active": 97000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

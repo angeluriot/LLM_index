@@ -1,0 +1,26 @@
+{
+	"university-students": {
+		"name": "University students",
+		"description": "Two university students who like mathematics (14/20 and 15/20), 20 random MATH problems in 1 hour by hand (Hendrycks et al. 2021)"
+	},
+	"aime-participants": {
+		"name": "AIME participants",
+		"description": "Median score (6/15) of the US high school students qualified through the AMC 10/12 on the official AIME 2025 I and II (MAA)"
+	},
+	"usamo-participants": {
+		"name": "USAMO participants",
+		"description": "Perfect score on the AMC 10 and several USAMO participations, 20 random MATH problems in 1 hour by hand (Hendrycks et al. 2021)"
+	},
+	"imo-gold-medalists": {
+		"name": "IMO gold medalists",
+		"description": "Three-time IMO gold medalist, 20 random MATH problems in 1 hour by hand, missed questions only due to arithmetic errors (Hendrycks et al. 2021)"
+	},
+	"phds": {
+		"name": "Strong math undergrads and PhD holders",
+		"description": "Problems solved by at least one of the 8 teams of 4-5 strong math undergrads and PhD holders, 23 FrontierMath tier 1-3 problems in 4.5 hours with internet (Epoch AI, MIT, March 2025)"
+	},
+	"humanity": {
+		"name": "Humanity",
+		"description": "The best of what all of humanity can achieve in mathematics"
+	}
+}

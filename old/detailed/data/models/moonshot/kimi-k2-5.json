@@ -1,0 +1,27 @@
+{
+	"display_name": "Kimi K2.5",
+	"names": [
+		"Kimi K2.5",
+		"Kimi K2.5 (instant)",
+		"kimi-k2.5",
+		"kimi-k2p5"
+	],
+	"link": "https://arxiv.org/abs/2602.02276",
+	"history": {
+		"first_mention": "2026-01-27",
+		"access": "2026-01-27",
+		"weights": "2026-01-27"
+	},
+	"parameters": {
+		"all": 1040000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": 0.6,
+		"output": 3.0
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "DeepSeek-Coder-V2-Base",
+	"names": [
+		"DeepSeek-Coder-V2-Base",
+		"DeepSeek-Coder-V2 (base)"
+	],
+	"link": "https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+	"history": {
+		"first_mention": "2024-06-17",
+		"access": "2024-06-17",
+		"weights": "2024-06-17"
+	},
+	"parameters": {
+		"all": 236000000000,
+		"active": 21000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

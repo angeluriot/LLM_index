@@ -1,0 +1,26 @@
+{
+	"display_name": "Qwen3-235B-A22B",
+	"names": [
+		"Qwen3-235B-A22B",
+		"Qwen3 (Apr 2025)",
+		"qwen3-235b-a22b"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen3/",
+	"history": {
+		"first_mention": "2025-04-28",
+		"access": "2025-04-28",
+		"weights": "2025-04-28"
+	},
+	"parameters": {
+		"all": 235000000000,
+		"active": 22000000000
+	},
+	"price": {
+		"input": 0.455,
+		"output": 1.82
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

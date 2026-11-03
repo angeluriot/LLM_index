@@ -1,0 +1,23 @@
+{
+	"display_name": "Kimi k1.5",
+	"names": [
+		"Kimi k1.5"
+	],
+	"link": "https://arxiv.org/abs/2501.12599v1",
+	"history": {
+		"first_mention": "2025-01-22",
+		"access": "2025-01-22",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

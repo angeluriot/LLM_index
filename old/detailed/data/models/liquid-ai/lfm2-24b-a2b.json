@@ -1,0 +1,24 @@
+{
+	"display_name": "LFM2 24B A2B",
+	"names": [
+		"LFM2 24B A2B",
+		"LFM2-24B-A2B"
+	],
+	"link": "https://huggingface.co/LiquidAI/LFM2-24B-A2B",
+	"history": {
+		"first_mention": "2026-02-25",
+		"access": "2026-02-25",
+		"weights": "2026-02-25"
+	},
+	"parameters": {
+		"all": 23800000000,
+		"active": 2300000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

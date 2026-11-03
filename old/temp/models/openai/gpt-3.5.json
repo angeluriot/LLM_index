@@ -1,0 +1,157 @@
+[
+	{
+		"name": "GPT-3.5",
+		"other_names": [],
+		"link": "https://openai.com/index/gpt-3-edit-insert/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "code-davinci-002",
+				"other_names": [],
+				"access": {
+					"announcement": "2022-03-15",
+					"api": "2022-03-15",
+					"weights": null,
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "text-davinci-002",
+				"other_names": [
+					"GPT-3.5 (davinci-002)"
+				],
+				"access": {
+					"announcement": "2022-03-15",
+					"api": "2022-03-15",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 6000,
+					"output": 6000
+				}
+			},
+			{
+				"name": "text-davinci-003",
+				"other_names": [
+					"GPT-3.5 (davinci-003)"
+				],
+				"access": {
+					"announcement": "2022-11-28",
+					"api": "2022-11-28",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 2000,
+					"output": 2000
+				}
+			}
+		]
+	},
+	{
+		"name": "GPT-3.5 Turbo",
+		"other_names": [
+			"gpt-3.5-turbo"
+		],
+		"link": "https://openai.com/index/chatgpt/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "ChatGPT (Nov 2022)",
+				"other_names": [
+					"ChatGPT"
+				],
+				"access": {
+					"announcement": "2022-11-30",
+					"api": "2022-11-30",
+					"weights": null,
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "GPT-3.5 Turbo (Mar 2023)",
+				"other_names": [
+					"gpt-3.5-turbo-0301"
+				],
+				"access": {
+					"announcement": "2023-03-01",
+					"api": "2023-03-01",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 200,
+					"output": 200
+				}
+			},
+			{
+				"name": "GPT-3.5 Turbo (Jun 2023)",
+				"other_names": [
+					"gpt-3.5-turbo-0613",
+					"gpt-3.5-turbo-16k-0613"
+				],
+				"access": {
+					"announcement": "2023-06-13",
+					"api": "2023-06-13",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 150,
+					"output": 200
+				}
+			},
+			{
+				"name": "GPT-3.5 Turbo Instruct",
+				"other_names": [
+					"gpt-3.5-turbo-instruct"
+				],
+				"access": {
+					"announcement": "2023-09-18",
+					"api": "2023-09-18",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 150,
+					"output": 200
+				}
+			},
+			{
+				"name": "GPT-3.5 Turbo (Nov 2023)",
+				"other_names": [
+					"gpt-3.5-turbo-1106"
+				],
+				"access": {
+					"announcement": "2023-11-06",
+					"api": "2023-11-06",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 100,
+					"output": 200
+				}
+			},
+			{
+				"name": "GPT-3.5 Turbo (Jan 2024)",
+				"other_names": [
+					"gpt-3.5-turbo-0125"
+				],
+				"access": {
+					"announcement": "2024-01-25",
+					"api": "2024-01-25",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 50,
+					"output": 150
+				}
+			}
+		]
+	}
+]

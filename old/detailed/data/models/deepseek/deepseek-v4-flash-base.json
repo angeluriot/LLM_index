@@ -1,0 +1,23 @@
+{
+	"display_name": "DeepSeek-V4-Flash-Base",
+	"names": [
+		"DeepSeek-V4-Flash-Base"
+	],
+	"link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf",
+	"history": {
+		"first_mention": "2026-04-24",
+		"access": "2026-04-24",
+		"weights": "2026-04-24"
+	},
+	"parameters": {
+		"all": 284000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

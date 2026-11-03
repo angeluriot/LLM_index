@@ -1,0 +1,24 @@
+{
+	"display_name": "Jamba Reasoning 3B",
+	"names": [
+		"Jamba Reasoning 3B",
+		"AI21-Jamba-Reasoning-3B"
+	],
+	"link": "https://huggingface.co/ai21labs/AI21-Jamba-Reasoning-3B",
+	"history": {
+		"first_mention": "2025-10-08",
+		"access": "2025-10-08",
+		"weights": "2025-10-08"
+	},
+	"parameters": {
+		"all": 3000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

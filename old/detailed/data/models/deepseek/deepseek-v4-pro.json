@@ -1,0 +1,29 @@
+{
+	"display_name": "DeepSeek-V4-Pro",
+	"names": [
+		"DeepSeek-V4-Pro",
+		"DeepSeek v4 Pro",
+		"DeepSeek v4",
+		"deepseek-v4-pro",
+		"DeepSeek V4 Pro 0424"
+	],
+	"link": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf",
+	"history": {
+		"first_mention": "2026-04-24",
+		"access": "2026-04-24",
+		"weights": "2026-04-24"
+	},
+	"parameters": {
+		"all": 1600000000000,
+		"active": 49000000000
+	},
+	"price": {
+		"input": 1.74,
+		"output": 3.48
+	},
+	"efforts": [
+		"None",
+		"High",
+		"Max"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "Llama 3.1 Nemotron Nano 4B v1.1",
+	"names": [
+		"Llama 3.1 Nemotron Nano 4B v1.1",
+		"Llama-3.1-Nemotron-Nano-4B-v1.1"
+	],
+	"link": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-Nano-4B-v1.1",
+	"history": {
+		"first_mention": "2025-05-20",
+		"access": "2025-05-20",
+		"weights": "2025-05-20"
+	},
+	"parameters": {
+		"all": 4510000000,
+		"active": 4510000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

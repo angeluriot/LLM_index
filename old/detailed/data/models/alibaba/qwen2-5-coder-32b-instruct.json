@@ -1,0 +1,25 @@
+{
+	"display_name": "Qwen2.5-Coder-32B-Instruct",
+	"names": [
+		"Qwen2.5-Coder-32B-Instruct",
+		"Qwen2.5 Coder Instruct 32B",
+		"Qwen2.5-Coder-32B-Instruct-Q8_0-GGUF"
+	],
+	"link": "https://arxiv.org/abs/2409.12186",
+	"history": {
+		"first_mention": "2024-09-19",
+		"access": "2024-11-12",
+		"weights": "2024-11-12"
+	},
+	"parameters": {
+		"all": 32500000000,
+		"active": 32500000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

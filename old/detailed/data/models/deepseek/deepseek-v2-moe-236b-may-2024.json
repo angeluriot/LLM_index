@@ -1,0 +1,25 @@
+{
+	"display_name": "DeepSeek-V2 (MoE-236B, May 2024)",
+	"names": [
+		"DeepSeek-V2 (MoE-236B, May 2024)",
+		"DeepSeek-V2",
+		"DeepSeek-V2-Chat"
+	],
+	"link": "https://arxiv.org/abs/2405.04434",
+	"history": {
+		"first_mention": "2024-05-06",
+		"access": "2024-05-07",
+		"weights": "2024-05-07"
+	},
+	"parameters": {
+		"all": 236000000000,
+		"active": 21000000000
+	},
+	"price": {
+		"input": 0.14,
+		"output": 0.28
+	},
+	"efforts": [
+		""
+	]
+}

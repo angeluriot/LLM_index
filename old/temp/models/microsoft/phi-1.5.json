@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Phi-1.5",
+		"other_names": [
+			"phi-1_5"
+		],
+		"link": "https://huggingface.co/microsoft/phi-1_5",
+		"price": null,
+		"access": {
+			"announcement": "2023-09-11",
+			"api": "2023-09-11",
+			"weights": "2023-09-11",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

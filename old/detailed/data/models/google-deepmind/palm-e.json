@@ -1,0 +1,23 @@
+{
+	"display_name": "PaLM-E",
+	"names": [
+		"PaLM-E"
+	],
+	"link": "https://arxiv.org/abs/2303.03378",
+	"history": {
+		"first_mention": "2023-03-06",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 562000000000,
+		"active": 562000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

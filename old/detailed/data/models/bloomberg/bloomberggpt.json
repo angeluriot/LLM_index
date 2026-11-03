@@ -1,0 +1,23 @@
+{
+	"display_name": "BloombergGPT",
+	"names": [
+		"BloombergGPT"
+	],
+	"link": "https://arxiv.org/abs/2303.17564",
+	"history": {
+		"first_mention": "2023-03-30",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 50558868480,
+		"active": 50558868480
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

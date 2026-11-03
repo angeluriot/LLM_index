@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Grok Code Fast 1",
+		"other_names": [
+			"grok-code-fast-1"
+		],
+		"link": "https://x.ai/news/grok-code-fast-1",
+		"price": {
+			"input": 20,
+			"output": 150
+		},
+		"access": {
+			"announcement": "2025-08-28",
+			"api": "2025-08-28",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

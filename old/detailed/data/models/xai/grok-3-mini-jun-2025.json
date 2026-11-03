@@ -1,0 +1,26 @@
+{
+	"display_name": "Grok-3 mini (Jun 2025)",
+	"names": [
+		"Grok-3 mini (Jun 2025)",
+		"Grok 3 mini",
+		"grok-3-mini"
+	],
+	"link": "https://x.ai/news/grok-3",
+	"history": {
+		"first_mention": "2025-06-24",
+		"access": "2025-06-24",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.45,
+		"output": 2.25
+	},
+	"efforts": [
+		"Low",
+		"High"
+	]
+}

@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Claude Fable 5.1",
+		"other_names": [
+			"claude-fable-5-1"
+		],
+		"link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+		"price": {
+			"input": 1000,
+			"output": 5000
+		},
+		"access": {
+			"announcement": "2026-09-01",
+			"api": "2026-09-01",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High", "Xhigh", "Max"]
+	},
+	{
+		"name": "Claude Mythos 5.1",
+		"other_names": [
+			"claude-mythos-5-1"
+		],
+		"link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+		"price": {
+			"input": 1000,
+			"output": 5000
+		},
+		"access": {
+			"announcement": "2026-09-01",
+			"api": null,
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High", "Xhigh", "Max"]
+	}
+]

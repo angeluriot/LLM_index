@@ -1,0 +1,23 @@
+{
+	"display_name": "M6-T",
+	"names": [
+		"M6-T"
+	],
+	"link": "https://arxiv.org/abs/2105.15082",
+	"history": {
+		"first_mention": "2021-03-05",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 1002700000000,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

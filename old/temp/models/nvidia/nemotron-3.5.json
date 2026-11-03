@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Nemotron 3.5 Lightning",
+		"other_names": [
+			"NVIDIA-Nemotron-3.5-Lightning-30B-A3B"
+		],
+		"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+		"price": null,
+		"access": {
+			"announcement": "2026-08-01",
+			"api": "2026-08-01",
+			"weights": "2026-08-01",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

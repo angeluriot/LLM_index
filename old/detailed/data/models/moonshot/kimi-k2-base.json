@@ -1,0 +1,24 @@
+{
+	"display_name": "Kimi K2 Base",
+	"names": [
+		"Kimi K2 Base",
+		"Kimi-K2-Base"
+	],
+	"link": "https://huggingface.co/moonshotai/Kimi-K2-Base",
+	"history": {
+		"first_mention": "2025-07-11",
+		"access": "2025-07-12",
+		"weights": "2025-07-12"
+	},
+	"parameters": {
+		"all": 1000000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

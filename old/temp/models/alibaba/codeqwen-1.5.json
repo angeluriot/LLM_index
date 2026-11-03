@@ -1,0 +1,17 @@
+[
+	{
+		"name": "CodeQwen1.5-7B",
+		"other_names": [
+			"CodeQwen1.5-7B-Chat"
+		],
+		"link": "https://qwenlm.github.io/blog/codeqwen1.5/",
+		"price": null,
+		"access": {
+			"announcement": "2024-04-16",
+			"api": "2024-04-16",
+			"weights": "2024-04-16",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

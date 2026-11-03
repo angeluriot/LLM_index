@@ -1,0 +1,23 @@
+{
+	"display_name": "Nova Premier",
+	"names": [
+		"Nova Premier"
+	],
+	"link": "https://aws.amazon.com/blogs/aws/amazon-nova-premier-our-most-capable-model-for-complex-tasks-and-teacher-for-model-distillation/",
+	"history": {
+		"first_mention": "2025-04-30",
+		"access": "2025-04-30",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 2.5,
+		"output": 12.5
+	},
+	"efforts": [
+		""
+	]
+}

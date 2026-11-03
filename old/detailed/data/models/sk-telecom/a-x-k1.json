@@ -1,0 +1,24 @@
+{
+	"display_name": "A.X K1",
+	"names": [
+		"A.X K1"
+	],
+	"link": "https://arxiv.org/abs/2601.09200",
+	"history": {
+		"first_mention": "2025-12-30",
+		"access": "2025-12-30",
+		"weights": "2025-12-30"
+	},
+	"parameters": {
+		"all": 519000000000,
+		"active": 33000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

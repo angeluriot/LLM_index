@@ -1,0 +1,23 @@
+{
+	"display_name": "CogVLM-17B",
+	"names": [
+		"CogVLM-17B"
+	],
+	"link": "https://arxiv.org/abs/2311.03079",
+	"history": {
+		"first_mention": "2023-11-06",
+		"access": "2023-11-06",
+		"weights": "2023-11-06"
+	},
+	"parameters": {
+		"all": 17000000000,
+		"active": 17000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

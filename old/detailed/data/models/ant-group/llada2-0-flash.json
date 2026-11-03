@@ -1,0 +1,23 @@
+{
+	"display_name": "LLaDA2.0-flash",
+	"names": [
+		"LLaDA2.0-flash"
+	],
+	"link": "https://huggingface.co/inclusionAI/LLaDA2.0-flash",
+	"history": {
+		"first_mention": "2025-11-25",
+		"access": "2025-11-25",
+		"weights": "2025-11-25"
+	},
+	"parameters": {
+		"all": 100000000000,
+		"active": 6100000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

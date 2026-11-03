@@ -1,0 +1,23 @@
+{
+	"display_name": "DeepNet",
+	"names": [
+		"DeepNet"
+	],
+	"link": "https://arxiv.org/abs/2203.00555",
+	"history": {
+		"first_mention": "2022-03-01",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 3200000000,
+		"active": 3200000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

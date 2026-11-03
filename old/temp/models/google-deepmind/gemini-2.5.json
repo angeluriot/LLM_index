@@ -1,0 +1,193 @@
+[
+	{
+		"name": "Gemini 2.5 Pro",
+		"other_names": [
+			"gemini-2.5-pro"
+		],
+		"link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/",
+		"efforts": ["Low", "Medium", "High"],
+		"versions": [
+			{
+				"name": "Gemini 2.5 Pro (Mar 2025)",
+				"other_names": [
+					"gemini-2.5-pro-exp-03-25",
+					"gemini-2.5-pro-preview-03-25"
+				],
+				"access": {
+					"announcement": "2025-03-25",
+					"api": "2025-03-25",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 125,
+					"output": 1000
+				}
+			},
+			{
+				"name": "Gemini 2.5 Pro (May 2025)",
+				"other_names": [
+					"gemini-2.5-pro-preview-05-06",
+					"Gemini 2.5 Pro I/O Edition"
+				],
+				"access": {
+					"announcement": "2025-05-06",
+					"api": "2025-05-06",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 125,
+					"output": 1000
+				}
+			},
+			{
+				"name": "Gemini 2.5 Pro (Jun 2025)",
+				"other_names": [
+					"gemini-2.5-pro-preview-06-05",
+					"gemini-2.5-pro"
+				],
+				"access": {
+					"announcement": "2025-06-05",
+					"api": "2025-06-05",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 125,
+					"output": 1000
+				}
+			}
+		]
+	},
+	{
+		"name": "Gemini 2.5 Flash",
+		"other_names": [
+			"gemini-2.5-flash"
+		],
+		"link": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/",
+		"efforts": ["None", "Low", "Medium", "High"],
+		"versions": [
+			{
+				"name": "Gemini 2.5 Flash (Apr 2025)",
+				"other_names": [
+					"gemini-2.5-flash-preview-04-17"
+				],
+				"access": {
+					"announcement": "2025-04-17",
+					"api": "2025-04-17",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 15,
+					"output": 350
+				}
+			},
+			{
+				"name": "Gemini 2.5 Flash (May 2025)",
+				"other_names": [
+					"gemini-2.5-flash-preview-05-20"
+				],
+				"access": {
+					"announcement": "2025-05-20",
+					"api": "2025-05-20",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 15,
+					"output": 350
+				}
+			},
+			{
+				"name": "Gemini 2.5 Flash (Jun 2025)",
+				"other_names": [
+					"gemini-2.5-flash"
+				],
+				"access": {
+					"announcement": "2025-06-17",
+					"api": "2025-06-17",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 30,
+					"output": 250
+				}
+			},
+			{
+				"name": "Gemini 2.5 Flash (Sep 2025)",
+				"other_names": [
+					"gemini-2.5-flash-preview-09-2025"
+				],
+				"access": {
+					"announcement": "2025-09-25",
+					"api": "2025-09-25",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 30,
+					"output": 250
+				}
+			}
+		]
+	},
+	{
+		"name": "Gemini 2.5 Flash-Lite",
+		"other_names": [
+			"gemini-2.5-flash-lite"
+		],
+		"link": "https://developers.googleblog.com/en/gemini-2-5-thinking-model-updates/",
+		"efforts": ["None", "Low", "Medium", "High"],
+		"versions": [
+			{
+				"name": "Gemini 2.5 Flash-Lite (Jun 2025)",
+				"other_names": [
+					"gemini-2.5-flash-lite-preview-06-17",
+					"gemini-2.5-flash-lite"
+				],
+				"access": {
+					"announcement": "2025-06-17",
+					"api": "2025-06-17",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 10,
+					"output": 40
+				}
+			},
+			{
+				"name": "Gemini 2.5 Flash-Lite (Sep 2025)",
+				"other_names": [
+					"gemini-2.5-flash-lite-preview-09-2025"
+				],
+				"access": {
+					"announcement": "2025-09-25",
+					"api": "2025-09-25",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 10,
+					"output": 40
+				}
+			}
+		]
+	},
+	{
+		"name": "Gemini 2.5 Deep Think",
+		"other_names": [],
+		"link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-updates-io-2025/",
+		"price": null,
+		"access": {
+			"announcement": "2025-05-20",
+			"api": "2025-08-01",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"display_name": "BLUUMI",
+	"names": [
+		"BLUUMI"
+	],
+	"link": "https://arxiv.org/abs/2311.05640",
+	"history": {
+		"first_mention": "2023-11-03",
+		"access": "2023-11-03",
+		"weights": "2023-11-03"
+	},
+	"parameters": {
+		"all": 176000000000,
+		"active": 176000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

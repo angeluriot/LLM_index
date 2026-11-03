@@ -1,0 +1,27 @@
+{
+	"display_name": "Qwen 3.6 Plus",
+	"names": [
+		"Qwen 3.6 Plus",
+		"Qwen 3.6 Plus (2026-04-02)",
+		"Qwen3.6 Plus",
+		"qwen3.6-plus"
+	],
+	"link": "https://qwen.ai/blog?id=qwen3.6",
+	"history": {
+		"first_mention": "2026-03-31",
+		"access": "2026-03-31",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.5,
+		"output": 3.0
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

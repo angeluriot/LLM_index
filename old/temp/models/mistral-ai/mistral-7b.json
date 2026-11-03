@@ -1,0 +1,61 @@
+[
+	{
+		"name": "Mistral 7B",
+		"other_names": [
+			"open-mistral-7b",
+			"mistral-tiny"
+		],
+		"link": "https://mistral.ai/news/announcing-mistral-7b/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "Mistral 7B v0.1",
+				"other_names": [
+					"Mistral-7B-v0.1",
+					"Mistral-7B-Instruct-v0.1"
+				],
+				"access": {
+					"announcement": "2023-09-27",
+					"api": "2023-09-27",
+					"weights": "2023-09-27",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Mistral 7B v0.2",
+				"other_names": [
+					"Mistral-7B-Instruct-v0.2",
+					"mistral-tiny-2312"
+				],
+				"access": {
+					"announcement": "2023-12-11",
+					"api": "2023-12-11",
+					"weights": "2023-12-11",
+					"portable": true
+				},
+				"price": {
+					"input": 25,
+					"output": 25
+				}
+			},
+			{
+				"name": "Mistral 7B v0.3",
+				"other_names": [
+					"Mistral-7B-v0.3",
+					"Mistral-7B-Instruct-v0.3"
+				],
+				"access": {
+					"announcement": "2024-05-22",
+					"api": "2024-05-22",
+					"weights": "2024-05-22",
+					"portable": true
+				},
+				"price": {
+					"input": 25,
+					"output": 25
+				}
+			}
+		]
+	}
+]

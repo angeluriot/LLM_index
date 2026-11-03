@@ -1,0 +1,24 @@
+{
+	"display_name": "vicuna-13b-v1.3",
+	"names": [
+		"vicuna-13b-v1.3",
+		"Vicuna v1.3 (13B)"
+	],
+	"link": "https://huggingface.co/lmsys/vicuna-13b-v1.3",
+	"history": {
+		"first_mention": "2023-06-22",
+		"access": "2023-06-22",
+		"weights": "2023-06-22"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

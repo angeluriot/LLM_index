@@ -1,0 +1,23 @@
+{
+	"display_name": "Solar Pro 4",
+	"names": [
+		"Solar Pro 4"
+	],
+	"link": "https://www.upstage.ai/blog/en/solar-pro-4",
+	"history": {
+		"first_mention": "2026-08-06",
+		"access": "2026-08-06",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.3,
+		"output": 1.2
+	},
+	"efforts": [
+		""
+	]
+}

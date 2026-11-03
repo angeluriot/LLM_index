@@ -1,0 +1,23 @@
+{
+	"display_name": "Unicorn",
+	"names": [
+		"Unicorn"
+	],
+	"link": "https://arxiv.org/abs/2103.13009",
+	"history": {
+		"first_mention": "2021-03-24",
+		"access": "2021-03-24",
+		"weights": "2021-03-24"
+	},
+	"parameters": {
+		"all": 11000000000,
+		"active": 11000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "Aya",
+	"names": [
+		"Aya"
+	],
+	"link": "https://arxiv.org/abs/2402.07827",
+	"history": {
+		"first_mention": "2024-02-12",
+		"access": "2024-02-12",
+		"weights": "2024-02-12"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

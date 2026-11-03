@@ -1,0 +1,23 @@
+{
+	"display_name": "ERNIE 3.0 Titan",
+	"names": [
+		"ERNIE 3.0 Titan"
+	],
+	"link": "https://arxiv.org/abs/2112.12731",
+	"history": {
+		"first_mention": "2021-12-23",
+		"access": "2021-12-23",
+		"weights": null
+	},
+	"parameters": {
+		"all": 260000000000,
+		"active": 260000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

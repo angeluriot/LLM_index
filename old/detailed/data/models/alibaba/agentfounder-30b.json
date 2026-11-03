@@ -1,0 +1,23 @@
+{
+	"display_name": "AgentFounder-30B",
+	"names": [
+		"AgentFounder-30B"
+	],
+	"link": "https://arxiv.org/abs/2509.13310",
+	"history": {
+		"first_mention": "2025-09-16",
+		"access": "2025-09-16",
+		"weights": "2025-09-16"
+	},
+	"parameters": {
+		"all": 30000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

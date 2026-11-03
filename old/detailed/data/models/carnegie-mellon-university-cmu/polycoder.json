@@ -1,0 +1,23 @@
+{
+	"display_name": "PolyCoder",
+	"names": [
+		"PolyCoder"
+	],
+	"link": "https://arxiv.org/abs/2202.13169",
+	"history": {
+		"first_mention": "2022-02-26",
+		"access": "2022-02-26",
+		"weights": "2022-02-26"
+	},
+	"parameters": {
+		"all": 2700000000,
+		"active": 2700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,39 @@
+[
+	{
+		"name": "Ministral 3B",
+		"other_names": [
+			"ministral-3b-2410"
+		],
+		"link": "https://mistral.ai/news/ministraux/",
+		"price": {
+			"input": 4,
+			"output": 4
+		},
+		"access": {
+			"announcement": "2024-10-16",
+			"api": "2024-10-16",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Ministral 8B",
+		"other_names": [
+			"Ministral-8B-Instruct-2410",
+			"ministral-8b-2410"
+		],
+		"link": "https://mistral.ai/news/ministraux/",
+		"price": {
+			"input": 10,
+			"output": 10
+		},
+		"access": {
+			"announcement": "2024-10-16",
+			"api": "2024-10-16",
+			"weights": "2024-10-16",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

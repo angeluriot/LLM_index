@@ -1,0 +1,26 @@
+{
+	"display_name": "Mistral NeMo",
+	"names": [
+		"Mistral NeMo",
+		"open-mistral-nemo-2407",
+		"Mistral-Nemo-Base-2407",
+		"Mistral-Nemo-Instruct-2407"
+	],
+	"link": "https://mistral.ai/news/mistral-nemo/",
+	"history": {
+		"first_mention": "2024-07-18",
+		"access": "2024-07-18",
+		"weights": "2024-07-18"
+	},
+	"parameters": {
+		"all": 12000000000,
+		"active": 12000000000
+	},
+	"price": {
+		"input": 0.15,
+		"output": 0.15
+	},
+	"efforts": [
+		""
+	]
+}

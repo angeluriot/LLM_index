@@ -1,0 +1,23 @@
+{
+	"display_name": "MiMo-V2-Flash (Feb 2026)",
+	"names": [
+		"MiMo-V2-Flash (Feb 2026)"
+	],
+	"link": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash",
+	"history": {
+		"first_mention": "2025-12-16",
+		"access": "2025-12-16",
+		"weights": "2025-12-16"
+	},
+	"parameters": {
+		"all": 309000000000,
+		"active": 15000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

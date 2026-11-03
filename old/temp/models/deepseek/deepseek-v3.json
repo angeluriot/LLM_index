@@ -1,0 +1,89 @@
+[
+	{
+		"name": "DeepSeek-V3",
+		"other_names": [
+			"deepseek-chat"
+		],
+		"link": "https://api-docs.deepseek.com/news/news1226",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "DeepSeek-V3",
+				"other_names": [],
+				"access": {
+					"announcement": "2024-12-26",
+					"api": "2024-12-26",
+					"weights": "2024-12-26",
+					"portable": false
+				},
+				"price": {
+					"input": 27,
+					"output": 110
+				}
+			},
+			{
+				"name": "DeepSeek-V3-0324",
+				"other_names": [],
+				"access": {
+					"announcement": "2025-03-24",
+					"api": "2025-03-24",
+					"weights": "2025-03-24",
+					"portable": false
+				},
+				"price": {
+					"input": 27,
+					"output": 110
+				}
+			}
+		]
+	},
+	{
+		"name": "DeepSeek-R1",
+		"other_names": [
+			"deepseek-reasoner"
+		],
+		"link": "https://api-docs.deepseek.com/news/news250120",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "DeepSeek-R1-Lite-Preview",
+				"other_names": [],
+				"access": {
+					"announcement": "2024-11-20",
+					"api": "2024-11-20",
+					"weights": null,
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "DeepSeek-R1",
+				"other_names": [],
+				"access": {
+					"announcement": "2025-01-20",
+					"api": "2025-01-20",
+					"weights": "2025-01-20",
+					"portable": false
+				},
+				"price": {
+					"input": 55,
+					"output": 219
+				}
+			},
+			{
+				"name": "DeepSeek-R1-0528",
+				"other_names": [],
+				"access": {
+					"announcement": "2025-05-28",
+					"api": "2025-05-28",
+					"weights": "2025-05-28",
+					"portable": false
+				},
+				"price": {
+					"input": 55,
+					"output": 219
+				}
+			}
+		]
+	}
+]

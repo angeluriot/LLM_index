@@ -1,0 +1,25 @@
+{
+	"display_name": "Magistral Small 1.0",
+	"names": [
+		"Magistral Small 1.0",
+		"magistral-small-2506",
+		"Magistral Small 1"
+	],
+	"link": "https://mistral.ai/news/magistral",
+	"history": {
+		"first_mention": "2025-06-10",
+		"access": "2025-06-10",
+		"weights": "2025-06-10"
+	},
+	"parameters": {
+		"all": 24000000000,
+		"active": 24000000000
+	},
+	"price": {
+		"input": 0.5,
+		"output": 1.5
+	},
+	"efforts": [
+		""
+	]
+}

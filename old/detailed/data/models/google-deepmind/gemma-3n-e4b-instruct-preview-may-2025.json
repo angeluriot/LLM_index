@@ -1,0 +1,24 @@
+{
+	"display_name": "Gemma 3n E4B Instruct Preview (May '25)",
+	"names": [
+		"Gemma 3n E4B Instruct Preview (May '25)",
+		"gemma-3n-E4B-it-litert-preview"
+	],
+	"link": "https://huggingface.co/google/gemma-3n-E4B-it-litert-preview",
+	"history": {
+		"first_mention": "2025-05-20",
+		"access": "2025-05-20",
+		"weights": "2025-05-20"
+	},
+	"parameters": {
+		"all": 8390000000,
+		"active": 4000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,32 @@
+[
+	{
+		"name": "MiMo-V2.5",
+		"other_names": [
+			"mimo-v2.5"
+		],
+		"link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5",
+		"price": null,
+		"access": {
+			"announcement": "2026-04-23",
+			"api": "2026-04-23",
+			"weights": "2026-04-27",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "MiMo-V2.5-Pro",
+		"other_names": [
+			"mimo-v2.5-pro"
+		],
+		"link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro",
+		"price": null,
+		"access": {
+			"announcement": "2026-04-23",
+			"api": "2026-04-23",
+			"weights": "2026-04-27",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

@@ -1,0 +1,24 @@
+{
+	"display_name": "CodeGemma 2B",
+	"names": [
+		"CodeGemma 2B",
+		"codegemma-2b"
+	],
+	"link": "https://huggingface.co/google/codegemma-2b",
+	"history": {
+		"first_mention": "2024-04-09",
+		"access": "2024-04-09",
+		"weights": "2024-04-09"
+	},
+	"parameters": {
+		"all": 2506434560,
+		"active": 2506434560
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

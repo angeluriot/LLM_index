@@ -1,0 +1,24 @@
+{
+	"display_name": "Gemma 2 27B",
+	"names": [
+		"Gemma 2 27B",
+		"gemma-2-27b"
+	],
+	"link": "https://storage.googleapis.com/deepmind-media/gemma/gemma-2-report.pdf",
+	"history": {
+		"first_mention": "2024-06-24",
+		"access": "2024-06-24",
+		"weights": "2024-06-24"
+	},
+	"parameters": {
+		"all": 27000000000,
+		"active": 27000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

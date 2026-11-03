@@ -1,0 +1,24 @@
+{
+	"display_name": "NVIDIA Nemotron 3 Nano 4B",
+	"names": [
+		"NVIDIA Nemotron 3 Nano 4B",
+		"NVIDIA-Nemotron-3-Nano-4B-BF16"
+	],
+	"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16",
+	"history": {
+		"first_mention": "2026-03-16",
+		"access": "2026-03-16",
+		"weights": "2026-03-16"
+	},
+	"parameters": {
+		"all": 3970000000,
+		"active": 3970000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

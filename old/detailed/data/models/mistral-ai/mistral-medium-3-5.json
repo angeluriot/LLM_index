@@ -1,0 +1,25 @@
+{
+	"display_name": "Mistral Medium 3.5",
+	"names": [
+		"Mistral Medium 3.5",
+		"mistral-medium-2604",
+		"Mistral-Medium-3.5-128B"
+	],
+	"link": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+	"history": {
+		"first_mention": "2026-04-28",
+		"access": "2026-04-28",
+		"weights": "2026-04-28"
+	},
+	"parameters": {
+		"all": 128000000000,
+		"active": 128000000000
+	},
+	"price": {
+		"input": 1.5,
+		"output": 7.5
+	},
+	"efforts": [
+		""
+	]
+}

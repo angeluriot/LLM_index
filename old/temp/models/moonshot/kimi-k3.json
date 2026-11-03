@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Kimi K3",
+		"other_names": [
+			"Kimi-K3",
+			"kimi-k3"
+		],
+		"link": "https://huggingface.co/moonshotai/Kimi-K3",
+		"price": {
+			"input": 300,
+			"output": 1500
+		},
+		"access": {
+			"announcement": "2026-07-16",
+			"api": "2026-07-16",
+			"weights": "2026-07-16",
+			"portable": false
+		},
+		"efforts": ["Low", "High", "Max"]
+	}
+]

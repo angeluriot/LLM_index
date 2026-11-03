@@ -1,0 +1,24 @@
+{
+	"display_name": "Phi-2",
+	"names": [
+		"Phi-2",
+		"phi-2"
+	],
+	"link": "https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/",
+	"history": {
+		"first_mention": "2023-12-12",
+		"access": "2023-12-12",
+		"weights": "2023-12-12"
+	},
+	"parameters": {
+		"all": 2700000000,
+		"active": 2700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

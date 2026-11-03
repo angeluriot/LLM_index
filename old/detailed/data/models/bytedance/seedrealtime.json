@@ -1,0 +1,23 @@
+{
+	"display_name": "SeedRealtime",
+	"names": [
+		"SeedRealtime"
+	],
+	"link": "https://seed.bytedance.com/en/blog/seedrealtime-audio-visual-full-duplex-llm-released-toward-omni-modal-natural-interaction",
+	"history": {
+		"first_mention": "2026-08-05",
+		"access": "2026-08-05",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

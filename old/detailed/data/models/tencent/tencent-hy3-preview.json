@@ -1,0 +1,26 @@
+{
+	"display_name": "Tencent Hy3 preview",
+	"names": [
+		"Tencent Hy3 preview",
+		"Hy3-preview"
+	],
+	"link": "https://hy.tencent.com/hy3-preview",
+	"history": {
+		"first_mention": "2026-04-23",
+		"access": "2026-04-23",
+		"weights": "2026-04-23"
+	},
+	"parameters": {
+		"all": 295000000000,
+		"active": 21000000000
+	},
+	"price": {
+		"input": 0.063,
+		"output": 0.21
+	},
+	"efforts": [
+		"None",
+		"Low",
+		"High"
+	]
+}

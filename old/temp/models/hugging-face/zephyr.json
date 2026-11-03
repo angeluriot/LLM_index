@@ -1,0 +1,18 @@
+[
+	{
+		"name": "Zephyr-7B",
+		"other_names": [
+			"zephyr-7b-beta",
+			"Zephyr 7B β"
+		],
+		"link": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
+		"price": null,
+		"access": {
+			"announcement": "2023-10-26",
+			"api": "2023-10-26",
+			"weights": "2023-10-26",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

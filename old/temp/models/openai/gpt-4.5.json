@@ -1,0 +1,21 @@
+[
+	{
+		"name": "GPT-4.5",
+		"other_names": [
+			"gpt-4.5-preview",
+			"gpt-4.5-preview-2025-02-27"
+		],
+		"link": "https://openai.com/index/introducing-gpt-4-5/",
+		"price": {
+			"input": 7500,
+			"output": 15000
+		},
+		"access": {
+			"announcement": "2025-02-27",
+			"api": "2025-02-27",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

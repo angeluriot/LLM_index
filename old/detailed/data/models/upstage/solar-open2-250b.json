@@ -1,0 +1,24 @@
+{
+	"display_name": "Solar Open2 250B",
+	"names": [
+		"Solar Open2 250B"
+	],
+	"link": "https://huggingface.co/upstage/Solar-Open2-250B",
+	"history": {
+		"first_mention": "2026-06-28",
+		"access": "2026-06-28",
+		"weights": "2026-06-28"
+	},
+	"parameters": {
+		"all": 250300000000,
+		"active": 14700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"None",
+		"High"
+	]
+}

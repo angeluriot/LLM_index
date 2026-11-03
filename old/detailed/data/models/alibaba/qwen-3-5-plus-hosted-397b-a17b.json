@@ -1,0 +1,26 @@
+{
+	"display_name": "Qwen 3.5 Plus (hosted 397B-A17B)",
+	"names": [
+		"Qwen 3.5 Plus (hosted 397B-A17B)",
+		"Qwen3.5 Plus",
+		"qwen3.5-plus"
+	],
+	"link": "https://qwen.ai/blog?id=qwen3.5",
+	"history": {
+		"first_mention": "2026-02-16",
+		"access": "2026-02-16",
+		"weights": null
+	},
+	"parameters": {
+		"all": 397000000000,
+		"active": 17000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

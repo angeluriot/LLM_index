@@ -1,0 +1,15 @@
+[
+	{
+		"name": "Kimi-Dev-72B",
+		"other_names": [],
+		"link": "https://huggingface.co/moonshotai/Kimi-Dev-72B",
+		"price": null,
+		"access": {
+			"announcement": "2025-06-16",
+			"api": "2025-06-16",
+			"weights": "2025-06-16",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

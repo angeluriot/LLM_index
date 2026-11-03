@@ -1,0 +1,23 @@
+{
+	"display_name": "MM1-30B",
+	"names": [
+		"MM1-30B"
+	],
+	"link": "https://arxiv.org/abs/2403.09611",
+	"history": {
+		"first_mention": "2024-03-14",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 30000000000,
+		"active": 30000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

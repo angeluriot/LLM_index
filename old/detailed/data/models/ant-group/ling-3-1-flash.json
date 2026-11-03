@@ -1,0 +1,24 @@
+{
+	"display_name": "Ling 3.1 Flash",
+	"names": [
+		"Ling 3.1 Flash",
+		"Ling-3.1-flash"
+	],
+	"link": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+	"history": {
+		"first_mention": "2026-10-01",
+		"access": "2026-10-01",
+		"weights": "2026-10-01"
+	},
+	"parameters": {
+		"all": 560000000000,
+		"active": 25000000000
+	},
+	"price": {
+		"input": 0.3,
+		"output": 0.9
+	},
+	"efforts": [
+		""
+	]
+}

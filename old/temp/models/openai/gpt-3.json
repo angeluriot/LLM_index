@@ -1,0 +1,206 @@
+[
+	{
+		"name": "GPT-3",
+		"other_names": [],
+		"link": "https://arxiv.org/abs/2005.14165",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "GPT-3 Small",
+				"other_names": [
+					"GPT-3 (125M)"
+				],
+				"access": {
+					"announcement": "2020-05-28",
+					"api": null,
+					"weights": null,
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "GPT-3 Medium",
+				"other_names": [
+					"GPT-3 (350M)",
+					"ada"
+				],
+				"access": {
+					"announcement": "2020-05-28",
+					"api": "2021-11-18",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 80,
+					"output": 80
+				}
+			},
+			{
+				"name": "GPT-3 Large",
+				"other_names": [
+					"GPT-3 (760M)"
+				],
+				"access": {
+					"announcement": "2020-05-28",
+					"api": null,
+					"weights": null,
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "GPT-3 XL",
+				"other_names": [
+					"GPT-3 (1.3B)",
+					"GPT-3 XL (babbage)",
+					"babbage"
+				],
+				"access": {
+					"announcement": "2020-05-28",
+					"api": "2021-11-18",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 120,
+					"output": 120
+				}
+			},
+			{
+				"name": "GPT-3 2.7B",
+				"other_names": [],
+				"access": {
+					"announcement": "2020-05-28",
+					"api": null,
+					"weights": null,
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "GPT-3 6.7B",
+				"other_names": [
+					"curie"
+				],
+				"access": {
+					"announcement": "2020-05-28",
+					"api": "2021-11-18",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 600,
+					"output": 600
+				}
+			},
+			{
+				"name": "GPT-3 13B",
+				"other_names": [],
+				"access": {
+					"announcement": "2020-05-28",
+					"api": null,
+					"weights": null,
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "GPT-3 175B",
+				"other_names": [
+					"GPT-3 175B (davinci)",
+					"davinci"
+				],
+				"access": {
+					"announcement": "2020-05-28",
+					"api": "2021-11-18",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 6000,
+					"output": 6000
+				}
+			},
+			{
+				"name": "Codex",
+				"other_names": [
+					"Codex 12B",
+					"code-cushman-001",
+					"code-davinci-001"
+				],
+				"access": {
+					"announcement": "2021-07-07",
+					"api": "2022-06-21",
+					"weights": null,
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "text-ada-001",
+				"other_names": [
+					"InstructGPT 350M"
+				],
+				"access": {
+					"announcement": "2022-01-27",
+					"api": "2022-01-27",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 80,
+					"output": 80
+				}
+			},
+			{
+				"name": "text-babbage-001",
+				"other_names": [
+					"InstructGPT 1.3B"
+				],
+				"access": {
+					"announcement": "2022-01-27",
+					"api": "2022-01-27",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 120,
+					"output": 120
+				}
+			},
+			{
+				"name": "text-curie-001",
+				"other_names": [
+					"InstructGPT 6B"
+				],
+				"access": {
+					"announcement": "2022-01-27",
+					"api": "2022-01-27",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 600,
+					"output": 600
+				}
+			},
+			{
+				"name": "text-davinci-001",
+				"other_names": [
+					"InstructGPT 175B",
+					"InstructGPT"
+				],
+				"access": {
+					"announcement": "2022-01-27",
+					"api": "2022-01-27",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 6000,
+					"output": 6000
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"display_name": "U-PaLM (540B)",
+	"names": [
+		"U-PaLM (540B)"
+	],
+	"link": "https://arxiv.org/abs/2210.11399",
+	"history": {
+		"first_mention": "2022-10-20",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 540000000000,
+		"active": 540000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

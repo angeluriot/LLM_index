@@ -1,0 +1,24 @@
+{
+	"display_name": "internlm2_5-7b-chat",
+	"names": [
+		"internlm2_5-7b-chat",
+		"InternLM2.5-7B-Chat"
+	],
+	"link": "https://huggingface.co/internlm/internlm2_5-7b-chat",
+	"history": {
+		"first_mention": "2024-07-03",
+		"access": "2024-07-03",
+		"weights": "2024-07-03"
+	},
+	"parameters": {
+		"all": 7700000000,
+		"active": 7700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

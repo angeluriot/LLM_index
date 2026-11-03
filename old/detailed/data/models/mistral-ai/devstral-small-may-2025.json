@@ -1,0 +1,24 @@
+{
+	"display_name": "Devstral Small (May '25)",
+	"names": [
+		"Devstral Small (May '25)",
+		"Devstral-Small-2505"
+	],
+	"link": "https://huggingface.co/mistralai/Devstral-Small-2505",
+	"history": {
+		"first_mention": "2025-05-21",
+		"access": "2025-05-21",
+		"weights": "2025-05-21"
+	},
+	"parameters": {
+		"all": 23600000000,
+		"active": 23600000000
+	},
+	"price": {
+		"input": 0.1,
+		"output": 0.3
+	},
+	"efforts": [
+		""
+	]
+}

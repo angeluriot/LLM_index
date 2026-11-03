@@ -1,0 +1,23 @@
+{
+	"display_name": "AFM-server",
+	"names": [
+		"AFM-server"
+	],
+	"link": "https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models",
+	"history": {
+		"first_mention": "2024-07-29",
+		"access": "2024-07-29",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

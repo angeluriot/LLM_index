@@ -1,0 +1,29 @@
+{
+	"display_name": "Claude Sonnet 5",
+	"names": [
+		"Claude Sonnet 5",
+		"claude-sonnet-5"
+	],
+	"link": "https://www.anthropic.com/news/claude-sonnet-5",
+	"history": {
+		"first_mention": "2026-06-30",
+		"access": "2026-06-30",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 2.0,
+		"output": 10.0
+	},
+	"efforts": [
+		"",
+		"Low",
+		"Medium",
+		"High",
+		"Xhigh",
+		"Max"
+	]
+}

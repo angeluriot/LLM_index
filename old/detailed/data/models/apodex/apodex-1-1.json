@@ -1,0 +1,23 @@
+{
+	"display_name": "Apodex 1.1",
+	"names": [
+		"Apodex 1.1"
+	],
+	"link": "https://apodex.ai/",
+	"history": {
+		"first_mention": "2026-08-30",
+		"access": "2026-08-30",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.3,
+		"output": 3
+	},
+	"efforts": [
+		""
+	]
+}

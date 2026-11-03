@@ -1,0 +1,23 @@
+{
+	"display_name": "LFM 40B",
+	"names": [
+		"LFM 40B"
+	],
+	"link": "https://www.liquid.ai/liquid-foundation-models",
+	"history": {
+		"first_mention": "2024-09-30",
+		"access": "2024-09-30",
+		"weights": null
+	},
+	"parameters": {
+		"all": 40300000000,
+		"active": 12000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

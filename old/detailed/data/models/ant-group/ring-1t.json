@@ -1,0 +1,23 @@
+{
+	"display_name": "Ring-1T",
+	"names": [
+		"Ring-1T"
+	],
+	"link": "https://huggingface.co/inclusionAI/Ring-1T",
+	"history": {
+		"first_mention": "2025-10-13",
+		"access": "2025-10-13",
+		"weights": "2025-10-13"
+	},
+	"parameters": {
+		"all": 1000000000000,
+		"active": 50000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

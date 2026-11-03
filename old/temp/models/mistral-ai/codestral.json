@@ -1,0 +1,77 @@
+[
+	{
+		"name": "Codestral",
+		"other_names": [
+			"codestral-latest"
+		],
+		"link": "https://mistral.ai/news/codestral/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "Codestral 24.05",
+				"other_names": [
+					"Codestral-22B-v0.1",
+					"codestral-2405"
+				],
+				"access": {
+					"announcement": "2024-05-29",
+					"api": "2024-05-29",
+					"weights": "2024-05-29",
+					"portable": false
+				},
+				"price": {
+					"input": 100,
+					"output": 300
+				}
+			},
+			{
+				"name": "Codestral 25.01",
+				"other_names": [
+					"codestral-2501"
+				],
+				"access": {
+					"announcement": "2025-01-13",
+					"api": "2025-01-13",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 30,
+					"output": 90
+				}
+			},
+			{
+				"name": "Codestral 25.08",
+				"other_names": [
+					"codestral-2508"
+				],
+				"access": {
+					"announcement": "2025-07-30",
+					"api": "2025-07-30",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 30,
+					"output": 90
+				}
+			}
+		]
+	},
+	{
+		"name": "Codestral Mamba",
+		"other_names": [
+			"Mamba-Codestral-7B-v0.1",
+			"open-codestral-mamba"
+		],
+		"link": "https://mistral.ai/news/codestral-mamba/",
+		"price": null,
+		"access": {
+			"announcement": "2024-07-16",
+			"api": "2024-07-16",
+			"weights": "2024-07-16",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

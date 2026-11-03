@@ -1,0 +1,24 @@
+{
+	"display_name": "Baichuan1-7B",
+	"names": [
+		"Baichuan1-7B",
+		"Baichuan-7B"
+	],
+	"link": "https://huggingface.co/baichuan-inc/Baichuan-7B",
+	"history": {
+		"first_mention": "2023-06-01",
+		"access": "2023-06-01",
+		"weights": "2023-06-01"
+	},
+	"parameters": {
+		"all": 7000559616,
+		"active": 7000559616
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

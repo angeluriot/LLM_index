@@ -1,0 +1,23 @@
+{
+	"display_name": "CodeQwen1.5-7B-Chat",
+	"names": [
+		"CodeQwen1.5-7B-Chat"
+	],
+	"link": "https://qwenlm.github.io/blog/codeqwen1.5/",
+	"history": {
+		"first_mention": "2024-04-15",
+		"access": "2024-04-15",
+		"weights": "2024-04-15"
+	},
+	"parameters": {
+		"all": 7250284544,
+		"active": 7250284544
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

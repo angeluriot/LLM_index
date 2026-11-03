@@ -1,0 +1,26 @@
+{
+	"display_name": "Gemini 3 Pro",
+	"names": [
+		"Gemini 3 Pro",
+		"Gemini 3 Pro Preview",
+		"gemini-3-pro-preview"
+	],
+	"link": "https://blog.google/products/gemini/gemini-3/",
+	"history": {
+		"first_mention": "2025-11-18",
+		"access": "2025-11-18",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 2.0,
+		"output": 12.0
+	},
+	"efforts": [
+		"",
+		"Low"
+	]
+}

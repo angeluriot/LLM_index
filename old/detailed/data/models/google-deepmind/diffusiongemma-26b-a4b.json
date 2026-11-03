@@ -1,0 +1,24 @@
+{
+	"display_name": "DiffusionGemma 26B A4B",
+	"names": [
+		"DiffusionGemma 26B A4B",
+		"diffusiongemma-26B-A4B-it"
+	],
+	"link": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
+	"history": {
+		"first_mention": "2026-06-10",
+		"access": "2026-06-10",
+		"weights": "2026-06-10"
+	},
+	"parameters": {
+		"all": 25200000000,
+		"active": 3800000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

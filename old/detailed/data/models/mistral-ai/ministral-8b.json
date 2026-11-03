@@ -1,0 +1,26 @@
+{
+	"display_name": "Ministral 8B",
+	"names": [
+		"Ministral 8B",
+		"ministral-8b-2410",
+		"Ministral-8B-Instruct-2410",
+		"Ministral-8B-Instruct"
+	],
+	"link": "https://mistral.ai/news/ministraux/",
+	"history": {
+		"first_mention": "2024-10-16",
+		"access": "2024-10-16",
+		"weights": "2024-10-16"
+	},
+	"parameters": {
+		"all": 8000000000,
+		"active": 8000000000
+	},
+	"price": {
+		"input": 0.1,
+		"output": 0.1
+	},
+	"efforts": [
+		""
+	]
+}

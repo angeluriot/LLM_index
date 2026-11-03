@@ -1,0 +1,23 @@
+{
+	"display_name": "Grok Build 0.1 0616",
+	"names": [
+		"Grok Build 0.1 0616"
+	],
+	"link": "https://x.ai/news/grok-build-0-1",
+	"history": {
+		"first_mention": "2026-06-16",
+		"access": "2026-06-16",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1,
+		"output": 2
+	},
+	"efforts": [
+		""
+	]
+}

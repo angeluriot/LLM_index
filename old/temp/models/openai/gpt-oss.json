@@ -1,0 +1,34 @@
+[
+	{
+		"name": "gpt-oss-120b",
+		"other_names": [],
+		"link": "https://openai.com/index/introducing-gpt-oss/",
+		"price": {
+			"input": 10,
+			"output": 55
+		},
+		"access": {
+			"announcement": "2025-08-05",
+			"api": "2025-08-05",
+			"weights": "2025-08-05",
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	},
+	{
+		"name": "gpt-oss-20b",
+		"other_names": [],
+		"link": "https://openai.com/index/introducing-gpt-oss/",
+		"price": {
+			"input": 4,
+			"output": 17
+		},
+		"access": {
+			"announcement": "2025-08-05",
+			"api": "2025-08-05",
+			"weights": "2025-08-05",
+			"portable": true
+		},
+		"efforts": ["Low", "Medium", "High"]
+	}
+]

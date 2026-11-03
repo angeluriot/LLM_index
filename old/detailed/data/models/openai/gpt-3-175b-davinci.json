@@ -1,0 +1,26 @@
+{
+	"display_name": "GPT-3 175B (davinci)",
+	"names": [
+		"GPT-3 175B (davinci)",
+		"GPT-3 175B (davinci-002)",
+		"davinci-002",
+		"davinci"
+	],
+	"link": "https://arxiv.org/abs/2005.14165",
+	"history": {
+		"first_mention": "2020-05-28",
+		"access": "2020-05-28",
+		"weights": null
+	},
+	"parameters": {
+		"all": 174600000000,
+		"active": 174600000000
+	},
+	"price": {
+		"input": 20.0,
+		"output": 20.0
+	},
+	"efforts": [
+		""
+	]
+}

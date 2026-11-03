@@ -1,0 +1,78 @@
+[
+	{
+		"name": "o1",
+		"other_names": [],
+		"link": "https://openai.com/index/learning-to-reason-with-llms/",
+		"efforts": ["Low", "Medium", "High"],
+		"versions": [
+			{
+				"name": "o1-preview",
+				"other_names": [
+					"o1-preview-2024-09-12"
+				],
+				"access": {
+					"announcement": "2024-09-12",
+					"api": "2024-09-12",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 1500,
+					"output": 6000
+				}
+			},
+			{
+				"name": "o1",
+				"other_names": [
+					"o1-2024-12-17"
+				],
+				"access": {
+					"announcement": "2024-09-12",
+					"api": "2024-12-05",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 1500,
+					"output": 6000
+				}
+			}
+		]
+	},
+	{
+		"name": "o1-mini",
+		"other_names": [
+			"o1-mini-2024-09-12"
+		],
+		"link": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/",
+		"price": {
+			"input": 300,
+			"output": 1200
+		},
+		"access": {
+			"announcement": "2024-09-12",
+			"api": "2024-09-12",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "o1-pro",
+		"other_names": [
+			"o1-pro-2025-03-19"
+		],
+		"link": "https://openai.com/index/introducing-chatgpt-pro/",
+		"price": {
+			"input": 15000,
+			"output": 60000
+		},
+		"access": {
+			"announcement": "2024-12-05",
+			"api": "2024-12-05",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	}
+]

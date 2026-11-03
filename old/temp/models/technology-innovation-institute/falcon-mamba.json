@@ -1,0 +1,18 @@
+[
+	{
+		"name": "Falcon Mamba 7B",
+		"other_names": [
+			"falcon-mamba-7b",
+			"falcon-mamba-7b-instruct"
+		],
+		"link": "https://huggingface.co/tiiuae/falcon-mamba-7b",
+		"price": null,
+		"access": {
+			"announcement": "2024-08-12",
+			"api": "2024-08-12",
+			"weights": "2024-08-12",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

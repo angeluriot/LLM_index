@@ -1,0 +1,23 @@
+{
+	"display_name": "DeepSeek V4 Flash Vision",
+	"names": [
+		"DeepSeek V4 Flash Vision"
+	],
+	"link": "https://api-docs.deepseek.com/news/news260821",
+	"history": {
+		"first_mention": "2026-08-21",
+		"access": "2026-08-21",
+		"weights": null
+	},
+	"parameters": {
+		"all": 284000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": 0.44,
+		"output": 1.32
+	},
+	"efforts": [
+		""
+	]
+}

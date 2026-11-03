@@ -1,0 +1,23 @@
+{
+	"display_name": "GPT-4o Realtime (Dec '24)",
+	"names": [
+		"GPT-4o Realtime (Dec '24)"
+	],
+	"link": "https://developers.openai.com/api/docs/models/gpt-4o-realtime-preview",
+	"history": {
+		"first_mention": "2024-12-17",
+		"access": "2024-12-17",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 5.0,
+		"output": 20.0
+	},
+	"efforts": [
+		""
+	]
+}

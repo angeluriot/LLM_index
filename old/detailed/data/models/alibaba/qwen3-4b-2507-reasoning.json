@@ -1,0 +1,24 @@
+{
+	"display_name": "Qwen3 4B 2507 (Reasoning)",
+	"names": [
+		"Qwen3 4B 2507 (Reasoning)",
+		"Qwen3-4B-Thinking-2507"
+	],
+	"link": "https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507",
+	"history": {
+		"first_mention": "2025-08-06",
+		"access": "2025-08-06",
+		"weights": "2025-08-06"
+	},
+	"parameters": {
+		"all": 4020000000,
+		"active": 4020000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

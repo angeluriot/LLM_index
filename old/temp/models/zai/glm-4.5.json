@@ -1,0 +1,38 @@
+[
+	{
+		"name": "GLM-4.5",
+		"other_names": [
+			"glm-4.5"
+		],
+		"link": "https://huggingface.co/zai-org/GLM-4.5",
+		"price": {
+			"input": 60,
+			"output": 220
+		},
+		"access": {
+			"announcement": "2025-07-28",
+			"api": "2025-07-28",
+			"weights": "2025-07-28",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "GLM-4.5-Air",
+		"other_names": [
+			"glm-4.5-air"
+		],
+		"link": "https://huggingface.co/zai-org/GLM-4.5-Air",
+		"price": {
+			"input": 20,
+			"output": 110
+		},
+		"access": {
+			"announcement": "2025-07-28",
+			"api": "2025-07-28",
+			"weights": "2025-07-28",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"display_name": "HyperCLOVA 204B",
+	"names": [
+		"HyperCLOVA 204B"
+	],
+	"link": "https://aibusiness.com/nlp/south-korea-s-naver-unveils-hyperscale-ai-platform-language-model-with-more-parameters-than-gpt-3",
+	"history": {
+		"first_mention": "2021-09-10",
+		"access": "2021-09-10",
+		"weights": null
+	},
+	"parameters": {
+		"all": 204000000000,
+		"active": 204000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display_name": "Luminous Supreme",
+	"names": [
+		"Luminous Supreme",
+		"Luminous Supreme (70B)",
+		"luminous-supreme"
+	],
+	"link": "https://x.com/Aleph__Alpha/status/1559172685808254976",
+	"history": {
+		"first_mention": "2022-08-15",
+		"access": "2022-08-15",
+		"weights": null
+	},
+	"parameters": {
+		"all": 70000000000,
+		"active": 70000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

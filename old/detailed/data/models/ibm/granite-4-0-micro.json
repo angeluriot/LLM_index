@@ -1,0 +1,24 @@
+{
+	"display_name": "Granite 4.0 Micro",
+	"names": [
+		"Granite 4.0 Micro",
+		"granite-4.0-micro"
+	],
+	"link": "https://huggingface.co/ibm-granite/granite-4.0-micro",
+	"history": {
+		"first_mention": "2025-09-22",
+		"access": "2025-09-22",
+		"weights": "2025-09-22"
+	},
+	"parameters": {
+		"all": 3000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

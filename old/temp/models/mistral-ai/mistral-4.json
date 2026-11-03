@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Mistral Small 4",
+		"other_names": [
+			"Mistral-Small-4-119B-2603",
+			"mistral-small-2603"
+		],
+		"link": "https://mistral.ai/news/mistral-small-4/",
+		"price": {
+			"input": 15,
+			"output": 60
+		},
+		"access": {
+			"announcement": "2026-03-16",
+			"api": "2026-03-16",
+			"weights": "2026-03-16",
+			"portable": false
+		},
+		"efforts": ["None", "High"]
+	},
+	{
+		"name": "Mistral Large 4",
+		"other_names": [
+			"Le Chonk",
+			"ML4",
+			"Mistral-Large-4-1T-A52B",
+			"mistral-large-4"
+		],
+		"link": "https://mistral.ai/news/mistral-large-4/",
+		"price": {
+			"input": 70,
+			"output": 210
+		},
+		"access": {
+			"announcement": "2026-10-06",
+			"api": "2026-10-06",
+			"weights": "2026-10-29",
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	}
+]

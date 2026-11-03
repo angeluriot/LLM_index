@@ -1,0 +1,24 @@
+{
+	"display_name": "Code Llama 70B",
+	"names": [
+		"Code Llama 70B",
+		"CodeLlama-70b-hf"
+	],
+	"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+	"history": {
+		"first_mention": "2024-01-29",
+		"access": "2024-01-29",
+		"weights": "2024-01-29"
+	},
+	"parameters": {
+		"all": 70000000000,
+		"active": 70000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

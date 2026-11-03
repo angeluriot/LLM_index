@@ -1,0 +1,23 @@
+{
+	"display_name": "JT-MINI",
+	"names": [
+		"JT-MINI"
+	],
+	"link": "https://jiutian.10086.cn/",
+	"history": {
+		"first_mention": "2026-04-15",
+		"access": "2026-04-15",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

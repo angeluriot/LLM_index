@@ -1,0 +1,23 @@
+{
+	"display_name": "MiMo-V2-Omni",
+	"names": [
+		"MiMo-V2-Omni"
+	],
+	"link": "https://mimo.xiaomi.com/mimo-v2-omni",
+	"history": {
+		"first_mention": "2026-03-19",
+		"access": "2026-03-19",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.4,
+		"output": 2.0
+	},
+	"efforts": [
+		""
+	]
+}

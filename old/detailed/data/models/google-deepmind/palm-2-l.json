@@ -1,0 +1,23 @@
+{
+	"display_name": "PaLM 2-L",
+	"names": [
+		"PaLM 2-L"
+	],
+	"link": "https://blog.google/technology/ai/google-palm-2-ai-large-language-model/",
+	"history": {
+		"first_mention": "2023-05-17",
+		"access": "2023-05-17",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

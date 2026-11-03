@@ -1,0 +1,23 @@
+{
+	"display_name": "Mistral Saba",
+	"names": [
+		"Mistral Saba"
+	],
+	"link": "https://mistral.ai/news/mistral-saba",
+	"history": {
+		"first_mention": "2025-02-17",
+		"access": "2025-02-17",
+		"weights": null
+	},
+	"parameters": {
+		"all": 24000000000,
+		"active": 24000000000
+	},
+	"price": {
+		"input": 0.2,
+		"output": 0.6
+	},
+	"efforts": [
+		""
+	]
+}

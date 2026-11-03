@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Claude Opus 4.6",
+		"other_names": [
+			"claude-opus-4-6"
+		],
+		"link": "https://www.anthropic.com/news/claude-opus-4-6",
+		"price": {
+			"input": 500,
+			"output": 2500
+		},
+		"access": {
+			"announcement": "2026-02-05",
+			"api": "2026-02-05",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Max"]
+	},
+	{
+		"name": "Claude Sonnet 4.6",
+		"other_names": [
+			"claude-sonnet-4-6"
+		],
+		"link": "https://www.anthropic.com/news/claude-sonnet-4-6",
+		"price": {
+			"input": 300,
+			"output": 1500
+		},
+		"access": {
+			"announcement": "2026-02-17",
+			"api": "2026-02-17",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Max"]
+	}
+]

@@ -1,0 +1,24 @@
+{
+	"display_name": "Minerva (62B)",
+	"names": [
+		"Minerva (62B)",
+		"Minerva 62B"
+	],
+	"link": "https://arxiv.org/abs/2206.14858",
+	"history": {
+		"first_mention": "2022-06-29",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 62500000000,
+		"active": 62500000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

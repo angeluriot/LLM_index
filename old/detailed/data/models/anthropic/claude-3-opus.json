@@ -1,0 +1,24 @@
+{
+	"display_name": "Claude 3 Opus",
+	"names": [
+		"Claude 3 Opus",
+		"claude-3-opus-20240229"
+	],
+	"link": "https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf",
+	"history": {
+		"first_mention": "2024-02-29",
+		"access": "2024-02-29",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 15.0,
+		"output": 75.0
+	},
+	"efforts": [
+		""
+	]
+}

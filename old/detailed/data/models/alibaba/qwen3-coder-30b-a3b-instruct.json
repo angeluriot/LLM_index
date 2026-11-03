@@ -1,0 +1,24 @@
+{
+	"display_name": "Qwen3 Coder 30B A3B Instruct",
+	"names": [
+		"Qwen3 Coder 30B A3B Instruct",
+		"Qwen3-Coder-30B-A3B-Instruct"
+	],
+	"link": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+	"history": {
+		"first_mention": "2025-07-31",
+		"access": "2025-07-31",
+		"weights": "2025-07-31"
+	},
+	"parameters": {
+		"all": 30500000000,
+		"active": 3300000000
+	},
+	"price": {
+		"input": 0.19,
+		"output": 0.765
+	},
+	"efforts": [
+		""
+	]
+}

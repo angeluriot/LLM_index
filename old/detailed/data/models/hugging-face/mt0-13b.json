@@ -1,0 +1,23 @@
+{
+	"display_name": "mT0-13B",
+	"names": [
+		"mT0-13B"
+	],
+	"link": "https://arxiv.org/abs/2211.01786",
+	"history": {
+		"first_mention": "2022-11-03",
+		"access": "2022-11-03",
+		"weights": "2022-11-03"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

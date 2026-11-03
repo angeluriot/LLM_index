@@ -1,0 +1,34 @@
+{
+	"display_name": "GPT-5.4 Cyber",
+	"versions": {
+		"2026-04-14": {
+			"display_name": "GPT-5.4 Cyber",
+			"names": [
+				"GPT-5.4 Cyber",
+				"GPT-5.4-Cyber",
+				"gpt-5.4-cyber"
+			],
+			"link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+			"history": {
+				"first_mention": "2026-04-14",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"None",
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		}
+	}
+}

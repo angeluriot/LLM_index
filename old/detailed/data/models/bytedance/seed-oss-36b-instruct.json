@@ -1,0 +1,23 @@
+{
+	"display_name": "Seed-OSS-36B-Instruct",
+	"names": [
+		"Seed-OSS-36B-Instruct"
+	],
+	"link": "https://huggingface.co/ByteDance-Seed/Seed-OSS-36B-Instruct",
+	"history": {
+		"first_mention": "2025-08-20",
+		"access": "2025-08-20",
+		"weights": "2025-08-20"
+	},
+	"parameters": {
+		"all": 36200000000,
+		"active": 36200000000
+	},
+	"price": {
+		"input": 0.21,
+		"output": 0.57
+	},
+	"efforts": [
+		""
+	]
+}

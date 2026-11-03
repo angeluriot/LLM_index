@@ -1,0 +1,24 @@
+{
+	"display_name": "MiMo-V2-Pro",
+	"names": [
+		"MiMo-V2-Pro",
+		"mimo-v2-pro"
+	],
+	"link": "https://mimo.xiaomi.com/mimo-v2-pro",
+	"history": {
+		"first_mention": "2026-03-18",
+		"access": "2026-03-18",
+		"weights": null
+	},
+	"parameters": {
+		"all": 1020000000000,
+		"active": 42000000000
+	},
+	"price": {
+		"input": 1.0,
+		"output": 3.0
+	},
+	"efforts": [
+		""
+	]
+}

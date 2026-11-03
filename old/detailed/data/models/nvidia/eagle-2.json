@@ -1,0 +1,23 @@
+{
+	"display_name": "Eagle 2",
+	"names": [
+		"Eagle 2"
+	],
+	"link": "https://arxiv.org/abs/2501.14818",
+	"history": {
+		"first_mention": "2025-01-20",
+		"access": "2025-01-20",
+		"weights": "2025-01-20"
+	},
+	"parameters": {
+		"all": 8930000000,
+		"active": 8930000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

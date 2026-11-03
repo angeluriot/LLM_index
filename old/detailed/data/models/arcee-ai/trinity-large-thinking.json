@@ -1,0 +1,24 @@
+{
+	"display_name": "Trinity Large Thinking",
+	"names": [
+		"Trinity Large Thinking",
+		"Trinity-Large-Thinking"
+	],
+	"link": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking",
+	"history": {
+		"first_mention": "2026-04-01",
+		"access": "2026-04-01",
+		"weights": "2026-04-01"
+	},
+	"parameters": {
+		"all": 399000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

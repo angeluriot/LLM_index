@@ -1,0 +1,23 @@
+{
+	"display_name": "ReALM",
+	"names": [
+		"ReALM"
+	],
+	"link": "https://arxiv.org/abs/2403.20329",
+	"history": {
+		"first_mention": "2024-03-29",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 3000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

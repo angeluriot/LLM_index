@@ -1,0 +1,24 @@
+{
+	"display_name": "Nemotron 3.5 Bolt 74B-A9B",
+	"names": [
+		"Nemotron 3.5 Bolt 74B-A9B",
+		"NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16"
+	],
+	"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+	"history": {
+		"first_mention": "2026-10-15",
+		"access": "2026-10-15",
+		"weights": "2026-10-15"
+	},
+	"parameters": {
+		"all": 74000000000,
+		"active": 9000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

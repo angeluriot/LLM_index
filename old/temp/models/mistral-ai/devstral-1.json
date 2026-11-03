@@ -1,0 +1,41 @@
+[
+	{
+		"name": "Devstral Small 1",
+		"other_names": [
+			"Devstral Small 1.0",
+			"Devstral-Small-2505",
+			"devstral-small-2505"
+		],
+		"link": "https://mistral.ai/news/devstral/",
+		"price": {
+			"input": 10,
+			"output": 30
+		},
+		"access": {
+			"announcement": "2025-05-21",
+			"api": "2025-05-21",
+			"weights": "2025-05-21",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Devstral Medium 1",
+		"other_names": [
+			"Devstral Medium 1.0",
+			"devstral-medium-2507"
+		],
+		"link": "https://mistral.ai/news/devstral-2507/",
+		"price": {
+			"input": 40,
+			"output": 200
+		},
+		"access": {
+			"announcement": "2025-07-10",
+			"api": "2025-07-10",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

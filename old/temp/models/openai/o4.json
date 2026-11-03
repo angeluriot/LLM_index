@@ -1,0 +1,38 @@
+[
+	{
+		"name": "o4-mini",
+		"other_names": [
+			"o4-mini-2025-04-16"
+		],
+		"link": "https://openai.com/index/introducing-o3-and-o4-mini/",
+		"price": {
+			"input": 110,
+			"output": 440
+		},
+		"access": {
+			"announcement": "2025-04-16",
+			"api": "2025-04-16",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	},
+	{
+		"name": "codex-mini",
+		"other_names": [
+			"codex-mini-latest"
+		],
+		"link": "https://openai.com/index/introducing-codex/",
+		"price": {
+			"input": 150,
+			"output": 600
+		},
+		"access": {
+			"announcement": "2025-05-16",
+			"api": "2025-05-16",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	}
+]

@@ -1,0 +1,33 @@
+{
+	"display_name": "GPT-4.5",
+	"versions": {
+		"2025-02-27": {
+			"display_name": "GPT-4.5",
+			"names": [
+				"GPT-4.5",
+				"GPT-4.5 (Preview)",
+				"GPT-4.5 Preview",
+				"GPT-4.5 Preview (Feb 2025)",
+				"gpt-4.5-preview",
+				"gpt-4.5-preview-2025-02-27"
+			],
+			"link": "https://openai.com/index/introducing-gpt-4-5/",
+			"history": {
+				"first_mention": "2025-02-27",
+				"access": "2025-02-27",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 75.0,
+				"output": 150.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "Qwen2.5-Coder-0.5B",
+	"names": [
+		"Qwen2.5-Coder-0.5B"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen2.5-coder-family/",
+	"history": {
+		"first_mention": "2024-11-12",
+		"access": "2024-11-12",
+		"weights": "2024-11-12"
+	},
+	"parameters": {
+		"all": 494032768,
+		"active": 494032768
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

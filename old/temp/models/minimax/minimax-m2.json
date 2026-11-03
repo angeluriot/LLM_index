@@ -1,0 +1,18 @@
+[
+	{
+		"name": "MiniMax-M2",
+		"other_names": [],
+		"link": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+		"price": {
+			"input": 30,
+			"output": 120
+		},
+		"access": {
+			"announcement": "2025-10-27",
+			"api": "2025-10-27",
+			"weights": "2025-10-27",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

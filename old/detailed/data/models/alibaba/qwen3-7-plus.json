@@ -1,0 +1,26 @@
+{
+	"display_name": "Qwen3.7-Plus",
+	"names": [
+		"Qwen3.7-Plus",
+		"Qwen3.7 Plus",
+		"qwen3.7-plus"
+	],
+	"link": "https://qwen.ai/blog?id=qwen3.7-plus",
+	"history": {
+		"first_mention": "2026-06-01",
+		"access": "2026-06-02",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.4,
+		"output": 1.6
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

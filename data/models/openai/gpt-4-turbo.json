@@ -1,0 +1,81 @@
+{
+	"display_name": "GPT-4 Turbo",
+	"versions": {
+		"2023-11-06": {
+			"display_name": "GPT-4 Turbo (Nov 2023)",
+			"names": [
+				"GPT-4 Turbo (Nov 2023)",
+				"GPT-4 Turbo Preview (Nov 2023)",
+				"gpt-4-1106-preview"
+			],
+			"link": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+			"history": {
+				"first_mention": "2023-11-06",
+				"access": "2023-11-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 10.0,
+				"output": 30.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"2024-01-25": {
+			"display_name": "GPT-4 Turbo (Jan 2024)",
+			"names": [
+				"GPT-4 Turbo (Jan 2024)",
+				"GPT-4 Turbo Preview (January 2024)",
+				"GPT-4 Turbo Preview (Jan 2024)",
+				"gpt-4-0125-preview",
+				"gpt-4-turbo-preview"
+			],
+			"link": "https://openai.com/index/new-embedding-models-and-api-updates/",
+			"history": {
+				"first_mention": "2024-01-25",
+				"access": "2024-01-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 10.0,
+				"output": 30.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"2024-04-09": {
+			"display_name": "GPT-4 Turbo (Apr 2024)",
+			"names": [
+				"GPT-4 Turbo (Apr 2024)",
+				"gpt-4-turbo-2024-04-09"
+			],
+			"link": "https://x.com/OpenAI/status/1778574613813006610",
+			"history": {
+				"first_mention": "2024-04-09",
+				"access": "2024-04-09",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 10.0,
+				"output": 30.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

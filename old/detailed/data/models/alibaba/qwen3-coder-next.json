@@ -1,0 +1,23 @@
+{
+	"display_name": "Qwen3-Coder-Next",
+	"names": [
+		"Qwen3-Coder-Next"
+	],
+	"link": "https://qwen.ai/blog?id=qwen3-coder-next",
+	"history": {
+		"first_mention": "2026-02-02",
+		"access": "2026-02-02",
+		"weights": "2026-02-02"
+	},
+	"parameters": {
+		"all": 80000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": 0.31,
+		"output": 1
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display_name": "DeepSeek Coder 33B",
+	"names": [
+		"DeepSeek Coder 33B",
+		"DeepSeek Coder 33B (base)",
+		"deepseek-coder-33b-base"
+	],
+	"link": "https://arxiv.org/abs/2401.14196",
+	"history": {
+		"first_mention": "2023-11-02",
+		"access": "2023-11-02",
+		"weights": "2023-11-02"
+	},
+	"parameters": {
+		"all": 33000000000,
+		"active": 33000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

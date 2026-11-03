@@ -1,0 +1,25 @@
+{
+	"display_name": "DeepSeek V3.1 Terminus",
+	"names": [
+		"DeepSeek V3.1 Terminus",
+		"DeepSeek-V3.1-Terminus"
+	],
+	"link": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus",
+	"history": {
+		"first_mention": "2025-09-22",
+		"access": "2025-09-22",
+		"weights": "2025-09-22"
+	},
+	"parameters": {
+		"all": 685000000000,
+		"active": 37000000000
+	},
+	"price": {
+		"input": 1.635,
+		"output": 2.75
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

@@ -1,0 +1,101 @@
+[
+	{
+		"name": "Cerebras-GPT",
+		"other_names": [],
+		"link": "https://www.cerebras.ai/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "Cerebras-GPT 111M",
+				"other_names": [
+					"Cerebras-GPT-111M"
+				],
+				"access": {
+					"announcement": "2023-03-28",
+					"api": "2023-03-28",
+					"weights": "2023-03-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Cerebras-GPT 256M",
+				"other_names": [
+					"Cerebras-GPT-256M"
+				],
+				"access": {
+					"announcement": "2023-03-28",
+					"api": "2023-03-28",
+					"weights": "2023-03-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Cerebras-GPT 590M",
+				"other_names": [
+					"Cerebras-GPT-590M"
+				],
+				"access": {
+					"announcement": "2023-03-28",
+					"api": "2023-03-28",
+					"weights": "2023-03-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Cerebras-GPT 1.3B",
+				"other_names": [
+					"Cerebras-GPT-1.3B"
+				],
+				"access": {
+					"announcement": "2023-03-28",
+					"api": "2023-03-28",
+					"weights": "2023-03-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Cerebras-GPT 2.7B",
+				"other_names": [
+					"Cerebras-GPT-2.7B"
+				],
+				"access": {
+					"announcement": "2023-03-28",
+					"api": "2023-03-28",
+					"weights": "2023-03-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Cerebras-GPT 6.7B",
+				"other_names": [
+					"Cerebras-GPT-6.7B"
+				],
+				"access": {
+					"announcement": "2023-03-28",
+					"api": "2023-03-28",
+					"weights": "2023-03-28",
+					"portable": true
+				},
+				"price": null
+			},
+			{
+				"name": "Cerebras-GPT 13B",
+				"other_names": [
+					"Cerebras-GPT-13B"
+				],
+				"access": {
+					"announcement": "2023-03-28",
+					"api": "2023-03-28",
+					"weights": "2023-03-28",
+					"portable": true
+				},
+				"price": null
+			}
+		]
+	}
+]

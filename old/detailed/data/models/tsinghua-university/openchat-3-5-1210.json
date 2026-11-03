@@ -1,0 +1,24 @@
+{
+	"display_name": "OpenChat 3.5 (1210)",
+	"names": [
+		"OpenChat 3.5 (1210)",
+		"openchat-3.5-1210"
+	],
+	"link": "https://huggingface.co/openchat/openchat-3.5-1210",
+	"history": {
+		"first_mention": "2023-12-18",
+		"access": "2023-12-18",
+		"weights": "2023-12-18"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,62 @@
+[
+	{
+		"name": "GLM-4",
+		"other_names": [
+			"glm-4"
+		],
+		"link": "https://github.com/zai-org/GLM-4",
+		"price": null,
+		"access": {
+			"announcement": "2024-01-16",
+			"api": "2024-01-16",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "GLM-4-9B",
+		"other_names": [
+			"glm-4-9b-chat"
+		],
+		"link": "https://huggingface.co/zai-org/glm-4-9b-chat",
+		"price": null,
+		"access": {
+			"announcement": "2024-06-05",
+			"api": "2024-06-05",
+			"weights": "2024-06-05",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "GLM-4-32B-0414",
+		"other_names": [
+			"GLM-4-0414"
+		],
+		"link": "https://huggingface.co/zai-org/GLM-4-32B-0414",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-14",
+			"api": "2025-04-14",
+			"weights": "2025-04-14",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "GLM-Z1-32B-0414",
+		"other_names": [
+			"GLM-Z1"
+		],
+		"link": "https://huggingface.co/zai-org/GLM-Z1-32B-0414",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-14",
+			"api": "2025-04-14",
+			"weights": "2025-04-14",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

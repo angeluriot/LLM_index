@@ -1,0 +1,29 @@
+{
+	"display_name": "GPT-3 125M",
+	"versions": {
+		"2020-05-28": {
+			"display_name": "GPT-3 125M",
+			"names": [
+				"GPT-3 125M",
+				"GPT-3 Small"
+			],
+			"link": "https://arxiv.org/abs/2005.14165",
+			"history": {
+				"first_mention": "2020-05-28",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 125000000,
+				"active": 125000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

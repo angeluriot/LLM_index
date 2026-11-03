@@ -1,0 +1,23 @@
+{
+	"display_name": "NVILA 15B",
+	"names": [
+		"NVILA 15B"
+	],
+	"link": "https://arxiv.org/abs/2412.04468",
+	"history": {
+		"first_mention": "2024-12-05",
+		"access": "2024-12-05",
+		"weights": "2024-12-05"
+	},
+	"parameters": {
+		"all": 15000000000,
+		"active": 15000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

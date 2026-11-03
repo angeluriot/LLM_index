@@ -1,0 +1,23 @@
+{
+	"display_name": "Grok-1",
+	"names": [
+		"Grok-1"
+	],
+	"link": "https://x.ai/model-card/,",
+	"history": {
+		"first_mention": "2023-11-04",
+		"access": "2023-11-04",
+		"weights": "2024-03-17"
+	},
+	"parameters": {
+		"all": 314000000000,
+		"active": 78000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

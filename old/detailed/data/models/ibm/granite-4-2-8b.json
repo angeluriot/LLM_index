@@ -1,0 +1,24 @@
+{
+	"display_name": "Granite 4.2 8B",
+	"names": [
+		"Granite 4.2 8B",
+		"granite-4.2-8b"
+	],
+	"link": "https://huggingface.co/ibm-granite/granite-4.2-8b",
+	"history": {
+		"first_mention": "2026-08-25",
+		"access": "2026-08-25",
+		"weights": "2026-08-25"
+	},
+	"parameters": {
+		"all": 8000000000,
+		"active": 8000000000
+	},
+	"price": {
+		"input": 0.06,
+		"output": 0.25
+	},
+	"efforts": [
+		""
+	]
+}

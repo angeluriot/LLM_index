@@ -1,0 +1,24 @@
+{
+	"display_name": "DeepSeek LLM 67B Chat (V1)",
+	"names": [
+		"DeepSeek LLM 67B Chat (V1)",
+		"deepseek-llm-67b-chat"
+	],
+	"link": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat",
+	"history": {
+		"first_mention": "2023-11-29",
+		"access": "2023-11-29",
+		"weights": "2023-11-29"
+	},
+	"parameters": {
+		"all": 67000000000,
+		"active": 67000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"display_name": "DeepSeek-Coder-V2 236B",
+	"names": [
+		"DeepSeek-Coder-V2 236B",
+		"DeepSeek-Coder-V2 (instruct)",
+		"DeepSeek-Coder-V2-Instruct",
+		"DeepSeek-Coder-V2"
+	],
+	"link": "https://github.com/deepseek-ai/DeepSeek-Coder-V2",
+	"history": {
+		"first_mention": "2024-06-17",
+		"access": "2024-06-17",
+		"weights": "2024-06-17"
+	},
+	"parameters": {
+		"all": 236000000000,
+		"active": 21000000000
+	},
+	"price": {
+		"input": 0.14,
+		"output": 0.28
+	},
+	"efforts": [
+		""
+	]
+}

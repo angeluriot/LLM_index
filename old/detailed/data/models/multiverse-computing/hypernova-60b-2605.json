@@ -1,0 +1,24 @@
+{
+	"display_name": "HyperNova 60B 2605",
+	"names": [
+		"HyperNova 60B 2605",
+		"Hypernova-60B-2605"
+	],
+	"link": "https://huggingface.co/MultiverseComputingCAI/Hypernova-60B-2605",
+	"history": {
+		"first_mention": "2026-05-26",
+		"access": "2026-05-26",
+		"weights": "2026-05-26"
+	},
+	"parameters": {
+		"all": 58700000000,
+		"active": 4800000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

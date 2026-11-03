@@ -1,0 +1,29 @@
+{
+	"display_name": "Beam 1.0",
+	"names": [
+		"Beam 1.0",
+		"beam-1.0",
+		"Beam-1.0-501B-A23B"
+	],
+	"link": "https://reflection.ai/blog/introducing-beam",
+	"history": {
+		"first_mention": "2026-10-05",
+		"access": "2026-10-16",
+		"weights": "2026-10-16"
+	},
+	"parameters": {
+		"all": 501000000000,
+		"active": 23000000000
+	},
+	"price": {
+		"input": 0.4,
+		"output": 1.2
+	},
+	"efforts": [
+		"Low",
+		"Medium",
+		"High",
+		"Xhigh",
+		"Max"
+	]
+}

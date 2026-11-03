@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Kimi K2.6",
+		"other_names": [
+			"Kimi-K2.6",
+			"kimi-k2.6"
+		],
+		"link": "https://huggingface.co/moonshotai/Kimi-K2.6",
+		"price": {
+			"input": 95,
+			"output": 400
+		},
+		"access": {
+			"announcement": "2026-04-20",
+			"api": "2026-04-20",
+			"weights": "2026-04-20",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

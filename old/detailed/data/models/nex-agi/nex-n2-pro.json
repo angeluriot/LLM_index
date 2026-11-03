@@ -1,0 +1,23 @@
+{
+	"display_name": "Nex-N2-Pro",
+	"names": [
+		"Nex-N2-Pro"
+	],
+	"link": "https://huggingface.co/nex-agi/Nex-N2-Pro",
+	"history": {
+		"first_mention": "2026-06-02",
+		"access": "2026-06-02",
+		"weights": "2026-06-02"
+	},
+	"parameters": {
+		"all": 397000000000,
+		"active": 17000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

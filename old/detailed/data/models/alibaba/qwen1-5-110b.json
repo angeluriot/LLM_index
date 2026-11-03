@@ -1,0 +1,23 @@
+{
+	"display_name": "Qwen1.5-110B",
+	"names": [
+		"Qwen1.5-110B"
+	],
+	"link": "https://huggingface.co/Qwen/Qwen1.5-110B",
+	"history": {
+		"first_mention": "2024-04-25",
+		"access": "2024-04-25",
+		"weights": "2024-04-25"
+	},
+	"parameters": {
+		"all": 110000000000,
+		"active": 110000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

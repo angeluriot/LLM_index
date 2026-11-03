@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Nemotron-4 15B",
+		"other_names": [],
+		"link": "https://arxiv.org/abs/2402.16819",
+		"price": null,
+		"access": {
+			"announcement": "2024-02-26",
+			"api": null,
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Nemotron-4 340B",
+		"other_names": [
+			"Nemotron-4-340B-Instruct"
+		],
+		"link": "https://huggingface.co/nvidia/Nemotron-4-340B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2024-06-14",
+			"api": "2024-06-14",
+			"weights": "2024-06-14",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

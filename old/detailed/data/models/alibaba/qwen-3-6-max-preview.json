@@ -1,0 +1,26 @@
+{
+	"display_name": "Qwen 3.6 Max (Preview)",
+	"names": [
+		"Qwen 3.6 Max (Preview)",
+		"Qwen3.6 Max Preview",
+		"qwen3.6-max-preview"
+	],
+	"link": "https://qwen.ai/blog?id=qwen3.6",
+	"history": {
+		"first_mention": "2026-04-20",
+		"access": "2026-04-20",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1.027,
+		"output": 6.162
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

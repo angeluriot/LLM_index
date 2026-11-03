@@ -1,0 +1,25 @@
+{
+	"display_name": "MiniMax-M3",
+	"names": [
+		"MiniMax-M3",
+		"MiniMax M3"
+	],
+	"link": "https://www.minimax.io/blog/minimax-m3",
+	"history": {
+		"first_mention": "2026-06-01",
+		"access": "2026-06-01",
+		"weights": "2026-06-01"
+	},
+	"parameters": {
+		"all": 428000000000,
+		"active": 22000000000
+	},
+	"price": {
+		"input": 0.3,
+		"output": 1.2
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display_name": "Apertus v1.5 70B",
+	"names": [
+		"Apertus v1.5 70B",
+		"Apertus-v1.5-70B"
+	],
+	"link": "https://huggingface.co/swiss-ai/Apertus-v1.5-70B",
+	"history": {
+		"first_mention": "2026-07-24",
+		"access": "2026-07-24",
+		"weights": "2026-07-24"
+	},
+	"parameters": {
+		"all": 72000000000,
+		"active": 72000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

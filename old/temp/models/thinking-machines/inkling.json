@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Inkling",
+		"other_names": [],
+		"link": "https://thinkingmachines.ai/news/introducing-inkling/",
+		"price": {
+			"input": 100,
+			"output": 405
+		},
+		"access": {
+			"announcement": "2026-07-15",
+			"api": "2026-07-15",
+			"weights": "2026-07-15",
+			"portable": false
+		},
+		"efforts": ["None", "Minimal", "Low", "Medium", "High", "Xhigh"]
+	},
+	{
+		"name": "Inkling-Small",
+		"other_names": [],
+		"link": "https://thinkingmachines.ai/news/inkling-small/",
+		"price": {
+			"input": 30,
+			"output": 120
+		},
+		"access": {
+			"announcement": "2026-07-15",
+			"api": "2026-07-30",
+			"weights": "2026-07-30",
+			"portable": false
+		},
+		"efforts": ["None", "Minimal", "Low", "Medium", "High", "Xhigh"]
+	}
+]

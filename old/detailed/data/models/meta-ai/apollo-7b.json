@@ -1,0 +1,23 @@
+{
+	"display_name": "Apollo 7B",
+	"names": [
+		"Apollo 7B"
+	],
+	"link": "https://arxiv.org/abs/2412.10360",
+	"history": {
+		"first_mention": "2024-12-13",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

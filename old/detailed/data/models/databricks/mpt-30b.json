@@ -1,0 +1,24 @@
+{
+	"display_name": "MPT-30B",
+	"names": [
+		"MPT-30B",
+		"mpt-30b"
+	],
+	"link": "https://huggingface.co/mosaicml/mpt-30b",
+	"history": {
+		"first_mention": "2023-06-22",
+		"access": "2023-06-22",
+		"weights": "2023-06-22"
+	},
+	"parameters": {
+		"all": 30000000000,
+		"active": 30000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

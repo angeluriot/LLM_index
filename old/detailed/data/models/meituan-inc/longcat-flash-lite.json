@@ -1,0 +1,24 @@
+{
+	"display_name": "LongCat Flash Lite",
+	"names": [
+		"LongCat Flash Lite",
+		"LongCat-Flash-Lite"
+	],
+	"link": "https://huggingface.co/meituan-longcat/LongCat-Flash-Lite",
+	"history": {
+		"first_mention": "2026-01-28",
+		"access": "2026-01-28",
+		"weights": "2026-01-28"
+	},
+	"parameters": {
+		"all": 68500000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "GPT-5.5 Instant (June 2026)",
+	"names": [
+		"GPT-5.5 Instant (June 2026)"
+	],
+	"link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+	"history": {
+		"first_mention": "2026-06-25",
+		"access": "2026-06-25",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 5,
+		"output": 30
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display_name": "Hermes 4 - Llama-3.1 70B",
+	"names": [
+		"Hermes 4 - Llama-3.1 70B",
+		"Hermes-4-70B"
+	],
+	"link": "https://huggingface.co/NousResearch/Hermes-4-70B",
+	"history": {
+		"first_mention": "2025-08-27",
+		"access": "2025-08-27",
+		"weights": "2025-08-27"
+	},
+	"parameters": {
+		"all": 70600000000,
+		"active": 70600000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Reasoning"
+	]
+}

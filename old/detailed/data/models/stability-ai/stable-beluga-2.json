@@ -1,0 +1,24 @@
+{
+	"display_name": "Stable Beluga 2",
+	"names": [
+		"Stable Beluga 2",
+		"StableBeluga2"
+	],
+	"link": "https://stability.ai/news/stable-beluga-large-instruction-fine-tuned-models,",
+	"history": {
+		"first_mention": "2023-07-20",
+		"access": "2023-07-20",
+		"weights": "2023-07-20"
+	},
+	"parameters": {
+		"all": 70000000000,
+		"active": 70000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

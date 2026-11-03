@@ -1,0 +1,24 @@
+{
+	"display_name": "Nemotron Cascade 2 30B A3B",
+	"names": [
+		"Nemotron Cascade 2 30B A3B",
+		"Nemotron-Cascade-2-30B-A3B"
+	],
+	"link": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B",
+	"history": {
+		"first_mention": "2026-03-19",
+		"access": "2026-03-19",
+		"weights": "2026-03-19"
+	},
+	"parameters": {
+		"all": 31600000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

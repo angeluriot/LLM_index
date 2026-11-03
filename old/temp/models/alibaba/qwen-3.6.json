@@ -1,0 +1,114 @@
+[
+	{
+		"name": "Qwen3.6-Plus",
+		"other_names": [
+			"qwen3.6-plus"
+		],
+		"link": "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-plus",
+		"efforts": ["", "Reasoning"],
+		"versions": [
+			{
+				"name": "Qwen3.6-Plus-Preview",
+				"other_names": [
+					"qwen3.6-plus-preview"
+				],
+				"access": {
+					"announcement": "2026-03-30",
+					"api": "2026-03-30",
+					"weights": null,
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "Qwen3.6-Plus",
+				"other_names": [
+					"qwen3.6-plus-2026-04-02"
+				],
+				"access": {
+					"announcement": "2026-04-02",
+					"api": "2026-04-02",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 50,
+					"output": 300
+				}
+			}
+		]
+	},
+	{
+		"name": "Qwen3.6-35B-A3B",
+		"other_names": [
+			"qwen3.6-35b-a3b"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+		"price": {
+			"input": 38,
+			"output": 225
+		},
+		"access": {
+			"announcement": "2026-04-16",
+			"api": "2026-04-16",
+			"weights": "2026-04-16",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.6-Flash",
+		"other_names": [
+			"qwen3.6-flash",
+			"qwen3.6-flash-2026-04-16"
+		],
+		"link": "https://www.alibabacloud.com/help/en/model-studio/qwen3-6-flash",
+		"price": {
+			"input": 25,
+			"output": 150
+		},
+		"access": {
+			"announcement": "2026-04-17",
+			"api": "2026-04-17",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.6-Max-Preview",
+		"other_names": [
+			"qwen3.6-max-preview"
+		],
+		"link": "https://qwen.ai/blog?id=qwen3.6",
+		"price": {
+			"input": 130,
+			"output": 780
+		},
+		"access": {
+			"announcement": "2026-04-20",
+			"api": "2026-04-20",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.6-27B",
+		"other_names": [
+			"qwen3.6-27b"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen3.6-27B",
+		"price": {
+			"input": 60,
+			"output": 360
+		},
+		"access": {
+			"announcement": "2026-04-22",
+			"api": "2026-04-22",
+			"weights": "2026-04-22",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"display_name": "Yi-1.5-9B-Chat",
+	"names": [
+		"Yi-1.5-9B-Chat"
+	],
+	"link": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat",
+	"history": {
+		"first_mention": "2024-05-13",
+		"access": "2024-05-13",
+		"weights": "2024-05-13"
+	},
+	"parameters": {
+		"all": 8829407232,
+		"active": 8829407232
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

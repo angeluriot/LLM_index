@@ -1,0 +1,24 @@
+{
+	"display_name": "Qwen2.5-Coder (1.5B)",
+	"names": [
+		"Qwen2.5-Coder (1.5B)",
+		"Qwen2.5-Coder-1.5B"
+	],
+	"link": "https://arxiv.org/abs/2409.12186",
+	"history": {
+		"first_mention": "2024-09-18",
+		"access": "2024-09-18",
+		"weights": "2024-09-18"
+	},
+	"parameters": {
+		"all": 1540000000,
+		"active": 1540000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

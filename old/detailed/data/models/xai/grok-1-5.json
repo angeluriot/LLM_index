@@ -1,0 +1,23 @@
+{
+	"display_name": "Grok-1.5",
+	"names": [
+		"Grok-1.5"
+	],
+	"link": "https://x.ai/news/grok-1.5",
+	"history": {
+		"first_mention": "2024-03-28",
+		"access": "2024-05-15",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

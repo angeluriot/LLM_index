@@ -1,0 +1,24 @@
+{
+	"display_name": "Gemma 3 1B Instruct",
+	"names": [
+		"Gemma 3 1B Instruct",
+		"gemma-3-1b-it"
+	],
+	"link": "https://huggingface.co/google/gemma-3-1b-it",
+	"history": {
+		"first_mention": "2025-03-13",
+		"access": "2025-03-13",
+		"weights": "2025-03-13"
+	},
+	"parameters": {
+		"all": 1000000000,
+		"active": 1000000000
+	},
+	"price": {
+		"input": 0,
+		"output": 0
+	},
+	"efforts": [
+		""
+	]
+}

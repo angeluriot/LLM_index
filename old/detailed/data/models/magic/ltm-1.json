@@ -1,0 +1,23 @@
+{
+	"display_name": "LTM-1",
+	"names": [
+		"LTM-1"
+	],
+	"link": "https://magic.dev/blog/ltm-1",
+	"history": {
+		"first_mention": "2023-06-06",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

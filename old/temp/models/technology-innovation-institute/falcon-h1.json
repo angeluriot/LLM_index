@@ -1,0 +1,107 @@
+[
+	{
+		"name": "Falcon-H1-0.5B",
+		"other_names": [
+			"Falcon-H1-0.5B-Instruct"
+		],
+		"link": "https://huggingface.co/tiiuae/Falcon-H1-0.5B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2025-05-21",
+			"api": "2025-05-21",
+			"weights": "2025-05-21",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Falcon-H1-1.5B",
+		"other_names": [
+			"Falcon-H1-1.5B-Instruct"
+		],
+		"link": "https://huggingface.co/tiiuae/Falcon-H1-1.5B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2025-05-21",
+			"api": "2025-05-21",
+			"weights": "2025-05-21",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Falcon-H1-1.5B-Deep",
+		"other_names": [
+			"Falcon-H1-1.5B-Deep-Instruct"
+		],
+		"link": "https://huggingface.co/tiiuae/Falcon-H1-1.5B-Deep-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2025-05-21",
+			"api": "2025-05-21",
+			"weights": "2025-05-21",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Falcon-H1-3B",
+		"other_names": [
+			"Falcon-H1-3B-Instruct"
+		],
+		"link": "https://huggingface.co/tiiuae/Falcon-H1-3B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2025-05-21",
+			"api": "2025-05-21",
+			"weights": "2025-05-21",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Falcon-H1-7B",
+		"other_names": [
+			"Falcon-H1-7B-Instruct"
+		],
+		"link": "https://huggingface.co/tiiuae/Falcon-H1-7B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2025-05-21",
+			"api": "2025-05-21",
+			"weights": "2025-05-21",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Falcon-H1-34B",
+		"other_names": [
+			"Falcon-H1-34B-Instruct"
+		],
+		"link": "https://huggingface.co/tiiuae/Falcon-H1-34B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2025-05-21",
+			"api": "2025-05-21",
+			"weights": "2025-05-21",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Falcon-H1R-7B",
+		"other_names": [
+			"Falcon-H1R"
+		],
+		"link": "https://huggingface.co/tiiuae/Falcon-H1R-7B",
+		"price": null,
+		"access": {
+			"announcement": "2026-01-05",
+			"api": "2026-01-05",
+			"weights": "2026-01-05",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

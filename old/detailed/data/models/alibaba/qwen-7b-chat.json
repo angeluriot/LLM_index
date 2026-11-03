@@ -1,0 +1,24 @@
+{
+	"display_name": "Qwen-7B (chat)",
+	"names": [
+		"Qwen-7B (chat)",
+		"Qwen-7B-Chat"
+	],
+	"link": "https://arxiv.org/abs/2309.16609,",
+	"history": {
+		"first_mention": "2023-09-28",
+		"access": "2023-09-28",
+		"weights": "2023-09-28"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

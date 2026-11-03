@@ -1,0 +1,36 @@
+[
+	{
+		"name": "Gemma 1 2B",
+		"other_names": [
+			"Gemma 2B",
+			"gemma-2b",
+			"gemma-2b-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-open-models/",
+		"price": null,
+		"access": {
+			"announcement": "2024-02-21",
+			"api": "2024-02-21",
+			"weights": "2024-02-21",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 1 7B",
+		"other_names": [
+			"Gemma 7B",
+			"gemma-7b",
+			"gemma-7b-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-open-models/",
+		"price": null,
+		"access": {
+			"announcement": "2024-02-21",
+			"api": "2024-02-21",
+			"weights": "2024-02-21",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

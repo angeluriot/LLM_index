@@ -1,0 +1,23 @@
+{
+	"display_name": "Ling-flash-2.0",
+	"names": [
+		"Ling-flash-2.0"
+	],
+	"link": "https://huggingface.co/inclusionAI/Ling-flash-2.0",
+	"history": {
+		"first_mention": "2025-09-17",
+		"access": "2025-09-17",
+		"weights": "2025-09-17"
+	},
+	"parameters": {
+		"all": 103000000000,
+		"active": 6100000000
+	},
+	"price": {
+		"input": 0.14,
+		"output": 0.57
+	},
+	"efforts": [
+		""
+	]
+}

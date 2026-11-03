@@ -1,0 +1,40 @@
+[
+	{
+		"name": "MiMo-V2.6-Flash",
+		"other_names": [
+			"mimo-v2.6-flash",
+			"MiMo-V2.6-Flash-RL"
+		],
+		"link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL",
+		"price": {
+			"input": 14,
+			"output": 28
+		},
+		"access": {
+			"announcement": "2026-09-21",
+			"api": "2026-09-21",
+			"weights": "2026-09-21",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "MiMo-V2.6-Pro",
+		"other_names": [
+			"mimo-v2.6-pro",
+			"MiMo-V2.6-Pro-RL"
+		],
+		"link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+		"price": {
+			"input": 44,
+			"output": 87
+		},
+		"access": {
+			"announcement": "2026-09-21",
+			"api": "2026-09-21",
+			"weights": "2026-09-21",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

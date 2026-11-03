@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Moonshot-v1",
+		"other_names": [
+			"Kimi",
+			"moonshot-v1-8k",
+			"moonshot-v1-32k",
+			"moonshot-v1-128k"
+		],
+		"link": "https://www.moonshot.ai/",
+		"price": null,
+		"access": {
+			"announcement": "2023-10-09",
+			"api": "2023-10-09",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

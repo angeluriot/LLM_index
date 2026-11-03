@@ -1,0 +1,23 @@
+{
+	"display_name": "MiniMax-M2.1",
+	"names": [
+		"MiniMax-M2.1"
+	],
+	"link": "https://huggingface.co/MiniMaxAI/MiniMax-M2.1",
+	"history": {
+		"first_mention": "2025-12-23",
+		"access": "2025-12-23",
+		"weights": "2025-12-23"
+	},
+	"parameters": {
+		"all": 229000000000,
+		"active": 10000000000
+	},
+	"price": {
+		"input": 0.3,
+		"output": 1.2
+	},
+	"efforts": [
+		""
+	]
+}

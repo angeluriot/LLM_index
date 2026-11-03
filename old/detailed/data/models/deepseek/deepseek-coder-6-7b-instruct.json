@@ -1,0 +1,24 @@
+{
+	"display_name": "DeepSeek Coder 6.7B Instruct",
+	"names": [
+		"DeepSeek Coder 6.7B Instruct",
+		"deepseek-coder-6.7b-instruct"
+	],
+	"link": "https://arxiv.org/abs/2401.14196",
+	"history": {
+		"first_mention": "2023-11-02",
+		"access": "2023-11-02",
+		"weights": "2023-11-02"
+	},
+	"parameters": {
+		"all": 6700000000,
+		"active": 6700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

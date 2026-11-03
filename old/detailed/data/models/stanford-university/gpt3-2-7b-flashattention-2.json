@@ -1,0 +1,23 @@
+{
+	"display_name": "GPT3-2.7B (FlashAttention-2)",
+	"names": [
+		"GPT3-2.7B (FlashAttention-2)"
+	],
+	"link": "https://arxiv.org/pdf/2307.08691",
+	"history": {
+		"first_mention": "2023-07-18",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 2700000000,
+		"active": 2700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "K2 Think V2",
+	"names": [
+		"K2 Think V2",
+		"K2-Think-V2"
+	],
+	"link": "https://huggingface.co/LLM360/K2-Think-V2",
+	"history": {
+		"first_mention": "2025-12-15",
+		"access": "2025-12-15",
+		"weights": "2025-12-15"
+	},
+	"parameters": {
+		"all": 70000000000,
+		"active": 70000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

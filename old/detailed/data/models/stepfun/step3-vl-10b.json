@@ -1,0 +1,24 @@
+{
+	"display_name": "Step3 VL 10B",
+	"names": [
+		"Step3 VL 10B",
+		"Step3-VL-10B"
+	],
+	"link": "https://huggingface.co/stepfun-ai/Step3-VL-10B",
+	"history": {
+		"first_mention": "2026-01-20",
+		"access": "2026-01-20",
+		"weights": "2026-01-20"
+	},
+	"parameters": {
+		"all": 10200000000,
+		"active": 10200000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

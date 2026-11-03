@@ -1,0 +1,23 @@
+{
+	"display_name": "Composer 2.5",
+	"names": [
+		"Composer 2.5"
+	],
+	"link": "https://cursor.com/blog/composer-2-5",
+	"history": {
+		"first_mention": "2026-05-18",
+		"access": "2026-05-18",
+		"weights": null
+	},
+	"parameters": {
+		"all": 1040000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

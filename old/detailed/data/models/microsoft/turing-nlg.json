@@ -1,0 +1,23 @@
+{
+	"display_name": "Turing-NLG",
+	"names": [
+		"Turing-NLG"
+	],
+	"link": "https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/",
+	"history": {
+		"first_mention": "2020-02-13",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 17000000000,
+		"active": 17000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

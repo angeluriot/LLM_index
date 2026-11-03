@@ -1,0 +1,23 @@
+{
+	"display_name": "PanGu-Σ",
+	"names": [
+		"PanGu-Σ"
+	],
+	"link": "https://arxiv.org/abs/2303.10845",
+	"history": {
+		"first_mention": "2023-03-20",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 1085000000000,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

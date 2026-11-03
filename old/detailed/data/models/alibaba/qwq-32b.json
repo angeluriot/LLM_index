@@ -1,0 +1,24 @@
+{
+	"display_name": "QwQ-32B",
+	"names": [
+		"QwQ-32B",
+		"QwQ 32B"
+	],
+	"link": "https://qwenlm.github.io/blog/qwq-32b/",
+	"history": {
+		"first_mention": "2025-03-05",
+		"access": "2025-03-05",
+		"weights": "2025-03-05"
+	},
+	"parameters": {
+		"all": 32500000000,
+		"active": 32500000000
+	},
+	"price": {
+		"input": 0.15,
+		"output": 0.58
+	},
+	"efforts": [
+		""
+	]
+}

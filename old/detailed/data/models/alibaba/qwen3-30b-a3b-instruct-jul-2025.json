@@ -1,0 +1,25 @@
+{
+	"display_name": "Qwen3-30B-A3B-Instruct (Jul 2025)",
+	"names": [
+		"Qwen3-30B-A3B-Instruct (Jul 2025)",
+		"qwen3-30b-a3b-instruct-2507",
+		"Qwen3 30B A3B 2507 Instruct"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen3/",
+	"history": {
+		"first_mention": "2025-07-29",
+		"access": "2025-07-29",
+		"weights": "2025-07-29"
+	},
+	"parameters": {
+		"all": 30000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": 0.1,
+		"output": 0.3
+	},
+	"efforts": [
+		""
+	]
+}

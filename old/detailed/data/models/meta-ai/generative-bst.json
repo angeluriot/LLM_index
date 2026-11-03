@@ -1,0 +1,23 @@
+{
+	"display_name": "Generative BST",
+	"names": [
+		"Generative BST"
+	],
+	"link": "https://arxiv.org/abs/2004.13637",
+	"history": {
+		"first_mention": "2021-03-05",
+		"access": "2021-03-05",
+		"weights": "2021-03-05"
+	},
+	"parameters": {
+		"all": 9431810048,
+		"active": 9431810048
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

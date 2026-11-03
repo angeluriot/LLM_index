@@ -1,0 +1,24 @@
+{
+	"display_name": "K-EXAONE 2.0 0803",
+	"names": [
+		"K-EXAONE 2.0 0803",
+		"K-EXAONE-2.0-750B-A37B"
+	],
+	"link": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B",
+	"history": {
+		"first_mention": "2026-08-12",
+		"access": "2026-08-12",
+		"weights": "2026-08-12"
+	},
+	"parameters": {
+		"all": 750000000000,
+		"active": 37000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

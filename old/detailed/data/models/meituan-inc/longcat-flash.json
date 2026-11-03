@@ -1,0 +1,23 @@
+{
+	"display_name": "LongCat-Flash",
+	"names": [
+		"LongCat-Flash"
+	],
+	"link": "https://arxiv.org/abs/2509.01322",
+	"history": {
+		"first_mention": "2025-09-01",
+		"access": "2025-09-01",
+		"weights": "2025-09-01"
+	},
+	"parameters": {
+		"all": 560000000000,
+		"active": 18600000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

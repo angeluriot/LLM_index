@@ -1,0 +1,25 @@
+{
+	"display_name": "Grok 4",
+	"names": [
+		"Grok 4",
+		"grok-4-0709"
+	],
+	"link": "https://x.ai/news/grok-4",
+	"history": {
+		"first_mention": "2025-07-09",
+		"access": "2025-07-09",
+		"weights": null
+	},
+	"parameters": {
+		"all": 3000000000000,
+		"active": null
+	},
+	"price": {
+		"input": 3.0,
+		"output": 15.0
+	},
+	"efforts": [
+		"",
+		"High"
+	]
+}

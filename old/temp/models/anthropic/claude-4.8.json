@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Claude Opus 4.8",
+		"other_names": [
+			"claude-opus-4-8"
+		],
+		"link": "https://www.anthropic.com/news/claude-opus-4-8",
+		"price": {
+			"input": 500,
+			"output": 2500
+		},
+		"access": {
+			"announcement": "2026-05-28",
+			"api": "2026-05-28",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh", "Max"]
+	}
+]

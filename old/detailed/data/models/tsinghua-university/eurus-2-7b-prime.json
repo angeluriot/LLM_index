@@ -1,0 +1,23 @@
+{
+	"display_name": "Eurus-2-7B-PRIME",
+	"names": [
+		"Eurus-2-7B-PRIME"
+	],
+	"link": "https://arxiv.org/abs/2502.01456",
+	"history": {
+		"first_mention": "2024-12-31",
+		"access": "2024-12-31",
+		"weights": "2024-12-31"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

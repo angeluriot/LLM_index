@@ -1,0 +1,143 @@
+[
+	{
+		"name": "Qwen2.5-0.5B",
+		"other_names": [
+			"Qwen2.5-0.5B-Instruct"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2.5/",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-19",
+			"api": "2024-09-19",
+			"weights": "2024-09-19",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-1.5B",
+		"other_names": [
+			"Qwen2.5-1.5B-Instruct"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2.5/",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-19",
+			"api": "2024-09-19",
+			"weights": "2024-09-19",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-3B",
+		"other_names": [
+			"Qwen2.5-3B-Instruct"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2.5/",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-19",
+			"api": "2024-09-19",
+			"weights": "2024-09-19",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-7B",
+		"other_names": [
+			"Qwen2.5-7B-Instruct"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2.5/",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-19",
+			"api": "2024-09-19",
+			"weights": "2024-09-19",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-14B",
+		"other_names": [
+			"Qwen2.5-14B-Instruct"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2.5/",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-19",
+			"api": "2024-09-19",
+			"weights": "2024-09-19",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-32B",
+		"other_names": [
+			"Qwen2.5-32B-Instruct"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2.5/",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-19",
+			"api": "2024-09-19",
+			"weights": "2024-09-19",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-72B",
+		"other_names": [
+			"Qwen2.5-72B-Instruct"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2.5/",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-19",
+			"api": "2024-09-19",
+			"weights": "2024-09-19",
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-Turbo",
+		"other_names": [
+			"qwen-turbo-2024-11-01"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2.5-turbo/",
+		"price": {
+			"input": 5,
+			"output": 20
+		},
+		"access": {
+			"announcement": "2024-11-15",
+			"api": "2024-11-15",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-Max",
+		"other_names": [
+			"qwen-max-2025-01-25"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2.5-max/",
+		"price": {
+			"input": 160,
+			"output": 640
+		},
+		"access": {
+			"announcement": "2025-01-28",
+			"api": "2025-01-28",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

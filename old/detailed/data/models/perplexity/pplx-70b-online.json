@@ -1,0 +1,23 @@
+{
+	"display_name": "PPLX-70B-Online",
+	"names": [
+		"PPLX-70B-Online"
+	],
+	"link": "https://blog.perplexity.ai/blog/introducing-pplx-online-llms",
+	"history": {
+		"first_mention": "2023-11-29",
+		"access": "2023-11-29",
+		"weights": null
+	},
+	"parameters": {
+		"all": 70000000000,
+		"active": 70000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

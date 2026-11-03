@@ -1,0 +1,26 @@
+{
+	"display_name": "Gemini 2.5 Flash (Sep 2025)",
+	"names": [
+		"Gemini 2.5 Flash (Sep 2025)",
+		"gemini-2.5-flash-preview-09-2025",
+		"Gemini 2.5 Flash Preview (Sep '25)"
+	],
+	"link": "https://deepmind.google/models/gemini/flash/",
+	"history": {
+		"first_mention": "2025-09-25",
+		"access": "2025-09-25",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.3,
+		"output": 2.5
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

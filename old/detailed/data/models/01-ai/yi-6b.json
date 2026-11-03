@@ -1,0 +1,24 @@
+{
+	"display_name": "Yi 6B",
+	"names": [
+		"Yi 6B",
+		"Yi-6B"
+	],
+	"link": "https://arxiv.org/abs/2403.04652",
+	"history": {
+		"first_mention": "2023-11-02",
+		"access": "2023-11-02",
+		"weights": "2023-11-02"
+	},
+	"parameters": {
+		"all": 6000000000,
+		"active": 6000000000
+	},
+	"price": {
+		"input": 0.18,
+		"output": 0.18
+	},
+	"efforts": [
+		""
+	]
+}

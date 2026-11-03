@@ -1,0 +1,24 @@
+{
+	"display_name": "Qwen3 (Parasail)",
+	"names": [
+		"Qwen3 (Parasail)",
+		"parasail-qwen3-235b-a22b-instruct-2507"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen3/",
+	"history": {
+		"first_mention": "2025-09-01",
+		"access": "2025-09-01",
+		"weights": "2025-09-01"
+	},
+	"parameters": {
+		"all": 235000000000,
+		"active": 22000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display_name": "Gemini 1.5 Flash (May 2024)",
+	"names": [
+		"Gemini 1.5 Flash (May 2024)",
+		"gemini-1.5-flash-0514",
+		"Gemini 1.5 Flash (May '24)"
+	],
+	"link": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+	"history": {
+		"first_mention": "2024-05-14",
+		"access": "2024-05-14",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.35,
+		"output": 1.05
+	},
+	"efforts": [
+		""
+	]
+}

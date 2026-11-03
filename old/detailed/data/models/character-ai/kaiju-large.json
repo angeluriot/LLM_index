@@ -1,0 +1,23 @@
+{
+	"display_name": "Kaiju Large",
+	"names": [
+		"Kaiju Large"
+	],
+	"link": "https://blog.character.ai/inside-kaiju-building-conversational-models-at-scale/",
+	"history": {
+		"first_mention": "2025-11-07",
+		"access": "2025-11-07",
+		"weights": null
+	},
+	"parameters": {
+		"all": 110000000000,
+		"active": 110000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

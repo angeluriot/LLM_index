@@ -1,0 +1,23 @@
+{
+	"display_name": "Ling-1T",
+	"names": [
+		"Ling-1T"
+	],
+	"link": "https://huggingface.co/inclusionAI/Ling-1T",
+	"history": {
+		"first_mention": "2025-10-08",
+		"access": "2025-10-10",
+		"weights": "2025-10-10"
+	},
+	"parameters": {
+		"all": 1000000000000,
+		"active": 50000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

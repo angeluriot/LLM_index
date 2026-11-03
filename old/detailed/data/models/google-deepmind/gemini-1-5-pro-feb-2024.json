@@ -1,0 +1,24 @@
+{
+	"display_name": "Gemini 1.5 Pro (Feb 2024)",
+	"names": [
+		"Gemini 1.5 Pro (Feb 2024)",
+		"gemini-1.5-pro-001-feb24"
+	],
+	"link": "https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf",
+	"history": {
+		"first_mention": "2024-02-15",
+		"access": "2024-02-15",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

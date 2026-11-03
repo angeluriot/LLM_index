@@ -1,0 +1,23 @@
+{
+	"display_name": "mT5-XXL",
+	"names": [
+		"mT5-XXL"
+	],
+	"link": "https://aclanthology.org/2021.naacl-main.41/",
+	"history": {
+		"first_mention": "2020-10-20",
+		"access": "2020-10-20",
+		"weights": "2020-10-20"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

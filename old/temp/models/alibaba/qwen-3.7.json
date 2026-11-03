@@ -1,0 +1,99 @@
+[
+	{
+		"name": "Qwen3.7-Max",
+		"other_names": [
+			"qwen3.7-max"
+		],
+		"link": "https://www.alibabacloud.com/help/en/model-studio/qwen3-7-max",
+		"efforts": ["", "Reasoning"],
+		"versions": [
+			{
+				"name": "Qwen3.7-Max-Preview",
+				"other_names": [
+					"qwen3.7-max-preview",
+					"qwen3.7-max-2026-05-17"
+				],
+				"access": {
+					"announcement": "2026-05-17",
+					"api": "2026-05-17",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 250,
+					"output": 750
+				}
+			},
+			{
+				"name": "Qwen3.7-Max (May 2026)",
+				"other_names": [
+					"qwen3.7-max-2026-05-20"
+				],
+				"access": {
+					"announcement": "2026-05-20",
+					"api": "2026-05-20",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 250,
+					"output": 750
+				}
+			},
+			{
+				"name": "Qwen3.7-Max (Jun 2026)",
+				"other_names": [
+					"qwen3.7-max-2026-06-08"
+				],
+				"access": {
+					"announcement": "2026-06-09",
+					"api": "2026-06-09",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 250,
+					"output": 750
+				}
+			}
+		]
+	},
+	{
+		"name": "Qwen3.7-Plus",
+		"other_names": [
+			"qwen3.7-plus",
+			"qwen3.7-plus-2026-05-26"
+		],
+		"link": "https://www.alibabacloud.com/help/en/model-studio/qwen3-7-plus",
+		"price": {
+			"input": 40,
+			"output": 160
+		},
+		"access": {
+			"announcement": "2026-06-02",
+			"api": "2026-06-02",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.7-Flash",
+		"other_names": [
+			"qwen3.7-flash",
+			"qwen3.7-flash-2026-07-15"
+		],
+		"link": "https://www.alibabacloud.com/help/en/model-studio/qwen3-7-flash",
+		"price": {
+			"input": 3,
+			"output": 13
+		},
+		"access": {
+			"announcement": "2026-07-21",
+			"api": "2026-07-21",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

@@ -1,0 +1,76 @@
+[
+	{
+		"name": "GPT-5.2",
+		"other_names": [
+			"GPT-5.2 Thinking",
+			"gpt-5.2-2025-12-11"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5-2/",
+		"price": {
+			"input": 175,
+			"output": 1400
+		},
+		"access": {
+			"announcement": "2025-12-11",
+			"api": "2025-12-11",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["None", "Low", "Medium", "High", "Xhigh"]
+	},
+	{
+		"name": "GPT-5.2 Instant",
+		"other_names": [
+			"gpt-5.2-chat-latest"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5-2/",
+		"price": {
+			"input": 175,
+			"output": 1400
+		},
+		"access": {
+			"announcement": "2025-12-11",
+			"api": "2025-12-11",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "GPT-5.2 Pro",
+		"other_names": [
+			"gpt-5.2-pro-2025-12-11"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5-2/",
+		"price": {
+			"input": 2100,
+			"output": 16800
+		},
+		"access": {
+			"announcement": "2025-12-11",
+			"api": "2025-12-11",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Medium", "High", "Xhigh"]
+	},
+	{
+		"name": "GPT-5.2-Codex",
+		"other_names": [
+			"GPT-5.2 Codex",
+			"gpt-5.2-codex"
+		],
+		"link": "https://openai.com/index/introducing-gpt-5-2-codex/",
+		"price": {
+			"input": 175,
+			"output": 1400
+		},
+		"access": {
+			"announcement": "2025-12-18",
+			"api": "2025-12-18",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High", "Xhigh"]
+	}
+]

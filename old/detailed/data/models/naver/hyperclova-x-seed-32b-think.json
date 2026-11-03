@@ -1,0 +1,25 @@
+{
+	"display_name": "HyperCLOVA X SEED 32B Think",
+	"names": [
+		"HyperCLOVA X SEED 32B Think",
+		"HyperCLOVA X SEED Think (32B)"
+	],
+	"link": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B",
+	"history": {
+		"first_mention": "2025-12-26",
+		"access": "2025-12-29",
+		"weights": "2025-12-29"
+	},
+	"parameters": {
+		"all": 32000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

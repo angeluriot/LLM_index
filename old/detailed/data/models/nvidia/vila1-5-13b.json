@@ -1,0 +1,23 @@
+{
+	"display_name": "VILA1.5-13B",
+	"names": [
+		"VILA1.5-13B"
+	],
+	"link": "https://huggingface.co/Efficient-Large-Model/VILA1.5-13b",
+	"history": {
+		"first_mention": "2024-05-03",
+		"access": "2024-05-03",
+		"weights": "2024-05-03"
+	},
+	"parameters": {
+		"all": 13493916736,
+		"active": 13493916736
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

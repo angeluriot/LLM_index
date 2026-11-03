@@ -1,0 +1,18 @@
+[
+	{
+		"name": "BLOOM",
+		"other_names": [
+			"BLOOM-176B",
+			"bloom"
+		],
+		"link": "https://huggingface.co/bigscience/bloom",
+		"price": null,
+		"access": {
+			"announcement": "2022-07-12",
+			"api": "2022-07-12",
+			"weights": "2022-07-12",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

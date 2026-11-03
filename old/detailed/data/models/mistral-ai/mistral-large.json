@@ -1,0 +1,25 @@
+{
+	"display_name": "Mistral Large",
+	"names": [
+		"Mistral Large",
+		"mistral-large-2402",
+		"Mistral Large (Feb '24)"
+	],
+	"link": "https://mistral.ai/news/mistral-large/",
+	"history": {
+		"first_mention": "2024-02-26",
+		"access": "2024-02-26",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 8.0,
+		"output": 24.0
+	},
+	"efforts": [
+		""
+	]
+}

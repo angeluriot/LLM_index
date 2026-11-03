@@ -1,0 +1,23 @@
+{
+	"display_name": "GLM-4.5-Base",
+	"names": [
+		"GLM-4.5-Base"
+	],
+	"link": "https://huggingface.co/zai-org/GLM-4.5-Base",
+	"history": {
+		"first_mention": "2025-07-28",
+		"access": "2025-08-03",
+		"weights": "2025-08-03"
+	},
+	"parameters": {
+		"all": 355000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

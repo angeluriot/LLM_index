@@ -1,0 +1,23 @@
+{
+	"display_name": "Vega v2",
+	"names": [
+		"Vega v2"
+	],
+	"link": "https://arxiv.org/abs/2212.01853",
+	"history": {
+		"first_mention": "2022-12-04",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 6000000000,
+		"active": 6000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

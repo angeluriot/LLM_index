@@ -1,0 +1,24 @@
+{
+	"display_name": "Step 5 Preview",
+	"names": [
+		"Step 5 Preview",
+		"step-5-preview"
+	],
+	"link": "https://platform.stepfun.ai/docs/en/guides/models/step-5-preview",
+	"history": {
+		"first_mention": "2026-09-18",
+		"access": "2026-09-18",
+		"weights": "2026-10-15"
+	},
+	"parameters": {
+		"all": 600000000000,
+		"active": 27000000000
+	},
+	"price": {
+		"input": 1.0,
+		"output": 2.7
+	},
+	"efforts": [
+		"High"
+	]
+}

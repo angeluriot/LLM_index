@@ -1,0 +1,23 @@
+{
+	"display_name": "Yuan 1.0",
+	"names": [
+		"Yuan 1.0"
+	],
+	"link": "https://arxiv.org/abs/2110.04725",
+	"history": {
+		"first_mention": "2021-10-12",
+		"access": "2021-10-12",
+		"weights": null
+	},
+	"parameters": {
+		"all": 245730000000,
+		"active": 245730000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

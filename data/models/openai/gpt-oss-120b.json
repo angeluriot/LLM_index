@@ -1,0 +1,32 @@
+{
+	"display_name": "gpt-oss-120b",
+	"versions": {
+		"2025-08-05": {
+			"display_name": "gpt-oss-120b",
+			"names": [
+				"gpt-oss-120b",
+				"GPT OSS 120B",
+				"openai/gpt-oss-120b"
+			],
+			"link": "https://openai.com/index/introducing-gpt-oss/",
+			"history": {
+				"first_mention": "2025-08-05",
+				"access": "2025-08-05",
+				"weights": "2025-08-05"
+			},
+			"parameters": {
+				"all": 116830000000,
+				"active": 5130000000
+			},
+			"price": {
+				"input": 0.15,
+				"output": 0.6
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

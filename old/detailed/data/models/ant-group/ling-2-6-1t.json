@@ -1,0 +1,23 @@
+{
+	"display_name": "Ling-2.6-1T",
+	"names": [
+		"Ling-2.6-1T"
+	],
+	"link": "https://huggingface.co/inclusionAI/Ling-2.6-1T",
+	"history": {
+		"first_mention": "2026-04-23",
+		"access": "2026-04-23",
+		"weights": "2026-04-23"
+	},
+	"parameters": {
+		"all": 1026000000000,
+		"active": 63000000000
+	},
+	"price": {
+		"input": 0.3,
+		"output": 2.5
+	},
+	"efforts": [
+		""
+	]
+}

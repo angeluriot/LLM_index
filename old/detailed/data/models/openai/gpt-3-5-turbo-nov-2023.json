@@ -1,0 +1,24 @@
+{
+	"display_name": "GPT-3.5 Turbo (Nov 2023)",
+	"names": [
+		"GPT-3.5 Turbo (Nov 2023)",
+		"gpt-3.5-turbo-1106"
+	],
+	"link": "https://platform.openai.com/docs/models/gpt-3.5-turbo",
+	"history": {
+		"first_mention": "2023-11-06",
+		"access": "2023-11-06",
+		"weights": null
+	},
+	"parameters": {
+		"all": 20000000000,
+		"active": null
+	},
+	"price": {
+		"input": 1.0,
+		"output": 2.0
+	},
+	"efforts": [
+		""
+	]
+}

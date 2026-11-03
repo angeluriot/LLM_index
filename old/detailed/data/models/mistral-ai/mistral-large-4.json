@@ -1,0 +1,27 @@
+{
+	"display_name": "Mistral Large 4",
+	"names": [
+		"Mistral Large 4",
+		"mistral-large-4-0",
+		"Mistral-Large-4-1T-A52B",
+		"Mistral Large 4 Preview"
+	],
+	"link": "https://mistral.ai/news/mistral-large-4/",
+	"history": {
+		"first_mention": "2026-10-06",
+		"access": "2026-10-06",
+		"weights": "2026-10-29"
+	},
+	"parameters": {
+		"all": 1050000000000,
+		"active": 52000000000
+	},
+	"price": {
+		"input": 0.7,
+		"output": 2.1
+	},
+	"efforts": [
+		"None",
+		"High"
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "Solar Pro 2 (Preview)",
+	"names": [
+		"Solar Pro 2 (Preview)"
+	],
+	"link": "https://www.upstage.ai/blog/en/solar-pro-2-preview-small-powerful-now-with-reasoning",
+	"history": {
+		"first_mention": "2025-05-20",
+		"access": "2025-05-20",
+		"weights": null
+	},
+	"parameters": {
+		"all": 30900000000,
+		"active": 30900000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Reasoning"
+	]
+}

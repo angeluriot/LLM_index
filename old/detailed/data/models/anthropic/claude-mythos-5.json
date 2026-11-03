@@ -1,0 +1,28 @@
+{
+	"display_name": "Claude Mythos 5",
+	"names": [
+		"Claude Mythos 5"
+	],
+	"link": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+	"history": {
+		"first_mention": "2026-06-09",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Low",
+		"Medium",
+		"High",
+		"Xhigh",
+		"Max"
+	]
+}

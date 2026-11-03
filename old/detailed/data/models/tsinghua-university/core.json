@@ -1,0 +1,23 @@
+{
+	"display_name": "CoRe",
+	"names": [
+		"CoRe"
+	],
+	"link": "https://arxiv.org/abs/2210.16257",
+	"history": {
+		"first_mention": "2023-12-29",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 12400000000,
+		"active": 12400000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

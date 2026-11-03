@@ -1,0 +1,24 @@
+{
+	"display_name": "MiniMax M1 80k",
+	"names": [
+		"MiniMax M1 80k",
+		"MiniMax-M1-80k"
+	],
+	"link": "https://huggingface.co/MiniMaxAI/MiniMax-M1-80k",
+	"history": {
+		"first_mention": "2025-06-17",
+		"access": "2025-06-17",
+		"weights": "2025-06-17"
+	},
+	"parameters": {
+		"all": 456000000000,
+		"active": 45900000000
+	},
+	"price": {
+		"input": 0.55,
+		"output": 2.2
+	},
+	"efforts": [
+		""
+	]
+}

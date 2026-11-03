@@ -1,0 +1,25 @@
+{
+	"display_name": "Qwen2.5-Coder-7B-Instruct",
+	"names": [
+		"Qwen2.5-Coder-7B-Instruct",
+		"Qwen2.5-Coder-7B (instruct)",
+		"Qwen2.5 Coder Instruct 7B"
+	],
+	"link": "https://arxiv.org/abs/2409.12186",
+	"history": {
+		"first_mention": "2024-09-17",
+		"access": "2024-09-17",
+		"weights": "2024-09-17"
+	},
+	"parameters": {
+		"all": 7610000000,
+		"active": 7610000000
+	},
+	"price": {
+		"input": 0.03,
+		"output": 0.09
+	},
+	"efforts": [
+		""
+	]
+}

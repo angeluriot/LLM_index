@@ -1,0 +1,23 @@
+{
+	"display_name": "Solar Mini",
+	"names": [
+		"Solar Mini"
+	],
+	"link": "https://huggingface.co/upstage/SOLAR-10.7B-v1.0",
+	"history": {
+		"first_mention": "2024-01-25",
+		"access": "2024-01-25",
+		"weights": "2024-01-25"
+	},
+	"parameters": {
+		"all": 10700000000,
+		"active": 10700000000
+	},
+	"price": {
+		"input": 0.15,
+		"output": 0.15
+	},
+	"efforts": [
+		""
+	]
+}

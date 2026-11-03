@@ -1,0 +1,24 @@
+{
+	"display_name": "GPT-3.5 Turbo (Jan 2024)",
+	"names": [
+		"GPT-3.5 Turbo (Jan 2024)",
+		"gpt-3.5-turbo-0125"
+	],
+	"link": "https://platform.openai.com/docs/models/gpt-3.5-turbo",
+	"history": {
+		"first_mention": "2024-01-25",
+		"access": "2024-01-25",
+		"weights": null
+	},
+	"parameters": {
+		"all": 20000000000,
+		"active": null
+	},
+	"price": {
+		"input": 0.5,
+		"output": 1.5
+	},
+	"efforts": [
+		""
+	]
+}

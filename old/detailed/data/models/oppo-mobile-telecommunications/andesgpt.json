@@ -1,0 +1,23 @@
+{
+	"display_name": "AndesGPT",
+	"names": [
+		"AndesGPT"
+	],
+	"link": "https://www.oppo.com/en/newsroom/press/2023-oppo-developers-conference-odc23/",
+	"history": {
+		"first_mention": "2023-11-16",
+		"access": "2023-11-16",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

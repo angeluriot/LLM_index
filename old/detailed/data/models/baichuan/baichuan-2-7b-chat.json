@@ -1,0 +1,24 @@
+{
+	"display_name": "Baichuan 2-7B-Chat",
+	"names": [
+		"Baichuan 2-7B-Chat",
+		"Baichuan2-7B-Chat"
+	],
+	"link": "https://arxiv.org/pdf/2309.10305",
+	"history": {
+		"first_mention": "2023-09-20",
+		"access": "2023-09-20",
+		"weights": "2023-09-20"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

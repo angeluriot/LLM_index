@@ -1,0 +1,25 @@
+{
+	"display_name": "Gemma 4 12B",
+	"names": [
+		"Gemma 4 12B",
+		"gemma-4-12B-it"
+	],
+	"link": "https://huggingface.co/google/gemma-4-12B-it",
+	"history": {
+		"first_mention": "2026-06-03",
+		"access": "2026-06-03",
+		"weights": "2026-06-03"
+	},
+	"parameters": {
+		"all": 12000000000,
+		"active": 12000000000
+	},
+	"price": {
+		"input": 0.1,
+		"output": 0.3
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

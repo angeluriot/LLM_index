@@ -1,0 +1,39 @@
+[
+	{
+		"name": "Mistral Small 3.1",
+		"other_names": [
+			"Mistral-Small-3.1-24B-Instruct-2503",
+			"mistral-small-2503"
+		],
+		"link": "https://mistral.ai/news/mistral-small-3-1/",
+		"price": {
+			"input": 10,
+			"output": 30
+		},
+		"access": {
+			"announcement": "2025-03-17",
+			"api": "2025-03-17",
+			"weights": "2025-03-17",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Mistral Medium 3.1",
+		"other_names": [
+			"mistral-medium-2508"
+		],
+		"link": "https://docs.mistral.ai/models/mistral-medium-3-1-25-08",
+		"price": {
+			"input": 40,
+			"output": 200
+		},
+		"access": {
+			"announcement": "2025-08-12",
+			"api": "2025-08-12",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

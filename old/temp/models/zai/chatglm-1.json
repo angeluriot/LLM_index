@@ -1,0 +1,15 @@
+[
+	{
+		"name": "ChatGLM-6B",
+		"other_names": [],
+		"link": "https://huggingface.co/zai-org/chatglm-6b",
+		"price": null,
+		"access": {
+			"announcement": "2023-03-14",
+			"api": "2023-03-14",
+			"weights": "2023-03-14",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

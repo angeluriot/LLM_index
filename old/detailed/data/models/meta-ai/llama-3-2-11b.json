@@ -1,0 +1,25 @@
+{
+	"display_name": "Llama 3.2 11B",
+	"names": [
+		"Llama 3.2 11B",
+		"Llama-3.2-11B-Vision-Instruct",
+		"Llama 3.2 Instruct 11B (Vision)"
+	],
+	"link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+	"history": {
+		"first_mention": "2024-09-24",
+		"access": "2024-09-24",
+		"weights": "2024-09-24"
+	},
+	"parameters": {
+		"all": 10600000000,
+		"active": 10600000000
+	},
+	"price": {
+		"input": 0.049,
+		"output": 0.245
+	},
+	"efforts": [
+		""
+	]
+}

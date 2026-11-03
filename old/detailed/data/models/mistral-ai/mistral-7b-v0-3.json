@@ -1,0 +1,24 @@
+{
+	"display_name": "Mistral 7B v0.3",
+	"names": [
+		"Mistral 7B v0.3",
+		"Mistral-7B-v0.3"
+	],
+	"link": "https://arxiv.org/abs/2310.06825",
+	"history": {
+		"first_mention": "2024-05-22",
+		"access": "2024-05-22",
+		"weights": "2024-05-22"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

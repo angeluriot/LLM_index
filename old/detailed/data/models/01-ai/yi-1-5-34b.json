@@ -1,0 +1,23 @@
+{
+	"display_name": "Yi-1.5-34B",
+	"names": [
+		"Yi-1.5-34B"
+	],
+	"link": "https://huggingface.co/01-ai/Yi-1.5-34B",
+	"history": {
+		"first_mention": "2024-05-13",
+		"access": "2024-05-13",
+		"weights": "2024-05-13"
+	},
+	"parameters": {
+		"all": 34000000000,
+		"active": 34000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

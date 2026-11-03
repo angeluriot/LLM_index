@@ -1,0 +1,39 @@
+[
+	{
+		"name": "Magistral Small 1.1",
+		"other_names": [
+			"Magistral-Small-2507",
+			"magistral-small-2507"
+		],
+		"link": "https://docs.mistral.ai/models/magistral-small-1-1-25-07",
+		"price": {
+			"input": 50,
+			"output": 150
+		},
+		"access": {
+			"announcement": "2025-07-24",
+			"api": "2025-07-24",
+			"weights": "2025-07-24",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Magistral Medium 1.1",
+		"other_names": [
+			"magistral-medium-2507"
+		],
+		"link": "https://docs.mistral.ai/models/magistral-medium-1-1-25-07",
+		"price": {
+			"input": 200,
+			"output": 500
+		},
+		"access": {
+			"announcement": "2025-07-24",
+			"api": "2025-07-24",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

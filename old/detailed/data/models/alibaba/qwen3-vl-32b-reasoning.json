@@ -1,0 +1,24 @@
+{
+	"display_name": "Qwen3 VL 32B (Reasoning)",
+	"names": [
+		"Qwen3 VL 32B (Reasoning)",
+		"Qwen3-VL-32B-Thinking"
+	],
+	"link": "https://huggingface.co/Qwen/Qwen3-VL-32B-Thinking",
+	"history": {
+		"first_mention": "2025-10-21",
+		"access": "2025-10-21",
+		"weights": "2025-10-21"
+	},
+	"parameters": {
+		"all": 33400000000,
+		"active": 33400000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

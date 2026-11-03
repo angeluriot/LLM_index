@@ -1,0 +1,25 @@
+{
+	"display_name": "Gemma 3 4B",
+	"names": [
+		"Gemma 3 4B",
+		"gemma-3-4b-it",
+		"Gemma 3 4B Instruct"
+	],
+	"link": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf",
+	"history": {
+		"first_mention": "2025-03-12",
+		"access": "2025-03-12",
+		"weights": "2025-03-12"
+	},
+	"parameters": {
+		"all": 4000000000,
+		"active": 4000000000
+	},
+	"price": {
+		"input": 0.05,
+		"output": 0.1
+	},
+	"efforts": [
+		""
+	]
+}

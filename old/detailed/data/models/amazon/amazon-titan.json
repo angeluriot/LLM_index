@@ -1,0 +1,23 @@
+{
+	"display_name": "Amazon Titan",
+	"names": [
+		"Amazon Titan"
+	],
+	"link": "https://aws.amazon.com/bedrock/titan/",
+	"history": {
+		"first_mention": "2023-09-28",
+		"access": "2023-09-28",
+		"weights": null
+	},
+	"parameters": {
+		"all": 200000000000,
+		"active": 200000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

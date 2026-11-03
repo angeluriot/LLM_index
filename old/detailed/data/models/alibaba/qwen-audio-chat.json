@@ -1,0 +1,23 @@
+{
+	"display_name": "Qwen-Audio-Chat",
+	"names": [
+		"Qwen-Audio-Chat"
+	],
+	"link": "https://arxiv.org/abs/2311.07919",
+	"history": {
+		"first_mention": "2023-11-14",
+		"access": "2023-11-14",
+		"weights": "2023-11-14"
+	},
+	"parameters": {
+		"all": 8460000000,
+		"active": 8460000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

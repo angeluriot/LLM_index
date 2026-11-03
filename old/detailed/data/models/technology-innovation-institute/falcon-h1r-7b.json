@@ -1,0 +1,23 @@
+{
+	"display_name": "Falcon-H1R-7B",
+	"names": [
+		"Falcon-H1R-7B"
+	],
+	"link": "https://huggingface.co/tiiuae/Falcon-H1R-7B",
+	"history": {
+		"first_mention": "2026-01-04",
+		"access": "2026-01-04",
+		"weights": "2026-01-04"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

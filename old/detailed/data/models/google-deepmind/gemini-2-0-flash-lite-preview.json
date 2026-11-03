@@ -1,0 +1,23 @@
+{
+	"display_name": "Gemini 2.0 Flash-Lite (Preview)",
+	"names": [
+		"Gemini 2.0 Flash-Lite (Preview)"
+	],
+	"link": "https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/",
+	"history": {
+		"first_mention": "2025-02-05",
+		"access": "2025-02-05",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.075,
+		"output": 0.3
+	},
+	"efforts": [
+		""
+	]
+}

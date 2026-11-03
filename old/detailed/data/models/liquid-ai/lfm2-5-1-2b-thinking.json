@@ -1,0 +1,23 @@
+{
+	"display_name": "LFM2.5-1.2B-Thinking",
+	"names": [
+		"LFM2.5-1.2B-Thinking"
+	],
+	"link": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking",
+	"history": {
+		"first_mention": "2026-01-20",
+		"access": "2026-01-20",
+		"weights": "2026-01-20"
+	},
+	"parameters": {
+		"all": 1170000000,
+		"active": 1170000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

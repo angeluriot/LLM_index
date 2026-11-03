@@ -1,0 +1,23 @@
+{
+	"display_name": "Aquila2-34B",
+	"names": [
+		"Aquila2-34B"
+	],
+	"link": "https://huggingface.co/BAAI/Aquila2-34B",
+	"history": {
+		"first_mention": "2023-10-12",
+		"access": "2023-10-12",
+		"weights": "2023-10-12"
+	},
+	"parameters": {
+		"all": 34000000000,
+		"active": 34000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "mPLUG-Owl2",
+	"names": [
+		"mPLUG-Owl2"
+	],
+	"link": "https://arxiv.org/abs/2311.04257",
+	"history": {
+		"first_mention": "2023-11-07",
+		"access": "2023-11-07",
+		"weights": "2023-11-07"
+	},
+	"parameters": {
+		"all": 7120000000,
+		"active": 7120000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "Goat-7B",
+	"names": [
+		"Goat-7B"
+	],
+	"link": "https://arxiv.org/abs/2305.14201",
+	"history": {
+		"first_mention": "2023-05-23",
+		"access": "2023-05-23",
+		"weights": "2023-05-23"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"display_name": "Gemini 3.7 Flash",
+	"names": [
+		"Gemini 3.7 Flash",
+		"gemini-3.7-flash"
+	],
+	"link": "https://x.com/GoogleAIStudio/status/2087953811931320341",
+	"history": {
+		"first_mention": "2026-08-13",
+		"access": "2026-08-13",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.75,
+		"output": 3.75
+	},
+	"efforts": [
+		"Low",
+		"Medium",
+		"High"
+	]
+}

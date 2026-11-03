@@ -1,0 +1,23 @@
+{
+	"display_name": "Hunyuan-Large",
+	"names": [
+		"Hunyuan-Large"
+	],
+	"link": "https://arxiv.org/abs/2411.02265",
+	"history": {
+		"first_mention": "2024-11-06",
+		"access": "2024-11-06",
+		"weights": "2024-11-06"
+	},
+	"parameters": {
+		"all": 389000000000,
+		"active": 52000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

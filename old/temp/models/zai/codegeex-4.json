@@ -1,0 +1,17 @@
+[
+	{
+		"name": "CodeGeeX4-ALL-9B",
+		"other_names": [
+			"codegeex4-all-9b"
+		],
+		"link": "https://huggingface.co/zai-org/codegeex4-all-9b",
+		"price": null,
+		"access": {
+			"announcement": "2024-07-05",
+			"api": "2024-07-05",
+			"weights": "2024-07-05",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

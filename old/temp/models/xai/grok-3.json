@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Grok 3",
+		"other_names": [
+			"grok-3"
+		],
+		"link": "https://x.ai/news/grok-3",
+		"price": {
+			"input": 300,
+			"output": 1500
+		},
+		"access": {
+			"announcement": "2025-02-17",
+			"api": "2025-02-17",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Grok 3 mini",
+		"other_names": [
+			"grok-3-mini"
+		],
+		"link": "https://x.ai/news/grok-3",
+		"price": {
+			"input": 30,
+			"output": 50
+		},
+		"access": {
+			"announcement": "2025-02-17",
+			"api": "2025-02-17",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "High"]
+	}
+]

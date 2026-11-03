@@ -1,0 +1,23 @@
+{
+	"display_name": "Palmyra X 004",
+	"names": [
+		"Palmyra X 004"
+	],
+	"link": "https://writer.com/engineering/actions-with-palmyra-x-004/",
+	"history": {
+		"first_mention": "2024-10-09",
+		"access": "2024-10-09",
+		"weights": null
+	},
+	"parameters": {
+		"all": 150000000000,
+		"active": null
+	},
+	"price": {
+		"input": 2.5,
+		"output": 10.0
+	},
+	"efforts": [
+		""
+	]
+}

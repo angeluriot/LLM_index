@@ -1,0 +1,23 @@
+{
+	"display_name": "Ling-mini-2.0",
+	"names": [
+		"Ling-mini-2.0"
+	],
+	"link": "https://huggingface.co/inclusionAI/Ling-mini-2.0",
+	"history": {
+		"first_mention": "2025-09-09",
+		"access": "2025-09-09",
+		"weights": "2025-09-09"
+	},
+	"parameters": {
+		"all": 16300000000,
+		"active": 1400000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

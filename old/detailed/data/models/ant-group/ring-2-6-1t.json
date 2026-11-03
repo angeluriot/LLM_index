@@ -1,0 +1,23 @@
+{
+	"display_name": "Ring-2.6-1T",
+	"names": [
+		"Ring-2.6-1T"
+	],
+	"link": "https://huggingface.co/inclusionAI/Ring-2.6-1T",
+	"history": {
+		"first_mention": "2026-05-08",
+		"access": "2026-05-08",
+		"weights": "2026-05-08"
+	},
+	"parameters": {
+		"all": 1000000000000,
+		"active": 63000000000
+	},
+	"price": {
+		"input": 0.3,
+		"output": 2.5
+	},
+	"efforts": [
+		""
+	]
+}

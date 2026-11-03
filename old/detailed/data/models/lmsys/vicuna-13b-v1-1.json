@@ -1,0 +1,23 @@
+{
+	"display_name": "vicuna-13b-v1.1",
+	"names": [
+		"vicuna-13b-v1.1"
+	],
+	"link": "https://lmsys.org/blog/2023-03-30-vicuna/",
+	"history": {
+		"first_mention": "2023-04-12",
+		"access": "2023-04-12",
+		"weights": "2023-04-12"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

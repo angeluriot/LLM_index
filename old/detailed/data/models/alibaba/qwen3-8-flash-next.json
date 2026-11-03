@@ -1,0 +1,23 @@
+{
+	"display_name": "Qwen3.8-Flash-Next",
+	"names": [
+		"Qwen3.8-Flash-Next"
+	],
+	"link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+	"history": {
+		"first_mention": "2026-08-26",
+		"access": "2026-08-26",
+		"weights": "2026-08-26"
+	},
+	"parameters": {
+		"all": 180000000000,
+		"active": 6000000000
+	},
+	"price": {
+		"input": 0.15,
+		"output": 0.47
+	},
+	"efforts": [
+		""
+	]
+}

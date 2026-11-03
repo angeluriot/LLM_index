@@ -1,0 +1,79 @@
+[
+	{
+		"name": "Gemma 4 E2B",
+		"other_names": [
+			"gemma-4-e2b-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+		"price": null,
+		"access": {
+			"announcement": "2026-04-02",
+			"api": "2026-04-02",
+			"weights": "2026-04-02",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 4 E4B",
+		"other_names": [
+			"gemma-4-e4b-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+		"price": null,
+		"access": {
+			"announcement": "2026-04-02",
+			"api": "2026-04-02",
+			"weights": "2026-04-02",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 4 26B A4B",
+		"other_names": [
+			"gemma-4-26b-a4b-it",
+			"Gemma 4 26B MoE"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+		"price": null,
+		"access": {
+			"announcement": "2026-04-02",
+			"api": "2026-04-02",
+			"weights": "2026-04-02",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 4 31B",
+		"other_names": [
+			"gemma-4-31b-it",
+			"Gemma 4 31B IT"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+		"price": null,
+		"access": {
+			"announcement": "2026-04-02",
+			"api": "2026-04-02",
+			"weights": "2026-04-02",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 4 12B",
+		"other_names": [
+			"gemma-4-12b-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+		"price": null,
+		"access": {
+			"announcement": "2026-06-03",
+			"api": "2026-06-03",
+			"weights": "2026-06-03",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

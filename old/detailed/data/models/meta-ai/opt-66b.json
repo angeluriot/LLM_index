@@ -1,0 +1,24 @@
+{
+	"display_name": "OPT-66B",
+	"names": [
+		"OPT-66B",
+		"opt-66b"
+	],
+	"link": "https://arxiv.org/abs/2205.01068",
+	"history": {
+		"first_mention": "2022-05-02",
+		"access": "2022-05-02",
+		"weights": "2022-05-02"
+	},
+	"parameters": {
+		"all": 66000000000,
+		"active": 66000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"display_name": "GPT-5.2",
+	"names": [
+		"GPT-5.2",
+		"gpt-5.2-2025-12-11",
+		"robin-alpha-next-2025-11-24"
+	],
+	"link": "https://developers.openai.com/api/docs/models/gpt-5.2",
+	"history": {
+		"first_mention": "2025-12-11",
+		"access": "2025-12-11",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1.75,
+		"output": 14.0
+	},
+	"efforts": [
+		"None",
+		"Low",
+		"Medium",
+		"High",
+		"Xhigh"
+	]
+}

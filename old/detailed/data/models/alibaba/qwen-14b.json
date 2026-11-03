@@ -1,0 +1,23 @@
+{
+	"display_name": "Qwen-14B",
+	"names": [
+		"Qwen-14B"
+	],
+	"link": "https://arxiv.org/abs/2309.16609",
+	"history": {
+		"first_mention": "2023-09-28",
+		"access": "2023-09-28",
+		"weights": "2023-09-28"
+	},
+	"parameters": {
+		"all": 14000000000,
+		"active": 14000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

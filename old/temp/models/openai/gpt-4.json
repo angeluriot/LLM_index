@@ -1,0 +1,122 @@
+[
+	{
+		"name": "GPT-4",
+		"other_names": [
+			"gpt-4"
+		],
+		"link": "https://openai.com/index/gpt-4-research/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "GPT-4 (Mar 2023)",
+				"other_names": [
+					"gpt-4-0314",
+					"gpt-4-32k-0314"
+				],
+				"access": {
+					"announcement": "2023-03-14",
+					"api": "2023-03-14",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 3000,
+					"output": 6000
+				}
+			},
+			{
+				"name": "GPT-4V",
+				"other_names": [
+					"GPT-4 with Vision",
+					"gpt-4-vision-preview",
+					"gpt-4-1106-vision-preview"
+				],
+				"access": {
+					"announcement": "2023-03-14",
+					"api": "2023-09-25",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 1000,
+					"output": 3000
+				}
+			},
+			{
+				"name": "GPT-4 (Jun 2023)",
+				"other_names": [
+					"gpt-4-0613",
+					"gpt-4-32k-0613"
+				],
+				"access": {
+					"announcement": "2023-06-13",
+					"api": "2023-06-13",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 3000,
+					"output": 6000
+				}
+			}
+		]
+	},
+	{
+		"name": "GPT-4 Turbo",
+		"other_names": [
+			"gpt-4-turbo"
+		],
+		"link": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "GPT-4 Turbo (Nov 2023)",
+				"other_names": [
+					"gpt-4-1106-preview"
+				],
+				"access": {
+					"announcement": "2023-11-06",
+					"api": "2023-11-06",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 1000,
+					"output": 3000
+				}
+			},
+			{
+				"name": "GPT-4 Turbo (Jan 2024)",
+				"other_names": [
+					"gpt-4-0125-preview"
+				],
+				"access": {
+					"announcement": "2024-01-25",
+					"api": "2024-01-25",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 1000,
+					"output": 3000
+				}
+			},
+			{
+				"name": "GPT-4 Turbo (Apr 2024)",
+				"other_names": [
+					"gpt-4-turbo-2024-04-09"
+				],
+				"access": {
+					"announcement": "2024-04-09",
+					"api": "2024-04-09",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 1000,
+					"output": 3000
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,43 @@
+[
+	{
+		"name": "Mixtral 8x7B",
+		"other_names": [
+			"Mixtral-8x7B-v0.1",
+			"Mixtral-8x7B-Instruct-v0.1",
+			"open-mixtral-8x7b",
+			"mistral-small-2312"
+		],
+		"link": "https://mistral.ai/news/mixtral-of-experts/",
+		"price": {
+			"input": 70,
+			"output": 70
+		},
+		"access": {
+			"announcement": "2023-12-08",
+			"api": "2023-12-08",
+			"weights": "2023-12-08",
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Mixtral 8x22B",
+		"other_names": [
+			"Mixtral-8x22B-v0.1",
+			"Mixtral-8x22B-Instruct-v0.1",
+			"open-mixtral-8x22b"
+		],
+		"link": "https://mistral.ai/news/mixtral-8x22b/",
+		"price": {
+			"input": 200,
+			"output": 600
+		},
+		"access": {
+			"announcement": "2024-04-10",
+			"api": "2024-04-10",
+			"weights": "2024-04-10",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

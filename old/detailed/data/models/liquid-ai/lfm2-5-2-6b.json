@@ -1,0 +1,23 @@
+{
+	"display_name": "LFM2.5-2.6B",
+	"names": [
+		"LFM2.5-2.6B"
+	],
+	"link": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+	"history": {
+		"first_mention": "2026-08-04",
+		"access": "2026-08-04",
+		"weights": "2026-08-04"
+	},
+	"parameters": {
+		"all": 2700000000,
+		"active": 2700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

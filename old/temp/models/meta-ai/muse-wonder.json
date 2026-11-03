@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Muse Wonder",
+		"other_names": [
+			"Muse Wonder 1.0",
+			"muse-wonder-1.0"
+		],
+		"link": "https://research.meta.ai/blog/muse-wonder",
+		"price": {
+			"input": 400,
+			"output": 2000
+		},
+		"access": {
+			"announcement": "2026-10-12",
+			"api": "2026-10-12",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Minimal", "Low", "Medium", "High", "Xhigh", "Max"]
+	},
+	{
+		"name": "Muse Wonder Full",
+		"other_names": [],
+		"link": "https://research.meta.ai/blog/muse-wonder",
+		"price": null,
+		"access": {
+			"announcement": "2026-10-12",
+			"api": "2026-10-12",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Minimal", "Low", "Medium", "High", "Xhigh", "Max"]
+	}
+]

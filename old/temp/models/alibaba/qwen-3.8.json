@@ -1,0 +1,95 @@
+[
+	{
+		"name": "Qwen3.8-Max",
+		"other_names": [
+			"qwen3.8-max"
+		],
+		"link": "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-max",
+		"efforts": ["", "Reasoning"],
+		"versions": [
+			{
+				"name": "Qwen3.8-Max",
+				"other_names": [
+					"Qwen3.8-2.4T-A95B",
+					"qwen3.8-2.4t-a95b"
+				],
+				"access": {
+					"announcement": "2026-07-19",
+					"api": "2026-08-02",
+					"weights": "2026-08-12",
+					"portable": false
+				},
+				"price": {
+					"input": 200,
+					"output": 600
+				}
+			},
+			{
+				"name": "Qwen3.8-Max-0902",
+				"other_names": [
+					"qwen3.8-max-0902",
+					"qwen3.8-max-2026-09-02"
+				],
+				"access": {
+					"announcement": "2026-09-02",
+					"api": "2026-09-02",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 200,
+					"output": 600
+				}
+			}
+		]
+	},
+	{
+		"name": "Qwen3.8-27B",
+		"other_names": [
+			"qwen3.8-27b"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen3.8-27B",
+		"price": {
+			"input": 50,
+			"output": 300
+		},
+		"access": {
+			"announcement": "2026-08-14",
+			"api": "2026-08-14",
+			"weights": "2026-08-14",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.8-Flash",
+		"other_names": [
+			"qwen3.8-flash"
+		],
+		"link": "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-flash",
+		"price": {
+			"input": 15,
+			"output": 47
+		},
+		"access": {
+			"announcement": "2026-08-26",
+			"api": "2026-08-26",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Qwen3.8-Flash-Next",
+		"other_names": [],
+		"link": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+		"price": null,
+		"access": {
+			"announcement": "2026-08-26",
+			"api": "2026-08-26",
+			"weights": "2026-08-26",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

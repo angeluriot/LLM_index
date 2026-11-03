@@ -1,0 +1,23 @@
+{
+	"display_name": "internlm2-chat-20b",
+	"names": [
+		"internlm2-chat-20b"
+	],
+	"link": "https://arxiv.org/abs/2403.17297",
+	"history": {
+		"first_mention": "2024-01-17",
+		"access": "2024-01-17",
+		"weights": "2024-01-17"
+	},
+	"parameters": {
+		"all": 20000000000,
+		"active": 20000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

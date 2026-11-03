@@ -1,0 +1,23 @@
+{
+	"display_name": "ALLaM adapted 70B",
+	"names": [
+		"ALLaM adapted 70B"
+	],
+	"link": "https://arxiv.org/abs/2407.15390",
+	"history": {
+		"first_mention": "2024-05-21",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 70000000000,
+		"active": 70000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

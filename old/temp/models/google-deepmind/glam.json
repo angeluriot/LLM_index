@@ -1,0 +1,17 @@
+[
+	{
+		"name": "GLaM",
+		"other_names": [
+			"GLaM (MoE)"
+		],
+		"link": "https://arxiv.org/abs/2112.06905",
+		"price": null,
+		"access": {
+			"announcement": "2021-12-13",
+			"api": null,
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

@@ -1,0 +1,24 @@
+{
+	"display_name": "Muse Glimmer",
+	"names": [
+		"Muse Glimmer",
+		"Muse-Glimmer-30B"
+	],
+	"link": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+	"history": {
+		"first_mention": "2026-08-10",
+		"access": "2026-08-10",
+		"weights": "2026-08-10"
+	},
+	"parameters": {
+		"all": 30000000000,
+		"active": null
+	},
+	"price": {
+		"input": 0.3,
+		"output": 1.2
+	},
+	"efforts": [
+		""
+	]
+}

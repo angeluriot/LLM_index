@@ -1,0 +1,25 @@
+{
+	"display_name": "NVIDIA Nemotron Nano 12B v2 VL",
+	"names": [
+		"NVIDIA Nemotron Nano 12B v2 VL",
+		"NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
+	],
+	"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
+	"history": {
+		"first_mention": "2025-10-28",
+		"access": "2025-10-28",
+		"weights": "2025-10-28"
+	},
+	"parameters": {
+		"all": 13200000000,
+		"active": 13200000000
+	},
+	"price": {
+		"input": 0.2,
+		"output": 0.6
+	},
+	"efforts": [
+		"",
+		"Reasoning"
+	]
+}

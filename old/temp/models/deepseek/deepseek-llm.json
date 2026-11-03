@@ -1,0 +1,34 @@
+[
+	{
+		"name": "DeepSeek LLM 7B",
+		"other_names": [
+			"deepseek-llm-7b-base",
+			"deepseek-llm-7b-chat"
+		],
+		"link": "https://github.com/deepseek-ai/DeepSeek-LLM",
+		"price": null,
+		"access": {
+			"announcement": "2023-11-29",
+			"api": "2023-11-29",
+			"weights": "2023-11-29",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "DeepSeek LLM 67B",
+		"other_names": [
+			"deepseek-llm-67b-base",
+			"deepseek-llm-67b-chat"
+		],
+		"link": "https://github.com/deepseek-ai/DeepSeek-LLM",
+		"price": null,
+		"access": {
+			"announcement": "2023-11-29",
+			"api": "2023-11-29",
+			"weights": "2023-11-29",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

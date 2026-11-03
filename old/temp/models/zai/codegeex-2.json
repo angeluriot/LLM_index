@@ -1,0 +1,17 @@
+[
+	{
+		"name": "CodeGeeX2-6B",
+		"other_names": [
+			"codegeex2-6b"
+		],
+		"link": "https://github.com/THUDM/CodeGeeX2",
+		"price": null,
+		"access": {
+			"announcement": "2023-07-24",
+			"api": "2023-07-24",
+			"weights": "2023-07-24",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

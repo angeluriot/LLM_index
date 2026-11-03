@@ -1,0 +1,23 @@
+{
+	"display_name": "Grok Code Fast 1",
+	"names": [
+		"Grok Code Fast 1"
+	],
+	"link": "https://x.ai/news/grok-code-fast-1",
+	"history": {
+		"first_mention": "2025-08-28",
+		"access": "2025-08-28",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.2,
+		"output": 1.5
+	},
+	"efforts": [
+		""
+	]
+}

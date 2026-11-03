@@ -1,0 +1,24 @@
+{
+	"display_name": "GLM-4.5V",
+	"names": [
+		"GLM-4.5V"
+	],
+	"link": "https://huggingface.co/zai-org/GLM-4.5V",
+	"history": {
+		"first_mention": "2025-08-11",
+		"access": "2025-08-11",
+		"weights": "2025-08-11"
+	},
+	"parameters": {
+		"all": 108000000000,
+		"active": 12000000000
+	},
+	"price": {
+		"input": 0.6,
+		"output": 1.8
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

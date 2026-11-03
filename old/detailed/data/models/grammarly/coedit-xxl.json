@@ -1,0 +1,23 @@
+{
+	"display_name": "CoEdiT-xxl",
+	"names": [
+		"CoEdiT-xxl"
+	],
+	"link": "https://arxiv.org/abs/2305.09857,",
+	"history": {
+		"first_mention": "2023-05-17",
+		"access": "2023-05-17",
+		"weights": "2023-05-17"
+	},
+	"parameters": {
+		"all": 11000000000,
+		"active": 11000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Nemotron Nano 2",
+		"other_names": [
+			"NVIDIA-Nemotron-Nano-9B-v2"
+		],
+		"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2",
+		"price": null,
+		"access": {
+			"announcement": "2025-08-18",
+			"api": "2025-08-18",
+			"weights": "2025-08-18",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

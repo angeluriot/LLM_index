@@ -1,0 +1,23 @@
+{
+	"display_name": "Switch",
+	"names": [
+		"Switch"
+	],
+	"link": "https://arxiv.org/abs/2101.03961",
+	"history": {
+		"first_mention": "2021-01-11",
+		"access": "2021-01-11",
+		"weights": "2021-01-11"
+	},
+	"parameters": {
+		"all": 1571000000000,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

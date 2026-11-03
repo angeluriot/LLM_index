@@ -1,0 +1,23 @@
+{
+	"display_name": "Aramco Metabrain AI",
+	"names": [
+		"Aramco Metabrain AI"
+	],
+	"link": "https://www.offshore-technology.com/news/saudi-aramco-unveils-industry-first-generative-ai-model/",
+	"history": {
+		"first_mention": "2024-03-04",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 250000000000,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

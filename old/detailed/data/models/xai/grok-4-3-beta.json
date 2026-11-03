@@ -1,0 +1,26 @@
+{
+	"display_name": "Grok 4.3 Beta",
+	"names": [
+		"Grok 4.3 Beta",
+		"Grok 4.3",
+		"grok-4.3"
+	],
+	"link": "https://grok.com/release-notes#:~:text=Apr%2017%2C%202026-,Grok%204.3%20Beta,-Grok%204.3%20is",
+	"history": {
+		"first_mention": "2026-04-17",
+		"access": "2026-04-17",
+		"weights": null
+	},
+	"parameters": {
+		"all": 500000000000,
+		"active": null
+	},
+	"price": {
+		"input": 1.25,
+		"output": 2.5
+	},
+	"efforts": [
+		"None",
+		"High"
+	]
+}

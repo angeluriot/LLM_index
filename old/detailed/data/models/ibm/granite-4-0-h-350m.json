@@ -1,0 +1,24 @@
+{
+	"display_name": "Granite 4.0 H 350M",
+	"names": [
+		"Granite 4.0 H 350M",
+		"granite-4.0-h-350m"
+	],
+	"link": "https://huggingface.co/ibm-granite/granite-4.0-h-350m",
+	"history": {
+		"first_mention": "2025-10-28",
+		"access": "2025-10-28",
+		"weights": "2025-10-28"
+	},
+	"parameters": {
+		"all": 340000000,
+		"active": 340000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

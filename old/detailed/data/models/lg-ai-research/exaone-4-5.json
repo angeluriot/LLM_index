@@ -1,0 +1,25 @@
+{
+	"display_name": "EXAONE 4.5",
+	"names": [
+		"EXAONE 4.5",
+		"EXAONE 4.5 33B"
+	],
+	"link": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B",
+	"history": {
+		"first_mention": "2026-04-09",
+		"access": "2026-04-09",
+		"weights": "2026-04-09"
+	},
+	"parameters": {
+		"all": 33200000000,
+		"active": 33200000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

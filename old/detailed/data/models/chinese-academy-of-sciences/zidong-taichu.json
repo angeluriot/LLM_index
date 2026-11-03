@@ -1,0 +1,23 @@
+{
+	"display_name": "Zidong Taichu",
+	"names": [
+		"Zidong Taichu"
+	],
+	"link": "https://gitee.com/zidongtaichu/multi-modal-models",
+	"history": {
+		"first_mention": "2021-08-11",
+		"access": "2021-08-11",
+		"weights": "2021-08-11"
+	},
+	"parameters": {
+		"all": 3200000000,
+		"active": 3200000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

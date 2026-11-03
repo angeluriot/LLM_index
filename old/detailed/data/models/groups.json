@@ -1,0 +1,85 @@
+{
+	"gpt-4": {
+		"display_name": "GPT-4",
+		"models": [
+			"gpt-4-mar-2023",
+			"gpt-4-jun-2023"
+		]
+	},
+	"gpt-3-5": {
+		"display_name": "GPT-3.5",
+		"models": [
+			"code-davinci-002",
+			"text-davinci-002",
+			"text-davinci-003",
+			"gpt-3-5-turbo",
+			"gpt-3-5-turbo-jun-2023",
+			"gpt-3-5-turbo-nov-2023",
+			"gpt-3-5-turbo-jan-2024",
+			"gpt-3-5-turbo-instruct"
+		]
+	},
+	"gpt-3-5-turbo-any-version": {
+		"display_name": "GPT-3.5 Turbo (any version)",
+		"models": [
+			"gpt-3-5-turbo",
+			"gpt-3-5-turbo-jun-2023",
+			"gpt-3-5-turbo-nov-2023",
+			"gpt-3-5-turbo-jan-2024"
+		]
+	},
+	"mistral-7b-any-version": {
+		"display_name": "Mistral 7B (any version)",
+		"models": [
+			"mistral-7b-v0-1",
+			"mistral-7b-instruct-v0-1",
+			"mistral-7b-instruct-v0-2",
+			"mistral-7b-v0-3",
+			"mistral-7b-instruct-v0-3"
+		]
+	},
+	"gemma-7b-base-or-instruct": {
+		"display_name": "Gemma 7B (Base or Instruct)",
+		"models": [
+			"gemma-7b",
+			"gemma-7b-instruct"
+		]
+	},
+	"mixtral-8x7b-base-or-instruct": {
+		"display_name": "Mixtral 8x7B (Base or Instruct)",
+		"models": [
+			"mixtral-8x7b",
+			"mixtral-8x7b-instruct"
+		]
+	},
+	"mixtral-8x22b-base-or-instruct": {
+		"display_name": "Mixtral 8x22B (Base or Instruct)",
+		"models": [
+			"mixtral-8x22b",
+			"mixtral-8x22b-instruct"
+		]
+	},
+	"gemini-1-5-flash-any-version": {
+		"display_name": "Gemini 1.5 Flash (any version)",
+		"models": [
+			"gemini-1-5-flash-may-2024",
+			"gemini-1-5-flash-2024-05-23",
+			"gemini-1-5-flash-aug-2024",
+			"gemini-1-5-flash-sep-2024"
+		]
+	},
+	"deepseek-v2-5-any-version": {
+		"display_name": "DeepSeek-V2.5 (any version)",
+		"models": [
+			"deepseek-v2-5-sep-2024",
+			"deepseek-v2-5-dec-2024"
+		]
+	},
+	"qwen3-235b-a22b-reasoning": {
+		"display_name": "Qwen3 235B A22B (Reasoning)",
+		"models": [
+			"qwen3-235b-a22b",
+			"qwen3-235b-a22b-thinking-jul-2025"
+		]
+	}
+}

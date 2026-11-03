@@ -1,0 +1,92 @@
+[
+	{
+		"name": "Qwen2.5-Coder-0.5B",
+		"other_names": [
+			"Qwen2.5-Coder-0.5B-Instruct"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2024-11-12",
+			"api": "2024-11-12",
+			"weights": "2024-11-12",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-Coder-1.5B",
+		"other_names": [
+			"Qwen2.5-Coder-1.5B-Instruct"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-19",
+			"api": "2024-09-19",
+			"weights": "2024-09-19",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-Coder-3B",
+		"other_names": [
+			"Qwen2.5-Coder-3B-Instruct"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen2.5-Coder-3B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2024-11-12",
+			"api": "2024-11-12",
+			"weights": "2024-11-12",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-Coder-7B",
+		"other_names": [
+			"Qwen2.5-Coder-7B-Instruct"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2024-09-19",
+			"api": "2024-09-19",
+			"weights": "2024-09-19",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-Coder-14B",
+		"other_names": [
+			"Qwen2.5-Coder-14B-Instruct"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2024-11-12",
+			"api": "2024-11-12",
+			"weights": "2024-11-12",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2.5-Coder-32B",
+		"other_names": [
+			"Qwen2.5-Coder-32B-Instruct"
+		],
+		"link": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+		"price": null,
+		"access": {
+			"announcement": "2024-11-12",
+			"api": "2024-11-12",
+			"weights": "2024-11-12",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

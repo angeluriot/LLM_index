@@ -1,0 +1,20 @@
+[
+	{
+		"name": "GLM-5.1",
+		"other_names": [
+			"glm-5.1"
+		],
+		"link": "https://huggingface.co/zai-org/GLM-5.1",
+		"price": {
+			"input": 140,
+			"output": 440
+		},
+		"access": {
+			"announcement": "2026-04-07",
+			"api": "2026-04-07",
+			"weights": "2026-04-07",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

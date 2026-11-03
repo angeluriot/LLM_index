@@ -1,0 +1,57 @@
+[
+	{
+		"name": "DeepSeek-V2",
+		"other_names": [
+			"DeepSeek-V2-Chat"
+		],
+		"link": "https://github.com/deepseek-ai/DeepSeek-V2",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "DeepSeek-V2",
+				"other_names": [],
+				"access": {
+					"announcement": "2024-05-07",
+					"api": "2024-05-07",
+					"weights": "2024-05-07",
+					"portable": false
+				},
+				"price": {
+					"input": 14,
+					"output": 28
+				}
+			},
+			{
+				"name": "DeepSeek-V2-0628",
+				"other_names": [
+					"DeepSeek-V2-Chat-0628"
+				],
+				"access": {
+					"announcement": "2024-06-28",
+					"api": "2024-06-28",
+					"weights": "2024-07-18",
+					"portable": false
+				},
+				"price": {
+					"input": 14,
+					"output": 28
+				}
+			}
+		]
+	},
+	{
+		"name": "DeepSeek-V2-Lite",
+		"other_names": [
+			"DeepSeek-V2-Lite-Chat"
+		],
+		"link": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite",
+		"price": null,
+		"access": {
+			"announcement": "2024-05-16",
+			"api": "2024-05-16",
+			"weights": "2024-05-16",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

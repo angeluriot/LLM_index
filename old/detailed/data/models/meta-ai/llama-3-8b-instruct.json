@@ -1,0 +1,25 @@
+{
+	"display_name": "Llama 3-8B-Instruct",
+	"names": [
+		"Llama 3-8B-Instruct",
+		"Meta-Llama-3-8B-Instruct",
+		"Llama 3 Instruct 8B"
+	],
+	"link": "https://ai.meta.com/blog/meta-llama-3/",
+	"history": {
+		"first_mention": "2024-04-18",
+		"access": "2024-04-18",
+		"weights": "2024-04-18"
+	},
+	"parameters": {
+		"all": 8000000000,
+		"active": 8000000000
+	},
+	"price": {
+		"input": 0.04,
+		"output": 0.04
+	},
+	"efforts": [
+		""
+	]
+}

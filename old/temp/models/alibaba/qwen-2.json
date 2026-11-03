@@ -1,0 +1,77 @@
+[
+	{
+		"name": "Qwen2-0.5B",
+		"other_names": [
+			"Qwen2-0.5B-Instruct"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2/",
+		"price": null,
+		"access": {
+			"announcement": "2024-06-07",
+			"api": "2024-06-07",
+			"weights": "2024-06-07",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2-1.5B",
+		"other_names": [
+			"Qwen2-1.5B-Instruct"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2/",
+		"price": null,
+		"access": {
+			"announcement": "2024-06-07",
+			"api": "2024-06-07",
+			"weights": "2024-06-07",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2-7B",
+		"other_names": [
+			"Qwen2-7B-Instruct"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2/",
+		"price": null,
+		"access": {
+			"announcement": "2024-06-07",
+			"api": "2024-06-07",
+			"weights": "2024-06-07",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2-57B-A14B",
+		"other_names": [
+			"Qwen2-57B-A14B-Instruct"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2/",
+		"price": null,
+		"access": {
+			"announcement": "2024-06-07",
+			"api": "2024-06-07",
+			"weights": "2024-06-07",
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Qwen2-72B",
+		"other_names": [
+			"Qwen2-72B-Instruct"
+		],
+		"link": "https://qwenlm.github.io/blog/qwen2/",
+		"price": null,
+		"access": {
+			"announcement": "2024-06-07",
+			"api": "2024-06-07",
+			"weights": "2024-06-07",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

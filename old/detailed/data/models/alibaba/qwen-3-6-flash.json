@@ -1,0 +1,27 @@
+{
+	"display_name": "Qwen 3.6 Flash",
+	"names": [
+		"Qwen 3.6 Flash",
+		"Qwen 3.6 Flash (2026-04-16)",
+		"Qwen3.6 Flash",
+		"qwen3.6-flash"
+	],
+	"link": "https://qwen.ai/blog?id=qwen3.6",
+	"history": {
+		"first_mention": "2026-04-27",
+		"access": "2026-04-27",
+		"weights": null
+	},
+	"parameters": {
+		"all": 35000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": 0.1875,
+		"output": 1.125
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

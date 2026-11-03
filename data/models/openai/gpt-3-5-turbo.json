@@ -1,0 +1,133 @@
+{
+	"display_name": "GPT-3.5 Turbo",
+	"versions": {
+		"2022-11-30": {
+			"display_name": "ChatGPT (Nov 2022)",
+			"names": [
+				"ChatGPT (Nov 2022)",
+				"ChatGPT",
+				"text-davinci-002-render-sha"
+			],
+			"link": "https://openai.com/index/chatgpt/",
+			"history": {
+				"first_mention": "2022-11-30",
+				"access": "2022-11-30",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"2023-03-01": {
+			"display_name": "GPT-3.5 Turbo (Mar 2023)",
+			"names": [
+				"GPT-3.5 Turbo (Mar 2023)",
+				"GPT-3.5 Turbo (0301)",
+				"gpt-3.5-turbo-0301"
+			],
+			"link": "https://openai.com/index/introducing-chatgpt-and-whisper-apis/",
+			"history": {
+				"first_mention": "2023-03-01",
+				"access": "2023-03-01",
+				"weights": null
+			},
+			"parameters": {
+				"all": 20000000000,
+				"active": null
+			},
+			"price": {
+				"input": 2.0,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"2023-06-13": {
+			"display_name": "GPT-3.5 Turbo (Jun 2023)",
+			"names": [
+				"GPT-3.5 Turbo (Jun 2023)",
+				"GPT-3.5 Turbo (June 2023)",
+				"GPT-3.5 Turbo (0613)",
+				"gpt-3.5-turbo-0613",
+				"gpt-3.5-turbo-16k-0613",
+				"gpt-3.5-turbo-16k"
+			],
+			"link": "https://openai.com/index/function-calling-and-other-api-updates/",
+			"history": {
+				"first_mention": "2023-06-13",
+				"access": "2023-06-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": 20000000000,
+				"active": null
+			},
+			"price": {
+				"input": 1.5,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"2023-11-06": {
+			"display_name": "GPT-3.5 Turbo (Nov 2023)",
+			"names": [
+				"GPT-3.5 Turbo (Nov 2023)",
+				"GPT-3.5 Turbo (1106)",
+				"gpt-3.5-turbo-1106"
+			],
+			"link": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+			"history": {
+				"first_mention": "2023-11-06",
+				"access": "2023-11-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": 20000000000,
+				"active": null
+			},
+			"price": {
+				"input": 1.0,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"2024-01-25": {
+			"display_name": "GPT-3.5 Turbo (Jan 2024)",
+			"names": [
+				"GPT-3.5 Turbo (Jan 2024)",
+				"GPT-3.5 Turbo (0125)",
+				"gpt-3.5-turbo-0125"
+			],
+			"link": "https://openai.com/index/new-embedding-models-and-api-updates/",
+			"history": {
+				"first_mention": "2024-01-25",
+				"access": "2024-01-25",
+				"weights": null
+			},
+			"parameters": {
+				"all": 20000000000,
+				"active": null
+			},
+			"price": {
+				"input": 0.5,
+				"output": 1.5
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

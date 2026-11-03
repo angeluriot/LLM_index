@@ -1,0 +1,25 @@
+{
+	"display_name": "Hermes 3 - Llama-3.1 405B",
+	"names": [
+		"Hermes 3 - Llama-3.1 405B",
+		"Hermes-3-Llama-3.1-405B",
+		"Nous Hermes 3 405B"
+	],
+	"link": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-405B",
+	"history": {
+		"first_mention": "2024-08-15",
+		"access": "2024-08-15",
+		"weights": "2024-08-15"
+	},
+	"parameters": {
+		"all": 406000000000,
+		"active": 406000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "GLM-4.5-Air",
+	"names": [
+		"GLM-4.5-Air"
+	],
+	"link": "https://huggingface.co/zai-org/GLM-4.5-Air",
+	"history": {
+		"first_mention": "2025-07-28",
+		"access": "2025-07-28",
+		"weights": "2025-07-28"
+	},
+	"parameters": {
+		"all": 106000000000,
+		"active": 12000000000
+	},
+	"price": {
+		"input": 0.17,
+		"output": 0.98
+	},
+	"efforts": [
+		""
+	]
+}

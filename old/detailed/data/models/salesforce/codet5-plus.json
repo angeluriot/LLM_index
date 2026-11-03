@@ -1,0 +1,23 @@
+{
+	"display_name": "CodeT5+",
+	"names": [
+		"CodeT5+"
+	],
+	"link": "https://arxiv.org/abs/2305.07922",
+	"history": {
+		"first_mention": "2023-05-20",
+		"access": "2023-05-20",
+		"weights": "2023-05-20"
+	},
+	"parameters": {
+		"all": 16000000000,
+		"active": 16000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

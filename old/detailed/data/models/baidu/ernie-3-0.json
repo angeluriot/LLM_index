@@ -1,0 +1,23 @@
+{
+	"display_name": "ERNIE 3.0",
+	"names": [
+		"ERNIE 3.0"
+	],
+	"link": "https://arxiv.org/abs/2107.02137",
+	"history": {
+		"first_mention": "2021-07-05",
+		"access": "2021-07-05",
+		"weights": "2021-07-05"
+	},
+	"parameters": {
+		"all": 10000000000,
+		"active": 10000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

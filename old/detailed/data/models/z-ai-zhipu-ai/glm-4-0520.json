@@ -1,0 +1,24 @@
+{
+	"display_name": "GLM-4 (0520)",
+	"names": [
+		"GLM-4 (0520)",
+		"glm-4-0520"
+	],
+	"link": "https://arxiv.org/abs/2406.12793",
+	"history": {
+		"first_mention": "2024-05-20",
+		"access": "2024-05-20",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

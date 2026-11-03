@@ -1,0 +1,70 @@
+[
+	{
+		"name": "Code Llama 7B",
+		"other_names": [
+			"CodeLlama-7b",
+			"CodeLlama-7b-Instruct",
+			"CodeLlama-7b-Python"
+		],
+		"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+		"price": null,
+		"access": {
+			"announcement": "2023-08-24",
+			"api": "2023-08-24",
+			"weights": "2023-08-24",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Code Llama 13B",
+		"other_names": [
+			"CodeLlama-13b",
+			"CodeLlama-13b-Instruct",
+			"CodeLlama-13b-Python"
+		],
+		"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+		"price": null,
+		"access": {
+			"announcement": "2023-08-24",
+			"api": "2023-08-24",
+			"weights": "2023-08-24",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Code Llama 34B",
+		"other_names": [
+			"CodeLlama-34b",
+			"CodeLlama-34b-Instruct",
+			"CodeLlama-34b-Python"
+		],
+		"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+		"price": null,
+		"access": {
+			"announcement": "2023-08-24",
+			"api": "2023-08-24",
+			"weights": "2023-08-24",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Code Llama 70B",
+		"other_names": [
+			"CodeLlama-70b",
+			"CodeLlama-70b-Instruct",
+			"CodeLlama-70b-Python"
+		],
+		"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+		"price": null,
+		"access": {
+			"announcement": "2024-01-29",
+			"api": "2024-01-29",
+			"weights": "2024-01-29",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

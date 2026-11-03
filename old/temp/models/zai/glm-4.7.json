@@ -1,0 +1,38 @@
+[
+	{
+		"name": "GLM-4.7",
+		"other_names": [
+			"glm-4.7"
+		],
+		"link": "https://huggingface.co/zai-org/GLM-4.7",
+		"price": {
+			"input": 60,
+			"output": 220
+		},
+		"access": {
+			"announcement": "2025-12-22",
+			"api": "2025-12-22",
+			"weights": "2025-12-22",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "GLM-4.7-Flash",
+		"other_names": [
+			"glm-4.7-flash"
+		],
+		"link": "https://huggingface.co/zai-org/GLM-4.7-Flash",
+		"price": {
+			"input": 0,
+			"output": 0
+		},
+		"access": {
+			"announcement": "2026-01-19",
+			"api": "2026-01-19",
+			"weights": "2026-01-19",
+			"portable": true
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

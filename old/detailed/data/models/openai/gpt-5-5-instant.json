@@ -1,0 +1,25 @@
+{
+	"display_name": "GPT-5.5 Instant",
+	"names": [
+		"GPT-5.5 Instant",
+		"gpt-5.5-instant",
+		"GPT-5.5 Instant (May 2026)"
+	],
+	"link": "https://openai.com/index/gpt-5-5-instant/",
+	"history": {
+		"first_mention": "2026-05-05",
+		"access": "2026-05-05",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 5,
+		"output": 30
+	},
+	"efforts": [
+		""
+	]
+}

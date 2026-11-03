@@ -1,0 +1,24 @@
+{
+	"display_name": "Yi-6B (chat)",
+	"names": [
+		"Yi-6B (chat)",
+		"Yi-6B-Chat"
+	],
+	"link": "https://arxiv.org/abs/2403.04652",
+	"history": {
+		"first_mention": "2023-11-22",
+		"access": "2023-11-22",
+		"weights": "2023-11-22"
+	},
+	"parameters": {
+		"all": 6000000000,
+		"active": 6000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

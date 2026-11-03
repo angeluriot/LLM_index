@@ -1,0 +1,23 @@
+{
+	"display_name": "JT-35B-Flash",
+	"names": [
+		"JT-35B-Flash"
+	],
+	"link": "https://jiutian.10086.cn/",
+	"history": {
+		"first_mention": "2026-05-14",
+		"access": "2026-05-14",
+		"weights": null
+	},
+	"parameters": {
+		"all": 35000000000,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

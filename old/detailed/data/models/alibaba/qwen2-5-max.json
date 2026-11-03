@@ -1,0 +1,25 @@
+{
+	"display_name": "Qwen2.5-Max",
+	"names": [
+		"Qwen2.5-Max",
+		"qwen-max-2025-01-25",
+		"qwen2.5-max"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen2.5-max/",
+	"history": {
+		"first_mention": "2025-01-25",
+		"access": "2025-01-25",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1.04,
+		"output": 4.16
+	},
+	"efforts": [
+		""
+	]
+}

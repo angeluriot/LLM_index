@@ -1,0 +1,26 @@
+{
+	"display_name": "Llama-3.1-Nemotron-70B-Instruct",
+	"names": [
+		"Llama-3.1-Nemotron-70B-Instruct",
+		"llama-3.1-nemotron-70b-instruct",
+		"Llama 3.1 Nemotron Instruct 70B",
+		"Llama-3.1-Nemotron-70B-Instruct-HF"
+	],
+	"link": "https://catalog.ngc.nvidia.com/orgs/nim/teams/nvidia/containers/llama-3.1-nemotron-70b-instruct",
+	"history": {
+		"first_mention": "2024-10-15",
+		"access": "2024-10-15",
+		"weights": "2024-10-15"
+	},
+	"parameters": {
+		"all": 70000000000,
+		"active": 70000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

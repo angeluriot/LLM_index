@@ -1,0 +1,31 @@
+{
+	"display_name": "Inkling-Small",
+	"names": [
+		"Inkling-Small",
+		"Inkling Small",
+		"inkling-small"
+	],
+	"link": "https://thinkingmachines.ai/news/introducing-inkling/",
+	"history": {
+		"first_mention": "2026-07-15",
+		"access": "2026-07-15",
+		"weights": "2026-07-15"
+	},
+	"parameters": {
+		"all": 276000000000,
+		"active": 12000000000
+	},
+	"price": {
+		"input": 0.5,
+		"output": 1.2
+	},
+	"efforts": [
+		"",
+		"None",
+		"Minimal",
+		"Low",
+		"Medium",
+		"High",
+		"Xhigh"
+	]
+}

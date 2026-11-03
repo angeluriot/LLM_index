@@ -1,0 +1,23 @@
+{
+	"display_name": "Grok Beta",
+	"names": [
+		"Grok Beta"
+	],
+	"link": "https://x.ai/news/grok-2",
+	"history": {
+		"first_mention": "2024-08-13",
+		"access": "2024-08-13",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 5.0,
+		"output": 15.0
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,15 @@
+[
+	{
+		"name": "MAI-Code-1-Flash",
+		"other_names": [],
+		"link": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+		"price": null,
+		"access": {
+			"announcement": "2026-06-02",
+			"api": "2026-06-02",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

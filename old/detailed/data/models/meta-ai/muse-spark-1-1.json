@@ -1,0 +1,27 @@
+{
+	"display_name": "Muse Spark 1.1",
+	"names": [
+		"Muse Spark 1.1",
+		"muse-spark-1.1"
+	],
+	"link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+	"history": {
+		"first_mention": "2026-07-09",
+		"access": "2026-07-09",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1.25,
+		"output": 4.25
+	},
+	"efforts": [
+		"",
+		"Medium",
+		"High",
+		"Xhigh"
+	]
+}

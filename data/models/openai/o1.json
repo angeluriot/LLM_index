@@ -1,0 +1,31 @@
+{
+	"display_name": "o1",
+	"versions": {
+		"2024-12-17": {
+			"display_name": "o1",
+			"names": [
+				"o1",
+				"o1-2024-12-17"
+			],
+			"link": "https://openai.com/index/learning-to-reason-with-llms/",
+			"history": {
+				"first_mention": "2024-09-12",
+				"access": "2024-12-05",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 15.0,
+				"output": 60.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

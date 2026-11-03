@@ -1,0 +1,24 @@
+{
+	"display_name": "Arctic Instruct",
+	"names": [
+		"Arctic Instruct",
+		"snowflake-arctic-instruct"
+	],
+	"link": "https://huggingface.co/Snowflake/snowflake-arctic-instruct",
+	"history": {
+		"first_mention": "2024-04-24",
+		"access": "2024-04-24",
+		"weights": "2024-04-24"
+	},
+	"parameters": {
+		"all": 480000000000,
+		"active": 17000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

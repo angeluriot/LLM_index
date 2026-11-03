@@ -1,0 +1,18 @@
+[
+	{
+		"name": "PaLM 2",
+		"other_names": [
+			"text-bison",
+			"chat-bison"
+		],
+		"link": "https://blog.google/innovation-and-ai/products/google-palm-2-ai-large-language-model/",
+		"price": null,
+		"access": {
+			"announcement": "2023-05-10",
+			"api": "2023-05-10",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

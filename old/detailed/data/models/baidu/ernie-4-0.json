@@ -1,0 +1,23 @@
+{
+	"display_name": "ERNIE 4.0",
+	"names": [
+		"ERNIE 4.0"
+	],
+	"link": "https://www.prnewswire.com/news-releases/baidu-launches-ernie-4-0-foundation-model-leading-a-new-wave-of-ai-native-applications-301958681.html",
+	"history": {
+		"first_mention": "2023-10-17",
+		"access": "2023-10-17",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

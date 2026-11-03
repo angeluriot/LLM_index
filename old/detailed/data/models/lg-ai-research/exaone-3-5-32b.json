@@ -1,0 +1,23 @@
+{
+	"display_name": "EXAONE 3.5 32B",
+	"names": [
+		"EXAONE 3.5 32B"
+	],
+	"link": "https://arxiv.org/abs/2412.04862",
+	"history": {
+		"first_mention": "2024-12-09",
+		"access": "2024-12-09",
+		"weights": "2024-12-09"
+	},
+	"parameters": {
+		"all": 32000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

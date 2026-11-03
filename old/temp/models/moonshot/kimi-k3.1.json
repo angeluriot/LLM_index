@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Kimi K3.1 Pro",
+		"other_names": [
+			"kimi-k3.1-pro"
+		],
+		"link": "https://platform.kimi.ai/docs/guide/kimi-k3-1-pro-quickstart.md",
+		"price": null,
+		"access": {
+			"announcement": "2026-10-23",
+			"api": "2026-10-23",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "High", "Max"]
+	}
+]

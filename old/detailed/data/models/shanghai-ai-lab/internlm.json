@@ -1,0 +1,23 @@
+{
+	"display_name": "InternLM",
+	"names": [
+		"InternLM"
+	],
+	"link": "https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf",
+	"history": {
+		"first_mention": "2023-07-06",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 104000000000,
+		"active": 104000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

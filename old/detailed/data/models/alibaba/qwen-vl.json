@@ -1,0 +1,23 @@
+{
+	"display_name": "Qwen-VL",
+	"names": [
+		"Qwen-VL"
+	],
+	"link": "https://arxiv.org/abs/2308.12966",
+	"history": {
+		"first_mention": "2023-08-24",
+		"access": "2023-08-24",
+		"weights": "2023-08-24"
+	},
+	"parameters": {
+		"all": 9600000000,
+		"active": 9600000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

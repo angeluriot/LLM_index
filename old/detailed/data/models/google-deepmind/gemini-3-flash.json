@@ -1,0 +1,28 @@
+{
+	"display_name": "Gemini 3 Flash",
+	"names": [
+		"Gemini 3 Flash",
+		"Gemini 3 Flash Preview",
+		"gemini-3-flash-preview"
+	],
+	"link": "https://blog.google/products/gemini/gemini-3-flash/",
+	"history": {
+		"first_mention": "2025-12-17",
+		"access": "2025-12-17",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.5,
+		"output": 3.0
+	},
+	"efforts": [
+		"",
+		"Minimal",
+		"Low",
+		"High"
+	]
+}

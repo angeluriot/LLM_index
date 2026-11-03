@@ -1,0 +1,84 @@
+[
+	{
+		"name": "Phi-4",
+		"other_names": [
+			"phi-4"
+		],
+		"link": "https://huggingface.co/microsoft/phi-4",
+		"price": null,
+		"access": {
+			"announcement": "2024-12-12",
+			"api": "2024-12-12",
+			"weights": "2025-01-08",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Phi-4-mini",
+		"other_names": [
+			"Phi-4-mini-instruct"
+		],
+		"link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+		"price": null,
+		"access": {
+			"announcement": "2025-02-26",
+			"api": "2025-02-26",
+			"weights": "2025-02-26",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Phi-4-reasoning",
+		"other_names": [],
+		"link": "https://huggingface.co/microsoft/Phi-4-reasoning",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-30",
+			"api": "2025-04-30",
+			"weights": "2025-04-30",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Phi-4-reasoning-plus",
+		"other_names": [],
+		"link": "https://huggingface.co/microsoft/Phi-4-reasoning-plus",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-30",
+			"api": "2025-04-30",
+			"weights": "2025-04-30",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Phi-4-mini-reasoning",
+		"other_names": [],
+		"link": "https://huggingface.co/microsoft/Phi-4-mini-reasoning",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-30",
+			"api": "2025-04-30",
+			"weights": "2025-04-30",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Phi-4-mini-flash-reasoning",
+		"other_names": [],
+		"link": "https://huggingface.co/microsoft/Phi-4-mini-flash-reasoning",
+		"price": null,
+		"access": {
+			"announcement": "2025-07-09",
+			"api": "2025-07-09",
+			"weights": "2025-07-09",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

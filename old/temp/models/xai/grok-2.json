@@ -1,0 +1,55 @@
+[
+	{
+		"name": "Grok-2",
+		"other_names": [
+			"Grok 2"
+		],
+		"link": "https://x.ai/news/grok-2",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "Grok-2 (Aug 2024)",
+				"other_names": [],
+				"access": {
+					"announcement": "2024-08-13",
+					"api": "2024-08-13",
+					"weights": null,
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "Grok-2 (Dec 2024)",
+				"other_names": [
+					"Grok 2.5",
+					"grok-2-1212"
+				],
+				"access": {
+					"announcement": "2024-12-12",
+					"api": "2024-12-12",
+					"weights": "2025-08-23",
+					"portable": false
+				},
+				"price": {
+					"input": 200,
+					"output": 1000
+				}
+			}
+		]
+	},
+	{
+		"name": "Grok-2 mini",
+		"other_names": [
+			"Grok 2 mini"
+		],
+		"link": "https://x.ai/news/grok-2",
+		"price": null,
+		"access": {
+			"announcement": "2024-08-13",
+			"api": "2024-08-13",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

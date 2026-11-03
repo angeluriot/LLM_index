@@ -1,0 +1,27 @@
+{
+	"display_name": "o1-pro",
+	"names": [
+		"o1-pro",
+		"o1 Pro",
+		"o1-pro-2025-03-19"
+	],
+	"link": "https://openai.com/index/introducing-chatgpt-pro/",
+	"history": {
+		"first_mention": "2025-03-19",
+		"access": "2025-03-19",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 150.0,
+		"output": 600.0
+	},
+	"efforts": [
+		"Low",
+		"Medium",
+		"High"
+	]
+}

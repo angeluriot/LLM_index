@@ -1,0 +1,27 @@
+{
+	"display_name": "Grok 4.7",
+	"names": [
+		"Grok 4.7",
+		"grok-4.7"
+	],
+	"link": "https://x.ai/news/grok-4-7",
+	"history": {
+		"first_mention": "2026-09-21",
+		"access": "2026-09-21",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 2.0,
+		"output": 6.0
+	},
+	"efforts": [
+		"Low",
+		"Medium",
+		"High",
+		"Xhigh"
+	]
+}

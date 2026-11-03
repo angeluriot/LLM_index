@@ -1,0 +1,23 @@
+{
+	"display_name": "Cerebras-GPT-13B",
+	"names": [
+		"Cerebras-GPT-13B"
+	],
+	"link": "https://arxiv.org/abs/2304.03208",
+	"history": {
+		"first_mention": "2023-03-20",
+		"access": "2023-03-20",
+		"weights": "2023-03-20"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "Llama 3.2 Instruct 3B",
+	"names": [
+		"Llama 3.2 Instruct 3B",
+		"Llama-3.2-3B"
+	],
+	"link": "https://huggingface.co/meta-llama/Llama-3.2-3B",
+	"history": {
+		"first_mention": "2024-09-25",
+		"access": "2024-09-25",
+		"weights": "2024-09-25"
+	},
+	"parameters": {
+		"all": 3000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

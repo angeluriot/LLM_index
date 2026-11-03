@@ -1,0 +1,26 @@
+{
+	"display_name": "Nemotron 3-Nano-30B-A3B",
+	"names": [
+		"Nemotron 3-Nano-30B-A3B",
+		"NVIDIA Nemotron 3 Nano 30B A3B",
+		"NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
+	],
+	"link": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Nano-Technical-Report.pdf",
+	"history": {
+		"first_mention": "2025-12-15",
+		"access": "2025-12-15",
+		"weights": "2025-12-15"
+	},
+	"parameters": {
+		"all": 31600000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": 0.05,
+		"output": 0.2
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

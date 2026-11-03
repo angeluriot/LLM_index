@@ -1,0 +1,23 @@
+{
+	"display_name": "BlenderBot 3",
+	"names": [
+		"BlenderBot 3"
+	],
+	"link": "https://arxiv.org/abs/2208.03188,",
+	"history": {
+		"first_mention": "2022-08-10",
+		"access": "2022-08-10",
+		"weights": "2022-08-10"
+	},
+	"parameters": {
+		"all": 175000000000,
+		"active": 175000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

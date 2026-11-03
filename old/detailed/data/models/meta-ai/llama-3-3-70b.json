@@ -1,0 +1,27 @@
+{
+	"display_name": "Llama 3.3 70B",
+	"names": [
+		"Llama 3.3 70B",
+		"Llama-3.3-70B-Instruct",
+		"Llama-3.3-70B-Instruct-Q8_0-GGUF-draft",
+		"llama3.3:70b-instruct-q8_0",
+		"Llama 3.3 Instruct 70B"
+	],
+	"link": "https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_3/",
+	"history": {
+		"first_mention": "2024-12-06",
+		"access": "2024-12-06",
+		"weights": "2024-12-06"
+	},
+	"parameters": {
+		"all": 70000000000,
+		"active": 70000000000
+	},
+	"price": {
+		"input": 0.3715,
+		"output": 0.71
+	},
+	"efforts": [
+		""
+	]
+}

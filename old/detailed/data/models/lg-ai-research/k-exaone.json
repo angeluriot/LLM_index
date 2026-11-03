@@ -1,0 +1,25 @@
+{
+	"display_name": "K-EXAONE",
+	"names": [
+		"K-EXAONE",
+		"K-EXAONE-236B-A23B"
+	],
+	"link": "https://huggingface.co/LGAI-EXAONE",
+	"history": {
+		"first_mention": "2025-12-31",
+		"access": "2025-12-31",
+		"weights": "2025-12-31"
+	},
+	"parameters": {
+		"all": 236000000000,
+		"active": 23000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"None"
+	]
+}

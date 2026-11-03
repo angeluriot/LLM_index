@@ -1,0 +1,24 @@
+{
+	"display_name": "Olmo 3.1 32B Instruct",
+	"names": [
+		"Olmo 3.1 32B Instruct",
+		"Olmo-3.1-32B-Instruct"
+	],
+	"link": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct",
+	"history": {
+		"first_mention": "2026-01-13",
+		"access": "2026-01-13",
+		"weights": "2026-01-13"
+	},
+	"parameters": {
+		"all": 32200000000,
+		"active": 32200000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

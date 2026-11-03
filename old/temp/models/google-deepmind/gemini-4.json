@@ -1,0 +1,36 @@
+[
+	{
+		"name": "Gemini 4 Argon",
+		"other_names": [
+			"gemini-4-argon"
+		],
+		"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+		"price": {
+			"input": 200,
+			"output": 1000
+		},
+		"access": {
+			"announcement": "2026-09-30",
+			"api": "2026-10-13",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	},
+	{
+		"name": "Gemini 4 Carbon",
+		"other_names": [],
+		"link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+		"price": {
+			"input": 200,
+			"output": 1000
+		},
+		"access": {
+			"announcement": "2026-10-28",
+			"api": null,
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	}
+]

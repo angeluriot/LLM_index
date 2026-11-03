@@ -1,0 +1,23 @@
+{
+	"display_name": "Turing ULRv5",
+	"names": [
+		"Turing ULRv5"
+	],
+	"link": "https://www.microsoft.com/en-us/research/blog/microsoft-turing-universal-language-representation-model-t-ulrv5-tops-xtreme-leaderboard-and-trains-100x-faster/",
+	"history": {
+		"first_mention": "2021-09-28",
+		"access": "2021-09-28",
+		"weights": null
+	},
+	"parameters": {
+		"all": 2200000000,
+		"active": 2200000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

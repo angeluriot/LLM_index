@@ -1,0 +1,26 @@
+{
+	"display_name": "Qwen3-Max",
+	"names": [
+		"Qwen3-Max",
+		"Qwen3-Max-Instruct",
+		"Qwen3 Max",
+		"qwen3-max-2025-09-23"
+	],
+	"link": "https://modelstudio.console.alibabacloud.com/?tab=doc#/doc/?type=model&url=2840914_2&modelId=qwen3-max-preview",
+	"history": {
+		"first_mention": "2025-09-23",
+		"access": "2025-09-24",
+		"weights": null
+	},
+	"parameters": {
+		"all": 1000000000000,
+		"active": null
+	},
+	"price": {
+		"input": 0.78,
+		"output": 3.9
+	},
+	"efforts": [
+		""
+	]
+}

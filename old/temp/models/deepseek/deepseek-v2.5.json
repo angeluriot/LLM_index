@@ -1,0 +1,38 @@
+[
+	{
+		"name": "DeepSeek-V2.5",
+		"other_names": [],
+		"link": "https://api-docs.deepseek.com/news/news0905",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "DeepSeek-V2.5",
+				"other_names": [],
+				"access": {
+					"announcement": "2024-09-05",
+					"api": "2024-09-05",
+					"weights": "2024-09-05",
+					"portable": false
+				},
+				"price": {
+					"input": 14,
+					"output": 28
+				}
+			},
+			{
+				"name": "DeepSeek-V2.5-1210",
+				"other_names": [],
+				"access": {
+					"announcement": "2024-12-10",
+					"api": "2024-12-10",
+					"weights": "2024-12-10",
+					"portable": false
+				},
+				"price": {
+					"input": 14,
+					"output": 28
+				}
+			}
+		]
+	}
+]

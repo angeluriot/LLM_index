@@ -1,0 +1,23 @@
+{
+	"display_name": "G9v3-39A5B",
+	"names": [
+		"G9v3-39A5B"
+	],
+	"link": "https://huggingface.co/ai9stars/G9v3-39A5B",
+	"history": {
+		"first_mention": "2026-08-20",
+		"access": "2026-08-20",
+		"weights": "2026-08-20"
+	},
+	"parameters": {
+		"all": 39000000000,
+		"active": 5000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

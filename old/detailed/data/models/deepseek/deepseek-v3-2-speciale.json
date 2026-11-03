@@ -1,0 +1,23 @@
+{
+	"display_name": "DeepSeek-V3.2-Speciale",
+	"names": [
+		"DeepSeek-V3.2-Speciale"
+	],
+	"link": "https://api-docs.deepseek.com/news/news251201",
+	"history": {
+		"first_mention": "2025-12-01",
+		"access": "2025-12-01",
+		"weights": "2025-12-01"
+	},
+	"parameters": {
+		"all": 685000000000,
+		"active": 37000000000
+	},
+	"price": {
+		"input": 0.4,
+		"output": 1.2
+	},
+	"efforts": [
+		""
+	]
+}

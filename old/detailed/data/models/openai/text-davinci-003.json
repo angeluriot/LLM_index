@@ -1,0 +1,23 @@
+{
+	"display_name": "text-davinci-003",
+	"names": [
+		"text-davinci-003"
+	],
+	"link": "https://platform.openai.com/docs/models/gpt-3-5",
+	"history": {
+		"first_mention": "2022-11-28",
+		"access": "2022-11-28",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 20.0,
+		"output": 20.0
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Grok 4.6",
+		"other_names": [
+			"grok-4.6"
+		],
+		"link": "https://x.ai/news/grok-4-6",
+		"price": {
+			"input": 200,
+			"output": 600
+		},
+		"access": {
+			"announcement": "2026-08-12",
+			"api": "2026-08-12",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High", "Xhigh"]
+	}
+]

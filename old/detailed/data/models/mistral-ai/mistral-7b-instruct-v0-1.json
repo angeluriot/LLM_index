@@ -1,0 +1,25 @@
+{
+	"display_name": "Mistral 7B Instruct v0.1",
+	"names": [
+		"Mistral 7B Instruct v0.1",
+		"Mistral-7B-Instruct-v0.1",
+		"Mistral 7B Instruct"
+	],
+	"link": "https://arxiv.org/abs/2310.06825",
+	"history": {
+		"first_mention": "2023-09-27",
+		"access": "2023-09-27",
+		"weights": "2023-09-27"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": 0.11,
+		"output": 0.19
+	},
+	"efforts": [
+		""
+	]
+}

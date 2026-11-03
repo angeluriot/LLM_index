@@ -1,0 +1,26 @@
+{
+	"display_name": "GPT-4 Turbo (Nov 2023)",
+	"names": [
+		"GPT-4 Turbo (Nov 2023)",
+		"GPT-4 Turbo Preview (Nov 2023)",
+		"gpt-4-1106-preview",
+		"gpt-4-turbo"
+	],
+	"link": "https://openai.com/blog/new-models-and-developer-products-announced-at-devday",
+	"history": {
+		"first_mention": "2023-11-06",
+		"access": "2023-11-06",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 10.0,
+		"output": 30.0
+	},
+	"efforts": [
+		""
+	]
+}

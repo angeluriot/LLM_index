@@ -1,0 +1,24 @@
+{
+	"display_name": "o1-preview",
+	"names": [
+		"o1-preview",
+		"o1-preview-2024-09-12"
+	],
+	"link": "https://openai.com/index/introducing-openai-o1-preview/",
+	"history": {
+		"first_mention": "2024-09-12",
+		"access": "2024-09-12",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 15.0,
+		"output": 60.0
+	},
+	"efforts": [
+		""
+	]
+}

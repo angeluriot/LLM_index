@@ -1,0 +1,23 @@
+{
+	"display_name": "Mistral Medium",
+	"names": [
+		"Mistral Medium"
+	],
+	"link": "https://mistral.ai/news/la-plateforme",
+	"history": {
+		"first_mention": "2023-12-11",
+		"access": "2023-12-11",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 2.7,
+		"output": 8.1
+	},
+	"efforts": [
+		""
+	]
+}

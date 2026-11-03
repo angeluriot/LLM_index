@@ -1,0 +1,15 @@
+[
+	{
+		"name": "LaMDA",
+		"other_names": [],
+		"link": "https://blog.google/innovation-and-ai/products/lamda/",
+		"price": null,
+		"access": {
+			"announcement": "2021-05-18",
+			"api": null,
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

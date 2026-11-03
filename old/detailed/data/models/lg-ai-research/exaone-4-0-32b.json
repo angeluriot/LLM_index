@@ -1,0 +1,24 @@
+{
+	"display_name": "EXAONE 4.0 (32B)",
+	"names": [
+		"EXAONE 4.0 (32B)"
+	],
+	"link": "https://arxiv.org/abs/2507.11407",
+	"history": {
+		"first_mention": "2025-07-15",
+		"access": "2025-07-15",
+		"weights": "2025-07-15"
+	},
+	"parameters": {
+		"all": 32000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Reasoning"
+	]
+}

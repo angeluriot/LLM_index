@@ -1,0 +1,47 @@
+[
+	{
+		"name": "DeepSeek-Coder 1.3B",
+		"other_names": [
+			"deepseek-coder-1.3b-instruct"
+		],
+		"link": "https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct",
+		"price": null,
+		"access": {
+			"announcement": "2023-11-02",
+			"api": "2023-11-02",
+			"weights": "2023-11-02",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "DeepSeek-Coder 6.7B",
+		"other_names": [
+			"deepseek-coder-6.7b-instruct"
+		],
+		"link": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+		"price": null,
+		"access": {
+			"announcement": "2023-11-02",
+			"api": "2023-11-02",
+			"weights": "2023-11-02",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "DeepSeek-Coder 33B",
+		"other_names": [
+			"deepseek-coder-33b-instruct"
+		],
+		"link": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct",
+		"price": null,
+		"access": {
+			"announcement": "2023-11-02",
+			"api": "2023-11-02",
+			"weights": "2023-11-02",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

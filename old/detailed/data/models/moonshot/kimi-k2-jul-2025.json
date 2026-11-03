@@ -1,0 +1,27 @@
+{
+	"display_name": "Kimi K2 (Jul 2025)",
+	"names": [
+		"Kimi K2 (Jul 2025)",
+		"Kimi K2 Instruct",
+		"Kimi-K2-Instruct",
+		"kimi-k2-0711-preview",
+		"Kimi K2"
+	],
+	"link": "https://moonshotai.github.io/Kimi-K2/",
+	"history": {
+		"first_mention": "2025-07-11",
+		"access": "2025-07-12",
+		"weights": "2025-07-12"
+	},
+	"parameters": {
+		"all": 1000000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": 0.57,
+		"output": 2.3
+	},
+	"efforts": [
+		""
+	]
+}

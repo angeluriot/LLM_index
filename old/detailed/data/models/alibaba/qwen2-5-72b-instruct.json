@@ -1,0 +1,25 @@
+{
+	"display_name": "Qwen2.5-72B-Instruct",
+	"names": [
+		"Qwen2.5-72B-Instruct",
+		"qwen2.5-72b-instruct",
+		"Qwen2.5 Instruct (72B)"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen2.5/",
+	"history": {
+		"first_mention": "2024-09-19",
+		"access": "2024-09-19",
+		"weights": "2024-09-19"
+	},
+	"parameters": {
+		"all": 72700000000,
+		"active": 72700000000
+	},
+	"price": {
+		"input": 0.36,
+		"output": 0.4
+	},
+	"efforts": [
+		""
+	]
+}

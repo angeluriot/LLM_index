@@ -1,0 +1,23 @@
+{
+	"display_name": "Molmo2-8B",
+	"names": [
+		"Molmo2-8B"
+	],
+	"link": "https://huggingface.co/allenai/Molmo2-8B",
+	"history": {
+		"first_mention": "2025-12-11",
+		"access": "2025-12-11",
+		"weights": "2025-12-11"
+	},
+	"parameters": {
+		"all": 8660000000,
+		"active": 8660000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

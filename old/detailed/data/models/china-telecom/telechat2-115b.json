@@ -1,0 +1,23 @@
+{
+	"display_name": "Telechat2-115B",
+	"names": [
+		"Telechat2-115B"
+	],
+	"link": "https://huggingface.co/Tele-AI/TeleChat2-115B",
+	"history": {
+		"first_mention": "2024-09-20",
+		"access": "2024-09-20",
+		"weights": "2024-09-20"
+	},
+	"parameters": {
+		"all": 115000000000,
+		"active": 115000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

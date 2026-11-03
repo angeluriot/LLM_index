@@ -1,0 +1,25 @@
+{
+	"display_name": "Llama 4 Scout",
+	"names": [
+		"Llama 4 Scout",
+		"Llama-4-Scout-17B-16E-Instruct",
+		"Llama-4-Scout-17B-16E Instruct"
+	],
+	"link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+	"history": {
+		"first_mention": "2025-04-05",
+		"access": "2025-04-05",
+		"weights": "2025-04-05"
+	},
+	"parameters": {
+		"all": 109000000000,
+		"active": 17000000000
+	},
+	"price": {
+		"input": 0.105,
+		"output": 0.465
+	},
+	"efforts": [
+		""
+	]
+}

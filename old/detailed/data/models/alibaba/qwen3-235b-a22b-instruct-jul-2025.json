@@ -1,0 +1,26 @@
+{
+	"display_name": "Qwen3-235B-A22B-Instruct (Jul 2025)",
+	"names": [
+		"Qwen3-235B-A22B-Instruct (Jul 2025)",
+		"Qwen3 Non-thinking (Jul 2025)",
+		"Qwen3-235B-A22B-Instruct-2507",
+		"Qwen3 235B A22B 2507 Instruct"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen3/",
+	"history": {
+		"first_mention": "2025-07-21",
+		"access": "2025-07-25",
+		"weights": "2025-07-25"
+	},
+	"parameters": {
+		"all": 235000000000,
+		"active": 22000000000
+	},
+	"price": {
+		"input": 0.175,
+		"output": 0.6
+	},
+	"efforts": [
+		""
+	]
+}

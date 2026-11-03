@@ -1,0 +1,29 @@
+{
+	"display_name": "Muse Wonder",
+	"names": [
+		"Muse Wonder",
+		"muse-wonder-1.0"
+	],
+	"link": "https://research.meta.ai/blog/muse-wonder",
+	"history": {
+		"first_mention": "2026-10-12",
+		"access": "2026-10-12",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 4,
+		"output": 20
+	},
+	"efforts": [
+		"Minimal",
+		"Low",
+		"Medium",
+		"High",
+		"Xhigh",
+		"Max"
+	]
+}

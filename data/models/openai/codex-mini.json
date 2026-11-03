@@ -1,0 +1,31 @@
+{
+	"display_name": "codex-mini",
+	"versions": {
+		"2025-05-16": {
+			"display_name": "codex-mini",
+			"names": [
+				"codex-mini",
+				"codex-mini-latest"
+			],
+			"link": "https://openai.com/index/introducing-codex/",
+			"history": {
+				"first_mention": "2025-05-16",
+				"access": "2025-05-16",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.5,
+				"output": 6.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

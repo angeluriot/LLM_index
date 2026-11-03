@@ -1,0 +1,24 @@
+{
+	"display_name": "DeepHermes 3 - Mistral 24B Preview",
+	"names": [
+		"DeepHermes 3 - Mistral 24B Preview",
+		"DeepHermes-3-Mistral-24B-Preview"
+	],
+	"link": "https://huggingface.co/NousResearch/DeepHermes-3-Mistral-24B-Preview",
+	"history": {
+		"first_mention": "2025-03-13",
+		"access": "2025-03-13",
+		"weights": "2025-03-13"
+	},
+	"parameters": {
+		"all": 24000000000,
+		"active": 24000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

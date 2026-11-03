@@ -1,0 +1,15 @@
+[
+	{
+		"name": "MAI-Code-1.1-Flash",
+		"other_names": [],
+		"link": "https://ai.azure.com/catalog/models/MAI-Code-1.1-Flash",
+		"price": null,
+		"access": {
+			"announcement": "2026-08-11",
+			"api": "2026-08-11",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

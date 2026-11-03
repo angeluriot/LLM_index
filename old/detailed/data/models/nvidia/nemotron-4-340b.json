@@ -1,0 +1,24 @@
+{
+	"display_name": "Nemotron-4 340B",
+	"names": [
+		"Nemotron-4 340B",
+		"nemotron-4-340b-Instruct"
+	],
+	"link": "https://blogs.nvidia.com/blog/nemotron-4-synthetic-data-generation-llm-training/",
+	"history": {
+		"first_mention": "2024-06-14",
+		"access": "2024-06-14",
+		"weights": "2024-06-14"
+	},
+	"parameters": {
+		"all": 340000000000,
+		"active": 340000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

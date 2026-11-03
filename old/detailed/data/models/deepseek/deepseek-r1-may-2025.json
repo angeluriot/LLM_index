@@ -1,0 +1,25 @@
+{
+	"display_name": "DeepSeek-R1 (May 2025)",
+	"names": [
+		"DeepSeek-R1 (May 2025)",
+		"DeepSeek-R1-0528",
+		"DeepSeek R1 0528 (May '25)"
+	],
+	"link": "https://api-docs.deepseek.com/news/news250120",
+	"history": {
+		"first_mention": "2025-05-28",
+		"access": "2025-05-28",
+		"weights": "2025-05-28"
+	},
+	"parameters": {
+		"all": 671000000000,
+		"active": 37000000000
+	},
+	"price": {
+		"input": 0.55,
+		"output": 2.19
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "PaLI-3",
+	"names": [
+		"PaLI-3"
+	],
+	"link": "https://arxiv.org/abs/2310.09199",
+	"history": {
+		"first_mention": "2023-10-17",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 5000000000,
+		"active": 5000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

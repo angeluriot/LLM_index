@@ -1,0 +1,24 @@
+{
+	"display_name": "Llama 3-70B",
+	"names": [
+		"Llama 3-70B",
+		"Meta-Llama-3-70B"
+	],
+	"link": "https://ai.meta.com/blog/meta-llama-3/",
+	"history": {
+		"first_mention": "2024-04-18",
+		"access": "2024-04-18",
+		"weights": "2024-04-18"
+	},
+	"parameters": {
+		"all": 70000000000,
+		"active": 70000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

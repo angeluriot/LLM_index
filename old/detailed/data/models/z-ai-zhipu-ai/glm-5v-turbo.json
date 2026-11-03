@@ -1,0 +1,23 @@
+{
+	"display_name": "GLM 5V Turbo",
+	"names": [
+		"GLM 5V Turbo"
+	],
+	"link": "https://docs.z.ai/guides/vlm/glm-5v-turbo",
+	"history": {
+		"first_mention": "2026-04-01",
+		"access": "2026-04-01",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

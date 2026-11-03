@@ -1,0 +1,33 @@
+{
+	"display_name": "GPT-5.3 Codex Spark",
+	"versions": {
+		"2026-02-12": {
+			"display_name": "GPT-5.3 Codex Spark",
+			"names": [
+				"GPT-5.3 Codex Spark",
+				"GPT-5.3-Codex-Spark",
+				"gpt-5.3-codex-spark"
+			],
+			"link": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+			"history": {
+				"first_mention": "2026-02-12",
+				"access": "2026-02-12",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		}
+	}
+}

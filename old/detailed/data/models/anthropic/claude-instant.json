@@ -1,0 +1,24 @@
+{
+	"display_name": "Claude Instant",
+	"names": [
+		"Claude Instant",
+		"claude-instant-1.1"
+	],
+	"link": "https://www.anthropic.com/news/introducing-claude",
+	"history": {
+		"first_mention": "2023-03-14",
+		"access": "2023-03-14",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1.63,
+		"output": 5.51
+	},
+	"efforts": [
+		""
+	]
+}

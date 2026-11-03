@@ -1,0 +1,24 @@
+{
+	"display_name": "Mistral Small (Sep '24)",
+	"names": [
+		"Mistral Small (Sep '24)",
+		"Mistral-Small-Instruct-2409"
+	],
+	"link": "https://huggingface.co/mistralai/Mistral-Small-Instruct-2409",
+	"history": {
+		"first_mention": "2024-09-17",
+		"access": "2024-09-17",
+		"weights": "2024-09-17"
+	},
+	"parameters": {
+		"all": 22000000000,
+		"active": 22000000000
+	},
+	"price": {
+		"input": 0.2,
+		"output": 0.6
+	},
+	"efforts": [
+		""
+	]
+}

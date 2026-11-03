@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Llama 2 7B",
+		"other_names": [
+			"Llama-2-7b",
+			"Llama-2-7b-chat"
+		],
+		"link": "https://about.fb.com/news/2023/07/llama-2/",
+		"price": null,
+		"access": {
+			"announcement": "2023-07-18",
+			"api": "2023-07-18",
+			"weights": "2023-07-18",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Llama 2 13B",
+		"other_names": [
+			"Llama-2-13b",
+			"Llama-2-13b-chat"
+		],
+		"link": "https://about.fb.com/news/2023/07/llama-2/",
+		"price": null,
+		"access": {
+			"announcement": "2023-07-18",
+			"api": "2023-07-18",
+			"weights": "2023-07-18",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Llama 2 70B",
+		"other_names": [
+			"Llama-2-70b",
+			"Llama-2-70b-chat"
+		],
+		"link": "https://about.fb.com/news/2023/07/llama-2/",
+		"price": null,
+		"access": {
+			"announcement": "2023-07-18",
+			"api": "2023-07-18",
+			"weights": "2023-07-18",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

@@ -1,0 +1,25 @@
+{
+	"display_name": "Hermes 4 - Llama-3.1 405B",
+	"names": [
+		"Hermes 4 - Llama-3.1 405B",
+		"Hermes-4-405B"
+	],
+	"link": "https://huggingface.co/NousResearch/Hermes-4-405B",
+	"history": {
+		"first_mention": "2025-08-27",
+		"access": "2025-08-27",
+		"weights": "2025-08-27"
+	},
+	"parameters": {
+		"all": 406000000000,
+		"active": 406000000000
+	},
+	"price": {
+		"input": 1,
+		"output": 3
+	},
+	"efforts": [
+		"",
+		"Reasoning"
+	]
+}

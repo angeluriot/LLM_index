@@ -1,0 +1,68 @@
+[
+	{
+		"name": "Gemini 3 Pro",
+		"other_names": [
+			"gemini-3-pro-preview"
+		],
+		"link": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+		"price": {
+			"input": 200,
+			"output": 1200
+		},
+		"access": {
+			"announcement": "2025-11-18",
+			"api": "2025-11-18",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "High"]
+	},
+	{
+		"name": "Gemini 3 Deep Think",
+		"other_names": [],
+		"link": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "Gemini 3 Deep Think (Dec 2025)",
+				"other_names": [],
+				"access": {
+					"announcement": "2025-11-18",
+					"api": "2025-12-04",
+					"weights": null,
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "Gemini 3 Deep Think (Feb 2026)",
+				"other_names": [],
+				"access": {
+					"announcement": "2026-02-12",
+					"api": "2026-02-12",
+					"weights": null,
+					"portable": false
+				},
+				"price": null
+			}
+		]
+	},
+	{
+		"name": "Gemini 3 Flash",
+		"other_names": [
+			"gemini-3-flash-preview"
+		],
+		"link": "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/",
+		"price": {
+			"input": 50,
+			"output": 300
+		},
+		"access": {
+			"announcement": "2025-12-17",
+			"api": "2025-12-17",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Minimal", "Low", "Medium", "High"]
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"display_name": "NVLM-X 72B",
+	"names": [
+		"NVLM-X 72B"
+	],
+	"link": "https://arxiv.org/abs/2409.11402",
+	"history": {
+		"first_mention": "2024-10-22",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 72000000000,
+		"active": 72000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

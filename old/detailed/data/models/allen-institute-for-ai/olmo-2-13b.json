@@ -1,0 +1,24 @@
+{
+	"display_name": "OLMo 2 13B",
+	"names": [
+		"OLMo 2 13B",
+		"OLMo-2-1124-13B-Instruct"
+	],
+	"link": "https://huggingface.co/allenai/OLMo-2-1124-13B-Instruct",
+	"history": {
+		"first_mention": "2024-11-26",
+		"access": "2024-11-26",
+		"weights": "2024-11-26"
+	},
+	"parameters": {
+		"all": 13700000000,
+		"active": 13700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

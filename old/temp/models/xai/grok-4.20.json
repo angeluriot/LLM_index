@@ -1,0 +1,39 @@
+[
+	{
+		"name": "Grok 4.20",
+		"other_names": [
+			"grok-4.20-0309-reasoning",
+			"grok-4.20-0309-non-reasoning"
+		],
+		"link": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
+		"price": {
+			"input": 125,
+			"output": 250
+		},
+		"access": {
+			"announcement": "2026-02-17",
+			"api": "2026-02-17",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	},
+	{
+		"name": "Grok 4.20 Multi-agent",
+		"other_names": [
+			"grok-4.20-multi-agent-0309"
+		],
+		"link": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
+		"price": {
+			"input": 125,
+			"output": 250
+		},
+		"access": {
+			"announcement": "2026-02-17",
+			"api": "2026-02-17",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

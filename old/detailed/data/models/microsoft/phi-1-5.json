@@ -1,0 +1,24 @@
+{
+	"display_name": "Phi-1.5",
+	"names": [
+		"Phi-1.5",
+		"phi-1_5"
+	],
+	"link": "https://arxiv.org/abs/2309.05463,",
+	"history": {
+		"first_mention": "2023-09-11",
+		"access": "2023-09-11",
+		"weights": "2023-09-11"
+	},
+	"parameters": {
+		"all": 1300000000,
+		"active": 1300000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

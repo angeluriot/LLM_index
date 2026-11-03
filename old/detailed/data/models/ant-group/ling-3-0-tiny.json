@@ -1,0 +1,24 @@
+{
+	"display_name": "Ling 3.0 Tiny",
+	"names": [
+		"Ling 3.0 Tiny",
+		"Ling-3.0-tiny-int4"
+	],
+	"link": "https://huggingface.co/inclusionAI/Ling-3.0-tiny-int4",
+	"history": {
+		"first_mention": "2026-08-06",
+		"access": "2026-08-06",
+		"weights": "2026-08-06"
+	},
+	"parameters": {
+		"all": 7900000000,
+		"active": 1300000000
+	},
+	"price": {
+		"input": 0,
+		"output": 0
+	},
+	"efforts": [
+		""
+	]
+}

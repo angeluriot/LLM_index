@@ -1,0 +1,24 @@
+{
+	"display_name": "GPT-NeoX-20B",
+	"names": [
+		"GPT-NeoX-20B",
+		"gpt-neox-20b"
+	],
+	"link": "https://arxiv.org/abs/2204.06745",
+	"history": {
+		"first_mention": "2022-04-07",
+		"access": "2022-04-07",
+		"weights": "2022-04-07"
+	},
+	"parameters": {
+		"all": 20000000000,
+		"active": 20000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

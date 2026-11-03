@@ -1,0 +1,24 @@
+{
+	"display_name": "Molmo 7B-D",
+	"names": [
+		"Molmo 7B-D",
+		"Molmo-7B-D-0924"
+	],
+	"link": "https://huggingface.co/allenai/Molmo-7B-D-0924",
+	"history": {
+		"first_mention": "2024-09-25",
+		"access": "2024-09-25",
+		"weights": "2024-09-25"
+	},
+	"parameters": {
+		"all": 8020000000,
+		"active": 8020000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

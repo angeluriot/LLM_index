@@ -1,0 +1,30 @@
+{
+	"display_name": "InstructGPT 175B",
+	"versions": {
+		"2022-01-27": {
+			"display_name": "InstructGPT 175B",
+			"names": [
+				"InstructGPT 175B",
+				"InstructGPT",
+				"text-davinci-001"
+			],
+			"link": "https://openai.com/index/instruction-following/",
+			"history": {
+				"first_mention": "2022-01-27",
+				"access": "2022-01-27",
+				"weights": null
+			},
+			"parameters": {
+				"all": 175000000000,
+				"active": 175000000000
+			},
+			"price": {
+				"input": 20.0,
+				"output": 20.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

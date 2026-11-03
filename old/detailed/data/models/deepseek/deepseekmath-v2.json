@@ -1,0 +1,23 @@
+{
+	"display_name": "DeepSeekMath-V2",
+	"names": [
+		"DeepSeekMath-V2"
+	],
+	"link": "https://arxiv.org/abs/2511.22570",
+	"history": {
+		"first_mention": "2025-11-27",
+		"access": "2025-11-27",
+		"weights": "2025-11-27"
+	},
+	"parameters": {
+		"all": 685000000000,
+		"active": 37000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

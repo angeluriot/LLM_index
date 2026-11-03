@@ -1,0 +1,24 @@
+{
+	"display_name": "Olmo 3 32B Base",
+	"names": [
+		"Olmo 3 32B Base",
+		"Olmo-3-1125-32B"
+	],
+	"link": "https://huggingface.co/allenai/Olmo-3-1125-32B",
+	"history": {
+		"first_mention": "2025-11-20",
+		"access": "2025-11-20",
+		"weights": "2025-11-20"
+	},
+	"parameters": {
+		"all": 32000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

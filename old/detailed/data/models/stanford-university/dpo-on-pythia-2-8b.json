@@ -1,0 +1,23 @@
+{
+	"display_name": "DPO on Pythia-2.8B",
+	"names": [
+		"DPO on Pythia-2.8B"
+	],
+	"link": "https://arxiv.org/abs/2305.18290",
+	"history": {
+		"first_mention": "2023-05-29",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 2800000000,
+		"active": 2800000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

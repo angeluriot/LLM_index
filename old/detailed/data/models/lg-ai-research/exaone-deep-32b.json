@@ -1,0 +1,24 @@
+{
+	"display_name": "EXAONE Deep 32B",
+	"names": [
+		"EXAONE Deep 32B",
+		"EXAONE-Deep-32B"
+	],
+	"link": "https://arxiv.org/abs/2503.12524",
+	"history": {
+		"first_mention": "2025-03-18",
+		"access": "2025-03-18",
+		"weights": "2025-03-18"
+	},
+	"parameters": {
+		"all": 32000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "UL2",
+	"names": [
+		"UL2"
+	],
+	"link": "https://arxiv.org/abs/2205.05131v1",
+	"history": {
+		"first_mention": "2022-05-10",
+		"access": "2022-05-10",
+		"weights": "2022-05-10"
+	},
+	"parameters": {
+		"all": 20000000000,
+		"active": 20000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

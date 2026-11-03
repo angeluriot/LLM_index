@@ -1,0 +1,24 @@
+{
+	"display_name": "Sarvam 30B",
+	"names": [
+		"Sarvam 30B",
+		"sarvam-30b"
+	],
+	"link": "https://huggingface.co/sarvamai/sarvam-30b",
+	"history": {
+		"first_mention": "2026-03-06",
+		"access": "2026-03-06",
+		"weights": "2026-03-06"
+	},
+	"parameters": {
+		"all": 32200000000,
+		"active": 2400000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "K2 Horizon 0.9B",
+	"names": [
+		"K2 Horizon 0.9B",
+		"K2-Horizon-0.9B"
+	],
+	"link": "https://huggingface.co/IFM/K2-Horizon-0.9B",
+	"history": {
+		"first_mention": "2026-09-03",
+		"access": "2026-09-03",
+		"weights": "2026-09-03"
+	},
+	"parameters": {
+		"all": 900000000,
+		"active": 900000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

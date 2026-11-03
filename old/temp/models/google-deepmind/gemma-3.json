@@ -1,0 +1,108 @@
+[
+	{
+		"name": "Gemma 3 1B",
+		"other_names": [
+			"gemma-3-1b-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-03-12",
+			"api": "2025-03-12",
+			"weights": "2025-03-12",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 3 4B",
+		"other_names": [
+			"gemma-3-4b-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-03-12",
+			"api": "2025-03-12",
+			"weights": "2025-03-12",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 3 12B",
+		"other_names": [
+			"gemma-3-12b-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-03-12",
+			"api": "2025-03-12",
+			"weights": "2025-03-12",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 3 27B",
+		"other_names": [
+			"gemma-3-27b-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-03-12",
+			"api": "2025-03-12",
+			"weights": "2025-03-12",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 3n E2B",
+		"other_names": [
+			"gemma-3n-e2b-it"
+		],
+		"link": "https://developers.googleblog.com/en/introducing-gemma-3n/",
+		"price": null,
+		"access": {
+			"announcement": "2025-05-20",
+			"api": "2025-05-20",
+			"weights": "2025-05-20",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 3n E4B",
+		"other_names": [
+			"gemma-3n-e4b-it"
+		],
+		"link": "https://developers.googleblog.com/en/introducing-gemma-3n/",
+		"price": null,
+		"access": {
+			"announcement": "2025-05-20",
+			"api": "2025-05-20",
+			"weights": "2025-05-20",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 3 270M",
+		"other_names": [
+			"gemma-3-270m",
+			"gemma-3-270m-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3/",
+		"price": null,
+		"access": {
+			"announcement": "2025-08-14",
+			"api": "2025-08-14",
+			"weights": "2025-08-14",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

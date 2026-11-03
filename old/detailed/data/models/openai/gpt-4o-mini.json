@@ -1,0 +1,24 @@
+{
+	"display_name": "GPT-4o mini",
+	"names": [
+		"GPT-4o mini",
+		"gpt-4o-mini-2024-07-18"
+	],
+	"link": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+	"history": {
+		"first_mention": "2024-07-18",
+		"access": "2024-07-18",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.15,
+		"output": 0.6
+	},
+	"efforts": [
+		""
+	]
+}

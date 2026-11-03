@@ -1,0 +1,24 @@
+{
+	"display_name": "DeepSeek LLM 67B Base",
+	"names": [
+		"DeepSeek LLM 67B Base",
+		"deepseek-llm-67b-base"
+	],
+	"link": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-base",
+	"history": {
+		"first_mention": "2023-11-29",
+		"access": "2023-11-29",
+		"weights": "2023-11-29"
+	},
+	"parameters": {
+		"all": 67000000000,
+		"active": 67000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

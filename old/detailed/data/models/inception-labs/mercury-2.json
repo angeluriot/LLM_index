@@ -1,0 +1,23 @@
+{
+	"display_name": "Mercury 2",
+	"names": [
+		"Mercury 2"
+	],
+	"link": "https://www.inceptionlabs.ai/blog/introducing-mercury-2",
+	"history": {
+		"first_mention": "2026-02-20",
+		"access": "2026-02-20",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.25,
+		"output": 0.75
+	},
+	"efforts": [
+		""
+	]
+}

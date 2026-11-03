@@ -1,0 +1,24 @@
+{
+	"display_name": "RecurrentGemma 9B",
+	"names": [
+		"RecurrentGemma 9B",
+		"recurrentgemma-9b"
+	],
+	"link": "https://huggingface.co/google/recurrentgemma-9b",
+	"history": {
+		"first_mention": "2024-06-11",
+		"access": "2024-06-11",
+		"weights": "2024-06-11"
+	},
+	"parameters": {
+		"all": 9000000000,
+		"active": 9000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"display_name": "GPT-5.1-Codex-Max",
+	"names": [
+		"GPT-5.1-Codex-Max",
+		"gpt-5.1-codex-max"
+	],
+	"link": "https://openai.com/index/gpt-5-1-codex-max/",
+	"history": {
+		"first_mention": "2025-11-19",
+		"access": "2025-11-19",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1.25,
+		"output": 10.0
+	},
+	"efforts": [
+		"Low",
+		"Medium",
+		"High",
+		"Xhigh"
+	]
+}

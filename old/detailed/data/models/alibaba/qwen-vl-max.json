@@ -1,0 +1,23 @@
+{
+	"display_name": "Qwen-VL-Max",
+	"names": [
+		"Qwen-VL-Max"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen-vl/",
+	"history": {
+		"first_mention": "2024-01-18",
+		"access": "2024-01-18",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.52,
+		"output": 2.08
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display_name": "Mixtral 8x7B Instruct",
+	"names": [
+		"Mixtral 8x7B Instruct",
+		"Mixtral-8x7B-Instruct-v0.1",
+		"open-mixtral-8x7b"
+	],
+	"link": "https://mistral.ai/news/mixtral-of-experts/,",
+	"history": {
+		"first_mention": "2023-12-11",
+		"access": "2023-12-11",
+		"weights": "2023-12-11"
+	},
+	"parameters": {
+		"all": 46700000000,
+		"active": 12900000000
+	},
+	"price": {
+		"input": 0.54,
+		"output": 0.54
+	},
+	"efforts": [
+		""
+	]
+}

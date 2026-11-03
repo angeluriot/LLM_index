@@ -1,0 +1,23 @@
+{
+	"display_name": "Flamingo",
+	"names": [
+		"Flamingo"
+	],
+	"link": "https://arxiv.org/abs/2204.14198",
+	"history": {
+		"first_mention": "2022-04-29",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 80000000000,
+		"active": 80000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

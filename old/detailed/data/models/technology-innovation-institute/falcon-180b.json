@@ -1,0 +1,24 @@
+{
+	"display_name": "Falcon-180B",
+	"names": [
+		"Falcon-180B",
+		"falcon-180B"
+	],
+	"link": "https://falconllm.tii.ae/falcon-180b.html;",
+	"history": {
+		"first_mention": "2023-09-06",
+		"access": "2023-09-06",
+		"weights": "2023-09-06"
+	},
+	"parameters": {
+		"all": 180000000000,
+		"active": 180000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

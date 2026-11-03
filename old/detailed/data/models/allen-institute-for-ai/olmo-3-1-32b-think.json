@@ -1,0 +1,24 @@
+{
+	"display_name": "Olmo 3.1 32B Think",
+	"names": [
+		"Olmo 3.1 32B Think",
+		"Olmo-3.1-32B-Think"
+	],
+	"link": "https://huggingface.co/allenai/Olmo-3.1-32B-Think",
+	"history": {
+		"first_mention": "2025-12-12",
+		"access": "2025-12-12",
+		"weights": "2025-12-12"
+	},
+	"parameters": {
+		"all": 32200000000,
+		"active": 32200000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"display_name": "FinGPT-13B",
+	"names": [
+		"FinGPT-13B"
+	],
+	"link": "https://arxiv.org/abs/2310.04793;",
+	"history": {
+		"first_mention": "2023-10-07",
+		"access": "2023-10-07",
+		"weights": "2023-10-07"
+	},
+	"parameters": {
+		"all": 13000000000,
+		"active": 13000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

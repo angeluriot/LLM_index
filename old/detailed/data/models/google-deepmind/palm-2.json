@@ -1,0 +1,23 @@
+{
+	"display_name": "PaLM 2",
+	"names": [
+		"PaLM 2"
+	],
+	"link": "https://arxiv.org/abs/2305.10403",
+	"history": {
+		"first_mention": "2023-05-10",
+		"access": "2023-05-10",
+		"weights": null
+	},
+	"parameters": {
+		"all": 340000000000,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

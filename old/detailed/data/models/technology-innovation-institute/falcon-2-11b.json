@@ -1,0 +1,25 @@
+{
+	"display_name": "Falcon 2 11B",
+	"names": [
+		"Falcon 2 11B",
+		"Falcon 2-11B",
+		"falcon-11b"
+	],
+	"link": "https://huggingface.co/tiiuae/falcon-11B",
+	"history": {
+		"first_mention": "2024-05-09",
+		"access": "2024-05-09",
+		"weights": "2024-05-09"
+	},
+	"parameters": {
+		"all": 11000000000,
+		"active": 11000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

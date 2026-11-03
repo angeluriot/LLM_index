@@ -1,0 +1,23 @@
+{
+	"display_name": "VILA-13B",
+	"names": [
+		"VILA-13B"
+	],
+	"link": "https://arxiv.org/abs/2312.07533",
+	"history": {
+		"first_mention": "2023-12-12",
+		"access": "2023-12-12",
+		"weights": "2023-12-12"
+	},
+	"parameters": {
+		"all": 13350839296,
+		"active": 13350839296
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

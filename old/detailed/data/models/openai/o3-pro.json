@@ -1,0 +1,27 @@
+{
+	"display_name": "o3-pro",
+	"names": [
+		"o3-pro",
+		"o3 Pro",
+		"o3-pro-2025-06-10"
+	],
+	"link": "https://developers.openai.com/api/docs/models/o3-pro",
+	"history": {
+		"first_mention": "2025-06-10",
+		"access": "2025-06-10",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 20.0,
+		"output": 80.0
+	},
+	"efforts": [
+		"Low",
+		"Medium",
+		"High"
+	]
+}

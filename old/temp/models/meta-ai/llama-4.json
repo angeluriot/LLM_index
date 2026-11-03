@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Llama 4 Scout",
+		"other_names": [
+			"Llama-4-Scout-17B-16E",
+			"Llama-4-Scout-17B-16E-Instruct"
+		],
+		"link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-05",
+			"api": "2025-04-05",
+			"weights": "2025-04-05",
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Llama 4 Maverick",
+		"other_names": [
+			"Llama-4-Maverick-17B-128E",
+			"Llama-4-Maverick-17B-128E-Instruct"
+		],
+		"link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+		"price": null,
+		"access": {
+			"announcement": "2025-04-05",
+			"api": "2025-04-05",
+			"weights": "2025-04-05",
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

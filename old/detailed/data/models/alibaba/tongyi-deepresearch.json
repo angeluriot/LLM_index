@@ -1,0 +1,23 @@
+{
+	"display_name": "Tongyi DeepResearch",
+	"names": [
+		"Tongyi DeepResearch"
+	],
+	"link": "https://arxiv.org/abs/2510.24701",
+	"history": {
+		"first_mention": "2025-10-28",
+		"access": "2025-10-28",
+		"weights": "2025-10-28"
+	},
+	"parameters": {
+		"all": 30500000000,
+		"active": 3300000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

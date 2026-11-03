@@ -1,0 +1,25 @@
+{
+	"display_name": "Amazon Nova Pro",
+	"names": [
+		"Amazon Nova Pro",
+		"amazon.nova-pro-v1:0",
+		"Nova Pro"
+	],
+	"link": "https://aws.amazon.com/es/blogs/aws/introducing-amazon-nova-frontier-intelligence-and-industry-leading-price-performance/",
+	"history": {
+		"first_mention": "2024-12-03",
+		"access": "2024-12-03",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 0.8,
+		"output": 3.2
+	},
+	"efforts": [
+		""
+	]
+}

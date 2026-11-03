@@ -1,0 +1,23 @@
+{
+	"display_name": "Hybrid H3-2.7B",
+	"names": [
+		"Hybrid H3-2.7B"
+	],
+	"link": "https://arxiv.org/abs/2212.14052",
+	"history": {
+		"first_mention": "2022-12-28",
+		"access": "2022-12-28",
+		"weights": "2022-12-28"
+	},
+	"parameters": {
+		"all": 2700000000,
+		"active": 2700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

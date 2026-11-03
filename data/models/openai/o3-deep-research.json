@@ -1,0 +1,32 @@
+{
+	"display_name": "o3-deep-research",
+	"versions": {
+		"2025-06-26": {
+			"display_name": "o3-deep-research",
+			"names": [
+				"o3-deep-research",
+				"o3 Deep Research",
+				"Deep Research",
+				"OpenAI Deep Research",
+				"o3-deep-research-2025-06-26"
+			],
+			"link": "https://openai.com/index/introducing-deep-research/",
+			"history": {
+				"first_mention": "2025-02-02",
+				"access": "2025-02-02",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 10.0,
+				"output": 40.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

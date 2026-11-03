@@ -1,0 +1,69 @@
+[
+	{
+		"name": "o3-mini",
+		"other_names": [
+			"o3-mini-2025-01-31"
+		],
+		"link": "https://openai.com/index/openai-o3-mini/",
+		"price": {
+			"input": 110,
+			"output": 440
+		},
+		"access": {
+			"announcement": "2024-12-20",
+			"api": "2025-01-31",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	},
+	{
+		"name": "o3",
+		"other_names": [
+			"o3-2025-04-16"
+		],
+		"link": "https://openai.com/index/introducing-o3-and-o4-mini/",
+		"price": {
+			"input": 1000,
+			"output": 4000
+		},
+		"access": {
+			"announcement": "2024-12-20",
+			"api": "2025-04-16",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	},
+	{
+		"name": "codex-1",
+		"other_names": [],
+		"link": "https://openai.com/index/introducing-codex/",
+		"price": null,
+		"access": {
+			"announcement": "2025-05-16",
+			"api": "2025-05-16",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "o3-pro",
+		"other_names": [
+			"o3-pro-2025-06-10"
+		],
+		"link": "https://developers.openai.com/api/docs/models/o3-pro",
+		"price": {
+			"input": 2000,
+			"output": 8000
+		},
+		"access": {
+			"announcement": "2025-06-10",
+			"api": "2025-06-10",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": ["Low", "Medium", "High"]
+	}
+]

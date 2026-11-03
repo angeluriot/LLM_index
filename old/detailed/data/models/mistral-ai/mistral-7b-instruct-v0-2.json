@@ -1,0 +1,24 @@
+{
+	"display_name": "Mistral 7B Instruct v0.2",
+	"names": [
+		"Mistral 7B Instruct v0.2",
+		"Mistral-7B-Instruct-v0.2"
+	],
+	"link": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+	"history": {
+		"first_mention": "2023-12-11",
+		"access": "2023-12-11",
+		"weights": "2023-12-11"
+	},
+	"parameters": {
+		"all": 7000000000,
+		"active": 7000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

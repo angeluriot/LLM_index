@@ -1,0 +1,18 @@
+[
+	{
+		"name": "Muse Glimmer",
+		"other_names": [
+			"Muse Glimmer 30B",
+			"Muse-Glimmer-30B"
+		],
+		"link": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+		"price": null,
+		"access": {
+			"announcement": "2026-08-10",
+			"api": "2026-08-10",
+			"weights": "2026-08-10",
+			"portable": true
+		},
+		"efforts": ["Low", "Medium", "High", "Xhigh"]
+	}
+]

@@ -1,0 +1,26 @@
+{
+	"display_name": "Doubao-Seed-2.0 Pro",
+	"names": [
+		"Doubao-Seed-2.0 Pro"
+	],
+	"link": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2/0214/Seed2.0%20Model%20Card.pdf",
+	"history": {
+		"first_mention": "2026-02-14",
+		"access": "2026-02-14",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"Minimal",
+		"Low",
+		"Medium",
+		"High"
+	]
+}

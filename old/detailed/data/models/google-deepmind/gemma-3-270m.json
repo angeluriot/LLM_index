@@ -1,0 +1,24 @@
+{
+	"display_name": "Gemma 3 270M",
+	"names": [
+		"Gemma 3 270M",
+		"gemma-3-270m"
+	],
+	"link": "https://huggingface.co/google/gemma-3-270m",
+	"history": {
+		"first_mention": "2025-08-14",
+		"access": "2025-08-14",
+		"weights": "2025-08-14"
+	},
+	"parameters": {
+		"all": 268000000,
+		"active": 268000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

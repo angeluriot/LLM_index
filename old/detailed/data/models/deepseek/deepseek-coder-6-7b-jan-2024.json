@@ -1,0 +1,24 @@
+{
+	"display_name": "DeepSeek Coder 6.7B (Jan 2024)",
+	"names": [
+		"DeepSeek Coder 6.7B (Jan 2024)",
+		"deepseek-coder-7b-base-v1.5"
+	],
+	"link": "https://arxiv.org/abs/2401.14196",
+	"history": {
+		"first_mention": "2024-01-25",
+		"access": "2024-01-25",
+		"weights": "2024-01-25"
+	},
+	"parameters": {
+		"all": 6700000000,
+		"active": 6700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

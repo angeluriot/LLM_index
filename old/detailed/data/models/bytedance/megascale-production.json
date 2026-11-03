@@ -1,0 +1,23 @@
+{
+	"display_name": "MegaScale (Production)",
+	"names": [
+		"MegaScale (Production)"
+	],
+	"link": "https://arxiv.org/abs/2402.15627",
+	"history": {
+		"first_mention": "2024-02-23",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 530000000000,
+		"active": 530000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

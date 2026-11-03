@@ -1,0 +1,24 @@
+{
+	"display_name": "Palmyra X (43B)",
+	"names": [
+		"Palmyra X (43B)",
+		"Palmyra X"
+	],
+	"link": "https://www.businesswire.com/news/home/20230717694446/en/Writer-AI-Large-Language-Models-Achieve-Top-Scores-on-Stanford-HELM",
+	"history": {
+		"first_mention": "2023-07-17",
+		"access": "2023-07-17",
+		"weights": null
+	},
+	"parameters": {
+		"all": 43000000000,
+		"active": 43000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

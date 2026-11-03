@@ -1,0 +1,24 @@
+{
+	"display_name": "Command A",
+	"names": [
+		"Command A",
+		"c4ai-command-a-03-2025"
+	],
+	"link": "https://huggingface.co/CohereForAI/c4ai-command-a-03-2025",
+	"history": {
+		"first_mention": "2025-03-13",
+		"access": "2025-03-13",
+		"weights": "2025-03-13"
+	},
+	"parameters": {
+		"all": 111000000000,
+		"active": 111000000000
+	},
+	"price": {
+		"input": 2.5,
+		"output": 10
+	},
+	"efforts": [
+		""
+	]
+}

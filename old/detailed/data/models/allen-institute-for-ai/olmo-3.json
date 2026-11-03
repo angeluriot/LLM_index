@@ -1,0 +1,25 @@
+{
+	"display_name": "Olmo 3",
+	"names": [
+		"Olmo 3",
+		"Olmo 3 32B Think"
+	],
+	"link": "https://arxiv.org/abs/2512.13961",
+	"history": {
+		"first_mention": "2025-11-20",
+		"access": "2025-11-20",
+		"weights": "2025-11-20"
+	},
+	"parameters": {
+		"all": 32000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

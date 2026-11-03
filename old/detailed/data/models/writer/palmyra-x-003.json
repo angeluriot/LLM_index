@@ -1,0 +1,23 @@
+{
+	"display_name": "Palmyra X 003",
+	"names": [
+		"Palmyra X 003"
+	],
+	"link": "https://writer.com/llms/palmyra-x-003/",
+	"history": {
+		"first_mention": "2024-01-01",
+		"access": "2024-01-01",
+		"weights": null
+	},
+	"parameters": {
+		"all": 72000000000,
+		"active": null
+	},
+	"price": {
+		"input": 7.5,
+		"output": 22.5
+	},
+	"efforts": [
+		""
+	]
+}

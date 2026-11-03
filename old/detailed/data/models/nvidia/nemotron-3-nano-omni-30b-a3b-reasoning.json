@@ -1,0 +1,24 @@
+{
+	"display_name": "Nemotron 3 Nano Omni 30B A3B Reasoning",
+	"names": [
+		"Nemotron 3 Nano Omni 30B A3B Reasoning",
+		"Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"
+	],
+	"link": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+	"history": {
+		"first_mention": "2026-04-29",
+		"access": "2026-04-29",
+		"weights": "2026-04-29"
+	},
+	"parameters": {
+		"all": 30000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": 0.5,
+		"output": 0.9
+	},
+	"efforts": [
+		""
+	]
+}

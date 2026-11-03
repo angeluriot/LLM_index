@@ -1,0 +1,23 @@
+{
+	"display_name": "Motif-2-12.7B-Reasoning",
+	"names": [
+		"Motif-2-12.7B-Reasoning"
+	],
+	"link": "https://huggingface.co/Motif-Technologies/Motif-2-12.7B-Reasoning",
+	"history": {
+		"first_mention": "2025-12-04",
+		"access": "2025-12-04",
+		"weights": null
+	},
+	"parameters": {
+		"all": 12700000000,
+		"active": 12700000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

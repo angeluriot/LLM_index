@@ -1,0 +1,31 @@
+{
+	"display_name": "GPT-4.1 mini",
+	"versions": {
+		"2025-04-14": {
+			"display_name": "GPT-4.1 mini",
+			"names": [
+				"GPT-4.1 mini",
+				"GPT-4.1 Mini",
+				"gpt-4.1-mini",
+				"gpt-4.1-mini-2025-04-14"
+			],
+			"link": "https://openai.com/index/gpt-4-1/",
+			"history": {
+				"first_mention": "2025-04-14",
+				"access": "2025-04-14",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.4,
+				"output": 1.6
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

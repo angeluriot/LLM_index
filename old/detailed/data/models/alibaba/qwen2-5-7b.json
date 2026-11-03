@@ -1,0 +1,23 @@
+{
+	"display_name": "Qwen2.5-7B",
+	"names": [
+		"Qwen2.5-7B"
+	],
+	"link": "https://qwenlm.github.io/blog/qwen2.5/",
+	"history": {
+		"first_mention": "2024-09-19",
+		"access": "2024-09-19",
+		"weights": "2024-09-19"
+	},
+	"parameters": {
+		"all": 7610000000,
+		"active": 7610000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"display_name": "Luminous Extended",
+	"names": [
+		"Luminous Extended",
+		"Luminous Extended (30B)",
+		"luminous-extended"
+	],
+	"link": "https://aleph-alpha.com/en/news/luminous-series-launched/",
+	"history": {
+		"first_mention": "2022-04-14",
+		"access": "2022-04-14",
+		"weights": null
+	},
+	"parameters": {
+		"all": 30000000000,
+		"active": 30000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

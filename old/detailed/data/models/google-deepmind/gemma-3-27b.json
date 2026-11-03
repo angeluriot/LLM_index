@@ -1,0 +1,27 @@
+{
+	"display_name": "Gemma 3 27B",
+	"names": [
+		"Gemma 3 27B",
+		"Gemma-3-27b-it",
+		"gemma-3-27b-it",
+		"Gemma-3-27b-It",
+		"Gemma 3 27B Instruct"
+	],
+	"link": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf",
+	"history": {
+		"first_mention": "2025-03-11",
+		"access": "2025-03-11",
+		"weights": "2025-03-11"
+	},
+	"parameters": {
+		"all": 27000000000,
+		"active": 27000000000
+	},
+	"price": {
+		"input": 0.08,
+		"output": 0.325
+	},
+	"efforts": [
+		""
+	]
+}

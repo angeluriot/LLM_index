@@ -1,0 +1,27 @@
+{
+	"display_name": "Muse Spark Open",
+	"names": [
+		"Muse Spark Open",
+		"Muse-Spark-Open-816B-A42B"
+	],
+	"link": "https://research.meta.ai/blog/muse-spark-open",
+	"history": {
+		"first_mention": "2026-10-15",
+		"access": "2026-10-15",
+		"weights": "2026-10-15"
+	},
+	"parameters": {
+		"all": 816000000000,
+		"active": 42000000000
+	},
+	"price": {
+		"input": 1.25,
+		"output": 4.25
+	},
+	"efforts": [
+		"Low",
+		"Medium",
+		"High",
+		"Xhigh"
+	]
+}

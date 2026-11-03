@@ -1,0 +1,24 @@
+{
+	"display_name": "Mistral Small 3.2",
+	"names": [
+		"Mistral Small 3.2",
+		"Mistral-Small-3.2-24B-Instruct-2506"
+	],
+	"link": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+	"history": {
+		"first_mention": "2025-06-20",
+		"access": "2025-06-20",
+		"weights": "2025-06-20"
+	},
+	"parameters": {
+		"all": 24000000000,
+		"active": 24000000000
+	},
+	"price": {
+		"input": 0.075,
+		"output": 0.2
+	},
+	"efforts": [
+		""
+	]
+}

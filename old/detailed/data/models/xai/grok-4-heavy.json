@@ -1,0 +1,25 @@
+{
+	"display_name": "Grok 4 Heavy",
+	"names": [
+		"Grok 4 Heavy",
+		"Grok 4 Heavy (web app)",
+		"grok-4-heavy-web-app"
+	],
+	"link": "https://x.ai/news/grok-4",
+	"history": {
+		"first_mention": "2025-07-10",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

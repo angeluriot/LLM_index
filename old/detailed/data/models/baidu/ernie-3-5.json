@@ -1,0 +1,23 @@
+{
+	"display_name": "ERNIE 3.5",
+	"names": [
+		"ERNIE 3.5"
+	],
+	"link": "http://research.baidu.com/Blog/index-view?id=185",
+	"history": {
+		"first_mention": "2023-06-27",
+		"access": "2023-06-27",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

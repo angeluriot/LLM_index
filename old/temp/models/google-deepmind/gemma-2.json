@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Gemma 2 27B",
+		"other_names": [
+			"gemma-2-27b",
+			"gemma-2-27b-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
+		"price": null,
+		"access": {
+			"announcement": "2024-05-14",
+			"api": "2024-06-27",
+			"weights": "2024-06-27",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 2 9B",
+		"other_names": [
+			"gemma-2-9b",
+			"gemma-2-9b-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
+		"price": null,
+		"access": {
+			"announcement": "2024-06-27",
+			"api": "2024-06-27",
+			"weights": "2024-06-27",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Gemma 2 2B",
+		"other_names": [
+			"gemma-2-2b",
+			"gemma-2-2b-it"
+		],
+		"link": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
+		"price": null,
+		"access": {
+			"announcement": "2024-07-31",
+			"api": "2024-07-31",
+			"weights": "2024-07-31",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

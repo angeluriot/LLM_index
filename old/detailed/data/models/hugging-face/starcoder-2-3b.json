@@ -1,0 +1,24 @@
+{
+	"display_name": "StarCoder 2 3B",
+	"names": [
+		"StarCoder 2 3B",
+		"starcoder2-3b"
+	],
+	"link": "https://arxiv.org/abs/2402.19173",
+	"history": {
+		"first_mention": "2024-02-22",
+		"access": "2024-02-22",
+		"weights": "2024-02-22"
+	},
+	"parameters": {
+		"all": 3000000000,
+		"active": 3000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"display_name": "MiMo-V2.6-Flash",
+	"names": [
+		"MiMo-V2.6-Flash",
+		"MiMo-V2.6-Flash-RL"
+	],
+	"link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL",
+	"history": {
+		"first_mention": "2026-09-21",
+		"access": "2026-09-21",
+		"weights": "2026-09-21"
+	},
+	"parameters": {
+		"all": 309000000000,
+		"active": 15000000000
+	},
+	"price": {
+		"input": 0.14,
+		"output": 0.28
+	},
+	"efforts": [
+		""
+	]
+}

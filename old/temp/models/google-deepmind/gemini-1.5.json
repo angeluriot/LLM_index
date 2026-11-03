@@ -1,0 +1,125 @@
+[
+	{
+		"name": "Gemini 1.5 Pro",
+		"other_names": [
+			"gemini-1.5-pro"
+		],
+		"link": "https://blog.google/innovation-and-ai/products/google-gemini-next-generation-model-february-2024/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "Gemini 1.5 Pro (Feb 2024)",
+				"other_names": [
+					"gemini-1.5-pro-latest",
+					"gemini-1.5-pro-preview-0409"
+				],
+				"access": {
+					"announcement": "2024-02-15",
+					"api": "2024-04-09",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 700,
+					"output": 2100
+				}
+			},
+			{
+				"name": "Gemini 1.5 Pro (May 2024)",
+				"other_names": [
+					"gemini-1.5-pro-001"
+				],
+				"access": {
+					"announcement": "2024-05-14",
+					"api": "2024-05-14",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 350,
+					"output": 1050
+				}
+			},
+			{
+				"name": "Gemini 1.5 Pro (Sep 2024)",
+				"other_names": [
+					"gemini-1.5-pro-002"
+				],
+				"access": {
+					"announcement": "2024-09-24",
+					"api": "2024-09-24",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 125,
+					"output": 500
+				}
+			}
+		]
+	},
+	{
+		"name": "Gemini 1.5 Flash",
+		"other_names": [
+			"gemini-1.5-flash"
+		],
+		"link": "https://blog.google/innovation-and-ai/products/google-gemini-update-flash-ai-assistant-io-2024/",
+		"efforts": [""],
+		"versions": [
+			{
+				"name": "Gemini 1.5 Flash (May 2024)",
+				"other_names": [
+					"gemini-1.5-flash-001",
+					"gemini-1.5-flash-preview-0514"
+				],
+				"access": {
+					"announcement": "2024-05-14",
+					"api": "2024-05-14",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 35,
+					"output": 105
+				}
+			},
+			{
+				"name": "Gemini 1.5 Flash (Sep 2024)",
+				"other_names": [
+					"gemini-1.5-flash-002"
+				],
+				"access": {
+					"announcement": "2024-09-24",
+					"api": "2024-09-24",
+					"weights": null,
+					"portable": false
+				},
+				"price": {
+					"input": 8,
+					"output": 30
+				}
+			}
+		]
+	},
+	{
+		"name": "Gemini 1.5 Flash-8B",
+		"other_names": [
+			"Gemini 1.5 Flash 8B",
+			"gemini-1.5-flash-8b",
+			"gemini-1.5-flash-8b-001",
+			"gemini-1.5-flash-8b-exp-0827"
+		],
+		"link": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/",
+		"price": {
+			"input": 4,
+			"output": 15
+		},
+		"access": {
+			"announcement": "2024-08-27",
+			"api": "2024-08-27",
+			"weights": null,
+			"portable": false
+		},
+		"efforts": [""]
+	}
+]

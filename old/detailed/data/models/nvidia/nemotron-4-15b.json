@@ -1,0 +1,23 @@
+{
+	"display_name": "Nemotron-4 15B",
+	"names": [
+		"Nemotron-4 15B"
+	],
+	"link": "https://arxiv.org/abs/2402.16819",
+	"history": {
+		"first_mention": "2024-02-26",
+		"access": null,
+		"weights": null
+	},
+	"parameters": {
+		"all": 15000000000,
+		"active": 15000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

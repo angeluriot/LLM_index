@@ -1,0 +1,25 @@
+{
+	"display_name": "Gemini 2.5 Pro (Jun 2025)",
+	"names": [
+		"Gemini 2.5 Pro (Jun 2025)",
+		"Gemini 2.5 Pro Preview (Jun 2025)",
+		"gemini-2.5-pro-preview-06-05"
+	],
+	"link": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking",
+	"history": {
+		"first_mention": "2025-06-05",
+		"access": "2025-06-05",
+		"weights": null
+	},
+	"parameters": {
+		"all": null,
+		"active": null
+	},
+	"price": {
+		"input": 1.25,
+		"output": 10.0
+	},
+	"efforts": [
+		""
+	]
+}

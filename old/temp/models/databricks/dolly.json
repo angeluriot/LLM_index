@@ -1,0 +1,64 @@
+[
+	{
+		"name": "Dolly v1 6B",
+		"other_names": [
+			"Dolly",
+			"dolly-v1-6b"
+		],
+		"link": "https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html",
+		"price": null,
+		"access": {
+			"announcement": "2023-03-24",
+			"api": "2023-03-24",
+			"weights": "2023-03-24",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Dolly v2 3B",
+		"other_names": [
+			"dolly-v2-3b"
+		],
+		"link": "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm",
+		"price": null,
+		"access": {
+			"announcement": "2023-04-12",
+			"api": "2023-04-12",
+			"weights": "2023-04-12",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Dolly v2 7B",
+		"other_names": [
+			"dolly-v2-7b"
+		],
+		"link": "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm",
+		"price": null,
+		"access": {
+			"announcement": "2023-04-12",
+			"api": "2023-04-12",
+			"weights": "2023-04-12",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Dolly v2 12B",
+		"other_names": [
+			"Dolly 2.0",
+			"dolly-v2-12b"
+		],
+		"link": "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm",
+		"price": null,
+		"access": {
+			"announcement": "2023-04-12",
+			"api": "2023-04-12",
+			"weights": "2023-04-12",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

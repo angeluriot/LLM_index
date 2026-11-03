@@ -1,0 +1,33 @@
+{
+	"display_name": "GPT-6.1 Sol",
+	"versions": {
+		"2026-09-29": {
+			"display_name": "GPT-6.1 Sol",
+			"names": [
+				"GPT-6.1 Sol",
+				"gpt-6.1-sol"
+			],
+			"link": "https://openai.com/index/introducing-gpt-6-1-sol/",
+			"history": {
+				"first_mention": "2026-09-29",
+				"access": "2026-09-29",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.0,
+				"output": 10.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh",
+				"Max"
+			]
+		}
+	}
+}

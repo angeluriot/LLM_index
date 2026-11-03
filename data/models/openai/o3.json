@@ -1,0 +1,31 @@
+{
+	"display_name": "o3",
+	"versions": {
+		"2025-04-16": {
+			"display_name": "o3",
+			"names": [
+				"o3",
+				"o3-2025-04-16"
+			],
+			"link": "https://openai.com/index/introducing-o3-and-o4-mini/",
+			"history": {
+				"first_mention": "2024-12-20",
+				"access": "2025-04-16",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.0,
+				"output": 8.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

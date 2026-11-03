@@ -1,0 +1,24 @@
+{
+	"display_name": "ERNIE-4.5-VL-424B-A47B (文心大模型4.5)",
+	"names": [
+		"ERNIE-4.5-VL-424B-A47B (文心大模型4.5)"
+	],
+	"link": "https://www.datacamp.com/blog/ernie-4-5-x1",
+	"history": {
+		"first_mention": "2025-03-16",
+		"access": "2025-03-16",
+		"weights": "2025-03-16"
+	},
+	"parameters": {
+		"all": 424000000000,
+		"active": 47000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

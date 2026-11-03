@@ -1,0 +1,23 @@
+{
+	"display_name": "MiniCPM5-2B",
+	"names": [
+		"MiniCPM5-2B"
+	],
+	"link": "https://huggingface.co/openbmb/MiniCPM5-2B",
+	"history": {
+		"first_mention": "2026-09-07",
+		"access": "2026-09-07",
+		"weights": "2026-09-07"
+	},
+	"parameters": {
+		"all": 2600000000,
+		"active": 2600000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

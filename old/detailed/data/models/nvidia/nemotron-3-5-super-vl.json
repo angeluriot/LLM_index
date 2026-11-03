@@ -1,0 +1,24 @@
+{
+	"display_name": "Nemotron 3.5 Super VL",
+	"names": [
+		"Nemotron 3.5 Super VL",
+		"NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16"
+	],
+	"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+	"history": {
+		"first_mention": "2026-10-15",
+		"access": "2026-10-15",
+		"weights": "2026-10-15"
+	},
+	"parameters": {
+		"all": 120000000000,
+		"active": 12000000000
+	},
+	"price": {
+		"input": 0.2,
+		"output": 0.5
+	},
+	"efforts": [
+		""
+	]
+}

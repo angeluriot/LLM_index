@@ -1,0 +1,26 @@
+{
+	"display_name": "GLM-4.7",
+	"names": [
+		"GLM-4.7",
+		"glm-4.7",
+		"glm-4p7"
+	],
+	"link": "https://z.ai/blog/glm-4.7",
+	"history": {
+		"first_mention": "2025-12-22",
+		"access": "2025-12-22",
+		"weights": "2025-12-22"
+	},
+	"parameters": {
+		"all": 358000000000,
+		"active": 32000000000
+	},
+	"price": {
+		"input": 0.6,
+		"output": 2.2
+	},
+	"efforts": [
+		"",
+		"Thinking"
+	]
+}

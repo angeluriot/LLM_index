@@ -1,0 +1,23 @@
+{
+	"display_name": "CogAgent",
+	"names": [
+		"CogAgent"
+	],
+	"link": "https://arxiv.org/abs/2312.08914",
+	"history": {
+		"first_mention": "2023-12-14",
+		"access": "2023-12-14",
+		"weights": "2023-12-14"
+	},
+	"parameters": {
+		"all": 18000000000,
+		"active": 18000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}

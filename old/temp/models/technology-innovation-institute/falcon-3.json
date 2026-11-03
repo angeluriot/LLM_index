@@ -1,0 +1,77 @@
+[
+	{
+		"name": "Falcon3-1B",
+		"other_names": [
+			"Falcon3-1B-Instruct"
+		],
+		"link": "https://huggingface.co/blog/falcon3",
+		"price": null,
+		"access": {
+			"announcement": "2024-12-17",
+			"api": "2024-12-17",
+			"weights": "2024-12-17",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Falcon3-3B",
+		"other_names": [
+			"Falcon3-3B-Instruct"
+		],
+		"link": "https://huggingface.co/blog/falcon3",
+		"price": null,
+		"access": {
+			"announcement": "2024-12-17",
+			"api": "2024-12-17",
+			"weights": "2024-12-17",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Falcon3-7B",
+		"other_names": [
+			"Falcon3-7B-Instruct"
+		],
+		"link": "https://huggingface.co/blog/falcon3",
+		"price": null,
+		"access": {
+			"announcement": "2024-12-17",
+			"api": "2024-12-17",
+			"weights": "2024-12-17",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Falcon3-10B",
+		"other_names": [
+			"Falcon3-10B-Instruct"
+		],
+		"link": "https://huggingface.co/blog/falcon3",
+		"price": null,
+		"access": {
+			"announcement": "2024-12-17",
+			"api": "2024-12-17",
+			"weights": "2024-12-17",
+			"portable": true
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Falcon3-Mamba-7B",
+		"other_names": [
+			"Falcon3-Mamba-7B-Instruct"
+		],
+		"link": "https://huggingface.co/blog/falcon3",
+		"price": null,
+		"access": {
+			"announcement": "2024-12-17",
+			"api": "2024-12-17",
+			"weights": "2024-12-17",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

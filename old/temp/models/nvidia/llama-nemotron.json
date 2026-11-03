@@ -1,0 +1,65 @@
+[
+	{
+		"name": "Llama-3.1-Nemotron-70B",
+		"other_names": [
+			"Llama-3.1-Nemotron-70B-Instruct"
+		],
+		"link": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+		"price": null,
+		"access": {
+			"announcement": "2024-10-15",
+			"api": "2024-10-15",
+			"weights": "2024-10-15",
+			"portable": false
+		},
+		"efforts": [""]
+	},
+	{
+		"name": "Llama-3.3-Nemotron-Super-49B",
+		"other_names": [
+			"Llama Nemotron Super"
+		],
+		"link": "https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1",
+		"efforts": ["", "Reasoning"],
+		"versions": [
+			{
+				"name": "Llama-3.3-Nemotron-Super-49B-v1",
+				"other_names": [],
+				"access": {
+					"announcement": "2025-03-18",
+					"api": "2025-03-18",
+					"weights": "2025-03-18",
+					"portable": false
+				},
+				"price": null
+			},
+			{
+				"name": "Llama-3.3-Nemotron-Super-49B-v1.5",
+				"other_names": [],
+				"access": {
+					"announcement": "2025-07-25",
+					"api": "2025-07-25",
+					"weights": "2025-07-25",
+					"portable": false
+				},
+				"price": null
+			}
+		]
+	},
+	{
+		"name": "Llama-3.1-Nemotron-Ultra-253B",
+		"other_names": [
+			"Llama-3.1-Nemotron-Ultra-253B-v1",
+			"Llama Nemotron Ultra"
+		],
+		"link": "https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
+		"price": null,
+		"access": {
+			"announcement": "2025-03-18",
+			"api": "2025-04-07",
+			"weights": "2025-04-07",
+			"portable": false
+		},
+		"efforts": ["", "Reasoning"]
+	}
+]

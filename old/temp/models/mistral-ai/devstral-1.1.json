@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Devstral Small 1.1",
+		"other_names": [
+			"Devstral-Small-2507",
+			"devstral-small-2507"
+		],
+		"link": "https://mistral.ai/news/devstral-2507/",
+		"price": {
+			"input": 10,
+			"output": 30
+		},
+		"access": {
+			"announcement": "2025-07-10",
+			"api": "2025-07-10",
+			"weights": "2025-07-10",
+			"portable": true
+		},
+		"efforts": [""]
+	}
+]

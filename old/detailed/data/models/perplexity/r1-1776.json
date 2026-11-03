@@ -1,0 +1,24 @@
+{
+	"display_name": "R1 1776",
+	"names": [
+		"R1 1776",
+		"r1-1776"
+	],
+	"link": "https://huggingface.co/perplexity-ai/r1-1776",
+	"history": {
+		"first_mention": "2025-02-18",
+		"access": "2025-02-18",
+		"weights": "2025-02-18"
+	},
+	"parameters": {
+		"all": 671000000000,
+		"active": 37000000000
+	},
+	"price": {
+		"input": null,
+		"output": null
+	},
+	"efforts": [
+		""
+	]
+}
