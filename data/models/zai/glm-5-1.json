@@ -1,0 +1,39 @@
+{
+	"display_name": "GLM-5.1",
+	"versions": {
+		"glm-5-1": {
+			"display_name": "GLM-5.1",
+			"names": [
+				"GLM-5.1",
+				"GLM-5.1 (Reasoning)",
+				"GLM-5.1 (Non-reasoning)",
+				"GLM 5.1",
+				"Glm 5.1",
+				"glm-5.1",
+				"glm-5-1",
+				"z-ai/glm-5.1",
+				"zai/glm-5.1",
+				"zai-org/GLM-5.1",
+				"zai-org/GLM-5.1-FP8"
+			],
+			"link": "https://docs.z.ai/guides/llm/glm-5.1",
+			"history": {
+				"first_mention": "2026-03-27",
+				"access": "2026-03-27",
+				"weights": "2026-04-07"
+			},
+			"parameters": {
+				"all": 744000000000,
+				"active": 40000000000
+			},
+			"price": {
+				"input": 1.4,
+				"output": 4.4
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

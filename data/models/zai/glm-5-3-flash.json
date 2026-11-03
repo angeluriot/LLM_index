@@ -1,0 +1,77 @@
+{
+	"display_name": "GLM-5.3-Flash",
+	"versions": {
+		"glm-5-3-flash": {
+			"display_name": "GLM-5.3-Flash",
+			"names": [
+				"GLM-5.3-Flash",
+				"GLM-5.3-Flash (Low)",
+				"GLM-5.3-Flash (High)",
+				"GLM-5.3-Flash (Max)",
+				"GLM 5.3 Flash",
+				"GLM 5.3 Flash Low",
+				"GLM 5.3 Flash High",
+				"GLM 5.3 Flash Max",
+				"glm-5.3-flash",
+				"glm-5-3-flash",
+				"z-ai/glm-5.3-flash",
+				"zai/glm-5.3-flash",
+				"GLM-5.3-FlashX",
+				"GLM 5.3 FlashX",
+				"glm-5.3-flashx",
+				"Ox Alpha",
+				"zai-org/GLM-5.3-Flash",
+				"zai-org/glm-5.3-flash",
+				"zai-org/GLM-5.3-Flash-BF16"
+			],
+			"link": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+			"history": {
+				"first_mention": "2026-08-26",
+				"access": "2026-08-26",
+				"weights": "2026-08-26"
+			},
+			"parameters": {
+				"all": 320000000000,
+				"active": 18000000000
+			},
+			"price": {
+				"input": 0.15,
+				"output": 0.5
+			},
+			"efforts": [
+				"Low",
+				"High",
+				"Max"
+			]
+		},
+		"glm-5-3-flashx-legal": {
+			"display_name": "GLM-5.3-FlashX-Legal",
+			"names": [
+				"GLM-5.3-FlashX-Legal",
+				"GLM-Legal",
+				"GLM Legal",
+				"GLM 5.3 FlashX Legal",
+				"glm-5.3-flashx-legal"
+			],
+			"link": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+			"history": {
+				"first_mention": "2026-10-12",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 320000000000,
+				"active": 18000000000
+			},
+			"price": {
+				"input": 0.37,
+				"output": 1.25
+			},
+			"efforts": [
+				"Low",
+				"High",
+				"Max"
+			]
+		}
+	}
+}

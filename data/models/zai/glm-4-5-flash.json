@@ -1,0 +1,31 @@
+{
+	"display_name": "GLM-4.5-Flash",
+	"versions": {
+		"glm-4-5-flash": {
+			"display_name": "GLM-4.5-Flash",
+			"names": [
+				"GLM-4.5-Flash",
+				"GLM 4.5 Flash",
+				"glm-4.5-flash"
+			],
+			"link": "https://docs.z.ai/guides/llm/glm-4.5",
+			"history": {
+				"first_mention": "2025-07-28",
+				"access": "2025-07-28",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.0,
+				"output": 0.0
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"display_name": "GLM-5.3",
+	"versions": {
+		"glm-5-3": {
+			"display_name": "GLM-5.3",
+			"names": [
+				"GLM-5.3",
+				"GLM-5.3 (Low)",
+				"GLM-5.3 (High)",
+				"GLM-5.3 (Max)",
+				"GLM 5.3",
+				"GLM 5.3 Low",
+				"GLM 5.3 High",
+				"GLM 5.3 Max",
+				"glm-5.3",
+				"glm-5-3",
+				"z-ai/glm-5.3",
+				"zai/glm-5.3",
+				"zai-org/GLM-5.3",
+				"zai-org/GLM-5.3-BF16"
+			],
+			"link": "https://docs.z.ai/guides/llm/glm-5.3",
+			"history": {
+				"first_mention": "2026-08-14",
+				"access": "2026-08-14",
+				"weights": "2026-08-28"
+			},
+			"parameters": {
+				"all": 744000000000,
+				"active": 40000000000
+			},
+			"price": {
+				"input": 1.4,
+				"output": 4.4
+			},
+			"efforts": [
+				"Low",
+				"High",
+				"Max"
+			]
+		}
+	}
+}

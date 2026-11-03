@@ -1,0 +1,30 @@
+{
+	"display_name": "GLM-Z1-Flash",
+	"versions": {
+		"glm-z1-flash": {
+			"display_name": "GLM-Z1-Flash",
+			"names": [
+				"GLM-Z1-Flash",
+				"GLM-Z1 Flash",
+				"glm-z1-flash"
+			],
+			"link": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
+			"history": {
+				"first_mention": "2025-04-14",
+				"access": "2025-04-14",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.0,
+				"output": 0.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

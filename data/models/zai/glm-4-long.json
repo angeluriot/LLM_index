@@ -1,0 +1,30 @@
+{
+	"display_name": "GLM-4-Long",
+	"versions": {
+		"glm-4-long": {
+			"display_name": "GLM-4-Long",
+			"names": [
+				"GLM-4-Long",
+				"GLM-4 Long",
+				"glm-4-long"
+			],
+			"link": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
+			"history": {
+				"first_mention": "2024-08-10",
+				"access": "2024-08-10",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.1389,
+				"output": 0.1389
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

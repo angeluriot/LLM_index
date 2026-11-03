@@ -1,0 +1,42 @@
+{
+	"display_name": "GLM-4.5",
+	"versions": {
+		"glm-4-5": {
+			"display_name": "GLM-4.5",
+			"names": [
+				"GLM-4.5",
+				"GLM-4.5 (Reasoning)",
+				"GLM-4.5 (Non-reasoning)",
+				"GLM 4.5",
+				"glm-4.5",
+				"glm-4p5",
+				"z-ai/glm-4.5",
+				"GLM-4.5-X",
+				"glm-4.5-x",
+				"GLM-4.5-Base",
+				"GLM-4.5-FP8",
+				"zai-org/GLM-4.5",
+				"zai-org/GLM-4.5-Base",
+				"zai-org/GLM-4.5-FP8"
+			],
+			"link": "https://z.ai/blog/glm-4.5",
+			"history": {
+				"first_mention": "2025-07-28",
+				"access": "2025-07-28",
+				"weights": "2025-07-28"
+			},
+			"parameters": {
+				"all": 355000000000,
+				"active": 32000000000
+			},
+			"price": {
+				"input": 0.6,
+				"output": 2.2
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

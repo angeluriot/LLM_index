@@ -1,0 +1,58 @@
+{
+	"display_name": "GLM-130B",
+	"versions": {
+		"glm-130b": {
+			"display_name": "GLM-130B",
+			"names": [
+				"GLM-130B",
+				"GLM (130B)",
+				"GLM 130B",
+				"glm-130b",
+				"THUDM/GLM-130B"
+			],
+			"link": "https://keg.cs.tsinghua.edu.cn/glm-130b/posts/glm-130b/",
+			"history": {
+				"first_mention": "2022-08-04",
+				"access": "2022-08-04",
+				"weights": "2022-08-04"
+			},
+			"parameters": {
+				"all": 130000000000,
+				"active": 130000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"chatglm-130b": {
+			"display_name": "ChatGLM (130B)",
+			"names": [
+				"ChatGLM (130B)",
+				"ChatGLM",
+				"ChatGLM-130B",
+				"ChatGLM 130B"
+			],
+			"link": "https://arxiv.org/abs/2406.12793",
+			"history": {
+				"first_mention": "2023-03-14",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 130000000000,
+				"active": 130000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

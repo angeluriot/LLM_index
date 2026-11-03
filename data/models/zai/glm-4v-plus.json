@@ -1,0 +1,30 @@
+{
+	"display_name": "GLM-4V-Plus",
+	"versions": {
+		"glm-4v-plus": {
+			"display_name": "GLM-4V-Plus",
+			"names": [
+				"GLM-4V-Plus",
+				"GLM-4V Plus",
+				"glm-4v-plus"
+			],
+			"link": "https://docs.bigmodel.cn/cn/guide/start/model-overview",
+			"history": {
+				"first_mention": "2024-08-29",
+				"access": "2024-08-29",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.3889,
+				"output": 1.3889
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

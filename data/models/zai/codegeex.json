@@ -1,0 +1,31 @@
+{
+	"display_name": "CodeGeeX",
+	"versions": {
+		"codegeex": {
+			"display_name": "CodeGeeX",
+			"names": [
+				"CodeGeeX",
+				"CodeGeeX 13B",
+				"CodeGeeX-13B",
+				"codegeex-13b"
+			],
+			"link": "https://arxiv.org/abs/2303.17568",
+			"history": {
+				"first_mention": "2022-09-19",
+				"access": "2022-09-19",
+				"weights": "2022-09-30"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

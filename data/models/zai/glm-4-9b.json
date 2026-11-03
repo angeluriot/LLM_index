@@ -1,0 +1,182 @@
+{
+	"display_name": "GLM-4-9B",
+	"versions": {
+		"glm-4-9b-chat": {
+			"display_name": "GLM-4-9B-Chat",
+			"names": [
+				"GLM-4-9B-Chat",
+				"GLM-4-9B",
+				"GLM-4 9B",
+				"GLM-4-9B Chat",
+				"glm-4-9b",
+				"glm-4-9b-chat",
+				"GLM-4-9B-Base",
+				"zai-org/glm-4-9b",
+				"zai-org/glm-4-9b-chat",
+				"zai-org/glm-4-9b-chat-hf",
+				"zai-org/glm-4-9b-hf",
+				"THUDM/glm-4-9b",
+				"THUDM/glm-4-9b-chat",
+				"THUDM/glm-4-9b-chat-hf",
+				"THUDM/glm-4-9b-hf"
+			],
+			"link": "https://arxiv.org/abs/2406.12793",
+			"history": {
+				"first_mention": "2024-06-05",
+				"access": "2024-06-05",
+				"weights": "2024-06-05"
+			},
+			"parameters": {
+				"all": 9400000000,
+				"active": 9400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"glm-4-9b-chat-1m": {
+			"display_name": "GLM-4-9B-Chat-1M",
+			"names": [
+				"GLM-4-9B-Chat-1M",
+				"GLM-4-9B Chat 1M",
+				"glm-4-9b-chat-1m",
+				"zai-org/glm-4-9b-chat-1m",
+				"zai-org/glm-4-9b-chat-1m-hf",
+				"THUDM/glm-4-9b-chat-1m",
+				"THUDM/glm-4-9b-chat-1m-hf"
+			],
+			"link": "https://arxiv.org/abs/2406.12793",
+			"history": {
+				"first_mention": "2024-06-05",
+				"access": "2024-06-05",
+				"weights": "2024-06-05"
+			},
+			"parameters": {
+				"all": 9400000000,
+				"active": 9400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"glm-4v-9b": {
+			"display_name": "GLM-4V-9B",
+			"names": [
+				"GLM-4V-9B",
+				"GLM-4V 9B",
+				"glm-4v-9b",
+				"zai-org/glm-4v-9b",
+				"THUDM/glm-4v-9b"
+			],
+			"link": "https://huggingface.co/zai-org/glm-4v-9b",
+			"history": {
+				"first_mention": "2024-06-05",
+				"access": "2024-06-05",
+				"weights": "2024-06-05"
+			},
+			"parameters": {
+				"all": 9000000000,
+				"active": 9000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"codegeex4-all-9b": {
+			"display_name": "CodeGeeX4-ALL-9B",
+			"names": [
+				"CodeGeeX4-ALL-9B",
+				"CodeGeeX4",
+				"CodeGeeX4 9B",
+				"CodeGeeX4-ALL",
+				"codegeex4-all-9b",
+				"codegeex4",
+				"zai-org/codegeex4-all-9b",
+				"THUDM/codegeex4-all-9b"
+			],
+			"link": "https://github.com/THUDM/CodeGeeX4",
+			"history": {
+				"first_mention": "2024-07-05",
+				"access": "2024-07-05",
+				"weights": "2024-07-05"
+			},
+			"parameters": {
+				"all": 9400000000,
+				"active": 9400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"longwriter-glm4-9b": {
+			"display_name": "LongWriter-GLM4-9B",
+			"names": [
+				"LongWriter-GLM4-9B",
+				"LongWriter-glm4-9b",
+				"LongWriter GLM4 9B",
+				"zai-org/LongWriter-glm4-9b",
+				"THUDM/LongWriter-glm4-9b"
+			],
+			"link": "https://arxiv.org/abs/2408.07055",
+			"history": {
+				"first_mention": "2024-08-13",
+				"access": "2024-08-13",
+				"weights": "2024-08-13"
+			},
+			"parameters": {
+				"all": 9400000000,
+				"active": 9400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"longcite-glm4-9b": {
+			"display_name": "LongCite-GLM4-9B",
+			"names": [
+				"LongCite-GLM4-9B",
+				"LongCite-glm4-9b",
+				"LongCite GLM4 9B",
+				"zai-org/LongCite-glm4-9b",
+				"THUDM/LongCite-glm4-9b"
+			],
+			"link": "https://arxiv.org/abs/2409.02897",
+			"history": {
+				"first_mention": "2024-09-04",
+				"access": "2024-09-04",
+				"weights": "2024-09-04"
+			},
+			"parameters": {
+				"all": 9400000000,
+				"active": 9400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

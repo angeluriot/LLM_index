@@ -1,0 +1,36 @@
+{
+	"display_name": "GLM-4.6V",
+	"versions": {
+		"glm-4-6v": {
+			"display_name": "GLM-4.6V",
+			"names": [
+				"GLM-4.6V",
+				"GLM-4.6V (Reasoning)",
+				"GLM-4.6V (Non-reasoning)",
+				"GLM 4.6V",
+				"glm-4.6v",
+				"z-ai/glm-4.6v",
+				"zai-org/GLM-4.6V",
+				"zai-org/GLM-4.6V-FP8"
+			],
+			"link": "https://docs.z.ai/guides/vlm/glm-4.6v",
+			"history": {
+				"first_mention": "2025-12-08",
+				"access": "2025-12-08",
+				"weights": "2025-12-08"
+			},
+			"parameters": {
+				"all": 106000000000,
+				"active": 12000000000
+			},
+			"price": {
+				"input": 0.3,
+				"output": 0.9
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

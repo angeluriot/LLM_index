@@ -1,0 +1,91 @@
+{
+	"display_name": "ChatGLM2-6B",
+	"versions": {
+		"chatglm2-6b": {
+			"display_name": "ChatGLM2-6B",
+			"names": [
+				"ChatGLM2-6B",
+				"ChatGLM2",
+				"ChatGLM2 6B",
+				"ChatGLM 2-6B",
+				"ChatGLM2-6B (base)",
+				"ChatGLM 2-6B (base)",
+				"chatglm2-6b",
+				"zai-org/chatglm2-6b",
+				"THUDM/chatglm2-6b"
+			],
+			"link": "https://github.com/THUDM/ChatGLM2-6B",
+			"history": {
+				"first_mention": "2023-06-25",
+				"access": "2023-06-25",
+				"weights": "2023-06-25"
+			},
+			"parameters": {
+				"all": 6200000000,
+				"active": 6200000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"codegeex2-6b": {
+			"display_name": "CodeGeeX2-6B",
+			"names": [
+				"CodeGeeX2-6B",
+				"CodeGeeX2",
+				"CodeGeeX2 6B",
+				"codegeex2-6b",
+				"zai-org/codegeex2-6b",
+				"THUDM/codegeex2-6b"
+			],
+			"link": "https://github.com/THUDM/CodeGeeX2",
+			"history": {
+				"first_mention": "2023-07-24",
+				"access": "2023-07-24",
+				"weights": "2023-07-24"
+			},
+			"parameters": {
+				"all": 6200000000,
+				"active": 6200000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"chatglm2-6b-32k": {
+			"display_name": "ChatGLM2-6B-32K",
+			"names": [
+				"ChatGLM2-6B-32K",
+				"ChatGLM2 6B 32K",
+				"chatglm2-6b-32k",
+				"zai-org/chatglm2-6b-32k",
+				"THUDM/chatglm2-6b-32k"
+			],
+			"link": "https://github.com/THUDM/ChatGLM2-6B",
+			"history": {
+				"first_mention": "2023-07-31",
+				"access": "2023-07-31",
+				"weights": "2023-07-31"
+			},
+			"parameters": {
+				"all": 6200000000,
+				"active": 6200000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

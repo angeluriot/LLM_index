@@ -1,0 +1,34 @@
+{
+	"display_name": "GLM-4.6V-Flash",
+	"versions": {
+		"glm-4-6v-flash": {
+			"display_name": "GLM-4.6V-Flash",
+			"names": [
+				"GLM-4.6V-Flash",
+				"GLM 4.6V Flash",
+				"glm-4.6v-flash",
+				"GLM-4.6V-FlashX",
+				"glm-4.6v-flashx",
+				"zai-org/GLM-4.6V-Flash"
+			],
+			"link": "https://docs.z.ai/guides/vlm/glm-4.6v",
+			"history": {
+				"first_mention": "2025-12-08",
+				"access": "2025-12-08",
+				"weights": "2025-12-08"
+			},
+			"parameters": {
+				"all": 9000000000,
+				"active": 9000000000
+			},
+			"price": {
+				"input": 0.04,
+				"output": 0.4
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"display_name": "GLM-Edge-4B-Chat",
+	"versions": {
+		"glm-edge-4b-chat": {
+			"display_name": "GLM-Edge-4B-Chat",
+			"names": [
+				"GLM-Edge-4B-Chat",
+				"GLM-Edge 4B",
+				"GLM-Edge-4B",
+				"glm-edge-4b-chat",
+				"zai-org/glm-edge-4b-chat",
+				"THUDM/glm-edge-4b-chat"
+			],
+			"link": "https://github.com/THUDM/GLM-Edge",
+			"history": {
+				"first_mention": "2024-11-29",
+				"access": "2024-11-29",
+				"weights": "2024-11-29"
+			},
+			"parameters": {
+				"all": 4000000000,
+				"active": 4000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

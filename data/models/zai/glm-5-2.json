@@ -1,0 +1,44 @@
+{
+	"display_name": "GLM-5.2",
+	"versions": {
+		"glm-5-2": {
+			"display_name": "GLM-5.2",
+			"names": [
+				"GLM-5.2",
+				"GLM-5.2 (Max)",
+				"GLM-5.2 (Non-reasoning)",
+				"GLM-5.2 (High)",
+				"GLM 5.2",
+				"GLM 5.2 (Max)",
+				"glm-5.2",
+				"glm-5-2",
+				"glm-5p2",
+				"glm-5.2[1m]",
+				"z-ai/glm-5.2",
+				"zai/glm-5.2",
+				"zai-org/GLM-5.2",
+				"zai-org/glm-5.2",
+				"zai-org/GLM-5.2-FP8"
+			],
+			"link": "https://docs.z.ai/guides/llm/glm-5.2",
+			"history": {
+				"first_mention": "2026-06-13",
+				"access": "2026-06-13",
+				"weights": "2026-06-16"
+			},
+			"parameters": {
+				"all": 744000000000,
+				"active": 40000000000
+			},
+			"price": {
+				"input": 1.4,
+				"output": 4.4
+			},
+			"efforts": [
+				"None",
+				"High",
+				"Max"
+			]
+		}
+	}
+}
