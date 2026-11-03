@@ -1,0 +1,151 @@
+{
+	"display_name": "Llama 2 13B",
+	"versions": {
+		"llama-2-13b": {
+			"display_name": "Llama 2 13B",
+			"names": [
+				"Llama 2 13B",
+				"Llama-2-13b",
+				"Llama 2-13B",
+				"Llama 2 Chat 13B",
+				"Llama-2-13b-chat",
+				"llama-2-13b-chat",
+				"Llama 2 13B Chat",
+				"Llama-2-13b-hf",
+				"Llama-2-13b-chat-hf",
+				"meta-llama/Llama-2-13b-hf",
+				"meta-llama/Llama-2-13b-chat-hf"
+			],
+			"link": "https://about.fb.com/news/2023/07/llama-2/",
+			"history": {
+				"first_mention": "2023-07-18",
+				"access": "2023-07-18",
+				"weights": "2023-07-18"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"code-llama-13b": {
+			"display_name": "Code Llama 13B",
+			"names": [
+				"Code Llama 13B",
+				"CodeLlama 13B",
+				"Code Llama-13B",
+				"Code Llama - Instruct 13B",
+				"Code Llama Instruct 13B",
+				"CodeLlama-13b-hf",
+				"CodeLlama-13b-Instruct-hf",
+				"codellama/CodeLlama-13b-hf",
+				"codellama/CodeLlama-13b-Instruct-hf",
+				"meta-llama/CodeLlama-13b-hf",
+				"meta-llama/CodeLlama-13b-Instruct-hf"
+			],
+			"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+			"history": {
+				"first_mention": "2023-08-24",
+				"access": "2023-08-24",
+				"weights": "2023-08-24"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"code-llama-python-13b": {
+			"display_name": "Code Llama - Python 13B",
+			"names": [
+				"Code Llama - Python 13B",
+				"Code Llama Python 13B",
+				"CodeLlama Python 13B",
+				"CodeLlama-13b-Python-hf",
+				"codellama/CodeLlama-13b-Python-hf",
+				"meta-llama/CodeLlama-13b-Python-hf"
+			],
+			"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+			"history": {
+				"first_mention": "2023-08-24",
+				"access": "2023-08-24",
+				"weights": "2023-08-24"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"llama-2-long-13b": {
+			"display_name": "Llama 2 Long 13B",
+			"names": [
+				"Llama 2 Long 13B",
+				"Llama 2 Long Chat 13B"
+			],
+			"link": "https://arxiv.org/abs/2309.16039",
+			"history": {
+				"first_mention": "2023-09-27",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"llm-compiler-13b": {
+			"display_name": "LLM Compiler 13B",
+			"names": [
+				"LLM Compiler 13B",
+				"LLM Compiler FTD 13B",
+				"llm-compiler-13b",
+				"llm-compiler-13b-ftd",
+				"facebook/llm-compiler-13b",
+				"facebook/llm-compiler-13b-ftd"
+			],
+			"link": "https://arxiv.org/abs/2407.02524",
+			"history": {
+				"first_mention": "2024-06-27",
+				"access": "2024-06-27",
+				"weights": "2024-06-27"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

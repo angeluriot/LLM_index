@@ -1,0 +1,36 @@
+{
+	"display_name": "CWM",
+	"versions": {
+		"cwm": {
+			"display_name": "CWM",
+			"names": [
+				"CWM",
+				"Code World Model",
+				"CWM 32B",
+				"cwm",
+				"cwm-sft",
+				"cwm-pretrain",
+				"facebook/cwm",
+				"facebook/cwm-sft",
+				"facebook/cwm-pretrain"
+			],
+			"link": "https://huggingface.co/facebook/cwm",
+			"history": {
+				"first_mention": "2025-09-24",
+				"access": "2025-09-24",
+				"weights": "2025-09-24"
+			},
+			"parameters": {
+				"all": 32000000000,
+				"active": 32000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display_name": "Fairseq MoE 1.1T",
+	"versions": {
+		"fairseq-moe-1-1t": {
+			"display_name": "Fairseq MoE 1.1T",
+			"names": [
+				"Fairseq MoE 1.1T",
+				"MoE-1.1T",
+				"fairseq-moe-1.1T"
+			],
+			"link": "https://arxiv.org/abs/2112.10684",
+			"history": {
+				"first_mention": "2021-12-20",
+				"access": "2021-12-20",
+				"weights": "2021-12-20"
+			},
+			"parameters": {
+				"all": 1100000000000,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

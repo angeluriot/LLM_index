@@ -1,0 +1,32 @@
+{
+	"display_name": "XGLM 7.5B",
+	"versions": {
+		"xglm-7-5b": {
+			"display_name": "XGLM 7.5B",
+			"names": [
+				"XGLM 7.5B",
+				"XGLM",
+				"XGLM-7.5B",
+				"xglm-7.5B",
+				"facebook/xglm-7.5B"
+			],
+			"link": "https://arxiv.org/abs/2112.10668",
+			"history": {
+				"first_mention": "2021-12-20",
+				"access": "2021-12-20",
+				"weights": "2021-12-20"
+			},
+			"parameters": {
+				"all": 7500000000,
+				"active": 7500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

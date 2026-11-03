@@ -1,0 +1,31 @@
+{
+	"display_name": "Chameleon 34B",
+	"versions": {
+		"chameleon-34b": {
+			"display_name": "Chameleon 34B",
+			"names": [
+				"Chameleon 34B",
+				"Chameleon-34B",
+				"chameleon-30b",
+				"facebook/chameleon-30b"
+			],
+			"link": "https://arxiv.org/abs/2405.09818",
+			"history": {
+				"first_mention": "2024-05-16",
+				"access": "2024-06-18",
+				"weights": "2024-06-18"
+			},
+			"parameters": {
+				"all": 34000000000,
+				"active": 34000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

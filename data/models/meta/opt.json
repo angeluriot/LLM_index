@@ -1,0 +1,359 @@
+{
+	"display_name": "OPT",
+	"versions": {
+		"opt-125m": {
+			"display_name": "OPT-125M",
+			"names": [
+				"OPT-125M",
+				"OPT 125M",
+				"OPT (125M)",
+				"opt-125m",
+				"facebook/opt-125m"
+			],
+			"link": "https://arxiv.org/abs/2205.01068",
+			"history": {
+				"first_mention": "2022-05-02",
+				"access": "2022-05-03",
+				"weights": "2022-05-03"
+			},
+			"parameters": {
+				"all": 125000000,
+				"active": 125000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opt-350m": {
+			"display_name": "OPT-350M",
+			"names": [
+				"OPT-350M",
+				"OPT 350M",
+				"OPT (350M)",
+				"opt-350m",
+				"facebook/opt-350m"
+			],
+			"link": "https://arxiv.org/abs/2205.01068",
+			"history": {
+				"first_mention": "2022-05-02",
+				"access": "2022-05-03",
+				"weights": "2022-05-03"
+			},
+			"parameters": {
+				"all": 350000000,
+				"active": 350000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opt-1-3b": {
+			"display_name": "OPT-1.3B",
+			"names": [
+				"OPT-1.3B",
+				"OPT 1.3B",
+				"OPT (1.3B)",
+				"opt-1.3b",
+				"facebook/opt-1.3b"
+			],
+			"link": "https://arxiv.org/abs/2205.01068",
+			"history": {
+				"first_mention": "2022-05-02",
+				"access": "2022-05-03",
+				"weights": "2022-05-03"
+			},
+			"parameters": {
+				"all": 1300000000,
+				"active": 1300000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opt-2-7b": {
+			"display_name": "OPT-2.7B",
+			"names": [
+				"OPT-2.7B",
+				"OPT 2.7B",
+				"OPT (2.7B)",
+				"opt-2.7b",
+				"facebook/opt-2.7b"
+			],
+			"link": "https://arxiv.org/abs/2205.01068",
+			"history": {
+				"first_mention": "2022-05-02",
+				"access": "2022-05-03",
+				"weights": "2022-05-03"
+			},
+			"parameters": {
+				"all": 2700000000,
+				"active": 2700000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opt-6-7b": {
+			"display_name": "OPT-6.7B",
+			"names": [
+				"OPT-6.7B",
+				"OPT 6.7B",
+				"OPT (6.7B)",
+				"opt-6.7b",
+				"facebook/opt-6.7b"
+			],
+			"link": "https://arxiv.org/abs/2205.01068",
+			"history": {
+				"first_mention": "2022-05-02",
+				"access": "2022-05-03",
+				"weights": "2022-05-03"
+			},
+			"parameters": {
+				"all": 6700000000,
+				"active": 6700000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opt-13b": {
+			"display_name": "OPT-13B",
+			"names": [
+				"OPT-13B",
+				"OPT 13B",
+				"OPT (13B)",
+				"opt-13b",
+				"facebook/opt-13b"
+			],
+			"link": "https://arxiv.org/abs/2205.01068",
+			"history": {
+				"first_mention": "2022-05-02",
+				"access": "2022-05-03",
+				"weights": "2022-05-03"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opt-30b": {
+			"display_name": "OPT-30B",
+			"names": [
+				"OPT-30B",
+				"OPT 30B",
+				"OPT (30B)",
+				"opt-30b",
+				"facebook/opt-30b"
+			],
+			"link": "https://arxiv.org/abs/2205.01068",
+			"history": {
+				"first_mention": "2022-05-02",
+				"access": "2022-05-03",
+				"weights": "2022-05-03"
+			},
+			"parameters": {
+				"all": 30000000000,
+				"active": 30000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opt-66b": {
+			"display_name": "OPT-66B",
+			"names": [
+				"OPT-66B",
+				"OPT 66B",
+				"OPT (66B)",
+				"opt-66b",
+				"facebook/opt-66b"
+			],
+			"link": "https://arxiv.org/abs/2205.01068",
+			"history": {
+				"first_mention": "2022-05-02",
+				"access": "2022-06-23",
+				"weights": "2022-06-23"
+			},
+			"parameters": {
+				"all": 66000000000,
+				"active": 66000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opt-175b": {
+			"display_name": "OPT-175B",
+			"names": [
+				"OPT-175B",
+				"OPT 175B",
+				"OPT (175B)",
+				"opt-175b",
+				"facebook/opt-175b",
+				"OPT"
+			],
+			"link": "https://arxiv.org/abs/2205.01068",
+			"history": {
+				"first_mention": "2022-05-02",
+				"access": "2022-05-03",
+				"weights": "2022-05-03"
+			},
+			"parameters": {
+				"all": 175000000000,
+				"active": 175000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"blenderbot-3-30b": {
+			"display_name": "BlenderBot 3 30B",
+			"names": [
+				"BlenderBot 3 30B",
+				"BB3 30B",
+				"BB3-30B",
+				"blenderbot3_30B"
+			],
+			"link": "https://arxiv.org/abs/2208.03188",
+			"history": {
+				"first_mention": "2022-08-05",
+				"access": "2022-08-05",
+				"weights": "2022-08-05"
+			},
+			"parameters": {
+				"all": 30000000000,
+				"active": 30000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"blenderbot-3": {
+			"display_name": "BlenderBot 3",
+			"names": [
+				"BlenderBot 3",
+				"BlenderBot 3 175B",
+				"BB3",
+				"BB3-175B",
+				"blenderbot3_175B"
+			],
+			"link": "https://arxiv.org/abs/2208.03188",
+			"history": {
+				"first_mention": "2022-08-05",
+				"access": "2022-08-05",
+				"weights": "2022-08-05"
+			},
+			"parameters": {
+				"all": 175000000000,
+				"active": 175000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opt-iml-30b": {
+			"display_name": "OPT-IML 30B",
+			"names": [
+				"OPT-IML 30B",
+				"OPT-IML (30B)",
+				"OPT-IML-Max 30B",
+				"OPT-IML-Max (30B)",
+				"opt-iml-30b",
+				"opt-iml-max-30b",
+				"facebook/opt-iml-30b",
+				"facebook/opt-iml-max-30b"
+			],
+			"link": "https://arxiv.org/abs/2212.12017",
+			"history": {
+				"first_mention": "2022-12-22",
+				"access": "2023-01-20",
+				"weights": "2023-01-20"
+			},
+			"parameters": {
+				"all": 30000000000,
+				"active": 30000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opt-iml-175b": {
+			"display_name": "OPT-IML 175B",
+			"names": [
+				"OPT-IML 175B",
+				"OPT-IML",
+				"OPT-IML (175B)",
+				"OPT-IML-Max 175B",
+				"OPT-IML-Max (175B)"
+			],
+			"link": "https://arxiv.org/abs/2212.12017",
+			"history": {
+				"first_mention": "2022-12-22",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 175000000000,
+				"active": 175000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"display_name": "Llama 3.1 405B",
+	"versions": {
+		"llama-3-1-405b": {
+			"display_name": "Llama 3.1 405B",
+			"names": [
+				"Llama 3.1 405B",
+				"Llama 3.1 Instruct 405B",
+				"Llama 3.1 405B Instruct",
+				"Llama 3.1-405B",
+				"llama-3.1-405b-instruct",
+				"llama3.1:405b",
+				"Llama-3.1-405B",
+				"Llama-3.1-405B-Instruct",
+				"Meta-Llama-3.1-405B",
+				"Meta-Llama-3.1-405B-Instruct",
+				"meta-llama/Llama-3.1-405B",
+				"meta-llama/Llama-3.1-405B-Instruct",
+				"meta-llama/Meta-Llama-3.1-405B",
+				"meta-llama/Meta-Llama-3.1-405B-Instruct",
+				"llama3.1:405b-instruct-q4_K_M",
+				"meta-llama/Llama-3.1-405B-Instruct-FP8"
+			],
+			"link": "https://ai.meta.com/blog/meta-llama-3-1/",
+			"history": {
+				"first_mention": "2024-04-18",
+				"access": "2024-07-23",
+				"weights": "2024-07-23"
+			},
+			"parameters": {
+				"all": 405000000000,
+				"active": 405000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

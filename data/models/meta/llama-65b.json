@@ -1,0 +1,57 @@
+{
+	"display_name": "LLaMA 65B",
+	"versions": {
+		"llama-65b": {
+			"display_name": "LLaMA 65B",
+			"names": [
+				"LLaMA 65B",
+				"LLaMA-65B",
+				"Llama 65B",
+				"LLaMA 1 65B",
+				"Llama 1 65B",
+				"llama-65b"
+			],
+			"link": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+			"history": {
+				"first_mention": "2023-02-24",
+				"access": "2023-02-24",
+				"weights": "2023-02-24"
+			},
+			"parameters": {
+				"all": 65200000000,
+				"active": 65200000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"lima": {
+			"display_name": "LIMA",
+			"names": [
+				"LIMA",
+				"LIMA 65B"
+			],
+			"link": "https://arxiv.org/abs/2305.11206",
+			"history": {
+				"first_mention": "2023-05-18",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 65200000000,
+				"active": 65200000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

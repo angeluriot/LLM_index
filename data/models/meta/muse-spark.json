@@ -1,0 +1,56 @@
+{
+	"display_name": "Muse Spark",
+	"versions": {
+		"muse-spark": {
+			"display_name": "Muse Spark",
+			"names": [
+				"Muse Spark",
+				"Muse Spark 1.0",
+				"muse-spark"
+			],
+			"link": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+			"history": {
+				"first_mention": "2026-04-08",
+				"access": "2026-04-08",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"Instant",
+				"Thinking"
+			]
+		},
+		"muse-spark-contemplating": {
+			"display_name": "Muse Spark Contemplating",
+			"names": [
+				"Muse Spark Contemplating",
+				"Muse Spark (Contemplating)",
+				"Muse Spark Contemplating mode"
+			],
+			"link": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+			"history": {
+				"first_mention": "2026-04-08",
+				"access": "2026-04-08",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

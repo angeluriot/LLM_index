@@ -1,0 +1,151 @@
+{
+	"display_name": "Llama 2 7B",
+	"versions": {
+		"llama-2-7b": {
+			"display_name": "Llama 2 7B",
+			"names": [
+				"Llama 2 7B",
+				"Llama-2-7b",
+				"Llama 2-7B",
+				"Llama 2 Chat 7B",
+				"Llama-2-7b-chat",
+				"llama-2-7b-chat",
+				"Llama 2 7B Chat",
+				"Llama-2-7b-hf",
+				"Llama-2-7b-chat-hf",
+				"meta-llama/Llama-2-7b-hf",
+				"meta-llama/Llama-2-7b-chat-hf"
+			],
+			"link": "https://about.fb.com/news/2023/07/llama-2/",
+			"history": {
+				"first_mention": "2023-07-18",
+				"access": "2023-07-18",
+				"weights": "2023-07-18"
+			},
+			"parameters": {
+				"all": 6740000000,
+				"active": 6740000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"code-llama-7b": {
+			"display_name": "Code Llama 7B",
+			"names": [
+				"Code Llama 7B",
+				"CodeLlama 7B",
+				"Code Llama-7B",
+				"Code Llama - Instruct 7B",
+				"Code Llama Instruct 7B",
+				"CodeLlama-7b-hf",
+				"CodeLlama-7b-Instruct-hf",
+				"codellama/CodeLlama-7b-hf",
+				"codellama/CodeLlama-7b-Instruct-hf",
+				"meta-llama/CodeLlama-7b-hf",
+				"meta-llama/CodeLlama-7b-Instruct-hf"
+			],
+			"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+			"history": {
+				"first_mention": "2023-08-24",
+				"access": "2023-08-24",
+				"weights": "2023-08-24"
+			},
+			"parameters": {
+				"all": 6740000000,
+				"active": 6740000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"code-llama-python-7b": {
+			"display_name": "Code Llama - Python 7B",
+			"names": [
+				"Code Llama - Python 7B",
+				"Code Llama Python 7B",
+				"CodeLlama Python 7B",
+				"CodeLlama-7b-Python-hf",
+				"codellama/CodeLlama-7b-Python-hf",
+				"meta-llama/CodeLlama-7b-Python-hf"
+			],
+			"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+			"history": {
+				"first_mention": "2023-08-24",
+				"access": "2023-08-24",
+				"weights": "2023-08-24"
+			},
+			"parameters": {
+				"all": 6740000000,
+				"active": 6740000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"llama-2-long-7b": {
+			"display_name": "Llama 2 Long 7B",
+			"names": [
+				"Llama 2 Long 7B",
+				"Llama 2 Long Chat 7B"
+			],
+			"link": "https://arxiv.org/abs/2309.16039",
+			"history": {
+				"first_mention": "2023-09-27",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 6740000000,
+				"active": 6740000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"llm-compiler-7b": {
+			"display_name": "LLM Compiler 7B",
+			"names": [
+				"LLM Compiler 7B",
+				"LLM Compiler FTD 7B",
+				"llm-compiler-7b",
+				"llm-compiler-7b-ftd",
+				"facebook/llm-compiler-7b",
+				"facebook/llm-compiler-7b-ftd"
+			],
+			"link": "https://arxiv.org/abs/2407.02524",
+			"history": {
+				"first_mention": "2024-06-27",
+				"access": "2024-06-27",
+				"weights": "2024-06-27"
+			},
+			"parameters": {
+				"all": 6740000000,
+				"active": 6740000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

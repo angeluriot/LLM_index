@@ -1,0 +1,31 @@
+{
+	"display_name": "Llama 4 Behemoth",
+	"versions": {
+		"llama-4-behemoth": {
+			"display_name": "Llama 4 Behemoth",
+			"names": [
+				"Llama 4 Behemoth",
+				"Llama 4 Behemoth (preview)",
+				"Llama 4 Behemoth Preview",
+				"Llama-4-Behemoth"
+			],
+			"link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+			"history": {
+				"first_mention": "2025-04-05",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 2000000000000,
+				"active": 288000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,143 @@
+{
+	"display_name": "Llama 2 34B",
+	"versions": {
+		"llama-2-34b": {
+			"display_name": "Llama 2 34B",
+			"names": [
+				"Llama 2 34B",
+				"Llama-2-34b",
+				"Llama 2-34B",
+				"Llama 2 Chat 34B",
+				"Llama-2-34b-chat",
+				"llama-2-34b-chat",
+				"Llama 2 34B Chat"
+			],
+			"link": "https://about.fb.com/news/2023/07/llama-2/",
+			"history": {
+				"first_mention": "2023-07-18",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 34000000000,
+				"active": 34000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"code-llama-34b": {
+			"display_name": "Code Llama 34B",
+			"names": [
+				"Code Llama 34B",
+				"CodeLlama 34B",
+				"Code Llama-34B",
+				"Code Llama - Instruct 34B",
+				"Code Llama Instruct 34B",
+				"CodeLlama-34b-hf",
+				"CodeLlama-34b-Instruct-hf",
+				"codellama/CodeLlama-34b-hf",
+				"codellama/CodeLlama-34b-Instruct-hf",
+				"meta-llama/CodeLlama-34b-hf",
+				"meta-llama/CodeLlama-34b-Instruct-hf"
+			],
+			"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+			"history": {
+				"first_mention": "2023-08-24",
+				"access": "2023-08-24",
+				"weights": "2023-08-24"
+			},
+			"parameters": {
+				"all": 34000000000,
+				"active": 34000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"code-llama-python-34b": {
+			"display_name": "Code Llama - Python 34B",
+			"names": [
+				"Code Llama - Python 34B",
+				"Code Llama Python 34B",
+				"CodeLlama Python 34B",
+				"CodeLlama-34b-Python-hf",
+				"codellama/CodeLlama-34b-Python-hf",
+				"meta-llama/CodeLlama-34b-Python-hf"
+			],
+			"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+			"history": {
+				"first_mention": "2023-08-24",
+				"access": "2023-08-24",
+				"weights": "2023-08-24"
+			},
+			"parameters": {
+				"all": 34000000000,
+				"active": 34000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"unnatural-code-llama-34b": {
+			"display_name": "Unnatural Code Llama 34B",
+			"names": [
+				"Unnatural Code Llama 34B",
+				"Unnatural Code Llama"
+			],
+			"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+			"history": {
+				"first_mention": "2023-08-24",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 34000000000,
+				"active": 34000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"llama-2-long-34b": {
+			"display_name": "Llama 2 Long 34B",
+			"names": [
+				"Llama 2 Long 34B",
+				"Llama 2 Long Chat 34B"
+			],
+			"link": "https://arxiv.org/abs/2309.16039",
+			"history": {
+				"first_mention": "2023-09-27",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 34000000000,
+				"active": 34000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"display_name": "MobileLLM-R1 950M",
+	"versions": {
+		"mobilellm-r1-950m": {
+			"display_name": "MobileLLM-R1 950M",
+			"names": [
+				"MobileLLM-R1 950M",
+				"MobileLLM-R1",
+				"MobileLLM R1 950M",
+				"MobileLLM-R1-950M",
+				"facebook/MobileLLM-R1-950M"
+			],
+			"link": "https://huggingface.co/facebook/MobileLLM-R1-950M",
+			"history": {
+				"first_mention": "2025-09-12",
+				"access": "2025-09-12",
+				"weights": "2025-09-12"
+			},
+			"parameters": {
+				"all": 950000000,
+				"active": 950000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

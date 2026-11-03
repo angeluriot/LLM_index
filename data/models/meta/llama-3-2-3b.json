@@ -1,0 +1,66 @@
+{
+	"display_name": "Llama 3.2 3B",
+	"versions": {
+		"llama-3-2-3b": {
+			"display_name": "Llama 3.2 3B",
+			"names": [
+				"Llama 3.2 3B",
+				"Llama 3.2 Instruct 3B",
+				"Llama 3.2 3B Instruct",
+				"Llama 3.2-3B",
+				"llama-3.2-3b-instruct",
+				"llama3.2:3b",
+				"Llama-3.2-3B",
+				"Llama-3.2-3B-Instruct",
+				"meta-llama/Llama-3.2-3B",
+				"meta-llama/Llama-3.2-3B-Instruct"
+			],
+			"link": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+			"history": {
+				"first_mention": "2024-09-25",
+				"access": "2024-09-25",
+				"weights": "2024-09-25"
+			},
+			"parameters": {
+				"all": 3210000000,
+				"active": 3210000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"llama-3-2-3b-quantized": {
+			"display_name": "Llama 3.2 3B Quantized",
+			"names": [
+				"Llama 3.2 3B Quantized",
+				"Llama 3.2 3B QLoRA",
+				"Llama 3.2 3B SpinQuant",
+				"Llama-3.2-3B-Instruct-QLORA_INT4_EO8",
+				"Llama-3.2-3B-Instruct-SpinQuant_INT4_EO8",
+				"meta-llama/Llama-3.2-3B-Instruct-QLORA_INT4_EO8",
+				"meta-llama/Llama-3.2-3B-Instruct-SpinQuant_INT4_EO8"
+			],
+			"link": "https://ai.meta.com/blog/meta-llama-quantized-lightweight-models/",
+			"history": {
+				"first_mention": "2024-10-24",
+				"access": "2024-10-24",
+				"weights": "2024-10-24"
+			},
+			"parameters": {
+				"all": 3210000000,
+				"active": 3210000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

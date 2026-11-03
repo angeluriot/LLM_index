@@ -1,0 +1,31 @@
+{
+	"display_name": "Fairseq Dense 13B",
+	"versions": {
+		"fairseq-dense-13b": {
+			"display_name": "Fairseq Dense 13B",
+			"names": [
+				"Fairseq Dense 13B",
+				"Fairseq-dense 13B",
+				"fairseq-dense-13B",
+				"KoboldAI/fairseq-dense-13B"
+			],
+			"link": "https://arxiv.org/abs/2112.10684",
+			"history": {
+				"first_mention": "2021-12-20",
+				"access": "2021-12-20",
+				"weights": "2021-12-20"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

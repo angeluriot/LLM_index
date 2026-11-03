@@ -1,0 +1,35 @@
+{
+	"display_name": "BlenderBot 9.4B",
+	"versions": {
+		"blenderbot-9-4b": {
+			"display_name": "BlenderBot 9.4B",
+			"names": [
+				"BlenderBot 9.4B",
+				"BlenderBot",
+				"BlenderBot 1",
+				"BlenderBot 1.0",
+				"Blender 9.4B",
+				"Generative BST",
+				"Generative BST 9.4B",
+				"blender_9B"
+			],
+			"link": "https://arxiv.org/abs/2004.13637",
+			"history": {
+				"first_mention": "2020-04-28",
+				"access": "2020-04-28",
+				"weights": "2020-04-28"
+			},
+			"parameters": {
+				"all": 9400000000,
+				"active": 9400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

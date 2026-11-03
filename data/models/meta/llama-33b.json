@@ -1,0 +1,36 @@
+{
+	"display_name": "LLaMA 33B",
+	"versions": {
+		"llama-33b": {
+			"display_name": "LLaMA 33B",
+			"names": [
+				"LLaMA 33B",
+				"LLaMA-33B",
+				"Llama 33B",
+				"LLaMA 1 33B",
+				"Llama 1 33B",
+				"llama-33b",
+				"LLaMA 30B",
+				"LLaMA-30B",
+				"llama-30b"
+			],
+			"link": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+			"history": {
+				"first_mention": "2023-02-24",
+				"access": "2023-02-24",
+				"weights": "2023-02-24"
+			},
+			"parameters": {
+				"all": 32500000000,
+				"active": 32500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

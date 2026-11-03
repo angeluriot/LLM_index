@@ -1,0 +1,31 @@
+{
+	"display_name": "MobileLLM-Pro",
+	"versions": {
+		"mobilellm-pro": {
+			"display_name": "MobileLLM-Pro",
+			"names": [
+				"MobileLLM-Pro",
+				"MobileLLM Pro",
+				"MobileLLM-Pro 1B",
+				"facebook/MobileLLM-Pro"
+			],
+			"link": "https://huggingface.co/facebook/MobileLLM-Pro",
+			"history": {
+				"first_mention": "2025-10-16",
+				"access": "2025-10-16",
+				"weights": "2025-10-16"
+			},
+			"parameters": {
+				"all": 1080000000,
+				"active": 1080000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

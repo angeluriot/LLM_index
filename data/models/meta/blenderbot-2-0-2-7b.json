@@ -1,0 +1,32 @@
+{
+	"display_name": "BlenderBot 2.0 2.7B",
+	"versions": {
+		"blenderbot-2-0-2-7b": {
+			"display_name": "BlenderBot 2.0 2.7B",
+			"names": [
+				"BlenderBot 2.0 2.7B",
+				"BlenderBot 2",
+				"BlenderBot 2.0",
+				"BlenderBot 2 2.7B",
+				"blenderbot2_3B"
+			],
+			"link": "https://parl.ai/projects/blenderbot2/",
+			"history": {
+				"first_mention": "2021-07-16",
+				"access": "2021-07-16",
+				"weights": "2021-07-16"
+			},
+			"parameters": {
+				"all": 2700000000,
+				"active": 2700000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

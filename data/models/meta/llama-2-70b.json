@@ -1,0 +1,123 @@
+{
+	"display_name": "Llama 2 70B",
+	"versions": {
+		"llama-2-70b": {
+			"display_name": "Llama 2 70B",
+			"names": [
+				"Llama 2 70B",
+				"Llama-2-70b",
+				"Llama 2-70B",
+				"Llama 2 Chat 70B",
+				"Llama-2-70b-chat",
+				"llama-2-70b-chat",
+				"Llama 2 70B Chat",
+				"Llama-2-70b-hf",
+				"Llama-2-70b-chat-hf",
+				"meta-llama/Llama-2-70b-hf",
+				"meta-llama/Llama-2-70b-chat-hf"
+			],
+			"link": "https://about.fb.com/news/2023/07/llama-2/",
+			"history": {
+				"first_mention": "2023-07-18",
+				"access": "2023-07-18",
+				"weights": "2023-07-18"
+			},
+			"parameters": {
+				"all": 69000000000,
+				"active": 69000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"llama-2-long-70b": {
+			"display_name": "Llama 2 Long 70B",
+			"names": [
+				"Llama 2 Long 70B",
+				"Llama 2 Long Chat 70B"
+			],
+			"link": "https://arxiv.org/abs/2309.16039",
+			"history": {
+				"first_mention": "2023-09-27",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 69000000000,
+				"active": 69000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"code-llama-70b": {
+			"display_name": "Code Llama 70B",
+			"names": [
+				"Code Llama 70B",
+				"CodeLlama 70B",
+				"Code Llama-70B",
+				"Code Llama - Instruct 70B",
+				"Code Llama Instruct 70B",
+				"CodeLlama-70b-hf",
+				"CodeLlama-70b-Instruct-hf",
+				"codellama/CodeLlama-70b-hf",
+				"codellama/CodeLlama-70b-Instruct-hf",
+				"meta-llama/CodeLlama-70b-hf",
+				"meta-llama/CodeLlama-70b-Instruct-hf"
+			],
+			"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+			"history": {
+				"first_mention": "2024-01-29",
+				"access": "2024-01-29",
+				"weights": "2024-01-29"
+			},
+			"parameters": {
+				"all": 69000000000,
+				"active": 69000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"code-llama-python-70b": {
+			"display_name": "Code Llama - Python 70B",
+			"names": [
+				"Code Llama - Python 70B",
+				"Code Llama Python 70B",
+				"CodeLlama Python 70B",
+				"CodeLlama-70b-Python-hf",
+				"codellama/CodeLlama-70b-Python-hf",
+				"meta-llama/CodeLlama-70b-Python-hf"
+			],
+			"link": "https://ai.meta.com/blog/code-llama-large-language-model-coding/",
+			"history": {
+				"first_mention": "2024-01-29",
+				"access": "2024-01-29",
+				"weights": "2024-01-29"
+			},
+			"parameters": {
+				"all": 69000000000,
+				"active": 69000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -19,7 +19,7 @@ NOTES = 'https://help.openai.com/en/articles/9624314-model-release-notes'
 CHATGPT_NOTES = 'https://help.openai.com/en/articles/6825453-chatgpt-release-notes'
 DOCS = 'https://developers.openai.com/api/docs/models/'
 
-# GPT-2 (all sizes are versions: deliberate exception for GPT-2, GPT-3, T5, PaLM and PaLM 2 only, other sizes are separate models)
+# GPT-2 (all sizes are versions: deliberate exception for GPT-2, GPT-3, T5, PaLM, PaLM 2, OPT and Galactica only, other sizes are separate models)
 GPT2 = 'https://openai.com/index/better-language-models/'
 M('GPT-2',
 	V('GPT-2 (124M)', ['GPT-2 124M', 'GPT-2 117M', 'GPT-2 Small', 'gpt2'], GPT2, '2019-02-14', '2019-02-14', id='gpt-2-124m', weights='2019-02-14', params=(124_000_000, 124_000_000)),

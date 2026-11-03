@@ -1,0 +1,35 @@
+{
+	"display_name": "Muse Spark 1.3",
+	"versions": {
+		"muse-spark-1-3": {
+			"display_name": "Muse Spark 1.3",
+			"names": [
+				"Muse Spark 1.3",
+				"muse-spark-1.3",
+				"muse-spark-1.3-contributor"
+			],
+			"link": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+			"history": {
+				"first_mention": "2026-09-02",
+				"access": "2026-09-02",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.25,
+				"output": 4.25
+			},
+			"efforts": [
+				"Minimal",
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh",
+				"Max"
+			]
+		}
+	}
+}

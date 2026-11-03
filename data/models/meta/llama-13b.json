@@ -1,0 +1,33 @@
+{
+	"display_name": "LLaMA 13B",
+	"versions": {
+		"llama-13b": {
+			"display_name": "LLaMA 13B",
+			"names": [
+				"LLaMA 13B",
+				"LLaMA-13B",
+				"Llama 13B",
+				"LLaMA 1 13B",
+				"Llama 1 13B",
+				"llama-13b"
+			],
+			"link": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+			"history": {
+				"first_mention": "2023-02-24",
+				"access": "2023-02-24",
+				"weights": "2023-02-24"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

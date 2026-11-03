@@ -1,0 +1,37 @@
+{
+	"display_name": "Muse Spark Open",
+	"versions": {
+		"muse-spark-open": {
+			"display_name": "Muse Spark Open",
+			"names": [
+				"Muse Spark Open",
+				"Muse Spark Open 816B",
+				"muse-spark-open",
+				"Muse-Spark-Open-816B-A42B",
+				"Muse-Spark-Open-816B-A42B-NVFP4",
+				"meta-models/Muse-Spark-Open-816B-A42B",
+				"meta-models/Muse-Spark-Open-816B-A42B-NVFP4"
+			],
+			"link": "https://research.meta.ai/blog/muse-spark-open",
+			"history": {
+				"first_mention": "2026-09-02",
+				"access": "2026-10-15",
+				"weights": "2026-10-15"
+			},
+			"parameters": {
+				"all": 816000000000,
+				"active": 42000000000
+			},
+			"price": {
+				"input": 1.25,
+				"output": 4.25
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		}
+	}
+}

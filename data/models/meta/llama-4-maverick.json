@@ -1,0 +1,62 @@
+{
+	"display_name": "Llama 4 Maverick",
+	"versions": {
+		"llama-4-maverick": {
+			"display_name": "Llama 4 Maverick",
+			"names": [
+				"Llama 4 Maverick",
+				"Llama-4-Maverick",
+				"llama-4-maverick",
+				"Llama-4-Maverick-17B-128E",
+				"Llama-4-Maverick-17B-128E-Instruct",
+				"Llama-4-Maverick-17B-128E-Instruct-FP8",
+				"meta-llama/Llama-4-Maverick-17B-128E",
+				"meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+				"meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
+			],
+			"link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+			"history": {
+				"first_mention": "2025-04-05",
+				"access": "2025-04-05",
+				"weights": "2025-04-05"
+			},
+			"parameters": {
+				"all": 400000000000,
+				"active": 17000000000
+			},
+			"price": {
+				"input": 0.25,
+				"output": 0.92
+			},
+			"efforts": [
+				""
+			]
+		},
+		"llama-4-maverick-experimental": {
+			"display_name": "Llama 4 Maverick Experimental",
+			"names": [
+				"Llama 4 Maverick Experimental",
+				"Llama-4-Maverick-03-26-Experimental",
+				"llama-4-maverick-03-26-experimental",
+				"Llama 4 Maverick (Experimental)"
+			],
+			"link": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+			"history": {
+				"first_mention": "2025-04-05",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 400000000000,
+				"active": 17000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}
