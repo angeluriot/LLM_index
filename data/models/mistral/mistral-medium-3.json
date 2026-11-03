@@ -1,0 +1,31 @@
+{
+	"display_name": "Mistral Medium 3",
+	"versions": {
+		"mistral-medium-3": {
+			"display_name": "Mistral Medium 3",
+			"names": [
+				"Mistral Medium 3",
+				"Mistral Medium 3.0",
+				"Mistral Medium 25.05",
+				"mistral-medium-2505"
+			],
+			"link": "https://mistral.ai/news/mistral-medium-3",
+			"history": {
+				"first_mention": "2025-05-07",
+				"access": "2025-05-07",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.4,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

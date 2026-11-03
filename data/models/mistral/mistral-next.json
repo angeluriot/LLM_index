@@ -1,0 +1,29 @@
+{
+	"display_name": "Mistral Next",
+	"versions": {
+		"mistral-next": {
+			"display_name": "Mistral Next",
+			"names": [
+				"Mistral Next",
+				"mistral-next"
+			],
+			"link": "https://docs.mistral.ai/models/mistral-next",
+			"history": {
+				"first_mention": "2024-02-16",
+				"access": "2024-02-16",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

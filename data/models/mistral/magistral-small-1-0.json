@@ -1,0 +1,34 @@
+{
+	"display_name": "Magistral Small 1.0",
+	"versions": {
+		"magistral-small-1-0": {
+			"display_name": "Magistral Small 1.0",
+			"names": [
+				"Magistral Small 1.0",
+				"Magistral Small",
+				"Magistral Small 1",
+				"Magistral Small 2506",
+				"magistral-small-2506",
+				"Magistral-Small-2506",
+				"mistralai/Magistral-Small-2506"
+			],
+			"link": "https://mistral.ai/news/magistral",
+			"history": {
+				"first_mention": "2025-06-10",
+				"access": "2025-06-10",
+				"weights": "2025-06-10"
+			},
+			"parameters": {
+				"all": 24000000000,
+				"active": 24000000000
+			},
+			"price": {
+				"input": 0.5,
+				"output": 1.5
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,68 @@
+{
+	"display_name": "Ministral 3 8B",
+	"versions": {
+		"ministral-3-8b": {
+			"display_name": "Ministral 3 8B",
+			"names": [
+				"Ministral 3 8B",
+				"Ministral 3 8B Instruct",
+				"Ministral 3 (8B Instruct 2512)",
+				"Ministral 3 (8B Base 2512)",
+				"Ministral 3 8B 25.12",
+				"ministral-8b-2512",
+				"ministral-3-8b-instruct-2512",
+				"ministral-3-8b-base-2512",
+				"Ministral-3-8B-Base-2512",
+				"Ministral-3-8B-Instruct-2512",
+				"Ministral-3-8B-Instruct-2512-BF16",
+				"mistralai/Ministral-3-8B-Base-2512",
+				"mistralai/Ministral-3-8B-Instruct-2512",
+				"mistralai/Ministral-3-8B-Instruct-2512-BF16"
+			],
+			"link": "https://mistral.ai/news/mistral-3",
+			"history": {
+				"first_mention": "2025-12-02",
+				"access": "2025-12-02",
+				"weights": "2025-12-02"
+			},
+			"parameters": {
+				"all": 8000000000,
+				"active": 8000000000
+			},
+			"price": {
+				"input": 0.15,
+				"output": 0.15
+			},
+			"efforts": [
+				""
+			]
+		},
+		"ministral-3-8b-reasoning": {
+			"display_name": "Ministral 3 8B Reasoning",
+			"names": [
+				"Ministral 3 8B Reasoning",
+				"Ministral 3 (8B Reasoning 2512)",
+				"ministral-3-8b-reasoning-2512",
+				"Ministral-3-8B-Reasoning-2512",
+				"mistralai/Ministral-3-8B-Reasoning-2512"
+			],
+			"link": "https://mistral.ai/news/mistral-3",
+			"history": {
+				"first_mention": "2025-12-02",
+				"access": "2025-12-02",
+				"weights": "2025-12-02"
+			},
+			"parameters": {
+				"all": 8000000000,
+				"active": 8000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

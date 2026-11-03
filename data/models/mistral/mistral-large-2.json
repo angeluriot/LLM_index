@@ -1,0 +1,66 @@
+{
+	"display_name": "Mistral Large 2",
+	"versions": {
+		"mistral-large-2": {
+			"display_name": "Mistral Large 2",
+			"names": [
+				"Mistral Large 2",
+				"Mistral Large 2.0",
+				"Mistral Large 2 (Jul '24)",
+				"Mistral Large 2 (Jul 2024)",
+				"Mistral Large 24.07",
+				"Mistral Large 2407",
+				"mistral-large-2407",
+				"mistral-large-2-2407",
+				"Mistral-Large-Instruct-2407",
+				"mistralai/Mistral-Large-Instruct-2407"
+			],
+			"link": "https://mistral.ai/news/mistral-large-2407",
+			"history": {
+				"first_mention": "2024-07-24",
+				"access": "2024-07-24",
+				"weights": "2024-07-24"
+			},
+			"parameters": {
+				"all": 123000000000,
+				"active": 123000000000
+			},
+			"price": {
+				"input": 3.0,
+				"output": 9.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"pixtral-large": {
+			"display_name": "Pixtral Large",
+			"names": [
+				"Pixtral Large",
+				"Pixtral Large 24.11",
+				"Pixtral-Large",
+				"pixtral-large",
+				"pixtral-large-2411",
+				"Pixtral-Large-Instruct-2411",
+				"mistralai/Pixtral-Large-Instruct-2411"
+			],
+			"link": "https://mistral.ai/news/pixtral-large",
+			"history": {
+				"first_mention": "2024-11-18",
+				"access": "2024-11-18",
+				"weights": "2024-11-18"
+			},
+			"parameters": {
+				"all": 124000000000,
+				"active": 124000000000
+			},
+			"price": {
+				"input": 2.0,
+				"output": 6.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"display_name": "Mistral Small 3.1",
+	"versions": {
+		"mistral-small-3-1": {
+			"display_name": "Mistral Small 3.1",
+			"names": [
+				"Mistral Small 3.1",
+				"Mistral Small 3.1 24B",
+				"Mistral Small 3.1 24B Instruct",
+				"Mistral Small 3.1 24B Base",
+				"Mistral Small 25.03",
+				"mistral-small-2503",
+				"mistral-small-3.1-24b-instruct-2503",
+				"mistral-small-3.1-24b-base-2503",
+				"Mistral-Small-3.1-24B-Base-2503",
+				"Mistral-Small-3.1-24B-Instruct-2503",
+				"mistralai/Mistral-Small-3.1-24B-Base-2503",
+				"mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+			],
+			"link": "https://mistral.ai/news/mistral-small-3-1",
+			"history": {
+				"first_mention": "2025-03-17",
+				"access": "2025-03-17",
+				"weights": "2025-03-17"
+			},
+			"parameters": {
+				"all": 24000000000,
+				"active": 24000000000
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.3
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

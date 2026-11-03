@@ -1,0 +1,31 @@
+{
+	"display_name": "Mistral Small Creative",
+	"versions": {
+		"mistral-small-creative": {
+			"display_name": "Mistral Small Creative",
+			"names": [
+				"Mistral Small Creative",
+				"Mistral Small Creative 25.12",
+				"mistral-small-creative",
+				"labs-mistral-small-creative"
+			],
+			"link": "https://docs.mistral.ai/models/mistral-small-creative-25-12",
+			"history": {
+				"first_mention": "2025-12-16",
+				"access": "2025-12-16",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.3
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

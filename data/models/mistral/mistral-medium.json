@@ -1,0 +1,31 @@
+{
+	"display_name": "Mistral Medium",
+	"versions": {
+		"mistral-medium": {
+			"display_name": "Mistral Medium",
+			"names": [
+				"Mistral Medium",
+				"Mistral Medium 1.0",
+				"Mistral Medium 1",
+				"mistral-medium-2312"
+			],
+			"link": "https://mistral.ai/news/la-plateforme",
+			"history": {
+				"first_mention": "2023-12-11",
+				"access": "2023-12-11",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.7,
+				"output": 8.1
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

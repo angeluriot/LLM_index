@@ -1,0 +1,30 @@
+{
+	"display_name": "Mistral Medium 3.1",
+	"versions": {
+		"mistral-medium-3-1": {
+			"display_name": "Mistral Medium 3.1",
+			"names": [
+				"Mistral Medium 3.1",
+				"Mistral Medium 25.08",
+				"mistral-medium-2508"
+			],
+			"link": "https://docs.mistral.ai/models/mistral-medium-3-1-25-08",
+			"history": {
+				"first_mention": "2025-08-12",
+				"access": "2025-08-12",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.4,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

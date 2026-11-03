@@ -1,0 +1,35 @@
+{
+	"display_name": "Mistral Large 2.1",
+	"versions": {
+		"mistral-large-2-1": {
+			"display_name": "Mistral Large 2.1",
+			"names": [
+				"Mistral Large 2.1",
+				"Mistral Large 2 (Nov '24)",
+				"Mistral Large 2 (Nov 2024)",
+				"Mistral Large 24.11",
+				"Mistral Large 2411",
+				"mistral-large-2411",
+				"Mistral-Large-Instruct-2411",
+				"mistralai/Mistral-Large-Instruct-2411"
+			],
+			"link": "https://mistral.ai/news/pixtral-large",
+			"history": {
+				"first_mention": "2024-11-18",
+				"access": "2024-11-18",
+				"weights": "2024-11-18"
+			},
+			"parameters": {
+				"all": 123000000000,
+				"active": 123000000000
+			},
+			"price": {
+				"input": 2.0,
+				"output": 6.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

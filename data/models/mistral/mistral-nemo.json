@@ -1,0 +1,72 @@
+{
+	"display_name": "Mistral NeMo",
+	"versions": {
+		"mistral-nemo": {
+			"display_name": "Mistral NeMo",
+			"names": [
+				"Mistral NeMo",
+				"Mistral Nemo",
+				"Mistral NeMo 12B",
+				"Mistral Nemo 12B",
+				"Mistral NeMo Instruct",
+				"open-mistral-nemo",
+				"open-mistral-nemo-2407",
+				"mistral-nemo-instruct-2407",
+				"Mistral-Nemo-Base-2407",
+				"Mistral-Nemo-Instruct-2407",
+				"Mistral-Nemo-Instruct-FP8-2407",
+				"mistralai/Mistral-Nemo-Base-2407",
+				"mistralai/Mistral-Nemo-Instruct-2407",
+				"mistralai/Mistral-Nemo-Instruct-FP8-2407"
+			],
+			"link": "https://mistral.ai/news/mistral-nemo",
+			"history": {
+				"first_mention": "2024-07-18",
+				"access": "2024-07-18",
+				"weights": "2024-07-18"
+			},
+			"parameters": {
+				"all": 12200000000,
+				"active": 12200000000
+			},
+			"price": {
+				"input": 0.3,
+				"output": 0.3
+			},
+			"efforts": [
+				""
+			]
+		},
+		"pixtral-12b": {
+			"display_name": "Pixtral 12B",
+			"names": [
+				"Pixtral 12B",
+				"Pixtral",
+				"Pixtral-12B",
+				"pixtral-12b",
+				"pixtral-12b-2409",
+				"Pixtral-12B-2409",
+				"Pixtral-12B-Base-2409",
+				"mistralai/Pixtral-12B-2409",
+				"mistralai/Pixtral-12B-Base-2409"
+			],
+			"link": "https://mistral.ai/news/pixtral-12b",
+			"history": {
+				"first_mention": "2024-09-11",
+				"access": "2024-09-11",
+				"weights": "2024-09-11"
+			},
+			"parameters": {
+				"all": 12400000000,
+				"active": 12400000000
+			},
+			"price": {
+				"input": 0.15,
+				"output": 0.15
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

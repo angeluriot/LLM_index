@@ -1,0 +1,33 @@
+{
+	"display_name": "Codestral Mamba",
+	"versions": {
+		"codestral-mamba": {
+			"display_name": "Codestral Mamba",
+			"names": [
+				"Codestral Mamba",
+				"Codestral Mamba 7B",
+				"Mamba-Codestral-7B",
+				"open-codestral-mamba",
+				"Mamba-Codestral-7B-v0.1",
+				"mistralai/Mamba-Codestral-7B-v0.1"
+			],
+			"link": "https://mistral.ai/news/codestral-mamba",
+			"history": {
+				"first_mention": "2024-07-16",
+				"access": "2024-07-16",
+				"weights": "2024-07-16"
+			},
+			"parameters": {
+				"all": 7290000000,
+				"active": 7290000000
+			},
+			"price": {
+				"input": 0.25,
+				"output": 0.25
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

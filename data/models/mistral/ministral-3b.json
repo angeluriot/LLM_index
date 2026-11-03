@@ -1,0 +1,30 @@
+{
+	"display_name": "Ministral 3B",
+	"versions": {
+		"ministral-3b": {
+			"display_name": "Ministral 3B",
+			"names": [
+				"Ministral 3B",
+				"Ministral 3B 24.10",
+				"ministral-3b-2410"
+			],
+			"link": "https://mistral.ai/news/ministraux",
+			"history": {
+				"first_mention": "2024-10-16",
+				"access": "2024-10-16",
+				"weights": null
+			},
+			"parameters": {
+				"all": 3000000000,
+				"active": 3000000000
+			},
+			"price": {
+				"input": 0.04,
+				"output": 0.04
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

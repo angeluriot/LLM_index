@@ -1,0 +1,30 @@
+{
+	"display_name": "Magistral Medium 1.1",
+	"versions": {
+		"magistral-medium-1-1": {
+			"display_name": "Magistral Medium 1.1",
+			"names": [
+				"Magistral Medium 1.1",
+				"Magistral Medium 2507",
+				"magistral-medium-2507"
+			],
+			"link": "https://docs.mistral.ai/models/magistral-medium-1-1-25-07",
+			"history": {
+				"first_mention": "2025-07-24",
+				"access": "2025-07-24",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.0,
+				"output": 5.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

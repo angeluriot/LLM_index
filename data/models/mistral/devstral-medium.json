@@ -1,0 +1,31 @@
+{
+	"display_name": "Devstral Medium",
+	"versions": {
+		"devstral-medium": {
+			"display_name": "Devstral Medium",
+			"names": [
+				"Devstral Medium",
+				"Devstral Medium 1.0",
+				"Devstral Medium 2507",
+				"devstral-medium-2507"
+			],
+			"link": "https://mistral.ai/news/devstral-2507",
+			"history": {
+				"first_mention": "2025-07-10",
+				"access": "2025-07-10",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.4,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

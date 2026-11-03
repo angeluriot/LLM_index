@@ -1,0 +1,34 @@
+{
+	"display_name": "Devstral 2",
+	"versions": {
+		"devstral-2": {
+			"display_name": "Devstral 2",
+			"names": [
+				"Devstral 2",
+				"Devstral 2 123B",
+				"Devstral 2 (123B)",
+				"Devstral 2512",
+				"devstral-2512",
+				"Devstral-2-123B-Instruct-2512",
+				"mistralai/Devstral-2-123B-Instruct-2512"
+			],
+			"link": "https://mistral.ai/news/devstral-2-vibe-cli",
+			"history": {
+				"first_mention": "2025-12-09",
+				"access": "2025-12-09",
+				"weights": "2025-12-09"
+			},
+			"parameters": {
+				"all": 123000000000,
+				"active": 123000000000
+			},
+			"price": {
+				"input": 0.4,
+				"output": 2.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

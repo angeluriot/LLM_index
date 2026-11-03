@@ -1,0 +1,56 @@
+{
+	"display_name": "Codestral",
+	"versions": {
+		"codestral-25-01": {
+			"display_name": "Codestral 25.01",
+			"names": [
+				"Codestral 25.01",
+				"Codestral 2501",
+				"Codestral (Jan '25)",
+				"codestral-2501"
+			],
+			"link": "https://mistral.ai/news/codestral-2501",
+			"history": {
+				"first_mention": "2025-01-13",
+				"access": "2025-01-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.3,
+				"output": 0.9
+			},
+			"efforts": [
+				""
+			]
+		},
+		"codestral-25-08": {
+			"display_name": "Codestral 25.08",
+			"names": [
+				"Codestral 25.08",
+				"Codestral 2508",
+				"codestral-2508"
+			],
+			"link": "https://mistral.ai/news/codestral-25-08",
+			"history": {
+				"first_mention": "2025-07-30",
+				"access": "2025-07-30",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.3,
+				"output": 0.9
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

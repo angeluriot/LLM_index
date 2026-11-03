@@ -1,0 +1,127 @@
+{
+	"display_name": "Mistral 7B",
+	"versions": {
+		"mistral-7b-v0-1": {
+			"display_name": "Mistral 7B v0.1",
+			"names": [
+				"Mistral 7B v0.1",
+				"Mistral 7B",
+				"Mistral-7B",
+				"Mistral 7B Instruct v0.1",
+				"mistral-7b-v0.1",
+				"mistral-7b-instruct-v0.1",
+				"Mistral-7B-v0.1",
+				"Mistral-7B-Instruct-v0.1",
+				"mistralai/Mistral-7B-v0.1",
+				"mistralai/Mistral-7B-Instruct-v0.1"
+			],
+			"link": "https://mistral.ai/news/announcing-mistral-7b",
+			"history": {
+				"first_mention": "2023-09-27",
+				"access": "2023-09-27",
+				"weights": "2023-09-27"
+			},
+			"parameters": {
+				"all": 7240000000,
+				"active": 7240000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mistral-7b-v0-2": {
+			"display_name": "Mistral 7B v0.2",
+			"names": [
+				"Mistral 7B v0.2",
+				"Mistral 7B Instruct v0.2",
+				"mistral-7b-instruct-v0.2",
+				"mistral-tiny",
+				"mistral-tiny-2312",
+				"Mistral-7B-v0.2",
+				"Mistral-7B-Instruct-v0.2",
+				"mistralai/Mistral-7B-v0.2",
+				"mistralai/Mistral-7B-Instruct-v0.2"
+			],
+			"link": "https://docs.mistral.ai/models/mistral-7b-0-2",
+			"history": {
+				"first_mention": "2023-12-11",
+				"access": "2023-12-11",
+				"weights": "2023-12-11"
+			},
+			"parameters": {
+				"all": 7240000000,
+				"active": 7240000000
+			},
+			"price": {
+				"input": 0.25,
+				"output": 0.25
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mistral-7b-v0-3": {
+			"display_name": "Mistral 7B v0.3",
+			"names": [
+				"Mistral 7B v0.3",
+				"Mistral 7B Instruct v0.3",
+				"mistral-7b-v0.3",
+				"mistral-7b-instruct-v0.3",
+				"Mistral-7B-v0.3",
+				"Mistral-7B-Instruct-v0.3",
+				"mistralai/Mistral-7B-v0.3",
+				"mistralai/Mistral-7B-Instruct-v0.3"
+			],
+			"link": "https://docs.mistral.ai/models/mistral-7b-0-3",
+			"history": {
+				"first_mention": "2024-05-22",
+				"access": "2024-05-22",
+				"weights": "2024-05-22"
+			},
+			"parameters": {
+				"all": 7240000000,
+				"active": 7240000000
+			},
+			"price": {
+				"input": 0.25,
+				"output": 0.25
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mathstral-7b": {
+			"display_name": "Mathstral 7B",
+			"names": [
+				"Mathstral 7B",
+				"Mathstral",
+				"MathΣtral",
+				"Mathstral-7B",
+				"mathstral-7b-v0.1",
+				"Mathstral-7B-v0.1",
+				"mistralai/Mathstral-7B-v0.1"
+			],
+			"link": "https://mistral.ai/news/mathstral",
+			"history": {
+				"first_mention": "2024-07-16",
+				"access": "2024-07-16",
+				"weights": "2024-07-16"
+			},
+			"parameters": {
+				"all": 7240000000,
+				"active": 7240000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

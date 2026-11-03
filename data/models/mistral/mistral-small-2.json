@@ -1,0 +1,36 @@
+{
+	"display_name": "Mistral Small 2",
+	"versions": {
+		"mistral-small-v24-09": {
+			"display_name": "Mistral Small v24.09",
+			"names": [
+				"Mistral Small v24.09",
+				"Mistral Small 2.0",
+				"Mistral Small 2",
+				"Mistral Small (Sep '24)",
+				"Mistral Small 24.09",
+				"Mistral Small 22B",
+				"mistral-small-2409",
+				"Mistral-Small-Instruct-2409",
+				"mistralai/Mistral-Small-Instruct-2409"
+			],
+			"link": "https://mistral.ai/news/september-24-release",
+			"history": {
+				"first_mention": "2024-09-17",
+				"access": "2024-09-17",
+				"weights": "2024-09-17"
+			},
+			"parameters": {
+				"all": 22000000000,
+				"active": 22000000000
+			},
+			"price": {
+				"input": 0.2,
+				"output": 0.6
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,97 @@
+{
+	"display_name": "Mistral Small 4",
+	"versions": {
+		"mistral-small-4": {
+			"display_name": "Mistral Small 4",
+			"names": [
+				"Mistral Small 4",
+				"Mistral Small 4 119B",
+				"Mistral Small 4 (Reasoning)",
+				"Mistral Small 4 (Non-reasoning)",
+				"Mistral Small 26.03",
+				"mistral-small-2603",
+				"Mistral-Small-4-119B-2603",
+				"Mistral-Small-4-119B-2603-NVFP4",
+				"mistralai/Mistral-Small-4-119B-2603",
+				"mistralai/Mistral-Small-4-119B-2603-NVFP4"
+			],
+			"link": "https://mistral.ai/news/mistral-small-4",
+			"history": {
+				"first_mention": "2026-03-16",
+				"access": "2026-03-16",
+				"weights": "2026-03-16"
+			},
+			"parameters": {
+				"all": 119000000000,
+				"active": 6500000000
+			},
+			"price": {
+				"input": 0.15,
+				"output": 0.6
+			},
+			"efforts": [
+				"None",
+				"High"
+			]
+		},
+		"leanstral": {
+			"display_name": "Leanstral",
+			"names": [
+				"Leanstral",
+				"Leanstral 26.03",
+				"Leanstral 1.0",
+				"Leanstral-120B-A6B",
+				"labs-leanstral-2603",
+				"Leanstral-2603",
+				"mistralai/Leanstral-2603"
+			],
+			"link": "https://mistral.ai/news/leanstral",
+			"history": {
+				"first_mention": "2026-03-16",
+				"access": "2026-03-16",
+				"weights": "2026-03-16"
+			},
+			"parameters": {
+				"all": 119000000000,
+				"active": 6500000000
+			},
+			"price": {
+				"input": 0.0,
+				"output": 0.0
+			},
+			"efforts": [
+				"None",
+				"High"
+			]
+		},
+		"leanstral-1-5": {
+			"display_name": "Leanstral 1.5",
+			"names": [
+				"Leanstral 1.5",
+				"Leanstral-1.5",
+				"Leanstral 1.5 119B",
+				"labs-leanstral-1-5",
+				"Leanstral-1.5-119B-A6B",
+				"mistralai/Leanstral-1.5-119B-A6B"
+			],
+			"link": "https://mistral.ai/news/leanstral-1-5",
+			"history": {
+				"first_mention": "2026-06-30",
+				"access": "2026-06-30",
+				"weights": "2026-07-02"
+			},
+			"parameters": {
+				"all": 119000000000,
+				"active": 6500000000
+			},
+			"price": {
+				"input": 0.0,
+				"output": 0.0
+			},
+			"efforts": [
+				"None",
+				"High"
+			]
+		}
+	}
+}

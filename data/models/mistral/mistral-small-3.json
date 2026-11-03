@@ -1,0 +1,67 @@
+{
+	"display_name": "Mistral Small 3",
+	"versions": {
+		"mistral-small-3": {
+			"display_name": "Mistral Small 3",
+			"names": [
+				"Mistral Small 3",
+				"Mistral Small 3.0",
+				"Mistral Small 3 24B",
+				"Mistral Small 24B",
+				"Mistral Small 3 24B Instruct",
+				"Mistral Small 3 24B Base",
+				"Mistral Small 25.01",
+				"mistral-small-2501",
+				"mistral-small-24b-instruct-2501",
+				"mistral-small-24b-base-2501",
+				"Mistral-Small-24B-Base-2501",
+				"Mistral-Small-24B-Instruct-2501",
+				"mistralai/Mistral-Small-24B-Base-2501",
+				"mistralai/Mistral-Small-24B-Instruct-2501"
+			],
+			"link": "https://mistral.ai/news/mistral-small-3",
+			"history": {
+				"first_mention": "2025-01-30",
+				"access": "2025-01-30",
+				"weights": "2025-01-30"
+			},
+			"parameters": {
+				"all": 24000000000,
+				"active": 24000000000
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.3
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mistral-saba": {
+			"display_name": "Mistral Saba",
+			"names": [
+				"Mistral Saba",
+				"Mistral Saba 24B",
+				"Mistral Saba 25.02",
+				"mistral-saba-2502"
+			],
+			"link": "https://mistral.ai/news/mistral-saba",
+			"history": {
+				"first_mention": "2025-02-17",
+				"access": "2025-02-17",
+				"weights": null
+			},
+			"parameters": {
+				"all": 24000000000,
+				"active": 24000000000
+			},
+			"price": {
+				"input": 0.2,
+				"output": 0.6
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

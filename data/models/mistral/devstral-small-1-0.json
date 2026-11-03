@@ -1,0 +1,34 @@
+{
+	"display_name": "Devstral Small 1.0",
+	"versions": {
+		"devstral-small-1-0": {
+			"display_name": "Devstral Small 1.0",
+			"names": [
+				"Devstral Small 1.0",
+				"Devstral Small",
+				"Devstral Small (May '25)",
+				"Devstral Small 2505",
+				"devstral-small-2505",
+				"Devstral-Small-2505",
+				"mistralai/Devstral-Small-2505"
+			],
+			"link": "https://mistral.ai/news/devstral",
+			"history": {
+				"first_mention": "2025-05-21",
+				"access": "2025-05-21",
+				"weights": "2025-05-21"
+			},
+			"parameters": {
+				"all": 24000000000,
+				"active": 24000000000
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.3
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

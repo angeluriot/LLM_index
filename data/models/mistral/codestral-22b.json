@@ -1,0 +1,35 @@
+{
+	"display_name": "Codestral 22B",
+	"versions": {
+		"codestral-22b": {
+			"display_name": "Codestral 22B",
+			"names": [
+				"Codestral 22B",
+				"Codestral",
+				"Codestral 24.05",
+				"Codestral-22B",
+				"codestral-22b",
+				"codestral-2405",
+				"Codestral-22B-v0.1",
+				"mistralai/Codestral-22B-v0.1"
+			],
+			"link": "https://mistral.ai/news/codestral",
+			"history": {
+				"first_mention": "2024-05-29",
+				"access": "2024-05-29",
+				"weights": "2024-05-29"
+			},
+			"parameters": {
+				"all": 22200000000,
+				"active": 22200000000
+			},
+			"price": {
+				"input": 1.0,
+				"output": 3.0
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

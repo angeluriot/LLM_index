@@ -1,0 +1,44 @@
+{
+	"display_name": "Mistral Large 3",
+	"versions": {
+		"mistral-large-3": {
+			"display_name": "Mistral Large 3",
+			"names": [
+				"Mistral Large 3",
+				"Mistral Large 3 675B",
+				"Mistral Large 3 (675B Instruct 2512)",
+				"Mistral Large 3 (675B Base)",
+				"Mistral Large 3 (675B Instruct 2512 NVFP4)",
+				"Mistral Large 25.12",
+				"mistral-large-2512",
+				"mistral-large-3-675b-base-2512",
+				"mistral-large-3-675b-instruct-2512-nvfp4",
+				"Mistral-Large-3-675B-Base-2512",
+				"Mistral-Large-3-675B-Instruct-2512",
+				"Mistral-Large-3-675B-Instruct-2512-BF16",
+				"Mistral-Large-3-675B-Instruct-2512-NVFP4",
+				"mistralai/Mistral-Large-3-675B-Base-2512",
+				"mistralai/Mistral-Large-3-675B-Instruct-2512",
+				"mistralai/Mistral-Large-3-675B-Instruct-2512-BF16",
+				"mistralai/Mistral-Large-3-675B-Instruct-2512-NVFP4"
+			],
+			"link": "https://mistral.ai/news/mistral-3",
+			"history": {
+				"first_mention": "2025-12-02",
+				"access": "2025-12-02",
+				"weights": "2025-12-02"
+			},
+			"parameters": {
+				"all": 675000000000,
+				"active": 41000000000
+			},
+			"price": {
+				"input": 0.5,
+				"output": 1.5
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}
