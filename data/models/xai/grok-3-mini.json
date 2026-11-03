@@ -1,0 +1,38 @@
+{
+	"display_name": "Grok 3 mini",
+	"versions": {
+		"grok-3-mini": {
+			"display_name": "Grok 3 mini",
+			"names": [
+				"Grok 3 mini",
+				"Grok-3 Mini",
+				"Grok 3 Mini",
+				"Grok 3 mini Reasoning",
+				"grok-3-mini",
+				"grok-3-mini-beta",
+				"grok-3-mini-latest",
+				"grok-3-mini-fast",
+				"grok-3-mini-fast-beta",
+				"grok-3-mini-fast-latest"
+			],
+			"link": "https://x.ai/news/grok-3",
+			"history": {
+				"first_mention": "2025-02-17",
+				"access": "2025-04-09",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.3,
+				"output": 0.5
+			},
+			"efforts": [
+				"Low",
+				"High"
+			]
+		}
+	}
+}

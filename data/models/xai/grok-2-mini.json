@@ -1,0 +1,31 @@
+{
+	"display_name": "Grok-2 mini",
+	"versions": {
+		"grok-2-mini": {
+			"display_name": "Grok-2 mini",
+			"names": [
+				"Grok-2 mini",
+				"Grok-2 Mini",
+				"Grok 2 mini",
+				"grok-2-mini"
+			],
+			"link": "https://x.ai/news/grok-2",
+			"history": {
+				"first_mention": "2024-08-13",
+				"access": "2024-08-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

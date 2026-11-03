@@ -1,0 +1,28 @@
+{
+	"display_name": "Grok-0",
+	"versions": {
+		"grok-0": {
+			"display_name": "Grok-0",
+			"names": [
+				"Grok-0"
+			],
+			"link": "https://x.ai/news/grok",
+			"history": {
+				"first_mention": "2023-11-04",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 33000000000,
+				"active": 33000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

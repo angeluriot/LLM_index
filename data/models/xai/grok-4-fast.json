@@ -1,0 +1,36 @@
+{
+	"display_name": "Grok 4 Fast",
+	"versions": {
+		"grok-4-fast": {
+			"display_name": "Grok 4 Fast",
+			"names": [
+				"Grok 4 Fast",
+				"Grok-4 Fast",
+				"grok-4-fast",
+				"grok-4-fast-reasoning",
+				"grok-4-fast-non-reasoning",
+				"grok-4-fast-search",
+				"tahoe",
+				"menlo"
+			],
+			"link": "https://x.ai/news/grok-4-fast",
+			"history": {
+				"first_mention": "2025-09-19",
+				"access": "2025-09-19",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.2,
+				"output": 0.5
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		}
+	}
+}

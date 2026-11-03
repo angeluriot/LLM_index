@@ -1,0 +1,57 @@
+{
+	"display_name": "Grok 4",
+	"versions": {
+		"grok-4": {
+			"display_name": "Grok 4",
+			"names": [
+				"Grok 4",
+				"Grok-4",
+				"grok-4",
+				"grok-4-0709",
+				"grok-4-latest"
+			],
+			"link": "https://x.ai/news/grok-4",
+			"history": {
+				"first_mention": "2025-06-27",
+				"access": "2025-07-09",
+				"weights": null
+			},
+			"parameters": {
+				"all": 3000000000000,
+				"active": null
+			},
+			"price": {
+				"input": 3.0,
+				"output": 15.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"grok-4-heavy": {
+			"display_name": "Grok 4 Heavy",
+			"names": [
+				"Grok 4 Heavy",
+				"Grok-4 Heavy",
+				"grok-4-heavy"
+			],
+			"link": "https://x.ai/news/grok-4",
+			"history": {
+				"first_mention": "2025-07-09",
+				"access": "2025-07-09",
+				"weights": null
+			},
+			"parameters": {
+				"all": 3000000000000,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

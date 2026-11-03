@@ -1,0 +1,130 @@
+{
+	"display_name": "Grok 4.20",
+	"versions": {
+		"grok-4-20-beta": {
+			"display_name": "Grok 4.20 Beta",
+			"names": [
+				"Grok 4.20 Beta",
+				"Grok-4.20 Beta",
+				"Grok 4.20 (Beta)",
+				"Grok-4.20 Beta Reasoning",
+				"Grok-4.20 Beta Non-Reasoning",
+				"grok-4.20-beta",
+				"grok-4.20-beta-latest",
+				"grok-4.20-beta-reasoning",
+				"grok-4.20-beta-latest-reasoning",
+				"grok-4.20-experimental-beta-0304",
+				"grok-4.20-experimental-beta-0304-reasoning",
+				"grok-4.20-experimental-beta-latest",
+				"grok-4.20-experimental-beta-reasoning-latest"
+			],
+			"link": "https://grok.com/release-notes",
+			"history": {
+				"first_mention": "2025-12-07",
+				"access": "2026-02-17",
+				"weights": null
+			},
+			"parameters": {
+				"all": 500000000000,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		},
+		"grok-4-20-multi-agent": {
+			"display_name": "Grok 4.20 Multi-agent",
+			"names": [
+				"Grok 4.20 Multi-agent",
+				"Grok 4.20 Multi-Agent",
+				"Grok-4.20 Multi-Agent Beta",
+				"Grok 4.20 Heavy",
+				"grok-4.20-multi-agent",
+				"grok-4.20-multi-agent-0309",
+				"grok-4.20-multi-agent-beta",
+				"grok-4.20-multi-agent-beta-0309"
+			],
+			"link": "https://docs.x.ai/developers/model-capabilities/text/multi-agent",
+			"history": {
+				"first_mention": "2026-02-18",
+				"access": "2026-02-18",
+				"weights": null
+			},
+			"parameters": {
+				"all": 500000000000,
+				"active": null
+			},
+			"price": {
+				"input": 1.25,
+				"output": 2.5
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		},
+		"grok-4-20-mar-2026": {
+			"display_name": "Grok 4.20 (Mar 2026)",
+			"names": [
+				"Grok 4.20 (Mar 2026)",
+				"Grok 4.20 0309",
+				"grok-4.20-0309",
+				"grok-4.20-0309-reasoning",
+				"grok-4.20-0309-non-reasoning",
+				"grok-4.20-beta-0309",
+				"grok-4.20-beta-0309-reasoning"
+			],
+			"link": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
+			"history": {
+				"first_mention": "2026-03-09",
+				"access": "2026-03-10",
+				"weights": null
+			},
+			"parameters": {
+				"all": 500000000000,
+				"active": null
+			},
+			"price": {
+				"input": 1.25,
+				"output": 2.5
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		},
+		"grok-4-20-apr-2026": {
+			"display_name": "Grok 4.20 (Apr 2026)",
+			"names": [
+				"Grok 4.20 (Apr 2026)",
+				"Grok 4.20 0309 v2",
+				"grok-4.20-reasoning-gv2"
+			],
+			"link": "https://docs.x.ai/developers/models/grok-4.20-0309-reasoning",
+			"history": {
+				"first_mention": "2026-04-07",
+				"access": "2026-04-07",
+				"weights": null
+			},
+			"parameters": {
+				"all": 500000000000,
+				"active": null
+			},
+			"price": {
+				"input": 1.25,
+				"output": 2.5
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"display_name": "Grok 4.1",
+	"versions": {
+		"grok-4-1": {
+			"display_name": "Grok 4.1",
+			"names": [
+				"Grok 4.1",
+				"Grok-4.1",
+				"grok-4.1",
+				"Grok 4.1 Thinking",
+				"Grok-4.1 Thinking",
+				"grok-4.1-thinking",
+				"quasarflux",
+				"tensor"
+			],
+			"link": "https://x.ai/news/grok-4-1",
+			"history": {
+				"first_mention": "2025-11-17",
+				"access": "2025-11-17",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

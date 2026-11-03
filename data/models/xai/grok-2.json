@@ -1,0 +1,158 @@
+{
+	"display_name": "Grok-2",
+	"versions": {
+		"grok-2-aug-2024": {
+			"display_name": "Grok-2 (Aug 2024)",
+			"names": [
+				"Grok-2 (Aug 2024)",
+				"Grok-2 Beta",
+				"Grok 2 (Aug 2024)",
+				"sus-column-r"
+			],
+			"link": "https://x.ai/news/grok-2",
+			"history": {
+				"first_mention": "2024-04-08",
+				"access": "2024-08-13",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"grok-beta": {
+			"display_name": "Grok Beta",
+			"names": [
+				"Grok Beta",
+				"grok-beta"
+			],
+			"link": "https://x.ai/news/api",
+			"history": {
+				"first_mention": "2024-10-21",
+				"access": "2024-10-21",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 5.0,
+				"output": 15.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"grok-vision-beta": {
+			"display_name": "Grok Vision Beta",
+			"names": [
+				"Grok Vision Beta",
+				"grok-vision-beta"
+			],
+			"link": "https://x.ai/news/api",
+			"history": {
+				"first_mention": "2024-11-04",
+				"access": "2024-11-04",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 5.0,
+				"output": 15.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"grok-2-dec-2024": {
+			"display_name": "Grok-2 (Dec 2024)",
+			"names": [
+				"Grok-2 (Dec 2024)",
+				"Grok 2 (Dec '24)",
+				"Grok 2 (Dec 2024)",
+				"grok-2-1212",
+				"grok-2-latest"
+			],
+			"link": "https://x.ai/news/grok-1212",
+			"history": {
+				"first_mention": "2024-12-12",
+				"access": "2024-12-12",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.0,
+				"output": 10.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"grok-2-vision-dec-2024": {
+			"display_name": "Grok-2 Vision (Dec 2024)",
+			"names": [
+				"Grok-2 Vision (Dec 2024)",
+				"Grok 2 Vision",
+				"grok-2-vision-1212",
+				"grok-2-vision-latest"
+			],
+			"link": "https://x.ai/news/grok-1212",
+			"history": {
+				"first_mention": "2024-12-12",
+				"access": "2024-12-12",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.0,
+				"output": 10.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"grok-2-5": {
+			"display_name": "Grok 2.5",
+			"names": [
+				"Grok 2.5",
+				"Grok-2.5",
+				"Grok 2 (open weights)",
+				"xai-org/grok-2"
+			],
+			"link": "https://huggingface.co/xai-org/grok-2",
+			"history": {
+				"first_mention": "2025-08-23",
+				"access": "2025-08-23",
+				"weights": "2025-08-23"
+			},
+			"parameters": {
+				"all": 270000000000,
+				"active": 115000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

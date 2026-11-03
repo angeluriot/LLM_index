@@ -1,0 +1,30 @@
+{
+	"display_name": "Grok-1",
+	"versions": {
+		"grok-1": {
+			"display_name": "Grok-1",
+			"names": [
+				"Grok-1",
+				"Grok 1",
+				"xai-org/grok-1"
+			],
+			"link": "https://x.ai/news/grok",
+			"history": {
+				"first_mention": "2023-11-04",
+				"access": "2023-12-07",
+				"weights": "2024-03-17"
+			},
+			"parameters": {
+				"all": 314000000000,
+				"active": 78500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

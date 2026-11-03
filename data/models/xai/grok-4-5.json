@@ -1,0 +1,33 @@
+{
+	"display_name": "Grok 4.5",
+	"versions": {
+		"grok-4-5": {
+			"display_name": "Grok 4.5",
+			"names": [
+				"Grok 4.5",
+				"Grok-4.5",
+				"grok-4.5",
+				"grok-4.5-latest"
+			],
+			"link": "https://x.ai/news/grok-4-5",
+			"history": {
+				"first_mention": "2026-04-18",
+				"access": "2026-07-09",
+				"weights": null
+			},
+			"parameters": {
+				"all": 1500000000000,
+				"active": null
+			},
+			"price": {
+				"input": 2.0,
+				"output": 6.0
+			},
+			"efforts": [
+				"Low",
+				"Medium",
+				"High"
+			]
+		}
+	}
+}

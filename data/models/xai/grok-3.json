@@ -1,0 +1,66 @@
+{
+	"display_name": "Grok 3",
+	"versions": {
+		"grok-3": {
+			"display_name": "Grok 3",
+			"names": [
+				"Grok 3",
+				"Grok-3",
+				"Grok 3 Beta",
+				"grok-3",
+				"grok-3-beta",
+				"grok-3-latest",
+				"grok-3-fast",
+				"grok-3-fast-beta",
+				"grok-3-fast-latest",
+				"chocolate",
+				"early-grok-3"
+			],
+			"link": "https://x.ai/news/grok-3",
+			"history": {
+				"first_mention": "2024-04-08",
+				"access": "2025-02-17",
+				"weights": null
+			},
+			"parameters": {
+				"all": 3000000000000,
+				"active": null
+			},
+			"price": {
+				"input": 3.0,
+				"output": 15.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"grok-3-think": {
+			"display_name": "Grok 3 (Think)",
+			"names": [
+				"Grok 3 (Think)",
+				"Grok 3 Think",
+				"Grok 3 Reasoning",
+				"Grok 3 Reasoning Beta",
+				"Grok-3 Reasoning",
+				"grok-3-reasoning"
+			],
+			"link": "https://x.ai/news/grok-3",
+			"history": {
+				"first_mention": "2025-02-17",
+				"access": "2025-02-17",
+				"weights": null
+			},
+			"parameters": {
+				"all": 3000000000000,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}
