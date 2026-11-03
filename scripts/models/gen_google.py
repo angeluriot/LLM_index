@@ -1,7 +1,7 @@
-"""Generates data/models/google-deepmind/*.json (one file per model).
+"""Generates data/models/google/*.json (one file per model).
 
 Covers every Google lab: Google Research, Google Brain, DeepMind and Google DeepMind.
-All the data lives in this script: edit it and run `python scripts/models/gen_google_deepmind.py`.
+All the data lives in this script: edit it and run `python scripts/models/gen_google.py`.
 Existing JSON files are deleted and rewritten, so manual edits to them are lost.
 """
 
@@ -303,4 +303,4 @@ S('Gemma 4 26B A4B', ['Gemma 4 26B', 'gemma-4-26b-a4b', 'gemma-4-26b-a4b-it', 'g
 S('Gemma 4 31B', ['Gemma 4 31B IT', 'gemma-4-31b', 'gemma-4-31b-it', 'gemma-4-31B-it', 'google/gemma-4-31B', 'google/gemma-4-31B-it'], GEMMA4, '2026-04-02', '2026-04-02', weights='2026-04-02', params=(30_700 * M_, 30_700 * M_), price=(0.19, 0.45), efforts=T)
 S('DiffusionGemma 26B A4B', ['DiffusionGemma', 'DiffusionGemma 26B-A4B', 'diffusiongemma-26b-a4b', 'diffusiongemma-26B-A4B-it', 'google/diffusiongemma-26B-A4B-it'], 'https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/', '2026-06-10', '2026-06-10', weights='2026-06-10', params=(25_200 * M_, 3_800 * M_))
 
-write('google-deepmind')
+write('google')
