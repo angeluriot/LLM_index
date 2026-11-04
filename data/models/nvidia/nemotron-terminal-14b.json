@@ -1,0 +1,30 @@
+{
+	"display_name": "Nemotron-Terminal-14B",
+	"versions": {
+		"nemotron-terminal-14b": {
+			"display_name": "Nemotron-Terminal-14B",
+			"names": [
+				"Nemotron-Terminal-14B",
+				"Nemotron Terminal 14B",
+				"nvidia/Nemotron-Terminal-14B"
+			],
+			"link": "https://arxiv.org/abs/2602.21193",
+			"history": {
+				"first_mention": "2026-02-24",
+				"access": "2026-02-24",
+				"weights": "2026-02-24"
+			},
+			"parameters": {
+				"all": 14770000000,
+				"active": 14770000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

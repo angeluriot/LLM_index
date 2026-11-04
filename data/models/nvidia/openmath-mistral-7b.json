@@ -1,0 +1,33 @@
+{
+	"display_name": "OpenMath-Mistral-7B",
+	"versions": {
+		"openmath-mistral-7b": {
+			"display_name": "OpenMath-Mistral-7B",
+			"names": [
+				"OpenMath-Mistral-7B",
+				"OpenMath Mistral 7B",
+				"OpenMath-Mistral-7B-v0.1",
+				"OpenMath-Mistral-7B-v0.1-hf",
+				"nvidia/OpenMath-Mistral-7B-v0.1",
+				"nvidia/OpenMath-Mistral-7B-v0.1-hf"
+			],
+			"link": "https://arxiv.org/abs/2402.10176",
+			"history": {
+				"first_mention": "2024-02-15",
+				"access": "2024-02-15",
+				"weights": "2024-02-15"
+			},
+			"parameters": {
+				"all": 7240000000,
+				"active": 7240000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

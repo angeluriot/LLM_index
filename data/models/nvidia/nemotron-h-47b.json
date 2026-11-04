@@ -1,0 +1,59 @@
+{
+	"display_name": "Nemotron-H 47B",
+	"versions": {
+		"nemotron-h-47b": {
+			"display_name": "Nemotron-H 47B",
+			"names": [
+				"Nemotron-H 47B",
+				"Nemotron-H-47B",
+				"Nemotron-H 47B Base",
+				"Nemotron-H-47B-Base-8K",
+				"nvidia/Nemotron-H-47B-Base-8K"
+			],
+			"link": "https://research.nvidia.com/labs/adlr/nemotronh/",
+			"history": {
+				"first_mention": "2025-03-21",
+				"access": "2025-04-14",
+				"weights": "2025-04-14"
+			},
+			"parameters": {
+				"all": 46790000000,
+				"active": 46790000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"nemotron-h-47b-reasoning": {
+			"display_name": "Nemotron-H 47B Reasoning",
+			"names": [
+				"Nemotron-H 47B Reasoning",
+				"Nemotron-H-47B-Reasoning-128K",
+				"Nemotron-H 47B Reasoning 128K",
+				"nvidia/Nemotron-H-47B-Reasoning-128K"
+			],
+			"link": "https://developer.nvidia.com/blog/nemotron-h-reasoning-enabling-throughput-gains-with-no-compromises/",
+			"history": {
+				"first_mention": "2025-06-06",
+				"access": "2025-06-06",
+				"weights": "2025-06-06"
+			},
+			"parameters": {
+				"all": 46790000000,
+				"active": 46790000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"display_name": "Nemotron-Cascade 14B",
+	"versions": {
+		"nemotron-cascade-14b-thinking": {
+			"display_name": "Nemotron-Cascade-14B-Thinking",
+			"names": [
+				"Nemotron-Cascade-14B-Thinking",
+				"Nemotron Cascade 14B Thinking",
+				"Nemotron-Cascade 14B Thinking",
+				"nvidia/Nemotron-Cascade-14B-Thinking"
+			],
+			"link": "https://arxiv.org/abs/2512.13607",
+			"history": {
+				"first_mention": "2025-12-08",
+				"access": "2025-12-08",
+				"weights": "2025-12-08"
+			},
+			"parameters": {
+				"all": 14770000000,
+				"active": 14770000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

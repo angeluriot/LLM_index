@@ -1,0 +1,32 @@
+{
+	"display_name": "Nemotron-H 56B",
+	"versions": {
+		"nemotron-h-56b": {
+			"display_name": "Nemotron-H 56B",
+			"names": [
+				"Nemotron-H 56B",
+				"Nemotron-H-56B",
+				"Nemotron-H 56B Base",
+				"Nemotron-H-56B-Base-8K",
+				"nvidia/Nemotron-H-56B-Base-8K"
+			],
+			"link": "https://research.nvidia.com/labs/adlr/nemotronh/",
+			"history": {
+				"first_mention": "2025-03-21",
+				"access": "2025-04-14",
+				"weights": "2025-04-14"
+			},
+			"parameters": {
+				"all": 56320000000,
+				"active": 56320000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

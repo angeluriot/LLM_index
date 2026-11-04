@@ -1,0 +1,32 @@
+{
+	"display_name": "Nemotron-Orchestrator-8B",
+	"versions": {
+		"nemotron-orchestrator-8b": {
+			"display_name": "Nemotron-Orchestrator-8B",
+			"names": [
+				"Nemotron-Orchestrator-8B",
+				"Nemotron Orchestrator 8B",
+				"Orchestrator-8B",
+				"ToolOrchestra Orchestrator-8B",
+				"nvidia/Nemotron-Orchestrator-8B"
+			],
+			"link": "https://arxiv.org/abs/2511.21689",
+			"history": {
+				"first_mention": "2025-11-26",
+				"access": "2025-11-26",
+				"weights": "2025-11-26"
+			},
+			"parameters": {
+				"all": 8190000000,
+				"active": 8190000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

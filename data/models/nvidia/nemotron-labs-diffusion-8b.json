@@ -1,0 +1,32 @@
+{
+	"display_name": "Nemotron-Labs-Diffusion-8B",
+	"versions": {
+		"nemotron-labs-diffusion-8b": {
+			"display_name": "Nemotron-Labs-Diffusion-8B",
+			"names": [
+				"Nemotron-Labs-Diffusion-8B",
+				"Nemotron Labs Diffusion 8B",
+				"Nemotron-Labs-Diffusion-8B-Base",
+				"nvidia/Nemotron-Labs-Diffusion-8B",
+				"nvidia/Nemotron-Labs-Diffusion-8B-Base"
+			],
+			"link": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-8B",
+			"history": {
+				"first_mention": "2026-03-18",
+				"access": "2026-03-18",
+				"weights": "2026-03-18"
+			},
+			"parameters": {
+				"all": 8490000000,
+				"active": 8490000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

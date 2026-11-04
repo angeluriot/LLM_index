@@ -1,0 +1,33 @@
+{
+	"display_name": "Nemotron-H 4B",
+	"versions": {
+		"nemotron-h-4b": {
+			"display_name": "Nemotron-H 4B",
+			"names": [
+				"Nemotron-H 4B",
+				"Nemotron-H-4B",
+				"Nemotron-H-4B-Base-8K",
+				"Nemotron-H-4B-Instruct-128K",
+				"nvidia/Nemotron-H-4B-Base-8K",
+				"nvidia/Nemotron-H-4B-Instruct-128K"
+			],
+			"link": "https://huggingface.co/nvidia/Nemotron-H-4B-Instruct-128K",
+			"history": {
+				"first_mention": "2025-04-15",
+				"access": "2025-04-15",
+				"weights": "2025-04-15"
+			},
+			"parameters": {
+				"all": 4490000000,
+				"active": 4490000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

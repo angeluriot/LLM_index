@@ -1,0 +1,31 @@
+{
+	"display_name": "NV-Llama2-70B-RLHF-Chat",
+	"versions": {
+		"nv-llama2-70b-rlhf-chat": {
+			"display_name": "NV-Llama2-70B-RLHF-Chat",
+			"names": [
+				"NV-Llama2-70B-RLHF-Chat",
+				"NV Llama2 70B RLHF Chat",
+				"Llama 2 70B RLHF Chat (NVIDIA)",
+				"nvidia/NV-Llama2-70B-RLHF-Chat"
+			],
+			"link": "https://huggingface.co/nvidia/NV-Llama2-70B-RLHF-Chat",
+			"history": {
+				"first_mention": "2023-12-05",
+				"access": "2023-12-05",
+				"weights": "2023-12-05"
+			},
+			"parameters": {
+				"all": 69000000000,
+				"active": 69000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

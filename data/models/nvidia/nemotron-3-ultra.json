@@ -1,0 +1,207 @@
+{
+	"display_name": "Nemotron 3 Ultra",
+	"versions": {
+		"nemotron-3-ultra": {
+			"display_name": "Nemotron 3 Ultra",
+			"names": [
+				"Nemotron 3 Ultra",
+				"Nemotron 3 Ultra 550B-A55B",
+				"Nemotron 3 Ultra 550B A55B",
+				"Nemotron 3 Ultra (550B A55B)",
+				"Nemotron-3-Ultra-550B-A55B",
+				"NVIDIA-Nemotron-3-Ultra-550B-A55B",
+				"Nemotron 3 Ultra 550B A55B (Reasoning)",
+				"Nemotron 3 Ultra 550B A55B (Non-reasoning)",
+				"nemotron-3-ultra",
+				"nemotron-3-ultra-550b-a55b",
+				"nvidia/nemotron-3-ultra-550b-a55b",
+				"NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
+				"NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+				"nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+				"nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16"
+			],
+			"link": "https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf",
+			"history": {
+				"first_mention": "2025-12-15",
+				"access": "2026-06-04",
+				"weights": "2026-06-04"
+			},
+			"parameters": {
+				"all": 550000000000,
+				"active": 55000000000
+			},
+			"price": {
+				"input": 0.6,
+				"output": 2.7
+			},
+			"efforts": [
+				"",
+				"Medium",
+				"Reasoning"
+			]
+		},
+		"nemotron-labs-teacher-stem": {
+			"display_name": "Nemotron Labs Teacher STEM",
+			"names": [
+				"Nemotron Labs Teacher STEM",
+				"NVIDIA-Nemotron-Labs-Teacher-STEM",
+				"Nemotron-Labs-Teacher-STEM",
+				"nvidia/NVIDIA-Nemotron-Labs-Teacher-STEM"
+			],
+			"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-STEM",
+			"history": {
+				"first_mention": "2026-08-14",
+				"access": "2026-08-14",
+				"weights": "2026-08-14"
+			},
+			"parameters": {
+				"all": 550000000000,
+				"active": 55000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		},
+		"nemotron-labs-teacher-general-reasoning": {
+			"display_name": "Nemotron Labs Teacher General Reasoning",
+			"names": [
+				"Nemotron Labs Teacher General Reasoning",
+				"NVIDIA-Nemotron-Labs-Teacher-General-Reasoning",
+				"Nemotron-Labs-Teacher-General-Reasoning",
+				"nvidia/NVIDIA-Nemotron-Labs-Teacher-General-Reasoning"
+			],
+			"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-General-Reasoning",
+			"history": {
+				"first_mention": "2026-08-14",
+				"access": "2026-08-14",
+				"weights": "2026-08-14"
+			},
+			"parameters": {
+				"all": 550000000000,
+				"active": 55000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		},
+		"nemotron-labs-teacher-instruction-following": {
+			"display_name": "Nemotron Labs Teacher Instruction Following",
+			"names": [
+				"Nemotron Labs Teacher Instruction Following",
+				"NVIDIA-Nemotron-Labs-Teacher-Instruction-Following",
+				"Nemotron-Labs-Teacher-Instruction-Following",
+				"nvidia/NVIDIA-Nemotron-Labs-Teacher-Instruction-Following"
+			],
+			"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-Instruction-Following",
+			"history": {
+				"first_mention": "2026-08-14",
+				"access": "2026-08-14",
+				"weights": "2026-08-14"
+			},
+			"parameters": {
+				"all": 550000000000,
+				"active": 55000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		},
+		"nemotron-labs-teacher-competition-coding": {
+			"display_name": "Nemotron Labs Teacher Competition Coding",
+			"names": [
+				"Nemotron Labs Teacher Competition Coding",
+				"NVIDIA-Nemotron-Labs-Teacher-Competition-Coding",
+				"Nemotron-Labs-Teacher-Competition-Coding",
+				"nvidia/NVIDIA-Nemotron-Labs-Teacher-Competition-Coding"
+			],
+			"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-Competition-Coding",
+			"history": {
+				"first_mention": "2026-08-14",
+				"access": "2026-08-14",
+				"weights": "2026-08-14"
+			},
+			"parameters": {
+				"all": 550000000000,
+				"active": 55000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		},
+		"nemotron-labs-teacher-chat": {
+			"display_name": "Nemotron Labs Teacher Chat",
+			"names": [
+				"Nemotron Labs Teacher Chat",
+				"NVIDIA-Nemotron-Labs-Teacher-Chat",
+				"Nemotron-Labs-Teacher-Chat",
+				"nvidia/NVIDIA-Nemotron-Labs-Teacher-Chat"
+			],
+			"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Teacher-Chat",
+			"history": {
+				"first_mention": "2026-08-14",
+				"access": "2026-08-14",
+				"weights": "2026-08-14"
+			},
+			"parameters": {
+				"all": 550000000000,
+				"active": 55000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		},
+		"nemotron-3-labs-ultra-math": {
+			"display_name": "Nemotron 3 Labs Ultra Math",
+			"names": [
+				"Nemotron 3 Labs Ultra Math",
+				"Nemotron-3-Labs-Ultra-Math-RL",
+				"Nemotron 3 Labs Ultra Math RL",
+				"Nemotron-3-Labs-Ultra-Math-SFT",
+				"nvidia/Nemotron-3-Labs-Ultra-Math-RL",
+				"nvidia/Nemotron-3-Labs-Ultra-Math-SFT"
+			],
+			"link": "https://arxiv.org/abs/2609.10712",
+			"history": {
+				"first_mention": "2026-09-03",
+				"access": "2026-09-03",
+				"weights": "2026-09-03"
+			},
+			"parameters": {
+				"all": 550000000000,
+				"active": 55000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

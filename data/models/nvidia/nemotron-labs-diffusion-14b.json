@@ -1,0 +1,32 @@
+{
+	"display_name": "Nemotron-Labs-Diffusion-14B",
+	"versions": {
+		"nemotron-labs-diffusion-14b": {
+			"display_name": "Nemotron-Labs-Diffusion-14B",
+			"names": [
+				"Nemotron-Labs-Diffusion-14B",
+				"Nemotron Labs Diffusion 14B",
+				"Nemotron-Labs-Diffusion-14B-Base",
+				"nvidia/Nemotron-Labs-Diffusion-14B",
+				"nvidia/Nemotron-Labs-Diffusion-14B-Base"
+			],
+			"link": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-14B",
+			"history": {
+				"first_mention": "2026-04-22",
+				"access": "2026-04-22",
+				"weights": "2026-04-22"
+			},
+			"parameters": {
+				"all": 13510000000,
+				"active": 13510000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

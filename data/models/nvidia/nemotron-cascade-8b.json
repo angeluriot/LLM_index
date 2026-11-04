@@ -1,0 +1,56 @@
+{
+	"display_name": "Nemotron-Cascade 8B",
+	"versions": {
+		"nemotron-cascade-8b-thinking": {
+			"display_name": "Nemotron-Cascade-8B-Thinking",
+			"names": [
+				"Nemotron-Cascade-8B-Thinking",
+				"Nemotron Cascade 8B Thinking",
+				"nvidia/Nemotron-Cascade-8B-Thinking"
+			],
+			"link": "https://arxiv.org/abs/2512.13607",
+			"history": {
+				"first_mention": "2025-12-08",
+				"access": "2025-12-08",
+				"weights": "2025-12-08"
+			},
+			"parameters": {
+				"all": 8190000000,
+				"active": 8190000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"nemotron-cascade-8b": {
+			"display_name": "Nemotron-Cascade-8B",
+			"names": [
+				"Nemotron-Cascade-8B",
+				"Nemotron Cascade 8B",
+				"nvidia/Nemotron-Cascade-8B"
+			],
+			"link": "https://arxiv.org/abs/2512.13607",
+			"history": {
+				"first_mention": "2025-12-08",
+				"access": "2025-12-16",
+				"weights": "2025-12-16"
+			},
+			"parameters": {
+				"all": 8190000000,
+				"active": 8190000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		}
+	}
+}

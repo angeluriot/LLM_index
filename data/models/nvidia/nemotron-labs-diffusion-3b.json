@@ -1,0 +1,32 @@
+{
+	"display_name": "Nemotron-Labs-Diffusion-3B",
+	"versions": {
+		"nemotron-labs-diffusion-3b": {
+			"display_name": "Nemotron-Labs-Diffusion-3B",
+			"names": [
+				"Nemotron-Labs-Diffusion-3B",
+				"Nemotron Labs Diffusion 3B",
+				"Nemotron-Labs-Diffusion-3B-Base",
+				"nvidia/Nemotron-Labs-Diffusion-3B",
+				"nvidia/Nemotron-Labs-Diffusion-3B-Base"
+			],
+			"link": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-3B",
+			"history": {
+				"first_mention": "2026-03-02",
+				"access": "2026-03-02",
+				"weights": "2026-03-02"
+			},
+			"parameters": {
+				"all": 3830000000,
+				"active": 3830000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

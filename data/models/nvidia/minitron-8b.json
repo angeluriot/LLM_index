@@ -1,0 +1,31 @@
+{
+	"display_name": "Minitron 8B",
+	"versions": {
+		"minitron-8b": {
+			"display_name": "Minitron 8B",
+			"names": [
+				"Minitron 8B",
+				"Minitron-8B",
+				"Minitron-8B-Base",
+				"nvidia/Minitron-8B-Base"
+			],
+			"link": "https://arxiv.org/abs/2407.14679",
+			"history": {
+				"first_mention": "2024-07-19",
+				"access": "2024-07-19",
+				"weights": "2024-07-19"
+			},
+			"parameters": {
+				"all": 8300000000,
+				"active": 8300000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

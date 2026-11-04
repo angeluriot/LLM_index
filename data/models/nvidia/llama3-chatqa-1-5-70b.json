@@ -1,0 +1,33 @@
+{
+	"display_name": "Llama3-ChatQA-1.5-70B",
+	"versions": {
+		"llama3-chatqa-1-5-70b": {
+			"display_name": "Llama3-ChatQA-1.5-70B",
+			"names": [
+				"Llama3-ChatQA-1.5-70B",
+				"Llama3 ChatQA 1.5 70B",
+				"ChatQA-1.5-70B",
+				"Llama3-ChatQA-1.5 70B",
+				"nvidia/llama3-chatqa-1.5-70b",
+				"nvidia/Llama3-ChatQA-1.5-70B"
+			],
+			"link": "https://huggingface.co/nvidia/Llama3-ChatQA-1.5-70B",
+			"history": {
+				"first_mention": "2024-04-28",
+				"access": "2024-04-28",
+				"weights": "2024-04-28"
+			},
+			"parameters": {
+				"all": 70550000000,
+				"active": 70550000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

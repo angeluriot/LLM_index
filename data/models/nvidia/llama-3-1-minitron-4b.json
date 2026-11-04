@@ -1,0 +1,58 @@
+{
+	"display_name": "Llama-3.1-Minitron 4B",
+	"versions": {
+		"llama-3-1-minitron-4b-width": {
+			"display_name": "Llama-3.1-Minitron 4B Width",
+			"names": [
+				"Llama-3.1-Minitron 4B Width",
+				"Llama-3.1-Minitron-4B",
+				"Llama-3.1-Minitron-4B-Width-Base",
+				"Llama 3.1 Minitron 4B Width",
+				"nvidia/Llama-3.1-Minitron-4B-Width-Base"
+			],
+			"link": "https://developer.nvidia.com/blog/how-to-prune-and-distill-llama-3-1-8b-to-an-nvidia-llama-3-1-minitron-4b-model/",
+			"history": {
+				"first_mention": "2024-08-14",
+				"access": "2024-08-14",
+				"weights": "2024-08-14"
+			},
+			"parameters": {
+				"all": 4510000000,
+				"active": 4510000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"llama-3-1-minitron-4b-depth": {
+			"display_name": "Llama-3.1-Minitron 4B Depth",
+			"names": [
+				"Llama-3.1-Minitron 4B Depth",
+				"Llama-3.1-Minitron-4B-Depth-Base",
+				"Llama 3.1 Minitron 4B Depth",
+				"nvidia/Llama-3.1-Minitron-4B-Depth-Base"
+			],
+			"link": "https://developer.nvidia.com/blog/how-to-prune-and-distill-llama-3-1-8b-to-an-nvidia-llama-3-1-minitron-4b-model/",
+			"history": {
+				"first_mention": "2024-08-14",
+				"access": "2024-08-14",
+				"weights": "2024-08-14"
+			},
+			"parameters": {
+				"all": 4540000000,
+				"active": 4540000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

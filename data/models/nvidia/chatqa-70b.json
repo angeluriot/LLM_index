@@ -1,0 +1,31 @@
+{
+	"display_name": "ChatQA 70B",
+	"versions": {
+		"chatqa-70b": {
+			"display_name": "ChatQA 70B",
+			"names": [
+				"ChatQA 70B",
+				"ChatQA-70B",
+				"ChatQA 1.0 70B",
+				"ChatQA-1.0-70B"
+			],
+			"link": "https://arxiv.org/abs/2401.10225",
+			"history": {
+				"first_mention": "2024-01-18",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 69000000000,
+				"active": 69000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

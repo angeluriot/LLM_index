@@ -1,0 +1,36 @@
+{
+	"display_name": "Mistral-NeMo-Minitron 8B",
+	"versions": {
+		"mistral-nemo-minitron-8b": {
+			"display_name": "Mistral-NeMo-Minitron 8B",
+			"names": [
+				"Mistral-NeMo-Minitron 8B",
+				"Mistral-NeMo-Minitron-8B",
+				"Mistral NeMo Minitron 8B",
+				"Mistral-NeMo-Minitron 8B Instruct",
+				"Mistral-NeMo-Minitron-8B-Base",
+				"Mistral-NeMo-Minitron-8B-Instruct",
+				"nvidia/mistral-nemo-minitron-8b-8k-instruct",
+				"nvidia/Mistral-NeMo-Minitron-8B-Base",
+				"nvidia/Mistral-NeMo-Minitron-8B-Instruct"
+			],
+			"link": "https://arxiv.org/abs/2408.11796",
+			"history": {
+				"first_mention": "2024-08-21",
+				"access": "2024-08-21",
+				"weights": "2024-08-21"
+			},
+			"parameters": {
+				"all": 8410000000,
+				"active": 8410000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"display_name": "OpenMath2-Llama3.1-70B",
+	"versions": {
+		"openmath2-llama3-1-70b": {
+			"display_name": "OpenMath2-Llama3.1-70B",
+			"names": [
+				"OpenMath2-Llama3.1-70B",
+				"OpenMath2 Llama3.1 70B",
+				"OpenMath2-Llama3.1-70B-nemo",
+				"nvidia/OpenMath2-Llama3.1-70B"
+			],
+			"link": "https://arxiv.org/abs/2410.01560",
+			"history": {
+				"first_mention": "2024-10-02",
+				"access": "2024-10-02",
+				"weights": "2024-10-02"
+			},
+			"parameters": {
+				"all": 70550000000,
+				"active": 70550000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

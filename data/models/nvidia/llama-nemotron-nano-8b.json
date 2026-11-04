@@ -1,0 +1,38 @@
+{
+	"display_name": "Llama Nemotron Nano 8B",
+	"versions": {
+		"llama-nemotron-nano-8b": {
+			"display_name": "Llama Nemotron Nano 8B",
+			"names": [
+				"Llama Nemotron Nano 8B",
+				"Llama-3.1-Nemotron-Nano-8B-v1",
+				"Llama 3.1 Nemotron Nano 8B v1",
+				"Llama 3.1 Nemotron Nano 8B V1",
+				"Llama Nemotron Nano 8B v1",
+				"Llama 3.1 Nemotron Nano 8B",
+				"Llama 3.1 Nemotron Nano 8B (Reasoning)",
+				"Llama 3.1 Nemotron Nano 8B (Non-reasoning)",
+				"llama-3.1-nemotron-nano-8b-v1",
+				"nvidia/Llama-3.1-Nemotron-Nano-8B-v1"
+			],
+			"link": "https://arxiv.org/abs/2505.00949",
+			"history": {
+				"first_mention": "2025-03-18",
+				"access": "2025-03-18",
+				"weights": "2025-03-18"
+			},
+			"parameters": {
+				"all": 8030000000,
+				"active": 8030000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		}
+	}
+}

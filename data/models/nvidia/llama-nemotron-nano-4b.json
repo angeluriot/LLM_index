@@ -1,0 +1,36 @@
+{
+	"display_name": "Llama Nemotron Nano 4B",
+	"versions": {
+		"llama-nemotron-nano-4b": {
+			"display_name": "Llama Nemotron Nano 4B",
+			"names": [
+				"Llama Nemotron Nano 4B",
+				"Llama-3.1-Nemotron-Nano-4B-v1.1",
+				"Llama 3.1 Nemotron Nano 4B v1.1",
+				"Llama Nemotron Nano 4B v1.1",
+				"Llama 3.1 Nemotron Nano 4B v1.1 (Reasoning)",
+				"Llama 3.1 Nemotron Nano 4B v1.1 (Non-reasoning)",
+				"llama-3.1-nemotron-nano-4b-v1.1",
+				"nvidia/Llama-3.1-Nemotron-Nano-4B-v1.1"
+			],
+			"link": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-Nano-4B-v1.1",
+			"history": {
+				"first_mention": "2025-05-20",
+				"access": "2025-05-20",
+				"weights": "2025-05-20"
+			},
+			"parameters": {
+				"all": 4510000000,
+				"active": 4510000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		}
+	}
+}

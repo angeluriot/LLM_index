@@ -1,0 +1,31 @@
+{
+	"display_name": "AceReason-Nemotron-1.1-7B",
+	"versions": {
+		"acereason-nemotron-1-1-7b": {
+			"display_name": "AceReason-Nemotron-1.1-7B",
+			"names": [
+				"AceReason-Nemotron-1.1-7B",
+				"AceReason Nemotron 1.1 7B",
+				"AceReason-Nemotron 1.1 7B",
+				"nvidia/AceReason-Nemotron-1.1-7B"
+			],
+			"link": "https://arxiv.org/abs/2506.13284",
+			"history": {
+				"first_mention": "2025-06-16",
+				"access": "2025-06-16",
+				"weights": "2025-06-16"
+			},
+			"parameters": {
+				"all": 7620000000,
+				"active": 7620000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"display_name": "Nemotron 3 Super",
+	"versions": {
+		"nemotron-3-super": {
+			"display_name": "Nemotron 3 Super",
+			"names": [
+				"Nemotron 3 Super",
+				"Nemotron 3 Super 120B-A12B",
+				"Nemotron 3 Super 120B A12B",
+				"Nemotron 3 Super (120B A12B)",
+				"Nemotron-3-Super-120B-A12B",
+				"NVIDIA-Nemotron-3-Super-120B-A12B",
+				"Nemotron 3 Super 120B A12B (Reasoning)",
+				"Nemotron 3 Super 120B A12B (Non-reasoning)",
+				"nemotron-3-super",
+				"nemotron-3-super-120b-a12b",
+				"nvidia/nemotron-3-super-120b-a12b",
+				"NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+				"NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+				"nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+				"nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"
+			],
+			"link": "https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/",
+			"history": {
+				"first_mention": "2025-12-15",
+				"access": "2026-03-11",
+				"weights": "2026-03-11"
+			},
+			"parameters": {
+				"all": 120700000000,
+				"active": 12800000000
+			},
+			"price": {
+				"input": 0.3,
+				"output": 0.9
+			},
+			"efforts": [
+				"",
+				"Low",
+				"Reasoning"
+			]
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"display_name": "gpt-oss-puzzle-88B",
+	"versions": {
+		"gpt-oss-puzzle-88b": {
+			"display_name": "gpt-oss-puzzle-88B",
+			"names": [
+				"gpt-oss-puzzle-88B",
+				"GPT OSS Puzzle 88B",
+				"gpt-oss-puzzle 88B",
+				"nvidia/gpt-oss-puzzle-88B"
+			],
+			"link": "https://huggingface.co/nvidia/gpt-oss-puzzle-88B",
+			"history": {
+				"first_mention": "2026-03-26",
+				"access": "2026-03-26",
+				"weights": "2026-03-26"
+			},
+			"parameters": {
+				"all": 88000000000,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

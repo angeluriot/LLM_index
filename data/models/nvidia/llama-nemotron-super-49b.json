@@ -1,0 +1,39 @@
+{
+	"display_name": "Llama Nemotron Super 49B",
+	"versions": {
+		"llama-nemotron-super-49b": {
+			"display_name": "Llama Nemotron Super 49B",
+			"names": [
+				"Llama Nemotron Super 49B",
+				"Llama-3.3-Nemotron-Super-49B-v1",
+				"Llama 3.3 Nemotron Super 49B v1",
+				"Llama-3.3 Nemotron Super 49B v1",
+				"Llama Nemotron Super 49B v1",
+				"Llama 3.3 Nemotron Super 49B",
+				"Llama 3.3 Nemotron Super 49B v1 (Reasoning)",
+				"Llama 3.3 Nemotron Super 49B v1 (Non-reasoning)",
+				"llama-3.3-nemotron-super-49b-v1",
+				"Llama-3_3-Nemotron-Super-49B-v1",
+				"nvidia/Llama-3_3-Nemotron-Super-49B-v1"
+			],
+			"link": "https://arxiv.org/abs/2505.00949",
+			"history": {
+				"first_mention": "2025-03-18",
+				"access": "2025-03-18",
+				"weights": "2025-03-18"
+			},
+			"parameters": {
+				"all": 49870000000,
+				"active": 49870000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		}
+	}
+}

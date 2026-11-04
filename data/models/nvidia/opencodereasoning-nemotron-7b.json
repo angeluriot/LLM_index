@@ -1,0 +1,56 @@
+{
+	"display_name": "OpenCodeReasoning-Nemotron 7B",
+	"versions": {
+		"opencodereasoning-nemotron-7b": {
+			"display_name": "OpenCodeReasoning-Nemotron-7B",
+			"names": [
+				"OpenCodeReasoning-Nemotron-7B",
+				"OpenCodeReasoning Nemotron 7B",
+				"OCR-Nemotron-7B",
+				"nvidia/OpenCodeReasoning-Nemotron-7B"
+			],
+			"link": "https://arxiv.org/abs/2504.01943",
+			"history": {
+				"first_mention": "2025-04-02",
+				"access": "2025-04-15",
+				"weights": "2025-04-15"
+			},
+			"parameters": {
+				"all": 7620000000,
+				"active": 7620000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opencodereasoning-nemotron-1-1-7b": {
+			"display_name": "OpenCodeReasoning-Nemotron-1.1-7B",
+			"names": [
+				"OpenCodeReasoning-Nemotron-1.1-7B",
+				"OpenCodeReasoning Nemotron 1.1 7B",
+				"nvidia/OpenCodeReasoning-Nemotron-1.1-7B"
+			],
+			"link": "https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-1.1-7B",
+			"history": {
+				"first_mention": "2025-06-12",
+				"access": "2025-06-12",
+				"weights": "2025-06-12"
+			},
+			"parameters": {
+				"all": 7620000000,
+				"active": 7620000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

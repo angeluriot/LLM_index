@@ -1,0 +1,40 @@
+{
+	"display_name": "Nemotron 3.5 Bolt 74B-A9B",
+	"versions": {
+		"nemotron-3-5-bolt-74b-a9b": {
+			"display_name": "Nemotron 3.5 Bolt 74B-A9B",
+			"names": [
+				"Nemotron 3.5 Bolt 74B-A9B",
+				"Nemotron 3.5 Bolt 74B A9B",
+				"Nemotron 3.5 Bolt 74B-A9B 24GB",
+				"Nemotron 3.5 Bolt (74B A9B 24GB)",
+				"NVIDIA-Nemotron-3.5-Bolt-74B-A9B",
+				"nemotron-3.5-bolt-74b-a9b-24gb",
+				"nemotron-3-5-bolt-74b-a9b",
+				"NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+				"NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+				"nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+				"nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB"
+			],
+			"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+			"history": {
+				"first_mention": "2026-10-15",
+				"access": "2026-10-15",
+				"weights": "2026-10-15"
+			},
+			"parameters": {
+				"all": 74900000000,
+				"active": 9000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Medium",
+				"Reasoning"
+			]
+		}
+	}
+}

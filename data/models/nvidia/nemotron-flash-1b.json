@@ -1,0 +1,30 @@
+{
+	"display_name": "Nemotron-Flash-1B",
+	"versions": {
+		"nemotron-flash-1b": {
+			"display_name": "Nemotron-Flash-1B",
+			"names": [
+				"Nemotron-Flash-1B",
+				"Nemotron Flash 1B",
+				"nvidia/Nemotron-Flash-1B"
+			],
+			"link": "https://arxiv.org/abs/2511.18890",
+			"history": {
+				"first_mention": "2025-11-24",
+				"access": "2025-11-24",
+				"weights": "2025-11-24"
+			},
+			"parameters": {
+				"all": 965000000,
+				"active": 965000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

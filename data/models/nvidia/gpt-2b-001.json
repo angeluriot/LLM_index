@@ -1,0 +1,31 @@
+{
+	"display_name": "GPT-2B-001",
+	"versions": {
+		"gpt-2b-001": {
+			"display_name": "GPT-2B-001",
+			"names": [
+				"GPT-2B-001",
+				"GPT 2B 001",
+				"NeMo GPT-2B-001",
+				"nvidia/GPT-2B-001"
+			],
+			"link": "https://huggingface.co/nvidia/GPT-2B-001",
+			"history": {
+				"first_mention": "2023-04-10",
+				"access": "2023-04-10",
+				"weights": "2023-04-10"
+			},
+			"parameters": {
+				"all": 2000000000,
+				"active": 2000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

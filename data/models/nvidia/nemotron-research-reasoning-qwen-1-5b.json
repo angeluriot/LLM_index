@@ -1,0 +1,31 @@
+{
+	"display_name": "Nemotron-Research-Reasoning-Qwen-1.5B",
+	"versions": {
+		"nemotron-research-reasoning-qwen-1-5b": {
+			"display_name": "Nemotron-Research-Reasoning-Qwen-1.5B",
+			"names": [
+				"Nemotron-Research-Reasoning-Qwen-1.5B",
+				"Nemotron Research Reasoning Qwen 1.5B",
+				"ProRL 1.5B",
+				"nvidia/Nemotron-Research-Reasoning-Qwen-1.5B"
+			],
+			"link": "https://arxiv.org/abs/2505.24864",
+			"history": {
+				"first_mention": "2025-05-30",
+				"access": "2025-05-30",
+				"weights": "2025-05-30"
+			},
+			"parameters": {
+				"all": 1780000000,
+				"active": 1780000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

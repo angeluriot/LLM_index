@@ -1,0 +1,91 @@
+{
+	"display_name": "Minitron 4B",
+	"versions": {
+		"minitron-4b": {
+			"display_name": "Minitron 4B",
+			"names": [
+				"Minitron 4B",
+				"Minitron-4B",
+				"Minitron-4B-Base",
+				"nvidia/Minitron-4B-Base"
+			],
+			"link": "https://arxiv.org/abs/2407.14679",
+			"history": {
+				"first_mention": "2024-07-19",
+				"access": "2024-07-19",
+				"weights": "2024-07-19"
+			},
+			"parameters": {
+				"all": 4200000000,
+				"active": 4200000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"nemotron-mini-4b-instruct": {
+			"display_name": "Nemotron-Mini-4B-Instruct",
+			"names": [
+				"Nemotron-Mini-4B-Instruct",
+				"Nemotron Mini 4B Instruct",
+				"Nemotron-Mini-4B",
+				"Nemotron Mini 4B",
+				"Nemotron-4 4B Instruct",
+				"Nemotron-4-4B-Instruct",
+				"nemotron-mini",
+				"nvidia/nemotron-mini-4b-instruct",
+				"nvidia/Nemotron-Mini-4B-Instruct"
+			],
+			"link": "https://blogs.nvidia.com/blog/ai-decoded-gamescom-ace-nemotron-instruct/",
+			"history": {
+				"first_mention": "2024-08-21",
+				"access": "2024-09-10",
+				"weights": "2024-09-10"
+			},
+			"parameters": {
+				"all": 4200000000,
+				"active": 4200000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"nemotron-4-mini-hindi-4b": {
+			"display_name": "Nemotron-4-Mini-Hindi-4B",
+			"names": [
+				"Nemotron-4-Mini-Hindi-4B",
+				"Nemotron-4 Mini Hindi 4B",
+				"Nemotron-4-Mini-Hindi-4B-Instruct",
+				"Nemotron-4-Mini-Hindi-4B-Base",
+				"Nemotron-Mini-Hindi-4B",
+				"nvidia/Nemotron-4-Mini-Hindi-4B-Instruct",
+				"nvidia/Nemotron-4-Mini-Hindi-4B-Base"
+			],
+			"link": "https://huggingface.co/nvidia/Nemotron-4-Mini-Hindi-4B-Instruct",
+			"history": {
+				"first_mention": "2024-10-24",
+				"access": "2024-10-24",
+				"weights": "2024-10-24"
+			},
+			"parameters": {
+				"all": 4190000000,
+				"active": 4190000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

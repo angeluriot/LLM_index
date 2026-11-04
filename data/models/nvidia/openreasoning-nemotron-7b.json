@@ -1,0 +1,30 @@
+{
+	"display_name": "OpenReasoning-Nemotron-7B",
+	"versions": {
+		"openreasoning-nemotron-7b": {
+			"display_name": "OpenReasoning-Nemotron-7B",
+			"names": [
+				"OpenReasoning-Nemotron-7B",
+				"OpenReasoning Nemotron 7B",
+				"nvidia/OpenReasoning-Nemotron-7B"
+			],
+			"link": "https://huggingface.co/nvidia/OpenReasoning-Nemotron-32B",
+			"history": {
+				"first_mention": "2025-07-16",
+				"access": "2025-07-16",
+				"weights": "2025-07-16"
+			},
+			"parameters": {
+				"all": 7620000000,
+				"active": 7620000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

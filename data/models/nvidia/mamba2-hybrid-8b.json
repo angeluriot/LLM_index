@@ -1,0 +1,85 @@
+{
+	"display_name": "Mamba2-Hybrid 8B",
+	"versions": {
+		"mamba2-hybrid-8b": {
+			"display_name": "Mamba2-Hybrid 8B",
+			"names": [
+				"Mamba2-Hybrid 8B",
+				"Mamba2-Hybrid",
+				"Mamba-2-Hybrid 8B",
+				"Mamba2-Hybrid-8B-3T-4K",
+				"mamba2-hybrid-8b-3t-4k",
+				"nvidia/mamba2-hybrid-8b-3t-4k"
+			],
+			"link": "https://arxiv.org/abs/2406.07887",
+			"history": {
+				"first_mention": "2024-06-12",
+				"access": "2024-06-13",
+				"weights": "2024-06-13"
+			},
+			"parameters": {
+				"all": 8660000000,
+				"active": 8660000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mamba2-hybrid-8b-32k": {
+			"display_name": "Mamba2-Hybrid 8B 32K",
+			"names": [
+				"Mamba2-Hybrid 8B 32K",
+				"Mamba2-Hybrid-8B-3T-32K",
+				"mamba2-hybrid-8b-3t-32k",
+				"nvidia/mamba2-hybrid-8b-3t-32k"
+			],
+			"link": "https://arxiv.org/abs/2406.07887",
+			"history": {
+				"first_mention": "2024-06-12",
+				"access": "2024-06-13",
+				"weights": "2024-06-13"
+			},
+			"parameters": {
+				"all": 8660000000,
+				"active": 8660000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mamba2-hybrid-8b-128k": {
+			"display_name": "Mamba2-Hybrid 8B 128K",
+			"names": [
+				"Mamba2-Hybrid 8B 128K",
+				"Mamba2-Hybrid-8B-3T-128K",
+				"mamba2-hybrid-8b-3t-128k",
+				"nvidia/mamba2-hybrid-8b-3t-128k"
+			],
+			"link": "https://arxiv.org/abs/2406.07887",
+			"history": {
+				"first_mention": "2024-06-12",
+				"access": "2024-06-13",
+				"weights": "2024-06-13"
+			},
+			"parameters": {
+				"all": 8660000000,
+				"active": 8660000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

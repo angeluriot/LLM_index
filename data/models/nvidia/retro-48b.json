@@ -1,0 +1,58 @@
+{
+	"display_name": "Retro 48B",
+	"versions": {
+		"retro-48b": {
+			"display_name": "Retro 48B",
+			"names": [
+				"Retro 48B",
+				"Retro-48B",
+				"Retro 48B Base"
+			],
+			"link": "https://arxiv.org/abs/2310.07713",
+			"history": {
+				"first_mention": "2023-10-11",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 48000000000,
+				"active": 48000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"instructretro-48b": {
+			"display_name": "InstructRetro 48B",
+			"names": [
+				"InstructRetro 48B",
+				"InstructRetro",
+				"InstructRetro-48B",
+				"Retro 48B Instruct",
+				"retro-48b-instruct-4k",
+				"nvidia/retro-48b-instruct-4k"
+			],
+			"link": "https://arxiv.org/abs/2310.07713",
+			"history": {
+				"first_mention": "2023-10-11",
+				"access": "2023-12-20",
+				"weights": "2023-12-20"
+			},
+			"parameters": {
+				"all": 48000000000,
+				"active": 48000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

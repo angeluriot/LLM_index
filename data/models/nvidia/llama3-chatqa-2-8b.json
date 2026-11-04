@@ -1,0 +1,32 @@
+{
+	"display_name": "Llama3-ChatQA-2-8B",
+	"versions": {
+		"llama3-chatqa-2-8b": {
+			"display_name": "Llama3-ChatQA-2-8B",
+			"names": [
+				"Llama3-ChatQA-2-8B",
+				"Llama3 ChatQA 2 8B",
+				"ChatQA-2-8B",
+				"ChatQA 2 8B",
+				"nvidia/Llama3-ChatQA-2-8B"
+			],
+			"link": "https://arxiv.org/abs/2407.14482",
+			"history": {
+				"first_mention": "2024-07-19",
+				"access": "2024-08-28",
+				"weights": "2024-08-28"
+			},
+			"parameters": {
+				"all": 8030000000,
+				"active": 8030000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

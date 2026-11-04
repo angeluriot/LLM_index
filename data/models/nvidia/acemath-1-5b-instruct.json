@@ -1,0 +1,31 @@
+{
+	"display_name": "AceMath-1.5B-Instruct",
+	"versions": {
+		"acemath-1-5b-instruct": {
+			"display_name": "AceMath-1.5B-Instruct",
+			"names": [
+				"AceMath-1.5B-Instruct",
+				"AceMath 1.5B Instruct",
+				"AceMath-1.5B",
+				"nvidia/AceMath-1.5B-Instruct"
+			],
+			"link": "https://arxiv.org/abs/2412.15084",
+			"history": {
+				"first_mention": "2024-12-19",
+				"access": "2025-01-14",
+				"weights": "2025-01-14"
+			},
+			"parameters": {
+				"all": 1540000000,
+				"active": 1540000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

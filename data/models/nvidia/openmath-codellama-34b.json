@@ -1,0 +1,33 @@
+{
+	"display_name": "OpenMath-CodeLlama-34B",
+	"versions": {
+		"openmath-codellama-34b": {
+			"display_name": "OpenMath-CodeLlama-34B",
+			"names": [
+				"OpenMath-CodeLlama-34B",
+				"OpenMath CodeLlama 34B",
+				"OpenMath-CodeLlama-34b-Python",
+				"OpenMath-CodeLlama-34b-Python-hf",
+				"nvidia/OpenMath-CodeLlama-34b-Python",
+				"nvidia/OpenMath-CodeLlama-34b-Python-hf"
+			],
+			"link": "https://arxiv.org/abs/2402.10176",
+			"history": {
+				"first_mention": "2024-02-15",
+				"access": "2024-02-15",
+				"weights": "2024-02-15"
+			},
+			"parameters": {
+				"all": 33700000000,
+				"active": 33700000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"display_name": "Nemotron-Flash-3B",
+	"versions": {
+		"nemotron-flash-3b": {
+			"display_name": "Nemotron-Flash-3B",
+			"names": [
+				"Nemotron-Flash-3B",
+				"Nemotron Flash 3B",
+				"Nemotron-Flash-3B-Instruct",
+				"Nemotron Flash 3B Instruct",
+				"nvidia/Nemotron-Flash-3B",
+				"nvidia/Nemotron-Flash-3B-Instruct"
+			],
+			"link": "https://arxiv.org/abs/2511.18890",
+			"history": {
+				"first_mention": "2025-11-24",
+				"access": "2025-11-24",
+				"weights": "2025-11-24"
+			},
+			"parameters": {
+				"all": 2750000000,
+				"active": 2750000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

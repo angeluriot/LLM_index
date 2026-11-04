@@ -1,0 +1,31 @@
+{
+	"display_name": "Llama2-70B-SteerLM-Chat",
+	"versions": {
+		"llama2-70b-steerlm-chat": {
+			"display_name": "Llama2-70B-SteerLM-Chat",
+			"names": [
+				"Llama2-70B-SteerLM-Chat",
+				"Llama 2 70B SteerLM Chat",
+				"Llama2 70B SteerLM Chat",
+				"nvidia/Llama2-70B-SteerLM-Chat"
+			],
+			"link": "https://arxiv.org/abs/2311.09528",
+			"history": {
+				"first_mention": "2023-11-16",
+				"access": "2023-11-22",
+				"weights": "2023-11-22"
+			},
+			"parameters": {
+				"all": 69000000000,
+				"active": 69000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

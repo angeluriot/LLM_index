@@ -1,0 +1,82 @@
+{
+	"display_name": "OpenCodeReasoning-Nemotron 32B",
+	"versions": {
+		"opencodereasoning-nemotron-32b": {
+			"display_name": "OpenCodeReasoning-Nemotron-32B",
+			"names": [
+				"OpenCodeReasoning-Nemotron-32B",
+				"OpenCodeReasoning Nemotron 32B",
+				"OCR-Nemotron-32B",
+				"nvidia/OpenCodeReasoning-Nemotron-32B"
+			],
+			"link": "https://arxiv.org/abs/2504.01943",
+			"history": {
+				"first_mention": "2025-04-02",
+				"access": "2025-04-15",
+				"weights": "2025-04-15"
+			},
+			"parameters": {
+				"all": 32760000000,
+				"active": 32760000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opencodereasoning-nemotron-32b-ioi": {
+			"display_name": "OpenCodeReasoning-Nemotron-32B-IOI",
+			"names": [
+				"OpenCodeReasoning-Nemotron-32B-IOI",
+				"OpenCodeReasoning Nemotron 32B IOI",
+				"OCR-Nemotron-32B-IOI",
+				"nvidia/OpenCodeReasoning-Nemotron-32B-IOI"
+			],
+			"link": "https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-32B-IOI",
+			"history": {
+				"first_mention": "2025-05-07",
+				"access": "2025-05-07",
+				"weights": "2025-05-07"
+			},
+			"parameters": {
+				"all": 32760000000,
+				"active": 32760000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"opencodereasoning-nemotron-1-1-32b": {
+			"display_name": "OpenCodeReasoning-Nemotron-1.1-32B",
+			"names": [
+				"OpenCodeReasoning-Nemotron-1.1-32B",
+				"OpenCodeReasoning Nemotron 1.1 32B",
+				"nvidia/OpenCodeReasoning-Nemotron-1.1-32B"
+			],
+			"link": "https://huggingface.co/nvidia/OpenCodeReasoning-Nemotron-1.1-32B",
+			"history": {
+				"first_mention": "2025-06-12",
+				"access": "2025-06-12",
+				"weights": "2025-06-12"
+			},
+			"parameters": {
+				"all": 32760000000,
+				"active": 32760000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

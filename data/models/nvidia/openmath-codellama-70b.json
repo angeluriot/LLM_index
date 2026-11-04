@@ -1,0 +1,33 @@
+{
+	"display_name": "OpenMath-CodeLlama-70B",
+	"versions": {
+		"openmath-codellama-70b": {
+			"display_name": "OpenMath-CodeLlama-70B",
+			"names": [
+				"OpenMath-CodeLlama-70B",
+				"OpenMath CodeLlama 70B",
+				"OpenMath-CodeLlama-70b-Python",
+				"OpenMath-CodeLlama-70b-Python-hf",
+				"nvidia/OpenMath-CodeLlama-70b-Python",
+				"nvidia/OpenMath-CodeLlama-70b-Python-hf"
+			],
+			"link": "https://arxiv.org/abs/2402.10176",
+			"history": {
+				"first_mention": "2024-02-15",
+				"access": "2024-02-15",
+				"weights": "2024-02-15"
+			},
+			"parameters": {
+				"all": 69000000000,
+				"active": 69000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

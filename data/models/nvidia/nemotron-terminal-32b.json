@@ -1,0 +1,30 @@
+{
+	"display_name": "Nemotron-Terminal-32B",
+	"versions": {
+		"nemotron-terminal-32b": {
+			"display_name": "Nemotron-Terminal-32B",
+			"names": [
+				"Nemotron-Terminal-32B",
+				"Nemotron Terminal 32B",
+				"nvidia/Nemotron-Terminal-32B"
+			],
+			"link": "https://arxiv.org/abs/2602.21193",
+			"history": {
+				"first_mention": "2026-02-24",
+				"access": "2026-02-24",
+				"weights": "2026-02-24"
+			},
+			"parameters": {
+				"all": 32760000000,
+				"active": 32760000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

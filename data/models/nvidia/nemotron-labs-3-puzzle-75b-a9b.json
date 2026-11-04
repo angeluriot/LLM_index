@@ -1,0 +1,35 @@
+{
+	"display_name": "Nemotron Labs 3 Puzzle 75B-A9B",
+	"versions": {
+		"nemotron-labs-3-puzzle-75b-a9b": {
+			"display_name": "Nemotron Labs 3 Puzzle 75B-A9B",
+			"names": [
+				"Nemotron Labs 3 Puzzle 75B-A9B",
+				"Nemotron-Labs-3-Puzzle-75B-A9B",
+				"NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B",
+				"Puzzle-75B-A9B",
+				"NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16",
+				"nvidia/NVIDIA-Nemotron-Labs-3-Puzzle-75B-A9B-BF16"
+			],
+			"link": "https://arxiv.org/abs/2607.04371",
+			"history": {
+				"first_mention": "2026-07-06",
+				"access": "2026-07-06",
+				"weights": "2026-07-06"
+			},
+			"parameters": {
+				"all": 75300000000,
+				"active": 9300000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Low",
+				"Reasoning"
+			]
+		}
+	}
+}

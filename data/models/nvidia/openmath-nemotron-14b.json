@@ -1,0 +1,55 @@
+{
+	"display_name": "OpenMath-Nemotron-14B",
+	"versions": {
+		"openmath-nemotron-14b": {
+			"display_name": "OpenMath-Nemotron-14B",
+			"names": [
+				"OpenMath-Nemotron-14B",
+				"OpenMath Nemotron 14B",
+				"nvidia/OpenMath-Nemotron-14B"
+			],
+			"link": "https://arxiv.org/abs/2504.16891",
+			"history": {
+				"first_mention": "2025-04-23",
+				"access": "2025-04-23",
+				"weights": "2025-04-23"
+			},
+			"parameters": {
+				"all": 14770000000,
+				"active": 14770000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"openmath-nemotron-14b-kaggle": {
+			"display_name": "OpenMath-Nemotron-14B-Kaggle",
+			"names": [
+				"OpenMath-Nemotron-14B-Kaggle",
+				"OpenMath Nemotron 14B Kaggle",
+				"nvidia/OpenMath-Nemotron-14B-Kaggle"
+			],
+			"link": "https://arxiv.org/abs/2504.16891",
+			"history": {
+				"first_mention": "2025-04-23",
+				"access": "2025-04-23",
+				"weights": "2025-04-23"
+			},
+			"parameters": {
+				"all": 14770000000,
+				"active": 14770000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

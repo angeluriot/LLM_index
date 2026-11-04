@@ -1,0 +1,33 @@
+{
+	"display_name": "Megatron-LM 355M",
+	"versions": {
+		"megatron-lm-355m": {
+			"display_name": "Megatron-LM 355M",
+			"names": [
+				"Megatron-LM 355M",
+				"Megatron-LM (355M)",
+				"Megatron-GPT2 345M",
+				"Megatron-LM 345M",
+				"megatron-gpt2-345m",
+				"nvidia/megatron-gpt2-345m"
+			],
+			"link": "https://arxiv.org/abs/1909.08053",
+			"history": {
+				"first_mention": "2019-09-17",
+				"access": "2022-03-02",
+				"weights": "2022-03-02"
+			},
+			"parameters": {
+				"all": 355000000,
+				"active": 355000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

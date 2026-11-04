@@ -1,0 +1,31 @@
+{
+	"display_name": "OpenMath2-Llama3.1-8B",
+	"versions": {
+		"openmath2-llama3-1-8b": {
+			"display_name": "OpenMath2-Llama3.1-8B",
+			"names": [
+				"OpenMath2-Llama3.1-8B",
+				"OpenMath2 Llama3.1 8B",
+				"OpenMath2-Llama3.1-8B-nemo",
+				"nvidia/OpenMath2-Llama3.1-8B"
+			],
+			"link": "https://arxiv.org/abs/2410.01560",
+			"history": {
+				"first_mention": "2024-10-02",
+				"access": "2024-10-02",
+				"weights": "2024-10-02"
+			},
+			"parameters": {
+				"all": 8030000000,
+				"active": 8030000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"display_name": "MATH",
+	"description": "",
+	"link": "https://huggingface.co/datasets/qwedsacf/competition_math",
+	"last_updated": "2026-11-04",
+	"config": {
+		"type": "SCORE",
+		"min": 0,
+		"max": 100,
+		"log": false,
+		"inverted": false
+	},
+	"versions": [""]
+}

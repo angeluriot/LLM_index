@@ -1,0 +1,32 @@
+{
+	"display_name": "NeMo Megatron GPT 5B",
+	"versions": {
+		"nemo-megatron-gpt-5b": {
+			"display_name": "NeMo Megatron GPT 5B",
+			"names": [
+				"NeMo Megatron GPT 5B",
+				"NeMo Megatron-GPT 5B",
+				"Megatron-GPT 5B",
+				"nemo-megatron-gpt-5B",
+				"nvidia/nemo-megatron-gpt-5B"
+			],
+			"link": "https://huggingface.co/nvidia/nemo-megatron-gpt-5B",
+			"history": {
+				"first_mention": "2022-09-15",
+				"access": "2022-09-15",
+				"weights": "2022-09-15"
+			},
+			"parameters": {
+				"all": 5000000000,
+				"active": 5000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

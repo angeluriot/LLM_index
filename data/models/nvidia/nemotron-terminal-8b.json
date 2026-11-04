@@ -1,0 +1,30 @@
+{
+	"display_name": "Nemotron-Terminal-8B",
+	"versions": {
+		"nemotron-terminal-8b": {
+			"display_name": "Nemotron-Terminal-8B",
+			"names": [
+				"Nemotron-Terminal-8B",
+				"Nemotron Terminal 8B",
+				"nvidia/Nemotron-Terminal-8B"
+			],
+			"link": "https://arxiv.org/abs/2602.21193",
+			"history": {
+				"first_mention": "2026-02-24",
+				"access": "2026-02-24",
+				"weights": "2026-02-24"
+			},
+			"parameters": {
+				"all": 8190000000,
+				"active": 8190000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"display_name": "OpenMath-Nemotron-1.5B",
+	"versions": {
+		"openmath-nemotron-1-5b": {
+			"display_name": "OpenMath-Nemotron-1.5B",
+			"names": [
+				"OpenMath-Nemotron-1.5B",
+				"OpenMath Nemotron 1.5B",
+				"nvidia/OpenMath-Nemotron-1.5B"
+			],
+			"link": "https://arxiv.org/abs/2504.16891",
+			"history": {
+				"first_mention": "2025-04-23",
+				"access": "2025-04-23",
+				"weights": "2025-04-23"
+			},
+			"parameters": {
+				"all": 1540000000,
+				"active": 1540000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

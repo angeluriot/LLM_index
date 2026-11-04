@@ -1,0 +1,83 @@
+{
+	"display_name": "NVLM 1.0",
+	"versions": {
+		"nvlm-d-72b": {
+			"display_name": "NVLM-D 72B",
+			"names": [
+				"NVLM-D 72B",
+				"NVLM-D-72B",
+				"NVLM-D 1.0 72B",
+				"NVLM 1.0 D 72B",
+				"NVLM-D",
+				"nvidia/NVLM-D-72B"
+			],
+			"link": "https://arxiv.org/abs/2409.11402",
+			"history": {
+				"first_mention": "2024-09-17",
+				"access": "2024-10-01",
+				"weights": "2024-10-01"
+			},
+			"parameters": {
+				"all": 79400000000,
+				"active": 79400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"nvlm-h-72b": {
+			"display_name": "NVLM-H 72B",
+			"names": [
+				"NVLM-H 72B",
+				"NVLM-H-72B",
+				"NVLM-H"
+			],
+			"link": "https://arxiv.org/abs/2409.11402",
+			"history": {
+				"first_mention": "2024-09-17",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 79400000000,
+				"active": 79400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"nvlm-x-72b": {
+			"display_name": "NVLM-X 72B",
+			"names": [
+				"NVLM-X 72B",
+				"NVLM-X-72B",
+				"NVLM-X"
+			],
+			"link": "https://arxiv.org/abs/2409.11402",
+			"history": {
+				"first_mention": "2024-09-17",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 79400000000,
+				"active": 79400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

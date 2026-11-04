@@ -1,0 +1,30 @@
+{
+	"display_name": "AceInstruct-7B",
+	"versions": {
+		"aceinstruct-7b": {
+			"display_name": "AceInstruct-7B",
+			"names": [
+				"AceInstruct-7B",
+				"AceInstruct 7B",
+				"nvidia/AceInstruct-7B"
+			],
+			"link": "https://huggingface.co/nvidia/AceInstruct-7B",
+			"history": {
+				"first_mention": "2025-01-15",
+				"access": "2025-01-15",
+				"weights": "2025-01-15"
+			},
+			"parameters": {
+				"all": 7620000000,
+				"active": 7620000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

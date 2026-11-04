@@ -1,0 +1,30 @@
+{
+	"display_name": "AceInstruct-1.5B",
+	"versions": {
+		"aceinstruct-1-5b": {
+			"display_name": "AceInstruct-1.5B",
+			"names": [
+				"AceInstruct-1.5B",
+				"AceInstruct 1.5B",
+				"nvidia/AceInstruct-1.5B"
+			],
+			"link": "https://huggingface.co/nvidia/AceInstruct-1.5B",
+			"history": {
+				"first_mention": "2025-01-15",
+				"access": "2025-01-15",
+				"weights": "2025-01-15"
+			},
+			"parameters": {
+				"all": 1540000000,
+				"active": 1540000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

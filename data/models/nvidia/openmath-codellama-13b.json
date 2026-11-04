@@ -1,0 +1,33 @@
+{
+	"display_name": "OpenMath-CodeLlama-13B",
+	"versions": {
+		"openmath-codellama-13b": {
+			"display_name": "OpenMath-CodeLlama-13B",
+			"names": [
+				"OpenMath-CodeLlama-13B",
+				"OpenMath CodeLlama 13B",
+				"OpenMath-CodeLlama-13b-Python",
+				"OpenMath-CodeLlama-13b-Python-hf",
+				"nvidia/OpenMath-CodeLlama-13b-Python",
+				"nvidia/OpenMath-CodeLlama-13b-Python-hf"
+			],
+			"link": "https://arxiv.org/abs/2402.10176",
+			"history": {
+				"first_mention": "2024-02-15",
+				"access": "2024-02-15",
+				"weights": "2024-02-15"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"display_name": "Nemotron Labs 3 Elastic 30B-A3B",
+	"versions": {
+		"nemotron-labs-3-elastic-30b-a3b": {
+			"display_name": "Nemotron Labs 3 Elastic 30B-A3B",
+			"names": [
+				"Nemotron Labs 3 Elastic 30B-A3B",
+				"Nemotron-Labs-3-Elastic-30B-A3B",
+				"NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B",
+				"NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16",
+				"nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16"
+			],
+			"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-3-Elastic-30B-A3B-BF16",
+			"history": {
+				"first_mention": "2026-05-07",
+				"access": "2026-05-07",
+				"weights": "2026-05-07"
+			},
+			"parameters": {
+				"all": 31600000000,
+				"active": 3200000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		}
+	}
+}

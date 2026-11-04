@@ -1,0 +1,30 @@
+{
+	"display_name": "AceMath-RL-Nemotron-7B",
+	"versions": {
+		"acemath-rl-nemotron-7b": {
+			"display_name": "AceMath-RL-Nemotron-7B",
+			"names": [
+				"AceMath-RL-Nemotron-7B",
+				"AceMath RL Nemotron 7B",
+				"nvidia/AceMath-RL-Nemotron-7B"
+			],
+			"link": "https://huggingface.co/nvidia/AceMath-RL-Nemotron-7B",
+			"history": {
+				"first_mention": "2025-04-22",
+				"access": "2025-04-22",
+				"weights": "2025-04-22"
+			},
+			"parameters": {
+				"all": 7620000000,
+				"active": 7620000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

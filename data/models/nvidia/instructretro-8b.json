@@ -1,0 +1,32 @@
+{
+	"display_name": "InstructRetro 8B",
+	"versions": {
+		"instructretro-8b": {
+			"display_name": "InstructRetro 8B",
+			"names": [
+				"InstructRetro 8B",
+				"InstructRetro-8B",
+				"Retro 8B Instruct",
+				"retro-8b-instruct-4k",
+				"nvidia/retro-8b-instruct-4k"
+			],
+			"link": "https://huggingface.co/nvidia/retro-8b-instruct-4k",
+			"history": {
+				"first_mention": "2023-12-29",
+				"access": "2023-12-29",
+				"weights": "2023-12-29"
+			},
+			"parameters": {
+				"all": 8000000000,
+				"active": 8000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

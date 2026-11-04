@@ -1,0 +1,67 @@
+{
+	"display_name": "NVIDIA Nemotron Nano 12B v2",
+	"versions": {
+		"nvidia-nemotron-nano-12b-v2": {
+			"display_name": "NVIDIA Nemotron Nano 12B v2",
+			"names": [
+				"NVIDIA Nemotron Nano 12B v2",
+				"NVIDIA-Nemotron-Nano-12B-v2",
+				"Nemotron Nano 12B v2",
+				"Nemotron-Nano-12B-v2",
+				"NVIDIA-Nemotron-Nano-12B-v2-Base",
+				"nvidia/NVIDIA-Nemotron-Nano-12B-v2",
+				"nvidia/NVIDIA-Nemotron-Nano-12B-v2-Base"
+			],
+			"link": "https://arxiv.org/abs/2508.14444",
+			"history": {
+				"first_mention": "2025-08-18",
+				"access": "2025-08-18",
+				"weights": "2025-08-18"
+			},
+			"parameters": {
+				"all": 12310000000,
+				"active": 12310000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		},
+		"nvidia-nemotron-nano-12b-v2-vl": {
+			"display_name": "NVIDIA Nemotron Nano 12B v2 VL",
+			"names": [
+				"NVIDIA Nemotron Nano 12B v2 VL",
+				"NVIDIA-Nemotron-Nano-12B-v2-VL",
+				"Nemotron Nano 12B v2 VL",
+				"Nemotron Nano 2 VL",
+				"NVIDIA Nemotron Nano 12B v2 VL (Reasoning)",
+				"NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
+				"nvidia/nemotron-nano-12b-v2-vl",
+				"NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
+				"nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
+			],
+			"link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
+			"history": {
+				"first_mention": "2025-10-28",
+				"access": "2025-10-28",
+				"weights": "2025-10-28"
+			},
+			"parameters": {
+				"all": 13180000000,
+				"active": 13180000000
+			},
+			"price": {
+				"input": 0.2,
+				"output": 0.6
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		}
+	}
+}

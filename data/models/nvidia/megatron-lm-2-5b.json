@@ -1,0 +1,29 @@
+{
+	"display_name": "Megatron-LM 2.5B",
+	"versions": {
+		"megatron-lm-2-5b": {
+			"display_name": "Megatron-LM 2.5B",
+			"names": [
+				"Megatron-LM 2.5B",
+				"Megatron-LM (2.5B)"
+			],
+			"link": "https://arxiv.org/abs/1909.08053",
+			"history": {
+				"first_mention": "2019-09-17",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 2500000000,
+				"active": 2500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

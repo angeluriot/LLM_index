@@ -1,0 +1,30 @@
+{
+	"display_name": "OpenMath-Nemotron-32B",
+	"versions": {
+		"openmath-nemotron-32b": {
+			"display_name": "OpenMath-Nemotron-32B",
+			"names": [
+				"OpenMath-Nemotron-32B",
+				"OpenMath Nemotron 32B",
+				"nvidia/OpenMath-Nemotron-32B"
+			],
+			"link": "https://arxiv.org/abs/2504.16891",
+			"history": {
+				"first_mention": "2025-04-23",
+				"access": "2025-04-23",
+				"weights": "2025-04-23"
+			},
+			"parameters": {
+				"all": 32760000000,
+				"active": 32760000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

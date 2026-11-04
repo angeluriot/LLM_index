@@ -1,0 +1,33 @@
+{
+	"display_name": "Llama3-ChatQA-1.5-8B",
+	"versions": {
+		"llama3-chatqa-1-5-8b": {
+			"display_name": "Llama3-ChatQA-1.5-8B",
+			"names": [
+				"Llama3-ChatQA-1.5-8B",
+				"Llama3 ChatQA 1.5 8B",
+				"ChatQA-1.5-8B",
+				"Llama3-ChatQA-1.5 8B",
+				"nvidia/llama3-chatqa-1.5-8b",
+				"nvidia/Llama3-ChatQA-1.5-8B"
+			],
+			"link": "https://huggingface.co/nvidia/Llama3-ChatQA-1.5-8B",
+			"history": {
+				"first_mention": "2024-04-28",
+				"access": "2024-04-28",
+				"weights": "2024-04-28"
+			},
+			"parameters": {
+				"all": 8030000000,
+				"active": 8030000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

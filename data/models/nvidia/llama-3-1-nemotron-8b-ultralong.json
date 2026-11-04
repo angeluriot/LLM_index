@@ -1,0 +1,36 @@
+{
+	"display_name": "Llama-3.1-Nemotron-8B-UltraLong",
+	"versions": {
+		"llama-3-1-nemotron-8b-ultralong": {
+			"display_name": "Llama-3.1-Nemotron-8B-UltraLong",
+			"names": [
+				"Llama-3.1-Nemotron-8B-UltraLong",
+				"Llama 3.1 Nemotron 8B UltraLong",
+				"UltraLong-8B",
+				"Llama-3.1-Nemotron-8B-UltraLong-1M-Instruct",
+				"Llama-3.1-Nemotron-8B-UltraLong-2M-Instruct",
+				"Llama-3.1-Nemotron-8B-UltraLong-4M-Instruct",
+				"nvidia/Llama-3.1-Nemotron-8B-UltraLong-1M-Instruct",
+				"nvidia/Llama-3.1-Nemotron-8B-UltraLong-2M-Instruct",
+				"nvidia/Llama-3.1-Nemotron-8B-UltraLong-4M-Instruct"
+			],
+			"link": "https://arxiv.org/abs/2504.06214",
+			"history": {
+				"first_mention": "2025-04-08",
+				"access": "2025-04-08",
+				"weights": "2025-04-08"
+			},
+			"parameters": {
+				"all": 8040000000,
+				"active": 8040000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

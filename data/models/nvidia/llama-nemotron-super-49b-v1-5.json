@@ -1,0 +1,37 @@
+{
+	"display_name": "Llama Nemotron Super 49B v1.5",
+	"versions": {
+		"llama-nemotron-super-49b-v1-5": {
+			"display_name": "Llama Nemotron Super 49B v1.5",
+			"names": [
+				"Llama Nemotron Super 49B v1.5",
+				"Llama-3.3-Nemotron-Super-49B-v1.5",
+				"Llama 3.3 Nemotron Super 49B v1.5",
+				"Llama Nemotron Super v1.5",
+				"Llama Nemotron Super 49B v1.5 (Reasoning)",
+				"Llama Nemotron Super 49B v1.5 (Non-reasoning)",
+				"llama-3.3-nemotron-super-49b-v1.5",
+				"Llama-3_3-Nemotron-Super-49B-v1_5",
+				"nvidia/Llama-3_3-Nemotron-Super-49B-v1_5"
+			],
+			"link": "https://developer.nvidia.com/blog/build-more-accurate-and-efficient-ai-agents-with-the-new-nvidia-llama-nemotron-super-v1-5/",
+			"history": {
+				"first_mention": "2025-07-25",
+				"access": "2025-07-25",
+				"weights": "2025-07-25"
+			},
+			"parameters": {
+				"all": 49870000000,
+				"active": 49870000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Reasoning"
+			]
+		}
+	}
+}

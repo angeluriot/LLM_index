@@ -1,0 +1,30 @@
+{
+	"display_name": "OpenMath-Nemotron-7B",
+	"versions": {
+		"openmath-nemotron-7b": {
+			"display_name": "OpenMath-Nemotron-7B",
+			"names": [
+				"OpenMath-Nemotron-7B",
+				"OpenMath Nemotron 7B",
+				"nvidia/OpenMath-Nemotron-7B"
+			],
+			"link": "https://arxiv.org/abs/2504.16891",
+			"history": {
+				"first_mention": "2025-04-23",
+				"access": "2025-04-23",
+				"weights": "2025-04-23"
+			},
+			"parameters": {
+				"all": 7620000000,
+				"active": 7620000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}
