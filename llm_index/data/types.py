@@ -112,6 +112,13 @@ class ResultModel:
 	effort: str | None	# Effort mode used for this result (none if not provided and nb efforts > 1)
 
 
+@dataclass
+class ResultConditions:
+	shots: int	# Number of examples shown to the model (0 by default)
+	pass_k: int	# Number of attempts given to the model (1 by default)
+	maj_k: int	# Number of majority votes used (1 by default)
+
+
 class CostType(Enum):
 	TASK = 'TASK'
 	EVALUATION = 'EVALUATION'
@@ -132,14 +139,13 @@ class ResultSource:
 # Results in JSONL files
 @dataclass
 class RawResult:
-	model: ResultModel		# Model this result corresponds to
-	score: float			# Score achieved in this result
-	shots: int				# Number of examples shown to the model (0 by default)
-	passes: int				# Number of attempts given to the model (1 by default)
-	cost: ResultCost | None	# Cost of the result (none if not available)
-	part: str				# Part of the evaluation this result corresponds to
-	version: str			# Version of the evaluation this result corresponds to
-	source: ResultSource	# Source of the result
+	model: ResultModel				# Model this result corresponds to
+	score: float					# Score achieved in this result
+	conditions: ResultConditions	# Conditions under which the result was obtained
+	cost: ResultCost | None			# Cost of the result (none if not available)
+	part: str						# Part of the evaluation this result corresponds to
+	version: str					# Version of the evaluation this result corresponds to
+	source: ResultSource			# Source of the result
 
 
 @dataclass
