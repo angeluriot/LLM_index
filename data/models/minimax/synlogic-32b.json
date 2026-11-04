@@ -1,0 +1,58 @@
+{
+	"display_name": "SynLogic-32B",
+	"versions": {
+		"synlogic-32b": {
+			"display_name": "SynLogic-32B",
+			"names": [
+				"SynLogic-32B",
+				"SynLogic 32B",
+				"synlogic-32b",
+				"MiniMaxAI/SynLogic-32B"
+			],
+			"link": "https://arxiv.org/abs/2505.19641",
+			"history": {
+				"first_mention": "2025-05-26",
+				"access": "2025-05-30",
+				"weights": "2025-05-30"
+			},
+			"parameters": {
+				"all": 32800000000,
+				"active": 32800000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"synlogic-mix-3-32b": {
+			"display_name": "SynLogic-Mix-3-32B",
+			"names": [
+				"SynLogic-Mix-3-32B",
+				"SynLogic Zero-Mix-3",
+				"Zero-Mix-3",
+				"SynLogic Mix-3 32B",
+				"MiniMaxAI/SynLogic-Mix-3-32B"
+			],
+			"link": "https://huggingface.co/MiniMaxAI/SynLogic-Mix-3-32B",
+			"history": {
+				"first_mention": "2025-05-30",
+				"access": "2025-05-30",
+				"weights": "2025-05-30"
+			},
+			"parameters": {
+				"all": 32800000000,
+				"active": 32800000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

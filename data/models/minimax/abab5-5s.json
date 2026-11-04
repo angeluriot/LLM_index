@@ -1,0 +1,31 @@
+{
+	"display_name": "abab5.5s",
+	"versions": {
+		"abab5-5s": {
+			"display_name": "abab5.5s",
+			"names": [
+				"abab5.5s",
+				"abab5.5s-chat",
+				"abab5.5s-chat-240119",
+				"abab 5.5s"
+			],
+			"link": "https://www.minimaxi.com/news/abab5.5s-chat-240119",
+			"history": {
+				"first_mention": "2024-01-19",
+				"access": "2024-01-19",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.6944,
+				"output": 0.6944
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

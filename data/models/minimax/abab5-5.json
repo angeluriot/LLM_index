@@ -1,0 +1,53 @@
+{
+	"display_name": "abab5.5",
+	"versions": {
+		"abab5-5-jul-2023": {
+			"display_name": "abab5.5 (Jul 2023)",
+			"names": [
+				"abab5.5 (Jul 2023)",
+				"abab5.5 (2023)"
+			],
+			"link": "https://www.volcengine.com/docs/82379/1113739",
+			"history": {
+				"first_mention": "2023-07-18",
+				"access": "2023-07-18",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.0833,
+				"output": 2.0833
+			},
+			"efforts": [
+				""
+			]
+		},
+		"abab5-5-jan-2024": {
+			"display_name": "abab5.5 (Jan 2024)",
+			"names": [
+				"abab5.5 (Jan 2024)",
+				"abab5.5-chat-240123"
+			],
+			"link": "https://www.minimaxi.com/news/abab5.5-chat-240123",
+			"history": {
+				"first_mention": "2024-01-23",
+				"access": "2024-01-23",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 2.0833,
+				"output": 2.0833
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"display_name": "MiniMax-M2-her",
+	"versions": {
+		"minimax-m2-her": {
+			"display_name": "MiniMax-M2-her",
+			"names": [
+				"MiniMax-M2-her",
+				"M2-her",
+				"MiniMax M2-her",
+				"MiniMax M2 her",
+				"minimax-m2-her",
+				"minimax/minimax-m2-her"
+			],
+			"link": "https://www.minimax.io/news/a-deep-dive-into-the-minimax-m2-her-2",
+			"history": {
+				"first_mention": "2026-01-23",
+				"access": "2026-01-23",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.3,
+				"output": 1.2
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"display_name": "abab7-preview",
+	"versions": {
+		"abab7-preview": {
+			"display_name": "abab7-preview",
+			"names": [
+				"abab7-preview",
+				"abab7",
+				"abab7 preview",
+				"abab 7 preview",
+				"abab7-chat-preview"
+			],
+			"link": "https://www.minimax.io/news/abab7-preview-release",
+			"history": {
+				"first_mention": "2024-11-06",
+				"access": "2024-11-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"display_name": "SynLogic-7B",
+	"versions": {
+		"synlogic-7b": {
+			"display_name": "SynLogic-7B",
+			"names": [
+				"SynLogic-7B",
+				"SynLogic 7B",
+				"synlogic-7b",
+				"MiniMaxAI/SynLogic-7B"
+			],
+			"link": "https://arxiv.org/abs/2505.19641",
+			"history": {
+				"first_mention": "2025-05-26",
+				"access": "2025-06-03",
+				"weights": "2025-06-03"
+			},
+			"parameters": {
+				"all": 7600000000,
+				"active": 7600000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

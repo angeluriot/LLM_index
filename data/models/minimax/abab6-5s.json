@@ -1,0 +1,30 @@
+{
+	"display_name": "abab6.5s",
+	"versions": {
+		"abab6-5s": {
+			"display_name": "abab6.5s",
+			"names": [
+				"abab6.5s",
+				"abab6.5s-chat",
+				"abab 6.5s"
+			],
+			"link": "https://www.minimax.io/news/abab65-series",
+			"history": {
+				"first_mention": "2024-04-17",
+				"access": "2024-04-17",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 1.3889,
+				"output": 1.3889
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

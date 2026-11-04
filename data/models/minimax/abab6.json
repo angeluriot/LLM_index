@@ -1,0 +1,30 @@
+{
+	"display_name": "abab6",
+	"versions": {
+		"abab6": {
+			"display_name": "abab6",
+			"names": [
+				"abab6",
+				"abab6-chat",
+				"abab 6"
+			],
+			"link": "https://news.qq.com/rain/a/20240116A04EVV00",
+			"history": {
+				"first_mention": "2024-01-16",
+				"access": "2024-01-16",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 13.8889,
+				"output": 13.8889
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

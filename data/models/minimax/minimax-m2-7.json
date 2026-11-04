@@ -1,0 +1,36 @@
+{
+	"display_name": "MiniMax-M2.7",
+	"versions": {
+		"minimax-m2-7": {
+			"display_name": "MiniMax-M2.7",
+			"names": [
+				"MiniMax-M2.7",
+				"MiniMax M2.7",
+				"minimax-m2.7",
+				"minimax-m2-7",
+				"minimax/minimax-m2.7",
+				"minimax/minimax-m2.7-20260318",
+				"MiniMax-M2.7-highspeed",
+				"MiniMax M2.7 highspeed",
+				"MiniMaxAI/MiniMax-M2.7"
+			],
+			"link": "https://www.minimax.io/news/minimax-m27-en",
+			"history": {
+				"first_mention": "2026-03-18",
+				"access": "2026-03-18",
+				"weights": "2026-04-11"
+			},
+			"parameters": {
+				"all": 230000000000,
+				"active": 10000000000
+			},
+			"price": {
+				"input": 0.3,
+				"output": 1.2
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

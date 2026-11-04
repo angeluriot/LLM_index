@@ -1,0 +1,39 @@
+{
+	"display_name": "MiniMax-M2.5",
+	"versions": {
+		"minimax-m2-5": {
+			"display_name": "MiniMax-M2.5",
+			"names": [
+				"MiniMax-M2.5",
+				"MiniMax M2.5",
+				"minimax-m2.5",
+				"minimax-m2-5",
+				"minimax/minimax-m2.5",
+				"minimax/minimax-m2.5-20260211",
+				"MiniMax-M2.5-highspeed",
+				"MiniMax M2.5 highspeed",
+				"MiniMax-M2.5-Lightning",
+				"MiniMax M2.5 Lightning",
+				"M2.5-Lightning",
+				"MiniMaxAI/MiniMax-M2.5"
+			],
+			"link": "https://www.minimax.io/news/minimax-m25",
+			"history": {
+				"first_mention": "2026-02-12",
+				"access": "2026-02-12",
+				"weights": "2026-02-13"
+			},
+			"parameters": {
+				"all": 230000000000,
+				"active": 10000000000
+			},
+			"price": {
+				"input": 0.3,
+				"output": 1.2
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

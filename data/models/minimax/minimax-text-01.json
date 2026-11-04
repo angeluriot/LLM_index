@@ -1,0 +1,62 @@
+{
+	"display_name": "MiniMax-Text-01",
+	"versions": {
+		"minimax-text-01": {
+			"display_name": "MiniMax-Text-01",
+			"names": [
+				"MiniMax-Text-01",
+				"MiniMax-01",
+				"MiniMax Text 01",
+				"MiniMax Text-01",
+				"minimax-text-01",
+				"minimax/minimax-01",
+				"MiniMaxAI/MiniMax-Text-01",
+				"MiniMaxAI/MiniMax-Text-01-hf"
+			],
+			"link": "https://www.minimax.io/news/minimax-01-series-2",
+			"history": {
+				"first_mention": "2025-01-15",
+				"access": "2025-01-15",
+				"weights": "2025-01-15"
+			},
+			"parameters": {
+				"all": 456000000000,
+				"active": 45900000000
+			},
+			"price": {
+				"input": 0.2,
+				"output": 1.1
+			},
+			"efforts": [
+				""
+			]
+		},
+		"minimax-vl-01": {
+			"display_name": "MiniMax-VL-01",
+			"names": [
+				"MiniMax-VL-01",
+				"MiniMax VL 01",
+				"MiniMax VL-01",
+				"minimax-vl-01",
+				"MiniMaxAI/MiniMax-VL-01"
+			],
+			"link": "https://www.minimax.io/news/minimax-01-series-2",
+			"history": {
+				"first_mention": "2025-01-15",
+				"access": "2025-01-15",
+				"weights": "2025-01-15"
+			},
+			"parameters": {
+				"all": 456400000000,
+				"active": null
+			},
+			"price": {
+				"input": 0.2,
+				"output": 1.1
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}
