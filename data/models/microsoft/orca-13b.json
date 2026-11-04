@@ -1,0 +1,31 @@
+{
+	"display_name": "Orca 13B",
+	"versions": {
+		"orca-13b": {
+			"display_name": "Orca 13B",
+			"names": [
+				"Orca 13B",
+				"Orca",
+				"Orca 1",
+				"Orca-13B"
+			],
+			"link": "https://arxiv.org/abs/2306.02707",
+			"history": {
+				"first_mention": "2023-06-05",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

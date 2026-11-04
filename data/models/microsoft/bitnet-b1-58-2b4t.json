@@ -1,0 +1,33 @@
+{
+	"display_name": "BitNet b1.58 2B4T",
+	"versions": {
+		"bitnet-b1-58-2b4t": {
+			"display_name": "BitNet b1.58 2B4T",
+			"names": [
+				"BitNet b1.58 2B4T",
+				"BitNet b1.58 2B",
+				"BitNet-b1.58-2B-4T",
+				"BitNet 2B4T",
+				"bitnet-b1.58-2B-4T",
+				"microsoft/bitnet-b1.58-2B-4T"
+			],
+			"link": "https://arxiv.org/abs/2504.12285",
+			"history": {
+				"first_mention": "2025-04-16",
+				"access": "2025-04-16",
+				"weights": "2025-04-16"
+			},
+			"parameters": {
+				"all": 2000000000,
+				"active": 2000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

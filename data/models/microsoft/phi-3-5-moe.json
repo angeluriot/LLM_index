@@ -1,0 +1,33 @@
+{
+	"display_name": "Phi-3.5-MoE",
+	"versions": {
+		"phi-3-5-moe": {
+			"display_name": "Phi-3.5-MoE",
+			"names": [
+				"Phi-3.5-MoE",
+				"Phi-3.5-MoE-instruct",
+				"Phi-3.5 MoE",
+				"Phi 3.5 MoE",
+				"phi-3.5-moe-instruct",
+				"microsoft/Phi-3.5-MoE-instruct"
+			],
+			"link": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct",
+			"history": {
+				"first_mention": "2024-08-20",
+				"access": "2024-08-20",
+				"weights": "2024-08-20"
+			},
+			"parameters": {
+				"all": 41900000000,
+				"active": 6600000000
+			},
+			"price": {
+				"input": 0.16,
+				"output": 0.64
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

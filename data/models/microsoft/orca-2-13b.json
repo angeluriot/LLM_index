@@ -1,0 +1,34 @@
+{
+	"display_name": "Orca 2 13B",
+	"versions": {
+		"orca-2-13b": {
+			"display_name": "Orca 2 13B",
+			"names": [
+				"Orca 2 13B",
+				"Orca-2-13B",
+				"Orca 2 (13B)",
+				"Orca 2-13B",
+				"Orca 2",
+				"Orca-2-13b",
+				"microsoft/Orca-2-13b"
+			],
+			"link": "https://www.microsoft.com/en-us/research/blog/orca-2-teaching-small-language-models-how-to-reason/",
+			"history": {
+				"first_mention": "2023-11-18",
+				"access": "2023-11-20",
+				"weights": "2023-11-20"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

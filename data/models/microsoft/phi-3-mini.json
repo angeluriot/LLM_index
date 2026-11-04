@@ -1,0 +1,90 @@
+{
+	"display_name": "Phi-3-mini",
+	"versions": {
+		"phi-3-mini-4k-instruct": {
+			"display_name": "Phi-3-mini-4k-instruct",
+			"names": [
+				"Phi-3-mini-4k-instruct",
+				"Phi-3-mini",
+				"Phi-3-mini 4k",
+				"Phi-3 Mini",
+				"Phi-3 Mini 4k",
+				"phi-3-mini 3.8B",
+				"Phi-3-mini 3.8b",
+				"phi-3-mini-4k-instruct",
+				"microsoft/Phi-3-mini-4k-instruct"
+			],
+			"link": "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/",
+			"history": {
+				"first_mention": "2024-04-22",
+				"access": "2024-04-23",
+				"weights": "2024-04-23"
+			},
+			"parameters": {
+				"all": 3820000000,
+				"active": 3820000000
+			},
+			"price": {
+				"input": 0.13,
+				"output": 0.52
+			},
+			"efforts": [
+				""
+			]
+		},
+		"phi-3-mini-128k-instruct": {
+			"display_name": "Phi-3-mini-128k-instruct",
+			"names": [
+				"Phi-3-mini-128k-instruct",
+				"Phi-3-mini 128k",
+				"Phi-3 Mini 128k",
+				"phi-3-mini-128k-instruct",
+				"microsoft/phi-3-mini-128k-instruct",
+				"microsoft/Phi-3-mini-128k-instruct"
+			],
+			"link": "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/",
+			"history": {
+				"first_mention": "2024-04-22",
+				"access": "2024-04-23",
+				"weights": "2024-04-23"
+			},
+			"parameters": {
+				"all": 3820000000,
+				"active": 3820000000
+			},
+			"price": {
+				"input": 0.13,
+				"output": 0.52
+			},
+			"efforts": [
+				""
+			]
+		},
+		"phi-3-vision-128k-instruct": {
+			"display_name": "Phi-3-vision-128k-instruct",
+			"names": [
+				"Phi-3-vision-128k-instruct",
+				"Phi-3-vision",
+				"Phi-3 Vision",
+				"microsoft/Phi-3-vision-128k-instruct"
+			],
+			"link": "https://azure.microsoft.com/en-us/blog/new-models-added-to-the-phi-3-family-available-on-microsoft-azure/",
+			"history": {
+				"first_mention": "2024-05-21",
+				"access": "2024-05-21",
+				"weights": "2024-05-21"
+			},
+			"parameters": {
+				"all": 4150000000,
+				"active": 4150000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

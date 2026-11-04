@@ -1,0 +1,33 @@
+{
+	"display_name": "WizardCoder 33B",
+	"versions": {
+		"wizardcoder-33b": {
+			"display_name": "WizardCoder 33B",
+			"names": [
+				"WizardCoder 33B",
+				"WizardCoder 33B V1.1",
+				"WizardCoder-33B",
+				"WizardCoder-33B-V1.1",
+				"WizardLMTeam/WizardCoder-33B-V1.1",
+				"WizardLM/WizardCoder-33B-V1.1"
+			],
+			"link": "https://arxiv.org/abs/2306.08568",
+			"history": {
+				"first_mention": "2024-01-04",
+				"access": "2024-01-04",
+				"weights": "2024-01-04"
+			},
+			"parameters": {
+				"all": 33000000000,
+				"active": 33000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

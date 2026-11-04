@@ -1,0 +1,32 @@
+{
+	"display_name": "WizardLM-2 7B",
+	"versions": {
+		"wizardlm-2-7b": {
+			"display_name": "WizardLM-2 7B",
+			"names": [
+				"WizardLM-2 7B",
+				"WizardLM-2-7B",
+				"WizardLM 2 7B",
+				"microsoft/wizardlm-2-7b",
+				"microsoft/WizardLM-2-7B"
+			],
+			"link": "https://wizardlm.github.io/WizardLM2/",
+			"history": {
+				"first_mention": "2024-04-15",
+				"access": "2024-04-15",
+				"weights": "2024-04-15"
+			},
+			"parameters": {
+				"all": 7240000000,
+				"active": 7240000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

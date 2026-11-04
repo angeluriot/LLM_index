@@ -1,0 +1,31 @@
+{
+	"display_name": "Orca-Math",
+	"versions": {
+		"orca-math": {
+			"display_name": "Orca-Math",
+			"names": [
+				"Orca-Math",
+				"Orca-Math 7B",
+				"Orca Math",
+				"Orca-Math-7B"
+			],
+			"link": "https://arxiv.org/abs/2402.14830",
+			"history": {
+				"first_mention": "2024-02-16",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 7240000000,
+				"active": 7240000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

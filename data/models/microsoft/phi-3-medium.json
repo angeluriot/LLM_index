@@ -1,0 +1,65 @@
+{
+	"display_name": "Phi-3-medium",
+	"versions": {
+		"phi-3-medium-4k-instruct": {
+			"display_name": "Phi-3-medium-4k-instruct",
+			"names": [
+				"Phi-3-medium-4k-instruct",
+				"Phi-3-medium",
+				"Phi-3-medium 4k",
+				"Phi-3 Medium",
+				"Phi-3 Medium 14B",
+				"phi-3-medium 14B",
+				"Phi-3-medium 14b",
+				"Phi-3 (14B)",
+				"Phi-3 14b",
+				"microsoft/phi-3-medium-4k-instruct",
+				"microsoft/Phi-3-medium-4k-instruct"
+			],
+			"link": "https://arxiv.org/abs/2404.14219",
+			"history": {
+				"first_mention": "2024-04-22",
+				"access": "2024-05-21",
+				"weights": "2024-05-21"
+			},
+			"parameters": {
+				"all": 13960000000,
+				"active": 13960000000
+			},
+			"price": {
+				"input": 0.17,
+				"output": 0.68
+			},
+			"efforts": [
+				""
+			]
+		},
+		"phi-3-medium-128k-instruct": {
+			"display_name": "Phi-3-medium-128k-instruct",
+			"names": [
+				"Phi-3-medium-128k-instruct",
+				"Phi-3-medium 128k",
+				"Phi-3 Medium 128k",
+				"microsoft/phi-3-medium-128k-instruct",
+				"microsoft/Phi-3-medium-128k-instruct"
+			],
+			"link": "https://arxiv.org/abs/2404.14219",
+			"history": {
+				"first_mention": "2024-04-22",
+				"access": "2024-05-21",
+				"weights": "2024-05-21"
+			},
+			"parameters": {
+				"all": 13960000000,
+				"active": 13960000000
+			},
+			"price": {
+				"input": 0.17,
+				"output": 0.68
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

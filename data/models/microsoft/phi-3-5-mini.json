@@ -1,0 +1,62 @@
+{
+	"display_name": "Phi-3.5-mini",
+	"versions": {
+		"phi-3-5-mini-instruct": {
+			"display_name": "Phi-3.5-mini-instruct",
+			"names": [
+				"Phi-3.5-mini-instruct",
+				"Phi-3.5-mini",
+				"Phi-3.5 Mini",
+				"Phi 3.5 Mini",
+				"phi-3.5-mini-instruct",
+				"microsoft/phi-3.5-mini-128k-instruct",
+				"microsoft/Phi-3.5-mini-instruct"
+			],
+			"link": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct",
+			"history": {
+				"first_mention": "2024-08-20",
+				"access": "2024-08-20",
+				"weights": "2024-08-20"
+			},
+			"parameters": {
+				"all": 3820000000,
+				"active": 3820000000
+			},
+			"price": {
+				"input": 0.13,
+				"output": 0.52
+			},
+			"efforts": [
+				""
+			]
+		},
+		"phi-3-5-vision-instruct": {
+			"display_name": "Phi-3.5-vision-instruct",
+			"names": [
+				"Phi-3.5-vision-instruct",
+				"Phi-3.5-vision",
+				"Phi-3.5 Vision",
+				"Phi-3.5-Vision 4.2B",
+				"phi-3.5-vision-instruct",
+				"microsoft/Phi-3.5-vision-instruct"
+			],
+			"link": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct",
+			"history": {
+				"first_mention": "2024-08-20",
+				"access": "2024-08-20",
+				"weights": "2024-08-20"
+			},
+			"parameters": {
+				"all": 4150000000,
+				"active": 4150000000
+			},
+			"price": {
+				"input": 0.13,
+				"output": 0.52
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

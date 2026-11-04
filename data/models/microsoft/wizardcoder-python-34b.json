@@ -1,0 +1,34 @@
+{
+	"display_name": "WizardCoder Python 34B",
+	"versions": {
+		"wizardcoder-python-34b": {
+			"display_name": "WizardCoder Python 34B",
+			"names": [
+				"WizardCoder Python 34B",
+				"WizardCoder Python 34B V1.0",
+				"WizardCoder-Python-34B",
+				"WizardCoder 34B",
+				"WizardCoder-Python-34B-V1.0",
+				"WizardLMTeam/WizardCoder-Python-34B-V1.0",
+				"WizardLM/WizardCoder-Python-34B-V1.0"
+			],
+			"link": "https://arxiv.org/abs/2306.08568",
+			"history": {
+				"first_mention": "2023-08-26",
+				"access": "2023-08-26",
+				"weights": "2023-08-26"
+			},
+			"parameters": {
+				"all": 33700000000,
+				"active": 33700000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

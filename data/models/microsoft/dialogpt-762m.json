@@ -1,0 +1,32 @@
+{
+	"display_name": "DialoGPT 762M",
+	"versions": {
+		"dialogpt-762m": {
+			"display_name": "DialoGPT 762M",
+			"names": [
+				"DialoGPT 762M",
+				"DialoGPT",
+				"DialoGPT Large",
+				"DialoGPT-large",
+				"microsoft/DialoGPT-large"
+			],
+			"link": "https://arxiv.org/abs/1911.00536",
+			"history": {
+				"first_mention": "2019-11-01",
+				"access": "2019-11-01",
+				"weights": "2019-11-01"
+			},
+			"parameters": {
+				"all": 762000000,
+				"active": 762000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

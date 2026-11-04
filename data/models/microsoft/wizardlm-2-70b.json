@@ -1,0 +1,30 @@
+{
+	"display_name": "WizardLM-2 70B",
+	"versions": {
+		"wizardlm-2-70b": {
+			"display_name": "WizardLM-2 70B",
+			"names": [
+				"WizardLM-2 70B",
+				"WizardLM-2-70B",
+				"WizardLM 2 70B"
+			],
+			"link": "https://wizardlm.github.io/WizardLM2/",
+			"history": {
+				"first_mention": "2024-04-15",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 70000000000,
+				"active": 70000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

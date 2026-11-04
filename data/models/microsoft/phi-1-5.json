@@ -1,0 +1,82 @@
+{
+	"display_name": "phi-1.5",
+	"versions": {
+		"phi-1-5": {
+			"display_name": "phi-1.5",
+			"names": [
+				"phi-1.5",
+				"Phi-1.5",
+				"phi-1.5 (1.3B)",
+				"phi-1_5",
+				"microsoft/phi-1_5"
+			],
+			"link": "https://arxiv.org/abs/2309.05463",
+			"history": {
+				"first_mention": "2023-09-11",
+				"access": "2023-09-11",
+				"weights": "2023-09-11"
+			},
+			"parameters": {
+				"all": 1420000000,
+				"active": 1420000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"phi-1-5-web": {
+			"display_name": "phi-1.5-web",
+			"names": [
+				"phi-1.5-web",
+				"phi-1.5-web (1.3B)",
+				"Phi-1.5-web"
+			],
+			"link": "https://arxiv.org/abs/2309.05463",
+			"history": {
+				"first_mention": "2023-09-11",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 1300000000,
+				"active": 1300000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"phi-1-5-web-only": {
+			"display_name": "phi-1.5-web-only",
+			"names": [
+				"phi-1.5-web-only",
+				"phi-1.5-web-only (1.3B)",
+				"Phi-1.5-web-only"
+			],
+			"link": "https://arxiv.org/abs/2309.05463",
+			"history": {
+				"first_mention": "2023-09-11",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 1300000000,
+				"active": 1300000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"display_name": "BioGPT",
+	"versions": {
+		"biogpt": {
+			"display_name": "BioGPT",
+			"names": [
+				"BioGPT",
+				"BioGPT 347M",
+				"BioGPT-Base",
+				"biogpt",
+				"microsoft/biogpt"
+			],
+			"link": "https://arxiv.org/abs/2210.10341",
+			"history": {
+				"first_mention": "2022-10-19",
+				"access": "2022-10-19",
+				"weights": "2022-10-19"
+			},
+			"parameters": {
+				"all": 347000000,
+				"active": 347000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,119 @@
+{
+	"display_name": "Phi-4",
+	"versions": {
+		"phi-4": {
+			"display_name": "Phi-4",
+			"names": [
+				"Phi-4",
+				"phi-4",
+				"Phi 4",
+				"Phi-4 14B",
+				"Phi-4 14b",
+				"microsoft/phi-4"
+			],
+			"link": "https://arxiv.org/abs/2412.08905",
+			"history": {
+				"first_mention": "2024-12-12",
+				"access": "2024-12-13",
+				"weights": "2025-01-08"
+			},
+			"parameters": {
+				"all": 14700000000,
+				"active": 14700000000
+			},
+			"price": {
+				"input": 0.125,
+				"output": 0.5
+			},
+			"efforts": [
+				""
+			]
+		},
+		"phi-4-reasoning": {
+			"display_name": "Phi-4-reasoning",
+			"names": [
+				"Phi-4-reasoning",
+				"Phi-4 Reasoning",
+				"Phi 4 Reasoning",
+				"Phi-4-Reasoning",
+				"phi-4-reasoning",
+				"microsoft/phi-4-reasoning",
+				"microsoft/Phi-4-reasoning"
+			],
+			"link": "https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/",
+			"history": {
+				"first_mention": "2025-04-30",
+				"access": "2025-04-30",
+				"weights": "2025-04-30"
+			},
+			"parameters": {
+				"all": 14700000000,
+				"active": 14700000000
+			},
+			"price": {
+				"input": 0.125,
+				"output": 0.5
+			},
+			"efforts": [
+				""
+			]
+		},
+		"phi-4-reasoning-plus": {
+			"display_name": "Phi-4-reasoning-plus",
+			"names": [
+				"Phi-4-reasoning-plus",
+				"Phi-4 Reasoning Plus",
+				"Phi 4 Reasoning Plus",
+				"Phi-4-Reasoning-plus",
+				"Phi-4-reasoning+",
+				"phi-4-reasoning-plus",
+				"microsoft/phi-4-reasoning-plus",
+				"microsoft/Phi-4-reasoning-plus"
+			],
+			"link": "https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/",
+			"history": {
+				"first_mention": "2025-04-30",
+				"access": "2025-04-30",
+				"weights": "2025-04-30"
+			},
+			"parameters": {
+				"all": 14700000000,
+				"active": 14700000000
+			},
+			"price": {
+				"input": 0.125,
+				"output": 0.5
+			},
+			"efforts": [
+				""
+			]
+		},
+		"phi-4-reasoning-vision-15b": {
+			"display_name": "Phi-4-reasoning-vision-15B",
+			"names": [
+				"Phi-4-reasoning-vision-15B",
+				"Phi-4-reasoning-vision",
+				"Phi-4 Reasoning Vision",
+				"Phi-4-Reasoning-Vision-15B",
+				"microsoft/Phi-4-reasoning-vision-15B"
+			],
+			"link": "https://huggingface.co/microsoft/Phi-4-reasoning-vision-15B",
+			"history": {
+				"first_mention": "2026-03-04",
+				"access": "2026-03-04",
+				"weights": "2026-03-04"
+			},
+			"parameters": {
+				"all": 15120000000,
+				"active": 15120000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

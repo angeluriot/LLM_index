@@ -1,0 +1,31 @@
+{
+	"display_name": "Phi-4-mini-flash",
+	"versions": {
+		"phi-4-mini-flash-reasoning": {
+			"display_name": "Phi-4-mini-flash-reasoning",
+			"names": [
+				"Phi-4-mini-flash-reasoning",
+				"Phi-4 Mini Flash Reasoning",
+				"Phi-4-mini-flash",
+				"microsoft/Phi-4-mini-flash-reasoning"
+			],
+			"link": "https://huggingface.co/microsoft/Phi-4-mini-flash-reasoning",
+			"history": {
+				"first_mention": "2025-07-09",
+				"access": "2025-07-09",
+				"weights": "2025-07-09"
+			},
+			"parameters": {
+				"all": 3850000000,
+				"active": 3850000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

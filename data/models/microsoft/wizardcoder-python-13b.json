@@ -1,0 +1,33 @@
+{
+	"display_name": "WizardCoder Python 13B",
+	"versions": {
+		"wizardcoder-python-13b": {
+			"display_name": "WizardCoder Python 13B",
+			"names": [
+				"WizardCoder Python 13B",
+				"WizardCoder Python 13B V1.0",
+				"WizardCoder-Python-13B",
+				"WizardCoder-Python-13B-V1.0",
+				"WizardLMTeam/WizardCoder-Python-13B-V1.0",
+				"WizardLM/WizardCoder-Python-13B-V1.0"
+			],
+			"link": "https://arxiv.org/abs/2306.08568",
+			"history": {
+				"first_mention": "2023-08-26",
+				"access": "2023-08-26",
+				"weights": "2023-08-26"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"display_name": "WizardCoder 15B",
+	"versions": {
+		"wizardcoder-15b": {
+			"display_name": "WizardCoder 15B",
+			"names": [
+				"WizardCoder 15B",
+				"WizardCoder 15B V1.0",
+				"WizardCoder-15B",
+				"WizardCoder-15.5B",
+				"WizardCoder",
+				"WizardCoder-15B-V1.0",
+				"WizardLMTeam/WizardCoder-15B-V1.0",
+				"WizardLM/WizardCoder-15B-V1.0"
+			],
+			"link": "https://arxiv.org/abs/2306.08568",
+			"history": {
+				"first_mention": "2023-06-14",
+				"access": "2023-06-14",
+				"weights": "2023-06-14"
+			},
+			"parameters": {
+				"all": 15500000000,
+				"active": 15500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

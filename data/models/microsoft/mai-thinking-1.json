@@ -1,0 +1,56 @@
+{
+	"display_name": "MAI-Thinking-1",
+	"versions": {
+		"mai-thinking-1": {
+			"display_name": "MAI-Thinking-1",
+			"names": [
+				"MAI-Thinking-1",
+				"MAI Thinking 1",
+				"mai-thinking-1",
+				"mai-thinking-1-latest",
+				"microsoft/mai-thinking-1"
+			],
+			"link": "https://microsoft.ai/models/mai-thinking-1/",
+			"history": {
+				"first_mention": "2026-06-02",
+				"access": "2026-08-12",
+				"weights": null
+			},
+			"parameters": {
+				"all": 962000000000,
+				"active": 34700000000
+			},
+			"price": {
+				"input": 2.0,
+				"output": 8.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mai-base-1": {
+			"display_name": "MAI-Base-1",
+			"names": [
+				"MAI-Base-1",
+				"MAI Base 1"
+			],
+			"link": "https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf",
+			"history": {
+				"first_mention": "2026-06-02",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 962000000000,
+				"active": 34700000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

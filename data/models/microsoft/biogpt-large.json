@@ -1,0 +1,56 @@
+{
+	"display_name": "BioGPT-Large",
+	"versions": {
+		"biogpt-large": {
+			"display_name": "BioGPT-Large",
+			"names": [
+				"BioGPT-Large",
+				"BioGPT Large",
+				"BioGPT-Large 1.5B",
+				"microsoft/BioGPT-Large"
+			],
+			"link": "https://arxiv.org/abs/2210.10341",
+			"history": {
+				"first_mention": "2022-10-19",
+				"access": "2023-02-03",
+				"weights": "2023-02-03"
+			},
+			"parameters": {
+				"all": 1500000000,
+				"active": 1500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"biogpt-large-pubmedqa": {
+			"display_name": "BioGPT-Large-PubMedQA",
+			"names": [
+				"BioGPT-Large-PubMedQA",
+				"BioGPT-Large (PubMedQA)",
+				"microsoft/BioGPT-Large-PubMedQA"
+			],
+			"link": "https://arxiv.org/abs/2210.10341",
+			"history": {
+				"first_mention": "2022-10-19",
+				"access": "2023-02-03",
+				"weights": "2023-02-03"
+			},
+			"parameters": {
+				"all": 1500000000,
+				"active": 1500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

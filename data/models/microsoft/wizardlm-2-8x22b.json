@@ -1,0 +1,32 @@
+{
+	"display_name": "WizardLM-2 8x22B",
+	"versions": {
+		"wizardlm-2-8x22b": {
+			"display_name": "WizardLM-2 8x22B",
+			"names": [
+				"WizardLM-2 8x22B",
+				"WizardLM-2-8x22B",
+				"WizardLM 2 8x22B",
+				"microsoft/wizardlm-2-8x22b",
+				"microsoft/WizardLM-2-8x22B"
+			],
+			"link": "https://wizardlm.github.io/WizardLM2/",
+			"history": {
+				"first_mention": "2024-04-15",
+				"access": "2024-04-15",
+				"weights": "2024-04-15"
+			},
+			"parameters": {
+				"all": 140600000000,
+				"active": 39000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

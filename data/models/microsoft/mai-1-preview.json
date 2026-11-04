@@ -1,0 +1,32 @@
+{
+	"display_name": "MAI-1-preview",
+	"versions": {
+		"mai-1-preview": {
+			"display_name": "MAI-1-preview",
+			"names": [
+				"MAI-1-preview",
+				"MAI-1 Preview",
+				"MAI 1 Preview",
+				"mai-1-preview",
+				"MAI-1"
+			],
+			"link": "https://microsoft.ai/news/two-new-in-house-models/",
+			"history": {
+				"first_mention": "2025-08-28",
+				"access": "2025-08-28",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"display_name": "Phi-3-small",
+	"versions": {
+		"phi-3-small-8k-instruct": {
+			"display_name": "Phi-3-small-8k-instruct",
+			"names": [
+				"Phi-3-small-8k-instruct",
+				"Phi-3-small",
+				"Phi-3-small 8k",
+				"Phi-3 Small",
+				"phi-3-small 7.4B",
+				"Phi-3-small 7b",
+				"Phi-3 (7B)",
+				"phi-3-small-8k-instruct",
+				"microsoft/Phi-3-small-8k-instruct"
+			],
+			"link": "https://arxiv.org/abs/2404.14219",
+			"history": {
+				"first_mention": "2024-04-22",
+				"access": "2024-05-21",
+				"weights": "2024-05-21"
+			},
+			"parameters": {
+				"all": 7390000000,
+				"active": 7390000000
+			},
+			"price": {
+				"input": 0.15,
+				"output": 0.6
+			},
+			"efforts": [
+				""
+			]
+		},
+		"phi-3-small-128k-instruct": {
+			"display_name": "Phi-3-small-128k-instruct",
+			"names": [
+				"Phi-3-small-128k-instruct",
+				"Phi-3-small 128k",
+				"Phi-3 Small 128k",
+				"microsoft/Phi-3-small-128k-instruct"
+			],
+			"link": "https://arxiv.org/abs/2404.14219",
+			"history": {
+				"first_mention": "2024-04-22",
+				"access": "2024-05-21",
+				"weights": "2024-05-21"
+			},
+			"parameters": {
+				"all": 7390000000,
+				"active": 7390000000
+			},
+			"price": {
+				"input": 0.15,
+				"output": 0.6
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

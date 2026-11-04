@@ -1,0 +1,84 @@
+{
+	"display_name": "WizardLM 13B",
+	"versions": {
+		"wizardlm-13b-v1-0": {
+			"display_name": "WizardLM 13B V1.0",
+			"names": [
+				"WizardLM 13B V1.0",
+				"WizardLM-13B-V1.0",
+				"WizardLMTeam/WizardLM-13B-V1.0",
+				"WizardLM/WizardLM-13B-V1.0"
+			],
+			"link": "https://arxiv.org/abs/2304.12244",
+			"history": {
+				"first_mention": "2023-05-13",
+				"access": "2023-05-13",
+				"weights": "2023-05-13"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"wizardlm-13b-v1-1": {
+			"display_name": "WizardLM 13B V1.1",
+			"names": [
+				"WizardLM 13B V1.1",
+				"WizardLM-13B-V1.1",
+				"WizardLMTeam/WizardLM-13B-V1.1",
+				"WizardLM/WizardLM-13B-V1.1"
+			],
+			"link": "https://arxiv.org/abs/2304.12244",
+			"history": {
+				"first_mention": "2023-07-07",
+				"access": "2023-07-07",
+				"weights": "2023-07-07"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"wizardlm-13b-v1-2": {
+			"display_name": "WizardLM 13B V1.2",
+			"names": [
+				"WizardLM 13B V1.2",
+				"WizardLM 13B v1.2",
+				"WizardLM-13B-V1.2",
+				"WizardLMTeam/WizardLM-13B-V1.2",
+				"WizardLM/WizardLM-13B-V1.2"
+			],
+			"link": "https://arxiv.org/abs/2304.12244",
+			"history": {
+				"first_mention": "2023-07-25",
+				"access": "2023-07-25",
+				"weights": "2023-07-25"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

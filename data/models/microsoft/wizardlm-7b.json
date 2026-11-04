@@ -1,0 +1,33 @@
+{
+	"display_name": "WizardLM 7B",
+	"versions": {
+		"wizardlm-7b": {
+			"display_name": "WizardLM 7B",
+			"names": [
+				"WizardLM 7B",
+				"WizardLM 7B V1.0",
+				"WizardLM-7B",
+				"WizardLM-7B-V1.0",
+				"WizardLMTeam/WizardLM-7B-V1.0",
+				"WizardLM/WizardLM-7B-V1.0"
+			],
+			"link": "https://arxiv.org/abs/2304.12244",
+			"history": {
+				"first_mention": "2023-04-24",
+				"access": "2023-04-24",
+				"weights": "2023-04-24"
+			},
+			"parameters": {
+				"all": 6700000000,
+				"active": 6700000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

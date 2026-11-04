@@ -1,0 +1,29 @@
+{
+	"display_name": "MAI-Base-2",
+	"versions": {
+		"mai-base-2": {
+			"display_name": "MAI-Base-2",
+			"names": [
+				"MAI-Base-2",
+				"MAI Base 2"
+			],
+			"link": "https://microsoft.ai/pdf/Frontier-Pre-training-at-Microsoft-AI.pdf",
+			"history": {
+				"first_mention": "2026-10-15",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 2800000000000,
+				"active": 80000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

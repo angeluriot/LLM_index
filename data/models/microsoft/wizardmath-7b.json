@@ -1,0 +1,57 @@
+{
+	"display_name": "WizardMath 7B",
+	"versions": {
+		"wizardmath-7b-v1-0": {
+			"display_name": "WizardMath 7B V1.0",
+			"names": [
+				"WizardMath 7B V1.0",
+				"WizardMath-7B-V1.0",
+				"WizardLMTeam/WizardMath-7B-V1.0",
+				"WizardLM/WizardMath-7B-V1.0"
+			],
+			"link": "https://arxiv.org/abs/2308.09583",
+			"history": {
+				"first_mention": "2023-08-11",
+				"access": "2023-08-11",
+				"weights": "2023-08-11"
+			},
+			"parameters": {
+				"all": 6700000000,
+				"active": 6700000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"wizardmath-7b-v1-1": {
+			"display_name": "WizardMath 7B V1.1",
+			"names": [
+				"WizardMath 7B V1.1",
+				"WizardMath-7B-V1.1",
+				"WizardLMTeam/WizardMath-7B-V1.1",
+				"WizardLM/WizardMath-7B-V1.1"
+			],
+			"link": "https://arxiv.org/abs/2308.09583",
+			"history": {
+				"first_mention": "2023-12-19",
+				"access": "2023-12-19",
+				"weights": "2023-12-19"
+			},
+			"parameters": {
+				"all": 7240000000,
+				"active": 7240000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"display_name": "WizardLM 30B",
+	"versions": {
+		"wizardlm-30b": {
+			"display_name": "WizardLM 30B",
+			"names": [
+				"WizardLM 30B",
+				"WizardLM 30B V1.0",
+				"WizardLM-30B",
+				"WizardLM-30B-V1.0",
+				"WizardLMTeam/WizardLM-30B-V1.0",
+				"WizardLM/WizardLM-30B-V1.0"
+			],
+			"link": "https://arxiv.org/abs/2304.12244",
+			"history": {
+				"first_mention": "2023-06-06",
+				"access": "2023-06-06",
+				"weights": "2023-06-06"
+			},
+			"parameters": {
+				"all": 32500000000,
+				"active": 32500000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"display_name": "MAI-DS-R1",
+	"versions": {
+		"mai-ds-r1": {
+			"display_name": "MAI-DS-R1",
+			"names": [
+				"MAI-DS-R1",
+				"MAI DS R1",
+				"mai-ds-r1",
+				"microsoft/mai-ds-r1",
+				"microsoft/MAI-DS-R1"
+			],
+			"link": "https://huggingface.co/microsoft/MAI-DS-R1",
+			"history": {
+				"first_mention": "2025-04-16",
+				"access": "2025-04-16",
+				"weights": "2025-04-16"
+			},
+			"parameters": {
+				"all": 671000000000,
+				"active": 37000000000
+			},
+			"price": {
+				"input": 1.35,
+				"output": 5.4
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

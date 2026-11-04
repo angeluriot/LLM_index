@@ -1,0 +1,90 @@
+{
+	"display_name": "Phi-4-mini",
+	"versions": {
+		"phi-4-mini": {
+			"display_name": "Phi-4-mini",
+			"names": [
+				"Phi-4-mini",
+				"Phi-4-mini-instruct",
+				"Phi-4 Mini",
+				"Phi 4 Mini",
+				"Phi-4 Mini Instruct",
+				"phi-4-mini",
+				"microsoft/phi-4-mini-instruct",
+				"microsoft/Phi-4-mini-instruct"
+			],
+			"link": "https://azure.microsoft.com/en-us/blog/empowering-innovation-the-next-generation-of-the-phi-family/",
+			"history": {
+				"first_mention": "2025-02-26",
+				"access": "2025-02-26",
+				"weights": "2025-02-26"
+			},
+			"parameters": {
+				"all": 3840000000,
+				"active": 3840000000
+			},
+			"price": {
+				"input": 0.075,
+				"output": 0.3
+			},
+			"efforts": [
+				""
+			]
+		},
+		"phi-4-multimodal": {
+			"display_name": "Phi-4-multimodal",
+			"names": [
+				"Phi-4-multimodal",
+				"Phi-4-multimodal-instruct",
+				"Phi-4 Multimodal",
+				"Phi-4-Multimodal",
+				"microsoft/phi-4-multimodal-instruct",
+				"microsoft/Phi-4-multimodal-instruct"
+			],
+			"link": "https://azure.microsoft.com/en-us/blog/empowering-innovation-the-next-generation-of-the-phi-family/",
+			"history": {
+				"first_mention": "2025-02-26",
+				"access": "2025-02-26",
+				"weights": "2025-02-26"
+			},
+			"parameters": {
+				"all": 5570000000,
+				"active": 5570000000
+			},
+			"price": {
+				"input": 0.08,
+				"output": 0.32
+			},
+			"efforts": [
+				""
+			]
+		},
+		"phi-4-mini-reasoning": {
+			"display_name": "Phi-4-mini-reasoning",
+			"names": [
+				"Phi-4-mini-reasoning",
+				"Phi-4 Mini Reasoning",
+				"Phi 4 Mini Reasoning",
+				"phi-4-mini-reasoning",
+				"microsoft/Phi-4-mini-reasoning"
+			],
+			"link": "https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/",
+			"history": {
+				"first_mention": "2025-04-30",
+				"access": "2025-04-30",
+				"weights": "2025-04-30"
+			},
+			"parameters": {
+				"all": 3840000000,
+				"active": 3840000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

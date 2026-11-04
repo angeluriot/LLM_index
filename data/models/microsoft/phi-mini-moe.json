@@ -1,0 +1,31 @@
+{
+	"display_name": "Phi-mini-MoE",
+	"versions": {
+		"phi-mini-moe": {
+			"display_name": "Phi-mini-MoE",
+			"names": [
+				"Phi-mini-MoE",
+				"Phi-mini-MoE-instruct",
+				"Phi mini MoE",
+				"microsoft/Phi-mini-MoE-instruct"
+			],
+			"link": "https://arxiv.org/abs/2506.18349",
+			"history": {
+				"first_mention": "2025-06-23",
+				"access": "2025-06-23",
+				"weights": "2025-06-23"
+			},
+			"parameters": {
+				"all": 7600000000,
+				"active": 2400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

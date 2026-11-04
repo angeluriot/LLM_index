@@ -1,0 +1,33 @@
+{
+	"display_name": "Megatron-Turing NLG 530B",
+	"versions": {
+		"megatron-turing-nlg-530b": {
+			"display_name": "Megatron-Turing NLG 530B",
+			"names": [
+				"Megatron-Turing NLG 530B",
+				"MT-NLG",
+				"MT-NLG 530B",
+				"Megatron-Turing NLG",
+				"Megatron-Turing-NLG",
+				"Megatron Turing NLG 530B"
+			],
+			"link": "https://www.microsoft.com/en-us/research/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/",
+			"history": {
+				"first_mention": "2021-10-11",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 530000000000,
+				"active": 530000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}
