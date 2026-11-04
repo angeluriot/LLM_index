@@ -1,19 +1,25 @@
 Categories:
 
+* Math
 * Engineering
 	* Coding
+		* Frontend
+	* Machine learning
 	* Cyber
+	* Data analysis
 * Science
 	* Physics
 	* Chemistry
 	* Biology
-	* Health
+* Healthcare
 * Legal
 * Finance
 * Forcasting
-* Math
-	* Math problems
-* Research
+* Search
 * Games
 	* Chess
 * Knowledge
+* Alignment
+* Writing
+* Translation
+* Vision
