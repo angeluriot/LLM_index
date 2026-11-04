@@ -8,7 +8,9 @@
 		"min": 0,
 		"max": 100,
 		"log": false,
-		"inverted": false
+		"inverted": false,
+		"unit": "%"
 	},
+	"parts": [""],
 	"versions": [""]
 }

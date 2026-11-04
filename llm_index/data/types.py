@@ -31,7 +31,7 @@ class RawModelVersion:
 	history: ModelHistory		# Important dates related to the model's release and availability
 	parameters: ModelParameters	# Parameter information for the model
 	price: ModelPrice			# Pricing information for the model (creator's API pricing or most relevant other pricing)
-	efforts: list[str]			# Effort modes (like "", ""/"Reasoning", ""/"Thinking", "Instant"/"", "None"/"Low"/"Medium"/"High"/"Xhigh"/"Max", etc...)
+	efforts: list[str]			# Effort modes (e.g. "", ""/"Reasoning", ""/"Thinking", "Instant"/"", "None"/"Low"/"Medium"/"High"/"Xhigh"/"Max", ...)
 
 
 @dataclass
@@ -78,6 +78,7 @@ class EvaluationScoreConfig:
 	max: float | None					# Maximum score achieved in the evaluation (none if no maximum)
 	log: bool							# Whether log should be applied to the scores
 	inverted: bool						# Whether the scores should be inverted (where lower is better)
+	unit: str | None					# Unit of the score (e.g. "%", "points", "$", ...)
 
 
 @dataclass
@@ -95,7 +96,8 @@ class RawEvaluation:
 	link: str											# Link to the evaluation's official page
 	last_updated: date									# Date when the evaluation was last updated
 	config: EvaluationScoreConfig | EvaluationEloConfig	# Configuration for score processing
-	versions: list[str]									# List of versions of the evaluation
+	parts: list[str]									# List of parts of the evaluation (e.g. "", ""/"Level 5", "Tier 1-3"/"Tier 4", "Extended"/""/"Diamond", ...)
+	versions: list[str]									# List of versions of the evaluation (e.g. "", "v1"/"v2", ...)
 
 
 @dataclass
@@ -121,6 +123,12 @@ class ResultCost:
 	type: CostType	# Cost per task or for the entire evaluation
 
 
+@dataclass
+class ResultSource:
+	url: str		# URL of the source (if from an aggregator and it gives a source, use its source, otherwise use the aggregator's URL)
+	creator: bool	# Whether the result comes from the creator of the model
+
+
 # Results in JSONL files
 @dataclass
 class RawResult:
@@ -130,7 +138,7 @@ class RawResult:
 	passes: int				# Number of attempts given to the model (1 by default)
 	cost: ResultCost | None	# Cost of the result (none if not available)
 	version: str			# Version of the evaluation this result corresponds to
-	source: str				# Source of the result (url)
+	source: ResultSource	# Source of the result
 
 
 @dataclass
