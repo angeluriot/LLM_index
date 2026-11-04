@@ -1,0 +1,60 @@
+{
+	"display_name": "DBRX",
+	"versions": {
+		"dbrx-base": {
+			"display_name": "DBRX Base",
+			"names": [
+				"DBRX Base",
+				"DBRX-Base",
+				"dbrx-base",
+				"databricks/dbrx-base"
+			],
+			"link": "https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm",
+			"history": {
+				"first_mention": "2024-03-27",
+				"access": "2024-03-27",
+				"weights": "2024-03-27"
+			},
+			"parameters": {
+				"all": 132000000000,
+				"active": 36000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"dbrx-instruct": {
+			"display_name": "DBRX Instruct",
+			"names": [
+				"DBRX Instruct",
+				"DBRX",
+				"DBRX-Instruct",
+				"DBRX 132B Instruct",
+				"dbrx-instruct",
+				"databricks-dbrx-instruct",
+				"databricks/dbrx-instruct"
+			],
+			"link": "https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm",
+			"history": {
+				"first_mention": "2024-03-27",
+				"access": "2024-03-27",
+				"weights": "2024-03-27"
+			},
+			"parameters": {
+				"all": 132000000000,
+				"active": 36000000000
+			},
+			"price": {
+				"input": 0.75,
+				"output": 2.25
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

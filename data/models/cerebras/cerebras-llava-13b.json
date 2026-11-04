@@ -1,0 +1,31 @@
+{
+	"display_name": "Cerebras-LLaVA-13B",
+	"versions": {
+		"cerebras-llava-13b": {
+			"display_name": "Cerebras-LLaVA-13B",
+			"names": [
+				"Cerebras-LLaVA-13B",
+				"Cerebras-LLaVA 13B",
+				"Cerebras LLaVA 13B",
+				"cerebras/Cerebras-LLaVA-13B"
+			],
+			"link": "https://huggingface.co/cerebras/Cerebras-LLaVA-13B",
+			"history": {
+				"first_mention": "2024-03-19",
+				"access": "2024-03-19",
+				"weights": "2024-03-19"
+			},
+			"parameters": {
+				"all": 13000000000,
+				"active": 13000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

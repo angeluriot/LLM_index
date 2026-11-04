@@ -1,0 +1,61 @@
+{
+	"display_name": "Pythia-160M",
+	"versions": {
+		"pythia-160m": {
+			"display_name": "Pythia-160M",
+			"names": [
+				"Pythia-160M",
+				"Pythia 160M",
+				"Pythia-160m",
+				"Pythia (160M)",
+				"pythia-160m",
+				"EleutherAI/pythia-160m"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-02-13",
+				"access": "2023-02-13",
+				"weights": "2023-02-13"
+			},
+			"parameters": {
+				"all": 162323040,
+				"active": 162323040
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"pythia-160m-deduped": {
+			"display_name": "Pythia-160M-deduped",
+			"names": [
+				"Pythia-160M-deduped",
+				"Pythia 160M deduped",
+				"Pythia-160m-deduped",
+				"Pythia (160M, deduped)",
+				"pythia-160m-deduped",
+				"EleutherAI/pythia-160m-deduped"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-02-13",
+				"access": "2023-02-13",
+				"weights": "2023-02-13"
+			},
+			"parameters": {
+				"all": 162323040,
+				"active": 162323040
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

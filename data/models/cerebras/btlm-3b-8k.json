@@ -1,0 +1,66 @@
+{
+	"display_name": "BTLM-3B-8K",
+	"versions": {
+		"btlm-3b-8k-base": {
+			"display_name": "BTLM-3B-8K-base",
+			"names": [
+				"BTLM-3B-8K-base",
+				"BTLM-3B-8K",
+				"BTLM-3B-8k-base",
+				"BTLM 3B 8K",
+				"BTLM-3B",
+				"BTLM",
+				"btlm-3b-8k-base",
+				"cerebras/btlm-3b-8k-base"
+			],
+			"link": "https://www.cerebras.ai/blog/btlm-3b-8k-7b-performance-in-a-3-billion-parameter-model",
+			"history": {
+				"first_mention": "2023-07-24",
+				"access": "2023-07-24",
+				"weights": "2023-07-24"
+			},
+			"parameters": {
+				"all": 2600000000,
+				"active": 2600000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"btlm-3b-8k-chat": {
+			"display_name": "BTLM-3B-8K-chat",
+			"names": [
+				"BTLM-3B-8K-chat",
+				"BTLM-Chat",
+				"BTLM-3B-8k-chat",
+				"BTLM 3B 8K Chat",
+				"BTLM-3B-8K-DPO",
+				"btlm-3b-8k-chat",
+				"btlm-3b-8k-dpo",
+				"cerebras/btlm-3b-8k-chat",
+				"cerebras/btlm-3b-8k-dpo"
+			],
+			"link": "https://www.cerebras.ai/blog/fine-tuning-language-models-using-direct-preference-optimization",
+			"history": {
+				"first_mention": "2023-12-29",
+				"access": "2023-12-29",
+				"weights": "2023-12-29"
+			},
+			"parameters": {
+				"all": 2600000000,
+				"active": 2600000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

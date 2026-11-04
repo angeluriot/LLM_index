@@ -1,0 +1,70 @@
+{
+	"display_name": "Inkling-Small",
+	"versions": {
+		"inkling-small-preview": {
+			"display_name": "Inkling-Small (Preview)",
+			"names": [
+				"Inkling-Small (Preview)",
+				"Inkling-Small Preview",
+				"Inkling Small (Preview)",
+				"Inkling-Small (preview)"
+			],
+			"link": "https://thinkingmachines.ai/news/introducing-inkling/",
+			"history": {
+				"first_mention": "2026-07-15",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 276000000000,
+				"active": 12000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"None",
+				"Minimal",
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		},
+		"inkling-small": {
+			"display_name": "Inkling-Small",
+			"names": [
+				"Inkling-Small",
+				"Inkling Small",
+				"inkling-small",
+				"thinkingmachines/Inkling-Small",
+				"thinkingmachines/Inkling-Small:peft:262144",
+				"Inkling-Small-NVFP4",
+				"thinkingmachines/Inkling-Small-NVFP4"
+			],
+			"link": "https://thinkingmachines.ai/news/inkling-small/",
+			"history": {
+				"first_mention": "2026-07-30",
+				"access": "2026-07-30",
+				"weights": "2026-07-30"
+			},
+			"parameters": {
+				"all": 276000000000,
+				"active": 12000000000
+			},
+			"price": {
+				"input": 0.3,
+				"output": 1.2
+			},
+			"efforts": [
+				"None",
+				"Minimal",
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		}
+	}
+}

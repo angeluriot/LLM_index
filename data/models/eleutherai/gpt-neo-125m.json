@@ -1,0 +1,33 @@
+{
+	"display_name": "GPT-Neo 125M",
+	"versions": {
+		"gpt-neo-125m": {
+			"display_name": "GPT-Neo 125M",
+			"names": [
+				"GPT-Neo 125M",
+				"GPT-Neo-125M",
+				"GPT-Neo (125M)",
+				"GPT Neo 125M",
+				"gpt-neo-125m",
+				"EleutherAI/gpt-neo-125m"
+			],
+			"link": "https://github.com/EleutherAI/gpt-neo",
+			"history": {
+				"first_mention": "2021-03-21",
+				"access": "2021-03-21",
+				"weights": "2021-03-21"
+			},
+			"parameters": {
+				"all": 125198592,
+				"active": 125198592
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,116 @@
+{
+	"display_name": "MPT-7B",
+	"versions": {
+		"mpt-7b": {
+			"display_name": "MPT-7B",
+			"names": [
+				"MPT-7B",
+				"MPT 7B",
+				"MPT-7B Base",
+				"MosaicML MPT-7B",
+				"mpt-7b",
+				"mosaicml/mpt-7b"
+			],
+			"link": "https://www.databricks.com/blog/mpt-7b",
+			"history": {
+				"first_mention": "2023-05-05",
+				"access": "2023-05-05",
+				"weights": "2023-05-05"
+			},
+			"parameters": {
+				"all": 6649000000,
+				"active": 6649000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mpt-7b-instruct": {
+			"display_name": "MPT-7B-Instruct",
+			"names": [
+				"MPT-7B-Instruct",
+				"MPT 7B Instruct",
+				"MPT-7B Instruct",
+				"databricks-mpt-7b-instruct",
+				"mpt-7b-instruct",
+				"mosaicml/mpt-7b-instruct"
+			],
+			"link": "https://www.databricks.com/blog/mpt-7b",
+			"history": {
+				"first_mention": "2023-05-05",
+				"access": "2023-05-05",
+				"weights": "2023-05-05"
+			},
+			"parameters": {
+				"all": 6649000000,
+				"active": 6649000000
+			},
+			"price": {
+				"input": 0.5,
+				"output": 0.5
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mpt-7b-chat": {
+			"display_name": "MPT-7B-Chat",
+			"names": [
+				"MPT-7B-Chat",
+				"MPT 7B Chat",
+				"MPT-7B Chat",
+				"mpt-7b-chat",
+				"mosaicml/mpt-7b-chat"
+			],
+			"link": "https://www.databricks.com/blog/mpt-7b",
+			"history": {
+				"first_mention": "2023-05-05",
+				"access": "2023-05-05",
+				"weights": "2023-05-05"
+			},
+			"parameters": {
+				"all": 6649000000,
+				"active": 6649000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mpt-7b-storywriter": {
+			"display_name": "MPT-7B-StoryWriter-65k+",
+			"names": [
+				"MPT-7B-StoryWriter-65k+",
+				"MPT-7B-StoryWriter",
+				"MPT 7B StoryWriter",
+				"MPT-7B StoryWriter-65k+",
+				"mpt-7b-storywriter",
+				"mosaicml/mpt-7b-storywriter"
+			],
+			"link": "https://www.databricks.com/blog/mpt-7b",
+			"history": {
+				"first_mention": "2023-05-05",
+				"access": "2023-05-05",
+				"weights": "2023-05-05"
+			},
+			"parameters": {
+				"all": 6649000000,
+				"active": 6649000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

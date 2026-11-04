@@ -1,0 +1,33 @@
+{
+	"display_name": "GLM-4.5-Air-REAP-82B-A12B",
+	"versions": {
+		"glm-4-5-air-reap-82b-a12b": {
+			"display_name": "GLM-4.5-Air-REAP-82B-A12B",
+			"names": [
+				"GLM-4.5-Air-REAP-82B-A12B",
+				"GLM 4.5 Air REAP 82B A12B",
+				"GLM-4.5-Air-REAP-82B-A12B-FP8",
+				"cerebras/GLM-4.5-Air-REAP-82B-A12B",
+				"cerebras/GLM-4.5-Air-REAP-82B-A12B-FP8"
+			],
+			"link": "https://huggingface.co/cerebras/GLM-4.5-Air-REAP-82B-A12B",
+			"history": {
+				"first_mention": "2025-10-20",
+				"access": "2025-10-20",
+				"weights": "2025-10-20"
+			},
+			"parameters": {
+				"all": 81932181504,
+				"active": 12000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"display_name": "Pythia-6.9B",
+	"versions": {
+		"pythia-6-9b": {
+			"display_name": "Pythia-6.9B",
+			"names": [
+				"Pythia-6.9B",
+				"Pythia 6.9B",
+				"Pythia-6.9b",
+				"Pythia (6.9B)",
+				"pythia-6.9b",
+				"EleutherAI/pythia-6.9b"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-02-13",
+				"access": "2023-02-13",
+				"weights": "2023-02-13"
+			},
+			"parameters": {
+				"all": 6857302528,
+				"active": 6857302528
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"pythia-6-9b-deduped": {
+			"display_name": "Pythia-6.9B-deduped",
+			"names": [
+				"Pythia-6.9B-deduped",
+				"Pythia 6.9B deduped",
+				"Pythia-6.9b-deduped",
+				"Pythia (6.9B, deduped)",
+				"pythia-6.9b-deduped",
+				"EleutherAI/pythia-6.9b-deduped"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-02-13",
+				"access": "2023-02-13",
+				"weights": "2023-02-13"
+			},
+			"parameters": {
+				"all": 6857302528,
+				"active": 6857302528
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

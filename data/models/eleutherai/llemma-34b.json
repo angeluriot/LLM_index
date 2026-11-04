@@ -1,0 +1,33 @@
+{
+	"display_name": "Llemma 34B",
+	"versions": {
+		"llemma-34b": {
+			"display_name": "Llemma 34B",
+			"names": [
+				"Llemma 34B",
+				"Llemma",
+				"Llemma-34B",
+				"Llemma (34B)",
+				"llemma_34b",
+				"EleutherAI/llemma_34b"
+			],
+			"link": "https://blog.eleuther.ai/llemma/",
+			"history": {
+				"first_mention": "2023-10-16",
+				"access": "2023-10-16",
+				"weights": "2023-10-16"
+			},
+			"parameters": {
+				"all": 33740000000,
+				"active": 33740000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

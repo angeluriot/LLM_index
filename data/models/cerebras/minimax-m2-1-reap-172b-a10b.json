@@ -1,0 +1,30 @@
+{
+	"display_name": "MiniMax-M2.1-REAP-172B-A10B",
+	"versions": {
+		"minimax-m2-1-reap-172b-a10b": {
+			"display_name": "MiniMax-M2.1-REAP-172B-A10B",
+			"names": [
+				"MiniMax-M2.1-REAP-172B-A10B",
+				"MiniMax M2.1 REAP 172B A10B",
+				"cerebras/MiniMax-M2.1-REAP-172B-A10B"
+			],
+			"link": "https://huggingface.co/cerebras/MiniMax-M2.1-REAP-172B-A10B",
+			"history": {
+				"first_mention": "2026-01-27",
+				"access": "2026-01-27",
+				"weights": "2026-01-27"
+			},
+			"parameters": {
+				"all": 172517903744,
+				"active": 10000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

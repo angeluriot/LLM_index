@@ -1,0 +1,34 @@
+{
+	"display_name": "Pile-T5 XXL",
+	"versions": {
+		"pile-t5-xxl": {
+			"display_name": "Pile-T5 XXL",
+			"names": [
+				"Pile-T5 XXL",
+				"Pile-T5-XXL",
+				"Pile T5 XXL",
+				"pile-t5-xxl",
+				"pile-t5-xxl-t5x",
+				"EleutherAI/pile-t5-xxl",
+				"EleutherAI/pile-t5-xxl-t5x"
+			],
+			"link": "https://blog.eleuther.ai/pile-t5/",
+			"history": {
+				"first_mention": "2024-04-15",
+				"access": "2024-04-15",
+				"weights": "2024-04-15"
+			},
+			"parameters": {
+				"all": 11135426560,
+				"active": 11135426560
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

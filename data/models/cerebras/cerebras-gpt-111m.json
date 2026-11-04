@@ -1,0 +1,32 @@
+{
+	"display_name": "Cerebras-GPT-111M",
+	"versions": {
+		"cerebras-gpt-111m": {
+			"display_name": "Cerebras-GPT-111M",
+			"names": [
+				"Cerebras-GPT-111M",
+				"Cerebras-GPT 111M",
+				"Cerebras GPT 111M",
+				"Cerebras-GPT (111M)",
+				"cerebras/Cerebras-GPT-111M"
+			],
+			"link": "https://www.cerebras.ai/press-release/cerebras-systems-releases-seven-new-gpt-models-trained-on-cs-2-wafer-scale-systems",
+			"history": {
+				"first_mention": "2023-03-28",
+				"access": "2023-03-28",
+				"weights": "2023-03-28"
+			},
+			"parameters": {
+				"all": 111000000,
+				"active": 111000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

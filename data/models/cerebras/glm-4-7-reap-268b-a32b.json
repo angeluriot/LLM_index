@@ -1,0 +1,33 @@
+{
+	"display_name": "GLM-4.7-REAP-268B-A32B",
+	"versions": {
+		"glm-4-7-reap-268b-a32b": {
+			"display_name": "GLM-4.7-REAP-268B-A32B",
+			"names": [
+				"GLM-4.7-REAP-268B-A32B",
+				"GLM 4.7 REAP 268B A32B",
+				"GLM-4.7-REAP-268B-A32B-FP8",
+				"cerebras/GLM-4.7-REAP-268B-A32B",
+				"cerebras/GLM-4.7-REAP-268B-A32B-FP8"
+			],
+			"link": "https://huggingface.co/cerebras/GLM-4.7-REAP-268B-A32B",
+			"history": {
+				"first_mention": "2026-01-10",
+				"access": "2026-01-10",
+				"weights": "2026-01-10"
+			},
+			"parameters": {
+				"all": 268788660664,
+				"active": 32000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

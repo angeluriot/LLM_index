@@ -1,0 +1,32 @@
+{
+	"display_name": "Cerebras-GPT-256M",
+	"versions": {
+		"cerebras-gpt-256m": {
+			"display_name": "Cerebras-GPT-256M",
+			"names": [
+				"Cerebras-GPT-256M",
+				"Cerebras-GPT 256M",
+				"Cerebras GPT 256M",
+				"Cerebras-GPT (256M)",
+				"cerebras/Cerebras-GPT-256M"
+			],
+			"link": "https://www.cerebras.ai/press-release/cerebras-systems-releases-seven-new-gpt-models-trained-on-cs-2-wafer-scale-systems",
+			"history": {
+				"first_mention": "2023-03-28",
+				"access": "2023-03-28",
+				"weights": "2023-03-28"
+			},
+			"parameters": {
+				"all": 256000000,
+				"active": 256000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

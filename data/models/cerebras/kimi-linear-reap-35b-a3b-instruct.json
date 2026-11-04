@@ -1,0 +1,30 @@
+{
+	"display_name": "Kimi-Linear-REAP-35B-A3B-Instruct",
+	"versions": {
+		"kimi-linear-reap-35b-a3b-instruct": {
+			"display_name": "Kimi-Linear-REAP-35B-A3B-Instruct",
+			"names": [
+				"Kimi-Linear-REAP-35B-A3B-Instruct",
+				"Kimi Linear REAP 35B A3B Instruct",
+				"cerebras/Kimi-Linear-REAP-35B-A3B-Instruct"
+			],
+			"link": "https://huggingface.co/cerebras/Kimi-Linear-REAP-35B-A3B-Instruct",
+			"history": {
+				"first_mention": "2025-11-06",
+				"access": "2025-11-06",
+				"weights": "2025-11-06"
+			},
+			"parameters": {
+				"all": 35132220360,
+				"active": 3000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

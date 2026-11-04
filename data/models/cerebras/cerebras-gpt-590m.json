@@ -1,0 +1,32 @@
+{
+	"display_name": "Cerebras-GPT-590M",
+	"versions": {
+		"cerebras-gpt-590m": {
+			"display_name": "Cerebras-GPT-590M",
+			"names": [
+				"Cerebras-GPT-590M",
+				"Cerebras-GPT 590M",
+				"Cerebras GPT 590M",
+				"Cerebras-GPT (590M)",
+				"cerebras/Cerebras-GPT-590M"
+			],
+			"link": "https://www.cerebras.ai/press-release/cerebras-systems-releases-seven-new-gpt-models-trained-on-cs-2-wafer-scale-systems",
+			"history": {
+				"first_mention": "2023-03-28",
+				"access": "2023-03-28",
+				"weights": "2023-03-28"
+			},
+			"parameters": {
+				"all": 590000000,
+				"active": 590000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"display_name": "Dolly v2 3B",
+	"versions": {
+		"dolly-v2-3b": {
+			"display_name": "Dolly v2 3B",
+			"names": [
+				"Dolly v2 3B",
+				"Dolly 2.0 3B",
+				"Dolly 2.0 (3B)",
+				"Dolly-v2-3B",
+				"dolly-v2-3b",
+				"databricks/dolly-v2-3b"
+			],
+			"link": "https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm",
+			"history": {
+				"first_mention": "2023-04-12",
+				"access": "2023-04-12",
+				"weights": "2023-04-12"
+			},
+			"parameters": {
+				"all": 2775000000,
+				"active": 2775000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"display_name": "DeepSeek-V3.2-REAP-508B-A37B",
+	"versions": {
+		"deepseek-v3-2-reap-508b-a37b": {
+			"display_name": "DeepSeek-V3.2-REAP-508B-A37B",
+			"names": [
+				"DeepSeek-V3.2-REAP-508B-A37B",
+				"DeepSeek V3.2 REAP 508B A37B",
+				"cerebras/DeepSeek-V3.2-REAP-508B-A37B"
+			],
+			"link": "https://huggingface.co/cerebras/DeepSeek-V3.2-REAP-508B-A37B",
+			"history": {
+				"first_mention": "2025-12-09",
+				"access": "2025-12-09",
+				"weights": "2025-12-09"
+			},
+			"parameters": {
+				"all": 508405050672,
+				"active": 37000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

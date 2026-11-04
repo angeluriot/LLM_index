@@ -1,0 +1,87 @@
+{
+	"display_name": "MPT-30B",
+	"versions": {
+		"mpt-30b": {
+			"display_name": "MPT-30B",
+			"names": [
+				"MPT-30B",
+				"MPT 30B",
+				"MPT-30B Base",
+				"mpt-30b",
+				"mosaicml/mpt-30b"
+			],
+			"link": "https://www.databricks.com/blog/mpt-30b",
+			"history": {
+				"first_mention": "2023-06-22",
+				"access": "2023-06-22",
+				"weights": "2023-06-22"
+			},
+			"parameters": {
+				"all": 29950000000,
+				"active": 29950000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mpt-30b-instruct": {
+			"display_name": "MPT-30B-Instruct",
+			"names": [
+				"MPT-30B-Instruct",
+				"MPT 30B Instruct",
+				"MPT-30B Instruct",
+				"databricks-mpt-30b-instruct",
+				"mpt-30b-instruct",
+				"mosaicml/mpt-30b-instruct"
+			],
+			"link": "https://www.databricks.com/blog/mpt-30b",
+			"history": {
+				"first_mention": "2023-06-22",
+				"access": "2023-06-22",
+				"weights": "2023-06-22"
+			},
+			"parameters": {
+				"all": 29950000000,
+				"active": 29950000000
+			},
+			"price": {
+				"input": 1.0,
+				"output": 1.0
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mpt-30b-chat": {
+			"display_name": "MPT-30B-Chat",
+			"names": [
+				"MPT-30B-Chat",
+				"MPT 30B Chat",
+				"MPT-30B Chat",
+				"mpt-30b-chat",
+				"mosaicml/mpt-30b-chat"
+			],
+			"link": "https://www.databricks.com/blog/mpt-30b",
+			"history": {
+				"first_mention": "2023-06-22",
+				"access": "2023-06-22",
+				"weights": "2023-06-22"
+			},
+			"parameters": {
+				"all": 29950000000,
+				"active": 29950000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

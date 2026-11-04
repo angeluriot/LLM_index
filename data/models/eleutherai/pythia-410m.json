@@ -1,0 +1,61 @@
+{
+	"display_name": "Pythia-410M",
+	"versions": {
+		"pythia-410m": {
+			"display_name": "Pythia-410M",
+			"names": [
+				"Pythia-410M",
+				"Pythia 410M",
+				"Pythia-410m",
+				"Pythia (410M)",
+				"pythia-410m",
+				"EleutherAI/pythia-410m"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-02-13",
+				"access": "2023-02-13",
+				"weights": "2023-02-13"
+			},
+			"parameters": {
+				"all": 405334208,
+				"active": 405334208
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"pythia-410m-deduped": {
+			"display_name": "Pythia-410M-deduped",
+			"names": [
+				"Pythia-410M-deduped",
+				"Pythia 410M deduped",
+				"Pythia-410m-deduped",
+				"Pythia (410M, deduped)",
+				"pythia-410m-deduped",
+				"EleutherAI/pythia-410m-deduped"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-02-13",
+				"access": "2023-02-13",
+				"weights": "2023-02-13"
+			},
+			"parameters": {
+				"all": 405334208,
+				"active": 405334208
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

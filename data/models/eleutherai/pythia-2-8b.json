@@ -1,0 +1,61 @@
+{
+	"display_name": "Pythia-2.8B",
+	"versions": {
+		"pythia-2-8b": {
+			"display_name": "Pythia-2.8B",
+			"names": [
+				"Pythia-2.8B",
+				"Pythia 2.8B",
+				"Pythia-2.8b",
+				"Pythia (2.8B)",
+				"pythia-2.8b",
+				"EleutherAI/pythia-2.8b"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-02-13",
+				"access": "2023-02-13",
+				"weights": "2023-02-13"
+			},
+			"parameters": {
+				"all": 2775209280,
+				"active": 2775209280
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"pythia-2-8b-deduped": {
+			"display_name": "Pythia-2.8B-deduped",
+			"names": [
+				"Pythia-2.8B-deduped",
+				"Pythia 2.8B deduped",
+				"Pythia-2.8b-deduped",
+				"Pythia (2.8B, deduped)",
+				"pythia-2.8b-deduped",
+				"EleutherAI/pythia-2.8b-deduped"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-02-13",
+				"access": "2023-02-13",
+				"weights": "2023-02-13"
+			},
+			"parameters": {
+				"all": 2775209280,
+				"active": 2775209280
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

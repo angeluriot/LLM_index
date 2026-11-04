@@ -1,0 +1,61 @@
+{
+	"display_name": "Pythia-31M",
+	"versions": {
+		"pythia-31m": {
+			"display_name": "Pythia-31M",
+			"names": [
+				"Pythia-31M",
+				"Pythia 31M",
+				"Pythia-31m",
+				"Pythia (31M)",
+				"pythia-31m",
+				"EleutherAI/pythia-31m"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-07-19",
+				"access": "2023-07-19",
+				"weights": "2023-07-19"
+			},
+			"parameters": {
+				"all": 30494720,
+				"active": 30494720
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"pythia-31m-deduped": {
+			"display_name": "Pythia-31M-deduped",
+			"names": [
+				"Pythia-31M-deduped",
+				"Pythia 31M deduped",
+				"Pythia-31m-deduped",
+				"Pythia (31M, deduped)",
+				"pythia-31m-deduped",
+				"EleutherAI/pythia-31m-deduped"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-07-19",
+				"access": "2023-07-19",
+				"weights": "2023-07-19"
+			},
+			"parameters": {
+				"all": 30494720,
+				"active": 30494720
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

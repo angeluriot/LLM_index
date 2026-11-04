@@ -1,0 +1,30 @@
+{
+	"display_name": "Qwen3-Coder-REAP-25B-A3B",
+	"versions": {
+		"qwen3-coder-reap-25b-a3b": {
+			"display_name": "Qwen3-Coder-REAP-25B-A3B",
+			"names": [
+				"Qwen3-Coder-REAP-25B-A3B",
+				"Qwen3 Coder REAP 25B A3B",
+				"cerebras/Qwen3-Coder-REAP-25B-A3B"
+			],
+			"link": "https://huggingface.co/cerebras/Qwen3-Coder-REAP-25B-A3B",
+			"history": {
+				"first_mention": "2025-10-20",
+				"access": "2025-10-20",
+				"weights": "2025-10-20"
+			},
+			"parameters": {
+				"all": 24867354624,
+				"active": 3000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

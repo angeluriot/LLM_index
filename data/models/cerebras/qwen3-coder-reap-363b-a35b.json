@@ -1,0 +1,32 @@
+{
+	"display_name": "Qwen3-Coder-REAP-363B-A35B",
+	"versions": {
+		"qwen3-coder-reap-363b-a35b": {
+			"display_name": "Qwen3-Coder-REAP-363B-A35B",
+			"names": [
+				"Qwen3-Coder-REAP-363B-A35B",
+				"Qwen3 Coder REAP 363B A35B",
+				"Qwen3-Coder-REAP-363B-A35B-FP8",
+				"cerebras/Qwen3-Coder-REAP-363B-A35B",
+				"cerebras/Qwen3-Coder-REAP-363B-A35B-FP8"
+			],
+			"link": "https://huggingface.co/cerebras/Qwen3-Coder-REAP-363B-A35B",
+			"history": {
+				"first_mention": "2025-10-15",
+				"access": "2025-10-15",
+				"weights": "2025-10-15"
+			},
+			"parameters": {
+				"all": 363118556672,
+				"active": 35000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

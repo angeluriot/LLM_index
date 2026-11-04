@@ -1,0 +1,32 @@
+{
+	"display_name": "Polyglot-Ko 3.8B",
+	"versions": {
+		"polyglot-ko-3-8b": {
+			"display_name": "Polyglot-Ko 3.8B",
+			"names": [
+				"Polyglot-Ko 3.8B",
+				"Polyglot-Ko-3.8B",
+				"Polyglot-Ko (3.8B)",
+				"polyglot-ko-3.8b",
+				"EleutherAI/polyglot-ko-3.8b"
+			],
+			"link": "https://huggingface.co/EleutherAI/polyglot-ko-3.8b",
+			"history": {
+				"first_mention": "2022-09-09",
+				"access": "2022-09-09",
+				"weights": "2022-09-09"
+			},
+			"parameters": {
+				"all": 3809974272,
+				"active": 3809974272
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

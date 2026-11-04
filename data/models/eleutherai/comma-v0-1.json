@@ -1,0 +1,60 @@
+{
+	"display_name": "Comma v0.1",
+	"versions": {
+		"comma-v0-1-1t": {
+			"display_name": "Comma v0.1-1T",
+			"names": [
+				"Comma v0.1-1T",
+				"Comma v0.1 1T",
+				"Comma-v0.1-1T",
+				"Comma v0.1",
+				"comma-v0.1-1t",
+				"common-pile/comma-v0.1-1t"
+			],
+			"link": "https://arxiv.org/abs/2506.05209",
+			"history": {
+				"first_mention": "2025-06-05",
+				"access": "2025-06-05",
+				"weights": "2025-06-05"
+			},
+			"parameters": {
+				"all": 7002656768,
+				"active": 7002656768
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"comma-v0-1-2t": {
+			"display_name": "Comma v0.1-2T",
+			"names": [
+				"Comma v0.1-2T",
+				"Comma v0.1 2T",
+				"Comma-v0.1-2T",
+				"comma-v0.1-2t",
+				"common-pile/comma-v0.1-2t"
+			],
+			"link": "https://arxiv.org/abs/2506.05209",
+			"history": {
+				"first_mention": "2025-06-05",
+				"access": "2025-06-05",
+				"weights": "2025-06-05"
+			},
+			"parameters": {
+				"all": 7002656768,
+				"active": 7002656768
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

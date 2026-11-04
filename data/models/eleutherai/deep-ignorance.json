@@ -1,0 +1,187 @@
+{
+	"display_name": "Deep Ignorance",
+	"versions": {
+		"deep-ignorance-unfiltered": {
+			"display_name": "Deep Ignorance Unfiltered",
+			"names": [
+				"Deep Ignorance Unfiltered",
+				"Deep-Ignorance-Unfiltered",
+				"deep-ignorance-unfiltered",
+				"EleutherAI/deep-ignorance-unfiltered"
+			],
+			"link": "https://arxiv.org/abs/2508.06601",
+			"history": {
+				"first_mention": "2025-08-08",
+				"access": "2025-08-08",
+				"weights": "2025-08-08"
+			},
+			"parameters": {
+				"all": 6856253440,
+				"active": 6856253440
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deep-ignorance-strong-filter": {
+			"display_name": "Deep Ignorance Strong Filter",
+			"names": [
+				"Deep Ignorance Strong Filter",
+				"Deep-Ignorance-Strong-Filter",
+				"deep-ignorance-e2e-strong-filter",
+				"EleutherAI/deep-ignorance-e2e-strong-filter"
+			],
+			"link": "https://arxiv.org/abs/2508.06601",
+			"history": {
+				"first_mention": "2025-08-08",
+				"access": "2025-08-08",
+				"weights": "2025-08-08"
+			},
+			"parameters": {
+				"all": 6856253440,
+				"active": 6856253440
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deep-ignorance-weak-filter": {
+			"display_name": "Deep Ignorance Weak Filter",
+			"names": [
+				"Deep Ignorance Weak Filter",
+				"Deep-Ignorance-Weak-Filter",
+				"deep-ignorance-e2e-weak-filter",
+				"EleutherAI/deep-ignorance-e2e-weak-filter"
+			],
+			"link": "https://arxiv.org/abs/2508.06601",
+			"history": {
+				"first_mention": "2025-08-08",
+				"access": "2025-08-08",
+				"weights": "2025-08-08"
+			},
+			"parameters": {
+				"all": 6856253440,
+				"active": 6856253440
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deep-ignorance-strong-filter-pt-weak-filter-anneal": {
+			"display_name": "Deep Ignorance Strong Filter PT Weak Filter Anneal",
+			"names": [
+				"Deep Ignorance Strong Filter PT Weak Filter Anneal",
+				"Deep-Ignorance-Strong-Filter-PT-Weak-Filter-Anneal",
+				"deep-ignorance-strong-filter-pt-weak-filter-anneal",
+				"EleutherAI/deep-ignorance-strong-filter-pt-weak-filter-anneal"
+			],
+			"link": "https://arxiv.org/abs/2508.06601",
+			"history": {
+				"first_mention": "2025-08-08",
+				"access": "2025-08-08",
+				"weights": "2025-08-08"
+			},
+			"parameters": {
+				"all": 6856253440,
+				"active": 6856253440
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deep-ignorance-weak-filter-pt-strong-filter-anneal": {
+			"display_name": "Deep Ignorance Weak Filter PT Strong Filter Anneal",
+			"names": [
+				"Deep Ignorance Weak Filter PT Strong Filter Anneal",
+				"Deep-Ignorance-Weak-Filter-PT-Strong-Filter-Anneal",
+				"deep-ignorance-weak-filter-pt-strong-filter-anneal",
+				"EleutherAI/deep-ignorance-weak-filter-pt-strong-filter-anneal"
+			],
+			"link": "https://arxiv.org/abs/2508.06601",
+			"history": {
+				"first_mention": "2025-08-08",
+				"access": "2025-08-08",
+				"weights": "2025-08-08"
+			},
+			"parameters": {
+				"all": 6856253440,
+				"active": 6856253440
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deep-ignorance-unfiltered-cb": {
+			"display_name": "Deep Ignorance Unfiltered CB",
+			"names": [
+				"Deep Ignorance Unfiltered CB",
+				"Deep-Ignorance-Unfiltered-CB",
+				"deep-ignorance-unfiltered-cb",
+				"EleutherAI/deep-ignorance-unfiltered-cb"
+			],
+			"link": "https://arxiv.org/abs/2508.06601",
+			"history": {
+				"first_mention": "2025-08-08",
+				"access": "2025-08-08",
+				"weights": "2025-08-08"
+			},
+			"parameters": {
+				"all": 6856253440,
+				"active": 6856253440
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"deep-ignorance-unfiltered-cb-lat": {
+			"display_name": "Deep Ignorance Unfiltered CB-LAT",
+			"names": [
+				"Deep Ignorance Unfiltered CB-LAT",
+				"Deep-Ignorance-Unfiltered-CB-LAT",
+				"deep-ignorance-unfiltered-cb-lat",
+				"EleutherAI/deep-ignorance-unfiltered-cb-lat"
+			],
+			"link": "https://arxiv.org/abs/2508.06601",
+			"history": {
+				"first_mention": "2025-08-08",
+				"access": "2025-08-08",
+				"weights": "2025-08-08"
+			},
+			"parameters": {
+				"all": 6856253440,
+				"active": 6856253440
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

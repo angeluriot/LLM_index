@@ -1,0 +1,60 @@
+{
+	"display_name": "MPT-1B-RedPajama-200B",
+	"versions": {
+		"mpt-1b-redpajama-200b": {
+			"display_name": "MPT-1b-RedPajama-200b",
+			"names": [
+				"MPT-1b-RedPajama-200b",
+				"MPT-1B-RedPajama-200B",
+				"MPT 1B RedPajama",
+				"MPT-1B",
+				"mpt-1b-redpajama-200b",
+				"mosaicml/mpt-1b-redpajama-200b"
+			],
+			"link": "https://huggingface.co/mosaicml/mpt-1b-redpajama-200b",
+			"history": {
+				"first_mention": "2023-04-20",
+				"access": "2023-04-20",
+				"weights": "2023-04-20"
+			},
+			"parameters": {
+				"all": 1300000000,
+				"active": 1300000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mpt-1b-redpajama-200b-dolly": {
+			"display_name": "MPT-1b-RedPajama-200b-Dolly",
+			"names": [
+				"MPT-1b-RedPajama-200b-Dolly",
+				"MPT-1B-RedPajama-200B-Dolly",
+				"MPT 1B RedPajama Dolly",
+				"mpt-1b-redpajama-200b-dolly",
+				"mosaicml/mpt-1b-redpajama-200b-dolly"
+			],
+			"link": "https://huggingface.co/mosaicml/mpt-1b-redpajama-200b-dolly",
+			"history": {
+				"first_mention": "2023-04-20",
+				"access": "2023-04-20",
+				"weights": "2023-04-20"
+			},
+			"parameters": {
+				"all": 1300000000,
+				"active": 1300000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,86 @@
+{
+	"display_name": "MPT-7B-8k",
+	"versions": {
+		"mpt-7b-8k": {
+			"display_name": "MPT-7B-8k",
+			"names": [
+				"MPT-7B-8k",
+				"MPT 7B 8k",
+				"MPT-7B-8K",
+				"mpt-7b-8k",
+				"mosaicml/mpt-7b-8k"
+			],
+			"link": "https://www.databricks.com/blog/long-context-mpt-7b-8k",
+			"history": {
+				"first_mention": "2023-07-18",
+				"access": "2023-07-18",
+				"weights": "2023-07-18"
+			},
+			"parameters": {
+				"all": 6649000000,
+				"active": 6649000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mpt-7b-8k-instruct": {
+			"display_name": "MPT-7B-8k-Instruct",
+			"names": [
+				"MPT-7B-8k-Instruct",
+				"MPT 7B 8k Instruct",
+				"MPT-7B-8K-Instruct",
+				"mpt-7b-8k-instruct",
+				"mosaicml/mpt-7b-8k-instruct"
+			],
+			"link": "https://www.databricks.com/blog/long-context-mpt-7b-8k",
+			"history": {
+				"first_mention": "2023-07-18",
+				"access": "2023-07-18",
+				"weights": "2023-07-18"
+			},
+			"parameters": {
+				"all": 6649000000,
+				"active": 6649000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mpt-7b-8k-chat": {
+			"display_name": "MPT-7B-8k-Chat",
+			"names": [
+				"MPT-7B-8k-Chat",
+				"MPT 7B 8k Chat",
+				"MPT-7B-8K-Chat",
+				"mpt-7b-8k-chat",
+				"mosaicml/mpt-7b-8k-chat"
+			],
+			"link": "https://www.databricks.com/blog/long-context-mpt-7b-8k",
+			"history": {
+				"first_mention": "2023-07-18",
+				"access": "2023-07-18",
+				"weights": "2023-07-18"
+			},
+			"parameters": {
+				"all": 6649000000,
+				"active": 6649000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

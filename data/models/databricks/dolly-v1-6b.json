@@ -1,0 +1,33 @@
+{
+	"display_name": "Dolly v1 6B",
+	"versions": {
+		"dolly-v1-6b": {
+			"display_name": "Dolly v1 6B",
+			"names": [
+				"Dolly v1 6B",
+				"Dolly 1.0",
+				"Dolly v1",
+				"Dolly-v1-6B",
+				"dolly-v1-6b",
+				"databricks/dolly-v1-6b"
+			],
+			"link": "https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html",
+			"history": {
+				"first_mention": "2023-03-24",
+				"access": "2023-03-24",
+				"weights": "2023-03-24"
+			},
+			"parameters": {
+				"all": 6053000000,
+				"active": 6053000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

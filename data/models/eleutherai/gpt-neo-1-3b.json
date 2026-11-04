@@ -1,0 +1,33 @@
+{
+	"display_name": "GPT-Neo 1.3B",
+	"versions": {
+		"gpt-neo-1-3b": {
+			"display_name": "GPT-Neo 1.3B",
+			"names": [
+				"GPT-Neo 1.3B",
+				"GPT-Neo-1.3B",
+				"GPT-Neo (1.3B)",
+				"GPT Neo 1.3B",
+				"gpt-neo-1.3B",
+				"EleutherAI/gpt-neo-1.3B"
+			],
+			"link": "https://github.com/EleutherAI/gpt-neo",
+			"history": {
+				"first_mention": "2021-03-21",
+				"access": "2021-03-21",
+				"weights": "2021-03-21"
+			},
+			"parameters": {
+				"all": 1315575808,
+				"active": 1315575808
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

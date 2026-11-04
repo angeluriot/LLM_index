@@ -1,0 +1,61 @@
+{
+	"display_name": "Pythia-14M",
+	"versions": {
+		"pythia-14m": {
+			"display_name": "Pythia-14M",
+			"names": [
+				"Pythia-14M",
+				"Pythia 14M",
+				"Pythia-14m",
+				"Pythia (14M)",
+				"pythia-14m",
+				"EleutherAI/pythia-14m"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-07-19",
+				"access": "2023-07-19",
+				"weights": "2023-07-19"
+			},
+			"parameters": {
+				"all": 14067712,
+				"active": 14067712
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"pythia-14m-deduped": {
+			"display_name": "Pythia-14M-deduped",
+			"names": [
+				"Pythia-14M-deduped",
+				"Pythia 14M deduped",
+				"Pythia-14m-deduped",
+				"Pythia (14M, deduped)",
+				"pythia-14m-deduped",
+				"EleutherAI/pythia-14m-deduped"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-07-19",
+				"access": "2023-07-19",
+				"weights": "2023-07-19"
+			},
+			"parameters": {
+				"all": 14067712,
+				"active": 14067712
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

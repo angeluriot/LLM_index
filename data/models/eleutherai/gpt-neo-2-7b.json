@@ -1,0 +1,33 @@
+{
+	"display_name": "GPT-Neo 2.7B",
+	"versions": {
+		"gpt-neo-2-7b": {
+			"display_name": "GPT-Neo 2.7B",
+			"names": [
+				"GPT-Neo 2.7B",
+				"GPT-Neo-2.7B",
+				"GPT-Neo (2.7B)",
+				"GPT Neo 2.7B",
+				"gpt-neo-2.7B",
+				"EleutherAI/gpt-neo-2.7B"
+			],
+			"link": "https://github.com/EleutherAI/gpt-neo",
+			"history": {
+				"first_mention": "2021-03-21",
+				"access": "2021-03-21",
+				"weights": "2021-03-21"
+			},
+			"parameters": {
+				"all": 2651307520,
+				"active": 2651307520
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

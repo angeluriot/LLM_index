@@ -1,0 +1,34 @@
+{
+	"display_name": "Pile-T5 Base",
+	"versions": {
+		"pile-t5-base": {
+			"display_name": "Pile-T5 Base",
+			"names": [
+				"Pile-T5 Base",
+				"Pile-T5-Base",
+				"Pile T5 Base",
+				"pile-t5-base",
+				"pile-t5-base-t5x",
+				"EleutherAI/pile-t5-base",
+				"EleutherAI/pile-t5-base-t5x"
+			],
+			"link": "https://blog.eleuther.ai/pile-t5/",
+			"history": {
+				"first_mention": "2024-04-15",
+				"access": "2024-04-15",
+				"weights": "2024-04-15"
+			},
+			"parameters": {
+				"all": 247586304,
+				"active": 247586304
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

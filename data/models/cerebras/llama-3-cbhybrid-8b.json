@@ -1,0 +1,57 @@
+{
+	"display_name": "Llama-3-CBHybrid-8B",
+	"versions": {
+		"llama-3-cbhybridl-8b": {
+			"display_name": "Llama-3-CBHybridL-8B",
+			"names": [
+				"Llama-3-CBHybridL-8B",
+				"Llama3.1-CBHybridL-8B",
+				"Llama 3 CBHybridL 8B",
+				"cerebras/Llama-3-CBHybridL-8B"
+			],
+			"link": "https://www.cerebras.ai/blog/compressing-kv-cache-memory-by-half-with-sparse-attention",
+			"history": {
+				"first_mention": "2025-03-24",
+				"access": "2025-03-24",
+				"weights": "2025-03-24"
+			},
+			"parameters": {
+				"all": 8030261248,
+				"active": 8030261248
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"llama-3-cbhybridm-8b": {
+			"display_name": "Llama-3-CBHybridM-8B",
+			"names": [
+				"Llama-3-CBHybridM-8B",
+				"Llama3.1-CBHybridM-8B",
+				"Llama 3 CBHybridM 8B",
+				"cerebras/Llama-3-CBHybridM-8B"
+			],
+			"link": "https://www.cerebras.ai/blog/compressing-kv-cache-memory-by-half-with-sparse-attention",
+			"history": {
+				"first_mention": "2025-03-24",
+				"access": "2025-03-24",
+				"weights": "2025-03-24"
+			},
+			"parameters": {
+				"all": 8030261248,
+				"active": 8030261248
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

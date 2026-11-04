@@ -1,0 +1,33 @@
+{
+	"display_name": "Llama3-DocChat-1.0-8B",
+	"versions": {
+		"llama3-docchat-1-0-8b": {
+			"display_name": "Llama3-DocChat-1.0-8B",
+			"names": [
+				"Llama3-DocChat-1.0-8B",
+				"Llama3-DocChat 1.0 8B",
+				"Cerebras Llama3-DocChat 1.0 8B",
+				"Llama3-DocChat",
+				"Cerebras DocChat",
+				"cerebras/Llama3-DocChat-1.0-8B"
+			],
+			"link": "https://www.cerebras.ai/blog/train-a-gpt-4-level-conversational-qa-in-a-few-hours",
+			"history": {
+				"first_mention": "2024-08-21",
+				"access": "2024-08-21",
+				"weights": "2024-08-21"
+			},
+			"parameters": {
+				"all": 8030000000,
+				"active": 8030000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

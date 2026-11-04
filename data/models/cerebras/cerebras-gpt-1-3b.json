@@ -1,0 +1,32 @@
+{
+	"display_name": "Cerebras-GPT-1.3B",
+	"versions": {
+		"cerebras-gpt-1-3b": {
+			"display_name": "Cerebras-GPT-1.3B",
+			"names": [
+				"Cerebras-GPT-1.3B",
+				"Cerebras-GPT 1.3B",
+				"Cerebras GPT 1.3B",
+				"Cerebras-GPT (1.3B)",
+				"cerebras/Cerebras-GPT-1.3B"
+			],
+			"link": "https://www.cerebras.ai/press-release/cerebras-systems-releases-seven-new-gpt-models-trained-on-cs-2-wafer-scale-systems",
+			"history": {
+				"first_mention": "2023-03-28",
+				"access": "2023-03-28",
+				"weights": "2023-03-28"
+			},
+			"parameters": {
+				"all": 1300000000,
+				"active": 1300000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

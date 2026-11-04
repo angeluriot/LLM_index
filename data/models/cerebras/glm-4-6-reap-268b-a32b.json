@@ -1,0 +1,33 @@
+{
+	"display_name": "GLM-4.6-REAP-268B-A32B",
+	"versions": {
+		"glm-4-6-reap-268b-a32b": {
+			"display_name": "GLM-4.6-REAP-268B-A32B",
+			"names": [
+				"GLM-4.6-REAP-268B-A32B",
+				"GLM 4.6 REAP 268B A32B",
+				"GLM-4.6-REAP-268B-A32B-FP8",
+				"cerebras/GLM-4.6-REAP-268B-A32B",
+				"cerebras/GLM-4.6-REAP-268B-A32B-FP8"
+			],
+			"link": "https://huggingface.co/cerebras/GLM-4.6-REAP-268B-A32B",
+			"history": {
+				"first_mention": "2025-10-23",
+				"access": "2025-10-23",
+				"weights": "2025-10-23"
+			},
+			"parameters": {
+				"all": 268788649984,
+				"active": 32000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

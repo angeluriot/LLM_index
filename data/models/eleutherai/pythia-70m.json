@@ -1,0 +1,61 @@
+{
+	"display_name": "Pythia-70M",
+	"versions": {
+		"pythia-70m": {
+			"display_name": "Pythia-70M",
+			"names": [
+				"Pythia-70M",
+				"Pythia 70M",
+				"Pythia-70m",
+				"Pythia (70M)",
+				"pythia-70m",
+				"EleutherAI/pythia-70m"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-02-13",
+				"access": "2023-02-13",
+				"weights": "2023-02-13"
+			},
+			"parameters": {
+				"all": 70426672,
+				"active": 70426672
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"pythia-70m-deduped": {
+			"display_name": "Pythia-70M-deduped",
+			"names": [
+				"Pythia-70M-deduped",
+				"Pythia 70M deduped",
+				"Pythia-70m-deduped",
+				"Pythia (70M, deduped)",
+				"pythia-70m-deduped",
+				"EleutherAI/pythia-70m-deduped"
+			],
+			"link": "https://arxiv.org/abs/2304.01373",
+			"history": {
+				"first_mention": "2023-02-13",
+				"access": "2023-02-13",
+				"weights": "2023-02-13"
+			},
+			"parameters": {
+				"all": 70426672,
+				"active": 70426672
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

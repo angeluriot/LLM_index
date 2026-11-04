@@ -1,0 +1,34 @@
+{
+	"display_name": "GPT-NeoX-20B",
+	"versions": {
+		"gpt-neox-20b": {
+			"display_name": "GPT-NeoX-20B",
+			"names": [
+				"GPT-NeoX-20B",
+				"GPT-NeoX",
+				"GPT-NeoX 20B",
+				"GPT-NeoX (20B)",
+				"GPT NeoX 20B",
+				"gpt-neox-20b",
+				"EleutherAI/gpt-neox-20b"
+			],
+			"link": "https://blog.eleuther.ai/announcing-20b/",
+			"history": {
+				"first_mention": "2022-02-02",
+				"access": "2022-02-02",
+				"weights": "2022-02-09"
+			},
+			"parameters": {
+				"all": 20554568208,
+				"active": 20554568208
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

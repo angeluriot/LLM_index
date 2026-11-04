@@ -1,0 +1,40 @@
+{
+	"display_name": "Inkling",
+	"versions": {
+		"inkling": {
+			"display_name": "Inkling",
+			"names": [
+				"Inkling",
+				"Inkling (Xhigh)",
+				"inkling",
+				"thinkingmachines/Inkling",
+				"thinkingmachines/inkling",
+				"thinkingmachines/Inkling:peft:262144",
+				"Inkling-NVFP4",
+				"thinkingmachines/Inkling-NVFP4"
+			],
+			"link": "https://thinkingmachines.ai/news/introducing-inkling/",
+			"history": {
+				"first_mention": "2026-07-15",
+				"access": "2026-07-15",
+				"weights": "2026-07-15"
+			},
+			"parameters": {
+				"all": 975000000000,
+				"active": 41000000000
+			},
+			"price": {
+				"input": 1.0,
+				"output": 4.05
+			},
+			"efforts": [
+				"None",
+				"Minimal",
+				"Low",
+				"Medium",
+				"High",
+				"Xhigh"
+			]
+		}
+	}
+}
