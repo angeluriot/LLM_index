@@ -1,7 +1,7 @@
-"""Generates data/results/gsm8k.jsonl and data/leftovers/gsm8k.jsonl.
+"""Generates data/results/models/gsm8k.jsonl and data/leftovers/gsm8k.jsonl.
 
 Every number is written literally in this file (nothing is downloaded at run time), so it is the single source of
-truth for the GSM8K results: edit it and run `python scripts/evaluations/gen_gsm8k.py`. The helpers (R, L, write) and
+truth for the GSM8K results: edit it and run `python scripts/evaluations/models/gen_gsm8k.py`. The helpers (R, L, write) and
 their conventions are in common.py.
 
 Sources:

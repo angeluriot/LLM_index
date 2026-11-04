@@ -66,6 +66,32 @@ class Model:
 	versions: dict[str, ModelVersion]	# The versions of the model, keyed by their unique identifiers
 
 
+@dataclass
+class RawPeopleVersion:
+	display_name: str	# Display name of the subgroup or version of a group of people (e.g "<some work platform> users", "Mathematicians")
+	description: str	# A more detailed description of the subgroup or version of the group of people
+	efforts: list[str]	# Levels of effort (probably only "" for now but can be usefull later)
+
+
+@dataclass
+class PeopleVersion(RawPeopleVersion):
+	id: str	# Id of the subgroup or version of the group of people
+
+
+# People in JSON files
+@dataclass
+class RawPeople:
+	display_name: str						# Display name of the group of people (e.g. "Average human", "High school students", "Researchers")
+	versions: dict[str, RawPeopleVersion]	# Subgroups or versions of the group of people keyed by their id
+
+
+@dataclass
+class People:
+	id: str									# Id of the group of people from the file name without the extension
+	display_name: str						# Display name of the group of people
+	versions: dict[str, PeopleVersion]		# Subgroups or versions of the group of people keyed by their id
+
+
 class EvaluationType(Enum):
 	SCORE = 'SCORE'
 	ELO = 'ELO'
@@ -107,9 +133,9 @@ class Evaluation(RawEvaluation):
 
 
 @dataclass
-class ResultModel:
-	id: str				# Id of the model this result corresponds to
-	version: str | None	# Version of the model this result corresponds to (none if not specified)
+class ResultSubject:
+	id: str				# Id of the model or group of people this result corresponds to
+	version: str | None	# Version of the model of group of people this result corresponds to (none if not specified)
 	effort: str | None	# Effort mode used for this result (none if not provided and nb efforts > 1)
 
 
@@ -167,7 +193,7 @@ class ResultSource:
 # Results in JSONL files
 @dataclass
 class RawResult:
-	model: ResultModel																		# Model this result corresponds to
+	subject: ResultSubject																	# Model or group of people this result corresponds to
 	score: float																			# Score achieved in this result
 	uncertainty: ResultCIUncertainty | ResultSEUncertainty | ResultSTDUncertainty | None	# Uncertainty of the score given by the source (none if not available)
 	conditions: ResultConditions															# Conditions under which the result was obtained

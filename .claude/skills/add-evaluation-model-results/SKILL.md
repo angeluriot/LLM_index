@@ -1,16 +1,18 @@
 ---
-name: add-evaluation-results
-description: Collects every known score of LLMs on one benchmark / evaluation and writes them to data/results/<eval>.jsonl (models of the dataset) and data/leftovers/<eval>.jsonl (other models) through a generator script scripts/evaluations/gen_<eval>.py, using the sources the user gives plus Epoch AI, LLM Stats, Hugging Face leaderboards, model cards, papers and web research. Use this whenever the user asks to fill in, find, collect, add or update the results / scores of a benchmark (e.g. "trouve les scores des LLMs au benchmark MATH", "remplis les résultats de GPQA", "ajoute les résultats de MMLU-Pro", "mets à jour data/results/hle.jsonl", "add the SWE-bench Verified results"), even if they don't mention the script, the JSONL format or the leftovers.
+name: add-evaluation-model-results
+description: Collects every known score of LLMs on one benchmark / evaluation and writes them to data/results/models/<eval>.jsonl (models of the dataset) and data/leftovers/<eval>.jsonl (other models) through a generator script scripts/evaluations/models/gen_<eval>.py, using the sources the user gives plus Epoch AI, LLM Stats, Hugging Face leaderboards, model cards, papers and web research. Use this whenever the user asks to fill in, find, collect, add or update the results / scores of a benchmark (e.g. "trouve les scores des LLMs au benchmark MATH", "remplis les résultats de GPQA", "ajoute les résultats de MMLU-Pro", "mets à jour data/results/models/hle.jsonl", "add the SWE-bench Verified results"), even if they don't mention the script, the JSONL format or the leftovers. Not for human baselines / scores of groups of people: that is the add-evaluation-people-results skill.
 ---
 
-# Add an evaluation's results
+# Add an evaluation's model results
 
 The evaluation is already described in `data/evaluations/<eval>.json` when this skill starts (`<eval>` is the file name). The job is to find every published score of LLMs on it and write:
 
-- `data/results/<eval>.jsonl`: one `RawResult` per line, for models of the dataset (`data/models/<company>/<model>.json`);
+- `data/results/models/<eval>.jsonl`: one `RawResult` per line, for models of the dataset (`data/models/<company>/<model>.json`);
 - `data/leftovers/<eval>.jsonl`: one `RawLeftover` per line, for models that aren't in the dataset.
 
-These files are never written by hand: `scripts/evaluations/gen_<eval>.py` holds every number literally and calls the helpers of `scripts/evaluations/common.py`, which validate, sort and rewrite both files. `scripts/evaluations/gen_gsm8k.py` is the reference implementation: read it before starting and imitate its structure (docstring with the sources and the choices specific to the evaluation, one section per source, a URL constant per source, `write('<eval>')` at the end).
+Human baselines (scores of groups of people) are out of scope: they are collected separately with the `add-evaluation-people-results` skill. Ignore them here, even when a source gives them next to the model scores.
+
+These files are never written by hand: `scripts/evaluations/models/gen_<eval>.py` holds every number literally and calls the helpers of `scripts/evaluations/models/common.py` (built on `scripts/evaluations/shared.py`, shared with the people generators), which validate, sort and rewrite both files. `scripts/evaluations/models/gen_gsm8k.py` is the reference implementation: read it before starting and imitate its structure (docstring with the sources and the choices specific to the evaluation, one section per source, a URL constant per source, `write('<eval>')` at the end).
 
 `common.py` provides:
 
@@ -20,15 +22,15 @@ These files are never written by hand: `scripts/evaluations/gen_<eval>.py` holds
 - `write('<eval>')`: checks every `part` / evaluation `version` against `data/evaluations/<eval>.json`, sorts and writes the two JSONL files.
 - the `A` (`https://arxiv.org/abs/`) and `HF` (`https://huggingface.co/`) URL prefixes, and `MODELS` / `DATES`, the index of `data/models`.
 
-Put anything every generator needs in `common.py` rather than in a generator, and keep the generators to data and source-specific constants.
+Put anything every model generator needs in `models/common.py` (or in `shared.py` when the people generators need it too) rather than in a generator, and keep the generators to data and source-specific constants.
 
 ## Workflow
 
-1. **Read** `llm_index/data/types.py` (the schema, with a comment on every field), `data/evaluations/<eval>.json` (unit, `parts`, `versions`), `scripts/evaluations/common.py` and `scripts/evaluations/gen_gsm8k.py`. If `gen_<eval>.py` already exists, you are updating it: keep its existing decisions unless they break the rules below.
+1. **Read** `llm_index/data/types.py` (the schema, with a comment on every field), `data/evaluations/<eval>.json` (unit, `parts`, `versions`), `scripts/evaluations/shared.py`, `scripts/evaluations/models/common.py` and `scripts/evaluations/models/gen_gsm8k.py`. If `gen_<eval>.py` already exists, you are updating it: keep its existing decisions unless they break the rules below.
 2. **Index the models**: dump every model id, version id, `names`, `efforts` and `first_mention` of `data/models/*/*.json` into the scratchpad. You will match source names against the `names` lists (they contain API ids, aggregator labels and Hugging Face repo ids).
 3. **Collect** the scores from all the sources (see Sources). The sources the user gives are a starting point, never the whole list.
 4. **Map** each score to a model / version / effort or to a leftover, and fill the conditions and source (see Mapping and Field rules).
-5. **Write** `scripts/evaluations/gen_<eval>.py` (`from common import A, HF, L, R, write`, plus `CI` / `PM` / `SE` / `STD` when needed, standard library only) and **run** it with `python scripts/evaluations/gen_<eval>.py`. Fix the script until it runs; never patch the JSONL output.
+5. **Write** `scripts/evaluations/models/gen_<eval>.py` (`from common import A, HF, L, R, write`, plus `CI` / `PM` / `SE` / `STD` when needed, standard library only) and **run** it with `python scripts/evaluations/models/gen_<eval>.py`. Fix the script until it runs; never patch the JSONL output.
 6. **Verify** the output: valid JSON, field order of `RawResult` / `RawLeftover`, sort order, and spot-check a few values against their source.
 7. **Report** to the user (see Report).
 
@@ -39,10 +41,10 @@ To change anything later, edit the generator and rerun it. Don't modify `data/ev
 Each results line, keys in this order:
 
 ```json
-{"model": {"id": "llama-3-1-8b", "version": "llama-3-1-8b", "effort": ""}, "score": 57.2, "uncertainty": {"type": "CI", "low": 54.5, "high": 59.9, "level": 0.95}, "conditions": {"shots": 8, "pass_k": 1, "maj_k": 1}, "cost": null, "part": "", "version": "", "source": {"url": "https://arxiv.org/abs/2407.21783", "creator": true}}
+{"subject": {"id": "llama-3-1-8b", "version": "llama-3-1-8b", "effort": ""}, "score": 57.2, "uncertainty": {"type": "CI", "low": 54.5, "high": 59.9, "level": 0.95}, "conditions": {"shots": 8, "pass_k": 1, "maj_k": 1}, "cost": null, "part": "", "version": "", "source": {"url": "https://arxiv.org/abs/2407.21783", "creator": true}}
 ```
 
-`uncertainty` is `null` in most lines; otherwise `{"type": "CI", "low", "high", "level"}` (absolute bounds, as above: 57.2 ± 2.7 → 54.5 / 59.9), `{"type": "SE", "value"}` or `{"type": "STD", "value", "runs"}`.
+`subject` is a model of `data/models`. `uncertainty` is `null` in most lines; otherwise `{"type": "CI", "low", "high", "level"}` (absolute bounds, as above: 57.2 ± 2.7 → 54.5 / 59.9), `{"type": "SE", "value"}` or `{"type": "STD", "value", "runs"}`.
 
 Each leftovers line:
 
