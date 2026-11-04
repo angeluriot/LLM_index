@@ -1,0 +1,60 @@
+{
+	"display_name": "Falcon Mamba 7B",
+	"versions": {
+		"falcon-mamba-7b": {
+			"display_name": "Falcon Mamba 7B",
+			"names": [
+				"Falcon Mamba 7B",
+				"Falcon Mamba",
+				"Falcon-Mamba-7B",
+				"FalconMamba 7B",
+				"falcon-mamba-7b",
+				"tiiuae/falcon-mamba-7b"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-mamba/",
+			"history": {
+				"first_mention": "2024-08-12",
+				"access": "2024-08-12",
+				"weights": "2024-08-12"
+			},
+			"parameters": {
+				"all": 7273000000,
+				"active": 7273000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-mamba-7b-instruct": {
+			"display_name": "Falcon Mamba 7B Instruct",
+			"names": [
+				"Falcon Mamba 7B Instruct",
+				"Falcon-Mamba-7B-Instruct",
+				"FalconMamba 7B Instruct",
+				"falcon-mamba-7b-instruct",
+				"tiiuae/falcon-mamba-7b-instruct"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-mamba/",
+			"history": {
+				"first_mention": "2024-08-12",
+				"access": "2024-08-12",
+				"weights": "2024-08-12"
+			},
+			"parameters": {
+				"all": 7273000000,
+				"active": 7273000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,87 @@
+{
+	"display_name": "mT0-xxl",
+	"versions": {
+		"mt0-xxl": {
+			"display_name": "mT0-xxl",
+			"names": [
+				"mT0-xxl",
+				"mT0 xxl",
+				"mT0-13B",
+				"mT0 13B",
+				"mt0-xxl",
+				"bigscience/mt0-xxl"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 13946000000,
+				"active": 13946000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mt0-xxl-mt": {
+			"display_name": "mT0-xxl-mt",
+			"names": [
+				"mT0-xxl-mt",
+				"mT0 xxl MT",
+				"mT0-XXL-MT",
+				"mt0-xxl-mt",
+				"bigscience/mt0-xxl-mt"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 13946000000,
+				"active": 13946000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mt0-xxl-p3": {
+			"display_name": "mT0-xxl-p3",
+			"names": [
+				"mT0-xxl-p3",
+				"mT0 xxl P3",
+				"mT0-XXL-P3",
+				"mt0-xxl-p3",
+				"bigscience/mt0-xxl-p3"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 13946000000,
+				"active": 13946000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

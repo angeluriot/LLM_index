@@ -1,0 +1,32 @@
+{
+	"display_name": "StarCoder2-3B",
+	"versions": {
+		"starcoder2-3b": {
+			"display_name": "StarCoder2-3B",
+			"names": [
+				"StarCoder2-3B",
+				"StarCoder2 3B",
+				"StarCoder 2 3B",
+				"starcoder2-3b",
+				"bigcode/starcoder2-3b"
+			],
+			"link": "https://huggingface.co/blog/starcoder2",
+			"history": {
+				"first_mention": "2024-02-28",
+				"access": "2024-02-28",
+				"weights": "2024-02-28"
+			},
+			"parameters": {
+				"all": 3030000000,
+				"active": 3030000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

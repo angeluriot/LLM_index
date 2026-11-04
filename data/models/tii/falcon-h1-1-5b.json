@@ -1,0 +1,59 @@
+{
+	"display_name": "Falcon-H1-1.5B",
+	"versions": {
+		"falcon-h1-1-5b-base": {
+			"display_name": "Falcon-H1-1.5B-Base",
+			"names": [
+				"Falcon-H1-1.5B-Base",
+				"Falcon H1 1.5B Base",
+				"falcon-h1-1.5b-base",
+				"tiiuae/Falcon-H1-1.5B-Base",
+				"tiiuae/falcon-h1-1.5b-base"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-h1/",
+			"history": {
+				"first_mention": "2025-05-20",
+				"access": "2025-05-20",
+				"weights": "2025-05-20"
+			},
+			"parameters": {
+				"all": 1555000000,
+				"active": 1555000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-h1-1-5b-instruct": {
+			"display_name": "Falcon-H1-1.5B-Instruct",
+			"names": [
+				"Falcon-H1-1.5B-Instruct",
+				"Falcon H1 1.5B Instruct",
+				"falcon-h1-1.5b-instruct",
+				"tiiuae/Falcon-H1-1.5B-Instruct",
+				"tiiuae/falcon-h1-1.5b-instruct"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-h1/",
+			"history": {
+				"first_mention": "2025-05-20",
+				"access": "2025-05-20",
+				"weights": "2025-05-20"
+			},
+			"parameters": {
+				"all": 1555000000,
+				"active": 1555000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

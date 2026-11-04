@@ -1,0 +1,115 @@
+{
+	"display_name": "BLOOM",
+	"versions": {
+		"bloom": {
+			"display_name": "BLOOM",
+			"names": [
+				"BLOOM",
+				"BLOOM 176B",
+				"BLOOM-176B",
+				"BLOOM (176B)",
+				"bloom",
+				"bigscience/bloom"
+			],
+			"link": "https://bigscience.huggingface.co/blog/bloom",
+			"history": {
+				"first_mention": "2022-03-11",
+				"access": "2022-07-12",
+				"weights": "2022-07-12"
+			},
+			"parameters": {
+				"all": 176247000000,
+				"active": 176247000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"bloomz": {
+			"display_name": "BLOOMZ",
+			"names": [
+				"BLOOMZ",
+				"BLOOMZ 176B",
+				"BLOOMZ-176B",
+				"BLOOMZ (176B)",
+				"bloomz",
+				"bigscience/bloomz"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 176247000000,
+				"active": 176247000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"bloomz-mt": {
+			"display_name": "BLOOMZ-MT",
+			"names": [
+				"BLOOMZ-MT",
+				"BLOOMZ MT",
+				"BLOOMZ-MT (176B)",
+				"bloomz-mt",
+				"bigscience/bloomz-mt"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 176247000000,
+				"active": 176247000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"bloomz-p3": {
+			"display_name": "BLOOMZ-P3",
+			"names": [
+				"BLOOMZ-P3",
+				"BLOOMZ P3",
+				"BLOOMZ-P3 (176B)",
+				"bloomz-p3",
+				"bigscience/bloomz-p3"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 176247000000,
+				"active": 176247000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"display_name": "Cosmo-1B",
+	"versions": {
+		"cosmo-1b": {
+			"display_name": "Cosmo-1B",
+			"names": [
+				"Cosmo-1B",
+				"Cosmo 1B",
+				"cosmo-1b",
+				"HuggingFaceTB/cosmo-1b"
+			],
+			"link": "https://huggingface.co/HuggingFaceTB/cosmo-1b",
+			"history": {
+				"first_mention": "2024-02-20",
+				"access": "2024-02-20",
+				"weights": "2024-02-20"
+			},
+			"parameters": {
+				"all": 1742000000,
+				"active": 1742000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

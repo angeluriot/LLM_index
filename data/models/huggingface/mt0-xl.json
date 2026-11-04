@@ -1,0 +1,32 @@
+{
+	"display_name": "mT0-xl",
+	"versions": {
+		"mt0-xl": {
+			"display_name": "mT0-xl",
+			"names": [
+				"mT0-xl",
+				"mT0 xl",
+				"mt0-xl",
+				"mT0 3.7B",
+				"bigscience/mt0-xl"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 3743000000,
+				"active": 3743000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

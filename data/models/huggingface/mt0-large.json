@@ -1,0 +1,32 @@
+{
+	"display_name": "mT0-large",
+	"versions": {
+		"mt0-large": {
+			"display_name": "mT0-large",
+			"names": [
+				"mT0-large",
+				"mT0 large",
+				"mt0-large",
+				"mT0 1.2B",
+				"bigscience/mt0-large"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 1230000000,
+				"active": 1230000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"display_name": "Zephyr 7B",
+	"versions": {
+		"zephyr-7b-alpha": {
+			"display_name": "Zephyr 7B Alpha",
+			"names": [
+				"Zephyr 7B Alpha",
+				"Zephyr-7B-Alpha",
+				"Zephyr 7B α",
+				"zephyr-7b-alpha",
+				"HuggingFaceH4/zephyr-7b-alpha"
+			],
+			"link": "https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha",
+			"history": {
+				"first_mention": "2023-10-10",
+				"access": "2023-10-10",
+				"weights": "2023-10-10"
+			},
+			"parameters": {
+				"all": 7242000000,
+				"active": 7242000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"zephyr-7b-beta": {
+			"display_name": "Zephyr 7B Beta",
+			"names": [
+				"Zephyr 7B Beta",
+				"Zephyr 7B",
+				"Zephyr-7B",
+				"Zephyr-7B-Beta",
+				"Zephyr 7B β",
+				"zephyr-7b-beta",
+				"HuggingFaceH4/zephyr-7b-beta"
+			],
+			"link": "https://arxiv.org/abs/2310.16944",
+			"history": {
+				"first_mention": "2023-10-25",
+				"access": "2023-10-25",
+				"weights": "2023-10-25"
+			},
+			"parameters": {
+				"all": 7242000000,
+				"active": 7242000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

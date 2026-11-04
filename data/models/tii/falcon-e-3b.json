@@ -1,0 +1,58 @@
+{
+	"display_name": "Falcon-E-3B",
+	"versions": {
+		"falcon-e-3b-base": {
+			"display_name": "Falcon-E-3B-Base",
+			"names": [
+				"Falcon-E-3B-Base",
+				"Falcon-Edge 3B Base",
+				"Falcon E 3B Base",
+				"tiiuae/Falcon-E-3B-Base"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-edge/",
+			"history": {
+				"first_mention": "2025-05-15",
+				"access": "2025-05-15",
+				"weights": "2025-05-15"
+			},
+			"parameters": {
+				"all": 3054000000,
+				"active": 3054000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-e-3b-instruct": {
+			"display_name": "Falcon-E-3B-Instruct",
+			"names": [
+				"Falcon-E-3B-Instruct",
+				"Falcon-Edge 3B Instruct",
+				"Falcon E 3B Instruct",
+				"Falcon-E-3B",
+				"tiiuae/Falcon-E-3B-Instruct"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-edge/",
+			"history": {
+				"first_mention": "2025-05-15",
+				"access": "2025-05-15",
+				"weights": "2025-05-15"
+			},
+			"parameters": {
+				"all": 3054000000,
+				"active": 3054000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

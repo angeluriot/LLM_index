@@ -1,0 +1,38 @@
+{
+	"display_name": "MiMo-V2.5-Pro",
+	"versions": {
+		"mimo-v2-5-pro": {
+			"display_name": "MiMo-V2.5-Pro",
+			"names": [
+				"MiMo-V2.5-Pro",
+				"MiMo V2.5 Pro",
+				"MiMo v2.5 Pro",
+				"mimo-v2.5-pro",
+				"mimo-v2-5-pro",
+				"xiaomi/mimo-v2.5-pro",
+				"MiMo-V2.5-Pro-UltraSpeed",
+				"MiMo-V2.5-Pro-Base",
+				"XiaomiMiMo/MiMo-V2.5-Pro",
+				"XiaomiMiMo/MiMo-V2.5-Pro-Base"
+			],
+			"link": "https://mimo.xiaomi.com/mimo-v2-5-pro/",
+			"history": {
+				"first_mention": "2026-04-22",
+				"access": "2026-04-23",
+				"weights": "2026-04-27"
+			},
+			"parameters": {
+				"all": 1020000000000,
+				"active": 42000000000
+			},
+			"price": {
+				"input": 0.435,
+				"output": 0.87
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

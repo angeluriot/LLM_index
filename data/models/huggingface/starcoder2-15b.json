@@ -1,0 +1,87 @@
+{
+	"display_name": "StarCoder2-15B",
+	"versions": {
+		"starcoder2-15b": {
+			"display_name": "StarCoder2-15B",
+			"names": [
+				"StarCoder2-15B",
+				"StarCoder2 15B",
+				"StarCoder 2 15B",
+				"StarCoder2",
+				"starcoder2-15b",
+				"bigcode/starcoder2-15b"
+			],
+			"link": "https://huggingface.co/blog/starcoder2",
+			"history": {
+				"first_mention": "2024-02-28",
+				"access": "2024-02-28",
+				"weights": "2024-02-28"
+			},
+			"parameters": {
+				"all": 15958000000,
+				"active": 15958000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"starchat2-15b": {
+			"display_name": "StarChat2 15B",
+			"names": [
+				"StarChat2 15B",
+				"StarChat2-15B",
+				"starchat2-15b-v0.1",
+				"HuggingFaceH4/starchat2-15b-v0.1"
+			],
+			"link": "https://huggingface.co/HuggingFaceH4/starchat2-15b-v0.1",
+			"history": {
+				"first_mention": "2024-03-12",
+				"access": "2024-03-12",
+				"weights": "2024-03-12"
+			},
+			"parameters": {
+				"all": 15958000000,
+				"active": 15958000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"starcoder2-15b-instruct-v0-1": {
+			"display_name": "StarCoder2-15B-Instruct-v0.1",
+			"names": [
+				"StarCoder2-15B-Instruct-v0.1",
+				"StarCoder2-15B-Instruct",
+				"StarCoder2 15B Instruct",
+				"StarCoder2-Instruct",
+				"starcoder2-15b-instruct-v0.1",
+				"bigcode/starcoder2-15b-instruct-v0.1"
+			],
+			"link": "https://huggingface.co/blog/sc2-instruct",
+			"history": {
+				"first_mention": "2024-04-29",
+				"access": "2024-04-29",
+				"weights": "2024-04-29"
+			},
+			"parameters": {
+				"all": 15958000000,
+				"active": 15958000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

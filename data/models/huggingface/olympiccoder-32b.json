@@ -1,0 +1,31 @@
+{
+	"display_name": "OlympicCoder-32B",
+	"versions": {
+		"olympiccoder-32b": {
+			"display_name": "OlympicCoder-32B",
+			"names": [
+				"OlympicCoder-32B",
+				"OlympicCoder 32B",
+				"OlympicCoder",
+				"open-r1/OlympicCoder-32B"
+			],
+			"link": "https://huggingface.co/blog/open-r1/update-3",
+			"history": {
+				"first_mention": "2025-03-11",
+				"access": "2025-03-11",
+				"weights": "2025-03-11"
+			},
+			"parameters": {
+				"all": 32764000000,
+				"active": 32764000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

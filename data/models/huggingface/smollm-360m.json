@@ -1,0 +1,55 @@
+{
+	"display_name": "SmolLM-360M",
+	"versions": {
+		"smollm-360m": {
+			"display_name": "SmolLM-360M",
+			"names": [
+				"SmolLM-360M",
+				"SmolLM 360M",
+				"HuggingFaceTB/SmolLM-360M"
+			],
+			"link": "https://huggingface.co/blog/smollm",
+			"history": {
+				"first_mention": "2024-07-16",
+				"access": "2024-07-16",
+				"weights": "2024-07-16"
+			},
+			"parameters": {
+				"all": 361821120,
+				"active": 361821120
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"smollm-360m-instruct": {
+			"display_name": "SmolLM-360M-Instruct",
+			"names": [
+				"SmolLM-360M-Instruct",
+				"SmolLM 360M Instruct",
+				"HuggingFaceTB/SmolLM-360M-Instruct"
+			],
+			"link": "https://huggingface.co/blog/smollm",
+			"history": {
+				"first_mention": "2024-07-16",
+				"access": "2024-07-16",
+				"weights": "2024-07-16"
+			},
+			"parameters": {
+				"all": 361821120,
+				"active": 361821120
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

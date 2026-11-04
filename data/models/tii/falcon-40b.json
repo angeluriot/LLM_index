@@ -1,0 +1,59 @@
+{
+	"display_name": "Falcon-40B",
+	"versions": {
+		"falcon-40b": {
+			"display_name": "Falcon-40B",
+			"names": [
+				"Falcon-40B",
+				"Falcon 40B",
+				"Falcon (40B)",
+				"falcon-40b",
+				"tiiuae/falcon-40b"
+			],
+			"link": "https://falconllm.tii.ae/falcon-40b.html",
+			"history": {
+				"first_mention": "2023-03-15",
+				"access": "2023-05-25",
+				"weights": "2023-05-25"
+			},
+			"parameters": {
+				"all": 41836000000,
+				"active": 41836000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-40b-instruct": {
+			"display_name": "Falcon-40B-Instruct",
+			"names": [
+				"Falcon-40B-Instruct",
+				"Falcon 40B Instruct",
+				"Falcon-Instruct (40B)",
+				"falcon-40b-instruct",
+				"tiiuae/falcon-40b-instruct"
+			],
+			"link": "https://huggingface.co/blog/falcon",
+			"history": {
+				"first_mention": "2023-05-25",
+				"access": "2023-05-25",
+				"weights": "2023-05-25"
+			},
+			"parameters": {
+				"all": 41836000000,
+				"active": 41836000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

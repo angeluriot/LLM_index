@@ -1,0 +1,64 @@
+{
+	"display_name": "MiMo-V2.6-Pro",
+	"versions": {
+		"mimo-v2-6-pro": {
+			"display_name": "MiMo-V2.6-Pro",
+			"names": [
+				"MiMo-V2.6-Pro",
+				"MiMo V2.6 Pro",
+				"mimo-v2.6-pro",
+				"mimo-v2-6-pro",
+				"xiaomi/mimo-v2.6-pro",
+				"MiMo-V2.6-Pro-UltraSpeed",
+				"mimo-v2.6-pro-ultraspeed",
+				"xiaomi/mimo-v2.6-pro-ultraspeed",
+				"MiMo-V2.6-Pro-RL",
+				"XiaomiMiMo/MiMo-V2.6-Pro-RL"
+			],
+			"link": "https://mimo.xiaomi.com/mimo-v2-6",
+			"history": {
+				"first_mention": "2026-09-21",
+				"access": "2026-09-21",
+				"weights": "2026-09-21"
+			},
+			"parameters": {
+				"all": 1020000000000,
+				"active": 42000000000
+			},
+			"price": {
+				"input": 0.435,
+				"output": 0.87
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"mimo-v2-6-pro-mopd": {
+			"display_name": "MiMo-V2.6-Pro-MOPD",
+			"names": [
+				"MiMo-V2.6-Pro-MOPD",
+				"MiMo V2.6 Pro MOPD",
+				"XiaomiMiMo/MiMo-V2.6-Pro-MOPD"
+			],
+			"link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-MOPD",
+			"history": {
+				"first_mention": "2026-09-27",
+				"access": "2026-09-27",
+				"weights": "2026-09-27"
+			},
+			"parameters": {
+				"all": 1020000000000,
+				"active": 42000000000
+			},
+			"price": {
+				"input": 0.435,
+				"output": 0.87
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

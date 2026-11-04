@@ -1,0 +1,131 @@
+{
+	"display_name": "Falcon3-7B",
+	"versions": {
+		"falcon3-7b-base": {
+			"display_name": "Falcon3-7B-Base",
+			"names": [
+				"Falcon3-7B-Base",
+				"Falcon3 7B Base",
+				"tiiuae/Falcon3-7B-Base"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 7456000000,
+				"active": 7456000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon3-7b-instruct": {
+			"display_name": "Falcon3-7B-Instruct",
+			"names": [
+				"Falcon3-7B-Instruct",
+				"Falcon3 7B Instruct",
+				"tiiuae/Falcon3-7B-Instruct"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 7456000000,
+				"active": 7456000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon3-7b-base-1-58bit": {
+			"display_name": "Falcon3-7B-Base-1.58bit",
+			"names": [
+				"Falcon3-7B-Base-1.58bit",
+				"Falcon3 7B Base 1.58bit",
+				"tiiuae/Falcon3-7B-Base-1.58bit"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 7456000000,
+				"active": 7456000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon3-7b-instruct-1-58bit": {
+			"display_name": "Falcon3-7B-Instruct-1.58bit",
+			"names": [
+				"Falcon3-7B-Instruct-1.58bit",
+				"Falcon3 7B Instruct 1.58bit",
+				"tiiuae/Falcon3-7B-Instruct-1.58bit"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 7456000000,
+				"active": 7456000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-arabic": {
+			"display_name": "Falcon-Arabic",
+			"names": [
+				"Falcon-Arabic",
+				"Falcon Arabic",
+				"Falcon-Arabic-7B-Instruct",
+				"Falcon-Arabic-7B"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-arabic/",
+			"history": {
+				"first_mention": "2025-05-21",
+				"access": "2025-05-21",
+				"weights": null
+			},
+			"parameters": {
+				"all": 7000000000,
+				"active": 7000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

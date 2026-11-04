@@ -1,0 +1,58 @@
+{
+	"display_name": "SmolLM3-3B",
+	"versions": {
+		"smollm3-3b-base": {
+			"display_name": "SmolLM3-3B-Base",
+			"names": [
+				"SmolLM3-3B-Base",
+				"SmolLM3 3B Base",
+				"HuggingFaceTB/SmolLM3-3B-Base"
+			],
+			"link": "https://huggingface.co/blog/smollm3",
+			"history": {
+				"first_mention": "2025-07-08",
+				"access": "2025-07-08",
+				"weights": "2025-07-08"
+			},
+			"parameters": {
+				"all": 3075000000,
+				"active": 3075000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"smollm3-3b": {
+			"display_name": "SmolLM3-3B",
+			"names": [
+				"SmolLM3-3B",
+				"SmolLM3",
+				"SmolLM3 3B",
+				"SmolLM 3",
+				"HuggingFaceTB/SmolLM3-3B"
+			],
+			"link": "https://huggingface.co/blog/smollm3",
+			"history": {
+				"first_mention": "2025-07-08",
+				"access": "2025-07-08",
+				"weights": "2025-07-08"
+			},
+			"parameters": {
+				"all": 3075000000,
+				"active": 3075000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

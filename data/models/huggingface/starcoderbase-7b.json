@@ -1,0 +1,32 @@
+{
+	"display_name": "StarCoderBase-7B",
+	"versions": {
+		"starcoderbase-7b": {
+			"display_name": "StarCoderBase-7B",
+			"names": [
+				"StarCoderBase-7B",
+				"StarCoderBase 7B",
+				"StarCoder 7B",
+				"starcoderbase-7b",
+				"bigcode/starcoderbase-7b"
+			],
+			"link": "https://huggingface.co/bigcode/starcoderbase-7b",
+			"history": {
+				"first_mention": "2023-07-26",
+				"access": "2023-07-26",
+				"weights": "2023-07-26"
+			},
+			"parameters": {
+				"all": 7529000000,
+				"active": 7529000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"display_name": "BLOOM-3B",
+	"versions": {
+		"bloom-3b": {
+			"display_name": "BLOOM-3B",
+			"names": [
+				"BLOOM-3B",
+				"BLOOM 3B",
+				"BLOOM (3B)",
+				"bloom-3b",
+				"bigscience/bloom-3b"
+			],
+			"link": "https://huggingface.co/bigscience/bloom-3b",
+			"history": {
+				"first_mention": "2022-07-12",
+				"access": "2022-07-12",
+				"weights": "2022-07-12"
+			},
+			"parameters": {
+				"all": 3003000000,
+				"active": 3003000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"bloomz-3b": {
+			"display_name": "BLOOMZ-3B",
+			"names": [
+				"BLOOMZ-3B",
+				"BLOOMZ 3B",
+				"bloomz-3b",
+				"bigscience/bloomz-3b"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 3003000000,
+				"active": 3003000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

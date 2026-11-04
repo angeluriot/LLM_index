@@ -1,0 +1,57 @@
+{
+	"display_name": "Open R1 7B",
+	"versions": {
+		"openr1-qwen-7b": {
+			"display_name": "OpenR1-Qwen-7B",
+			"names": [
+				"OpenR1-Qwen-7B",
+				"OpenR1 Qwen 7B",
+				"Open-R1-Qwen-7B",
+				"open-r1/OpenR1-Qwen-7B"
+			],
+			"link": "https://huggingface.co/blog/open-r1/update-2",
+			"history": {
+				"first_mention": "2025-02-10",
+				"access": "2025-02-10",
+				"weights": "2025-02-10"
+			},
+			"parameters": {
+				"all": 7616000000,
+				"active": 7616000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"openr1-distill-7b": {
+			"display_name": "OpenR1-Distill-7B",
+			"names": [
+				"OpenR1-Distill-7B",
+				"OpenR1 Distill 7B",
+				"Open-R1-Distill-7B",
+				"open-r1/OpenR1-Distill-7B"
+			],
+			"link": "https://huggingface.co/open-r1/OpenR1-Distill-7B",
+			"history": {
+				"first_mention": "2025-05-26",
+				"access": "2025-05-26",
+				"weights": "2025-05-26"
+			},
+			"parameters": {
+				"all": 7616000000,
+				"active": 7616000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

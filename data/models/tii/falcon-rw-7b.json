@@ -1,0 +1,32 @@
+{
+	"display_name": "Falcon-RW-7B",
+	"versions": {
+		"falcon-rw-7b": {
+			"display_name": "Falcon-RW-7B",
+			"names": [
+				"Falcon-RW-7B",
+				"Falcon RW 7B",
+				"Falcon-rw-7.5B",
+				"falcon-rw-7b",
+				"tiiuae/falcon-rw-7b"
+			],
+			"link": "https://arxiv.org/abs/2306.01116",
+			"history": {
+				"first_mention": "2023-06-01",
+				"access": "2023-06-01",
+				"weights": "2023-06-01"
+			},
+			"parameters": {
+				"all": 7782000000,
+				"active": 7782000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

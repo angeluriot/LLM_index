@@ -1,0 +1,135 @@
+{
+	"display_name": "SmolLM2-1.7B",
+	"versions": {
+		"smollm2-1-7b": {
+			"display_name": "SmolLM2-1.7B",
+			"names": [
+				"SmolLM2-1.7B",
+				"SmolLM2 1.7B",
+				"HuggingFaceTB/SmolLM2-1.7B"
+			],
+			"link": "https://arxiv.org/abs/2502.02737",
+			"history": {
+				"first_mention": "2024-10-31",
+				"access": "2024-10-31",
+				"weights": "2024-10-31"
+			},
+			"parameters": {
+				"all": 1711376384,
+				"active": 1711376384
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"smollm2-1-7b-instruct": {
+			"display_name": "SmolLM2-1.7B-Instruct",
+			"names": [
+				"SmolLM2-1.7B-Instruct",
+				"SmolLM2 1.7B Instruct",
+				"HuggingFaceTB/SmolLM2-1.7B-Instruct"
+			],
+			"link": "https://arxiv.org/abs/2502.02737",
+			"history": {
+				"first_mention": "2024-10-31",
+				"access": "2024-10-31",
+				"weights": "2024-10-31"
+			},
+			"parameters": {
+				"all": 1711376384,
+				"active": 1711376384
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"smolvlm-instruct": {
+			"display_name": "SmolVLM-Instruct",
+			"names": [
+				"SmolVLM-Instruct",
+				"SmolVLM",
+				"SmolVLM 2B",
+				"SmolVLM-2B",
+				"SmolVLM Instruct",
+				"HuggingFaceTB/SmolVLM-Instruct"
+			],
+			"link": "https://huggingface.co/blog/smolvlm",
+			"history": {
+				"first_mention": "2024-11-26",
+				"access": "2024-11-26",
+				"weights": "2024-11-26"
+			},
+			"parameters": {
+				"all": 2246272880,
+				"active": 2246272880
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"smolvlm2-2-2b-instruct": {
+			"display_name": "SmolVLM2-2.2B-Instruct",
+			"names": [
+				"SmolVLM2-2.2B-Instruct",
+				"SmolVLM2",
+				"SmolVLM2-2.2B",
+				"SmolVLM2 2.2B Instruct",
+				"HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+			],
+			"link": "https://huggingface.co/blog/smolvlm2",
+			"history": {
+				"first_mention": "2025-02-20",
+				"access": "2025-02-20",
+				"weights": "2025-02-20"
+			},
+			"parameters": {
+				"all": 2246784880,
+				"active": 2246784880
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"smollm2-1-7b-instruct-16k": {
+			"display_name": "SmolLM2-1.7B-Instruct-16k",
+			"names": [
+				"SmolLM2-1.7B-Instruct-16k",
+				"SmolLM2 1.7B Instruct 16k",
+				"HuggingFaceTB/SmolLM2-1.7B-Instruct-16k"
+			],
+			"link": "https://arxiv.org/abs/2502.02737",
+			"history": {
+				"first_mention": "2025-02-21",
+				"access": "2025-02-21",
+				"weights": "2025-02-21"
+			},
+			"parameters": {
+				"all": 1711376384,
+				"active": 1711376384
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

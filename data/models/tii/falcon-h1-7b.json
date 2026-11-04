@@ -1,0 +1,139 @@
+{
+	"display_name": "Falcon-H1-7B",
+	"versions": {
+		"falcon-h1-7b-base": {
+			"display_name": "Falcon-H1-7B-Base",
+			"names": [
+				"Falcon-H1-7B-Base",
+				"Falcon H1 7B Base",
+				"falcon-h1-7b-base",
+				"tiiuae/Falcon-H1-7B-Base",
+				"tiiuae/falcon-h1-7b-base"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-h1/",
+			"history": {
+				"first_mention": "2025-05-20",
+				"access": "2025-05-20",
+				"weights": "2025-05-20"
+			},
+			"parameters": {
+				"all": 7586000000,
+				"active": 7586000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-h1-7b-instruct": {
+			"display_name": "Falcon-H1-7B-Instruct",
+			"names": [
+				"Falcon-H1-7B-Instruct",
+				"Falcon H1 7B Instruct",
+				"falcon-h1-7b-instruct",
+				"tiiuae/Falcon-H1-7B-Instruct",
+				"tiiuae/falcon-h1-7b-instruct"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-h1/",
+			"history": {
+				"first_mention": "2025-05-20",
+				"access": "2025-05-20",
+				"weights": "2025-05-20"
+			},
+			"parameters": {
+				"all": 7586000000,
+				"active": 7586000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-h1r-7b": {
+			"display_name": "Falcon-H1R-7B",
+			"names": [
+				"Falcon-H1R-7B",
+				"Falcon H1R 7B",
+				"Falcon-H1R 7B",
+				"Falcon H1R",
+				"Falcon Reasoning",
+				"Falcon-H1R-7B-FP8",
+				"tiiuae/Falcon-H1R-7B",
+				"tiiuae/Falcon-H1R-7B-FP8"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-h1r-7b/",
+			"history": {
+				"first_mention": "2026-01-05",
+				"access": "2026-01-05",
+				"weights": "2026-01-05"
+			},
+			"parameters": {
+				"all": 7586000000,
+				"active": 7586000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-h1-arabic-7b": {
+			"display_name": "Falcon-H1-Arabic-7B",
+			"names": [
+				"Falcon-H1-Arabic-7B",
+				"Falcon-H1-Arabic 7B",
+				"Falcon H1 Arabic 7B"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-h1-arabic/",
+			"history": {
+				"first_mention": "2026-01-05",
+				"access": "2026-01-05",
+				"weights": null
+			},
+			"parameters": {
+				"all": 7000000000,
+				"active": 7000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-emirati-7b": {
+			"display_name": "Falcon-Emirati-7B",
+			"names": [
+				"Falcon-Emirati-7B",
+				"Falcon-Emirati",
+				"Falcon Emirati 7B"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-emirati/",
+			"history": {
+				"first_mention": "2026-10-06",
+				"access": "2026-10-06",
+				"weights": null
+			},
+			"parameters": {
+				"all": 7000000000,
+				"active": 7000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

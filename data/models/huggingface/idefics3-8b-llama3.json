@@ -1,0 +1,32 @@
+{
+	"display_name": "Idefics3-8B-Llama3",
+	"versions": {
+		"idefics3-8b-llama3": {
+			"display_name": "Idefics3-8B-Llama3",
+			"names": [
+				"Idefics3-8B-Llama3",
+				"Idefics3",
+				"Idefics3-8B",
+				"Idefics3 8B",
+				"HuggingFaceM4/Idefics3-8B-Llama3"
+			],
+			"link": "https://arxiv.org/abs/2408.12637",
+			"history": {
+				"first_mention": "2024-08-05",
+				"access": "2024-08-05",
+				"weights": "2024-08-05"
+			},
+			"parameters": {
+				"all": 8462000000,
+				"active": 8462000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

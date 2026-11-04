@@ -1,0 +1,92 @@
+{
+	"display_name": "MiMo-V2-Flash",
+	"versions": {
+		"mimo-v2-flash-dec-2025": {
+			"display_name": "MiMo-V2-Flash (Dec 2025)",
+			"names": [
+				"MiMo-V2-Flash (Dec 2025)",
+				"MiMo-V2-Flash",
+				"MiMo V2 Flash",
+				"mimo-v2-flash",
+				"MiMo-V2-Flash (Reasoning)",
+				"MiMo-V2-Flash (Non-reasoning)",
+				"MiMo-V2-Flash (non-reasoning)",
+				"xiaomi/mimo-v2-flash",
+				"MiMo-V2-Flash-Base",
+				"XiaomiMiMo/MiMo-V2-Flash",
+				"XiaomiMiMo/MiMo-V2-Flash-Base"
+			],
+			"link": "https://mimo.mi.com/docs/en-US/news/previous-news/news20251216",
+			"history": {
+				"first_mention": "2025-12-16",
+				"access": "2025-12-16",
+				"weights": "2025-12-16"
+			},
+			"parameters": {
+				"all": 309000000000,
+				"active": 15000000000
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.3
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"mimo-v2-flash-jan-2026": {
+			"display_name": "MiMo-V2-Flash (Jan 2026)",
+			"names": [
+				"MiMo-V2-Flash (Jan 2026)",
+				"MiMo-V2-Flash (January 2026)",
+				"mimo-v2-flash-0112"
+			],
+			"link": "https://mimo.mi.com/docs/en-US/updates/model",
+			"history": {
+				"first_mention": "2026-01-12",
+				"access": "2026-01-12",
+				"weights": null
+			},
+			"parameters": {
+				"all": 309000000000,
+				"active": 15000000000
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.3
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"mimo-v2-flash-feb-2026": {
+			"display_name": "MiMo-V2-Flash (Feb 2026)",
+			"names": [
+				"MiMo-V2-Flash (Feb 2026)",
+				"MiMo-V2-Flash (February 2026)",
+				"mimo-v2-flash-0204",
+				"mimo-v2-0206"
+			],
+			"link": "https://mimo.mi.com/docs/en-US/updates/model",
+			"history": {
+				"first_mention": "2026-02-04",
+				"access": "2026-02-04",
+				"weights": null
+			},
+			"parameters": {
+				"all": 309000000000,
+				"active": 15000000000
+			},
+			"price": {
+				"input": 0.1,
+				"output": 0.3
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

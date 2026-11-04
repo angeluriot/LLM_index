@@ -1,0 +1,59 @@
+{
+	"display_name": "IDEFICS 9B",
+	"versions": {
+		"idefics-9b": {
+			"display_name": "IDEFICS 9B",
+			"names": [
+				"IDEFICS 9B",
+				"IDEFICS-9B",
+				"Idefics 9B",
+				"idefics-9b",
+				"HuggingFaceM4/idefics-9b"
+			],
+			"link": "https://huggingface.co/blog/idefics",
+			"history": {
+				"first_mention": "2023-08-22",
+				"access": "2023-08-22",
+				"weights": "2023-08-22"
+			},
+			"parameters": {
+				"all": 8930000000,
+				"active": 8930000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"idefics-9b-instruct": {
+			"display_name": "IDEFICS 9B Instruct",
+			"names": [
+				"IDEFICS 9B Instruct",
+				"IDEFICS-9B-Instruct",
+				"Idefics 9B Instruct",
+				"idefics-9b-instruct",
+				"HuggingFaceM4/idefics-9b-instruct"
+			],
+			"link": "https://huggingface.co/blog/idefics",
+			"history": {
+				"first_mention": "2023-08-22",
+				"access": "2023-08-22",
+				"weights": "2023-08-22"
+			},
+			"parameters": {
+				"all": 8930000000,
+				"active": 8930000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

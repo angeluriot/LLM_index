@@ -1,0 +1,105 @@
+{
+	"display_name": "Falcon3-3B",
+	"versions": {
+		"falcon3-3b-base": {
+			"display_name": "Falcon3-3B-Base",
+			"names": [
+				"Falcon3-3B-Base",
+				"Falcon3 3B Base",
+				"tiiuae/Falcon3-3B-Base"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 3228000000,
+				"active": 3228000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon3-3b-instruct": {
+			"display_name": "Falcon3-3B-Instruct",
+			"names": [
+				"Falcon3-3B-Instruct",
+				"Falcon3 3B Instruct",
+				"tiiuae/Falcon3-3B-Instruct"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 3228000000,
+				"active": 3228000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon3-3b-base-1-58bit": {
+			"display_name": "Falcon3-3B-Base-1.58bit",
+			"names": [
+				"Falcon3-3B-Base-1.58bit",
+				"Falcon3 3B Base 1.58bit",
+				"tiiuae/Falcon3-3B-Base-1.58bit"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 3228000000,
+				"active": 3228000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon3-3b-instruct-1-58bit": {
+			"display_name": "Falcon3-3B-Instruct-1.58bit",
+			"names": [
+				"Falcon3-3B-Instruct-1.58bit",
+				"Falcon3 3B Instruct 1.58bit",
+				"tiiuae/Falcon3-3B-Instruct-1.58bit"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 3228000000,
+				"active": 3228000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

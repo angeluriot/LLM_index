@@ -1,0 +1,31 @@
+{
+	"display_name": "Zephyr 7B Gemma",
+	"versions": {
+		"zephyr-7b-gemma": {
+			"display_name": "Zephyr 7B Gemma",
+			"names": [
+				"Zephyr 7B Gemma",
+				"Zephyr-7B-Gemma",
+				"zephyr-7b-gemma-v0.1",
+				"HuggingFaceH4/zephyr-7b-gemma-v0.1"
+			],
+			"link": "https://huggingface.co/HuggingFaceH4/zephyr-7b-gemma-v0.1",
+			"history": {
+				"first_mention": "2024-03-01",
+				"access": "2024-03-01",
+				"weights": "2024-03-01"
+			},
+			"parameters": {
+				"all": 8538000000,
+				"active": 8538000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

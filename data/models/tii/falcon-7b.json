@@ -1,0 +1,59 @@
+{
+	"display_name": "Falcon-7B",
+	"versions": {
+		"falcon-7b": {
+			"display_name": "Falcon-7B",
+			"names": [
+				"Falcon-7B",
+				"Falcon 7B",
+				"Falcon (7B)",
+				"falcon-7b",
+				"tiiuae/falcon-7b"
+			],
+			"link": "https://huggingface.co/blog/falcon",
+			"history": {
+				"first_mention": "2023-05-25",
+				"access": "2023-05-25",
+				"weights": "2023-05-25"
+			},
+			"parameters": {
+				"all": 7217000000,
+				"active": 7217000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-7b-instruct": {
+			"display_name": "Falcon-7B-Instruct",
+			"names": [
+				"Falcon-7B-Instruct",
+				"Falcon 7B Instruct",
+				"Falcon-Instruct (7B)",
+				"falcon-7b-instruct",
+				"tiiuae/falcon-7b-instruct"
+			],
+			"link": "https://huggingface.co/blog/falcon",
+			"history": {
+				"first_mention": "2023-05-25",
+				"access": "2023-05-25",
+				"weights": "2023-05-25"
+			},
+			"parameters": {
+				"all": 7217000000,
+				"active": 7217000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

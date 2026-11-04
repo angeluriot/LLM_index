@@ -1,0 +1,56 @@
+{
+	"display_name": "Falcon-H1-Tiny-Multilingual-100M",
+	"versions": {
+		"falcon-h1-tiny-multilingual-100m-base": {
+			"display_name": "Falcon-H1-Tiny-Multilingual-100M-Base",
+			"names": [
+				"Falcon-H1-Tiny-Multilingual-100M-Base",
+				"Falcon H1 Tiny Multilingual 100M Base",
+				"tiiuae/Falcon-H1-Tiny-Multilingual-100M-Base"
+			],
+			"link": "https://huggingface.co/spaces/tiiuae/tiny-h1-blogpost",
+			"history": {
+				"first_mention": "2026-01-16",
+				"access": "2026-01-16",
+				"weights": "2026-01-16"
+			},
+			"parameters": {
+				"all": 108000000,
+				"active": 108000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-h1-tiny-multilingual-100m-instruct": {
+			"display_name": "Falcon-H1-Tiny-Multilingual-100M-Instruct",
+			"names": [
+				"Falcon-H1-Tiny-Multilingual-100M-Instruct",
+				"Falcon H1 Tiny Multilingual 100M Instruct",
+				"Falcon-H1-Tiny-Multilingual-100M",
+				"tiiuae/Falcon-H1-Tiny-Multilingual-100M-Instruct"
+			],
+			"link": "https://huggingface.co/spaces/tiiuae/tiny-h1-blogpost",
+			"history": {
+				"first_mention": "2026-01-16",
+				"access": "2026-01-16",
+				"weights": "2026-01-16"
+			},
+			"parameters": {
+				"all": 108000000,
+				"active": 108000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

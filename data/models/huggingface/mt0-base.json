@@ -1,0 +1,32 @@
+{
+	"display_name": "mT0-base",
+	"versions": {
+		"mt0-base": {
+			"display_name": "mT0-base",
+			"names": [
+				"mT0-base",
+				"mT0 base",
+				"mt0-base",
+				"mT0 580M",
+				"bigscience/mt0-base"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 582000000,
+				"active": 582000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

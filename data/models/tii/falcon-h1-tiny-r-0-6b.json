@@ -1,0 +1,31 @@
+{
+	"display_name": "Falcon-H1-Tiny-R-0.6B",
+	"versions": {
+		"falcon-h1-tiny-r-0-6b": {
+			"display_name": "Falcon-H1-Tiny-R-0.6B",
+			"names": [
+				"Falcon-H1-Tiny-R-0.6B",
+				"Falcon H1 Tiny R 0.6B",
+				"Falcon-H1-Tiny-R 0.6B",
+				"tiiuae/Falcon-H1-Tiny-R-0.6B"
+			],
+			"link": "https://huggingface.co/spaces/tiiuae/tiny-h1-blogpost",
+			"history": {
+				"first_mention": "2026-01-16",
+				"access": "2026-01-16",
+				"weights": "2026-01-16"
+			},
+			"parameters": {
+				"all": 622000000,
+				"active": 622000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

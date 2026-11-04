@@ -1,0 +1,31 @@
+{
+	"display_name": "T0 3B",
+	"versions": {
+		"t0-3b": {
+			"display_name": "T0 3B",
+			"names": [
+				"T0 3B",
+				"T0_3B",
+				"T0-3B",
+				"bigscience/T0_3B"
+			],
+			"link": "https://arxiv.org/abs/2110.08207",
+			"history": {
+				"first_mention": "2021-10-15",
+				"access": "2021-10-15",
+				"weights": "2021-10-15"
+			},
+			"parameters": {
+				"all": 2850000000,
+				"active": 2850000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

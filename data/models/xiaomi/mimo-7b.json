@@ -1,0 +1,265 @@
+{
+	"display_name": "MiMo-7B",
+	"versions": {
+		"mimo-7b-base": {
+			"display_name": "MiMo-7B-Base",
+			"names": [
+				"MiMo-7B-Base",
+				"MiMo 7B Base",
+				"XiaomiMiMo/MiMo-7B-Base"
+			],
+			"link": "https://arxiv.org/abs/2505.07608",
+			"history": {
+				"first_mention": "2025-04-30",
+				"access": "2025-04-30",
+				"weights": "2025-04-30"
+			},
+			"parameters": {
+				"all": 7833000000,
+				"active": 7833000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mimo-7b-sft": {
+			"display_name": "MiMo-7B-SFT",
+			"names": [
+				"MiMo-7B-SFT",
+				"MiMo 7B SFT",
+				"XiaomiMiMo/MiMo-7B-SFT"
+			],
+			"link": "https://arxiv.org/abs/2505.07608",
+			"history": {
+				"first_mention": "2025-04-30",
+				"access": "2025-04-30",
+				"weights": "2025-04-30"
+			},
+			"parameters": {
+				"all": 7833000000,
+				"active": 7833000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mimo-7b-rl-zero": {
+			"display_name": "MiMo-7B-RL-Zero",
+			"names": [
+				"MiMo-7B-RL-Zero",
+				"MiMo 7B RL Zero",
+				"MiMo-7B-RL Zero",
+				"XiaomiMiMo/MiMo-7B-RL-Zero"
+			],
+			"link": "https://arxiv.org/abs/2505.07608",
+			"history": {
+				"first_mention": "2025-04-30",
+				"access": "2025-04-30",
+				"weights": "2025-04-30"
+			},
+			"parameters": {
+				"all": 7833000000,
+				"active": 7833000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mimo-7b-rl": {
+			"display_name": "MiMo-7B-RL",
+			"names": [
+				"MiMo-7B-RL",
+				"MiMo-7B",
+				"MiMo 7B",
+				"MiMo 7B RL",
+				"Xiaomi MiMo-7B",
+				"XiaomiMiMo/MiMo-7B-RL"
+			],
+			"link": "https://arxiv.org/abs/2505.07608",
+			"history": {
+				"first_mention": "2025-04-30",
+				"access": "2025-04-30",
+				"weights": "2025-04-30"
+			},
+			"parameters": {
+				"all": 7833000000,
+				"active": 7833000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mimo-7b-rl-0530": {
+			"display_name": "MiMo-7B-RL-0530",
+			"names": [
+				"MiMo-7B-RL-0530",
+				"MiMo 7B RL 0530",
+				"MiMo-7B-RL (May 2025)",
+				"XiaomiMiMo/MiMo-7B-RL-0530"
+			],
+			"link": "https://huggingface.co/XiaomiMiMo/MiMo-7B-RL-0530",
+			"history": {
+				"first_mention": "2025-05-30",
+				"access": "2025-05-30",
+				"weights": "2025-05-30"
+			},
+			"parameters": {
+				"all": 7833000000,
+				"active": 7833000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mimo-vl-7b-sft": {
+			"display_name": "MiMo-VL-7B-SFT",
+			"names": [
+				"MiMo-VL-7B-SFT",
+				"MiMo VL 7B SFT",
+				"XiaomiMiMo/MiMo-VL-7B-SFT"
+			],
+			"link": "https://arxiv.org/abs/2506.03569",
+			"history": {
+				"first_mention": "2025-05-30",
+				"access": "2025-05-30",
+				"weights": "2025-05-30"
+			},
+			"parameters": {
+				"all": 8306000000,
+				"active": 8306000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mimo-vl-7b-rl": {
+			"display_name": "MiMo-VL-7B-RL",
+			"names": [
+				"MiMo-VL-7B-RL",
+				"MiMo-VL-7B",
+				"MiMo VL 7B",
+				"MiMo VL 7B RL",
+				"XiaomiMiMo/MiMo-VL-7B-RL"
+			],
+			"link": "https://arxiv.org/abs/2506.03569",
+			"history": {
+				"first_mention": "2025-05-30",
+				"access": "2025-05-30",
+				"weights": "2025-05-30"
+			},
+			"parameters": {
+				"all": 8306000000,
+				"active": 8306000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"mimo-vl-7b-sft-2508": {
+			"display_name": "MiMo-VL-7B-SFT-2508",
+			"names": [
+				"MiMo-VL-7B-SFT-2508",
+				"MiMo VL 7B SFT 2508",
+				"XiaomiMiMo/MiMo-VL-7B-SFT-2508"
+			],
+			"link": "https://huggingface.co/XiaomiMiMo/MiMo-VL-7B-SFT-2508",
+			"history": {
+				"first_mention": "2025-08-07",
+				"access": "2025-08-07",
+				"weights": "2025-08-07"
+			},
+			"parameters": {
+				"all": 8306000000,
+				"active": 8306000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"mimo-vl-7b-rl-2508": {
+			"display_name": "MiMo-VL-7B-RL-2508",
+			"names": [
+				"MiMo-VL-7B-RL-2508",
+				"MiMo VL 7B RL 2508",
+				"XiaomiMiMo/MiMo-VL-7B-RL-2508"
+			],
+			"link": "https://huggingface.co/XiaomiMiMo/MiMo-VL-7B-RL-2508",
+			"history": {
+				"first_mention": "2025-08-07",
+				"access": "2025-08-07",
+				"weights": "2025-08-07"
+			},
+			"parameters": {
+				"all": 8306000000,
+				"active": 8306000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		},
+		"mimo-embodied-7b": {
+			"display_name": "MiMo-Embodied-7B",
+			"names": [
+				"MiMo-Embodied-7B",
+				"MiMo-Embodied",
+				"MiMo Embodied 7B",
+				"XiaomiMiMo/MiMo-Embodied-7B"
+			],
+			"link": "https://arxiv.org/abs/2511.16518",
+			"history": {
+				"first_mention": "2025-11-19",
+				"access": "2025-11-19",
+				"weights": "2025-11-19"
+			},
+			"parameters": {
+				"all": 8306000000,
+				"active": 8306000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

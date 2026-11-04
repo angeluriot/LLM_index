@@ -1,0 +1,58 @@
+{
+	"display_name": "Falcon-180B",
+	"versions": {
+		"falcon-180b": {
+			"display_name": "Falcon-180B",
+			"names": [
+				"Falcon-180B",
+				"Falcon 180B",
+				"falcon-180b",
+				"falcon-180B",
+				"tiiuae/falcon-180B"
+			],
+			"link": "https://falconllm.tii.ae/falcon-180b.html",
+			"history": {
+				"first_mention": "2023-09-06",
+				"access": "2023-09-06",
+				"weights": "2023-09-06"
+			},
+			"parameters": {
+				"all": 179523000000,
+				"active": 179523000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-180b-chat": {
+			"display_name": "Falcon-180B-Chat",
+			"names": [
+				"Falcon-180B-Chat",
+				"Falcon 180B Chat",
+				"falcon-180B-chat",
+				"tiiuae/falcon-180B-chat"
+			],
+			"link": "https://falconllm.tii.ae/falcon-180b.html",
+			"history": {
+				"first_mention": "2023-09-06",
+				"access": "2023-09-06",
+				"weights": "2023-09-06"
+			},
+			"parameters": {
+				"all": 179523000000,
+				"active": 179523000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,156 @@
+{
+	"display_name": "Falcon-H1-Tiny-90M",
+	"versions": {
+		"falcon-h1-tiny-90m-base": {
+			"display_name": "Falcon-H1-Tiny-90M-Base",
+			"names": [
+				"Falcon-H1-Tiny-90M-Base",
+				"Falcon H1 Tiny 90M Base",
+				"tiiuae/Falcon-H1-Tiny-90M-Base"
+			],
+			"link": "https://huggingface.co/spaces/tiiuae/tiny-h1-blogpost",
+			"history": {
+				"first_mention": "2026-01-16",
+				"access": "2026-01-16",
+				"weights": "2026-01-16"
+			},
+			"parameters": {
+				"all": 91000000,
+				"active": 91000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-h1-tiny-90m-instruct": {
+			"display_name": "Falcon-H1-Tiny-90M-Instruct",
+			"names": [
+				"Falcon-H1-Tiny-90M-Instruct",
+				"Falcon H1 Tiny 90M Instruct",
+				"Falcon-H1-Tiny-90M",
+				"tiiuae/Falcon-H1-Tiny-90M-Instruct"
+			],
+			"link": "https://huggingface.co/spaces/tiiuae/tiny-h1-blogpost",
+			"history": {
+				"first_mention": "2026-01-16",
+				"access": "2026-01-16",
+				"weights": "2026-01-16"
+			},
+			"parameters": {
+				"all": 91000000,
+				"active": 91000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-h1-tiny-90m-instruct-curriculum": {
+			"display_name": "Falcon-H1-Tiny-90M-Instruct-Curriculum",
+			"names": [
+				"Falcon-H1-Tiny-90M-Instruct-Curriculum",
+				"Falcon H1 Tiny 90M Instruct Curriculum",
+				"tiiuae/Falcon-H1-Tiny-90M-Instruct-Curriculum"
+			],
+			"link": "https://huggingface.co/spaces/tiiuae/tiny-h1-blogpost",
+			"history": {
+				"first_mention": "2026-01-16",
+				"access": "2026-01-16",
+				"weights": "2026-01-16"
+			},
+			"parameters": {
+				"all": 91000000,
+				"active": 91000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-h1-tiny-tool-calling-90m": {
+			"display_name": "Falcon-H1-Tiny-Tool-Calling-90M",
+			"names": [
+				"Falcon-H1-Tiny-Tool-Calling-90M",
+				"Falcon H1 Tiny Tool Calling 90M",
+				"tiiuae/Falcon-H1-Tiny-Tool-Calling-90M"
+			],
+			"link": "https://huggingface.co/spaces/tiiuae/tiny-h1-blogpost",
+			"history": {
+				"first_mention": "2026-01-16",
+				"access": "2026-01-16",
+				"weights": "2026-01-16"
+			},
+			"parameters": {
+				"all": 91000000,
+				"active": 91000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-h1-tiny-coder-90m": {
+			"display_name": "Falcon-H1-Tiny-Coder-90M",
+			"names": [
+				"Falcon-H1-Tiny-Coder-90M",
+				"Falcon H1 Tiny Coder 90M",
+				"tiiuae/Falcon-H1-Tiny-Coder-90M"
+			],
+			"link": "https://huggingface.co/spaces/tiiuae/tiny-h1-blogpost",
+			"history": {
+				"first_mention": "2026-01-16",
+				"access": "2026-01-16",
+				"weights": "2026-01-16"
+			},
+			"parameters": {
+				"all": 91000000,
+				"active": 91000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-h1-tiny-r-90m": {
+			"display_name": "Falcon-H1-Tiny-R-90M",
+			"names": [
+				"Falcon-H1-Tiny-R-90M",
+				"Falcon H1 Tiny R 90M",
+				"tiiuae/Falcon-H1-Tiny-R-90M"
+			],
+			"link": "https://huggingface.co/spaces/tiiuae/tiny-h1-blogpost",
+			"history": {
+				"first_mention": "2026-01-16",
+				"access": "2026-01-16",
+				"weights": "2026-01-16"
+			},
+			"parameters": {
+				"all": 91000000,
+				"active": 91000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

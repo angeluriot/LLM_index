@@ -1,0 +1,31 @@
+{
+	"display_name": "DistilGPT2",
+	"versions": {
+		"distilgpt2": {
+			"display_name": "DistilGPT2",
+			"names": [
+				"DistilGPT2",
+				"DistilGPT-2",
+				"distilgpt2",
+				"distilbert/distilgpt2"
+			],
+			"link": "https://huggingface.co/distilbert/distilgpt2",
+			"history": {
+				"first_mention": "2019-10-02",
+				"access": "2019-10-02",
+				"weights": "2019-10-02"
+			},
+			"parameters": {
+				"all": 82000000,
+				"active": 82000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

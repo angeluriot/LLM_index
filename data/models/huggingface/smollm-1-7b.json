@@ -1,0 +1,55 @@
+{
+	"display_name": "SmolLM-1.7B",
+	"versions": {
+		"smollm-1-7b": {
+			"display_name": "SmolLM-1.7B",
+			"names": [
+				"SmolLM-1.7B",
+				"SmolLM 1.7B",
+				"HuggingFaceTB/SmolLM-1.7B"
+			],
+			"link": "https://huggingface.co/blog/smollm",
+			"history": {
+				"first_mention": "2024-07-16",
+				"access": "2024-07-16",
+				"weights": "2024-07-16"
+			},
+			"parameters": {
+				"all": 1711376384,
+				"active": 1711376384
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"smollm-1-7b-instruct": {
+			"display_name": "SmolLM-1.7B-Instruct",
+			"names": [
+				"SmolLM-1.7B-Instruct",
+				"SmolLM 1.7B Instruct",
+				"HuggingFaceTB/SmolLM-1.7B-Instruct"
+			],
+			"link": "https://huggingface.co/blog/smollm",
+			"history": {
+				"first_mention": "2024-07-16",
+				"access": "2024-07-16",
+				"weights": "2024-07-16"
+			},
+			"parameters": {
+				"all": 1711376384,
+				"active": 1711376384
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

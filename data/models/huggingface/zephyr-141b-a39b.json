@@ -1,0 +1,32 @@
+{
+	"display_name": "Zephyr 141B-A39B",
+	"versions": {
+		"zephyr-141b-a39b": {
+			"display_name": "Zephyr 141B-A39B",
+			"names": [
+				"Zephyr 141B-A39B",
+				"Zephyr 141B",
+				"Zephyr-ORPO-141B-A35B",
+				"zephyr-orpo-141b-A35b-v0.1",
+				"HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1"
+			],
+			"link": "https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+			"history": {
+				"first_mention": "2024-04-10",
+				"access": "2024-04-10",
+				"weights": "2024-04-10"
+			},
+			"parameters": {
+				"all": 140621000000,
+				"active": 39000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

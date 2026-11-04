@@ -1,0 +1,111 @@
+{
+	"display_name": "BLOOM-7B1",
+	"versions": {
+		"bloom-7b1": {
+			"display_name": "BLOOM-7B1",
+			"names": [
+				"BLOOM-7B1",
+				"BLOOM 7.1B",
+				"BLOOM-7.1B",
+				"BLOOM (7.1B)",
+				"bloom-7b1",
+				"bigscience/bloom-7b1"
+			],
+			"link": "https://huggingface.co/bigscience/bloom-7b1",
+			"history": {
+				"first_mention": "2022-07-12",
+				"access": "2022-07-12",
+				"weights": "2022-07-12"
+			},
+			"parameters": {
+				"all": 7069000000,
+				"active": 7069000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"bloomz-7b1": {
+			"display_name": "BLOOMZ-7B1",
+			"names": [
+				"BLOOMZ-7B1",
+				"BLOOMZ 7B1",
+				"bloomz-7b1",
+				"bigscience/bloomz-7b1"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 7069000000,
+				"active": 7069000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"bloomz-7b1-mt": {
+			"display_name": "BLOOMZ-7B1-MT",
+			"names": [
+				"BLOOMZ-7B1-MT",
+				"BLOOMZ 7B1 MT",
+				"bloomz-7b1-mt",
+				"bigscience/bloomz-7b1-mt"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 7069000000,
+				"active": 7069000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"bloomz-7b1-p3": {
+			"display_name": "BLOOMZ-7B1-P3",
+			"names": [
+				"BLOOMZ-7B1-P3",
+				"BLOOMZ 7B1 P3",
+				"bloomz-7b1-p3",
+				"bigscience/bloomz-7b1-p3"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 7069000000,
+				"active": 7069000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"display_name": "SmolLM2-360M",
+	"versions": {
+		"smollm2-360m": {
+			"display_name": "SmolLM2-360M",
+			"names": [
+				"SmolLM2-360M",
+				"SmolLM2 360M",
+				"HuggingFaceTB/SmolLM2-360M"
+			],
+			"link": "https://arxiv.org/abs/2502.02737",
+			"history": {
+				"first_mention": "2024-10-31",
+				"access": "2024-10-31",
+				"weights": "2024-10-31"
+			},
+			"parameters": {
+				"all": 361821120,
+				"active": 361821120
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"smollm2-360m-instruct": {
+			"display_name": "SmolLM2-360M-Instruct",
+			"names": [
+				"SmolLM2-360M-Instruct",
+				"SmolLM2 360M Instruct",
+				"HuggingFaceTB/SmolLM2-360M-Instruct"
+			],
+			"link": "https://arxiv.org/abs/2502.02737",
+			"history": {
+				"first_mention": "2024-10-31",
+				"access": "2024-10-31",
+				"weights": "2024-10-31"
+			},
+			"parameters": {
+				"all": 361821120,
+				"active": 361821120
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"smolvlm-500m-instruct": {
+			"display_name": "SmolVLM-500M-Instruct",
+			"names": [
+				"SmolVLM-500M-Instruct",
+				"SmolVLM-500M",
+				"SmolVLM 500M Instruct",
+				"HuggingFaceTB/SmolVLM-500M-Instruct"
+			],
+			"link": "https://huggingface.co/blog/smolervlm",
+			"history": {
+				"first_mention": "2025-01-23",
+				"access": "2025-01-23",
+				"weights": "2025-01-23"
+			},
+			"parameters": {
+				"all": 507482304,
+				"active": 507482304
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"smolvlm2-500m-video-instruct": {
+			"display_name": "SmolVLM2-500M-Video-Instruct",
+			"names": [
+				"SmolVLM2-500M-Video-Instruct",
+				"SmolVLM2-500M",
+				"SmolVLM2 500M Video Instruct",
+				"HuggingFaceTB/SmolVLM2-500M-Video-Instruct"
+			],
+			"link": "https://huggingface.co/blog/smolvlm2",
+			"history": {
+				"first_mention": "2025-02-20",
+				"access": "2025-02-20",
+				"weights": "2025-02-20"
+			},
+			"parameters": {
+				"all": 507482304,
+				"active": 507482304
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

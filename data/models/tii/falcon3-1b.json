@@ -1,0 +1,80 @@
+{
+	"display_name": "Falcon3-1B",
+	"versions": {
+		"falcon3-1b-base": {
+			"display_name": "Falcon3-1B-Base",
+			"names": [
+				"Falcon3-1B-Base",
+				"Falcon3 1B Base",
+				"tiiuae/Falcon3-1B-Base"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 1669000000,
+				"active": 1669000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon3-1b-instruct": {
+			"display_name": "Falcon3-1B-Instruct",
+			"names": [
+				"Falcon3-1B-Instruct",
+				"Falcon3 1B Instruct",
+				"tiiuae/Falcon3-1B-Instruct"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 1669000000,
+				"active": 1669000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon3-1b-instruct-1-58bit": {
+			"display_name": "Falcon3-1B-Instruct-1.58bit",
+			"names": [
+				"Falcon3-1B-Instruct-1.58bit",
+				"Falcon3 1B Instruct 1.58bit",
+				"tiiuae/Falcon3-1B-Instruct-1.58bit"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 1669000000,
+				"active": 1669000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

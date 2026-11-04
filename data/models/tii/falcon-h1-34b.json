@@ -1,0 +1,85 @@
+{
+	"display_name": "Falcon-H1-34B",
+	"versions": {
+		"falcon-h1-34b-base": {
+			"display_name": "Falcon-H1-34B-Base",
+			"names": [
+				"Falcon-H1-34B-Base",
+				"Falcon H1 34B Base",
+				"falcon-h1-34b-base",
+				"tiiuae/Falcon-H1-34B-Base",
+				"tiiuae/falcon-h1-34b-base"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-h1/",
+			"history": {
+				"first_mention": "2025-05-20",
+				"access": "2025-05-20",
+				"weights": "2025-05-20"
+			},
+			"parameters": {
+				"all": 33643000000,
+				"active": 33643000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-h1-34b-instruct": {
+			"display_name": "Falcon-H1-34B-Instruct",
+			"names": [
+				"Falcon-H1-34B-Instruct",
+				"Falcon H1 34B Instruct",
+				"Falcon-H1",
+				"falcon-h1-34b-instruct",
+				"tiiuae/Falcon-H1-34B-Instruct",
+				"tiiuae/falcon-h1-34b-instruct"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-h1/",
+			"history": {
+				"first_mention": "2025-05-20",
+				"access": "2025-05-20",
+				"weights": "2025-05-20"
+			},
+			"parameters": {
+				"all": 33643000000,
+				"active": 33643000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon-h1-arabic-34b": {
+			"display_name": "Falcon-H1-Arabic-34B",
+			"names": [
+				"Falcon-H1-Arabic-34B",
+				"Falcon-H1-Arabic 34B",
+				"Falcon H1 Arabic 34B"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-h1-arabic/",
+			"history": {
+				"first_mention": "2026-01-05",
+				"access": "2026-01-05",
+				"weights": null
+			},
+			"parameters": {
+				"all": 34000000000,
+				"active": 34000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

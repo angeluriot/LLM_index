@@ -1,0 +1,33 @@
+{
+	"display_name": "MiMo-V2-Omni",
+	"versions": {
+		"mimo-v2-omni": {
+			"display_name": "MiMo-V2-Omni",
+			"names": [
+				"MiMo-V2-Omni",
+				"MiMo V2 Omni",
+				"mimo-v2-omni",
+				"xiaomi/mimo-v2-omni",
+				"Healer Alpha"
+			],
+			"link": "https://mimo.xiaomi.com/mimo-v2-omni",
+			"history": {
+				"first_mention": "2026-03-18",
+				"access": "2026-03-18",
+				"weights": null
+			},
+			"parameters": {
+				"all": null,
+				"active": null
+			},
+			"price": {
+				"input": 0.4,
+				"output": 2.0
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

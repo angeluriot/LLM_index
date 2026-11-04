@@ -1,0 +1,31 @@
+{
+	"display_name": "MiLM-6B",
+	"versions": {
+		"milm-6b": {
+			"display_name": "MiLM-6B",
+			"names": [
+				"MiLM-6B",
+				"MiLM 6B",
+				"Xiaomi MiLM-6B",
+				"MiLM"
+			],
+			"link": "https://github.com/XiaoMi/MiLM-6B",
+			"history": {
+				"first_mention": "2023-08-09",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 6400000000,
+				"active": 6400000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"display_name": "Idefics2-8B",
+	"versions": {
+		"idefics2-8b-base": {
+			"display_name": "Idefics2-8B-Base",
+			"names": [
+				"Idefics2-8B-Base",
+				"Idefics2 8B Base",
+				"idefics2-8b-base",
+				"HuggingFaceM4/idefics2-8b-base"
+			],
+			"link": "https://huggingface.co/blog/idefics2",
+			"history": {
+				"first_mention": "2024-04-15",
+				"access": "2024-04-15",
+				"weights": "2024-04-15"
+			},
+			"parameters": {
+				"all": 8403000000,
+				"active": 8403000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"idefics2-8b": {
+			"display_name": "Idefics2-8B",
+			"names": [
+				"Idefics2-8B",
+				"Idefics2",
+				"Idefics2 8B",
+				"IDEFICS2-8B",
+				"idefics2-8b",
+				"HuggingFaceM4/idefics2-8b"
+			],
+			"link": "https://huggingface.co/blog/idefics2",
+			"history": {
+				"first_mention": "2024-04-15",
+				"access": "2024-04-15",
+				"weights": "2024-04-15"
+			},
+			"parameters": {
+				"all": 8403000000,
+				"active": 8403000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"idefics2-8b-chatty": {
+			"display_name": "Idefics2-8B-Chatty",
+			"names": [
+				"Idefics2-8B-Chatty",
+				"Idefics2 8B Chatty",
+				"idefics2-8b-chatty",
+				"HuggingFaceM4/idefics2-8b-chatty"
+			],
+			"link": "https://arxiv.org/abs/2405.02246",
+			"history": {
+				"first_mention": "2024-05-02",
+				"access": "2024-05-02",
+				"weights": "2024-05-02"
+			},
+			"parameters": {
+				"all": 8403000000,
+				"active": 8403000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

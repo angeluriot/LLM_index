@@ -1,0 +1,30 @@
+{
+	"display_name": "Noor",
+	"versions": {
+		"noor": {
+			"display_name": "Noor",
+			"names": [
+				"Noor",
+				"NOOR",
+				"Noor 10B"
+			],
+			"link": "https://www.tii.ae/news/technology-innovation-institute-announces-launch-noor-worlds-largest-arabic-nlp-model",
+			"history": {
+				"first_mention": "2022-04-11",
+				"access": null,
+				"weights": null
+			},
+			"parameters": {
+				"all": 10000000000,
+				"active": 10000000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

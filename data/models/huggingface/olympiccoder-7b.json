@@ -1,0 +1,30 @@
+{
+	"display_name": "OlympicCoder-7B",
+	"versions": {
+		"olympiccoder-7b": {
+			"display_name": "OlympicCoder-7B",
+			"names": [
+				"OlympicCoder-7B",
+				"OlympicCoder 7B",
+				"open-r1/OlympicCoder-7B"
+			],
+			"link": "https://huggingface.co/blog/open-r1/update-3",
+			"history": {
+				"first_mention": "2025-03-11",
+				"access": "2025-03-11",
+				"weights": "2025-03-11"
+			},
+			"parameters": {
+				"all": 7616000000,
+				"active": 7616000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

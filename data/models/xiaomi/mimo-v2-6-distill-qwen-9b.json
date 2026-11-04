@@ -1,0 +1,31 @@
+{
+	"display_name": "MiMo-V2.6-Distill-Qwen-9B",
+	"versions": {
+		"mimo-v2-6-distill-qwen-9b": {
+			"display_name": "MiMo-V2.6-Distill-Qwen-9B",
+			"names": [
+				"MiMo-V2.6-Distill-Qwen-9B",
+				"MiMo V2.6 Distill Qwen 9B",
+				"XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B"
+			],
+			"link": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+			"history": {
+				"first_mention": "2026-09-21",
+				"access": "2026-09-21",
+				"weights": "2026-09-21"
+			},
+			"parameters": {
+				"all": 9410000000,
+				"active": 9410000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				"",
+				"Thinking"
+			]
+		}
+	}
+}

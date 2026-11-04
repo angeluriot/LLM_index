@@ -1,0 +1,64 @@
+{
+	"display_name": "Falcon2-11B",
+	"versions": {
+		"falcon2-11b": {
+			"display_name": "Falcon2-11B",
+			"names": [
+				"Falcon2-11B",
+				"Falcon 2 11B",
+				"Falcon 2-11B",
+				"Falcon-11B",
+				"falcon-11b",
+				"falcon-11B",
+				"tiiuae/falcon-11B"
+			],
+			"link": "https://falconllm.tii.ae/falcon-2.html",
+			"history": {
+				"first_mention": "2024-05-13",
+				"access": "2024-05-13",
+				"weights": "2024-05-13"
+			},
+			"parameters": {
+				"all": 11103000000,
+				"active": 11103000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon2-11b-vlm": {
+			"display_name": "Falcon2-11B VLM",
+			"names": [
+				"Falcon2-11B VLM",
+				"Falcon 2 11B VLM",
+				"Falcon2-11B-VLM",
+				"Falcon-11B-VLM",
+				"falcon-11B-vlm",
+				"Falcon-11B-vlm",
+				"tiiuae/falcon-11B-vlm",
+				"tiiuae/Falcon-11B-vlm"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon2-11b/",
+			"history": {
+				"first_mention": "2024-05-13",
+				"access": "2024-05-24",
+				"weights": "2024-05-24"
+			},
+			"parameters": {
+				"all": 11427000000,
+				"active": 11427000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

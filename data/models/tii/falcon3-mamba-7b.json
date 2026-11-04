@@ -1,0 +1,56 @@
+{
+	"display_name": "Falcon3-Mamba-7B",
+	"versions": {
+		"falcon3-mamba-7b-base": {
+			"display_name": "Falcon3-Mamba-7B-Base",
+			"names": [
+				"Falcon3-Mamba-7B-Base",
+				"Falcon3 Mamba 7B Base",
+				"tiiuae/Falcon3-Mamba-7B-Base"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 7273000000,
+				"active": 7273000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"falcon3-mamba-7b-instruct": {
+			"display_name": "Falcon3-Mamba-7B-Instruct",
+			"names": [
+				"Falcon3-Mamba-7B-Instruct",
+				"Falcon3 Mamba 7B Instruct",
+				"Falcon3-Mamba-7B",
+				"tiiuae/Falcon3-Mamba-7B-Instruct"
+			],
+			"link": "https://falcon-lm.github.io/blog/falcon-3/",
+			"history": {
+				"first_mention": "2024-12-17",
+				"access": "2024-12-17",
+				"weights": "2024-12-17"
+			},
+			"parameters": {
+				"all": 7273000000,
+				"active": 7273000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

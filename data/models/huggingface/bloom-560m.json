@@ -1,0 +1,58 @@
+{
+	"display_name": "BLOOM-560M",
+	"versions": {
+		"bloom-560m": {
+			"display_name": "BLOOM-560M",
+			"names": [
+				"BLOOM-560M",
+				"BLOOM 560M",
+				"BLOOM (560M)",
+				"bloom-560m",
+				"bigscience/bloom-560m"
+			],
+			"link": "https://huggingface.co/bigscience/bloom-560m",
+			"history": {
+				"first_mention": "2022-07-12",
+				"access": "2022-07-12",
+				"weights": "2022-07-12"
+			},
+			"parameters": {
+				"all": 559000000,
+				"active": 559000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		},
+		"bloomz-560m": {
+			"display_name": "BLOOMZ-560M",
+			"names": [
+				"BLOOMZ-560M",
+				"BLOOMZ 560M",
+				"bloomz-560m",
+				"bigscience/bloomz-560m"
+			],
+			"link": "https://arxiv.org/abs/2211.01786",
+			"history": {
+				"first_mention": "2022-11-03",
+				"access": "2022-11-03",
+				"weights": "2022-11-03"
+			},
+			"parameters": {
+				"all": 559000000,
+				"active": 559000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}

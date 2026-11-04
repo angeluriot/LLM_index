@@ -1,0 +1,33 @@
+{
+	"display_name": "Falcon-RW-1B",
+	"versions": {
+		"falcon-rw-1b": {
+			"display_name": "Falcon-RW-1B",
+			"names": [
+				"Falcon-RW-1B",
+				"Falcon RW 1B",
+				"Falcon-rw-1.3B",
+				"Falcon-RW-1.3B",
+				"falcon-rw-1b",
+				"tiiuae/falcon-rw-1b"
+			],
+			"link": "https://arxiv.org/abs/2306.01116",
+			"history": {
+				"first_mention": "2023-06-01",
+				"access": "2023-06-01",
+				"weights": "2023-06-01"
+			},
+			"parameters": {
+				"all": 1300000000,
+				"active": 1300000000
+			},
+			"price": {
+				"input": null,
+				"output": null
+			},
+			"efforts": [
+				""
+			]
+		}
+	}
+}
