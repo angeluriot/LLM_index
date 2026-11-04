@@ -94,6 +94,7 @@ class RawEvaluation:
 	display_name: str									# Shown name of the evaluation
 	description: str									# A short description of the evaluation
 	link: str											# Link to the evaluation's official page
+	categories: list[str]								# List of categories this evaluation belongs to
 	last_updated: date									# Date when the evaluation was last updated
 	config: EvaluationScoreConfig | EvaluationEloConfig	# Configuration for score processing
 	parts: list[str]									# List of parts of the evaluation (e.g. "", ""/"Level 5", "Tier 1-3"/"Tier 4", "Extended"/""/"Diamond", ...)

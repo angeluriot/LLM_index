@@ -2,6 +2,7 @@
 	"display_name": "GSM8K",
 	"description": "A grade-school math word problem benchmark focused on multi-step arithmetic reasoning and exact-match solutions.",
 	"link": "https://huggingface.co/datasets/openai/gsm8k",
+	"categories": ["math"],
 	"last_updated": "2026-11-04",
 	"config": {
 		"type": "SCORE",
