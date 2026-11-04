@@ -10,13 +10,13 @@ The evaluation is already described in `data/evaluations/<eval>.json` when this 
 - `data/results/<eval>.jsonl`: one `RawResult` per line, for models of the dataset (`data/models/<company>/<model>.json`);
 - `data/leftovers/<eval>.jsonl`: one `RawLeftover` per line, for models that aren't in the dataset.
 
-These files are never written by hand: `scripts/evaluations/gen_<eval>.py` holds every number literally and calls the helpers of `scripts/evaluations/common.py`, which validate, dedupe, sort and rewrite both files. `scripts/evaluations/gen_gsm8k.py` is the reference implementation: read it before starting and imitate its structure (docstring with the sources and the choices specific to the evaluation, one section per source, a URL constant per source, `write('<eval>')` at the end).
+These files are never written by hand: `scripts/evaluations/gen_<eval>.py` holds every number literally and calls the helpers of `scripts/evaluations/common.py`, which validate, sort and rewrite both files. `scripts/evaluations/gen_gsm8k.py` is the reference implementation: read it before starting and imitate its structure (docstring with the sources and the choices specific to the evaluation, one section per source, a URL constant per source, `write('<eval>')` at the end).
 
 `common.py` provides:
 
 - `R(model, version, score, shots, url, creator, maj_k=1, pass_k=1, effort='auto', cost=None, part='', eval_version='')`: a result. It asserts that the model, the version and an explicit effort exist, and resolves `effort='auto'` (see Mapping). `cost` is `None` or `(dollars, 'TASK' | 'EVALUATION')`.
 - `L(name, score, url, part='', eval_version='')`: a leftover.
-- `write('<eval>')`: checks every `part` / evaluation `version` against `data/evaluations/<eval>.json`, dedupes, sorts and writes the two JSONL files.
+- `write('<eval>')`: checks every `part` / evaluation `version` against `data/evaluations/<eval>.json`, sorts and writes the two JSONL files.
 - the `A` (`https://arxiv.org/abs/`) and `HF` (`https://huggingface.co/`) URL prefixes, and `MODELS` / `DATES`, the index of `data/models`.
 
 Put anything every generator needs in `common.py` rather than in a generator, and keep the generators to data and source-specific constants.
@@ -28,7 +28,7 @@ Put anything every generator needs in `common.py` rather than in a generator, an
 3. **Collect** the scores from all the sources (see Sources). The sources the user gives are a starting point, never the whole list.
 4. **Map** each score to a model / version / effort or to a leftover, and fill the conditions and source (see Mapping and Field rules).
 5. **Write** `scripts/evaluations/gen_<eval>.py` (`from common import A, HF, L, R, write`, standard library only) and **run** it with `python scripts/evaluations/gen_<eval>.py`. Fix the script until it runs; never patch the JSONL output.
-6. **Verify** the output: valid JSON, field order of `RawResult` / `RawLeftover`, sort order, no duplicate lines, and spot-check a few values against their source.
+6. **Verify** the output: valid JSON, field order of `RawResult` / `RawLeftover`, sort order, and spot-check a few values against their source.
 7. **Report** to the user (see Report).
 
 To change anything later, edit the generator and rerun it. Don't modify `data/evaluations/<eval>.json` unless asked.
@@ -47,13 +47,13 @@ Each leftovers line:
 {"model": "Yi-34B", "score": 67.2, "part": "", "version": "", "source": "https://arxiv.org/abs/2403.04652"}
 ```
 
-UTF-8, `\n` line endings, `ensure_ascii=False`, scores rounded to 2 decimals. `common.py` handles all of this, including the sorting and dedupe below.
+UTF-8, `\n` line endings, `ensure_ascii=False`, scores rounded to 2 decimals. `common.py` handles all of this, including the sorting below.
 
 **Sorting**:
 - results by ascending `first_mention` of the version (of the model's earliest version when `version` is `null`), then model id, version id, then score ascending;
 - leftovers alphabetically by model name (case-insensitive), then score ascending.
 
-**Dedupe**: the same number copied by several papers (same model, version, effort, score, `maj_k`, `pass_k`, part and evaluation version) is written once, keeping the creator's copy.
+**No uniqueness**: keep every score you find, even several different scores for the same model, version, effort, conditions, part and evaluation version. The selection is done later from this raw data. The only dedupe rule, applied by `common.py`: a row is dropped when an earlier one has exactly the same fields and sub-fields except `source.url` (the same number copied by another source). A single other difference (`score`, `effort`, `conditions.shots`, `conditions.maj_k`, `source.creator`...) is enough to keep it. Leftovers follow the same rule without their `source`.
 
 ## Sources
 
@@ -93,7 +93,7 @@ Sources don't share a scale: the same 56.8% is written `56.8`, `56.8%`, `0.568` 
 ## Pitfalls seen so far
 
 - Aggregators contain errors: Epoch listed Minerva 540B at 68.5 on GSM8K, which is really Minerva 62B maj1@100. LLM Stats attributes base-model scores to instruct versions, copies a number onto several snapshots, and has self-reported values that can't be found in the cited source. Cross-check surprising values, and list the ones you couldn't confirm in the report.
-- Papers often reuse other papers' numbers (the LLaMA numbers reappear in a dozen reports). Keep them, the dedupe removes exact copies.
+- Papers often reuse other papers' numbers (the LLaMA numbers reappear in a dozen reports). Declare them anyway, with their own conditions and source: `common.py` drops the pure copies (same fields except `source.url`), and keeps them as soon as something differs (shots, creator...). Never skip a result yourself because another score already exists for that model.
 - Read the evaluation protocol of each source: Mistral and Mixtral papers report GSM8K maj@8, Gemini 1.0 reports maj@32, PaLM 2 uses self-consistency over 40 samples. The setting is usually in the table header, a footnote or the "evaluation" section.
 - Leaderboard runs of chat models can collapse because of prompt formats (Qwen1.5-32B-Chat at 7% on GSM8K on the Open LLM Leaderboard). Keep them as published; don't "fix" them.
 - The same paper can give a base and an instruct number for one version, or the same model under two settings (shots / CoT): write both, with their own conditions.

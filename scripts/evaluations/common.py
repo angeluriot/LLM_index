@@ -1,8 +1,10 @@
 """Shared helpers for the scripts/evaluations/gen_<eval>.py generators.
 
 A generator declares its results with R() and its leftovers with L(), then calls write('<eval>').
-write() validates everything against data/evaluations/<eval>.json, dedupes, sorts and rewrites
-data/results/<eval>.jsonl and data/leftovers/<eval>.jsonl, so the generator is the single source of truth for them.
+write() validates everything against data/evaluations/<eval>.json, sorts and rewrites data/results/<eval>.jsonl and
+data/leftovers/<eval>.jsonl, so the generator is the single source of truth for them. No uniqueness is imposed on the
+results: every score found is kept (the selection is done later from this raw data), except rows identical to an
+earlier one in every field but source.url.
 """
 
 import glob, json, os, sys
@@ -67,21 +69,30 @@ def L(name, score, url, part='', eval_version=''):
 	LEFTOVERS.append({'model': name, 'score': round(float(score), 2), 'part': part, 'version': eval_version, 'source': url})
 
 
-def _dedupe_and_sort():
-	# Duplicated numbers (same model, version, effort, conditions, part and score) are kept once: the creator's copy
-	results, seen = [], set()
-	for r in sorted(RESULTS, key=lambda r: not r['source']['creator']):
-		m, c = r['model'], r['conditions']
-		key = (m['id'], m['version'], m['effort'], r['score'], c['maj_k'], c['pass_k'], r['part'], r['version'])
+def _without_url(row):
+	row = dict(row)
+	if isinstance(row['source'], dict):
+		row['source'] = {k: v for k, v in row['source'].items() if k != 'url'}
+	else:
+		del row['source']	# leftovers: source is only the URL
+	return row
+
+
+def _without_identical_lines(rows):
+	# No uniqueness is imposed: several scores for the same model are all kept (the selection is done later from this
+	# raw data). A row is only dropped when an earlier one has exactly the same fields except source.url (the same number
+	# copied by another source): a single other difference (score, effort, conditions, source.creator...) keeps it.
+	out, seen = [], set()
+	for row in rows:
+		key = json.dumps(_without_url(row), sort_keys=True)
 		if key not in seen:
 			seen.add(key)
-			results.append(r)
-	leftovers, seen = [], set()
-	for l in LEFTOVERS:
-		key = (l['model'].lower(), l['score'], l['part'], l['version'])
-		if key not in seen:
-			seen.add(key)
-			leftovers.append(l)
+			out.append(row)
+	return out
+
+
+def _sort():
+	results, leftovers = _without_identical_lines(RESULTS), _without_identical_lines(LEFTOVERS)
 	# Results: chronological by first_mention of the version (of the model's first version when not specified)
 	results.sort(key=lambda r: (DATES[r['model']['id'], r['model']['version']], r['model']['id'], r['model']['version'] or '', r['score']))
 	# Leftovers: alphabetical by model name
@@ -90,7 +101,7 @@ def _dedupe_and_sort():
 
 
 def write(evaluation):
-	"""Validates, dedupes and sorts the results, then rewrites data/results/<eval>.jsonl and data/leftovers/<eval>.jsonl
+	"""Validates and sorts the results, then rewrites data/results/<eval>.jsonl and data/leftovers/<eval>.jsonl
 	(or the files given as first and second arguments)."""
 	path = os.path.join(ROOT, 'data', 'evaluations', evaluation + '.json')
 	assert os.path.isfile(path), f'missing data/evaluations/{evaluation}.json'
@@ -100,7 +111,7 @@ def write(evaluation):
 	for row in RESULTS + LEFTOVERS:
 		assert row['part'] in config['parts'], f'unknown part {row["part"]!r}: {row}'
 		assert row['version'] in config['versions'], f'unknown evaluation version {row["version"]!r}: {row}'
-	results, leftovers = _dedupe_and_sort()
+	results, leftovers = _sort()
 	outputs = [
 		(sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, 'data', 'results', evaluation + '.jsonl'), results),
 		(sys.argv[2] if len(sys.argv) > 2 else os.path.join(ROOT, 'data', 'leftovers', evaluation + '.jsonl'), leftovers),

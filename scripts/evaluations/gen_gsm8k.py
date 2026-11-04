@@ -23,8 +23,8 @@ CLI = 'https://www.anthropic.com/news/releasing-claude-instant-1-2'
 OLB = 'https://huggingface.co/spaces/open-llm-leaderboard-old/open_llm_leaderboard'
 
 # ---------------------------------------------------------------- Epoch AI external table
-# HELM uses 5 shots. Skipped rows: the Mixtral report ones (maj@8, written in the maj@k section with maj_k), the phi-1.5
-# report ones (copies of other papers) and Minerva 540B from the LLaMA report (Epoch's 68.5 is Minerva 62B maj1@100).
+# HELM uses 5 shots. Skipped rows: the Mixtral report ones (maj@8, written in the maj@k section with maj_k) and Minerva
+# 540B from the LLaMA report (Epoch's 68.5 is Minerva 62B maj1@100, the real values are in the maj@k section).
 
 # Stanford HELM
 L('Palmyra X (43B)', 63.3, HELM)
@@ -243,6 +243,13 @@ R('qwen2-5-14b', 'qwen2-5-coder-14b', 88.7, 4, A + '2409.12186', True)
 R('deepseek-coder-33b', 'deepseek-coder-33b', 35.4, 4, A + '2409.12186', False)
 R('deepseek-coder-v2', 'deepseek-coder-v2-jun-2024', 85.8, 4, A + '2409.12186', False)
 R('qwen2-5-32b', 'qwen2-5-coder-32b', 91.1, 4, A + '2409.12186', True)
+
+# Textbooks Are All You Need II: phi-1.5 technical report
+R('llama-65b', 'llama-65b', 50.9, 0, A + '2309.05463', False)
+R('llama-2-7b', 'llama-2-7b', 14.6, 0, A + '2309.05463', False)
+R('llama-7b', 'llama-7b', 11.0, 0, A + '2309.05463', False)
+R('mpt-7b', 'mpt-7b', 6.8, 0, A + '2309.05463', False)
+R('falcon-7b', 'falcon-7b', 6.8, 0, A + '2309.05463', False)
 
 # Falcon2-11B Technical Report
 R('falcon-7b', 'falcon-7b', 4.62, 5, A + '2407.14885', True)
