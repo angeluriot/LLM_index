@@ -137,6 +137,7 @@ class RawResult:
 	shots: int				# Number of examples shown to the model (0 by default)
 	passes: int				# Number of attempts given to the model (1 by default)
 	cost: ResultCost | None	# Cost of the result (none if not available)
+	part: str				# Part of the evaluation this result corresponds to
 	version: str			# Version of the evaluation this result corresponds to
 	source: ResultSource	# Source of the result
 
@@ -149,3 +150,18 @@ class Result(RawResult):
 @dataclass
 class EvaluationWithResults(Evaluation):
 	results: list[Result]	# List of results for this evaluation
+
+
+# Leftovers in JSONL files
+@dataclass
+class RawLeftover:
+	model: str		# Name of the model (real name, not an id)
+	score: float	# Score achieved in this result
+	part: str		# Part of the evaluation this result corresponds to
+	version: str	# Version of the evaluation this result corresponds to
+	source: str		# Source of the result (URL)
+
+
+@dataclass
+class Leftover(RawLeftover):
+	id: str	# Id of the evaluation from the directory name
