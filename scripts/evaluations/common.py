@@ -31,12 +31,49 @@ RESULTS = []
 LEFTOVERS = []
 
 
-def R(model, version, score, shots, url, creator, maj_k=1, pass_k=1, effort='auto', cost=None, part='', eval_version=''):
+# ---------------------------------------------------------------- uncertainty helpers (values in the evaluation's unit)
+def CI(low, high, level=0.95):
+	"""Confidence interval given by its bounds."""
+	return {'type': 'CI', 'low': float(low), 'high': float(high), 'level': float(level)}
+
+
+def PM(half_width, level=0.95):
+	"""Symmetric confidence interval given as score ± half_width (resolved into bounds by R)."""
+	return {'type': 'PM', 'half_width': float(half_width), 'level': float(level)}
+
+
+def SE(value):
+	"""Standard error of the score."""
+	return {'type': 'SE', 'value': float(value)}
+
+
+def STD(value, runs=None):
+	"""Standard deviation of the score across runs (runs: number of runs averaged, None if not given)."""
+	return {'type': 'STD', 'value': float(value), 'runs': runs}
+
+
+def _uncertainty(u, score):
+	if u is None:
+		return None
+	if u['type'] == 'PM':
+		u = CI(score - u['half_width'], score + u['half_width'], u['level'])
+	if u['type'] == 'CI':
+		assert u['low'] <= score <= u['high'] and 0 < u['level'] < 1, (score, u)
+		return {'type': 'CI', 'low': round(u['low'], 2), 'high': round(u['high'], 2), 'level': u['level']}
+	assert u['value'] >= 0, u
+	if u['type'] == 'SE':
+		return {'type': 'SE', 'value': round(u['value'], 2)}
+	assert u['type'] == 'STD' and (u['runs'] is None or (isinstance(u['runs'], int) and u['runs'] >= 1)), u
+	return {'type': 'STD', 'value': round(u['value'], 2), 'runs': u['runs']}
+
+
+def R(model, version, score, shots, url, creator, maj_k=1, pass_k=1, effort='auto', uncertainty=None, cost=None, part='', eval_version=''):
 	"""A result of a model of data/models.
 
 	version: None when the source does not say which version was evaluated.
 	effort: 'auto' -> '' when the version has a default ('') effort, None otherwise (and when version is None).
 	shots: 0 when the source does not give it.
+	uncertainty: None, or CI(low, high, level) / PM(half_width, level) / SE(value) / STD(value, runs) as given by the source.
 	cost: None, or (dollars, 'TASK' | 'EVALUATION') when the source gives the real cost of the run (never from API prices).
 	part / eval_version: the evaluation's part and version ('' = the main one).
 	"""
@@ -56,6 +93,7 @@ def R(model, version, score, shots, url, creator, maj_k=1, pass_k=1, effort='aut
 	RESULTS.append({
 		'model': {'id': model, 'version': version, 'effort': effort},
 		'score': round(float(score), 2),
+		'uncertainty': _uncertainty(uncertainty, float(score)),
 		'conditions': {'shots': shots, 'pass_k': pass_k, 'maj_k': maj_k},
 		'cost': cost,
 		'part': part,

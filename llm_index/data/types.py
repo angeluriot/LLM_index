@@ -113,6 +113,33 @@ class ResultModel:
 	effort: str | None	# Effort mode used for this result (none if not provided and nb efforts > 1)
 
 
+class UncertaintyType(Enum):
+	CI = 'CI'	# Confidence interval
+	SE = 'SE'	# Standard error of the score
+	STD = 'STD'	# Standard deviation of the score across runs
+
+
+@dataclass
+class ResultCIUncertainty:
+	type: Literal[UncertaintyType.CI]
+	low: float							# Lower bound of the confidence interval (absolute value, in the evaluation's unit)
+	high: float							# Upper bound of the confidence interval (absolute value, in the evaluation's unit)
+	level: float						# Confidence level of the interval (e.g. 0.9, 0.95, ...)
+
+
+@dataclass
+class ResultSEUncertainty:
+	type: Literal[UncertaintyType.SE]
+	value: float						# Standard error of the score (in the evaluation's unit)
+
+
+@dataclass
+class ResultSTDUncertainty:
+	type: Literal[UncertaintyType.STD]
+	value: float						# Standard deviation of the score across runs (in the evaluation's unit)
+	runs: int | None					# Number of runs the score is averaged over (none if not given)
+
+
 @dataclass
 class ResultConditions:
 	shots: int	# Number of examples shown to the model (0 by default)
@@ -140,13 +167,14 @@ class ResultSource:
 # Results in JSONL files
 @dataclass
 class RawResult:
-	model: ResultModel				# Model this result corresponds to
-	score: float					# Score achieved in this result
-	conditions: ResultConditions	# Conditions under which the result was obtained
-	cost: ResultCost | None			# Cost of the result (none if not available)
-	part: str						# Part of the evaluation this result corresponds to
-	version: str					# Version of the evaluation this result corresponds to
-	source: ResultSource			# Source of the result
+	model: ResultModel																		# Model this result corresponds to
+	score: float																			# Score achieved in this result
+	uncertainty: ResultCIUncertainty | ResultSEUncertainty | ResultSTDUncertainty | None	# Uncertainty of the score given by the source (none if not available)
+	conditions: ResultConditions															# Conditions under which the result was obtained
+	cost: ResultCost | None																	# Cost of the result (none if not available)
+	part: str																				# Part of the evaluation this result corresponds to
+	version: str																			# Version of the evaluation this result corresponds to
+	source: ResultSource																	# Source of the result
 
 
 @dataclass

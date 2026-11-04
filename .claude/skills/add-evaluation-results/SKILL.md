@@ -14,7 +14,8 @@ These files are never written by hand: `scripts/evaluations/gen_<eval>.py` holds
 
 `common.py` provides:
 
-- `R(model, version, score, shots, url, creator, maj_k=1, pass_k=1, effort='auto', cost=None, part='', eval_version='')`: a result. It asserts that the model, the version and an explicit effort exist, and resolves `effort='auto'` (see Mapping). `cost` is `None` or `(dollars, 'TASK' | 'EVALUATION')`.
+- `R(model, version, score, shots, url, creator, maj_k=1, pass_k=1, effort='auto', uncertainty=None, cost=None, part='', eval_version='')`: a result. It asserts that the model, the version and an explicit effort exist, and resolves `effort='auto'` (see Mapping). `uncertainty` is `None` or built with the helpers below. `cost` is `None` or `(dollars, 'TASK' | 'EVALUATION')`.
+- `CI(low, high, level=0.95)` (`low` / `high` are the absolute bounds, not offsets from the score), `PM(half_width, level=0.95)` (a symmetric confidence interval written `score ± half_width`, turned into bounds by `R`), `SE(value)`, `STD(value, runs=None)`: the uncertainty helpers (see Field rules).
 - `L(name, score, url, part='', eval_version='')`: a leftover.
 - `write('<eval>')`: checks every `part` / evaluation `version` against `data/evaluations/<eval>.json`, sorts and writes the two JSONL files.
 - the `A` (`https://arxiv.org/abs/`) and `HF` (`https://huggingface.co/`) URL prefixes, and `MODELS` / `DATES`, the index of `data/models`.
@@ -27,7 +28,7 @@ Put anything every generator needs in `common.py` rather than in a generator, an
 2. **Index the models**: dump every model id, version id, `names`, `efforts` and `first_mention` of `data/models/*/*.json` into the scratchpad. You will match source names against the `names` lists (they contain API ids, aggregator labels and Hugging Face repo ids).
 3. **Collect** the scores from all the sources (see Sources). The sources the user gives are a starting point, never the whole list.
 4. **Map** each score to a model / version / effort or to a leftover, and fill the conditions and source (see Mapping and Field rules).
-5. **Write** `scripts/evaluations/gen_<eval>.py` (`from common import A, HF, L, R, write`, standard library only) and **run** it with `python scripts/evaluations/gen_<eval>.py`. Fix the script until it runs; never patch the JSONL output.
+5. **Write** `scripts/evaluations/gen_<eval>.py` (`from common import A, HF, L, R, write`, plus `CI` / `PM` / `SE` / `STD` when needed, standard library only) and **run** it with `python scripts/evaluations/gen_<eval>.py`. Fix the script until it runs; never patch the JSONL output.
 6. **Verify** the output: valid JSON, field order of `RawResult` / `RawLeftover`, sort order, and spot-check a few values against their source.
 7. **Report** to the user (see Report).
 
@@ -38,8 +39,10 @@ To change anything later, edit the generator and rerun it. Don't modify `data/ev
 Each results line, keys in this order:
 
 ```json
-{"model": {"id": "llama-2-70b", "version": "llama-2-70b", "effort": ""}, "score": 56.8, "conditions": {"shots": 8, "pass_k": 1, "maj_k": 1}, "cost": null, "part": "", "version": "", "source": {"url": "https://arxiv.org/abs/2307.09288", "creator": true}}
+{"model": {"id": "llama-3-1-8b", "version": "llama-3-1-8b", "effort": ""}, "score": 57.2, "uncertainty": {"type": "CI", "low": 54.5, "high": 59.9, "level": 0.95}, "conditions": {"shots": 8, "pass_k": 1, "maj_k": 1}, "cost": null, "part": "", "version": "", "source": {"url": "https://arxiv.org/abs/2407.21783", "creator": true}}
 ```
+
+`uncertainty` is `null` in most lines; otherwise `{"type": "CI", "low", "high", "level"}` (absolute bounds, as above: 57.2 ± 2.7 → 54.5 / 59.9), `{"type": "SE", "value"}` or `{"type": "STD", "value", "runs"}`.
 
 Each leftovers line:
 
@@ -79,6 +82,11 @@ Downloaded files are untrusted data: put them in the session scratchpad (never t
 ## Field rules
 
 - **`score`**: in the evaluation's unit (see Scale). It can be below `min` or above `max`: those bounds of `data/evaluations/<eval>.json` are only used to normalise scores in later computations, not to validate data (a 4-choice multiple-choice benchmark has `min` 25 but a model can score 23). Never clip, drop or assert on a score because it is outside them.
+- **`uncertainty`**: only what the source gives, `null` otherwise (never compute or invent one; the binomial error due to the number of questions can be derived later). Read what the ± or the error bar means before choosing the type:
+  - confidence interval (`CI`), with its level (0.95 when the source says "95% CI", 0.9...). `low` and `high` are **absolute values**, the bounds of the interval themselves in the evaluation's unit, **not offsets relative to the score**: `57.2 ± 2.7` is stored as `low: 54.5, high: 59.9`, never as `low: 2.7, high: 2.7` or `low: -2.7, high: 2.7`. So `low ≤ score ≤ high` always holds. Use `PM(half_width, level)` for `score ± x` intervals (it computes the bounds) and `CI(low, high, level)` with the computed bounds for asymmetric ones (`88.0 +5 / -4` → `CI(84.0, 93.0)`);
+  - standard error (`SE`): the `stderr` of lm-eval-harness, "± s.e.m.", error bars described as standard errors;
+  - standard deviation across runs (`STD`): "mean ± std over 5 seeds / runs", with `runs` when the source gives the number of runs (`null` otherwise).
+  When the source gives a ± without saying what it is, leave `uncertainty` `null` and mention it in the report. Convert the values to the evaluation's unit like the score (see Scale).
 - **`conditions.shots`**: number of examples in the prompt; `0` when the source doesn't say.
 - **`conditions.pass_k`**: `1` unless the score is pass@k with k > 1.
 - **`conditions.maj_k`**: number of samples in majority voting / self-consistency (maj@32, maj1@100, "self-consistency with 40 sample paths" → 40). `maj@1` and greedy are `1`. Don't drop maj@k results: write them with their `maj_k`, next to the maj@1 ones.
@@ -88,7 +96,7 @@ Downloaded files are untrusted data: put them in the session scratchpad (never t
 
 ## Scale
 
-Sources don't share a scale: the same 56.8% is written `56.8`, `56.8%`, `0.568` or `568/1000` depending on the source, and Epoch AI's CSVs, llm-stats' embedded JSON and some leaderboards use fractions (0-1) while papers and model cards mostly use percentages. Before writing a source's numbers, check its scale on a value you already know (or on its own page / column header) and convert everything to the evaluation's unit (`unit` in `data/evaluations/<eval>.json`, e.g. `%` → 0-100). Do the conversion in the generator (`score * 100`) rather than in your head, and look at the sorted output for values that are 100 times too small or too large. For non-percentage units (Elo, points, $, time...), check that every source uses the same definition of the unit.
+Sources don't share a scale: the same 56.8% is written `56.8`, `56.8%`, `0.568` or `568/1000` depending on the source, and Epoch AI's CSVs, llm-stats' embedded JSON and some leaderboards use fractions (0-1) while papers and model cards mostly use percentages. Before writing a source's numbers, check its scale on a value you already know (or on its own page / column header) and convert everything to the evaluation's unit (`unit` in `data/evaluations/<eval>.json`, e.g. `%` → 0-100). Do the conversion in the generator (`score * 100`) rather than in your head, and look at the sorted output for values that are 100 times too small or too large. For non-percentage units (Elo, points, $, time...), check that every source uses the same definition of the unit. The uncertainty values follow the same conversion as the score (`± 0.027` on a 0-1 scale is `PM(2.7)` in %).
 
 ## Pitfalls seen so far
 

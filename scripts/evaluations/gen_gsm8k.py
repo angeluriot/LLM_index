@@ -16,7 +16,7 @@ Choices specific to GSM8K:
 - Mixtral / Mistral papers, Gemini 1.0, LLaMA, Minerva and PaLM 2 report majority voting: written with maj_k
 """
 
-from common import A, HF, L, R, write
+from common import A, HF, L, PM, R, write
 
 HELM = 'https://crfm.stanford.edu/helm/classic/latest/#/groups/gsm'
 CLI = 'https://www.anthropic.com/news/releasing-claude-instant-1-2'
@@ -335,13 +335,13 @@ R('gemma-3-27b', 'gemma-3-27b', 82.6, 8, G3, True)
 L3 = 'https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md'
 R('llama-3-8b', 'llama-3-8b', 79.6, 8, L3, True)
 R('llama-3-70b', 'llama-3-70b', 93.0, 8, L3, True)
-L31 = A + '2407.21783'
+L31 = A + '2407.21783'	# post-trained table without uncertainty, pre-trained table with 95% confidence intervals
 R('llama-3-1-8b', 'llama-3-1-8b', 84.5, 8, L31, True)
 R('llama-3-1-70b', 'llama-3-1-70b', 95.1, 8, L31, True)
 R('llama-3-1-405b', 'llama-3-1-405b', 96.8, 8, L31, True)
-R('llama-3-1-8b', 'llama-3-1-8b', 57.2, 8, L31, True)
-R('llama-3-1-70b', 'llama-3-1-70b', 83.7, 8, L31, True)
-R('llama-3-1-405b', 'llama-3-1-405b', 89.0, 8, L31, True)
+R('llama-3-1-8b', 'llama-3-1-8b', 57.2, 8, L31, True, uncertainty=PM(2.7))
+R('llama-3-1-70b', 'llama-3-1-70b', 83.7, 8, L31, True, uncertainty=PM(2.0))
+R('llama-3-1-405b', 'llama-3-1-405b', 89.0, 8, L31, True, uncertainty=PM(1.7))
 R('gemma-2-9b', 'gemma-2-9b', 76.7, 8, L31, False)
 R('mistral-7b', None, 53.2, 8, L31, False)
 R('mixtral-8x22b', 'mixtral-8x22b', 88.2, 8, L31, False)
@@ -350,11 +350,11 @@ R('nemotron-4-340b', 'nemotron-4-340b', 92.3, 8, L31, False)
 R('gpt-4-turbo', 'gpt-4-turbo-jan-2024', 94.2, 8, L31, False)
 R('gpt-4o', None, 96.1, 8, L31, False)
 R('claude-3-5-sonnet', 'claude-3-5-sonnet-jun-2024', 96.4, 8, L31, False)
-R('mistral-7b', None, 52.5, 8, L31, False)
-R('gemma-7b', 'gemma-7b', 46.4, 8, L31, False)
-R('mixtral-8x22b', 'mixtral-8x22b', 88.4, 8, L31, False)
-R('gpt-4', None, 92.0, 8, L31, False)
-R('gemini-1-0-ultra', 'gemini-1-0-ultra', 88.9, 11, L31, False)
+R('mistral-7b', None, 52.5, 8, L31, False, uncertainty=PM(2.7))
+R('gemma-7b', 'gemma-7b', 46.4, 8, L31, False, uncertainty=PM(2.7))
+R('mixtral-8x22b', 'mixtral-8x22b', 88.4, 8, L31, False, uncertainty=PM(1.7))
+R('gpt-4', None, 92.0, 8, L31, False, uncertainty=PM(1.5))
+R('gemini-1-0-ultra', 'gemini-1-0-ultra', 88.9, 11, L31, False, uncertainty=PM(1.7))
 L32 = HF + 'meta-llama/Llama-3.2-1B-Instruct'
 R('llama-3-2-1b', 'llama-3-2-1b', 44.4, 8, L32, True)
 R('llama-3-2-3b', 'llama-3-2-3b', 77.7, 8, L32, True)
