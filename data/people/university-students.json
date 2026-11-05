@@ -1,0 +1,10 @@
+{
+	"display_name": "University students",
+	"versions": {
+		"computer-science-university-students": {
+			"display_name": "Computer science university students",
+			"description": "Undergraduate or graduate students of computer science at a university, with the mathematics of a STEM curriculum (calculus, linear algebra, discrete mathematics) but no particular training in competition mathematics.",
+			"efforts": [""]
+		}
+	}
+}

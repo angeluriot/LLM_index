@@ -1,0 +1,15 @@
+{
+	"display_name": "Competition participants",
+	"versions": {
+		"usamo-qualifiers": {
+			"display_name": "USAMO qualifiers",
+			"description": "Current or former high school students who qualified for the USA Mathematical Olympiad (USAMO) through the AMC 10 / 12 and AIME, i.e. roughly the top few hundred competition mathematics students of the United States in a given year.",
+			"efforts": [""]
+		},
+		"imo-gold-medalists": {
+			"display_name": "IMO gold medalists",
+			"description": "Current or former high school students who won a gold medal at the International Mathematical Olympiad (IMO), awarded to roughly the top twelfth of the participants, themselves the best six competition mathematics students of each country.",
+			"efforts": [""]
+		}
+	}
+}
