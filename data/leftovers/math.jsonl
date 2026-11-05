@@ -1,0 +1,317 @@
+{"model": "14B", "score": 7.55, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "34b-beta", "score": 4.83, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Abel-7B-001", "score": 13.0, "part": "", "version": "", "source": "https://huggingface.co/WizardLMTeam/WizardMath-7B-V1.1"}
+{"model": "Abel-7B-002", "score": 29.5, "part": "", "version": "", "source": "https://huggingface.co/WizardLMTeam/WizardMath-7B-V1.1"}
+{"model": "AlphaMonarch-7B", "score": 4.08, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "AMD-Llama-135m", "score": 0.76, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Apriel-1.5-15b-Thinker", "score": 97.2, "part": "-500", "version": "", "source": "https://huggingface.co/tiiuae/Falcon-H1R-7B"}
+{"model": "Aria", "score": 19.34, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Arithmo-Mistral-7B", "score": 25.3, "part": "", "version": "", "source": "https://huggingface.co/WizardLMTeam/WizardMath-7B-V1.1"}
+{"model": "Aya Expanse 32B", "score": 44.9, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Aya Expanse 8B", "score": 32.1, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Aya Vision 32B", "score": 41.98, "part": "", "version": "", "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"}
+{"model": "aya-23-35B", "score": 3.47, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "aya-23-8B", "score": 1.66, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "aya-expanse-32b", "score": 15.33, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "aya-expanse-8b", "score": 8.61, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Baichuan2-13B", "score": 10.1, "part": "", "version": "", "source": "https://huggingface.co/Qwen/Qwen-7B"}
+{"model": "Baichuan2-7B", "score": 5.6, "part": "", "version": "", "source": "https://huggingface.co/Qwen/Qwen-7B"}
+{"model": "Bespoke-Stratos-7B", "score": 82.0, "part": "-500", "version": "", "source": "https://huggingface.co/microsoft/Phi-4-mini-reasoning"}
+{"model": "Beyonder-4x7B-v3", "score": 5.36, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Bielik-11B-v2", "score": 7.85, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Bielik-11B-v2.0-Instruct", "score": 11.86, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Bielik-11B-v2.1-Instruct", "score": 26.66, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Bielik-11B-v2.2-Instruct", "score": 26.81, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Bielik-11B-v2.3-Instruct", "score": 20.85, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "BigQwen2.5-52B-Instruct", "score": 54.76, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "BigQwen2.5-Echo-47B-Instruct", "score": 43.81, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "bigstral-12b-32k", "score": 1.51, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "bigyi-15b", "score": 2.95, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "c4ai-command-r-plus", "score": 8.01, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "c4ai-command-r-plus-08-2024", "score": 12.39, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "c4ai-command-r-v01", "score": 3.47, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "c4ai-command-r7b-12-2024", "score": 29.91, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "ChimeraLlama-3-8B-v2", "score": 9.06, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "ChimeraLlama-3-8B-v3", "score": 8.84, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "CollectiveCognition-v1.1-Mistral-7B", "score": 3.1, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Command A", "score": 76.2, "part": "-500", "version": "", "source": "https://www.vals.ai/benchmarks/math500"}
+{"model": "Command A", "score": 81.87, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Command-R (Aug '24)", "score": 14.9, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Command-R (Mar '24)", "score": 16.4, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Command-R+ (Apr '24)", "score": 27.87, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Command-R+ (Aug '24)", "score": 40.2, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Daredevil-8B", "score": 10.65, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Daredevil-8B-abliterated", "score": 9.44, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "DeciLM-7B", "score": 2.87, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "DeciLM-7B-instruct", "score": 3.02, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "DeepHermes 3 - Llama-3.1 8B Preview", "score": 21.8, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "DeepHermes 3 - Mistral 24B Preview", "score": 59.47, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "DeepHermes-3-Mistral-24B-Preview", "score": 25.76, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9-llama3-8b", "score": 5.74, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9.1-llama-3-70b", "score": 18.2, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9.1-yi-1.5-34b", "score": 18.66, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9.1-yi-1.5-9b", "score": 15.18, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9.2-Phi-3-Medium", "score": 18.28, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9.2-Phi-3-Medium-abliterated", "score": 18.2, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9.2-qwen2-72b", "score": 28.02, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9.2-qwen2-7b", "score": 13.44, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9.3-mistral-7B-32k", "score": 5.06, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9.3-mistral-nemo-12b", "score": 7.4, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9.3-Yi-1.5-34B-32k", "score": 16.69, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9.4-gemma2-2b", "score": 4.91, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "dolphin-2.9.4-llama3.1-8b", "score": 1.21, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Dolphin3.0-Llama3.1-8B", "score": 12.31, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Dolphin3.0-Llama3.2-1B", "score": 2.79, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Dolphin3.0-Qwen2.5-0.5B", "score": 5.14, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Dolphin3.0-R1-Mistral-24B", "score": 31.19, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Dracarys-72B-Instruct", "score": 39.65, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "ERNIE 4.5 300B A47B", "score": 93.07, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "EXAONE 4.0 32B (Non-reasoning)", "score": 93.93, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "EXAONE 4.0 32B (Reasoning)", "score": 97.67, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Flan-PaLM 2", "score": 33.2, "part": "", "version": "", "source": "https://arxiv.org/abs/2305.10403"}
+{"model": "GPT-JT-6B-v1", "score": 1.06, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "GPT-NeoXT-Chat-Base-20B", "score": 2.34, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Granite 3.3 8B Instruct", "score": 66.47, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Granite 3.3 8B Instruct", "score": 69.02, "part": "-500", "version": "", "source": "https://huggingface.co/ibm-granite/granite-3.3-8b-instruct"}
+{"model": "granite-3.0-1b-a400m-base", "score": 2.64, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.0-1b-a400m-instruct", "score": 2.79, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.0-2b-base", "score": 5.44, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.0-2b-instruct", "score": 9.21, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.0-3b-a800m-base", "score": 4.83, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.0-3b-a800m-instruct", "score": 7.02, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.0-8b-base", "score": 10.12, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.0-8b-instruct", "score": 14.2, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.1-1b-a400m-base", "score": 2.72, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.1-1b-a400m-instruct", "score": 4.53, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.1-2b-base", "score": 5.66, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.1-2b-instruct", "score": 15.26, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.1-3b-a800m-base", "score": 4.53, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.1-3b-a800m-instruct", "score": 11.4, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.1-8b-base", "score": 9.44, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.1-8b-instruct", "score": 21.98, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.2-2b-instruct", "score": 14.43, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-3.2-8b-instruct", "score": 23.79, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-7b-base", "score": 1.59, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "granite-7b-instruct", "score": 2.04, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "helium-1-preview-2b", "score": 1.36, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Hermes 3 - Llama-3.1 70B", "score": 53.8, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Hermes-2-Pro-Llama-3-8B", "score": 8.38, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Hermes-2-Pro-Mistral-7B", "score": 6.04, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Hermes-2-Theta-Llama-3-70B", "score": 22.69, "part": "Level 5", "version": "", "source": "https://epoch.ai/benchmarks/math-level-5"}
+{"model": "Hermes-2-Theta-Llama-3-8B", "score": 9.67, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Hermes-3-Llama-3.1-70B", "score": 21.0, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Hermes-3-Llama-3.1-70B-lorablated", "score": 22.43, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Hermes-3-Llama-3.1-8B", "score": 4.76, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Hermes-3-Llama-3.2-3B", "score": 3.93, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Inflection-2", "score": 34.8, "part": "", "version": "", "source": "https://arxiv.org/abs/2312.11805"}
+{"model": "INTELLECT-1", "score": 0.0, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "INTELLECT-1-Instruct", "score": 2.27, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "InternLM-20B", "score": 7.9, "part": "", "version": "", "source": "https://huggingface.co/Qwen/Qwen-72B"}
+{"model": "InternLM-7B", "score": 6.3, "part": "", "version": "", "source": "https://huggingface.co/Qwen/Qwen-7B"}
+{"model": "internlm2-1_8b", "score": 2.11, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "internlm2-7b", "score": 8.57, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "internlm2-chat-1_8b", "score": 3.25, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "internlm2_5-1_8b-chat", "score": 15.86, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "internlm2_5-20b-chat", "score": 40.79, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "internlm2_5-7b-chat", "score": 25.3, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Jamba 1.5 Large", "score": 60.6, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Jamba 1.5 Mini", "score": 35.67, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Jamba 1.6 Large", "score": 54.8, "part": "-500", "version": "", "source": "https://www.vals.ai/benchmarks/math500"}
+{"model": "Jamba 1.6 Large", "score": 58.0, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Jamba 1.6 Mini", "score": 25.4, "part": "-500", "version": "", "source": "https://www.vals.ai/benchmarks/math500"}
+{"model": "Jamba 1.6 Mini", "score": 25.67, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Jamba 1.7 Large", "score": 60.0, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Jamba 1.7 Mini", "score": 25.8, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Jamba Instruct", "score": 24.3, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Jamba-1.5-Mini", "score": 6.9, "part": "Level 5", "version": "", "source": "https://huggingface.co/tiiuae/Falcon3-Mamba-7B-Instruct"}
+{"model": "Jamba-v0.1", "score": 1.59, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "K2", "score": 2.72, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "K2-Chat", "score": 10.35, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "LFM 40B", "score": 48.0, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Liberated-Qwen1.5-14B", "score": 16.01, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Ling-flash-base-2.0", "score": 39.8, "part": "Level 5", "version": "", "source": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"}
+{"model": "Ling-flash-base-2.0", "score": 63.8, "part": "", "version": "", "source": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16"}
+{"model": "Llama 3.1 Tulu3 405B", "score": 77.8, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "LLaMA-2-7B-32K", "score": 1.44, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Llama-2-7B-32K-Instruct", "score": 1.59, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Llama-3-8B-Instruct-Gradient-1048k", "score": 5.36, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "LLaMA-3-8B-SFR-Iterative-DPO-R", "score": 9.14, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Llama-3-Refueled", "score": 6.65, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Llama-3-Smaug-8B", "score": 8.53, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Llama-3.1-8B-MagPie-Ultra", "score": 7.7, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Llama-3.1-Tulu-3-70B", "score": 45.02, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Llama-3.1-Tulu-3-70B-DPO", "score": 42.66, "part": "Level 5", "version": "", "source": "https://epoch.ai/benchmarks/math-level-5"}
+{"model": "Llama-3.1-Tulu-3-70B-DPO", "score": 44.94, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Llama-3.1-Tulu-3-70B-SFT", "score": 33.16, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Llama-3.1-Tulu-3-8B", "score": 19.64, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Llama-3.1-Tulu-3-8B-DPO", "score": 23.64, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Llama-3.1-Tulu-3-8B-SFT", "score": 11.78, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "LLaMA-Pro-8B", "score": 1.89, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "LLaMA-Pro-8B-Instruct", "score": 2.49, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Llama3-8B-1.58-100B-tokens", "score": 0.26, "part": "Level 5", "version": "", "source": "https://huggingface.co/tiiuae/Falcon3-7B-Base-1.58bit"}
+{"model": "LongCat-Flash-Chat", "score": 96.4, "part": "-500", "version": "", "source": "https://huggingface.co/meituan-longcat/LongCat-Flash-Chat"}
+{"model": "LongCat-Flash-Lite", "score": 96.8, "part": "-500", "version": "", "source": "https://huggingface.co/meituan-longcat/LongCat-Flash-Lite"}
+{"model": "LongCat-Flash-Thinking", "score": 99.2, "part": "-500", "version": "", "source": "https://github.com/meituan-longcat/LongCat-Flash-Thinking"}
+{"model": "mamba-7b-rw", "score": 0.45, "part": "Level 5", "version": "", "source": "https://huggingface.co/tiiuae/falcon-mamba-7b"}
+{"model": "MAmmoTH-70B", "score": 21.1, "part": "", "version": "", "source": "https://huggingface.co/WizardLMTeam/WizardMath-7B-V1.1"}
+{"model": "MAmmoTH-7B (CoT)", "score": 10.4, "part": "", "version": "", "source": "https://huggingface.co/WizardLMTeam/WizardMath-7B-V1.1"}
+{"model": "merlinite-7b", "score": 2.42, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Meta-Llama-3.1-8B-Instruct-abliterated", "score": 6.87, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "MetaMath-70B", "score": 26.6, "part": "", "version": "", "source": "https://huggingface.co/WizardLMTeam/WizardMath-7B-V1.1"}
+{"model": "MetaMath-7B", "score": 19.8, "part": "", "version": "", "source": "https://huggingface.co/WizardLMTeam/WizardMath-7B-V1.1"}
+{"model": "MetaMath-Mistral-7B", "score": 28.2, "part": "", "version": "", "source": "https://huggingface.co/WizardLMTeam/WizardMath-7B-V1.1"}
+{"model": "MetaMath-Mistral-Pro", "score": 7.63, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "MiniCPM", "score": 10.2, "part": "", "version": "", "source": "https://huggingface.co/Qwen/Qwen2-1.5B"}
+{"model": "MiniCPM 2B", "score": 14.8, "part": "-500", "version": "", "source": "https://huggingface.co/microsoft/bitnet-b1.58-2B-4T"}
+{"model": "MiniCPM3-4B", "score": 46.6, "part": "", "version": "", "source": "https://qwenlm.github.io/blog/qwen2.5-llm/"}
+{"model": "Mistral-7B-OpenOrca", "score": 3.55, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Mistral_Pro_8B_v0.1", "score": 5.66, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "mixtral-8x22B-v0.3", "score": 18.35, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "mt5-base", "score": 0.91, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "mt5-small", "score": 0.0, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "mt5-xl", "score": 0.0, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "neural-chat-7b-v3", "score": 2.95, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "neural-chat-7b-v3-1", "score": 3.55, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "neural-chat-7b-v3-2", "score": 4.76, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "neural-chat-7b-v3-3", "score": 4.08, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "NeuralBeagle14-7B", "score": 5.21, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "NeuralDaredevil-8B-abliterated", "score": 8.53, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "NexusRaven-V2-13B", "score": 2.95, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "notus-7b-v1", "score": 3.17, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "notux-8x7b-v1", "score": 9.97, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Nous-Hermes-2-Mistral-7B-DPO", "score": 4.76, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Nous-Hermes-2-Mixtral-8x7B-DPO", "score": 12.24, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Nous-Hermes-2-Mixtral-8x7B-SFT", "score": 2.11, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Nous-Hermes-2-SOLAR-10.7B", "score": 5.74, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Nous-Hermes-llama-2-7b", "score": 0.91, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Nova Lite", "score": 73.3, "part": "", "version": "", "source": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"}
+{"model": "Nova Lite", "score": 76.47, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Nova Micro", "score": 69.3, "part": "", "version": "", "source": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"}
+{"model": "Nova Micro", "score": 70.33, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Nova Premier", "score": 83.93, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Nova Pro", "score": 76.6, "part": "", "version": "", "source": "https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card"}
+{"model": "Nova Pro", "score": 78.6, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "oasst-sft-1-pythia-12b", "score": 1.51, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OLMo-1.7-7B-hf", "score": 0.23, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OLMo-1B-hf", "score": 1.74, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OLMo-2-1124-7B-Instruct", "score": 14.88, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OLMo-7B-hf", "score": 1.21, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OLMo-7B-Instruct-hf", "score": 1.36, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OLMoE-1B-7B-0125-Instruct", "score": 8.99, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OLMoE-1B-7B-0924", "score": 1.66, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OLMoE-1B-7B-0924-Instruct", "score": 2.79, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OpenChat 3.5 (1210)", "score": 30.73, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "openchat-3.5-0106", "score": 7.63, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "openchat-3.5-1210", "score": 7.85, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "openchat-3.6-8b-20240522", "score": 9.97, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "openchat_3.5", "score": 7.25, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "openchat_v3.2", "score": 1.28, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "openchat_v3.2_super", "score": 2.11, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OpenHermes-13B", "score": 1.21, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OpenHermes-2-Mistral-7B", "score": 4.53, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OpenHermes-2.5-Mistral-7B", "score": 5.06, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OpenHermes-7B", "score": 1.59, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "OpenThinker-7B", "score": 83.0, "part": "-500", "version": "", "source": "https://huggingface.co/microsoft/Phi-4-mini-reasoning"}
+{"model": "OpenThinker-7B", "score": 86.4, "part": "-500", "version": "", "source": "https://huggingface.co/open-r1/OpenR1-Qwen-7B"}
+{"model": "OrpoLlama-3-8B", "score": 5.59, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "phixtral-2x2_8", "score": 3.55, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "PowerLM-3b", "score": 3.63, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "preview-1-hf", "score": 3.02, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "pygmalion-6b", "score": 0.83, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "R1 1776", "score": 95.4, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "RedPajama-INCITE-7B-Base", "score": 1.59, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "RedPajama-INCITE-7B-Chat", "score": 0.68, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "RedPajama-INCITE-7B-Instruct", "score": 2.11, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "RedPajama-INCITE-Base-3B-v1", "score": 1.44, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "RedPajama-INCITE-Chat-3B-v1", "score": 0.91, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "RedPajama-INCITE-Instruct-3B-v1", "score": 1.28, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Reka Core", "score": 55.8, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Reka Edge", "score": 21.6, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Reka Flash (Feb '24)", "score": 32.6, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Reka Flash (Sep '24)", "score": 52.87, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Reka Flash 3", "score": 89.27, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "RWKV-v6-Finch-14B", "score": 1.13, "part": "Level 5", "version": "", "source": "https://huggingface.co/tiiuae/falcon-mamba-7b"}
+{"model": "RWKV-v6-Finch-7B", "score": 1.11, "part": "Level 5", "version": "", "source": "https://huggingface.co/tiiuae/falcon-mamba-7b"}
+{"model": "Sarvam M (Reasoning)", "score": 84.73, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Sarvam-105B", "score": 98.6, "part": "-500", "version": "", "source": "https://www.sarvam.ai/blogs/sarvam-30b-105b"}
+{"model": "Sarvam-30B", "score": 97.0, "part": "-500", "version": "", "source": "https://www.sarvam.ai/blogs/sarvam-30b-105b"}
+{"model": "Seed-Thinking-v1.5", "score": 96.7, "part": "-500", "version": "", "source": "https://huggingface.co/MiniMaxAI/MiniMax-M1-80k"}
+{"model": "Smaug-34B-v0.1", "score": 7.18, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Smaug-72B-v0.1", "score": 19.11, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Smaug-Llama-3-70B-Instruct-32K", "score": 27.49, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Smaug-Mixtral-v0.1", "score": 9.52, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Smaug-Qwen2-72B-Instruct", "score": 41.31, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Solar Mini", "score": 33.13, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Solar Pro 2 (Non-reasoning)", "score": 88.87, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Solar Pro 2 (Preview) (Non-reasoning)", "score": 87.07, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Solar Pro 2 (Preview) (Reasoning)", "score": 90.0, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Solar Pro 2 (Reasoning)", "score": 96.67, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "SOLAR-10.7B-Instruct-v1.0", "score": 5.66, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "SOLAR-10.7B-v1.0", "score": 2.64, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "solar-pro-preview-instruct", "score": 22.05, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Sonar", "score": 81.67, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Sonar Pro", "score": 74.47, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Sonar Reasoning", "score": 92.13, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Sonar Reasoning Pro", "score": 95.73, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "StableBeluga2", "score": 4.38, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "stablelm-2-12b", "score": 4.31, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "stablelm-2-12b-chat", "score": 5.36, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "stablelm-2-1_6b", "score": 0.76, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "stablelm-2-1_6b-chat", "score": 2.49, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "stablelm-2-zephyr-1_6b", "score": 3.32, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "stablelm-3b-4e1t", "score": 1.06, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "stablelm-zephyr-3b", "score": 4.31, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Starling-LM-7B-alpha", "score": 8.38, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "switch-base-8", "score": 0.0, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "TinyLlama-1.1B-Chat-v0.1", "score": 0.6, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "TinyLlama-1.1B-Chat-v0.5", "score": 0.38, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "TinyLlama-1.1B-Chat-v0.6", "score": 1.59, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "TinyLlama-1.1B-Chat-v1.0", "score": 1.51, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "TinyLlama-1.1B-intermediate-step-1431k-3T", "score": 1.21, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "TinyLlama_v1.1", "score": 1.21, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "umt5-base", "score": 0.45, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "vicuna-13b-v1.3", "score": 1.44, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "vicuna-7b-v1.3", "score": 1.28, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "vicuna-7b-v1.5", "score": 1.36, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Vistral-7B-Chat", "score": 12.5, "part": "", "version": "", "source": "https://huggingface.co/SeaLLMs/SeaLLM-7B-v2.5"}
+{"model": "Yarn-Llama-2-13b-128k", "score": 1.74, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yarn-Llama-2-7b-128k", "score": 1.51, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yarn-Llama-2-7b-64k", "score": 1.59, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yarn-Mistral-7b-128k", "score": 3.17, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yarn-Mistral-7b-64k", "score": 3.7, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yarn-Solar-10b-32k", "score": 3.02, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yarn-Solar-10b-64k", "score": 2.87, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-1.5-34B", "score": 15.33, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-1.5-34B", "score": 41.7, "part": "", "version": "", "source": "https://huggingface.co/Qwen/Qwen2-57B-A14B"}
+{"model": "Yi-1.5-34B-32K", "score": 15.41, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-1.5-34B-Chat", "score": 25.48, "part": "Level 5", "version": "", "source": "https://epoch.ai/benchmarks/math-level-5"}
+{"model": "Yi-1.5-34B-Chat", "score": 27.72, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-1.5-34B-Chat", "score": 50.1, "part": "", "version": "", "source": "https://huggingface.co/Qwen/Qwen2-57B-A14B-Instruct"}
+{"model": "Yi-1.5-34B-Chat-16K", "score": 21.37, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-1.5-6B", "score": 6.65, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-1.5-6B-Chat", "score": 16.24, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-1.5-9B", "score": 9.2, "part": "Level 5", "version": "", "source": "https://huggingface.co/tiiuae/Falcon3-10B-Base"}
+{"model": "Yi-1.5-9B", "score": 11.4, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-1.5-9B-32K", "score": 10.8, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-1.5-9B-Chat", "score": 3.3, "part": "Level 5", "version": "", "source": "https://huggingface.co/tiiuae/Falcon3-10B-Instruct"}
+{"model": "Yi-1.5-9B-Chat", "score": 12.76, "part": "Level 5", "version": "", "source": "https://huggingface.co/tiiuae/Falcon3-10B-Instruct"}
+{"model": "Yi-1.5-9B-Chat", "score": 22.58, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-1.5-9B-Chat", "score": 47.7, "part": "", "version": "", "source": "https://huggingface.co/Qwen/Qwen2-7B-Instruct"}
+{"model": "Yi-1.5-9B-Chat-16K", "score": 17.82, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-34B", "score": 5.14, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-34B", "score": 15.9, "part": "", "version": "", "source": "https://huggingface.co/Qwen/Qwen-72B"}
+{"model": "Yi-34B-200K", "score": 5.74, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-34B-Chat", "score": 5.15, "part": "Level 5", "version": "", "source": "https://epoch.ai/benchmarks/math-level-5"}
+{"model": "Yi-34B-Chat", "score": 6.27, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-6B", "score": 1.59, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-6B", "score": 5.8, "part": "", "version": "", "source": "https://huggingface.co/WizardLMTeam/WizardMath-7B-V1.1"}
+{"model": "Yi-6B-200K", "score": 1.81, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-6B-Chat", "score": 1.36, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-9B", "score": 5.59, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-9B-200K", "score": 6.65, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-Coder-9B-Chat", "score": 4.0, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
+{"model": "Yi-Large", "score": 56.2, "part": "-500", "version": "", "source": "https://artificialanalysis.ai/evaluations/math-500"}
+{"model": "Zamba-7B-v1", "score": 3.32, "part": "Level 5", "version": "", "source": "https://huggingface.co/tiiuae/falcon-mamba-7b"}
+{"model": "Zamba2-7B", "score": 10.3, "part": "Level 5", "version": "", "source": "https://huggingface.co/tiiuae/Falcon3-Mamba-7B-Base"}
+{"model": "Zamba2-7B-Instruct", "score": 13.6, "part": "Level 5", "version": "", "source": "https://huggingface.co/tiiuae/Falcon3-Mamba-7B-Instruct"}
+{"model": "Ziya-LLaMA-13B-v1", "score": 0.0, "part": "Level 5", "version": "", "source": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"}
