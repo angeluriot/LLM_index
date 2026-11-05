@@ -5,7 +5,7 @@ Categories:
 	* Coding
 		* Frontend
 	* Machine learning
-	* Cyber
+	* Cybersecurity
 	* Data analysis
 * Science
 	* Physics

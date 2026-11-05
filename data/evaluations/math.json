@@ -12,6 +12,6 @@
 		"inverted": false,
 		"unit": "%"
 	},
-	"parts": ["", "Level 5"],
+	"parts": ["-500", "Level 5"],
 	"versions": [""]
 }
