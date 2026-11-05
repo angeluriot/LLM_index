@@ -1,0 +1,10 @@
+{
+	"display_name": "Educated adults",
+	"versions": {
+		"qualified-online-workers": {
+			"display_name": "Qualified online workers",
+			"description": "Workers of a crowdsourcing or data labeling platform (e.g. Amazon Mechanical Turk, Tencent, Surge AI) selected by a qualification exam and / or a track record of many completed tasks, usually holding at least a bachelor's degree but no particular expertise in the domain of the questions.",
+			"efforts": [""]
+		}
+	}
+}
